@@ -9,6 +9,17 @@ class QueryDemoForm(forms.Form):
         queryset=Catalogue.objects.filter(vector_db_status="Ready").order_by("name"),
         widget=forms.Select(attrs={"class": "form-control"}),
     )
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        # Restrict the dropdown to VISIBLE_CATALOGUE_SLUGS when that setting is
+        # non-empty (per instance, via env); empty shows all Ready catalogues.
+        from django.conf import settings
+
+        slugs = getattr(settings, "VISIBLE_CATALOGUE_SLUGS", None)
+        if slugs:
+            field = self.fields["catalogue"]
+            field.queryset = field.queryset.filter(slug__in=slugs)
     farmer_language = forms.ChoiceField(
         choices=[
             ("Odia", "Odia"), ("Hindi", "Hindi"), ("Bengali", "Bengali"),
