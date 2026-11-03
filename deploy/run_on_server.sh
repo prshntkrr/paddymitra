@@ -33,10 +33,10 @@ git fetch origin
 git checkout main
 git pull --ff-only origin main
 
-echo "== 2. Media for the NEW documents (these are NOT in git) =="
-# media/ is gitignored, so the 3 source files for the new documents must already
-# be present on the server (copy them with scp/rsync if missing). Without them,
-# the build produces no chunks for those docs.
+echo "== 2. Media for the NEW documents =="
+# The 3 source docs for the new documents ARE committed (force-added past the
+# media/ ignore), so a git pull/clone brings them in. The rest of media/ stays
+# out of git (prod keeps its own). This check is just a safety net.
 for f in \
   "media/documents/Odisha_Paddy_varieties_filled.xlsx" \
   "media/documents/Rice-Fertilizer-Manure-Dose-Quick-Reference.md" \
