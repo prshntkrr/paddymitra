@@ -642,6 +642,21 @@ def export_queries(request):
 # and an audio file for every attempt, and a reviewer looking at the queries
 # list cannot tell a farmer's question from the twentieth attempt at a test.
 #
+def _visible_catalogues():
+    """Catalogues to offer in the test / batch pickers. When the
+    VISIBLE_CATALOGUE_SLUGS setting is non-empty (set per instance via env),
+    restrict to those slugs; otherwise show every catalogue. Ordered by name.
+    Does not affect the WhatsApp pipeline, which is given its catalogue."""
+    from django.conf import settings
+    from catalogues.models import Catalogue
+
+    qs = Catalogue.objects.order_by("name")
+    slugs = getattr(settings, "VISIBLE_CATALOGUE_SLUGS", None)
+    if slugs:
+        qs = qs.filter(slug__in=slugs)
+    return qs
+
+
 # Persistence is prevented by running inside a transaction that is rolled back;
 # see services/query_test.py for why that rather than a flag through the
 # pipeline. Nothing in the production path changed to make this page work.
@@ -651,7 +666,7 @@ def test_query_page(request):
     from catalogues.models import Catalogue
 
     return render(request, "queries/test_query.html", {
-        "catalogues": Catalogue.objects.order_by("name"),
+        "catalogues": _visible_catalogues(),
         "languages": ["English", "Odia", "Hindi"],
     })
 
@@ -671,7 +686,7 @@ def test_query_run(request):
 
     catalogue_id = request.POST.get("catalogue") or ""
     catalogue = Catalogue.objects.filter(pk=catalogue_id).first() if catalogue_id \
-        else Catalogue.objects.order_by("name").first()
+        else _visible_catalogues().first()
     if catalogue is None:
         return JsonResponse({"ok": False, "error": "No catalogue is available."},
                             status=400)
@@ -761,7 +776,7 @@ def batch_test_page(request):
     from catalogues.models import Catalogue
 
     return render(request, "queries/batch_test.html", {
-        "catalogues": Catalogue.objects.order_by("name"),
+        "catalogues": _visible_catalogues(),
         "languages": ["English", "Odia", "Hindi"],
     })
 
@@ -786,7 +801,7 @@ def batch_test_run(request):
 
     catalogue_id = request.POST.get("catalogue") or ""
     catalogue = Catalogue.objects.filter(pk=catalogue_id).first() if catalogue_id \
-        else Catalogue.objects.order_by("name").first()
+        else _visible_catalogues().first()
     print(f"BATCH TEST: catalogue={catalogue}")
     if catalogue is None:
         messages.error(request, "No catalogue available.")

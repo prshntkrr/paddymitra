@@ -16,6 +16,11 @@ DEBUG = config(
 )
 ALLOWED_HOSTS = config("ALLOWED_HOSTS", default="127.0.0.1,localhost", cast=Csv())
 
+# Per-instance: restrict the test / batch catalogue pickers to these slugs
+# (comma-separated). Empty (default) shows all catalogues. This only affects the
+# picker UIs, not the WhatsApp pipeline, which is given its catalogue explicitly.
+VISIBLE_CATALOGUE_SLUGS = config("VISIBLE_CATALOGUE_SLUGS", default="", cast=Csv())
+
 # Django 4.0+ checks the request Origin against this list (scheme + host) for
 # POST forms. Any HTTPS domain the app is served from must be listed here or
 # every form submit fails with "CSRF verification failed / Origin checking".
