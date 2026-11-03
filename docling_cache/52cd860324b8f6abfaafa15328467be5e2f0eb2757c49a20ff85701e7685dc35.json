@@ -1,0 +1,360 @@
+{
+ "source": "English-MTR-Manual.pdf",
+ "sha256": "52cd860324b8f6abfaafa15328467be5e2f0eb2757c49a20ff85701e7685dc35",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:50:17",
+ "chunk_count": 29,
+ "chunks": [
+  {
+   "text": "Operational Manual for Mechanical Transplanting of Rice\n2016\nPrepared with contributions from : Joseph F. Rickman, Frank Mussgnug, C.M. Khanda, Swetapadma D. Satpathy, Nabakishore Parida, Kapil Singla, Vivek Kumar, Narayan C. Banik, Wasim Iftikar, Amit Mishra, Sudhir Yadav, Virender Kumar, R.K. Malik, and Andrew J. McDonald\nEditorial Assistance : Poornima R. Shankar, Preeti Bharti, Anuradha Dhar, and Cynthia Mathys\nAdapted from: R.K. Malik, B.R. Kamboj, M.L. Jat, H.S. Sidhu, Anil Bana, Vicky Singh, Y.S. Saharawat, A. Pundir, Rasool Dar Sahnawaz, T. Anuradha, N. Kumaran, and Raj Gupta. 2011. No-till and unpuddled mechanical transplanting of rice. Operational manual, Cereal Systems Initiative for South Asia, New Delhi, India p 13.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 3,
+    "section": "Operational Manual for Mechanical Transplanting of Rice"
+   }
+  },
+  {
+   "text": "2016\n© This publication is a product of the Cereal Systems Initiative for South Asia (CSISA) and copyrighted by the International Maize and Wheat Improvement Center (CIMMYT) and International Rice Research Institute (IRRI) 2016, and is licensed for use under a Creative Commons Attribution Non Commercial ShareAlike 3.0 License (Unported).\nThe designations employed and the presentation of the material in this publication do not imply the expression of any opinion whatsoever on the part of CIMMYT and IRRI concerning the legal status of any country, person, territory, city, or area, or of its authorities, or concerning the delimitation of its frontiers or boundaries. Where trade names are used, this does not constitute endorsement of, or discrimination against, any product by CIMMYT and IRRI. This publication was first printed in 2015, and reprinted in 2016.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 4,
+    "section": "2016"
+   }
+  },
+  {
+   "text": "Contents\n1, 1 = Introduction. 1, 2 = 1. 2, 1 = What is mechanical transplanting of rice?. 2, 2 = 1. 3, 1 = What is mat-type nursery?. 3, 2 = 2. 4, 1 = Preparation of mat-type nursery bed. 4, 2 = 3. (a), 1 = Preparation of dry nursery bed. (a), 2 = 4. (b), 1 = Preparation of wet nursery bed. (b), 2 = 5. 5, 1 = Management of mat nursery. 5, 2 = 6. 6, 1 = Mechanical transplanting guidelines. 6, 2 = 9. (a), 1 = Important do's. (a), 2 = 10. 7, 1 = Operation of machine transplanter. 7, 2 = 13. (a), 1 = j Machine controls. (a), 2 = 13. 8, 1 = Checks for machine operation and maintenance. 8, 2 = 16. 9, 1 = Checks for planting using the transplanter. 9, 2 = 17. 10, 1 = Troubleshooting for the mechanical transplanter. 10, 2 = 18",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 5,
+    "section": "Contents"
+   }
+  },
+  {
+   "text": "Introduction\nAcross South Asia, labour scarcity is a major problem and there is a need to explore establishment methods for rice that require less labour but still allow the crop to be transplanted on time. The use of a mechanical transplanter is one alternative to address this issue.\nIn Odisha, which is largely a rainfed rice growing environment, the timeliness of transplanting can be further improved by the replacement of puddling by a shallow tillage operation. In the absence of irrigation facilities, this reduces the water requirements for land preparation, which increases the options for earlier crop establishment through non-puddled mechanical transplanting. The timeliness of planting can be further enhanced through the use of a mat-type nursery system that can provide seedlings of the appropriate age whenever the conditions for transplanting are right. By eliminating puddling, soil structure for the next non-rice crop will be improved.\nManual transplanting of rice : a labour - intensive operation\nMechanical transplanting of rice : a suitable and profitable alternative to manual transplanting\nThis booklet highlights the benefits of mechanical transplanting of rice and discusses some of the operational and management issues that need to be addressed. It will help extension staff, service providers and innovative farmers to use mechanical transplanting with or without puddling with an easy, step-by-step guide.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 7,
+    "section": "Introduction"
+   }
+  },
+  {
+   "text": "What is mechanical transplanting of rice?\nMechanical transplanting of rice is the process of transplanting young rice seedlings, which have been grown in a mat nursery, using a self-propelled rice transplanter.\nIn conventional manual transplanting practice, 8-12 labourers are required to transplant one acre. However, if a selfpropelled rice transplanter is used, three people can transplant up to four acres in a day.\nMat-type nursery : needed for mechanical transplanting of rice",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 7,
+    "section": "What is mechanical transplanting of rice?"
+   }
+  },
+  {
+   "text": "Advantages of mechanical transplanting\n- ! Transplanting of seedlings at the optimal age (14-18 days)\n- 2 ! Uniform spacing and optimum plant density (26-28 hills/m with 2-3 seedling per hill)\n- ! Higher productivity (0.5-0.7 t/ha) compared to traditional methods where plant spacing and density may not always be consistent\n- ! Less transplanting shock, early seedling vigour and uniform crop stand\n- ! Lower stress, drudgery and health risks for farm labourers\n- ! Better employment opportunities for rural youth through the development of custom service business\n- ! Addresses the problem of labour scarcity\n- ! Increases farmers' net income",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 8,
+    "section": "Advantages of mechanical transplanting"
+   }
+  },
+  {
+   "text": "What is mat-type nursery?\nA mat-type nursery is a nursery where rice seedlings are raised on a thin layer of soil and farm yard manure (FYM) or compost mixture placed on a polythene sheet. The polythene sheet prevents the seedling roots from penetrating the underlying soil, creating a dense mat. This type of nursery is a pre-requisite for machine transplanting. The mat can be cut into desired shapes and sizes to fit into the trays of the transplanter. Seedlings are ready for planting within 14-18 days after seeding (DAS).\nSeedlings raised in mats can obtain a height of 18-20 cm in 15 days, which is ideal for mechanical transplanting.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 8,
+    "section": "What is mat-type nursery?"
+   }
+  },
+  {
+   "text": "Advantages of a mat-type nursery\n- 2 2 ! Uses less area when compared to the conventional nursery (30 m vs. 400 m /acre)\n- ! Produces robust seedlings, 18-20 cm tall in about 15 days\n- ! Minimizes root damage as the seedlings are not uprooted and transplanting shock is reduced\n- ! Labour requirement for nursery raising is significantly reduced",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 8,
+    "section": "Advantages of a mat-type nursery"
+   }
+  },
+  {
+   "text": "Preparation of mat-type nursery\nPreparation of mat nursery should begin 15-20 days prior to the anticipated time of transplanting. The nursery can be established in either a wet or dry bed.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 8,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 9,
+    "section": "Preparation of mat-type nursery"
+   }
+  },
+  {
+   "text": "Materials required\n- ! Good quality seeds\n- ! Nursery bed for transplanting one 2 acre is 30 m (1.5 m wide x 20 m long to suit the plastic sheet size)\n- ! Plastic sheet (1.5 m wide and 20 m long) with even perforations\n- ! Soil cleaning sieve\n- ! Soil mixture (4 parts of sieved soil + 1 part of FYM or compost / vermi compost)\n- ! Gunny bag and water container for seed soaking\n- ! Watering can for irrigation\n- ! 0.75 inch angle frame for a dry-bed and 0.5 inch frame for a wet-bed nursery.\nSoil sieve to remove stones, twigs and other unwanted material.\nPerforated plastic sheet : the holes should be small enough to allow water, but not seedling roots to pass through.\nIce pick\nUse an iron frame to help maintain uniform size and thickness of the soil.\nMix soil and FYM in the ratio 4:1 and use in the bed for the dry-type nursery.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 9,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 9,
+    "section": "Materials required"
+   }
+  },
+  {
+   "text": "Preparation of a dry nursery bed\nBed preparation: For one acre field, a nursery bed 1.5m wide, 20m long and 1015cm thick should be prepared on a levelled field. Between beds there should be a furrow of 50 cm. If possible, establish the nursery near an irrigation facility or water source as frequent irrigation will be required to maintain a good nursery.\nUsing the plastic sheet: Spread a polythene sheet of the required size on each bed. Before spreading the sheet, perforate the sheet evenly to improve drainage and aeration.\nSoil mixture: For a dry bed, take soil from a weed-free field and pass it through a 2-mesh sieve. Prepare a mixture of sieved soil and farm yard manure/compost in a 4:1 ratio (soil:FYM).\nSpreading the soil mixture: After thorough mixing, spread the mixture uniformly on the plastic sheet. This layer should not be more than 1.5-2.0 cm thick. To ensure an even depth, place a frame that is 1.5-2.0 cm high on the plastic sheet and fill with the soil mixture.\nPrepare a dry bed (a) and level it. Spread the perforated polythene sheet over the bed and level (b). Place the iron frame and fill with soil and FYM mixture (c) and level (d). Allow a gap of 50 cm for irrigation (e). Spread the pre-germinated seeds evenly. Cover it with a thin layer of soil and FYM, irrigate by sprinkling water and cover the nursery with straw after seeding for 2-3 days, if needed.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 10,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 10,
+    "section": "Preparation of a dry nursery bed"
+   }
+  },
+  {
+   "text": "Preparation of a wet nursery bed\nBed preparation: The size of bed for a wet-bed nursery is same as dry-bed nursery. However, the bed preparation is different. In the kharif season, when there is a large amount of rainfall, a wet bed nursery becomes inevitable. Before preparing the nursery, the field should be ploughed, puddled and levelled. After puddling, leave the field to settle for 24 hours. Once the soil is settled, prepare a raised bed 20 m long, 1.5 m wide and 10-15 cm high. Leave the bed to settle for 36-48 hours. Afterwards, settle the bed with a plank.\nUsing the plastic sheet: Spread a polythene sheet of the required size on each bed. Before spreading the sheet, perforate the sheet evenly to improve drainage.\nSpreading the soil: For a wet bed, take soil from between the beds and spread it over the polythene sheet in a 1.25 cm thick layer, using a 1/2 inch thick iron frame. The soil should be clean and clod free. Once the soil is spread over the polythene sheet within the iron frame, level the soil using a plank and remove extra soil.\n(a) Prepare a raised bed (b) and level it. (c) Spread the perforated polythene sheet over the bed. (d) Place the iron frame and fill with weed and clod-free soil. (e) Level the soil within the frame and spread the seed evenly. Cover the nursery with straw after seeding for 2-3 days.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 11,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 11,
+    "section": "Preparation of a wet nursery bed"
+   }
+  },
+  {
+   "text": "Management of mat-type nursery\nThe steps to establish a mat-type nursery are:\n2 Seed: To plant one acre with 26-28 hills/m and 2-3 seedlings/hill, 15-18 kg of inbred or 8-10 kg of hybrid seed is needed (> 80% germination). Bavistin® or Vitavax® at 2 g/kg of seed may be used to control seed fungal diseases.\nPre-germinating seed: Submerge the seeds in water for 10-12 hours. Empty and damaged seeds that float on the surface should be removed.\nSowing: Spread the pre-germinated seeds evenly on the bed. After spreading the seeds, cover the bed with a thin layer (0.5 cm) of the already prepared soil mixture. Cover the bed with a thin layer of straw or banana leaves, which should be removed after 2-3 days.\nIrrigation of nursery: Irrigate the beds by sprinkling water using a watering can for the initial 3-4 days until the seeds emerge and then irrigate beds by flooding furrows between the beds. keeping the bed moist may require water to be sprinkled 5-8 times/day for the first 3-4 days. Ensure water retention on the top of the nursery bed by frequently irrigating the furrows until the seedlings are ready for use. Keep the height of levees/bunds higher than the bed height so that water can be retained on the top of the beds. Replace the water with fresh water when water during day time becomes hot. Stop watering 12 hours before transplanting and drain excess water to ensure the mat is dry for cutting and transplanting. Transplant when the seedlings are 18-20 cm tall, which is usually 14-18 days after establishment.\nUse of healthy seeds for good nursery establishment.\nWhen you soak the seeds in water, empty seeds will usually float to the surface. These should be removed.\nAfter soaking the seeds, drain and incubate for 8-12 hours in a gunny bag in a shaded area. Some water may need to be sprinkled on the outside of the gunny bag in very dry conditions.\nUse pre-germinated seeds at the right stage.\nSpread the pre-germinated seeds evenly on the bed.\nNutrient supplement: The nutri",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 12,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 12,
+    "section": "Management of mat-type nursery",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "tional requirement of the nursery is generally met by the mixture of soil and FYM/\nSeeds can also be spread evenly using a seed spreader.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 12,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 12,
+    "section": "Management of mat-type nursery",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "Management of mat-type nursery\nVermicompost. However, it is advisable to apply 100 gm DAP after one week of sowing for one acre nursery bed. When nutrient deficiencies occur (yellowing), apply a foliar application of 0.5% zinc sulphate (21%) and 2.5% urea. If symptoms re-appear, it should be repeated after 5-7 days. In case symptoms of iron deficiency are visible, foliar application of 0.5% solution of ferrous sulphate is recommended.\nCutting mats: When the nursery is ready for transplanting, drain the water 12 hours prior to transplanting. Mats should be cut to the required size, using a sharp knife/sickle. If mats need to be transported they should be kept moist by sprinkling water to avoid wilting.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 13,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 13,
+    "section": "Management of mat-type nursery"
+   }
+  },
+  {
+   "text": "Mechanical transplanting guidelines\nPrepare the fields to a depth of 5-7 cm using a harrow or cultivator. Puddled fields should be levelled and the soil allowed to settle for 12-24 hours. In non-puddled conditions the soil should be tilled one to two times using a harrow or cultivator and then planked. Prior to transplanting, apply light irrigation and drain off any excess water. When planting, maintain a uniform depth of 1-2 cm standing water. If weed density is high, a pre-plant application of a non-selective herbicide, such as glyphosate, should be done 24-48 hours before planting.\nLoad the mats carefully onto the transplanter (a) and keep moist (b). Maintain a shallow water depth (1 cm) at the time of transplanting by draining excess water (c). Intra-row spacing and seedlings per hill can be adjusted (d, e). Every return pass should be parallel to the previous row to maintain even row distance (f).\nAfter calibrating the transplanter, the following steps should be followed:\n- ! Feed nursery mats onto the seedling platform.\n- ! Leave the area equivalent to one pass of machine on all four sides of the field before starting transplanting to avoid damage to the already-transplanted seedlings while turning the machine.\n- ! Start transplanting at the mark running parallel to one of the bunds.\n- ! Take a U-turn at the end of the field. Each return pass should be parallel to the last row, maintaining the desired row spacing.\n- ! Keep feeding the seedling mats as needed during the transplanting operation.\n- ! Where there are gaps, fill them manually.\n- ! After seedling establishment, follow management practices for water, weed, nutrients and pest control as recommended for conventional transplanted rice.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 14,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 15,
+    "section": "Mechanical transplanting guidelines"
+   }
+  },
+  {
+   "text": "Important do's\n- 3 Use good quality seeds and test for germination.\n- 3 Treat the seeds with fungicide.\n- 3 Handle the polythene sheets carefully so that they can be re-used.\n- 3 Irrigate using a watering can for the first 3-4 days.\n- 3 Treat nutrient deficiencies in the nursery as they appear.\n- 3 Ensure good water management in the nursery. Avoid stress and maintain standing water on the beds.\n- 3 Transplant into a well prepared level field only. To test soil field conditions, drop a golf ball sized soil clod from 1 m height onto the prepared surface. If the\nclod sinks below the surface, the soil is too wet. If the clod sits on top, its too hard. Ideally, the clod will penetrate to its own depth.\n- 3 Maintain 1-2 cm of standing water on the field while transplanting and up to 4-5 days after planting.\n- 3 Use the same recommendations for herbicide application as you would for manually transplanted crops.\n- 3 Lift the planting platform when driving over the bunds.\n1, 1 = Engine. 1, 2 = 8. 1, 3 = Transplanting arm. 2, 1 = Engine rack. 2, 2 = 9. 2, 3 = Transplanting fingers. 3, 1 = Transport wheel. 3, 2 = 10. 3, 3 = Tail wheel. 4, 1 = Speed change handle. 4, 2 = 11. 4, 3 = Floating board. 5, 1 = Positioner clutch handle. 5, 2 = 12. 5, 3 = Hanger chain. 6, 1 = Seedling processing handle. 6, 2 = 13. 6, 3 = Chain case. 7, 1 = Seedling platform. 7, 2 = 14. 7, 3 = Tray to store mats\nSelf-propelled walk-behind mechanical transplanter that is commonly available across India.\n1, 1 = Seedling tray. 2, 1 = Fuel tank inklet. 3, 1 = Fuel tank. 4, 1 = Engine. 5, 1 = Floating platform. 6, 1 = Planting wheel. 7, 1 = Planting finger. 8, 1 = Left marker. 9, 1 = Fender rod. 10, 1 = Seedling press. 11, 1 = Seedling platform. 12, 1 = Center row marker. 13, 1 = Shift. 14, 1 = Planting clutch. 15, 1 = Main clutch",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 15,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 16,
+    "section": "Important do's"
+   }
+  },
+  {
+   "text": "Operation of machine transplanter\nThe self propelled mechanical rice transplanter has two sections : transport and planting. The transport system consists of a diesel engine (614 hp), a gear box, a lever for adjusting hill spacing or forward speed, a PTO shaft, a toothed steel wheel for field operation and steering, a driver's seat and two seats for helpers. The planting section has a floating board, nursery platform, transplanting fingers with screws for adjusting the number of plants per hill, depth setting lever, chains for height adjustment of float board and pedal for float-lifting.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 16,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 19,
+    "section": "Operation of machine transplanter"
+   }
+  },
+  {
+   "text": "1. Planting depth controls:\nThe optimum depth of planting of the seedlings is very important because shallower depth will result in the uprooting of seedlings even with mild flow of water or wind. A deeper depth will result in submergence of the planted seedlings, thereby creating the risk of rotting. The two different types of planting depth control systems widely available in different machines are shown in figures a and b. In the first system, the planting depth can be set at the desired depth simply by sliding the lever handle. The planting depth can be increased by moving the lever towards the operator and vice versa. In the second system (figure b) the lever needs to be rotated to set the desired depth. Anticlockwise rotation will increase planting depth and vice versa.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 17,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 19,
+    "section": "1. Planting depth controls:"
+   }
+  },
+  {
+   "text": "2. Number of plants per hill controls:\nThe optimum number of plants per hill is very important to get higher productivity. There are two types of systems to control the number of plants per hill in different machines. The first type of system has a lever (figure a) that reduces the number of plants per hill when pulled towards the operator and vice versa. The second type of system has screws that, ust be taken that all of the screws are set equally so that all of the fingers pick up equal number of seedlings. This can be achieved by positioning the nut and bolts belonging to different screws in similar positions. A nut in a particular position is shown in figure c. through clockwise rotation, increase the number of plants per hill and vice versa. In this system, before setting the screws, the nuts have to be loosened (shown in figure b), before the rotating screw is set to the desired position. Caution m\n3. Hill-to-hill distance control: The optimum hill-to-hill an be set to a particular hill-to-hill distance, which is marked on an attached plate. distance is an important parameter for achieving optimum productivity There is a lever in machine (figure d) which c",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 18,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 19,
+    "section": "2. Number of plants per hill controls:"
+   }
+  },
+  {
+   "text": "4. Straight planting marker:\nFor that purpose every return pass should be parallel to the One of the major benefits of mechanical transplanting is establishing the crop in straight rows.\nprevious one. This can be achieved with the help of a marker that is attached to the machine. The machine should be operated forward in the return pass in a manner so that the marker is above the last row of the previous path (figure e).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 19,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 20,
+    "section": "4. Straight planting marker:"
+   }
+  },
+  {
+   "text": "5. Planting clutch:\nThe planting clutch lever (figures f and g for two different types of machines) is used to engage or disengage the power to the fingers. The clutch must be in the engaged position while transplanting. It must be in\nthe disengaged position while feeding the nursery mats, operating the transplanter in transportation mode or whenever actual transplanting is not done. This is very important to avoid any breakage of fingers.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 20,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 20,
+    "section": "5. Planting clutch:"
+   }
+  },
+  {
+   "text": "6. Main clutch:\nThe main clutch is disengaged to run the engine in idle condition and engaged to make the machine ready to move for work. It is shown in figures f and g for two different machine models.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 21,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 21,
+    "section": "6. Main clutch:"
+   }
+  },
+  {
+   "text": "7. Accelerator:\nAccelerator is used to move the machine at the desired speed. The speed of the machine must be as recommended by the manufacturer. The accelerator lever is placed near the operator's position.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 22,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 21,
+    "section": "7. Accelerator:"
+   }
+  },
+  {
+   "text": "8. Floating board:\nThe floating board serves as a base and helps when transporting or planting with deep water in the field. In a riding-type machine the floating board is connected with a pedal through a chain (figure h). The board may be lifted by pressing the pedal in a situation when the machine is stuck in mud or when the machine is to be transported from one field to another. In a walk-behind type transplanter, floating board may be lifted through a lever (figure h), which actuates the hydraulic mechanism for that purpose. The floating board is lifted if the lever is set to the \"up\" position.\nOn the lower side of the floating board, moulded rectangular plates with round and smooth edges are attached (front to back) to create corrugation in the field and smooth movement of the machine. The corrugations help in the establishment of the seedlings and also in the even and rapid distribution of irrigation water.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 23,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 21,
+    "section": "8. Floating board:"
+   }
+  },
+  {
+   "text": "Checks for machine operation and maintenance\nEngine oil, 1 = Check: Daily Change: After 30 hours Grade: SAE 20/40. Air filter, 1 = Check & clean: After 3-4 days Change: After 100 hours. Gear oil, 1 = Check: Every day Change: After 100 hours Grade: SAE 90. Planting gearbox oil, 1 = Check: Every day Change: After 30 hours Grade : SAE 90. Transplanting finger oil, 1 = Check: Every day Change: After 30 hours Grade: SAE 90, grease. Miscellaneous mechanical check, 1 = Regularly check the finger push rods for ease of movement Loose nuts and bolts Fingers wear and alignment Platform All moving parts",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 24,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 22,
+    "section": "Checks for machine operation and maintenance"
+   }
+  },
+  {
+   "text": "Checks for planting using the transplanter\nSeedling mats\nSoil condition Cake size: Height 50 cm; width : 22.5 cm (VST), 30 cm\n(Kubota)\nSeed rate: 15-18 kg/acre\nMat thickness: 1.5-2 cm\nSeedling height before transplanting: 18-20 cm\nSeedling age: 14-18 days\nSeed treatment if required: Carbendazim, Thiram (2-3 g/kg or\nlabel rate)\nWater depth in field: 1-2 cm\nWater Soil condition: Puddled and non-puddled Field condition: Levelled, well puddled field Add permanent water 4-5 days after transplanting\nWeed management Pre-emergence : Pretilachlor/Butachlor (2-3days after transplanting in standing water of 3-5 cm depth)\nOne hand weeding : 25-35 days after transplanting\nFollow label instruction\nFertilizer management Basal fertilizer application : Just prior to transplanting\nDAP - 35-40 kg/acre\nMOP - 15-20 kg/acre\nFirst dose: Urea - 6-8 kg/acre (at transplanting)\nSecond dose: Urea - 25-35 kg/acre (15-25 DAT)\nThird dose: Urea - 25-35 kg/acre (35-55 DAT)\nSecond dose : MOP - 15-20 kg/acre (55-60 or PI)\nStem borer control: Carbofuron 3G (12 kg/acre), Triazophosdelta methrin (400 ml/acre)\nPest management",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 25,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 23,
+    "section": "Checks for planting using the transplanter"
+   }
+  },
+  {
+   "text": "Checks for planting using the transplanter\nMissing hills or uneven plant spacing, for the mechanical transplanter.Cause/Solution = ! Check on seedling mats for poor or uneven growth ! Increase seed density in mats ! Slow the cross feed time on transplanter ! Check the planting claw for wear. Seedling mats collapse on seedling platform, for the mechanical transplanter.Cause/Solution = ! Ensure minimum mat thickness of 1.5-2.0 cm ! Dry nursery mat to firm up ! Decrease the distance between seedling stay and seedlings to prevent collapsing. Poor sliding and congestion on seedling platform, for the mechanical transplanter.Cause/Solution = ! Adjust the seedling stay to increase clearance ! Cut the nursery bed thickness down to 2-3 cm ! Wet mats before planting to improve sliding. Seedlings not released from planting claw especially in clay soils, for the mechanical transplanter.Cause/Solution = ! Add 1-2 cm water to field to help clean planting claw ! Keep the nursery mats a little dryer. Floating and moving seedlings, for the mechanical transplanter.Cause/Solution = ! Decrease water depth to 1-2 cm ! Reduce planting speed ! Increase planting depth ! If the soil is very hard and seedlings are damaged or float then this may require more water to be added or fields re-puddled. Transplanter floats, sinks or presses soil against adjoining row, for the mechanical transplanter.Cause/Solution = ! Reduce water level and let soil surface firm. This may mean postponing for a couple of days.. Seedlings with poor root development not established in soil, for the mechanical transplanter.Cause/Solution = ! Slightly wet nursery ! Reduce planting speed ! Improve seedling root development by better nursery management. Hill spacing becomes smaller especially in soft soil and deep water, for the mechanical transplanter.Cause/Solution = ! Lower the wheels to reduce wheel slip on transplanter ! Drain water from field and firm up soil surface",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 26,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 24,
+    "section": "Checks for planting using the transplanter"
+   }
+  },
+  {
+   "text": "Notes\nAgriculture is the lifeline for many people of Odisha, with rice as the principal food crop. About 82% of the farmers are in the small or marginal category and are completely dependent on rice cultivation for their living. In spite of having a conducive environment for rice production in many areas, rice productivity in Odisha is well below national and global averages. With the adoption of improved production practices, rice productivity could be enhanced significantly.\nThis publication is an effort by CSISA to highlight the critical steps in mat nursery preparation, mechanical transplanting of rice, machine operation and maintenance. The manual has been designed to serve government and private extension agents, service providers, entrepreneurs, machine manufacturers, mechanics, progressive farmers and other interested parties. Our aim is to provide suggestions for improved agronomic management of the crop, leading to increased production.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 27,
+    "docling": true,
+    "ocr": false,
+    "source_file": "English-MTR-Manual.pdf",
+    "page": 28,
+    "section": "Notes"
+   }
+  }
+ ]
+}

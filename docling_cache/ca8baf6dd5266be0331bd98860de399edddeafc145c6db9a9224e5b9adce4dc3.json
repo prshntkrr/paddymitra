@@ -1,0 +1,34 @@
+{
+ "source": "CR-Dhan-508.pdf",
+ "sha256": "ca8baf6dd5266be0331bd98860de399edddeafc145c6db9a9224e5b9adce4dc3",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:31:28",
+ "chunk_count": 2,
+ "chunks": [
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nCR Dhan 508, Grain yield.(Kg/ha) = 4000-4400. CR Dhan 508, Grain yield.% Adv = 26. CR Dhan 508, Maturity (days). = 160-165. CR Dhan 508, Plant height (cm). = 125-130. CR Dhan 508, Lodging. = Tolerant. CR Dhan 508, HRR %. = 52. CR Dhan 508, 1000 grain weight (g). = 24. CR Dhan 508, Grain Shape. = LB. CR Dhan 500, Grain yield.(Kg/ha) = 3000-3500. CR Dhan 500, Grain yield.% Adv = . CR Dhan 500, Maturity (days). = 155-160. CR Dhan 500, Plant height (cm). = 135-140. CR Dhan 500, Lodging. = Tolerant. CR Dhan 500, HRR %. = 50. CR Dhan 500, 1000 grain weight (g). = 24. CR Dhan 500, Grain Shape. = MS",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-508.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nCR Dhan 508, Leaf blast = Tolerant. CR Dhan 508, Leaf blight = Tolerant. CR Dhan 508, Sheath rot = Tolerant. CR Dhan 508, Gall midge = Tolerant. CR Dhan 500, Leaf blast = Tolerant. CR Dhan 500, Leaf blight = Susceptible. CR Dhan 500, Sheath rot = Tolerant. CR Dhan 500, Gall midge = Tolerant\nProducibility: CR Dhan 508= 1760Kgs. / acre\nRecommendation:\nReleased for cultivation in deep water ecology of West Bengal, Assam and Odisha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-508.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  }
+ ]
+}

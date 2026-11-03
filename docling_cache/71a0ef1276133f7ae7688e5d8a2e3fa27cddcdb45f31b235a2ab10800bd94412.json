@@ -1,0 +1,335 @@
+{
+ "source": "satyanarayana-v-JPN02.pdf",
+ "sha256": "71a0ef1276133f7ae7688e5d8a2e3fa27cddcdb45f31b235a2ab10800bd94412",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:51:02",
+ "chunk_count": 27,
+ "chunks": [
+  {
+   "text": "JOURNAL OF PLANT NUTRITION Vol. 25, No. 10, pp. 2081-2090, 2002",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 1
+   }
+  },
+  {
+   "text": "INFLUENCE OF INTEGRATED USE OF FARMYARD MANURE AND INORGANIC FERTILIZERS ON YIELD AND YIELD COMPONENTS OF IRRIGATED LOWLAND RICE\nV. Satyanarayana, 1 P. V. Vara Prasad, 2, * V. R. K. Murthy, 1 and K. J. Boote 2\n1 Department of Agronomy, College of Agriculture,\nAcharya N G Ranga Agricultural University, Rajendranagar, Hyderabad 500030, India 2 Agronomy Department, 304 Newell Hall, University of Florida, Gainesville, FL 32611",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 1,
+    "section": "INFLUENCE OF INTEGRATED USE OF FARMYARD MANURE AND INORGANIC FERTILIZERS ON YIELD AND YIELD COMPONENTS OF IRRIGATED LOWLAND RICE"
+   }
+  },
+  {
+   "text": "ABSTRACT\nIntegrated use of organic and inorganic fertilizers can improve crop productivity and sustain soil health and fertility. The present research was conducted with an objective to study the influence of application of farmyard manure in combination with three levels of chemical fertilizers [80 : 40 : 30, 120 : 60 : 45 and 160 : 80 : 60kg N, P2O5 and K2Oha �1 , respectively] on yield and yield components of irrigated lowland rice. The experiment was conducted in split-plot design during the rainy season with and without farmyard manure as main plots and three inorganic\n*Corresponding author. E-mail: vpaga@gnv.ifas.ufl.edu or vvpagadala@hotmail.com\n2081\n©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express writ ten permission of Marcel Dekker, Inc.\n2082",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 1,
+    "section": "ABSTRACT"
+   }
+  },
+  {
+   "text": "SATYANARAYANA ET AL.\nfertilizer levels as subplots. Data on grain and straw yield, number of tillers, panicle length, filled grains per panicle, 1000-grain weight and nutrient uptake were collected. The results showed that application of farmyard manure at 10 t ha �1 increased grain yield of rice by 25% compared to no farmyard manure control. Similar observations were also made on straw yield, tiller number, filled grains per panicle, and 1000-grain weight. There were significant interactions between farmyard manure and inorganic fertilizer treatments. The beneficial effects of application of farmyard manure were not enhanced at increased rates of application of inorganic fertilizers. However, the highest grain yield of rice was obtained with the application of farmyard manure at 10 t ha �1 and inorganic fertilizer at 120 : 60 : 45kg N, P2O5 and K2Oha �1 . The increased grain yield was due mainly to increased nutrient uptake and number of tillers, filled grains per panicle and 1000-grain weight.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 2,
+    "section": "SATYANARAYANA ET AL."
+   }
+  },
+  {
+   "text": "INTRODUCTION\nRice (Oryza sativa L.) is one of the major food crops grown in south Asia. It is mostly grown in lowlands under fully irrigated or rain-fed conditions. Organic materials particularly farmyard manure and green manures have traditionally been used by rice farmers in pre-industrial age. But with the present day high yielding cultivars, which have higher nutrient requirements, the use of inorganic fertilizers has increased considerably leading to decline in the use of organic materials. [1] The impact of increased fertilizer use on crop production has been large, but ever increasing cost of energy is an important constraint for increased use of inorganic fertilizer. [2] Use of organic matter to meet the nutrient requirement of crops would be an inevitable practice in years to come, particularly for resource poor farmers. Furthermore, ecological and environment concerns over the increased and indiscriminate use of inorganic fertilizers have made research on use of organic materials as a source of nutrients very necessary. [3,4] However the use of organic manures alone may not be enough to meet the enormous nutrient requirements of present day high yielding cultivars. Therefore, an integrated nutrient management in which both organic manures and inorganic fertilizers are used simultaneously has been suggested as the most effective method to maintain a healthy and sustainable soil system while increasing crop productivity. [5,6] There is evidence from field research that high and sustainable yields are possible with integrated use of fertilizers and manure. [7,8] However, it is important to identify the optimum dose of chemical\n©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express writ ten permission of Marcel Dekker, Inc.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 2,
+    "section": "INTRODUCTION"
+   }
+  },
+  {
+   "text": "FARMYARD MANURE AND INORGANIC FERTILIZERS\nfertilizer required for maintaining adequate supply of nutrients for increased yield, and reduced environmental pollution.\nFarmyard manure is a heterogeneous composted organic material consisting of dung, crop residue, and=or household sweeping in various stages of decomposition. [9] Farmyard manure is mostly available and produced in farms, and is an important organic resource for agricultural production in live stockbased farming systems in many countries including semi-arid regions of India. [9] Thus, there is a lot of potential for use of farmyard manure in the fertilizer schedule of rice and to reduce total dependence on inorganic fertilizers. The present research was therefore conducted to study the influence of combined application of farmyard manure and different levels of inorganic fertilizer on growth, yield and yield components of irrigated lowland rice.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 3,
+    "section": "FARMYARD MANURE AND INORGANIC FERTILIZERS"
+   }
+  },
+  {
+   "text": "MATERIALS AND METHODS\nA field experiment was conducted at the College farm of Acharya N G Ranga Agricultural University, Rajendranagar, Hyderabad, India (17 \u000e 10 0 N lat., 78 \u000e 28 0 E long. and 543m above mean sea level). The soil at the experimental site was sandy loam with pH 7.8, 0.4% organic carbon, 220 kg available Nha �1 , 17.3kg available Pha �1 , and 152kgKha �1 . The irrigation water used for the experiment was of good quality devoid of any salinity.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 3,
+    "section": "MATERIALS AND METHODS"
+   }
+  },
+  {
+   "text": "Experimental Details\nThe experiment was laid out in split-plot design with three replicates and conducted during the rainy season (June-October) of 1994. The main plots (5.5m wide and 18m long) were treated with and without farmyard manure. Three fertilizer doses [80 : 40 : 30, 120 : 60 : 45, and 160 : 80 : 40 kg N : P2O5 : K2O ha �1 ] were assigned to the subplots (5.5m wide and 5m long).\nThe crop management practices were similar in all treatments except for the organic manure and fertilizer treatments. Farmyard manure (18.5% C, 1.46% N, 0.56% P, 0.5% K, 0.9% Ca, and C : N ratio of 12.7) collected from a nearby farm was incorporated into rice field one day before transplanting at 10 t ha �1 . All the inorganic phosphorus and potassium and one-third of the inorganic N were applied as a basal dose during transplanting. The remaining two-thirds of inorganic N was applied in two equal splits at active tillering and at panicle initiation stages.\nField preparation was done by ploughing once, followed by flooding with water, and puddling three to four times. Thereafter, individual plots of equal size were prepared by bunds. Organic manure and inorganic fertilizers were uniformly\n©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express writ ten permission of Marcel Dekker, Inc.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 3,
+    "section": "Experimental Details"
+   }
+  },
+  {
+   "text": "SATYANARAYANA ET AL.\napplied and incorporated at 15 cm depth to each plot as per treatment. The plots were leveled using a wooded plank. One day after the application of organic manure, rice seedlings of cultivar Tellahamsa were transplanted at a spacing of 15615 cm and plots saturated with water. The water level in the field was always maintained at 15 to 20 cm until 30 days after transplanting. The field was then drained of all water for 2d (mid-season drainage), thereafter the water level was maintained at 10 to 15 cm until a week before final harvest, when the field was allowed to dry for easy harvesting.\nThere was no serious incidence of pests and diseases or nutrient deficiencies. Crops were kept healthy by giving prophylactic sprays of recommended insecticides and fungicides as necessary. Fields were kept weed free by hand weeding at 20-25d intervals.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 8,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 4,
+    "section": "SATYANARAYANA ET AL."
+   }
+  },
+  {
+   "text": "Data Collection and Analysis\nAt maturity all the plants from net plot area (22.5m 2 ) were harvested and data on grain and straw yield were measured. Subsamples of plants were selected randomly and harvested to determine the number of tillers per hill, number of filled grains per panicle, and 1000-grain weight.\nSubsamples of grain and straw collected at harvest were oven dried, finely ground, and analyzed for nitrogen (N), phosphorus (P), and potassium (K) content. Plant samples were analyzed for N by micro-Kjeldahl method, total P by vanadomolybo phosphoric yellow color method using spectrophotometer, and K by digestion followed by flame photometry. [10] The uptake of various nutrients was calculated by multiplying concentration of each nutrient and dry weights and expressed in kgha �1 .\nAll the data were statistically analyzed by standard analysis of variance technique for a split plot design as suggested by Gomez and Gomez. [11] Wherever treatment differences were found significant based on results of F-test, critical differences were calculated at 5% level of probability.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 9,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 4,
+    "section": "Data Collection and Analysis"
+   }
+  },
+  {
+   "text": "RESULTS AND DISCUSSION\nThere were significant effects of different fertilizer treatments on yield and yield attributes of rice (Table 1). Application of farmyard manure significantly improved number of tillers, number of filled grains, 1000-grain weight, grain yield and straw yield of rice (Table 1). Grain and straw yields of rice were significantly increased by 25% and 12%, respectively, over no farmyard manure control. Similarly the number of tillers, number of filled grains, and 1000-grain weights were increased by 12, 6, and 9%, respectively, due to application of",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 10,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 4,
+    "section": "RESULTS AND DISCUSSION"
+   }
+  },
+  {
+   "text": "FARMYARD MANURE AND INORGANIC FERTILIZERS\nTable 1. Effects of Application of Farmyard Manure on Grain Yield and Yield Components of Rice (Data Were Averaged Across Fertilizer Treatments)\n\nGrain yield (t ha �1 ), No Farmyard Manure = 3.07. Grain yield (t ha �1 ), Farmyard Manure = 3.84. Grain yield (t ha �1 ), CD (0.05) = 0.35. Straw yield (t ha �1 ), No Farmyard Manure = 4.11. Straw yield (t ha �1 ), Farmyard Manure = 4.59. Straw yield (t ha �1 ), CD (0.05) = 0.21. Number of tillers hill �1, No Farmyard Manure = 12.80. Number of tillers hill �1, Farmyard Manure = 14.30. Number of tillers hill �1, CD (0.05) = 1.20. Filled grains panicle �1, No Farmyard Manure = 68.50. Filled grains panicle �1, Farmyard Manure = 72.30. Filled grains panicle �1, CD (0.05) = 2.20. 1000-grain weight (g), No Farmyard Manure = 26.83. 1000-grain weight (g), Farmyard Manure = 29.31. 1000-grain weight (g), CD (0.05) = 0.62\nfarmyard manure. Organic manure plays an important role in improving soil permeability to air and water and water stable aggregates. Thus application of organic materials such as farmyard manure considerably improves soil physical properties and nutrient uptake resulting in greater growth, yield and yield components. [12-14] Application of farmyard manure at 10 t ha �1 contributes 30-70 kgNha �1 in rice besides leaving a significant residual effect on succeeding crops. [15] Long-term studies on rice have shown increased yield and yield components due to application of farmyard manure. [7,8,16] These effects are largely attributed to improved soil organic matter, soil physical, chemical and microbial properties with application of farmyard manure. [17]",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 11,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 5,
+    "section": "FARMYARD MANURE AND INORGANIC FERTILIZERS"
+   }
+  },
+  {
+   "text": "FARMYARD MANURE AND INORGANIC FERTILIZERS\nThere was significant influence of different inorganic fertilizer levels on grain and straw yield, tiller numbers, filled grains per panicle and 1000-grain weight of rice (Table 2). Application of 120 : 60 : 45kg N: P2O5 :K2Oha �1 produced significantly greater grain yield (3.63 t ha �1 ) as compared to that obtained with lower fertilizer levels of N: P2O5 :K2Oha �1 (3.17 t ha �1 ).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 12,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 5,
+    "section": "FARMYARD MANURE AND INORGANIC FERTILIZERS"
+   }
+  },
+  {
+   "text": "FARMYARD MANURE AND INORGANIC FERTILIZERS\n| - |\n| Table 2. Effects of Application of Different Fertilizers Rates on Grain Yield and Yield Components of Rice (Data Were Averaged Across Two Farmyard Manure Treatments) |\n| Grain yield (t ha �1 ), Fertilizer Treatment (N: P2O5 :K2Okgha �1 ).80 : 40 : 30 = 3.17. Grain yield (t ha �1 ), Fertilizer Treatment (N: P2O5 :K2Okgha �1 ).120 : 60 : 45 = 3.63. Grain yield (t ha �1 ), Fertilizer Treatment (N: P2O5 :K2Okgha �1 ).160 : 80 : 60 = 3.76. Grain yield (t ha �1 ), CD (0.05) = 0.41. Straw yield (t ha �1 ), Fertilizer Treatment (N: P2O5 :K2Okgha �1 ).80 : 40 : 30 = 4.05. Straw yield (t ha �1 ), Fertilizer Treatment (N: P2O5 :K2Okgha �1 ).120 : 60 : 45 = 4.43. Straw yield (t ha �1 ), Fertilizer Treatment (N: P2O5 :K2Okgha �1 ).160 : 80 : 60 = 4.53. Straw yield (t ha �1 ), CD (0.05) = 0.29. Number of tillers hill �1, Fertilizer Treatment (N: P2O5 :K2Okgha �1 ).80 : 40 : 30 = 12.5. Number of tillers hill �1, Fertilizer Treatment (N: P2O5 :K2Okgha �1 ).120 : 60 : 45 = 13.4. Number of tillers hill �1, Fertilizer Treatment (N: P2O5 :K2Okgha �1 ).160 : 80 : 60 = 13.8. Number of tillers hill �1, CD (0.05) = 0.90. Filled grains panicle �1, Fertilizer Treatment (N: P2O5 :K2Okgha �1 ).80 : 40 : 30 = 65.0. Filled grains panicle �1, Fertilizer Treatment (N: P2O5 :K2Okgha �1 ).120 : 60 : 45 =",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 13,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 5,
+    "section": "FARMYARD MANURE AND INORGANIC FERTILIZERS"
+   }
+  },
+  {
+   "text": "FARMYARD MANURE AND INORGANIC FERTILIZERS\n| - |\n 68.0. Filled grains panicle �1, Fertilizer Treatment (N: P2O5 :K2Okgha �1 ).160 : 80 : 60 = 73.0. Filled grains panicle �1, CD (0.05) = 5.80. 1000-grain weight (g), Fertilizer Treatment (N: P2O5 :K2Okgha �1 ).80 : 40 : 30 = 26.86. 1000-grain weight (g), Fertilizer Treatment (N: P2O5 :K2Okgha �1 ).120 : 60 : 45 = 27.58. 1000-grain weight (g), Fertilizer Treatment (N: P2O5 :K2Okgha �1 ).160 : 80 : 60 = 29.80. 1000-grain weight (g), CD (0.05) = 0.75 |\n\n©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express writ ten permission of Marcel Dekker, Inc.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 14,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 5,
+    "section": "FARMYARD MANURE AND INORGANIC FERTILIZERS"
+   }
+  },
+  {
+   "text": "2086\nHowever, application of higher fertilizer level of 160 : 80 : 60 N : P2O5 : K2Oha �1 produced grain yield of 3.76 t ha �1 , which was statistically similar to that obtained with application of 120 : 60 : 45 kg N : P2O5 : K2Oha �1 . Similar effects were also observed for straw yield, number of tillers, filled grains per panicle and 1000-grain weight (Table 2). These effects were due mainly to low available N and P in the soil.\nThere was significant interaction between application of organic manures and inorganic fertilizer levels for grain yield, straw yield, filled grains and 1000-grain weight. These effects are typically represented by grain yield and straw yield data in Fig. 1, which shows that application of farmyard manure in\nFigure 1. Effects of different fertilizer treatments in combination with farmyard manure (solid bars) and without farmyard manure (hatched bars) on grain (a) and straw yield (b) of rice. Vertical bars are the standard errors for comparing means.\n©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express writ ten permission of Marcel Dekker, Inc.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 15,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 6,
+    "section": "2086"
+   }
+  },
+  {
+   "text": "FARMYARD MANURE AND INORGANIC FERTILIZERS\n2087\ncombination with 120 : 60 : 45 kg N : P2O5 : K2O ha �1 produced an optimum grain yield when compared to other treatment combinations. Furthermore, the positive effects of farmyard manure were not enhanced with increased rate of inorganic fertilizer application. This is in agreement with other studies where combined application of organic and inorganic fertilizer increased productivity of rice. [13,18] Few studies have even shown that organic manures with an adequate amount of chemical N fertilizers could produce higher dry matter yield and high N accumulation, than those of conventional inorganic N fertilizers treatments. [12,19] A combined use of organic manures and inorganic fertilizers checks nitrogen losses, conserves soil N by forming organic-mineral complexes and thus ensures continuous N availability to rice plants and greater yields. [20] Furthermore, research in farmers field on separate and combined application of fertilizers and farmyard manure has shown long-term yield benefits, and these effects have been attributed largely to the maintenance of soil organic matter and microbial activity. [21]",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 16,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 7,
+    "section": "FARMYARD MANURE AND INORGANIC FERTILIZERS"
+   }
+  },
+  {
+   "text": "FARMYARD MANURE AND INORGANIC FERTILIZERS\nData on the uptake studies showed that application of farmyard manure increased the uptake of N, P, and K by 20, 12, and 9%, respectively (Fig. 2). There were significant interactions between organic manure and fertilizer treatment. Maximum uptake of N, P, and K was observed at a fertilizer level of 120 : 60 : 45kg N: P2O5 :K2Oha �1 in combination with application of farmyard manure (Fig. 2). The increase in P and K in farmyard manure application treatment could be attributed to enhanced availability of these nutrients due to improved soil structure and increased microbial activity. Research has shown that combined application of farmyard manure and green manure could meet all the nitrogen requirement (150kg fertilizer Nha �1 ) of the high yielding varieties and yielded better than the application of inorganic fertilizer alone. [12] Long-term effects of integrated nutrient management on productivity of rice-rice cropping system in both rainy and post-rainy seasons showed that the use of inorganic fertilizer (50%) and farmyard manure or green manure (50%) produced better yields than those obtained by application of 100% of recommended inorganic N. [22] This suggests that judicious use of organic material can produce rice yield on par with that obtained with inorganic fertilizers. [7,8,14,22] Thus application of organic materials have potential of not only improving crop yield, but also reducing dependence on fossil fuel based inorganic fertilizers, thereby reducing hazards caused by continuous and indiscriminate use of chemical fertilizers. Studies have also shown the beneficial effects of green manures, and blue green algae on productivity of rice. [23] Therefore, research efforts should be continued to study the combined effects of different organic materials such as green manures, legumes, rice straw, compost, sewage sludge, bio-fertilizers (blue green algae and azolla) and inorganic fertilizer on the productivity of rice",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 17,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 7,
+    "section": "FARMYARD MANURE AND INORGANIC FERTILIZERS",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "in lowland areas.\n©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express writ ten permission of Marcel Dekker, Inc.\n2088",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 17,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 7,
+    "section": "FARMYARD MANURE AND INORGANIC FERTILIZERS",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "SATYANARAYANA ET AL.\nFigure 2. Effects of different fertilizer treatments in combination with farmyard manure (solid bars) and without farmyard manure (hatched bars) on total plant N (a), P (b), and K (c) uptake of rice. Vertical bars are the standard errors for comparing means.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 18,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 8,
+    "section": "SATYANARAYANA ET AL."
+   }
+  },
+  {
+   "text": "CONCLUSIONS\nIn conclusion this research has shown that application of farmyard manure at 10 t ha �1 increased grain yield of rice by 25%. There were significant effects of different fertilizer treatments and their interactions with organic manures.\n©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express writ ten permission of Marcel Dekker, Inc.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 19,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 8,
+    "section": "CONCLUSIONS"
+   }
+  },
+  {
+   "text": "FARMYARD MANURE AND INORGANIC FERTILIZERS\n2089\nIn general the beneficial effects of farmyard manure on yield, yield attributes, and nutrient uptake was less noticeable with increasing levels of inorganic fertilizer. An optimum yield of rice was obtained by application of 120 : 60 : 45kg N: P2O5 :K2Oha �1 in combination with farmyard manure. The higher yield obtained with integrated use of farmyard manure and inorganic fertilizers were attributed to increased nutrient availability and uptake, resulting in greater number of tillers, filled grains per panicles and 1000-grain weight.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 20,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 9,
+    "section": "FARMYARD MANURE AND INORGANIC FERTILIZERS"
+   }
+  },
+  {
+   "text": "ACKNOWLEDGMENTS\nThis research was funded by the Potash and Phosphate Institute of Canada (India Program). We thank Dr. G. Dev, Professors V. Santaram and M. M. Hussain for their support. We also wish to thank the farmmanager and staff of the College Farm for providing facilities and technical assistance.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 21,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 9,
+    "section": "ACKNOWLEDGMENTS"
+   }
+  },
+  {
+   "text": "REFERENCES\n1. Hossain, M.; Singh, V.P. Fertilizer Use in Asian Agriculture: Implications for Sustaining Food Security and the Environment. Nutr. Cycl. Agroecosys. 2000, 57 (2), 155-169.\n2. Barker, R.; Herdt, R.W.; Rose, B. The Rice Economy in Asia: Resources for the Future; Government Printing Office: Washington, DC, 1985.\n3. Giller, K.E.; Cadisch, G. Future Benefits fromBiological Nitrogen Fixation: An Ecological Approach to Agriculture. Plant Soil 1995, 174 (1-2), 255-277.\n4. Ayoub, A.T. Fertilizer and the Environment. Nutr. Cycl. Agroecosys. 1999, 55 (2), 117-121.\n5. Jenssen, B.H. Integrated Nutrient Management: The Use of Organic and Mineral Fertilizer. In The Role of Plant Nutrients for Sustainable Food Crop Production in Sub-Saharan Africa; Van Reuler, H., Prins, W.H., Eds.; VKP: Ledschendam, The Netherlands, 1993, 89-105.\n6. Palm, C.A.; Myers, R.J.K.; Nandwa, S.M. Combined Use of Organic and Inorganic Nutrient Sources for Soil Fertility Maintenance and Replenishment. In Replenishing Soil Fertility in Africa; Buresh, R.J., Sanchez, P.A., Calhoun, E., Eds.; Soil Science Society of America: Madison, WI, 1997; Spec. Publ. No. 51, 193-217.\n7. Raman, K.R.; Singh, M.P.; Singh, R.O.; Singh, U.S.P. Long-Term Effects of Inorganic and Organo-Inorganic Nutrient Supply System on Yield Trends of Rice-Wheat Cropping System. J. Appl. Biol. 1996, 6 (1-2), 56-58.\n8. Singh, N.P.; Sachan, R.S.; Pandey, P.C.; Bisht, R.S. Effects of Decade Long Fertilizer and Manure Application on Soil Fertility and Productivity",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 22,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 9,
+    "section": "REFERENCES"
+   }
+  },
+  {
+   "text": "REFERENCES\n©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express writ ten permission of Marcel Dekker, Inc.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 23,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 10,
+    "section": "REFERENCES"
+   }
+  },
+  {
+   "text": "SATYANARAYANA ET AL.\n- of Rice-Wheat System in a Mollisol. J. Indian Soc. Soil Sci. 1999, 47 (1), 72-80.\n9. Motavalli, P.P.; Singh, R.P.; Anders, M.M. Perception and Management of Farmyard Manure in the Semiarid Tropics of India. Agr. Syst. 1994, 46 (2), 189-204.\n10. Jackson, M.L. Soil Chemical Analysis; Prentice Hall of India Ltd: New Delhi, India, 1973.\n11. Gomez, K.A.;Gomez, A.A. Statistical Procedures forAgricultural Research; John Wiley and Sons: New York, 1984.\n12. Singh, Y.; Singh, B.; Khera, T.S.; Meelu, O.P. Integrated Management of Green Manure, Farmyard Manure, and Nitrogen Fertilizer in a Rice-Wheat Rotation in Northeastern India. Arid Soil Res. Rehab. 1994, 8 (2), 199-205.\n13. Pandey, N.; Sarawgi, A.K.; Rastogi, N.K.; Tripathi, R.S. Effect of Farmyard Manure and Chemical N Fertilizer on Grain Yield and Quality of Scented Rice (Oryza sativa) Varieties. Indian J. Agr. Sci. 1999, 69 (9), 621-623.\n14. Mondal, S.S.; Chettri, M. Integrated Nutrient Management for Sustaining Productivity and Fertility Under Rice (Oryza sativa)-Based Cropping System. Indian J. Agr. Sci. 1998, 68 (7), 337-340.\n15. Sharma, A.R. Fertilizer Use in Rice and Rice Based Cropping System. Fert. News 1995, 40 (5), 29-41.\n16. Nambiar, K.K.M.; Abrol, I.P. Long-Term Fertilizer Experiments in India: An overview. Fert. News 1989, 34, 11-20.\n17. Gaur, A.C.; Neelakantan, S.; Dargan, K.S. Organic Manures; Indian Council of Agricultural Research: New Delhi, India, 1984.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 24,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 10,
+    "section": "SATYANARAYANA ET AL."
+   }
+  },
+  {
+   "text": "SATYANARAYANA ET AL.\n18. Ghosh, A.; Sharma, A.R. Effect of Combined Used of Organic Manure and Nitrogen Fertilizer on the Performance of Rice Under Flood-Prone Lowland Conditions. J. Agric. Sci. (Cambridge) 1999, 132 (4), 461-465.\n19. Chung, R.S.; Wang, C.H.; Wang, C.W.; Wang, Y.P. Influence of Organic Matter and Inorganic Fertilizer on the Growth and Nitrogen Accumulation of Corn Plants. J. Plant Nutr. 2000, 23 (3), 297-311.\n20. Sharma, A.R.; Mittra, B.N. Effect of Combinations of Organic Materials and Nitrogen-Fertilizers on Growth, Yield and Nitrogen Uptake of Rice. J. Agr. Sci. (Cambridge) 1988, 111 (3), 495-501.\n21. Ghoshal, N.; Singh, K.P. Effects of Farmyard Manure and Inorganic Fertilizer on the dynamics of Soil Microbial Biomass in a Tropical Dryland Agroecosystem. Biol. Fert. Soils 1995, 19 (2-3), 231-238.\n22. Katyal, V.; Gangwar, B. Long-Term Effect of Integrated Nutrient Management on Crop Productivity of rice (Oryza sativa)-Rice System. Indian J. Agr. Sci. 2000, 70 (2), 110-113.\n23. Meelu, O.P.; Jerath, N. Bio-Fertilizers andTheir Potential inCropProduction. In Changing Scenario of Our Environment; Dhaliwal, G.S., Hansra, B.S., Eds.; Punjab Agricultural University: Ludhiana, India, 1992; 281-286.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 25,
+    "docling": true,
+    "ocr": false,
+    "source_file": "satyanarayana-v-JPN02.pdf",
+    "page": 10,
+    "section": "SATYANARAYANA ET AL."
+   }
+  }
+ ]
+}

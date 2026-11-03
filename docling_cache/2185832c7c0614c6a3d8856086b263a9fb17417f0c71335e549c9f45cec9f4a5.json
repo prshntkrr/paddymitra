@@ -1,0 +1,106 @@
+{
+ "source": "CR-Dhan-802.pdf",
+ "sha256": "2185832c7c0614c6a3d8856086b263a9fb17417f0c71335e549c9f45cec9f4a5",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:32:24",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "CR Dhan 802 (Subhas)*\n(Swarna-Sub1*4 / IR81896-BB-195)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-802.pdf",
+    "page": 1,
+    "section": "CR Dhan 802 (Subhas)*"
+   }
+  },
+  {
+   "text": "Product Profile\nCR Dhan-802 (Subhas) is a late maturity, medium height, short bold grain, high yielding variety widely adaptable in India under rainfed low land conditions. Developed by NRRI and released in 2019, it's recommended for cultivation in the states of Madhya Pradesh and Bihar. Exhibiting tolerance to both submergence and drought, Under normal conditions, it produces an average yield of 6.5 tons per hectare, while still demonstrating resilience with yields of 4.3 tons per hectare under submergence and 2.3 tons per hectare under drought conditions. Furthermore, it showcases tolerance to major diseases and pests.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-802.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment - TLaS-R\nPTR, Planting Method = DSR. PTR, Ecosystem = Irrigated Lowland. PTR, Ecosystem = Rainfed Lowland. PTR, Ecosystem = Upland. Recommended, Planting Method = Not Recommended. Recommended, Ecosystem = Not Recommended. Recommended, Ecosystem = Recommended. Recommended, Ecosystem = Not Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-802.pdf",
+    "page": 1,
+    "section": "Priority Market Segment - TLaS-R"
+   }
+  },
+  {
+   "text": "Positioning\nReplace, Irrigated Lowland = None. Replace, Rainfed Lowland = Swarna. Replace, Upland = None. Companion, Irrigated Lowland = None. Companion, Rainfed Lowland = Swarna sub 1. Companion, Upland = None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-802.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Submergence and drought tolerant\n- Medium height; Profuse tillering\n- Good HRR, short bold grain\n- Resistant to stem borer, leaf folder, plant hoper, case worm\n- Moderately resistence to BLB, sheath road rice tungo virus",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-802.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nCR Dhan 802, Grain yield.(Kg/ha) = 6000-6500. CR Dhan 802, Grain yield.% Adv = 8. CR Dhan 802, Maturity (days). = 140-145. CR Dhan 802, Plant height (cm). = 95-100. CR Dhan 802, Lodging. = Tolerant. CR Dhan 802, HRR %. = 64. CR Dhan 802, 1000 grain weight (g). = 20. CR Dhan 802, Grain Shape. = SB. Swarna, Grain yield.(Kg/ha) = 5500-6000. Swarna, Grain yield.% Adv = . Swarna, Maturity (days). = 140-145. Swarna, Plant height (cm). = 85-90. Swarna, Lodging. = Susceptible. Swarna, HRR %. = 69. Swarna, 1000 grain weight (g). = 16. Swarna, Grain Shape. = MS",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-802.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nCR Dhan 802, Leaf blast = Resistant. CR Dhan 802, Leaf blight = Resistant. CR Dhan 802, Sheath blight = Resistant. CR Dhan 802, BPH = Resistant. CR Dhan 802, Gall midge = Tolerant. CR Dhan 802, Submergence = Tolerant. CR Dhan 802, Dorught = Tolerant. Swarna, Leaf blast = Susceptible. Swarna, Leaf blight = Resistant. Swarna, Sheath blight = Susceptible. Swarna, BPH = Susceptible. Swarna, Gall midge = Susceptible. Swarna, Submergence = Susceptible. Swarna, Dorught = Susceptible\nProducibility: CR Dhan 802= 2200Kgs. / acre\nRecommendation:\nReleased for cultivation in Madhya Pradesh and Bihar",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-802.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\n- Low yield in stress conditions",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-802.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}

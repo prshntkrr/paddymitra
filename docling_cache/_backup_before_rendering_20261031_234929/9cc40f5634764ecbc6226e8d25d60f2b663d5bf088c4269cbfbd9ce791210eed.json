@@ -1,0 +1,89 @@
+{
+ "source": "Nua-Dhusara.pdf",
+ "sha256": "9cc40f5634764ecbc6226e8d25d60f2b663d5bf088c4269cbfbd9ce791210eed",
+ "ocr": false,
+ "table_mode": "fast",
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T18:15:56",
+ "chunk_count": 6,
+ "chunks": [
+  {
+   "text": "Nua Dhusara\n(IET 18395) (Pure line selection of Dhusra)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Nua-Dhusara.pdf",
+    "page": 1,
+    "section": "Nua Dhusara"
+   }
+  },
+  {
+   "text": "Product Profile\nNua Dhusara is a long-duration, short-grained aromatic variety released in 2008, primarily cultivated in Odisha. With a maturity period of about 145 days, It has a yield potential of 3.5 ton per hectare. This variety exhibits moderate tolerance to various diseases and pests including sheath blight, BLB, leaf blast, sheath rot, stem borer, and gall midge-5. Notably, it performs well under organic nutrient management practices. Due to its exceptional quality attributes, Nua Dhusara holds promise for commercialization as a premium-quality rice.\nPriority Market Segment - TLaS-R",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Nua-Dhusara.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Ecosystem\nPTR\nDSR\nIrrigated\nLowland Rainfed Lowland Upland\nRecommended Not Recommended Not Recommended Recommended Not Recommended Positioning\nPosition Irrigated Lowland Rainfed Lowland Upland\nReplace None Kalajeera None",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Nua-Dhusara.pdf",
+    "page": 1,
+    "section": "Ecosystem"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Good aroma\n- Long panicle\n- High HRR\n- Excellent translucent short medium aromatic rice\n- Moderately resistant to sheath rot, sheath blight, and neck blast\n- High elongation ratio (2.05), Soft GC (62mm)",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Nua-Dhusara.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nVariety, 1 = Grain yield (Kg/ha). Variety, 2 = % Adv. Variety, 3 = Maturity (days). Variety, 4 = Plant height (cm). Variety, 5 = Lodging. Variety, 6 = HRR %. Variety, 7 = 1000 grain weight (g). Variety, 8 = Grain Shape. Nua Dhusara, 1 = 3000-3500. Nua Dhusara, 2 = . Nua Dhusara, 3 = 145-150. Nua Dhusara, 4 = 140-145. Nua Dhusara, 5 = Tolerant. Nua Dhusara, 6 = 68. Nua Dhusara, 7 = 18. Nua Dhusara, 8 = SM",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Nua-Dhusara.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nVariety.Nua Dhusara. Leaf blast.Tolerant. RTV.Tolerant. Sheath blight.Tolerant. Sheath rot.Tolerant. Gall midge.Tolerant\nProducibility: Nua Dhusara= 1400Kgs. / acre\nRecommendation:\nReleased for cultivation in Odisha\nLow yield\nTall plant\nAverage grain weight\nPhoto sensitive\nConsiderations",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Nua-Dhusara.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  }
+ ]
+}

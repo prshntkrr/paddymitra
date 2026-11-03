@@ -1,0 +1,1487 @@
+{% extends 'base.html' %}
+{% load irri_extras %}
+{% block page_title %}AI Chat{% endblock %}
+{% block content %}
+<style>
+  .pm-chat-shell {
+    max-width: 940px;
+    margin: 0 auto;
+    min-height: 760px;
+    display: flex;
+    flex-direction: column;
+    background: #F8FAFC;
+    border: 1px solid var(--gray-200);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .pm-chat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px 18px;
+    background: #FFFFFF;
+    border-bottom: 1px solid var(--gray-200);
+  }
+
+  .pm-chat-header h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .pm-chat-header p {
+    margin: 5px 0 0;
+    color: var(--gray-500);
+    font-size: 13px;
+  }
+
+  .pm-chat-window {
+    flex: 1 1 auto;
+    min-height: 520px;
+    max-height: 640px;
+    overflow-y: auto;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    scroll-behavior: smooth;
+    background:
+      linear-gradient(rgba(248,250,252,0.9), rgba(248,250,252,0.9)),
+      repeating-linear-gradient(45deg, #FFFFFF 0, #FFFFFF 10px, #F1F5F9 10px, #F1F5F9 20px);
+  }
+
+  .pm-chat-bubble {
+    max-width: min(82%, 680px);
+    padding: 11px 13px;
+    border-radius: 18px;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
+    color: #111827;
+    word-break: break-word;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.45;
+    animation: pmBubbleIn 180ms ease-out;
+  }
+
+  .pm-chat-bubble.bot {
+    align-self: flex-start;
+    background: #FFFFFF;
+    border-top-left-radius: 6px;
+  }
+
+  .pm-chat-bubble.user {
+    align-self: flex-end;
+    background: #DCFCE7;
+    border-top-right-radius: 6px;
+  }
+
+  .pm-chat-label {
+    font-size: 11px;
+    color: #64748B;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+
+  .pm-chat-text {
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  .pm-quick-replies {
+    align-self: flex-start;
+    max-width: min(88%, 720px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: -4px 0 4px;
+    animation: pmBubbleIn 180ms ease-out;
+  }
+
+  .pm-quick-btn,
+  .pm-action-btn {
+    border: 1px solid #BBF7D0;
+    background: #FFFFFF;
+    color: #047857;
+    border-radius: 999px;
+    padding: 8px 12px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 120ms ease, border-color 120ms ease, transform 120ms ease;
+  }
+
+  .pm-quick-btn:hover,
+  .pm-action-btn:hover {
+    background: #ECFDF5;
+    border-color: #10B981;
+    transform: translateY(-1px);
+  }
+
+  .pm-quick-btn:focus,
+  .pm-action-btn:focus {
+    outline: 2px solid #86EFAC;
+    outline-offset: 2px;
+  }
+
+  .pm-persona-replies {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+    gap: 10px;
+    width: min(88%, 620px);
+  }
+
+  .pm-persona-btn {
+    text-align: left;
+    border-radius: 8px;
+    border: 1px solid #CBD5E1;
+    background: #FFFFFF;
+    padding: 12px;
+    cursor: pointer;
+  }
+
+  .pm-persona-btn strong {
+    display: block;
+    color: #065F46;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  .pm-persona-btn span {
+    display: block;
+    color: #475569;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .pm-district-picker {
+    align-self: flex-start;
+    width: min(88%, 520px);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 8px;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
+  }
+
+  .pm-district-picker input {
+    grid-column: 1 / -1;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    padding: 9px 10px;
+    font-size: 13px;
+    background: #FFFFFF;
+  }
+
+  .pm-district-picker select {
+    min-width: 0;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    padding: 9px 10px;
+    font-size: 13px;
+    background: #FFFFFF;
+  }
+
+  .pm-chat-composer {
+    padding: 14px 16px 16px;
+    background: #FFFFFF;
+    border-top: 1px solid var(--gray-200);
+  }
+
+  .pm-recording-row {
+    display: none;
+    align-items: center;
+    gap: 10px;
+    min-height: 48px;
+    border: 1px solid var(--gray-300);
+    border-radius: 8px;
+    padding: 0 12px;
+    background: #F8FAFC;
+    margin-bottom: 12px;
+  }
+
+  .pm-composer-row {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+  }
+
+  .pm-composer-row textarea {
+    flex: 1;
+    resize: none;
+    border: 1px solid var(--gray-300);
+    border-radius: 20px;
+    padding: 12px 16px;
+    font-size: 14px;
+    min-height: 56px;
+    background: #FFFFFF;
+  }
+
+  .pm-composer-row textarea:disabled,
+  .pm-composer-row button:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+
+  .pm-mic-btn {
+    width: 48px;
+    height: 48px;
+    border: 1px solid var(--gray-300);
+    border-radius: 50%;
+    background: #FFFFFF;
+    color: var(--gray-500);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pm-status {
+    margin-top: 10px;
+    font-size: 12px;
+    color: var(--gray-500);
+  }
+
+  .pm-hidden-controls {
+    display: none;
+  }
+
+  .pm-typing-dots {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    min-height: 20px;
+  }
+
+  .pm-typing-dots span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #64748B;
+    opacity: 0.45;
+    animation: pmChatTyping 1.2s infinite;
+  }
+
+  .pm-typing-dots span:nth-child(2) {
+    animation-delay: 0.15s;
+  }
+
+  .pm-typing-dots span:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+
+  @keyframes pmChatTyping {
+    0% { opacity: 0.35; transform: translateY(0); }
+    20% { opacity: 1; transform: translateY(-2px); }
+    100% { opacity: 0.35; transform: translateY(0); }
+  }
+
+  @keyframes pmBubbleIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (max-width: 700px) {
+    .pm-chat-shell {
+      min-height: calc(100vh - 110px);
+      border-left: 0;
+      border-right: 0;
+      border-radius: 0;
+    }
+
+    .pm-chat-header {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .pm-chat-window {
+      padding: 14px;
+      min-height: 460px;
+      max-height: none;
+    }
+
+    .pm-chat-bubble,
+    .pm-quick-replies,
+    .pm-district-picker,
+    .pm-persona-replies {
+      max-width: 96%;
+      width: 96%;
+    }
+
+    .pm-persona-replies,
+    .pm-district-picker {
+      grid-template-columns: 1fr;
+    }
+
+    .pm-district-picker,
+    .pm-composer-row {
+      align-items: stretch;
+    }
+
+    .pm-district-picker {
+      grid-template-columns: 1fr;
+    }
+
+    .pm-mic-btn {
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+</style>
+
+<div class="pm-chat-shell">
+  <div class="pm-chat-header">
+    <div>
+      <h3>AI Chat</h3>
+      <p>Guided setup first, then ask Paddy Mitra in your preferred language.</p>
+    </div>
+    <a href="{% url 'queries:demo' %}" class="btn btn-secondary">Back to demo</a>
+  </div>
+
+  <div class="pm-hidden-controls" aria-hidden="true">
+    {{ form.catalogue }}
+    {{ form.farmer_language }}
+    {{ form.district }}
+    {% for radio in form.user_type %}{{ radio.tag }}{% endfor %}
+    {{ form.generate_tts }}
+  </div>
+
+  <div id="chat-window" class="pm-chat-window"></div>
+
+  <div class="pm-chat-composer">
+    <div id="chat-recording" class="pm-recording-row">
+      <span id="chat-rec-timer" style="font-family:monospace;font-size:13px;color:#DC2626;min-width:38px;">0:00</span>
+      <canvas id="chat-rec-canvas" style="flex:1;height:28px;display:block;"></canvas>
+      <button type="button" id="chat-rec-cancel" title="Cancel" style="background:transparent;border:0;cursor:pointer;color:#DC2626;font-size:18px;line-height:1;padding:6px 8px;">✕</button>
+      <button type="button" id="chat-rec-done" title="Stop and transcribe" style="background:transparent;border:0;cursor:pointer;color:#059669;font-size:18px;line-height:1;padding:6px 8px;">✓</button>
+    </div>
+    <div class="pm-composer-row">
+      <textarea id="chat-input" rows="2" placeholder="Complete setup to start chatting..." disabled></textarea>
+      <button id="chat-mic-btn" type="button" class="pm-mic-btn" title="Record audio" disabled>
+        {% icon "mic" 18 %}
+      </button>
+      <button id="chat-send-btn" type="button" class="btn btn-success" style="height:48px;min-width:110px;" disabled>Send</button>
+    </div>
+    {# The recording waiting to be sent. Shown here, under the box, so it can be #}
+    {# played back and re-recorded BEFORE sending if it did not come out well.  #}
+    <div id="pm-audio-preview" style="display:none;align-items:center;gap:8px;margin-top:8px;
+         padding:8px 10px;border:1px solid var(--gray-300);border-radius:8px;background:var(--gray-50,#F9FAFB);">
+      <span style="font-size:12.5px;color:var(--gray-600);white-space:nowrap;">Your recording</span>
+      <audio id="pm-audio-preview-player" controls style="flex:1;height:32px;min-width:0;"></audio>
+      <button type="button" id="pm-audio-preview-discard" title="Discard this recording"
+              style="background:transparent;border:0;cursor:pointer;color:#b91c1c;font-size:16px;
+                     line-height:1;padding:4px 6px;">✕</button>
+    </div>
+    <div id="chat-status" class="pm-status">Setting up chat...</div>
+    <form id="chat-csrf-form" style="display:none;">{% csrf_token %}</form>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function() {
+  var SETUP_STEPS = ['language', 'catalogue', 'district', 'ask_as', 'voice'];
+  var currentStepIndex = 0;
+  var setupComplete = false;
+  var chatConfig = {
+    catalogue: null,
+    language: null,
+    district: null,
+    askAs: null,
+    generateVoice: false
+  };
+
+  var micBtn = document.getElementById('chat-mic-btn');
+  var statusEl = document.getElementById('chat-status');
+  var chatInput = document.getElementById('chat-input');
+  var recRow = document.getElementById('chat-recording');
+  var timerEl = document.getElementById('chat-rec-timer');
+  var canvas = document.getElementById('chat-rec-canvas');
+  var doneBtn = document.getElementById('chat-rec-done');
+  var cancelBtn = document.getElementById('chat-rec-cancel');
+  var sendBtn = document.getElementById('chat-send-btn');
+  var chatWindow = document.getElementById('chat-window');
+  var languageSelect = document.querySelector('select[name="farmer_language"]');
+  var catalogueSelect = document.querySelector('select[name="catalogue"]');
+  var districtSelect = document.querySelector('select[name="district"]');
+  var personaRadios = document.querySelectorAll('input[name="user_type"]');
+  var ttsCheckbox = document.querySelector('input[name="generate_tts"]');
+  var typingBubble = null;
+  var feedbackUrlTemplate = '{% url "queries:set_chat_feedback" 0 %}';
+
+  var uiText = {
+    English: {
+      setupStatus: 'Please complete setup to begin.',
+      readyStatus: 'Ready to chat.',
+      chooseLanguage: 'Please select your preferred language.',
+      welcome: 'Hi! Welcome to Paddy Mitra.',
+      chooseCatalogue: 'Please select a catalogue to continue.',
+      noCatalogueStatus: 'No ready catalogue is available.',
+      noCatalogue: 'No ready catalogue is available. Please build a catalogue vector DB first.',
+      chooseDistrict: 'Please select your district.',
+      districtSelected: 'District selected.',
+      searchDistrict: 'Search district...',
+      continue: 'Continue',
+      answerMode: 'How would you like answers?',
+      farmer: 'Farmer',
+      farmerDesc: 'Short, simple, farmer-friendly answers.',
+      researcher: 'Researcher',
+      researcherDesc: 'Detailed technical answers with references.',
+      voiceQuestion: 'Would you like voice responses?',
+      yes: 'Yes',
+      no: 'No',
+      setupDone: 'Setup completed.',
+      catalogue: 'Catalogue',
+      language: 'Language',
+      district: 'District',
+      mode: 'Mode',
+      voiceResponse: 'Voice Response',
+      enabled: 'Enabled',
+      disabled: 'Disabled',
+      askNow: 'You can now ask your question.',
+      askAnother: 'Ask another question',
+      changeSetup: 'Change setup',
+      newChat: 'Start new chat',
+      nextQuestionStatus: 'Ask your next question.',
+      keepSetupStatus: 'Choose whether to keep your setup.',
+      keepSetupQuestion: 'Do you want to keep your previous setup?',
+      keepSetup: 'Keep previous setup',
+      changeSetupChoice: 'Change setup',
+      setupAgain: 'Let us set up your chat again.',
+      updateQuestion: 'What would you like to change?',
+      answerModeShort: 'Answer mode',
+      voiceShort: 'Voice response',
+      typePlaceholder: 'Type your question...',
+      setupPlaceholder: 'Complete setup to start chatting...',
+      typing: 'AI is typing...',
+      responseReceived: 'Response received.',
+      feedback: 'Feedback'
+    },
+    Hindi: {
+      setupStatus: 'शुरू करने के लिए सेटअप पूरा करें।',
+      readyStatus: 'चैट के लिए तैयार।',
+      chooseLanguage: 'कृपया अपनी पसंदीदा भाषा चुनें।',
+      welcome: 'नमस्ते! Paddy Mitra में आपका स्वागत है।',
+      chooseCatalogue: 'आगे बढ़ने के लिए कैटलॉग चुनें।',
+      noCatalogueStatus: 'कोई तैयार कैटलॉग उपलब्ध नहीं है।',
+      noCatalogue: 'कोई तैयार कैटलॉग उपलब्ध नहीं है। पहले कैटलॉग vector DB बनाइए।',
+      chooseDistrict: 'कृपया अपना जिला चुनें।',
+      districtSelected: 'जिला चुना गया।',
+      searchDistrict: 'जिला खोजें...',
+      continue: 'आगे बढ़ें',
+      answerMode: 'आप किस तरह का उत्तर चाहते हैं?',
+      farmer: 'किसान',
+      farmerDesc: 'छोटे, सरल, किसान-हितैषी उत्तर।',
+      researcher: 'शोधकर्ता',
+      researcherDesc: 'संदर्भों के साथ विस्तृत तकनीकी उत्तर।',
+      voiceQuestion: 'क्या आप आवाज में उत्तर चाहते हैं?',
+      yes: 'हाँ',
+      no: 'नहीं',
+      setupDone: 'सेटअप पूरा हुआ।',
+      catalogue: 'कैटलॉग',
+      language: 'भाषा',
+      district: 'जिला',
+      mode: 'मोड',
+      voiceResponse: 'आवाज उत्तर',
+      enabled: 'चालू',
+      disabled: 'बंद',
+      askNow: 'अब आप अपना प्रश्न पूछ सकते हैं।',
+      askAnother: 'एक और प्रश्न पूछें',
+      changeSetup: 'सेटअप बदलें',
+      newChat: 'नई चैट शुरू करें',
+      nextQuestionStatus: 'अपना अगला प्रश्न पूछें।',
+      keepSetupStatus: 'चुनें कि सेटअप रखना है या नहीं।',
+      keepSetupQuestion: 'क्या आप पिछला सेटअप रखना चाहते हैं?',
+      keepSetup: 'पिछला सेटअप रखें',
+      changeSetupChoice: 'सेटअप बदलें',
+      setupAgain: 'चैट सेटअप फिर से करते हैं।',
+      updateQuestion: 'आप क्या बदलना चाहते हैं?',
+      answerModeShort: 'उत्तर मोड',
+      voiceShort: 'आवाज उत्तर',
+      typePlaceholder: 'अपना प्रश्न लिखें...',
+      setupPlaceholder: 'चैट शुरू करने के लिए सेटअप पूरा करें...',
+      typing: 'AI लिख रहा है...',
+      responseReceived: 'उत्तर मिल गया।',
+      feedback: 'फीडबैक'
+    },
+    Odia: {
+      setupStatus: 'ଆରମ୍ଭ କରିବା ପାଇଁ ସେଟଅପ୍ ପୂରା କରନ୍ତୁ।',
+      readyStatus: 'ଚାଟ୍ ପାଇଁ ପ୍ରସ୍ତୁତ।',
+      chooseLanguage: 'ଦୟାକରି ଆପଣଙ୍କ ପସନ୍ଦର ଭାଷା ବାଛନ୍ତୁ।',
+      welcome: 'ନମସ୍କାର! Paddy Mitra କୁ ସ୍ୱାଗତ।',
+      chooseCatalogue: 'ଆଗକୁ ବଢିବା ପାଇଁ କ୍ୟାଟାଲଗ୍ ବାଛନ୍ତୁ।',
+      noCatalogueStatus: 'କୌଣସି ପ୍ରସ୍ତୁତ କ୍ୟାଟାଲଗ୍ ନାହିଁ।',
+      noCatalogue: 'କୌଣସି ପ୍ରସ୍ତୁତ କ୍ୟାଟାଲଗ୍ ନାହିଁ। ପ୍ରଥମେ କ୍ୟାଟାଲଗ୍ vector DB ବନାନ୍ତୁ।',
+      chooseDistrict: 'ଦୟାକରି ଆପଣଙ୍କ ଜିଲ୍ଲା ବାଛନ୍ତୁ।',
+      districtSelected: 'ଜିଲ୍ଲା ବାଛାଗଲା।',
+      searchDistrict: 'ଜିଲ୍ଲା ଖୋଜନ୍ତୁ...',
+      continue: 'ଆଗକୁ',
+      answerMode: 'ଆପଣ କେମିତି ଉତ୍ତର ଚାହୁଁଛନ୍ତି?',
+      farmer: 'ଚାଷୀ',
+      farmerDesc: 'ଛୋଟ, ସରଳ, ଚାଷୀ-ଉପଯୋଗୀ ଉତ୍ତର।',
+      researcher: 'ଗବେଷକ',
+      researcherDesc: 'ସନ୍ଦର୍ଭ ସହିତ ବିସ୍ତୃତ ଟେକ୍ନିକାଲ୍ ଉତ୍ତର।',
+      voiceQuestion: 'ଆପଣ ଧ୍ୱନି ଉତ୍ତର ଚାହୁଁଛନ୍ତି କି?',
+      yes: 'ହଁ',
+      no: 'ନା',
+      setupDone: 'ସେଟଅପ୍ ପୂରା ହେଲା।',
+      catalogue: 'କ୍ୟାଟାଲଗ୍',
+      language: 'ଭାଷା',
+      district: 'ଜିଲ୍ଲା',
+      mode: 'ମୋଡ୍',
+      voiceResponse: 'ଧ୍ୱନି ଉତ୍ତର',
+      enabled: 'ଚାଲୁ',
+      disabled: 'ବନ୍ଦ',
+      askNow: 'ଏବେ ଆପଣ ପ୍ରଶ୍ନ ପଚାରିପାରିବେ।',
+      askAnother: 'ଆଉ ଏକ ପ୍ରଶ୍ନ ପଚାରନ୍ତୁ',
+      changeSetup: 'ସେଟଅପ୍ ବଦଳାନ୍ତୁ',
+      newChat: 'ନୂଆ ଚାଟ୍ ଆରମ୍ଭ କରନ୍ତୁ',
+      nextQuestionStatus: 'ଆପଣଙ୍କ ପରବର୍ତ୍ତୀ ପ୍ରଶ୍ନ ପଚାରନ୍ତୁ।',
+      keepSetupStatus: 'ପୁରୁଣା ସେଟଅପ୍ ରଖିବେ କି ନାହିଁ ବାଛନ୍ତୁ।',
+      keepSetupQuestion: 'ଆପଣ ପୂର୍ବ ସେଟଅପ୍ ରଖିବାକୁ ଚାହୁଁଛନ୍ତି କି?',
+      keepSetup: 'ପୂର୍ବ ସେଟଅପ୍ ରଖନ୍ତୁ',
+      changeSetupChoice: 'ସେଟଅପ୍ ବଦଳାନ୍ତୁ',
+      setupAgain: 'ଚାଟ୍ ସେଟଅପ୍ ପୁଣି କରିବା।',
+      updateQuestion: 'ଆପଣ କଣ ବଦଳାଇବାକୁ ଚାହୁଁଛନ୍ତି?',
+      answerModeShort: 'ଉତ୍ତର ମୋଡ୍',
+      voiceShort: 'ଧ୍ୱନି ଉତ୍ତର',
+      typePlaceholder: 'ଆପଣଙ୍କ ପ୍ରଶ୍ନ ଲେଖନ୍ତୁ...',
+      setupPlaceholder: 'ଚାଟ୍ ଆରମ୍ଭ କରିବାକୁ ସେଟଅପ୍ ପୂରା କରନ୍ତୁ...',
+      typing: 'AI ଲେଖୁଛି...',
+      responseReceived: 'ଉତ୍ତର ମିଳିଲା।',
+      feedback: 'ମତାମତ'
+    },
+    Bengali: {
+      setupStatus: 'শুরু করতে সেটআপ সম্পূর্ণ করুন।',
+      readyStatus: 'চ্যাটের জন্য প্রস্তুত।',
+      chooseLanguage: 'অনুগ্রহ করে আপনার পছন্দের ভাষা নির্বাচন করুন।',
+      welcome: 'নমস্কার! Paddy Mitra-তে স্বাগতম।',
+      chooseCatalogue: 'চালিয়ে যেতে একটি ক্যাটালগ নির্বাচন করুন।',
+      noCatalogueStatus: 'কোনও প্রস্তুত ক্যাটালগ নেই।',
+      noCatalogue: 'কোনও প্রস্তুত ক্যাটালগ নেই। আগে ক্যাটালগ vector DB তৈরি করুন।',
+      chooseDistrict: 'অনুগ্রহ করে আপনার জেলা নির্বাচন করুন।',
+      districtSelected: 'জেলা নির্বাচন করা হয়েছে।',
+      searchDistrict: 'জেলা খুঁজুন...',
+      continue: 'চালিয়ে যান',
+      answerMode: 'আপনি কী ধরনের উত্তর চান?',
+      farmer: 'কৃষক',
+      farmerDesc: 'ছোট, সহজ, কৃষক-বান্ধব উত্তর।',
+      researcher: 'গবেষক',
+      researcherDesc: 'রেফারেন্সসহ বিস্তারিত প্রযুক্তিগত উত্তর।',
+      voiceQuestion: 'আপনি কি ভয়েস উত্তর চান?',
+      yes: 'হ্যাঁ',
+      no: 'না',
+      setupDone: 'সেটআপ সম্পূর্ণ হয়েছে।',
+      catalogue: 'ক্যাটালগ',
+      language: 'ভাষা',
+      district: 'জেলা',
+      mode: 'মোড',
+      voiceResponse: 'ভয়েস উত্তর',
+      enabled: 'চালু',
+      disabled: 'বন্ধ',
+      askNow: 'এখন আপনি আপনার প্রশ্ন করতে পারেন।',
+      askAnother: 'আরেকটি প্রশ্ন করুন',
+      changeSetup: 'সেটআপ পরিবর্তন করুন',
+      newChat: 'নতুন চ্যাট শুরু করুন',
+      nextQuestionStatus: 'আপনার পরের প্রশ্ন করুন।',
+      keepSetupStatus: 'পূর্বের সেটআপ রাখবেন কি না নির্বাচন করুন।',
+      keepSetupQuestion: 'আপনি কি পূর্বের সেটআপ রাখতে চান?',
+      keepSetup: 'পূর্বের সেটআপ রাখুন',
+      changeSetupChoice: 'সেটআপ পরিবর্তন করুন',
+      setupAgain: 'আবার চ্যাট সেটআপ করি।',
+      updateQuestion: 'আপনি কী পরিবর্তন করতে চান?',
+      answerModeShort: 'উত্তর মোড',
+      voiceShort: 'ভয়েস উত্তর',
+      typePlaceholder: 'আপনার প্রশ্ন লিখুন...',
+      setupPlaceholder: 'চ্যাট শুরু করতে সেটআপ সম্পূর্ণ করুন...',
+      typing: 'AI লিখছে...',
+      responseReceived: 'উত্তর পাওয়া গেছে।',
+      feedback: 'ফিডব্যাক'
+    }
+  };
+
+  function t(key) {
+    var language = chatConfig.language ? chatConfig.language.value : 'English';
+    return (uiText[language] && uiText[language][key]) || uiText.English[key] || key;
+  }
+
+  var feedbackLabels = {
+    English: {
+      Correct: 'Correct',
+      'Need Improvement': 'Need improvement',
+      Incorrect: 'Incorrect'
+    },
+    Hindi: {
+      Correct: 'सही',
+      'Need Improvement': 'सुधार चाहिए',
+      Incorrect: 'गलत'
+    },
+    Odia: {
+      Correct: 'ଠିକ୍',
+      'Need Improvement': 'ସୁଧାର ଦରକାର',
+      Incorrect: 'ଭୁଲ'
+    },
+    Bengali: {
+      Correct: 'সঠিক',
+      'Need Improvement': 'উন্নতি দরকার',
+      Incorrect: 'ভুল'
+    }
+  };
+
+  function getSelectOptions(selectEl, includeBlank) {
+    if (!selectEl) return [];
+    return Array.prototype.slice.call(selectEl.options).filter(function(option) {
+      return includeBlank || option.value;
+    }).map(function(option) {
+      return {
+        value: option.value,
+        label: option.textContent.trim()
+      };
+    });
+  }
+
+  function getFeedbackLabels(language) {
+    return feedbackLabels[language] || feedbackLabels.English;
+  }
+
+  function getCsrfToken() {
+    var tokenInput = document.querySelector('input[name="csrfmiddlewaretoken"]');
+    return tokenInput ? tokenInput.value : '';
+  }
+
+  function setStatus(message, isError) {
+    if (!statusEl) return;
+    statusEl.textContent = message;
+    statusEl.style.color = isError ? '#B91C1C' : '#64748B';
+  }
+
+  function scrollChatToBottom() {
+    if (!chatWindow) return;
+    chatWindow.scrollTop = chatWindow.scrollHeight;
+  }
+
+  function setChatEnabled(enabled) {
+    setupComplete = enabled;
+    if (chatInput) {
+      chatInput.disabled = !enabled;
+      chatInput.placeholder = enabled ? t('typePlaceholder') : t('setupPlaceholder');
+    }
+    if (micBtn) micBtn.disabled = !enabled;
+    if (sendBtn) sendBtn.disabled = !enabled;
+  }
+
+  function showTypingIndicator() {
+    if (!chatWindow || typingBubble) return;
+    typingBubble = document.createElement('div');
+    typingBubble.className = 'pm-chat-bubble bot';
+
+    var label = document.createElement('div');
+    label.className = 'pm-chat-label';
+    label.textContent = 'Paddy Mitra';
+    typingBubble.appendChild(label);
+
+    var dots = document.createElement('div');
+    dots.className = 'pm-typing-dots';
+    dots.innerHTML = '<span></span><span></span><span></span>';
+    typingBubble.appendChild(dots);
+
+    chatWindow.appendChild(typingBubble);
+    scrollChatToBottom();
+  }
+
+  function hideTypingIndicator() {
+    if (typingBubble && typingBubble.parentNode) {
+      typingBubble.parentNode.removeChild(typingBubble);
+    }
+    typingBubble = null;
+  }
+
+  function showBotMessage(text, delayMs) {
+    delayMs = typeof delayMs === 'number' ? delayMs : 500;
+    return new Promise(function(resolve) {
+      showTypingIndicator();
+      window.setTimeout(function() {
+        hideTypingIndicator();
+        appendMessage('assistant', text);
+        resolve();
+      }, delayMs);
+    });
+  }
+
+  function showUserMessage(text, voiceUrl) {
+    appendMessage('user', text, voiceUrl);
+  }
+
+  function appendMessage(role, text, voiceUrl, chatQueryId, language) {
+    if (!chatWindow) return;
+    var bubble = document.createElement('div');
+    bubble.className = 'pm-chat-bubble ' + (role === 'user' ? 'user' : 'bot');
+
+    var label = document.createElement('div');
+    label.className = 'pm-chat-label';
+    label.textContent = role === 'user' ? 'You' : 'Paddy Mitra';
+    bubble.appendChild(label);
+
+    var textEl = document.createElement('div');
+    textEl.className = 'pm-chat-text';
+    textEl.textContent = text || '';
+    bubble.appendChild(textEl);
+
+    if (voiceUrl) {
+      var audio = document.createElement('audio');
+      audio.controls = true;
+      audio.src = voiceUrl;
+      audio.style.marginTop = '10px';
+      bubble.appendChild(audio);
+    }
+
+    if (role === 'assistant') {
+      addFeedbackControl(bubble, chatQueryId, language);
+    }
+
+    chatWindow.appendChild(bubble);
+    scrollChatToBottom();
+  }
+
+  function clearPendingSetupControls() {
+    var controls = chatWindow ? chatWindow.querySelectorAll('.pm-quick-replies, .pm-district-picker, .pm-persona-replies') : [];
+    Array.prototype.forEach.call(controls, function(control) {
+      if (control.parentNode) control.parentNode.removeChild(control);
+    });
+  }
+
+  function showQuickReplies(options, handler, extraClass) {
+    clearPendingSetupControls();
+    var wrap = document.createElement('div');
+    wrap.className = extraClass || 'pm-quick-replies';
+
+    options.forEach(function(option) {
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = extraClass === 'pm-persona-replies' ? 'pm-persona-btn' : 'pm-quick-btn';
+      btn.dataset.value = option.value;
+      btn.dataset.label = option.label;
+
+      if (option.description) {
+        btn.innerHTML = '<strong>' + option.label + '</strong><span>' + option.description + '</span>';
+      } else {
+        btn.textContent = option.label;
+      }
+
+      btn.addEventListener('click', function() {
+        clearPendingSetupControls();
+        handler(option);
+      });
+      wrap.appendChild(btn);
+    });
+
+    chatWindow.appendChild(wrap);
+    scrollChatToBottom();
+  }
+
+  async function initializeChatbot() {
+    if (!chatWindow) return;
+    chatWindow.innerHTML = '';
+    setChatEnabled(false);
+    setStatus(t('setupStatus'));
+    await showBotMessage(t('welcome'), 250);
+    window.setTimeout(function() {
+      askLanguage();
+    }, 1000);
+  }
+
+  async function askLanguage() {
+    currentStepIndex = SETUP_STEPS.indexOf('language');
+    await showBotMessage(t('chooseLanguage'), 450);
+    showQuickReplies(getSelectOptions(languageSelect, false), handleLanguageSelection);
+  }
+
+  async function askCatalogue() {
+    currentStepIndex = SETUP_STEPS.indexOf('catalogue');
+    await showBotMessage(t('chooseCatalogue'), 450);
+    var catalogues = getSelectOptions(catalogueSelect, false);
+    if (!catalogues.length) {
+      setStatus(t('noCatalogueStatus'), true);
+      await showBotMessage(t('noCatalogue'), 450);
+      return;
+    }
+    showQuickReplies(catalogues, handleCatalogueSelection);
+  }
+
+  async function handleCatalogueSelection(option) {
+    chatConfig.catalogue = option;
+    if (catalogueSelect) catalogueSelect.value = option.value;
+    showUserMessage(option.label);
+    currentStepIndex = SETUP_STEPS.indexOf('district');
+    await showBotMessage(t('chooseDistrict'), 450);
+    showDistrictPicker();
+  }
+
+  async function handleLanguageSelection(option) {
+    chatConfig.language = option;
+    if (languageSelect) languageSelect.value = option.value;
+    showUserMessage(option.label);
+    await askCatalogue();
+  }
+
+  function showDistrictPicker(selectionHandler) {
+    clearPendingSetupControls();
+    var wrap = document.createElement('div');
+    wrap.className = 'pm-district-picker';
+    selectionHandler = selectionHandler || handleDistrictSelection;
+
+    var search = document.createElement('input');
+    search.type = 'search';
+    search.placeholder = t('searchDistrict');
+    search.setAttribute('aria-label', 'Search district');
+
+    var select = document.createElement('select');
+    select.setAttribute('aria-label', 'District');
+    var districtOptions = getSelectOptions(districtSelect, true);
+
+    function renderDistrictOptions(filterText) {
+      var previousValue = select.value;
+      select.innerHTML = '';
+      districtOptions.filter(function(option) {
+        return !filterText || option.label.toLowerCase().indexOf(filterText.toLowerCase()) !== -1;
+      }).forEach(function(option) {
+        var opt = document.createElement('option');
+        opt.value = option.value;
+        opt.textContent = option.label;
+        select.appendChild(opt);
+      });
+      if (previousValue) select.value = previousValue;
+    }
+
+    renderDistrictOptions('');
+    if (districtSelect && districtSelect.value) select.value = districtSelect.value;
+    search.addEventListener('input', function() {
+      renderDistrictOptions(search.value.trim());
+    });
+
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'pm-action-btn';
+    btn.textContent = t('continue');
+    btn.addEventListener('click', function() {
+      var selected = select.options[select.selectedIndex];
+      if (!selected || !selected.value) {
+        setStatus(t('chooseDistrict'), true);
+        return;
+      }
+      clearPendingSetupControls();
+      selectionHandler({
+        value: selected.value,
+        label: selected.textContent.trim()
+      });
+    });
+
+    wrap.appendChild(search);
+    wrap.appendChild(select);
+    wrap.appendChild(btn);
+    chatWindow.appendChild(wrap);
+    scrollChatToBottom();
+  }
+
+  async function handleDistrictSelection(option) {
+    chatConfig.district = option;
+    if (districtSelect) districtSelect.value = option.value;
+    showUserMessage(option.label);
+    setStatus(t('districtSelected'));
+    currentStepIndex = SETUP_STEPS.indexOf('ask_as');
+    await showBotMessage(t('answerMode'), 450);
+    showQuickReplies([
+      {
+        value: 'farmer',
+        label: t('farmer'),
+        description: t('farmerDesc')
+      },
+      {
+        value: 'researcher',
+        label: t('researcher'),
+        description: t('researcherDesc')
+      }
+    ], handleAskAsSelection, 'pm-persona-replies');
+  }
+
+  async function handleAskAsSelection(option) {
+    chatConfig.askAs = {
+      value: option.value,
+      label: option.value === 'researcher' ? t('researcher') : t('farmer')
+    };
+    Array.prototype.forEach.call(personaRadios, function(radio) {
+      radio.checked = radio.value === option.value;
+    });
+    showUserMessage(chatConfig.askAs.label);
+    currentStepIndex = SETUP_STEPS.indexOf('voice');
+    await showBotMessage(t('voiceQuestion'), 450);
+    showQuickReplies([
+      { value: 'yes', label: t('yes') },
+      { value: 'no', label: t('no') }
+    ], handleVoiceSelection);
+  }
+
+  async function handleVoiceSelection(option) {
+    chatConfig.generateVoice = option.value === 'yes';
+    if (ttsCheckbox) ttsCheckbox.checked = chatConfig.generateVoice;
+    showUserMessage(option.label);
+    await completeSetup();
+  }
+
+  async function completeSetup() {
+    currentStepIndex = SETUP_STEPS.length;
+    var modeLabel = '';
+    if (chatConfig.askAs) {
+      modeLabel = chatConfig.askAs.value === 'researcher' ? t('researcher') : t('farmer');
+      chatConfig.askAs.label = modeLabel;
+    }
+    var summary = [
+      t('setupDone'),
+      '',
+      t('catalogue') + ': ' + (chatConfig.catalogue ? chatConfig.catalogue.label : ''),
+      t('language') + ': ' + (chatConfig.language ? chatConfig.language.label : ''),
+      t('district') + ': ' + (chatConfig.district ? chatConfig.district.label : ''),
+      t('mode') + ': ' + modeLabel,
+      t('voiceResponse') + ': ' + (chatConfig.generateVoice ? t('enabled') : t('disabled')),
+      '',
+      t('askNow')
+    ].join('\n');
+
+    await showBotMessage(summary, 450);
+    setChatEnabled(true);
+    setStatus(t('readyStatus'));
+    if (chatInput) chatInput.focus();
+  }
+
+  function showPostAnswerActions() {
+    showQuickReplies([
+      { value: 'ask_again', label: t('askAnother') },
+      { value: 'change_setup', label: t('changeSetup') },
+      { value: 'new_chat', label: t('newChat') }
+    ], handlePostAnswerAction);
+  }
+
+  async function handlePostAnswerAction(option) {
+    showUserMessage(option.label);
+
+    if (option.value === 'ask_again') {
+      setChatEnabled(true);
+      setStatus(t('nextQuestionStatus'));
+      if (chatInput) chatInput.focus();
+      return;
+    }
+
+    if (option.value === 'change_setup') {
+      await askSetupChange();
+      return;
+    }
+
+    if (option.value === 'new_chat') {
+      await startNewChat();
+    }
+  }
+
+  async function startNewChat() {
+    if (!chatWindow) return;
+    chatWindow.innerHTML = '';
+    setChatEnabled(false);
+    setStatus(t('keepSetupStatus'));
+    await showBotMessage(t('keepSetupQuestion'), 450);
+    showQuickReplies([
+      { value: 'keep', label: t('keepSetup') },
+      { value: 'change', label: t('changeSetupChoice') }
+    ], handleNewChatSetupChoice);
+  }
+
+  async function handleNewChatSetupChoice(option) {
+    showUserMessage(option.label);
+
+    if (option.value === 'keep') {
+      await completeSetup();
+      return;
+    }
+
+    resetChatConfig();
+    await showBotMessage(t('setupAgain'), 450);
+    await askLanguage();
+  }
+
+  function resetChatConfig() {
+    chatConfig = {
+      catalogue: null,
+      language: null,
+      district: null,
+      askAs: null,
+      generateVoice: false
+    };
+    if (catalogueSelect) catalogueSelect.value = '';
+    if (languageSelect) languageSelect.value = 'English';
+    if (districtSelect) districtSelect.value = '';
+    Array.prototype.forEach.call(personaRadios, function(radio) {
+      radio.checked = radio.value === 'farmer';
+    });
+    if (ttsCheckbox) ttsCheckbox.checked = false;
+  }
+
+  async function askSetupChange() {
+    setChatEnabled(false);
+    setStatus(t('updateQuestion'));
+    await showBotMessage(t('updateQuestion'), 450);
+    showQuickReplies([
+      { value: 'catalogue', label: t('catalogue') },
+      { value: 'language', label: t('language') },
+      { value: 'district', label: t('district') },
+      { value: 'ask_as', label: t('answerModeShort') },
+      { value: 'voice', label: t('voiceShort') }
+    ], handleSetupChangeSelection);
+  }
+
+  async function handleSetupChangeSelection(option) {
+    showUserMessage(option.label);
+
+    if (option.value === 'catalogue') {
+      await showBotMessage(t('chooseCatalogue'), 450);
+      showQuickReplies(getSelectOptions(catalogueSelect, false), handleCatalogueChangeOnly);
+      return;
+    }
+
+    if (option.value === 'language') {
+      await showBotMessage(t('chooseLanguage'), 450);
+      showQuickReplies(getSelectOptions(languageSelect, false), handleLanguageChangeOnly);
+      return;
+    }
+
+    if (option.value === 'district') {
+      await showBotMessage(t('chooseDistrict'), 450);
+      showDistrictPicker(handleDistrictChangeOnly);
+      return;
+    }
+
+    if (option.value === 'ask_as') {
+      await showBotMessage(t('answerMode'), 450);
+      showQuickReplies([
+        {
+          value: 'farmer',
+          label: t('farmer'),
+          description: t('farmerDesc')
+        },
+        {
+          value: 'researcher',
+          label: t('researcher'),
+          description: t('researcherDesc')
+        }
+      ], handleAskAsChangeOnly, 'pm-persona-replies');
+      return;
+    }
+
+    if (option.value === 'voice') {
+      await showBotMessage(t('voiceQuestion'), 450);
+      showQuickReplies([
+        { value: 'yes', label: t('yes') },
+        { value: 'no', label: t('no') }
+      ], handleVoiceChangeOnly);
+    }
+  }
+
+  async function handleCatalogueChangeOnly(option) {
+    chatConfig.catalogue = option;
+    if (catalogueSelect) catalogueSelect.value = option.value;
+    showUserMessage(option.label);
+    await completeSetup();
+  }
+
+  async function handleLanguageChangeOnly(option) {
+    chatConfig.language = option;
+    if (languageSelect) languageSelect.value = option.value;
+    showUserMessage(option.label);
+    await completeSetup();
+  }
+
+  async function handleDistrictChangeOnly(option) {
+    chatConfig.district = option;
+    if (districtSelect) districtSelect.value = option.value;
+    showUserMessage(option.label);
+    await completeSetup();
+  }
+
+  async function handleAskAsChangeOnly(option) {
+    chatConfig.askAs = {
+      value: option.value,
+      label: option.value === 'researcher' ? t('researcher') : t('farmer')
+    };
+    Array.prototype.forEach.call(personaRadios, function(radio) {
+      radio.checked = radio.value === option.value;
+    });
+    showUserMessage(chatConfig.askAs.label);
+    await completeSetup();
+  }
+
+  async function handleVoiceChangeOnly(option) {
+    chatConfig.generateVoice = option.value === 'yes';
+    if (ttsCheckbox) ttsCheckbox.checked = chatConfig.generateVoice;
+    showUserMessage(option.label);
+    await completeSetup();
+  }
+
+  function saveChatFeedback(chatQueryId, feedback, feedbackLocal, container) {
+    var fd = new FormData();
+    fd.append('feedback', feedback);
+    fd.append('feedback_local', feedbackLocal);
+
+    fetch(feedbackUrlTemplate.replace('/0/', '/' + chatQueryId + '/'), {
+      method: 'POST',
+      headers: { 'X-CSRFToken': getCsrfToken() },
+      body: fd,
+      credentials: 'same-origin'
+    }).then(function(response) {
+      return response.json().then(function(data) {
+        return { ok: response.ok, data: data };
+      });
+    }).then(function(result) {
+      if (!result.ok || !result.data.ok) {
+        setStatus('Feedback save failed: ' + (result.data.error || 'unknown error'), true);
+        return;
+      }
+      container.innerHTML = '';
+      var saved = document.createElement('span');
+      saved.style.fontSize = '12px';
+      saved.style.color = '#047857';
+      saved.style.fontWeight = '600';
+      saved.textContent = result.data.feedback_local || feedbackLocal;
+      container.appendChild(saved);
+      setStatus('Feedback saved.');
+    }).catch(function(err) {
+      setStatus('Feedback save failed: ' + (err.message || err), true);
+    });
+  }
+
+  function addFeedbackControl(bubble, chatQueryId, language) {
+    if (!chatQueryId) return;
+
+    var wrap = document.createElement('div');
+    wrap.style.marginTop = '10px';
+    wrap.style.display = 'flex';
+    wrap.style.flexWrap = 'wrap';
+    wrap.style.gap = '8px';
+    wrap.style.alignItems = 'center';
+
+    var feedbackBtn = document.createElement('button');
+    feedbackBtn.type = 'button';
+    feedbackBtn.textContent = t('feedback');
+    feedbackBtn.className = 'pm-quick-btn';
+    feedbackBtn.style.padding = '5px 10px';
+    feedbackBtn.style.fontSize = '12px';
+    wrap.appendChild(feedbackBtn);
+
+    var options = document.createElement('div');
+    options.style.display = 'none';
+    options.style.flexWrap = 'wrap';
+    options.style.gap = '6px';
+    wrap.appendChild(options);
+
+    var labels = getFeedbackLabels(language);
+    ['Correct', 'Need Improvement', 'Incorrect'].forEach(function(value) {
+      var option = document.createElement('button');
+      option.type = 'button';
+      option.textContent = labels[value];
+      option.className = 'pm-quick-btn';
+      option.style.padding = '5px 10px';
+      option.style.fontSize = '12px';
+      option.addEventListener('click', function() {
+        saveChatFeedback(chatQueryId, value, labels[value], wrap);
+      });
+      options.appendChild(option);
+    });
+
+    feedbackBtn.addEventListener('click', function() {
+      feedbackBtn.style.display = 'none';
+      options.style.display = 'flex';
+    });
+
+    bubble.appendChild(wrap);
+  }
+
+  async function sendChat() {
+    if (!setupComplete) {
+      setStatus('Please complete setup before sending.', true);
+      return;
+    }
+
+    var text = chatInput.value.trim();
+    if (!text) {
+      setStatus('Type a question or record audio before sending.', true);
+      return;
+    }
+
+    // Move the recording into the message as it is sent, so the farmer can still
+    // hear what they asked while the answer is being prepared. `sent` keeps the
+    // blob alive for the upload after clearPendingAudio() revokes the preview URL.
+    var sent = pendingAudio;
+    showUserMessage(text, sent ? URL.createObjectURL(sent.blob) : '');
+    clearPendingSetupControls();
+    chatInput.value = '';
+    setStatus(t('typing'));
+    if (sendBtn) sendBtn.disabled = true;
+    showTypingIndicator();
+
+    var fd = new FormData();
+    fd.append('catalogue', chatConfig.catalogue ? chatConfig.catalogue.value : '');
+    fd.append('farmer_language', chatConfig.language ? chatConfig.language.value : 'English');
+    fd.append('district', chatConfig.district ? chatConfig.district.value : '');
+    fd.append('user_type', chatConfig.askAs ? chatConfig.askAs.value : 'farmer');
+    fd.append('generate_tts', chatConfig.generateVoice ? 'true' : 'false');
+    fd.append('query_text', text);
+    // Uploaded ONLY here, on send. Everything recorded and re-recorded before
+    // this point stayed in the browser.
+    if (sent) {
+      fd.append('audio', sent.blob, 'recording' + sent.ext);
+      clearPendingAudio();
+    }
+
+    try {
+      var response = await fetch('{% url "queries:demo_chat" %}', {
+        method: 'POST',
+        headers: { 'X-CSRFToken': getCsrfToken() },
+        body: fd,
+        credentials: 'same-origin'
+      });
+      var data = await response.json();
+      if (!data.ok) {
+        appendMessage('assistant', data.error || 'Unable to process your query.');
+        setStatus('Error: ' + (data.error || 'Request failed.'), true);
+      } else {
+        appendMessage(
+          'assistant',
+          data.ai_response_text_local || data.ai_response_text || '',
+          data.ai_response_voice_url,
+          data.chat_query_id,
+          chatConfig.language ? chatConfig.language.value : 'English'
+        );
+        setStatus(t('responseReceived'));
+        showPostAnswerActions();
+      }
+    } catch (err) {
+      appendMessage('assistant', 'Network error. Please try again.');
+      setStatus('Network error: ' + (err.message || err), true);
+    } finally {
+      hideTypingIndicator();
+      if (sendBtn) sendBtn.disabled = false;
+    }
+  }
+
+  function formatTime(ms) {
+    var s = Math.floor(ms / 1000);
+    return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2);
+  }
+
+  function drawBars() {
+    if (!window.analyser || !canvas) return;
+    var w = canvas.clientWidth;
+    var h = canvas.clientHeight;
+    if (canvas.width !== w) canvas.width = w;
+    if (canvas.height !== h) canvas.height = h;
+    var ctx = canvas.getContext('2d');
+    var bufLen = window.analyser.frequencyBinCount;
+    var data = new Uint8Array(bufLen);
+    window.analyser.getByteFrequencyData(data);
+    ctx.clearRect(0, 0, w, h);
+    var barCount = 32;
+    var step = Math.max(1, Math.floor(bufLen / barCount));
+    var barW = (w - (barCount - 1) * 2) / barCount;
+    for (var i = 0; i < barCount; i++) {
+      var v = data[i * step] / 255;
+      var barH = Math.max(2, v * h);
+      ctx.fillStyle = '#10B981';
+      ctx.fillRect(i * (barW + 2), (h - barH) / 2, barW, barH);
+    }
+    window.rafId = requestAnimationFrame(drawBars);
+  }
+
+  function updateRecordingUI(on) {
+    if (recRow) recRow.style.display = on ? 'flex' : 'none';
+  }
+
+  function teardownStream() {
+    if (window.rafId) { cancelAnimationFrame(window.rafId); window.rafId = null; }
+    if (window.timerInterval) { clearInterval(window.timerInterval); window.timerInterval = null; }
+    try { if (window.srcNode) window.srcNode.disconnect(); } catch (_) {}
+    try { if (window.audioCtx && window.audioCtx.state !== 'closed') window.audioCtx.close(); } catch (_) {}
+    try { if (window.stream) window.stream.getTracks().forEach(function(t) { t.stop(); }); } catch (_) {}
+    window.srcNode = null; window.analyser = null; window.audioCtx = null; window.stream = null;
+  }
+
+  function stopRec(discard) {
+    window.cancelled = !!discard;
+    if (window.recorder && window.recorder.state !== 'inactive') {
+      setStatus(discard ? 'Cancelling...' : 'Stopping...');
+      window.recorder.stop();
+    } else {
+      teardownStream();
+      updateRecordingUI(false);
+    }
+  }
+
+  async function startRec() {
+    if (!setupComplete) {
+      setStatus('Please complete setup before recording.', true);
+      return;
+    }
+    if (!navigator.mediaDevices || !window.MediaRecorder) {
+      setStatus('Audio recording is not supported in this browser.', true);
+      return;
+    }
+    try {
+      window.stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    } catch (e) {
+      setStatus('Mic permission denied: ' + (e && e.message || e), true);
+      return;
+    }
+    window.chunks = [];
+    window.cancelled = false;
+
+    var mime = '';
+    var prefs = ['audio/webm;codecs=opus', 'audio/webm', 'audio/ogg;codecs=opus', 'audio/mp4'];
+    for (var i = 0; i < prefs.length; i++) {
+      if (window.MediaRecorder.isTypeSupported && window.MediaRecorder.isTypeSupported(prefs[i])) {
+        mime = prefs[i];
+        break;
+      }
+    }
+    window.recorder = new MediaRecorder(window.stream, mime ? { mimeType: mime } : undefined);
+    window.recorder.ondataavailable = function(e) {
+      if (e.data && e.data.size) window.chunks.push(e.data);
+    };
+    window.recorder.onstop = function() {
+      var blob = new Blob(window.chunks, { type: window.recorder.mimeType || 'audio/webm' });
+      teardownStream();
+      updateRecordingUI(false);
+      if (window.cancelled) {
+        setStatus('Recording cancelled.');
+        return;
+      }
+      var ext = blob.type.indexOf('ogg') > -1 ? '.ogg' : blob.type.indexOf('mp4') > -1 ? '.m4a' : '.webm';
+      uploadAndTranscribe(blob, ext);
+    };
+
+    try {
+      window.audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      window.srcNode = window.audioCtx.createMediaStreamSource(window.stream);
+      window.analyser = window.audioCtx.createAnalyser();
+      window.analyser.fftSize = 128;
+      window.srcNode.connect(window.analyser);
+    } catch (_) {}
+
+    updateRecordingUI(true);
+    timerEl.textContent = '0:00';
+    var startTime = Date.now();
+    window.timerInterval = setInterval(function() {
+      timerEl.textContent = formatTime(Date.now() - startTime);
+    }, 250);
+    drawBars();
+    window.recorder.start();
+    setStatus('Recording... click ✓ to stop, ✕ to cancel.');
+  }
+
+  // ── The recording waiting to be sent ─────────────────────────────────────
+  // Held in the page, NOT uploaded, until the farmer presses send. Re-recording
+  // replaces it, so only the take they actually chose ever reaches the server.
+  var pendingAudio = null;      // { blob, ext, url }
+
+  function clearPendingAudio() {
+    if (pendingAudio && pendingAudio.url) URL.revokeObjectURL(pendingAudio.url);
+    pendingAudio = null;
+    var row = document.getElementById('pm-audio-preview');
+    if (row) row.style.display = 'none';
+  }
+
+  function setPendingAudio(blob, ext) {
+    clearPendingAudio();
+    pendingAudio = { blob: blob, ext: ext, url: URL.createObjectURL(blob) };
+    var row = document.getElementById('pm-audio-preview');
+    var player = document.getElementById('pm-audio-preview-player');
+    if (row && player) {
+      player.src = pendingAudio.url;
+      row.style.display = 'flex';
+    }
+  }
+
+  function uploadAndTranscribe(blob, ext) {
+    if (!setupComplete) {
+      setStatus('Please complete setup before transcription.', true);
+      return;
+    }
+
+    setStatus('Transcribing...');
+    var fd = new FormData();
+    fd.append('audio', blob, 'recording' + ext);
+    fd.append('language', chatConfig.language ? chatConfig.language.value : 'English');
+    fetch('{% url "catalogues:transcribe" %}', {
+      method: 'POST',
+      headers: { 'X-CSRFToken': getCsrfToken() },
+      body: fd,
+      credentials: 'same-origin'
+    }).then(function(r) {
+      return r.json();
+    }).then(function(j) {
+      if (j && j.ok) {
+        chatInput.value = (j.text || '').trim();
+        // Hold on to the recording so it can be SENT with the question. A new
+        // recording replaces this one, so a take that came out badly is simply
+        // dropped and never uploaded.
+        setPendingAudio(blob, ext);
+        setStatus(j.text ? 'Transcribed. Play it back, edit the text if needed, then send.'
+                         : 'No speech detected. Play it back and try again.');
+        chatInput.focus();
+      } else {
+        setStatus('Transcription failed: ' + (j && j.error || 'unknown error'), true);
+      }
+    }).catch(function(e) {
+      setStatus('Transcription error: ' + (e && e.message || e), true);
+    });
+  }
+
+  var discardBtn = document.getElementById('pm-audio-preview-discard');
+  if (discardBtn) {
+    discardBtn.addEventListener('click', function() {
+      clearPendingAudio();
+      setStatus('Recording discarded. The text is still there — record again or type.');
+    });
+  }
+
+  if (micBtn && recRow && chatInput) {
+    micBtn.addEventListener('click', startRec);
+    doneBtn.addEventListener('click', function() { stopRec(false); });
+    cancelBtn.addEventListener('click', function() { stopRec(true); });
+  }
+
+  if (sendBtn) {
+    sendBtn.addEventListener('click', sendChat);
+  }
+
+  if (chatInput) {
+    chatInput.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter' && !event.shiftKey) {
+        event.preventDefault();
+        sendChat();
+      }
+    });
+  }
+
+  window.initializeChatbot = initializeChatbot;
+  window.showBotMessage = showBotMessage;
+  window.showUserMessage = showUserMessage;
+  window.showQuickReplies = showQuickReplies;
+  window.handleCatalogueSelection = handleCatalogueSelection;
+  window.handleLanguageSelection = handleLanguageSelection;
+  window.handleDistrictSelection = handleDistrictSelection;
+  window.handleAskAsSelection = handleAskAsSelection;
+  window.handleVoiceSelection = handleVoiceSelection;
+  window.completeSetup = completeSetup;
+
+  initializeChatbot();
+})();
+</script>
+{% endblock %}

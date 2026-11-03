@@ -1,0 +1,49 @@
+{% extends 'base.html' %}{% load irri_extras %}
+{% block page_title %}Users &amp; Roles{% endblock %}
+{% block topbar_actions %}
+  <a href="{% url 'accounts:user_create' %}" class="btn btn-primary btn-sm">{% icon "plus" 14 %} Add User</a>
+{% endblock %}
+{% block content %}
+<div class="stats-grid fade-in">
+  <div class="stat-card"><div class="stat-icon green">{% icon "users" 22 %}</div><div class="stat-value">{{ total_users }}</div><div class="stat-label">Total users</div></div>
+  <div class="stat-card"><div class="stat-icon blue">{% icon "bolt" 22 %}</div><div class="stat-value">{{ active_users }}</div><div class="stat-label">Active</div></div>
+  <div class="stat-card"><div class="stat-icon amber">{% icon "ban" 22 %}</div><div class="stat-value">{{ inactive_users }}</div><div class="stat-label">Inactive</div></div>
+  <div class="stat-card"><div class="stat-icon purple">{% icon "cog" 22 %}</div><div class="stat-value">{{ roles_defined }}</div><div class="stat-label">Roles</div></div>
+</div>
+
+<div class="card fade-in" style="margin-bottom:24px;">
+  <div class="card-header"><h3>Roles &amp; permissions matrix</h3></div>
+  <table class="data-table">
+    <thead><tr><th>Role</th><th>Dashboard</th><th>Queries</th><th>Documents</th><th>Publish</th><th>Keywords</th><th>Catalogues</th><th>Hooks</th><th>Users</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Administrator</strong><br><span style="font-size:11px;color:var(--gray-400);">Full system access</span></td><td>✅</td><td>✅</td><td>✅ CRUD</td><td>✅</td><td>✅ CRUD</td><td>✅ CRUD</td><td>✅ CRUD</td><td>✅ CRUD</td></tr>
+      <tr><td><strong>Editor</strong><br><span style="font-size:11px;color:var(--gray-400);">Content management</span></td><td>✅</td><td>✅ View</td><td>✅ CRUD</td><td>✅</td><td>✅ CRUD</td><td>✅ CRUD</td><td>❌</td><td>❌</td></tr>
+      <tr><td><strong>Knowledge Worker</strong><br><span style="font-size:11px;color:var(--gray-400);">Upload &amp; draft only</span><br><span style="font-size:10px;color:#2563EB;">Sub-types: Private Company, NGO, KVK, University</span><br><span style="font-size:10px;color:#92400E;">⚠ Mandatory Reviewer approval before publish</span></td><td>✅</td><td>✅ View</td><td>✅ Upload</td><td>❌ Draft only</td><td>✅ View</td><td>✅ View</td><td>❌</td><td>❌</td></tr>
+      <tr><td><strong>Reviewer</strong><br><span style="font-size:11px;color:var(--gray-400);">Feedback &amp; approval</span></td><td>✅</td><td>✅ View + Flag</td><td>✅ View + Approve</td><td>✅ Approve</td><td>✅ View</td><td>❌</td><td>❌</td><td>❌</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card fade-in">
+  <div class="card-header"><h3>All users</h3></div>
+  <table class="data-table">
+    <thead><tr><th>Email</th><th>Name</th><th>Role</th><th>Organization</th><th>Status</th><th>Last login</th><th>Actions</th></tr></thead>
+    <tbody>
+      {% for u in users %}
+      <tr>
+        <td>{{ u.email }}</td>
+        <td>{{ u.full_name|default:"—" }}</td>
+        <td>{% if u.role %}<span class="badge badge-purple">{{ u.role.name }}</span>{% else %}—{% endif %}</td>
+        <td><span style="font-size:12px;color:var(--gray-500);">{{ u.organization_type }}</span></td>
+        <td><span class="badge {{ u.status|badge_class }}">{{ u.status }}</span></td>
+        <td>{{ u.last_login|date:"d M Y, H:i"|default:"—" }}</td>
+        <td>
+          <a href="{% url 'accounts:user_edit' u.pk %}" class="btn btn-xs btn-secondary">Edit</a>
+          {% if u.pk != request.user.pk %}<a href="{% url 'accounts:user_delete' u.pk %}" class="btn btn-xs btn-danger">Delete</a>{% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

@@ -1,0 +1,1174 @@
+{
+ "source": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+ "sha256": "c50ec3afd01b3e8fca259fd5bb03daf81dc5bd82be1ae154fada3d3d9291f0e2",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:59:46",
+ "chunk_count": 96,
+ "chunks": [
+  {
+   "text": "EDITED BY\nKatharina Hildegard Elisabeth Meurer, Swedish University of Agricultural Sciences, Sweden\nREVIEWED BY Sharif Ahmed, International Rice Research Institute (IRRI), Philippines Kanu Murmu, Bidhan Chandra Krishi Viswavidyalaya, India",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 1,
+    "section": "EDITED BY"
+   }
+  },
+  {
+   "text": "*CORRESPONDENCE\nAjay Kumar Mishra\n```\na.k.mishra@irri.org\n```\nRECEIVED 06 February 2025 ACCEPTED 09 April 2025 PUBLISHED 30 April 2025",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 1,
+    "section": "*CORRESPONDENCE"
+   }
+  },
+  {
+   "text": "CITATION\nChaudhary A, Mishra AK, Venkatram anan V and Sharma S (2025) Enhancing yield and GHG mitigation through site-specific nutrient management for transplanted and direct-seeded rice in Odisha, India. Front. Sustain. Food Syst. 9:1571263. doi: 10.3389/fsufs.2025.1571263",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 1,
+    "section": "CITATION"
+   }
+  },
+  {
+   "text": "COPYRIGHT\n© 2025 Chaudhary, Mishra, Venkatramanan and Sharma. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 1,
+    "section": "COPYRIGHT"
+   }
+  },
+  {
+   "text": "Enhancing yield and GHG mitigation through site-specific nutrient management for transplanted and direct-seeded rice in Odisha, India\nAnjali Chaudhary 1 , Ajay Kumar Mishra 2 *,\nVeluswamy Venkatramanan 1 and Sheetal Sharma 2\n1 School of Interdisciplinary & Transdisciplinary Studies, Indira Gandhi National Open University, New Delhi, India, 2 International Rice Research Institute South Asia Regional Centre, Varanasi, Uttar Pradesh, India\nThe Rice Crop Manager (RCM), a web-based decision support tool rooted in SiteSpecific Nutrient Management (SSNM), provides transformative solutions to address the challenges of fertilizer overuse and underuse in rice production. This study, conducted across diverse agro-ecologies in Odisha, India, evaluates the impact of SSNM under two rice establishment methods-Transplanted Rice (TPR) and Direct-Seeded Rice (DSR)-over six cropping seasons. Results reveal that RCM recommendations consistently increased grain yields by 17-19% compared to traditional Farmer Fertilizer Practices (FFP) while significantly improving nitrogen and potassium use efficiency. SSNM also reduced phosphorus application rates by 8.6-18.1 kg/ha and effectively mitigated critical micronutrient deficiencies, particularly zinc. Additionally, RCM treatments demonstrated reduced greenhouse gas (GHG) emissions compared to FFP, highlighting the role of precision agriculture in mitigating climate impacts. Despite slightly higher initial input costs, RCM delivered greater economic returns through optimized fertilizer use. While TPR exhibited higher yield advantages, DSR emerged as a resource-efficient and mechanization-compatible alternative, though it requires targeted interventions to address challenges such as nitrous oxide emissions. This study underscores the potential of RCM as a scalable, data-driven solution for enhancing productivity, profitability, and environmental sustainability in rice systems.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 1,
+    "section": "Enhancing yield and GHG mitigation through site-specific nutrient management for transplanted and direct-seeded rice in Odisha, India"
+   }
+  },
+  {
+   "text": "KEYWORDS\nsite-specific nutrient management, Rice Crop Manager, transplanted rice, directseeded rice, greenhouse gas emissions, fertilizer efficiency",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 1,
+    "section": "KEYWORDS"
+   }
+  },
+  {
+   "text": "1 Introduction\nRice (Oryza sativa L.) is a staple diet for almost 3 billion people worldwide, making it the most crucial crop for food security and human consumption (Chaudhary et al., 2023; Prabhudeva et al., 2017), providing more than 20% of global caloric intake (FAO, 2020). Its cultivation spans diverse agro-climatic zones, making it a lifeline for food security, especially in developing countries. However, the sector faces multiple challenges, including stagnating yields, diminishing arable land, and the increasing impact of climate change on production systems. These challenges necessitate innovative agricultural strategies to ensure sustainable rice cultivation practices.\nRice is pivotal in South Asia, where it occupies nearly 45% of the total cultivated area and contributes substantially to national economies and rural livelihoods (IRRI, 2019). Globally, India is the world's second-largest rice producer and consumer, with eastern regions, particularly Odisha, serving as crucial production hubs. However, traditional methods in these areas often rely on uniform fertilizer practices that fail to consider the variability of soil and crop conditions. Such practices can lead to suboptimal yields, resource wastage, and environmental degradation.\nSite-Specific Nutrient Management (SSNM) is an innovative approach tailored to address these concerns. It emphasizes the efficient use of fertilizers by considering site-specific field characteristics and crop requirements. Unlike blanket fertilizer applications, SSNM minimizes nutrient losses, enhances soil health, and improves yield outcomes. To increase production, SSNM is becoming vital in rice and other cropping systems (Dobermann and Witt, 2004; Sapkota et al., 2016). This approach reduces the overuse of fertilizers and significantly reduces greenhouse gas emissions. Research highlights that adopting SSNM can improve nitrogen use efficiency by 20-30% and reduce greenhouse gas (GHG) emissions significantly, aligning ag",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 1,
+    "section": "1 Introduction",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "ricultural practices with sustainability goals (Dobermann, 2007; Peng and Cassman, 1998).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 1,
+    "section": "1 Introduction",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "1 Introduction\nSSNM focuses on understanding and addressing field-level variability in soil nutrient availability and crop requirements. By calibrating nutrient application rates and timings to specific field conditions, SSNM enhances resource efficiency and crop productivity. The methodology has been globally validated for improving the performance of high-yielding rice varieties, particularly in regions facing diverse agro-climatic challenges (Witt and Dobermann, 2004).\nThe Rice Crop Manager (RCM), developed by the International Rice Research Institute (IRRI), is a digital extension of SSNM principles. RCM integrates field data with scientific algorithms to recommend tailored fertilizer management plans, accounting for local soil types, climate, and historical yields. This technology is particularly relevant for regions like Odisha, India, characterized by high agroclimatic diversity and extensive smallholder farming. By providing precise and actionable guidance, RCM helps farmers optimize resource use, increase profitability, and mitigate environmental impacts.\nSeveral studies in South and Southeast Asia underscore RCM's efficacy in improving rice yields and profitability. For instance, Banayo et al. (2018) demonstrated that RCM increased grain yield by 15-20% in the Philippines. Similarly, Sharma et al. (2019a) reported a substantial improvement in nitrogen use efficiency in India.\nTraditionally, rice is cultivated by inundating the fields and placing seedlings into the flooded soil. Therefore, rice farming in Asia is faced with two risks, mainly, increasing labor costs and the predicted scarcity of irrigation water brought on by climate change and variability (Pandey and Velasco, 2005). Furthermore, there are other limitations as well. Direct-seeded rice (DSR) is a promising alternative technology that can guarantee optimal water use in an environmentally friendly way and produce more grain with less effort (Chaudhary et al., 2023).\nSo far, all the studies carr",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 2,
+    "section": "1 Introduction",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "ied out with RCM have used TPR and the scope of RCM in DSR has not been studied yet. Building on these findings, the primary goal of this study is to assess how integrating two distinct rice establishment methods-Transplanted Rice (TPR) and Direct Seeded Rice (DSR) with SSNM, as facilitated by RCM, impacts productivity, profitability, and environmental sustainability in Odisha, a region predominantly reliant on lowland rice farming during both wet (kharif) and dry (rabi) seasons Specifically, the objectives are:",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 2,
+    "section": "1 Introduction",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "1 Introduction\n- To evaluate the yield potential of rice under RCM and traditional Farmer Fertilizer Practices (FFP) with two rice establishment methods (TPR and DSR) across diverse agro-ecology of Odisha.\n- To assess economic returns by analyzing the gross return above fertilizer cost (GRF) under RCM and FFP scenarios.\n- To quantify GHG emissions and identify practices that reduce the environmental footprint of rice cultivation.\nOdisha's unique agro-climatic conditions present significant opportunities for improving rice cultivation. However, challenges such as low productivity due to inefficient fertilizer use, high input costs, and increasing vulnerability to climate change demand targeted interventions. By leveraging RCM and DSR, this research seeks to bridge the gap between traditional practices and modern, data-driven agriculture. The outcomes of this study will provide actionable insights into how a combination of advanced nutrient management and strategic crop establishment methods can enhance sustainable rice production in Odisha, offering a scalable model for other regions facing similar challenges.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 8,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 2,
+    "section": "1 Introduction"
+   }
+  },
+  {
+   "text": "2.1 Experimental site\nOdisha has a wide spectrum of agro-ecosystems, ranging from lowland to upland environments, and diverse climatic conditions, including varying rainfall patterns, temperature ranges, and soil types. To cover the diverse agro-ecology of the state, the trials were dispersed among 13 principal rice growing districts in five out of the 10 ACZs of Odisha (Figure 1). On-farm head to head trials were conducted with TPR and DSR rice for 3 years covering three kharif cropping seasons (2019, 2020, 2021) and three rabi seasons (2019-2020, 2020-2021, 2021-2022). Rabi is the dry season, which lasts from October to March during the dry, mild winters, while Kharif is the rainy season, which lasts from July to October when the southwest monsoon begins.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 9,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 2,
+    "section": "2.1 Experimental site"
+   }
+  },
+  {
+   "text": "2.2 Climate\nThe climatic conditions of the study area are sub-tropical humid with high temperature and high humidity. The summer temperatures range between 25°C and 45°C, particularly in May, the hottest month. Winter temperatures range from 10°C to 25°C, with coastal areas experiencing milder winters than inland regions. The relative humidity remains high, typically ranging from 60 to 85%, especially during the monsoon and post-monsoon periods. Odisha receives an annual rainfall of 1,200-1,600 mm, with over 75% of it occurring between June and September due to the southwest monsoon. The coastal belt experiences slightly higher rainfall than inland areas. The pattern of rainfall is medium to high during the kharif season. All of the rabi experiments were irrigated, but the kharif trials were both rainfed and irrigated. Rice was grown under lowland conditions.\nOdisha has a diverse soil profile, largely influenced by its climatic conditions, topography, and parent rock material. Soils vary from alluvial deltaic soils in coastal plains to mixed red and black soils in central tablelands, as well as red and yellow soils with low fertility in the northern plateau.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 10,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 2,
+    "section": "2.2 Climate"
+   }
+  },
+  {
+   "text": "2.3 Experimental design\nThe experiment was tested in 719 farmers' fields in 3 years (Table 1). In kharif season, trials were conducted with both transplanted rice and direct seeded rice while in rabi season, trials were conducted only with transplanted rice as farmers do not opt for DSR in rabi due to various constraints.\n- a) The key reason is that farmers opt for combine harvesters to harvest kharif rice due to which soil is disturbed and it makes DSR difficult. These soil conditions negatively impact seed germination, root development, and overall crop establishment in a DSR system. Unlike puddled transplanted rice (PTR), which allows better nutrient retention and reduced weed emergence, DSR requires precise soil fertility management, which many smallholder farmers find challenging. As a result, the cost of field preparation also increases.\n- b) Weed infestation remains a major limitation in DSR due to the absence of water as a natural weed suppressant, a feature of the conventional puddled system. It further increases herbicide dependency, leading to higher input costs and resistance development. Small and marginal farmers in Odisha often lack\n3. access to effective herbicide regimes and mechanized weeders, further discouraging the adoption of DSR.\n- c) The rabi season in Odisha is characterized by low precipitation and a high dependence on irrigation. DSR, which is more vulnerable to soil moisture fluctuations, requires efficient irrigation scheduling, particularly during germination and early vegetative growth. This lack of knowledge also discourages farmers from opting for DSR in rabi.\n- d) Even after all these constraints, even if farmers opt for DSR, the yield gets impacted in DSR which causes financial loss to farmers. After harvesting of the kharif rice, if farmers opt for DSR and choose short duration variety the harvesting of rabi rice goes up to June and then Odisha starts getting its pre-monsoon rains. After rainfall, the lowland area takes time to dr",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 11,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 3,
+    "section": "2.3 Experimental design",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "y and then other problems arise like water logging etc. All these factors impact the yield and therefore, farmers either prefer to leave the land fallow or opt for pulses, oilseeds or vegetables which can grow in residual moisture or have low water requirements.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 11,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 3,
+    "section": "2.3 Experimental design",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "2.3 Experimental design\nBefore conducting the trials, a list of farmers who were growing rice through both technologies (i.e., DSR and TPR) was compiled with the help of IRRI's Agriculture Extension agents at the district level working on DSR in the area. In each trial, the farmer's field was used to compare two nutrient management treatments, i.e., FFP and RCM along with two rice establishment techniques (TPR and DSR). The",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 12,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 3,
+    "section": "2.3 Experimental design"
+   }
+  },
+  {
+   "text": "2.3 Experimental design\n| - |\n| TABLE 1 Rates of N, P, and K fertilizer, Total Fertilizer Cost (TFC), measured grain yield and Partial Factor Productivity of added N (PFP) for field specific nutrient management provided by Rice Crop Manager (RCM) and Farmers' Fertilizer Practice (FFP) in TPR and DSR across two seasons (Kharif and Rabi) and 3 years in Odisha, India. |\n| Trials (n), Treatments = . Trials (n), 2019 = 150. Trials (n), Kharif 2020 = 150. Trials (n), 2021 = 150. Trials (n), 2019-20 = 89. Trials (n), Rabi 2020-21 = 90. Trials (n), 2021-22 = 90. , Treatments = TPR-RCM. , 2019 = 5.05 a. , Kharif 2020 = 5.08 a. , 2021 = 5.03 a. , 2019-20 = 5.08 a. , Rabi 2020-21 = 5.07 a. , 2021-22 = 5.05 a. Grain yield (t/ha), Treatments = TPR-FFP. Grain yield (t/ha), 2019 = 4.22 b. Grain yield (t/ha), Kharif 2020 = 4.29 b. Grain yield (t/ha), 2021 = 4.17 b. Grain yield (t/ha), 2019-20 = 4.23 b. Grain yield (t/ha), Rabi 2020-21 = 4.27 b. Grain yield (t/ha), 2021-22 = 4.26 b. , Treatments = RCM vs. FFP. , 2019 = 0.83. , Kharif 2020 = 0.79. , 2021 = 0.86. , 2019-20 = 0.85. , Rabi 2020-21 = 0.80. , 2021-22 = 0.79. , Treatments = DSR-RCM. , 2019 = 5.04 a. , Kharif 2020 = 5.07 a. , 2021 = 5.04 a. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . , Treatments = DSR-FFP. , 2019 = 4.23 b. , Kharif 2020 = 4.26 b. , 2021 = 4.22 b.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 13,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 4,
+    "section": "2.3 Experimental design"
+   }
+  },
+  {
+   "text": "2.3 Experimental design\n| - |\n , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . , Treatments = RCM vs. FFP. , 2019 = 0.81. , Kharif 2020 = 0.81. , 2021 = 0.82. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . N rate (kg/ha), Treatments = TPR-RCM. N rate (kg/ha), 2019 = 114 b. N rate (kg/ha), Kharif 2020 = 114 b. N rate (kg/ha), 2021 = 114 b. N rate (kg/ha), 2019-20 = 94.1 a. N rate (kg/ha), Rabi 2020-21 = 88.7 b. N rate (kg/ha), 2021-22 = 94.5 a. , Treatments = TPR-FFP. , 2019 = 96.6 d. , Kharif 2020 = 96.8 c. , 2021 = 96.8 c. , 2019-20 = 97.6 b. , Rabi 2020-21 = 97.6 a. , 2021-22 = 99.6 a. , Treatments = RCM vs. FFP. , 2019 = 17.4. , Kharif 2020 = 17.2. , 2021 = 17.2. , 2019-20 = -3.5. , Rabi 2020-21 = -8.9. , 2021-22 = -5.1 ns. , Treatments = DSR-RCM. , 2019 = 120 a. , Kharif 2020 = 120 a. , 2021 = 119 a. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . , Treatments = DSR-FFP. , 2019 = 97.3 c. , Kharif 2020 = 97.4 c. , 2021 = 97.4 c. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . , Treatments = RCM vs. FFP. , 2019 = 22.7. , Kharif 2020 = 22.6. , 2021 = 21.6. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . P rate (kg/ha), Treatments = TPR-RCM. P rate (kg/ha),",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 14,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 4,
+    "section": "2.3 Experimental design"
+   }
+  },
+  {
+   "text": "2.3 Experimental design\n| - |\n 2019 = 34.0 c. P rate (kg/ha), Kharif 2020 = 34.1 c. P rate (kg/ha), 2021 = 34.1 c. P rate (kg/ha), 2019-20 = 32.6 b. P rate (kg/ha), Rabi 2020-21 = 32.9 b. P rate (kg/ha), 2021-22 = 33.2 b. , Treatments = TPR-FFP. , 2019 = 49.7 a. , Kharif 2020 = 50.2 a. , 2021 = 50.4 a. , 2019-20 = 48.2 a. , Rabi 2020-21 = 47.9 a. , 2021-22 = 50.8 a. , Treatments = RCM vs. FFP. , 2019 = -15.7. , Kharif 2020 = -16.1. , 2021 = -16.3. , 2019-20 = -15.6. , Rabi 2020-21 = -15.0. , 2021-22 = -17.6. , Treatments = DSR-RCM. , 2019 = 35.0 c. , Kharif 2020 = 34.9 c. , 2021 = 34.9 c. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . , Treatments = DSR-FFP. , 2019 = 44.0 b. , Kharif 2020 = 45.2 c. , 2021 = 45.3 b. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . , Treatments = RCM vs. FFP. , 2019 = -9.0. , Kharif 2020 = -10.3 ns. , 2021 = -10.4. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . K rate (kg/ha), Treatments = TPR-RCM. K rate (kg/ha), 2019 = 57.1 a. K rate (kg/ha), Kharif 2020 = 57.4 a. K rate (kg/ha), 2021 = 57.4 a. K rate (kg/ha), 2019-20 = 40.5 a. K rate (kg/ha), Rabi 2020-21 = 42.3 a. K rate",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 15,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 4,
+    "section": "2.3 Experimental design"
+   }
+  },
+  {
+   "text": "2.3 Experimental design\n| - |\n (kg/ha), 2021-22 = 37.3 a. , Treatments = TPR-FFP. , 2019 = 41.7 c. , Kharif 2020 = 41.7 c. , 2021 = 41.7 c. , 2019-20 = 34.9 b. , Rabi 2020-21 = 35.2 b. , 2021-22 = 32.3 b. , Treatments = RCM vs. FFP. , 2019 = 15.4. , Kharif 2020 = 15.7. , 2021 = 15.7. , 2019-20 = 5.6. , Rabi 2020-21 = 7.1. , 2021-22 = 5.0. , Treatments = DSR-RCM. , 2019 = 53.9 b. , Kharif 2020 = 53.9 b. , 2021 = 53.9 b. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . , Treatments = DSR-FFP. , 2019 = 41.8 c. , Kharif 2020 = 41.4 c. , 2021 = 41.3 c. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . , Treatments = RCM vs. FFP. , 2019 = 12.1. , Kharif 2020 = 12.5. , 2021 = 12.6. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . Zn rate (kg/ha), Treatments = TPR-RCM. Zn rate (kg/ha), 2019 = 5.25 a. Zn rate (kg/ha), Kharif 2020 = 5.25 a. Zn rate (kg/ha), 2021 = 5.25 a. Zn rate (kg/ha), 2019-20 = 4.07 a. Zn rate (kg/ha), Rabi 2020-21 = 4.17 a. Zn rate (kg/ha), 2021-22 = 4.67 a. , Treatments = TPR-FFP. , 2019 = 0.49 b. , Kharif 2020 = 0.88 b. , 2021 = 0.35 b. , 2019-20 = 0.27 b. , Rabi 2020-21 = 0.35 b. , 2021-22 = 0.00 b.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 16,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 4,
+    "section": "2.3 Experimental design"
+   }
+  },
+  {
+   "text": "2.3 Experimental design\n| - |\n , Treatments = RCM vs. FFP. , 2019 = 4.76. , Kharif 2020 = 4.37. , 2021 = 4.90. , 2019-20 = 3.80. , Rabi 2020-21 = 3.82. , 2021-22 = 4.67. , Treatments = DSR-RCM. , 2019 = 5.25 a. , Kharif 2020 = 5.25 a. , 2021 = 5.25 a. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . , Treatments = DSR-FFP. , 2019 = 0.35 b. , Kharif 2020 = 0.49 b. , 2021 = 0.11 c. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . , Treatments = RCM vs. FFP. , 2019 = 4.90. , Kharif 2020 = 4.76. , 2021 = 5.14. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . TFC (US$/ha), Treatments = TPR-RCM. TFC (US$/ha), 2019 = 75.9 a. TFC (US$/ha), Kharif 2020 = 76.2 a. TFC (US$/ha), 2021 = 95.2 a. TFC (US$/ha), 2019-20 = 60.0 b. TFC (US$/ha), Rabi 2020-21 = 60.5 b. TFC (US$/ha), 2021-22 = 74.7 b. , Treatments = TPR-FFP. , 2019 = 68.7 b. , Kharif 2020 = 69.0 b. , 2021 = 91.2 b. , 2019-20 = 63.3 a. , Rabi 2020-21 = 63.4 a. , 2021-22 = 84.7 a. , Treatments = RCM vs. FFP. , 2019 = 7.2. , Kharif 2020 = 7.2. , 2021 = 4.0. , 2019-20 = -3.3. , Rabi 2020-21 = -2.9. , 2021-22 = -10.0. , Treatments = DSR-RCM. , 2019 = 75.1 a.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 17,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 4,
+    "section": "2.3 Experimental design"
+   }
+  },
+  {
+   "text": "2.3 Experimental design\n| - |\n , Kharif 2020 = 75.0 a. , 2021 = 94.2 a. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . , Treatments = DSR-FFP. , 2019 = 66.3 c. , Kharif 2020 = 66.6 c. , 2021 = 87.1 c. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . , Treatments = RCM vs. FFP. , 2019 = 8.8. , Kharif 2020 = 8.4. , 2021 = 7.1. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . PFP (kg kg-1), Treatments = TPR-RCM. PFP (kg kg-1), 2019 = 43.0 a. PFP (kg kg-1), Kharif 2020 = 43.2 a. PFP (kg kg-1), 2021 = 42.7 a. PFP (kg kg-1), 2019-20 = 52.6 a. PFP (kg kg-1), Rabi 2020-21 = 55.4 a. PFP (kg kg-1), 2021-22 = 51.8 a. , Treatments = TPR-FFP. , 2019 = 42.2 a. , Kharif 2020 = 42.8 a. , 2021 = 41.6 ab. , 2019-20 = 42.0 b. , Rabi 2020-21 = 42.2 b. , 2021-22 = 41.3 b. , Treatments = RCM vs. FFP. , 2019 = 0.8 ns. , Kharif 2020 = 0.4 ns. , 2021 = 1.1 ns. , 2019-20 = 10.6. , Rabi 2020-21 = 13.2. , 2021-22 = 10.5. , Treatments = DSR-RCM. , 2019 = 40.4 b. , Kharif 2020 = 40.8 b. , 2021 = 40.6 b. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = . , Treatments = DSR-FFP. , 2019 = 41.9 b. , Kharif 2020 = 42.1 b. , 2021 = 41.8 ab. , 2019-20 =",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 18,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 4,
+    "section": "2.3 Experimental design"
+   }
+  },
+  {
+   "text": "2.3 Experimental design\n| - |\n . , Rabi 2020-21 = . , 2021-22 = . , Treatments = RCM vs. FFP. , 2019 = -1.5 ns. , Kharif 2020 = -1.3 ns. , 2021 = -1.2 ns. , 2019-20 = . , Rabi 2020-21 = . , 2021-22 = |\n\nns, not significant (p > 0.05).\nfield was partitioned into two plots, each with a size ranging between 8 and 12 decimals. The scenarios in transplanted trials were TPR-RCM (T1) and TPR-FFP (T2); while the direct-seeded trial scenarios were DSR-RCM (T3) and DSR-FFP (T4) respectively.\nBefore starting of the cropping season, each farmer from 719 trials was interviewed to figure out when each farmer planned to apply fertilizer, how much fertilizer he applied, and the fertilizer sources selected by him. Each field trial used a different planned fertilizer technique, which was used as the FFP treatment. Prior to giving RCM recommendations to farmers, FFP was fixed in order to ensure that FFP was not affected by RCM.\nThe farmers with RCM trials were interviewed one-to-one before crop establishment to gather information on parameters like farmer's field location, field size, rice variety used, anticipated age of seedlings at transplanting, water regime (rainfed or irrigated), choice of fertilizer sources, rice yield in preceding years with the same or similar variety and portion of above-ground residues from the preceding crop retained in the field. Using the information about the history of the field from the farmers, to reach a target yield established by RCM for every field, the software 1 calculated the fertilizer recommendation particular to each field. Target yield for RCM in our study was within 3.0-6.5 Mg ha -1 . Rates and timings for applying fertilizer sources chosen by the farmer were incorporated in the RCM suggestion. It functioned as the RCM treatment and was different for every field study. Each year different sets of farmers were selected for the trials.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 19,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 4,
+    "section": "2.3 Experimental design"
+   }
+  },
+  {
+   "text": "2.4 Nutrient management\nThe primary source of fertilizer N was Urea, the main source of fertilizer K was muriate of potash (MOP), while diammonium phosphate (DAP) was the principal source of fertilizer P and zinc sulfate (ZnSO4) was the primary supply of fertilizer Zn throughout the RCM and FFP treatments. Zinc is not economical, so a very small percentage of farmers use it. To refrain fertilizer movement in and out of plots, an earthen levee was laid around each plot.\nRCM recommendations both for TPR and DSR were provided to farmers from time to time based on the information collected previously about the name of variety used, time of sowing and the seedlings' transplanting age. The rice varieties chosen by the farmers in our study varied in terms of growth duration and predominance between the rabi and the kharif seasons as RCM works for all varieties. Some common varieties used by farmers were Lalat (121-130 days), Bina 11 (120 days), Lal Kuber (130 days), Swarna (140-145 days), Pooja (145-150 days), Swarna Sub1 (140-145 days).\nAccording to RCM recommendation, three splits of fertilizer N were applied starting from the early vegetative stage to mid-tillering, and panicle initiation. As stated by Peng and Cassman (1998), when it comes to applying fertilizer N, mid-tillering and panicle initiation are crucial phases. The time required to reach these critical stages depends on the age of transplanted seedlings (in TPR) and the growing period of the rice variety chosen.\nFarmers used the blanket fertilizer recommendation which was established using an existing Odisha State recommendation for medium-duration rice varieties on low fertility soil in Rabi and highyielding rice varieties in lowlands during Kharif. 80 kg N ha -1 , 17 kg P ha -1 , and 33 kg K ha -1 were the BFR. 20% of fertilizer N was applied at the basal stage, 50% during tillering, and 30% during the onset of panicles. Fertilizer K was applied 50% basal and 50% at panicle commencement, while all fertilize",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 20,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 5,
+    "section": "2.4 Nutrient management",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "r P was applied basal.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 20,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 5,
+    "section": "2.4 Nutrient management",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "2.4 Nutrient management\n[1 http://webapps.irri.org/in/od/rcm/](http://webapps.irri.org/in/od/rcm/)\nAll fertilizer applications were managed under supervision to prevent any bias or change on the part of the farmers. Apart from crop establishment and applying fertilizer, other management techniques such as land preparation, variety selection, crop protection measures, water management, and residue management were chosen and carried out by the farmers themselves. To control weeds and insects, manual weeding and the use of chemical herbicides and insecticides was a common practice. Therefore, crop establishment and fertilizer application are the reasons for the disparity in crop performance and productivity in one trial as other parameters were identical.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 21,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 5,
+    "section": "2.4 Nutrient management"
+   }
+  },
+  {
+   "text": "2.4.1 Measurements and data analysis\nFor each trial, the dates of seeding, transplanting, physiological maturity and harvest were recorded. At physiological maturity, grain was harvested from 0.62 decimal area from each plot. A moisture meter was used to determine the grain moisture. At 14% water content, grain yield was measured. The moisture content of grain was determined immediately after threshing to avoid any kind of discrepancy.\nThe cost of fertilizers was calculated from the amount of the fertilizer source used and the prevailing farm gate price during the time of research. Prices were the same for the initial 2 years but after COVID, due to some dispute between government and fertilizer companies, prices increased in the third year. For the years 2019-2021, the prices per 50 kg bag were INR 280 for urea, INR 900 for diammonium phosphate (DAP), INR 1,600 for muriate of potash (MOP) and INR 70 per kg for zinc sulfate. For the year 2021-2022, prices per 50 kg bag increased to INR 350, 1,450, and 1,750 for urea, DAP, and MOP, respectively. Prices of zinc sulfate also increased to INR 80 per kg. The prices were averaged for all seasons and all districts. Then, the sum of the expenses for each source of fertilizer that was applied was then used to determine the total fertilizer cost (TFC). The exchange rate used to report TFC and other financial analyses is 1 US$ = 75 Indian rupees (INR).\nThe Gross return was computed by adding the product of the grain yield obtained and the minimum support price (MSP) for rice fixed by the Indian government at the time of research and the product of straw yield and its price.\n( ) ( ) = × + × Gross return Grain yield MSP Straw yield price",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 22,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 5,
+    "section": "2.4.1 Measurements and data analysis"
+   }
+  },
+  {
+   "text": "2.4.1 Measurements and data analysis\nRice grain was valued at INR 1,815 (per quintal) as per the minimum support price (MSP) set by the Indian government for 2019-20. For 2020-21, it was INR 1,868 (per quintal) and for 2021-22, MSP set was INR 1,940 (per quintal). The straw was valued at Rs. 1.5 per kg, Rs. 2.0 per kg and Rs. 2.5 per kg for 3 years, respectively, in Odisha [Odisha University of Agriculture & Technology (OUAT), Bhubaneswar, Odisha].\nGross return above fertilizer (GRF) cost was estimated as the difference between the gross return and the total fertilizer cost (Sharma et al., 2019b).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 23,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 5,
+    "section": "2.4.1 Measurements and data analysis"
+   }
+  },
+  {
+   "text": "= GRF Gross return-TFC\nPartial factor productivity of added N (PFP) represented in kg grain per kg N was estimated as given below-\n= × PFP 1,000 GY/FN\nWhere GY is grain yield expressed in Mg ha -1 and FN is fertilizer N expressed in kg ha -1 (Sharma et al., 2019b).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 24,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 6,
+    "section": "= GRF Gross return-TFC"
+   }
+  },
+  {
+   "text": "2.5 Statistical evaluation\nXLstat was used to perform an analysis of variance (ANOVA) on all the datasets. For each of the response variables-fertilizer rate (N, P, and K), grain yield, fertilizer cost, GRF, and PFP-ANOVA mixed models were fitted. These variables were used as fixed effects while the treatments were used as random effects. At the 0.05 level of probability, the treatment means for the 3 years of data were compared using the least significant difference (LSD). Following an analysis of the results, tables and graphs were constructed accordingly for interpretation.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 25,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 6,
+    "section": "2.5 Statistical evaluation"
+   }
+  },
+  {
+   "text": "2.6 Greenhouse gas (GHG) emissions\nThe emissions of greenhouse gases from crops were estimated using the Cool Farm Tool (CFT) (Hillier et al., 2011). The CFT is an online GHG emissions calculator specifically designed for the agricultural sector. Developed by the Cool Farm Alliance, using CFT, users can calculate the annual GHG emissions linked to agricultural production. The program considers context-specific factors such as pedoclimatic features, production inputs, and other field and farmlevel management techniques that have an impact on GHG emissions. Users can assess the performance of the production system from the standpoint of GHG emissions, both in terms of land use efficiency and efficiency per unit of product.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 26,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 6,
+    "section": "2.6 Greenhouse gas (GHG) emissions"
+   }
+  },
+  {
+   "text": "3.1 Evaluation of grain yield and nutrient rate under various treatments across rice-growing seasons\nThe performance of the crops with the two establishment methods (TPR and DSR) and two fertilizer management practices (RCM and FFP) was first studied across two cropping seasons (Kharif and Rabi) for three consecutive years (Table 1). The data presented in Table 1 is of the grain yield (in tons per hectare) for four different treatments: TPR-RCM and TPR-FFP, as well as DSR-RCM and DSR-FFP followed by the fertilizer rates of N, P, K, and Zn.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 27,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 6,
+    "section": "3.1 Evaluation of grain yield and nutrient rate under various treatments across rice-growing seasons"
+   }
+  },
+  {
+   "text": "3.1.1 Grain yield\nThe grain yield with RCM was consistently greater than that of FFP by 0.79-0.86 t/ha both in TPR and DSR treatments favoring RCM than FFP in both seasons. Grain yields in TPR-RCM and DSR-RCM were comparable during the kharif season. The mean yields for TPRRCM (5.06 t/ha) and TPR-FFP (4.24 t/ha) show a significant difference with TPR-RCM having higher yields (p < 0.05). This is supported by the calculated RCM vs. FFP ratio of 0.83, indicating an average yield increase of 17% with RCM treatment.\nSimilarly, for DSR, RCM (5.05 t/ha) outperforms FFP (4.24 t/ha) with a significant difference. The RCM vs. FFP ratio is 0.81, suggesting a significant (p < 0.05) average yield increase of 19% with RCM. This indicates that RCM's approach to nutrient management and crop recommendations resulted in improved crop productivity.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 28,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 6,
+    "section": "3.1.1 Grain yield"
+   }
+  },
+  {
+   "text": "3.1.2 Nitrogen application\nOver the years and seasons, the average fertilizer N rates in TPR with RCM recommendations varied from 88.7 to 114 kg ha -1 . This recommendation was higher than the average application in FFP (97.5 kg N ha -1 ) during the kharif season. The mean difference between RCM and FFP in fertilizer N rates was 17.4 kg ha -1 in kharif due to very low N use with FFP. In contrast, mean fertilizer N rates in rabi were lower or non-significant for RCM recommendations (Table 1). Similarly, the mean fertilizer N rates in DSR with RCM were higher than the FFP in the kharif season. The amount of fertilizer N rates averaged 22.3 kg ha -1 higher in RCM than in FFP (Table 1).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 29,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 6,
+    "section": "3.1.2 Nitrogen application"
+   }
+  },
+  {
+   "text": "3.1.3 Phosphorus application\nAcross seasons and years, mean fertilizer P rates in both TPR and DSR treatments were consistently lower with RCM guidelines than FFP (Table 1). In TPR, the average fertilizer P reductions with RCM compared to FFP were 15.0-17.6 kg P ha -1 while in DSR, average fertilizer P reductions were 9.0-10.4 kg P ha -1 or non-significant. P doses were administered as required in all RCM trials, while in FFP, some trials received no P at all, while others received extremely high P rates. Using RCM, the average fertilizer P rates throughout the two seasons varied from 32.6 kg/ha to 50.4 kg/ha.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 30,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 6,
+    "section": "3.1.3 Phosphorus application"
+   }
+  },
+  {
+   "text": "3.1.4 Potassium application\nThe mean K fertilizer rates under RCM were consistently higher than those under FFP over the 3 years in both TPR and DSR treatments. For TPR treatments, fertilizer K rates averaged 15.415.7 kg ha -1 and 5.0-7.1 kg ha -1 higher with RCM than FFP in kharif and rabi, respectively. For DSR, this average rate was 12.112.6 kg ha -1 higher. The fertilizer K rates with RCM were higher because inherently farmers were not applying potassium. Although, they lacked soil testing data; farmers believed that their soils were rich in potash. Due to the intensive rice-rice cropping system over the years, the soil potassium stock depleted drastically in those soils.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 31,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 6,
+    "section": "3.1.4 Potassium application"
+   }
+  },
+  {
+   "text": "3.1.5 Application of zinc\nFor all 3 years, zinc sulfate was applied with RCM in TPR and DSR treatments at a consistent rate (5.25 kg ha -1 ). Since zinc sulfate was administered with RCM in every experiment, but only with some in FFP trials, the average zinc rate under RCM was much higher than FFP throughout two seasons and 3 years. Farmers do not opt to add zinc sulfate in FFP due to higher cost.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 32,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 6,
+    "section": "3.1.5 Application of zinc"
+   }
+  },
+  {
+   "text": "3.1.6 Total fertilizer cost (TFC)\nTFC varied across seasons, years and treatments. Overall, TFC was less in rabi season because of less N, P, and Zn fertilizer use with RCM in the season. In kharif, TFC is more due to higher application of N, K, and Zn fertilizer. Across years also, TFC was more for kharif 2021 and rabi 2021-2022 because of surge in fertilizer prices post-COVID pandemic. Between RCM and FFP treatments, TFC was inherently more for RCM treatments because of the application of zinc sulfate and higher doses of nitrogen and potassium fertilizer. TFC was comparable for TPR-RCM and DSR-RCM across years (75.0-95.2 US$ ha -1 ). Like the difference between RCM and FFP, the mean TFC also changed with FFP throughout different seasons and years (63.391.2 US$ ha -1 ).\nWith RCM, zinc sulfate, diammonium phosphate (DAP), and muriate of potash (MOP) paid the largest shares of the overall fertilizer expenses. Although urea is used in RCM treatments in greater quantities, it contributes less to TFC because of its subsidized cheap price per kilogram in comparison to DAP, MOP, and zinc sulfate.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 33,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 6,
+    "section": "3.1.6 Total fertilizer cost (TFC)"
+   }
+  },
+  {
+   "text": "3.1.7 The partial factor productivity (PFP) of added N\nThe PFP provides insights into the efficiency of nitrogen fertilizer use in relation to grain yield per kg. The difference in PFP between RCM and FFP was non-significant for TPR and DSR across all years in Kharif season (Table 1). The PFP values for TPR-RCM are consistently higher than TPR-FFP across all years (43.0, 43.2, and 42.7 vs. 42.2, 42.8, and 41.6). This suggests that the RCM recommendations for nitrogen are more efficient in terms of grain yield per unit of nitrogen compared to FFP. The PFP values for DSRRCM are slightly lower than those for TPR-RCM in the Kharif season (40.4, 40.8, and 40.6). This indicates that the efficiency of nitrogen use in DSR under RCM is slightly less than that in TPR under RCM for the Kharif season.\nIn rabi, the PFP values for TPR-RCM are higher than TPR-FFP in all years. However, the PFP with RCM remained relatively high (51.8-55.4 kg grain per kg added N) in the rabi season every year, indicating that N fertilizer was not overapplied with RCM (Dobermann, 2007). It also implies that RCM's nitrogen recommendations are more efficient than FFP for this season as well. Across seasons and years, the added net benefit from using RCM instead of FFP was consistently positive. This indicates that farmers who switched from their current fertilizer practice (FFP) to fieldspecific nutrient management (RCM) had a higher probability of financial gain and a lower risk of financial loss.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 34,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 7,
+    "section": "3.1.7 The partial factor productivity (PFP) of added N"
+   }
+  },
+  {
+   "text": "3.2 Evaluation of grain yield and nutrient rate under various treatments across agro-climatic zones (ACZs)\nThe effectiveness of RCM recommendations in comparison to FFP was next investigated in five ACZs over two seasons and 3 years (Table 2). Five ACZs of Odisha state, i.e., North Eastern Coastal Plain; East and South Eastern Coastal Plain; South Eastern Ghat; Western Undulating Zone and Western Central Table Land were studied.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 35,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 7,
+    "section": "3.2 Evaluation of grain yield and nutrient rate under various treatments across agro-climatic zones (ACZs)"
+   }
+  },
+  {
+   "text": "3.2.1 Grain yield\nThe highest yields were generally observed in the TPR-RCM treatment across all zones, with the most significant differences observed in ACZ1 and ACZ3. The DSR-RCM also showed higher yields compared to DSR-FFP, though the differences were more pronounced in certain zones, such as ACZ1 and ACZ2.\nIn kharif, while comparing TPR-RCM (5.00-5.36 t ha -1 ) and DSR-RCM (4.73-5.16 t ha -1 ), it was observed that TPR-RCM\nperformed better in all years. Again, in rabi, TPR-RCM (4.975.33 t ha -1 ) is performing better than TPR-FFP (4.09-4.43 t ha -1 ). The yields were higher in the Kharif season compared to the Rabi season across most zones. This could be attributed to the favorable climatic conditions during the Kharif season, which typically supports better rice growth and productivity.\nThe difference in grain yield during kharif for TPR-RCM than TPR-FFP was 0.68-0.97 t ha -1 while this difference in rabi ranged from 0.77 to 1.00 t ha -1 across ACZs. This indicates that RCM was more successful in raising the yield in Rabi than in Kharif for TPR as compared to FFP.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 36,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 7,
+    "section": "3.2.1 Grain yield"
+   }
+  },
+  {
+   "text": "3.2.1 Grain yield\nThere are variations in grain yield across different ACZs. Different agro-climatic zones exhibited varying yields, for example, ACZ1 (North Eastern Coastal Plain) and ACZ3 (South Eastern Ghats) consistently showed higher yields for both RCM and FFP treatments. This suggests that these zones may have more conducive conditions for rice cultivation, or that the RCM recommendations are particularly well-suited to these environments. For example, ACZ3 (South Eastern Ghat), has higher grain yields (4.84-5.36 t ha -1 ) for both TPR and DSR varieties managed by RCM compared to other zones. In Kharif, ACZ3 performed better in every succeeding year with RCM recommendations for TPR (5.05, 5.36, 5.34 t ha -1 ) and DSR (4.84, 4.94, 5.16 t ha -1 ) in 2019, 2020, 2021, respectively. A similar trend was observed for rabi seasons (5.06, 5.11, 5.09 t ha -1 ). ACZ5 (Western Central Table Land) was also among the top performers with RCM. In Kharif, grain yield consistently increased from 5.11 in 2019 to 5.17 in 2020 and 5.21 t ha -1 in 2021, respectively. In rabi, grain yield was 5.16 to 5.11 and 5.11 t ha -1 for the third year. Owing to better management practices, ACZ5 outperformed TPR-FFP with RCM recommendation. ACZ1 (North Eastern Coastal Plain) shows moderate to high grain yields with RCM across seasons and years (4.93-5.34 t ha -1 in kharif and 5.18-5.33 t ha -1 in rabi). This zone might have favorable conditions or possibly better farming practices. Grain yields for both RCM and FFP treatments are relatively balanced compared to other zones. Grain yields in ACZ4 are generally moderate (4.04-5.30 t ha -1 ). There are instances where this zone lags others, particularly in the Kharif seasons. ACZ2 exhibits good grain yields with RCM especially in the Kharif (4.76-5.18 t ha -1 ). But it did not perform well in rabi.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 37,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 7,
+    "section": "3.2.1 Grain yield"
+   }
+  },
+  {
+   "text": "3.2.1 Grain yield\nRelative yield in rabi was less (4.97-5.01 t ha -1 ) which decreased over the years.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 38,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 7,
+    "section": "3.2.1 Grain yield"
+   }
+  },
+  {
+   "text": "3.2.2 Nutrient rates\nThe nitrogen rates under RCM were higher than FFP across all ACZs, years and treatments. For both TPR and DSR treatments, the mean N fertilizer rate for ACZs in the kharif season was higher with RCM (115-126 kg ha -1 ) while in the rabi season, the mean N fertilizer rate with RCM (91.1-111 kg ha -1 ) for most zones was lower than FFP (97.4-104 kg ha -1 ) (Table 3).\nThe mean fertilizer P rates with RCM were always lower than FFP irrespective of seasons, years, and treatments across all ACZs (Table 3). Phosphorous rates were significantly lower with a decrease ranging from -8.6 kg ha -1 to -17.2 kg ha -1 in the kharif season and with reductions ranging from -12.0 kg ha -1 to -18.1 kg ha -1 in the rabi season. The trend persisted both with TPR and DSR treatments. Greater yield with RCM than FFP was not associated with better efficacy in treating P deficiency because fertilizer P rates were never greater with RCM than FFP across all ACZs in both kharif and rabi for all treatments.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 39,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 7,
+    "section": "3.2.2 Nutrient rates"
+   }
+  },
+  {
+   "text": "3.2.2 Nutrient rates\n| - |\n| TABLE 2 Number of trials and measured rice grain yield for field-specific nutrient management provided by Rice Crop manager (RCM) and Farmers' Fertilizer Practice (FFP) for two seasons (Kharif and Rabi) across five Agro-Climatic Zones (ACZs) and 3 years in Odisha, India. |\n| Trials (n), Season = Kharif. Trials (n), Year = 2019. Trials (n), Treatment = . Trials (n), ACZ1 = 50. Trials (n), ACZ2 = 60. Trials (n), ACZ3 = 10. Trials (n), ACZ4 = 10. Trials (n), ACZ5 = 20. Trials (n), Season = . Trials (n), Year = 2020. Trials (n), Treatment = . Trials (n), ACZ1 = 50. Trials (n), ACZ2 = 60. Trials (n), ACZ3 = 10. Trials (n), ACZ4 = 10. Trials (n), ACZ5 = 20. Trials (n), Season = . Trials (n), Year = 2021. Trials (n), Treatment = . Trials (n), ACZ1 = 50. Trials (n), ACZ2 = 60. Trials (n), ACZ3 = 10. Trials (n), ACZ4 = 10. Trials (n), ACZ5 = 20. Trials (n), Season = Rabi. Trials (n), Year = 2019-20. Trials (n), Treatment = . Trials (n), ACZ1 = 20. Trials (n), ACZ2 = 29. Trials (n), ACZ3 = 10. Trials (n), ACZ4 = 10. Trials (n), ACZ5 = 20. Trials (n), Season = . Trials (n), Year = 2020-21. Trials (n), Treatment = . Trials (n), ACZ1 = 20. Trials (n), ACZ2 = 30. Trials (n), ACZ3 = 10. Trials (n), ACZ4 = 10. Trials (n), ACZ5 = 20. Trials (n), Season = . Trials (n), Year = 2021-22. Trials",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 40,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 8,
+    "section": "3.2.2 Nutrient rates"
+   }
+  },
+  {
+   "text": "3.2.2 Nutrient rates\n| - |\n (n), Treatment = . Trials (n), ACZ1 = 20. Trials (n), ACZ2 = 30. Trials (n), ACZ3 = 10. Trials (n), ACZ4 = 10. Trials (n), ACZ5 = 20. Grain yield (t/ha), Season = Kharif. Grain yield (t/ha), Year = 2019. Grain yield (t/ha), Treatment = TPR-RCM. Grain yield (t/ha), ACZ1 = 5.00 a. Grain yield (t/ha), ACZ2 = 5.16 a. Grain yield (t/ha), ACZ3 = 5.08 a. Grain yield (t/ha), ACZ4 = 5.18 a. Grain yield (t/ha), ACZ5 = 5.11 a. Grain yield (t/ha), Season = . Grain yield (t/ha), Year = . Grain yield (t/ha), Treatment = TPR-FFP. Grain yield (t/ha), ACZ1 = 4.20 b. Grain yield (t/ha), ACZ2 = 4.41 b. Grain yield (t/ha), ACZ3 = 4.38 b. Grain yield (t/ha), ACZ4 = 4.44 bc. Grain yield (t/ha), ACZ5 = 4.31 c. Grain yield (t/ha), Season = . Grain yield (t/ha), Year = . Grain yield (t/ha), Treatment = DSR-RCM. Grain yield (t/ha), ACZ1 = 4.93 a. Grain yield (t/ha), ACZ2 = 5.05 a. Grain yield (t/ha), ACZ3 = 4.84 a. Grain yield (t/ha), ACZ4 = 4.73 ab. Grain yield (t/ha), ACZ5 = 4.82 b. Grain yield (t/ha), Season = . Grain yield (t/ha), Year = . Grain yield (t/ha), Treatment = DSR-FFP. Grain yield (t/ha), ACZ1 = 4.14 b. Grain yield (t/ha), ACZ2 =",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 41,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 8,
+    "section": "3.2.2 Nutrient rates"
+   }
+  },
+  {
+   "text": "3.2.2 Nutrient rates\n| - |\n 4.22 b. Grain yield (t/ha), ACZ3 = 4.10 b. Grain yield (t/ha), ACZ4 = 4.08 c. Grain yield (t/ha), ACZ5 = 4.10 c. Grain yield (t/ha), Season = . Grain yield (t/ha), Year = 2020. Grain yield (t/ha), Treatment = TPR-RCM. Grain yield (t/ha), ACZ1 = 5.20 a. Grain yield (t/ha), ACZ2 = 5.17 a. Grain yield (t/ha), ACZ3 = 5.36 a. Grain yield (t/ha), ACZ4 = 5.30 a. Grain yield (t/ha), ACZ5 = 5.17 a. Grain yield (t/ha), Season = . Grain yield (t/ha), Year = . Grain yield (t/ha), Treatment = TPR-FFP. Grain yield (t/ha), ACZ1 = 4.41 c. Grain yield (t/ha), ACZ2 = 4.49 c. Grain yield (t/ha), ACZ3 = 4.64 bc. Grain yield (t/ha), ACZ4 = 4.32 b. Grain yield (t/ha), ACZ5 = 4.41 c. Grain yield (t/ha), Season = . Grain yield (t/ha), Year = . Grain yield (t/ha), Treatment = DSR-RCM. Grain yield (t/ha), ACZ1 = 5.02 b. Grain yield (t/ha), ACZ2 = 4.76 b. Grain yield (t/ha), ACZ3 = 4.94 ab. Grain yield (t/ha), ACZ4 = 4.98 a. Grain yield (t/ha), ACZ5 = 4.76 b. Grain yield (t/ha), Season = . Grain yield (t/ha), Year = . Grain yield (t/ha), Treatment = DSR-FFP. Grain yield (t/ha), ACZ1 = 4.16 d. Grain yield (t/ha), ACZ2 = 4.10 d. Grain yield",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 42,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 8,
+    "section": "3.2.2 Nutrient rates"
+   }
+  },
+  {
+   "text": "3.2.2 Nutrient rates\n| - |\n (t/ha), ACZ3 = 4.18 c. Grain yield (t/ha), ACZ4 = 4.08 b. Grain yield (t/ha), ACZ5 = 4.11 d. Grain yield (t/ha), Season = . Grain yield (t/ha), Year = 2021. Grain yield (t/ha), Treatment = TPR-RCM. Grain yield (t/ha), ACZ1 = 5.34 a. Grain yield (t/ha), ACZ2 = 5.18 a. Grain yield (t/ha), ACZ3 = 5.34 a. Grain yield (t/ha), ACZ4 = 5.28 a. Grain yield (t/ha), ACZ5 = 5.21 a. Grain yield (t/ha), Season = . Grain yield (t/ha), Year = . Grain yield (t/ha), Treatment = TPR-FFP. Grain yield (t/ha), ACZ1 = 4.47 c. Grain yield (t/ha), ACZ2 = 4.21 c. Grain yield (t/ha), ACZ3 = 4.38 b. Grain yield (t/ha), ACZ4 = 4.44 b. Grain yield (t/ha), ACZ5 = 4.39 b. Grain yield (t/ha), Season = . Grain yield (t/ha), Year = . Grain yield (t/ha), Treatment = DSR-RCM. Grain yield (t/ha), ACZ1 = 5.04 b. Grain yield (t/ha), ACZ2 = 4.95 b. Grain yield (t/ha), ACZ3 = 5.16 a. Grain yield (t/ha), ACZ4 = 4.98 a. Grain yield (t/ha), ACZ5 = 4.94 a. Grain yield (t/ha), Season = . Grain yield (t/ha), Year = . Grain yield (t/ha), Treatment = DSR-FFP. Grain yield (t/ha), ACZ1 = 4.19 d. Grain yield (t/ha), ACZ2 = 4.12 c. Grain yield (t/ha), ACZ3",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 43,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 8,
+    "section": "3.2.2 Nutrient rates"
+   }
+  },
+  {
+   "text": "3.2.2 Nutrient rates\n| - |\n = 4.12 b. Grain yield (t/ha), ACZ4 = 4.04 b. Grain yield (t/ha), ACZ5 = 4.03 c. , Season = Rabi. , Year = 2019-20. , Treatment = TPR-RCM. , ACZ1 = 5.18 a. , ACZ2 = 5.01 a. , ACZ3 = 5.06 a. , ACZ4 = 4.90 a. , ACZ5 = 5.16 a. , Season = . , Year = . , Treatment = TPR-FFP. , ACZ1 = 4.31 b. , ACZ2 = 4.22 b. , ACZ3 = 4.17 b. , ACZ4 = 4.09 b. , ACZ5 = 4.27 b. , Season = . , Year = 2020-21. , Treatment = TPR-RCM. , ACZ1 = 5.20 a. , ACZ2 = 4.99 a. , ACZ3 = 5.11 a. , ACZ4 = 5.02 a. , ACZ5 = 5.11 a. , Season = . , Year = . , Treatment = TPR-FFP. , ACZ1 = 4.40 b. , ACZ2 = 4.20 b. , ACZ3 = 4.23 b. , ACZ4 = 4.18 b. , ACZ5 = 4.30 b. , Season = . , Year = 2021-22. , Treatment = TPR-RCM. , ACZ1 = 5.33 a. , ACZ2 = 4.97 a. , ACZ3 = 5.09 a. , ACZ4 = 5.16 a. , ACZ5 = 5.11 a. , Season = . , Year = . , Treatment = TPR-FFP. , ACZ1 = 4.43 b. , ACZ2 = 4.20 b. , ACZ3 = 4.09 b. , ACZ4 = 4.21 b. , ACZ5 = 4.20 b |",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 44,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 8,
+    "section": "3.2.2 Nutrient rates"
+   }
+  },
+  {
+   "text": "3.2.2 Nutrient rates\nACZ = Agro-Climatic Zone; ACZ1 = North Eastern Coastal Plain; ACZ2 = East and South Eastern Coastal Plain; ACZ3 = South Eastern Ghat; ACZ4 = Western Undulating Zone; ACZ5 = Western Central Table Land.\nThe potassium rates for TPR-RCM were higher than TPR-FFP across all ACZs, seasons and years with increases of 15.0-15.9 kg ha -1 during kharif and with increases of 1.0-9.7 kg ha -1 in rabi season. DSR-RCM also showed higher rates compared to DSR-FFP, with increases of 12.0-13.5 kg ha -1 .",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 45,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 8,
+    "section": "3.2.2 Nutrient rates"
+   }
+  },
+  {
+   "text": "3.3 Evaluation of total greenhouse gas (GHG) emissions from different treatments\nFor each agroclimatic zone, the total GHG emissions for both the seasons and across the years were estimated. Based on the data, the GHG emissions were calculated in Kg CO2. In Kharif, the total GHG emissions ranged from 4,533.13 Kg CO2 to 5,546.38 Kg CO2 (Figure 2a). On comparison among the treatments, emissions from TPR were more than DSR. DSR-RCM had the least emissions followed by DSR-FFP, TPR-RCM and TPR-FFP.\nIf we compare the results ACZs wise, we find that DSR-RCM emissions are least in ACZ 3 followed by ACZ 4 while in ACZ 1, ACZ2 and ACZ5 the emissions are comparable. The soils in the southeastern portion (ACZ3) of the region are fertile and support multiple crops, likely due to the availability of irrigation. While the soil in other agroecologies (ACZ1, 2, and 5) is inherently low in nitrogen. When the soils are deficient in N, RCM recommends additional N that causes higher emissions, or the emissions are equal to FFP.\nIn Rabi, RCM shows significantly less emissions in terms of total GHG emissions. TPR-RCM has shown less emissions in comparison to TPR-FFP. It may be because in the rabi season, soils had good nutrient levels from the kharif season. Therefore, less fertilizer rates were applied in the rabi season. Soils also had nutrients from the crop residues from previous harvests. In rabi, total GHG emissions varied from 4,469.81 Kg CO2 to 5,284.56 Kg CO2 (Figure 2b). The mean of emissions across all ACZs was 4,557.30 Kg CO2. Due to different factors like soil, climate, irrigation, rainfall, burning crop residues and tillage practices, variability can be observed among the emissions.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 46,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 8,
+    "section": "3.3 Evaluation of total greenhouse gas (GHG) emissions from different treatments"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\nThe comparative analysis of grain yield between direct-seeded rice and transplanted rice using Farmer Fertilizer Practice and the",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 47,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 8,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n| TABLE 3 Rates of N, P, and K fertilizer for field specific nutrient management provided by Rice Crop Manager (RCM) and Farmers' Fertilizer Practice (FFP) in TPR and DSR across two seasons (Kharif and Rabi) across five Agro-Climatic Zones (ACZs) and 3 years in Odisha, India. |\n| N, Season. = Kharif. N, Year. = 2019. N, Treatment/.contrast = TPR-RCM. N, Nutrient rate (kg ha -1 ).ACZ1 = 119. N, Nutrient rate (kg ha -1 ).ACZ2 = 118. N, Nutrient rate (kg ha -1 ).ACZ3 = 115. N, Nutrient rate (kg ha -1 ).ACZ4 = 119. N, Nutrient rate (kg ha -1 ).ACZ5 = 119. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 100. , Nutrient rate (kg ha -1 ).ACZ2 = 100. , Nutrient rate (kg ha -1 ).ACZ3 = 100. , Nutrient rate (kg ha -1 ).ACZ4 = 100. , Nutrient rate (kg ha -1 ).ACZ5 = 100. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 19.0. , Nutrient rate (kg ha -1 ).ACZ2 = 18.0. , Nutrient rate (kg ha -1 ).ACZ3 = 15.0. , Nutrient rate (kg ha -1 ).ACZ4 = 19.0. , Nutrient rate (kg ha -1 ).ACZ5 = 19.0. , Season. = . , Year. = . , Treatment/.contrast = DSR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 126. , Nutrient rate (kg ha -1 ).ACZ2 = 125. , Nutrient rate (kg ha -1 ).ACZ3 = 124. , Nutrient rate (kg ha -1 ).ACZ4 = 124. , Nutrient rate",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 48,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 9,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n (kg ha -1 ).ACZ5 = 124. , Season. = . , Year. = . , Treatment/.contrast = DSR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 101. , Nutrient rate (kg ha -1 ).ACZ2 = 101. , Nutrient rate (kg ha -1 ).ACZ3 = 101. , Nutrient rate (kg ha -1 ).ACZ4 = 101. , Nutrient rate (kg ha -1 ).ACZ5 = 101. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 25.0. , Nutrient rate (kg ha -1 ).ACZ2 = 24.0. , Nutrient rate (kg ha -1 ).ACZ3 = 23.0. , Nutrient rate (kg ha -1 ).ACZ4 = 23.0. , Nutrient rate (kg ha -1 ).ACZ5 = 23.0. , Season. = . , Year. = 2020. , Treatment/.contrast = TPR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 119. , Nutrient rate (kg ha -1 ).ACZ2 = 119. , Nutrient rate (kg ha -1 ).ACZ3 = 119. , Nutrient rate (kg ha -1 ).ACZ4 = 115. , Nutrient rate (kg ha -1 ).ACZ5 = 119. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 100. , Nutrient rate (kg ha -1 ).ACZ2 = 101. , Nutrient rate (kg ha -1 ).ACZ3 = 100. , Nutrient rate (kg ha -1 ).ACZ4 = 100. , Nutrient rate (kg ha -1 ).ACZ5 = 100. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 19.0. , Nutrient rate (kg ha -1 ).ACZ2 = 18.0. , Nutrient rate (kg",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 49,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 9,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n ha -1 ).ACZ3 = 19.0. , Nutrient rate (kg ha -1 ).ACZ4 = 15.0. , Nutrient rate (kg ha -1 ).ACZ5 = 19.0. , Season. = . , Year. = . , Treatment/.contrast = DSR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 124. , Nutrient rate (kg ha -1 ).ACZ2 = 125. , Nutrient rate (kg ha -1 ).ACZ3 = 124. , Nutrient rate (kg ha -1 ).ACZ4 = 124. , Nutrient rate (kg ha -1 ).ACZ5 = 125. , Season. = . , Year. = . , Treatment/.contrast = DSR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 100. , Nutrient rate (kg ha -1 ).ACZ2 = 101. , Nutrient rate (kg ha -1 ).ACZ3 = 102. , Nutrient rate (kg ha -1 ).ACZ4 = 102. , Nutrient rate (kg ha -1 ).ACZ5 = 102. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 24.0. , Nutrient rate (kg ha -1 ).ACZ2 = 24.0. , Nutrient rate (kg ha -1 ).ACZ3 = 22.0. , Nutrient rate (kg ha -1 ).ACZ4 = 22.0. , Nutrient rate (kg ha -1 ).ACZ5 = 23.0. , Season. = . , Year. = 2021. , Treatment/.contrast = TPR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 118. , Nutrient rate (kg ha -1 ).ACZ2 = 119. , Nutrient rate (kg ha -1 ).ACZ3 = 119. , Nutrient rate (kg ha -1 ).ACZ4 = 119. , Nutrient rate (kg ha -1 ).ACZ5 = 119. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate (kg ha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 50,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 9,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n -1 ).ACZ1 = 100. , Nutrient rate (kg ha -1 ).ACZ2 = 100. , Nutrient rate (kg ha -1 ).ACZ3 = 100. , Nutrient rate (kg ha -1 ).ACZ4 = 100. , Nutrient rate (kg ha -1 ).ACZ5 = 101. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 18.0. , Nutrient rate (kg ha -1 ).ACZ2 = 19.0. , Nutrient rate (kg ha -1 ).ACZ3 = 19.0. , Nutrient rate (kg ha -1 ).ACZ4 = 19.0. , Nutrient rate (kg ha -1 ).ACZ5 = 18.0. , Season. = . , Year. = . , Treatment/.contrast = DSR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 125. , Nutrient rate (kg ha -1 ).ACZ2 = 124. , Nutrient rate (kg ha -1 ).ACZ3 = 124. , Nutrient rate (kg ha -1 ).ACZ4 = 124. , Nutrient rate (kg ha -1 ).ACZ5 = 124. , Season. = . , Year. = . , Treatment/.contrast = DSR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 102. , Nutrient rate (kg ha -1 ).ACZ2 = 101. , Nutrient rate (kg ha -1 ).ACZ3 = 101. , Nutrient rate (kg ha -1 ).ACZ4 = 101. , Nutrient rate (kg ha -1 ).ACZ5 = 101. , Season. = Rabi. , Year. = 2019-20. , Treatment/.contrast = RCM vs. FFP TPR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 23.0 94.4. , Nutrient rate (kg ha -1 ).ACZ2 = 23.0 95.6. , Nutrient rate (kg ha -1 ).ACZ3 = 23.0 91.2. , Nutrient rate (kg ha -1",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 51,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 9,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n ).ACZ4 = 23.0 91.2. , Nutrient rate (kg ha -1 ).ACZ5 = 23.0 99.8. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 102. , Nutrient rate (kg ha -1 ).ACZ2 = 102. , Nutrient rate (kg ha -1 ).ACZ3 = 100. , Nutrient rate (kg ha -1 ).ACZ4 = 102. , Nutrient rate (kg ha -1 ).ACZ5 = 111. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = -7.6. , Nutrient rate (kg ha -1 ).ACZ2 = -6.4. , Nutrient rate (kg ha -1 ).ACZ3 = -8.8. , Nutrient rate (kg ha -1 ).ACZ4 = -10.8. , Nutrient rate (kg ha -1 ).ACZ5 = -11.2. , Season. = . , Year. = 2020-21. , Treatment/.contrast = TPR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 94.7. , Nutrient rate (kg ha -1 ).ACZ2 = 91.2. , Nutrient rate (kg ha -1 ).ACZ3 = 91.1. , Nutrient rate (kg ha -1 ).ACZ4 = 89.4. , Nutrient rate (kg ha -1 ).ACZ5 = 93.1. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 102. , Nutrient rate (kg ha -1 ).ACZ2 = 97.4. , Nutrient rate (kg ha -1 ).ACZ3 = 101. , Nutrient rate (kg ha -1 ).ACZ4 = 100. , Nutrient rate (kg ha -1 ).ACZ5 = 102. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. ,",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 52,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 9,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n Nutrient rate (kg ha -1 ).ACZ1 = -7.3. , Nutrient rate (kg ha -1 ).ACZ2 = -6.2. , Nutrient rate (kg ha -1 ).ACZ3 = -9.9. , Nutrient rate (kg ha -1 ).ACZ4 = -10.6. , Nutrient rate (kg ha -1 ).ACZ5 = -8.9. , Season. = . , Year. = 2021-22. , Treatment/.contrast = TPR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 96.5. , Nutrient rate (kg ha -1 ).ACZ2 = 96.6. , Nutrient rate (kg ha -1 ).ACZ3 = 98.5. , Nutrient rate (kg ha -1 ).ACZ4 = 98.2. , Nutrient rate (kg ha -1 ).ACZ5 = 103. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 103. , Nutrient rate (kg ha -1 ).ACZ2 = 103. , Nutrient rate (kg ha -1 ).ACZ3 = 104. , Nutrient rate (kg ha -1 ).ACZ4 = 104. , Nutrient rate (kg ha -1 ).ACZ5 = 104. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = -6.5. , Nutrient rate (kg ha -1 ).ACZ2 = -6.4. , Nutrient rate (kg ha -1 ).ACZ3 = -5.5. , Nutrient rate (kg ha -1 ).ACZ4 = -5.8. , Nutrient rate (kg ha -1 ).ACZ5 = -1.0. P, Season. = Kharif. P, Year. = 2019. P, Treatment/.contrast = TPR-RCM. P, Nutrient rate (kg ha -1 ).ACZ1 = 34.1. P, Nutrient rate (kg ha -1 ).ACZ2 = 33.9. P, Nutrient",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 53,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 9,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n rate (kg ha -1 ).ACZ3 = 33.6. P, Nutrient rate (kg ha -1 ).ACZ4 = 34.1. P, Nutrient rate (kg ha -1 ).ACZ5 = 34.1. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 49.8. , Nutrient rate (kg ha -1 ).ACZ2 = 49.7. , Nutrient rate (kg ha -1 ).ACZ3 = 49.5. , Nutrient rate (kg ha -1 ).ACZ4 = 49.5. , Nutrient rate (kg ha -1 ).ACZ5 = 49.4. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = -15.7. , Nutrient rate (kg ha -1 ).ACZ2 = -15.8. , Nutrient rate (kg ha -1 ).ACZ3 = -15.9. , Nutrient rate (kg ha -1 ).ACZ4 = -15.4. , Nutrient rate (kg ha -1 ).ACZ5 = -15.3. , Season. = . , Year. = . , Treatment/.contrast = DSR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 35.2. , Nutrient rate (kg ha -1 ).ACZ2 = 35.0. , Nutrient rate (kg ha -1 ).ACZ3 = 34.8. , Nutrient rate (kg ha -1 ).ACZ4 = 34.8. , Nutrient rate (kg ha -1 ).ACZ5 = 34.8. , Season. = . , Year. = . , Treatment/.contrast = DSR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 43.8. , Nutrient rate (kg ha -1 ).ACZ2 = 44.0. , Nutrient rate (kg ha -1 ).ACZ3 = 43.8. , Nutrient rate (kg ha -1 ).ACZ4 = 43.8. , Nutrient rate (kg ha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 54,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 9,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n -1 ).ACZ5 = 44.9. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = -8.6. , Nutrient rate (kg ha -1 ).ACZ2 = -9.0. , Nutrient rate (kg ha -1 ).ACZ3 = -9.0. , Nutrient rate (kg ha -1 ).ACZ4 = -9.0. , Nutrient rate (kg ha -1 ).ACZ5 = -10.1. , Season. = . , Year. = 2020. , Treatment/.contrast = TPR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 34.1. , Nutrient rate (kg ha -1 ).ACZ2 = 34.1. , Nutrient rate (kg ha -1 ).ACZ3 = 34.1. , Nutrient rate (kg ha -1 ).ACZ4 = 33.6. , Nutrient rate (kg ha -1 ).ACZ5 = 34.1. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 50.7. , Nutrient rate (kg ha -1 ).ACZ2 = 50.5. , Nutrient rate (kg ha -1 ).ACZ3 = 49.5. , Nutrient rate (kg ha -1 ).ACZ4 = 49.5. , Nutrient rate (kg ha -1 ).ACZ5 = 49.0. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = -16.6. , Nutrient rate (kg ha -1 ).ACZ2 = -16.4. , Nutrient rate (kg ha -1 ).ACZ3 = -15.4. , Nutrient rate (kg ha -1 ).ACZ4 = -15.9. , Nutrient rate (kg ha -1 ).ACZ5 = -14.9. , Season. = . , Year. = . , Treatment/.contrast = DSR-RCM. ,",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 55,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 9,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n Nutrient rate (kg ha -1 ).ACZ1 = 34.8. , Nutrient rate (kg ha -1 ).ACZ2 = 35.0. , Nutrient rate (kg ha -1 ).ACZ3 = 34.8. , Nutrient rate (kg ha -1 ).ACZ4 = 34.8. , Nutrient rate (kg ha -1 ).ACZ5 = 35.0. , Season. = . , Year. = . , Treatment/.contrast = DSR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 44.9. , Nutrient rate (kg ha -1 ).ACZ2 = 45.3. , Nutrient rate (kg ha -1 ).ACZ3 = 44.9. , Nutrient rate (kg ha -1 ).ACZ4 = 46.1. , Nutrient rate (kg ha -1 ).ACZ5 = 44.9. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = . , Nutrient rate (kg ha -1 ).ACZ2 = . , Nutrient rate (kg ha -1 ).ACZ3 = . , Nutrient rate (kg ha -1 ).ACZ4 = . , Nutrient rate (kg ha -1 ).ACZ5 = . , Season. = . , Year. = . , Treatment/.contrast = . , Nutrient rate (kg ha -1 ).ACZ1 = -10.1. , Nutrient rate (kg ha -1 ).ACZ2 = -10.3. , Nutrient rate (kg ha -1 ).ACZ3 = -10.1. , Nutrient rate (kg ha -1 ).ACZ4 = -11.3. , Nutrient rate (kg ha -1 ).ACZ5 = -9.9 34.1. , Season. = . , Year. = 2021. , Treatment/.contrast = TPR-RCM TPR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 34.0 50.2. , Nutrient rate (kg ha -1 ).ACZ2 = 34.1 50.1. , Nutrient rate (kg ha -1 ).ACZ3",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 56,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 9,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n = 34.1 50.7. , Nutrient rate (kg ha -1 ).ACZ4 = 34.1 50.7. , Nutrient rate (kg ha -1 ).ACZ5 = 51.3. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = -16.2. , Nutrient rate (kg ha -1 ).ACZ2 = -16.0. , Nutrient rate (kg ha -1 ).ACZ3 = -16.6. , Nutrient rate (kg ha -1 ).ACZ4 = -16.6. , Nutrient rate (kg ha -1 ).ACZ5 = -17.2 |\n\n(Continued)",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 57,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 9,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n| TABLE 3 (Continued) |\n| , Season. = . , Year. = . , Treatment/.contrast = DSR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 35.1. , Nutrient rate (kg ha -1 ).ACZ2 = 34.8. , Nutrient rate (kg ha -1 ).ACZ3 = 34.8. , Nutrient rate (kg ha -1 ).ACZ4 = 34.8. , Nutrient rate (kg ha -1 ).ACZ5 = 34.8. , Season. = . , Year. = . , Treatment/.contrast = DSR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 45.6. , Nutrient rate (kg ha -1 ).ACZ2 = 44.9. , Nutrient rate (kg ha -1 ).ACZ3 = 46.1. , Nutrient rate (kg ha -1 ).ACZ4 = 46.1. , Nutrient rate (kg ha -1 ).ACZ5 = 44.9. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = -10.5. , Nutrient rate (kg ha -1 ).ACZ2 = -10.1. , Nutrient rate (kg ha -1 ).ACZ3 = -11.3. , Nutrient rate (kg ha -1 ).ACZ4 = -11.3. , Nutrient rate (kg ha -1 ).ACZ5 = -10.1. , Season. = Rabi. , Year. = 2019-20. , Treatment/.contrast = TPR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 32.7. , Nutrient rate (kg ha -1 ).ACZ2 = 32.9. , Nutrient rate (kg ha -1 ).ACZ3 = 32.8. , Nutrient rate (kg ha -1 ).ACZ4 = 32.8. , Nutrient rate (kg ha -1 ).ACZ5 = 32.0. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate (kg ha -1",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 58,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 10,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n ).ACZ1 = 49.8. , Nutrient rate (kg ha -1 ).ACZ2 = 48.5. , Nutrient rate (kg ha -1 ).ACZ3 = 45.9. , Nutrient rate (kg ha -1 ).ACZ4 = 46.4. , Nutrient rate (kg ha -1 ).ACZ5 = 48.0. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = -17.1. , Nutrient rate (kg ha -1 ).ACZ2 = -15.6. , Nutrient rate (kg ha -1 ).ACZ3 = -13.1. , Nutrient rate (kg ha -1 ).ACZ4 = -13.6. , Nutrient rate (kg ha -1 ).ACZ5 = -16.0. , Season. = . , Year. = 2020-21. , Treatment/.contrast = TPR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 33.2. , Nutrient rate (kg ha -1 ).ACZ2 = 32.9. , Nutrient rate (kg ha -1 ).ACZ3 = 32.7. , Nutrient rate (kg ha -1 ).ACZ4 = 32.8. , Nutrient rate (kg ha -1 ).ACZ5 = 32.6. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 49.3. , Nutrient rate (kg ha -1 ).ACZ2 = 44.9. , Nutrient rate (kg ha -1 ).ACZ3 = 46.4. , Nutrient rate (kg ha -1 ).ACZ4 = 46.1. , Nutrient rate (kg ha -1 ).ACZ5 = 49.5. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = -16.1. , Nutrient rate (kg ha -1 ).ACZ2 = -12.0. , Nutrient rate (kg ha -1",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 59,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 10,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n ).ACZ3 = -13.7. , Nutrient rate (kg ha -1 ).ACZ4 = -13.3. , Nutrient rate (kg ha -1 ).ACZ5 = -16.9. , Season. = . , Year. = 2021-22. , Treatment/.contrast = TPR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 33.1. , Nutrient rate (kg ha -1 ).ACZ2 = 33.2. , Nutrient rate (kg ha -1 ).ACZ3 = 33.3. , Nutrient rate (kg ha -1 ).ACZ4 = 33.2. , Nutrient rate (kg ha -1 ).ACZ5 = 33.4. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 51.2. , Nutrient rate (kg ha -1 ).ACZ2 = 50.9. , Nutrient rate (kg ha -1 ).ACZ3 = 51.3. , Nutrient rate (kg ha -1 ).ACZ4 = 51.3. , Nutrient rate (kg ha -1 ).ACZ5 = 49.8. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = -18.1. , Nutrient rate (kg ha -1 ).ACZ2 = -17.7. , Nutrient rate (kg ha -1 ).ACZ3 = -18.0. , Nutrient rate (kg ha -1 ).ACZ4 = -18.1. , Nutrient rate (kg ha -1 ).ACZ5 = -16.4. K, Season. = Kharif. K, Year. = 2019. K, Treatment/.contrast = TPR-RCM. K, Nutrient rate (kg ha -1 ).ACZ1 = 57.5. K, Nutrient rate (kg ha -1 ).ACZ2 = 56.9. K, Nutrient rate (kg ha -1 ).ACZ3 = 55.7. K, Nutrient rate (kg ha -1 ).ACZ4 =",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 60,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 10,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n 57.5. K, Nutrient rate (kg ha -1 ).ACZ5 = 57.5. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 41.6 15.9. , Nutrient rate (kg ha -1 ).ACZ2 = 41.9 15.0. , Nutrient rate (kg ha -1 ).ACZ3 = 40.4 15.3. , Nutrient rate (kg ha -1 ).ACZ4 = 41.9 15.6. , Nutrient rate (kg ha -1 ).ACZ5 = 41.9 15.6. , Season. = . , Year. = . , Treatment/.contrast = DSR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 53.9. , Nutrient rate (kg ha -1 ).ACZ2 = 53.9. , Nutrient rate (kg ha -1 ).ACZ3 = 53.9. , Nutrient rate (kg ha -1 ).ACZ4 = 53.9. , Nutrient rate (kg ha -1 ).ACZ5 = 53.9. , Season. = . , Year. = . , Treatment/.contrast = DSR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 41.9. , Nutrient rate (kg ha -1 ).ACZ2 = 41.9. , Nutrient rate (kg ha -1 ).ACZ3 = 41.9. , Nutrient rate (kg ha -1 ).ACZ4 = 41.9. , Nutrient rate (kg ha -1 ).ACZ5 = 41.2. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 12.0 57.5. , Nutrient rate (kg ha -1 ).ACZ2 = 12.0 57.5. , Nutrient rate (kg ha -1 ).ACZ3 = 12.0 57.5. , Nutrient rate (kg ha -1 ).ACZ4 = 12.0 55.7. , Nutrient rate (kg ha -1",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 61,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 10,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n ).ACZ5 = 12.7 57.5. , Season. = . , Year. = 2020. , Treatment/.contrast = TPR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = . , Nutrient rate (kg ha -1 ).ACZ2 = . , Nutrient rate (kg ha -1 ).ACZ3 = . , Nutrient rate (kg ha -1 ).ACZ4 = . , Nutrient rate (kg ha -1 ).ACZ5 = . , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 41.9. , Nutrient rate (kg ha -1 ).ACZ2 = 41.7. , Nutrient rate (kg ha -1 ).ACZ3 = 41.9. , Nutrient rate (kg ha -1 ).ACZ4 = 40.4. , Nutrient rate (kg ha -1 ).ACZ5 = 41.9. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 15.6. , Nutrient rate (kg ha -1 ).ACZ2 = 15.8. , Nutrient rate (kg ha -1 ).ACZ3 = 15.6. , Nutrient rate (kg ha -1 ).ACZ4 = 15.3. , Nutrient rate (kg ha -1 ).ACZ5 = 15.6. , Season. = . , Year. = . , Treatment/.contrast = DSR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 53.9. , Nutrient rate (kg ha -1 ).ACZ2 = 53.9. , Nutrient rate (kg ha -1 ).ACZ3 = 53.9. , Nutrient rate (kg ha -1 ).ACZ4 = 53.9. , Nutrient rate (kg ha -1 ).ACZ5 = 53.9. , Season. = . , Year. = . , Treatment/.contrast = DSR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 41.3. , Nutrient rate (kg ha -1",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 62,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 10,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n ).ACZ2 = 41.2. , Nutrient rate (kg ha -1 ).ACZ3 = 41.9. , Nutrient rate (kg ha -1 ).ACZ4 = 41.9. , Nutrient rate (kg ha -1 ).ACZ5 = 41.9. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 12.6. , Nutrient rate (kg ha -1 ).ACZ2 = 12.7. , Nutrient rate (kg ha -1 ).ACZ3 = 12.0. , Nutrient rate (kg ha -1 ).ACZ4 = 12.0. , Nutrient rate (kg ha -1 ).ACZ5 = 12.0. , Season. = . , Year. = 2021. , Treatment/.contrast = TPR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 57.1. , Nutrient rate (kg ha -1 ).ACZ2 = 57.5. , Nutrient rate (kg ha -1 ).ACZ3 = 57.5. , Nutrient rate (kg ha -1 ).ACZ4 = 57.5. , Nutrient rate (kg ha -1 ).ACZ5 = 57.5. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 41.3. , Nutrient rate (kg ha -1 ).ACZ2 = 41.9. , Nutrient rate (kg ha -1 ).ACZ3 = 41.9. , Nutrient rate (kg ha -1 ).ACZ4 = 41.9. , Nutrient rate (kg ha -1 ).ACZ5 = 41.9. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 15.8. , Nutrient rate (kg ha -1 ).ACZ2 = 15.6. , Nutrient rate (kg ha -1 ).ACZ3 = 15.6. , Nutrient rate (kg ha -1 ).ACZ4 = 15.6.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 63,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 10,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n , Nutrient rate (kg ha -1 ).ACZ5 = 15.6. , Season. = . , Year. = . , Treatment/.contrast = DSR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 53.9. , Nutrient rate (kg ha -1 ).ACZ2 = 53.9. , Nutrient rate (kg ha -1 ).ACZ3 = 53.9. , Nutrient rate (kg ha -1 ).ACZ4 = 53.9. , Nutrient rate (kg ha -1 ).ACZ5 = 53.9. , Season. = . , Year. = . , Treatment/.contrast = DSR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 41.6. , Nutrient rate (kg ha -1 ).ACZ2 = 41.4. , Nutrient rate (kg ha -1 ).ACZ3 = 40.4. , Nutrient rate (kg ha -1 ).ACZ4 = 40.4. , Nutrient rate (kg ha -1 ).ACZ5 = 41.2. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 12.3. , Nutrient rate (kg ha -1 ).ACZ2 = 12.5. , Nutrient rate (kg ha -1 ).ACZ3 = 13.5. , Nutrient rate (kg ha -1 ).ACZ4 = 13.5. , Nutrient rate (kg ha -1 ).ACZ5 = 12.7. , Season. = Rabi. , Year. = 2019-20. , Treatment/.contrast = TPR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 43.1. , Nutrient rate (kg ha -1 ).ACZ2 = 40.8. , Nutrient rate (kg ha -1 ).ACZ3 = 42.5. , Nutrient rate (kg ha -1 ).ACZ4 = 42.5. , Nutrient rate (kg ha -1 ).ACZ5 = 35.3. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 64,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 10,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n (kg ha -1 ).ACZ1 = 34.9. , Nutrient rate (kg ha -1 ).ACZ2 = 35.5. , Nutrient rate (kg ha -1 ).ACZ3 = 34.4. , Nutrient rate (kg ha -1 ).ACZ4 = 34.4. , Nutrient rate (kg ha -1 ).ACZ5 = 34.4. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 8.2. , Nutrient rate (kg ha -1 ).ACZ2 = 5.3. , Nutrient rate (kg ha -1 ).ACZ3 = 8.1. , Nutrient rate (kg ha -1 ).ACZ4 = 8.1. , Nutrient rate (kg ha -1 ).ACZ5 = 1.0. , Season. = . , Year. = 2020-21. , Treatment/.contrast = TPR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 40.1. , Nutrient rate (kg ha -1 ).ACZ2 = 42.7. , Nutrient rate (kg ha -1 ).ACZ3 = 43.0. , Nutrient rate (kg ha -1 ).ACZ4 = 43.7. , Nutrient rate (kg ha -1 ).ACZ5 = 43.1. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 36.2. , Nutrient rate (kg ha -1 ).ACZ2 = 33.9. , Nutrient rate (kg ha -1 ).ACZ3 = 35.3. , Nutrient rate (kg ha -1 ).ACZ4 = 34.0. , Nutrient rate (kg ha -1 ).ACZ5 = 35.3. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 3.9. , Nutrient rate (kg ha -1 ).ACZ2 = 8.7. , Nutrient rate (kg ha -1",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 65,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 10,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\n| - |\n ).ACZ3 = 7.6. , Nutrient rate (kg ha -1 ).ACZ4 = 9.7. , Nutrient rate (kg ha -1 ).ACZ5 = 7.9. , Season. = . , Year. = 2021-22. , Treatment/.contrast = TPR-RCM. , Nutrient rate (kg ha -1 ).ACZ1 = 38.9. , Nutrient rate (kg ha -1 ).ACZ2 = 38.7. , Nutrient rate (kg ha -1 ).ACZ3 = 37.1. , Nutrient rate (kg ha -1 ).ACZ4 = 37.7. , Nutrient rate (kg ha -1 ).ACZ5 = 33.2. , Season. = . , Year. = . , Treatment/.contrast = TPR-FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 34.1. , Nutrient rate (kg ha -1 ).ACZ2 = 31.6. , Nutrient rate (kg ha -1 ).ACZ3 = 31.9. , Nutrient rate (kg ha -1 ).ACZ4 = 31.9. , Nutrient rate (kg ha -1 ).ACZ5 = 32.1. , Season. = . , Year. = . , Treatment/.contrast = RCM vs. FFP. , Nutrient rate (kg ha -1 ).ACZ1 = 4.8. , Nutrient rate (kg ha -1 ).ACZ2 = 7.1. , Nutrient rate (kg ha -1 ).ACZ3 = 5.2. , Nutrient rate (kg ha -1 ).ACZ4 = 5.8. , Nutrient rate (kg ha -1 ).ACZ5 = 1.1 |\n\nACZ = Agro-Climatic Zone; ACZ1 = North Eastern Coastal Plain; ACZ2 = East and South Eastern Coastal Plain; ACZ3 = South Eastern Ghat; ACZ4 = Western Undulating Zone; ACZ5 = Western Central Table Land.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 66,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 10,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\nRice Crop Manager highlights significant findings that underscore the potential of Site-Specific Nutrient Management. In our study, the grain yield in TPR and DSR treatments was consistently higher for RCM than FFP in both seasons. These findings are consistent with previous studies carried out in India (Sharma et al., 2019a; Sharma et al., 2019b) and the Philippines (Banayo et al., 2018) which have reported the positive impact of RCM recommendations on grain yield.\nGreater yield with RCM than FFP may relate to the increased application of fertilizer N with RCM in kharif. Variations in the amount of nitrogen fertilizer applied during the growth season may also have contributed to some of the yield discrepancies between RCM and FFP in the treatments. Three splits of fertilizer N were administered using RCM. Fertilizer rates computed using RCM were based on target yields that were higher than the farmers' reported historical yields. The RCM target yield (4.5-5.0 t ha -1 ) was either met or surpassed by the mean yield attained with RCM (5.03-5.08 t ha -1 ). This finding confirmed that the RCM fertilizer rates for N, P, and K were adequate to provide the desired yield. Mamun et al. (2018) also reported that fertilizer management using RCM significantly influenced the yield of rice. RCM consistently demonstrated a more efficient utilization of phosphorus (P) fertilizers, reducing application rates by 8.6-18.1 kg ha -1 compared to FFP across seasons and zones. Despite reduced P inputs, higher yields were achieved, suggesting that RCM optimizes nutrient availability without wasteful overapplication. This efficiency aligns with global best practices for sustainable nutrient management, as excess P application often contributes to environmental degradation through runoff and eutrophication (Dobermann, 2007). RCM ensures site-specific nutrient management (SSNM), which addresses spatial variabilit",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 67,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 10,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "y and promotes balanced fertilizer application. This approach minimizes overuse or underuse of fertilizers, thereby enhancing nutrient use efficiency and boosting grain yield (Buresh et al., 2019).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 67,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 10,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "4.1 Performance of crop establishment and nutrient recommendation across seasons\nZinc (Zn) is an essential micronutrient that influences rice growth and yields (Khan et al., 2022). Zn deficiency in rice has been reported worldwide (Tiong et al., 2014). Therefore, Zn was added to all RCM trials. Overcoming the soil's zinc deficiency may account for a percentage of the increased yield in RCM treatments.\nA higher PFP indicates better nitrogen use efficiency, meaning the crop is producing more grain yield per unit of nitrogen applied. Since PFP is a ratio, it always falls from high values at low N application rates to lower values at high N application rates. In our study, PFP was a little lower for DSR as compared to TPR. The average value was 40.6 kg/kg N. The results are in line with those of Kaur et al. (2024), who found that direct-seeded rice had the highest partial factor productivity of added N (PFPN) at 40 kg N/ha. In contrast, PFPN was higher in DSR as compared to TPR, especially with SPAD-based N management (Ali et al., 2006). The reason might be an inappropriate package of practice as DSR is knowledge-intensive and requires rigorous capacity building of the farmers. Interestingly, on-farm research in developing nations showed average PFPs between 44 and 49 kg/kg N, which is quite like the reported \"global\" average of 44 kg/ kg N (Dobermann, 2007).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 68,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 12,
+    "section": "4.1 Performance of crop establishment and nutrient recommendation across seasons"
+   }
+  },
+  {
+   "text": "4.2 Performance of crop establishment and nutrient recommendation across ACZs\nThe performance of crops was monitored across all zones in both seasons. It was observed that the grain yield was consistently higher for RCM than FFP (4.73-5.36 t ha -1 ) across all zones. This indicates that the nutrient management recommendations provided by RCM are more effective in enhancing rice grain yield compared to the traditional FFP in various agroecologies. Over the 3 years, the grain yield for RCM treatments showed a steady increase, reflecting the potential long-term benefits of adopting the RCM recommendations.\nIn contrast, the FFP yields remained relatively static, highlighting the limitations of traditional practices.\nIt can be observed that the Agro-Climatic Zones exhibit variability in grain yields. ACZ1, ACZ3 and ACZ5 had higher yields across seasons and years. This variation is influenced by factors like soil, climate, and farming practices. However, consistent higher yields in certain ACZ can be attributed to a combination of favorable environmental conditions, effective agronomic practices, supportive infrastructure, and socio-economic factors. By understanding these patterns and tailoring strategies accordingly, it's possible to optimize agricultural productivity and sustainability across the different zones.\nFor example, in ACZ3, the soil in Koraput district is ideal for DSR cultivation because they are red, mixed red, and yellow, and have a sandy loam to sandy clay loam texture. The temperature and rainfall are also optimum for good rice cultivation. Zones like ACZ3, which consistently show higher yields, could serve as models or benchmarks for other zones. Studying the practices or conditions in these zones might provide insights for improving yields in other areas.\nFor both Kharif and Rabi seasons, the grain yield fluctuates over the years but generally shows a consistent trend between RCM and FFP treatments. By understanding these patterns and tailoring strate",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 69,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 12,
+    "section": "4.2 Performance of crop establishment and nutrient recommendation across ACZs",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "gies accordingly, it's possible to optimize agricultural productivity and sustainability across the different zones. Direct dry-seeded rice can achieve grain yields comparable to transplanted rice, with higher water productivity and profitability, making it an attractive option for rice farmers in dry zones (Soriano et al., 2018).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 69,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 12,
+    "section": "4.2 Performance of crop establishment and nutrient recommendation across ACZs",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "4.2 Performance of crop establishment and nutrient recommendation across ACZs\nThe higher nitrogen rates under RCM compared to FFP in the Kharif season indicate a more tailored approach to nutrient management, aiming to suit the crop's individual needs for optimal growth and yield. The consistent increase in nitrogen rates under RCM across all years and zones suggests that RCM recommendations are designed to enhance nitrogen availability during the critical growth stages of the crop. In contrast, the lower nitrogen rates under RCM in the Rabi season suggest a more conservative approach, possibly due to different crop growth dynamics or reduced nitrogen demand in this season. This differential approach highlights the flexibility and adaptability of RCM to seasonal variations and crop requirements.\nThe significantly lower phosphorus rates under RCM compared to FFP in both the Kharif and Rabi seasons indicate a more efficient use of phosphorus fertilizers. RCM appears to optimize phosphorus application, reducing excess usage while maintaining adequate levels for crop growth. This reduction in phosphorus rates can lead to cost savings for farmers and minimize environmental impacts associated with overfertilization.\nThe higher potassium rates under RCM in the Kharif season suggest an emphasis on improving crop stress tolerance and overall health, which is crucial during periods of high growth demand. The consistent increase in potassium rates across years and zones indicates that RCM recommendations prioritize potassium availability to support key physiological functions in the crop. In the Rabi season, the significance of balanced nutrient management is further shown by the greater potassium rates under RCM as opposed to FFP. Potassium is necessary for both enzyme activation and water regulation, and the tailored RCM approach ensures that crops receive adequate potassium to support growth under potentially stressful conditions.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 70,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 12,
+    "section": "4.2 Performance of crop establishment and nutrient recommendation across ACZs"
+   }
+  },
+  {
+   "text": "4.2 Performance of crop establishment and nutrient recommendation across ACZs\nThe comparative analysis of nutrient management practices reveals distinct differences in the application rates of nitrogen, phosphorus, and potassium between the RCM and FFP across different agroclimatic zones and seasons. Zinc application with RCM, higher rates of N and K, and better timing of fertilizer N application during the growing season may all help RCM yield more than FFP in kharif. Conversely, a greater yield with RCM than FFP in rabi would not be related to the rate of N and P, rather, it might be related to better-split application of fertilizer N over the growth season and application of K and zinc with RCM. Better yield with RCM than FFP both in TPR and DSR may be attributed to better use of fertilizers and better crop management practices as suggested by RCM through a combination of practices.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 71,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 12,
+    "section": "4.2 Performance of crop establishment and nutrient recommendation across ACZs"
+   }
+  },
+  {
+   "text": "4.3 GHG emissions\nGHG emissions in DSR and TPR systems differ significantly due to variations in water and nutrient management. Using decisionsupport tools like RCM alongside traditional FFP can further influence these emissions. In our study, we found that the overall emissions in DSR were less than TPR as DSR reduces GHG emissions by lowering methane but may see an increase in nitrous oxide emissions.\nSome of the factors contributing to emissions in DSR are-",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 72,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 13,
+    "section": "4.3 GHG emissions"
+   }
+  },
+  {
+   "text": "Methane (CH₄) Emissions:\n- DSR generally produces less methane due to limited anaerobic conditions, but if fields experience prolonged water stagnation (e.g., due to poor drainage or unexpected rainfall), methane emissions can still occur.\n- The presence of organic matter (e.g., crop residues left from previous seasons) in DSR fields can also enhance CH₄ emissions under waterlogged conditions.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 73,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 13,
+    "section": "Methane (CH₄) Emissions:"
+   }
+  },
+  {
+   "text": "Nitrous Oxide (N₂O) Emissions:\n- DSR often requires more nitrogen fertilizer due to lower nutrient-use efficiency. Increased nitrogen application can lead to higher N₂O emissions, which have a much higher global warming potential than methane (CH₄).\n- Intermittent irrigation or dry periods in DSR can create aerobic conditions that favor N₂O production. While alternate wetting and drying (AWD) in DSR reduces CH₄ emissions, it may increase N₂O emissions due to fluctuating aerobic and anaerobic conditions.\n- Split applications or controlled-release fertilizers can mitigate this effect, but if not properly managed, DSR can exhibit higher emissions.\n- Changes in soil microbial communities due to different water and nutrient management in DSR may lead to unexpected variations in GHG emissions.\nStudies by Susilawati et al. (2019) and Tao et al. (2016) have shown that DSR can significantly reduce methane (CH4) emissions by 47-76% compared to TPR. DSR improved root physiological traits and reduced water input, leading to lower methane emissions (Liu et al., 2022). Another study conducted in Karnataka, India, revealed that total GHG emissions were significantly lower in the DSR system (574.1 kg CO₂ eq.) compared to the PTR system (3,954.8 kg CO₂ eq.). This reduction was primarily attributed to decreased on-farm methane emissions in the DSR method (Basavalingaiah et al., 2020).",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 74,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 13,
+    "section": "Nitrous Oxide (N₂O) Emissions:"
+   }
+  },
+  {
+   "text": "Nitrous Oxide (N₂O) Emissions:\nWhile some concerns exist about potential increases in nitrous oxide (N2O) emissions with DSR. Kumar and Ladha (2011) reported higher N2O-N emissions under varying DSR compared to TPR. Kumar et al. (2022) also reported that cumulative N2O emission flux in DSR was almost 42% higher than in TPR. This issue of higher N2O emission can be resolved by Nitrous Oxide Mitigation through Coated Urea. The application of starch-coated urea (SCU) and neemcoated urea (NCU) emerged as effective strategies for mitigating N₂O emissions. NCU reduced emissions by up to 20.5% in the IndoGangetic Plains and 12% in Northeast India. SCU achieved an even higher reduction (21%) in N₂O emissions in Northeast India while enhancing nitrogen use efficiency (NUE) and grain productivity. These findings highlight the dual benefit of these fertilizers in reducing GHG emissions and improving resource efficiency (Fagodiya et al., 2016; Fagodiya et al., 2023). Therefore, if DSR coupled with correct nutrient management holds good scope for optimizing nitrogen use and minimizing nitrous oxide emissions in DSR.\nThe emissions in TPR-RCM and DSR-RCM were lower than TPR-FFP and DSR-FFP. This shows that SSNM coupled with crop establishment method is a promising strategy to reduce GHG emissions. Previous studies have reported that SSNM in cereals significantly reduces GHG emissions compared to other agricultural practices (Nagothu, 2023). The RCM-based NPK and Zn recommendations were preferred for applying fertilizers according to the target yield based on SSNM with less total fertilizer cost in TPR-RCM and DSR-RCM. This reduces the financial risk to farmers (Sharma et al., 2019b), especially to small landholders or marginal landholders. Therefore, RCM could be the best alternative and sustainable fertilizer management for the farmers of Eastern India.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 75,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 13,
+    "section": "Nitrous Oxide (N₂O) Emissions:"
+   }
+  },
+  {
+   "text": "5 Conclusion\nThe integration of Site-Specific Nutrient Management with transplanted rice and direct seeded rice through the Rice Crop Manager has demonstrated transformative potential in rice cultivation in Odisha, addressing critical challenges in productivity, profitability, and sustainability. The results underscore RCM's ability to improve grain yields, optimize resource use, and reduce greenhouse gas emissions, making it a cornerstone for advancing sustainable rice systems in the region.\nRCM enhances site-specific nutrient management providing tailored recommendations for fertilizer application based on local soil and crop conditions. This approach significantly improved nitrogen and potassium use efficiency, reduced phosphorus overapplication, and addressed micronutrient deficiencies, particularly zinc. The adoption of RCM increased rice yields by 17-19% over traditional farmer fertilizer practices in both transplanted and direct-seeded rice systems. Additionally, the cost-effectiveness of RCM, despite higher initial input costs, resulted in substantial economic gains for farmers.\nHowever, the conventional transplanted rice system poses challenges, including high labor demands and water dependency, which may become unsustainable under the pressures of climate change. As a promising alternative, direct-seeded rice offers several advantages, including reduced labor requirements, water conservation, and compatibility with mechanization. While DSR demonstrated comparable yield performance to TPR in this study, challenges such as weed management and nitrous oxide emissions must be addressed through improved agronomic practices and innovations like coated urea.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 76,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 13,
+    "section": "5 Conclusion"
+   }
+  },
+  {
+   "text": "6 Limitations and future prospects\nThe study focused primarily on field trials conducted over 3 years and did not explore the long-term impact of RCM on soil health or its potential integration with cutting-edge technology like machine learning and remote sensing for precision farming. Furthermore, DSR trials were limited to the kharif season due to irrigation constraints during rabi. Future studies should evaluate the scalability of RCM-DSR combinations during rabi to enhance its year-round applicability. It will also give fruitful results and will be financially rewarding for farmers.\nAdditionally, a critical limitation lies in the adoption barriers for smallholder farmers, including access to digital tools and the technical know-how required for RCM. Future interventions must prioritize farmer education, capacity building, and improved accessibility to ensure widespread adoption.\nBy addressing these research gaps, the findings can contribute to a paradigm shift in rice cultivation not only in Odisha but across Eastern India, ensuring resilient and sustainable farming systems. As climate change and resource limitations increasingly challenge agriculture, combining the precision of RCM with the sustainability of DSR offers a flexible route to environmental sustainability and achieving worldwide food security.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 77,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 14,
+    "section": "6 Limitations and future prospects"
+   }
+  },
+  {
+   "text": "Data availability statement\nThe original contributions presented in the study are included in the article/Supplementary material, further inquiries can be directed to the corresponding author.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 78,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 14,
+    "section": "Data availability statement"
+   }
+  },
+  {
+   "text": "Author contributions\nAC: Conceptualization, Data curation, Formal analysis, Methodology, Resources, Visualization, Writing - original draft. AM:",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 79,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 14,
+    "section": "Author contributions"
+   }
+  },
+  {
+   "text": "References\nAli, M. A., Ladha, J. K., Rickman, J., and Laies, J. S. (2006). Comparison of different methods of rice establishment and nitrogen management strategies for lowland rice. J. Crop Improv. 16, 173-189. doi: 10.1300/J411v16n01_12\nBanayo, N. P. M. C., Haefele, S. M., Desamero, N. V., and Kato, Y. (2018). On-farm assessment of site-specific nutrient management for rainfed lowland rice in the Philippines. Field Crop Res. 220, 88-96. doi: 10.1016/j.fcr.2017.09.011\nBasavalingaiah, K., Ramesha, Y. M., Paramesh, V., Rajanna, G. A., Jat, S. L., Dhar Misra, S., et al. (2020). Energy budgeting, data envelopment analysis and greenhouse gas emission from rice production system: a case study from puddled transplanted rice and direct-seeded rice system of Karnataka, India. Sustainability 12:6439. doi: 10.3390/su12166439\nBuresh, R. J., Castillo, R. L., Torre, J. C. D., Laureles, E. V., Samson, M. I., Sinohin, P. J., et al. (2019). Site-specific nutrient management for rice in the Philippines: calculation of field-specific fertilizer requirements by rice crop manager. Field Crop Res. 239, 56-70. doi: 10.1016/j.fcr.2019.05.013\nFunding acquisition, Investigation, Methodology, Project administration, Resources, Supervision, Writing - review & editing. VV: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Visualization, Writing - original draft. SS: Investigation, Project administration, Resources, Supervision, Visualization, Writing - review & editing.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 80,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 14,
+    "section": "References"
+   }
+  },
+  {
+   "text": "Funding\nThe author(s) declare that financial support was received for the research and/or publication of this article. AC gets funding from Union Grants Commission (UGC) as a research fellow.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 81,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 14,
+    "section": "Funding"
+   }
+  },
+  {
+   "text": "Conflict of interest\nThe authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 82,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 14,
+    "section": "Conflict of interest"
+   }
+  },
+  {
+   "text": "Generative AI statement\nThe authors declare that no Gen AI was used in the creation of this manuscript.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 83,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 14,
+    "section": "Generative AI statement"
+   }
+  },
+  {
+   "text": "Publisher's note\nAll claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 84,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 14,
+    "section": "Publisher's note"
+   }
+  },
+  {
+   "text": "Supplementary material\n[The Supplementary material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fsufs.2025.1571263/ full#supplementary-material](https://www.frontiersin.org/articles/10.3389/fsufs.2025.1571263/full#supplementary-material)\nChaudhary, A., Venkatramanan, V., Kumar Mishra, A., and Sharma, S. (2023). Agronomic and environmental determinants of direct seeded rice in South Asia. Circ. Econ. Sustain. 3, 253-290. doi: 10.1007/s43615-022-00173-x\nDobermann, A. (2007). \"Nutrient use efficiency-measurement and management\" in Fertilizer best management practices: general principles, strategy for their adoption and voluntary initiatives versus regulations. eds. A. Krauss, K. Isherwood and P. Heffer (Paris, France: International Fertilizer Industry Association), 1-28.\nDobermann, A., and Witt, C. (2004). \"The evolution of site-specific nutrient management in irrigated rice systems of Asia\" in Increasing productivity of intensive rice systems through site-specific nutrient management. eds. A. Dobermann, C. Witt and D. Dawe, vol. 410 (Science Publisher Inc. and International Rice Research Institute, IRRI).\nFagodiya, R. K., Singh, A., Singh, R., Rani, S., Kumar, S., Rai, A. K., et al. (2023). The food-energy-water-carbon nexus of the rice-wheat production system in the western Indo-Gangetic plain of India: an impact of irrigation system, conservational tillage and residue management. Sci. Total Environ. 860:160428. doi: 10.1016/j.scitotenv.2022.160428\nFAO (2020). The state of food and agriculture 2020. Overcoming water challenges in agriculture. Rome: FAO.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 85,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 14,
+    "section": "Supplementary material"
+   }
+  },
+  {
+   "text": "Supplementary material\nHillier, J. G., Walter, C., Malin, D., Garcia-Suarez, T., Mila-i-Canals, L., and Smith, P. (2011). A farm-focused calculator for emissions from crop and livestock production. Environ. Model. Softw. 26, 1070-1078. doi: 10.1016/j.envsoft.2011.03.014\nIRRI (2019). IRRI annual report 2019. Available online at: http://books.irri.org/ AR2019_content.pdf (Accessed October 12, 2023).\nKaur, R., Chhina, G. S., Kaur, M., Bhatt, R., Elhindi, K. M., and Mattar, M. A. (2024). Optimizing nutrient and energy efficiency in a direct-seeded rice production system: a northwestern Punjab case study. Agronomy 14:671. doi: 10.3390/agronomy14040671\nKhan, S. T., Malik, A., Alwarthan, A., and Shaik, M. R. (2022). The enormity of the zinc deficiency problem and available solutions; an overview. Arab. J. Chem. 15:103668. doi: 10.1016/j.arabjc.2021.103668\nKumar, V., and Ladha, J. K. (2011). Direct seeding of rice: recent developments and future research needs. Adv. Agron. 111, 297-413. doi: 10.1016/B978-0-12-387689-8.00001-1\nKumar, A., Nayak, A. K., Tesfai, M., Tripathi, R., Mohanty, S., Mohapatra, S. D., et al. (2022). \"Direct seeded rice: a potential climate-neutral and resilient farming system\" in Climate neutral and resilient farming systems (Routledge), 106-126.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 86,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 15,
+    "section": "Supplementary material"
+   }
+  },
+  {
+   "text": "Supplementary material\nLiu, Y., Liu, W., Geng, X., Liu, B., Fu, X., Guo, L., et al. (2022). Direct-seeded rice reduces methane emissions by improving root physiological characteristics through affecting the water status of paddy fields. Rhizosphere 24:100628. doi: 10.1016/j.rhisph.2022.100628\nMamun, M. A. A., Haque, M. M., Saleque, M. A., Khaliq, Q. A., Karim, A. J. M. S., and Karim, M. A. (2018). Evaluation of different fertilizer management guidelines for boro rice cultivation in south central coastal region of Bangladesh. Ann. Agrarian Sci. 16, 466-475. doi: 10.1016/j.aasci.2018.05.005\nNagothu, U. S. (2023). Climate neutral and resilient farming systems: practical solutions for climate mitigation and adaptation: Taylor & Francis, 245.\nPandey, S., and Velasco, L. (2005) \"Trends in crop establishment methods in Asia and research issues\", Rice is life: scientific perspectives for the 21st century. Proceedings of the world rice research conference, Tsukuba, Japan, pp. 178-181\nPeng, S., and Cassman, K. G. (1998). Upper thresholds of nitrogen uptake rates and associated nitrogen fertilizer efficiencies in irrigated rice. Agron. J. 90, 178-185. doi: 10.2134/agronj1998.00021962009000020010x Prabhudeva, D. S., Nagaraju, T., Sheshadri, P. K., Basavaraja, M. N. T., and Mallikarjuna, G. B. (2017). Precision management practices - a much needed set of agro-techniques to improve rice productivity and cutback the resources in aerobic condition under drip irrigation. Int. J. Curr. Microbiol. App. Sci. 6, 2800-2810. doi: 10.20546/ijcmas.2017.608.333",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 87,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 15,
+    "section": "Supplementary material"
+   }
+  },
+  {
+   "text": "Supplementary material\nSapkota, T. B., Majumdar, K., Khurana, R., Jat, R. K., Stirling, C. M., and Jat, M. L. (2016). \"Site-specific nutrient management under conservation agriculture- based cereal systems in South Asia\" in Climate change and agricultural development: improving resilience through climate smart agriculture, agroecology and conservation. ed. U. S. Nagothu (New York: Routledge), 131-160.\nSharma, S., Panneerselvam, P., Castillo, R., Manohar, S., Raj, R., Ravi, V., et al. (2019a). Web-based tool for calculating field-specific nutrient management for rice in India. Nutr. Cycl. Agroecosyst. 113, 21-33. doi: 10.1007/s10705-018-9959-x\nSharma, S., Rout, K. K., Khanda, C. M., Tripathi, R., Shahid, M., Nayak, A., et al. (2019b). Field-specific nutrient management using Rice crop manager decision support tool in Odisha, India. Field Crops Res. 241:107578. doi: 10.1016/j.fcr.2019.107578\nSoriano, J. B., Wani, S. P., Rao, A. N., Sawargaonkar, G. L., and Gowda, J. A. (2018). Comparative evaluation of direct dry-seeded and transplanted rice in the dry zone of Karnataka, India. Philippine J. Sci. 147, 165-174.\nSusilawati, H. L., Setyanto, P., Kartikawati, R., and Sutriadi, M. T. (2019). \"The opportunity of direct seeding to mitigate greenhouse gas emission from paddy rice field\" in IOP conference series: earth and environmental science, vol. 393 (IOP Publishing), 012042.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 88,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 15,
+    "section": "Supplementary material"
+   }
+  },
+  {
+   "text": "Supplementary material\nTao, Y., Chen, Q., Peng, S., Wang, W., and Nie, L. (2016). Lower global warming potential and higher yield of wet direct-seeded rice in Central China. Agron. Sustain. Dev. 36, 1-9. doi: 10.1007/s13593-016-0361-2\nTiong, J., McDonald, G. K., Genc, Y., Pedas, P., Hayes, J. E., Toubia, J., et al. (2014). H v ZIP 7 mediates zinc accumulation in barley (H ordeum vulgare) at moderately high zinc supply. New Phytol. 201, 131-143. doi: 10.1111/nph.12468\nWitt, C., and Dobermann, A. (2004). \"Toward a decision support system for sitespecific nutrient management\" in Increasing productivity of intensive rice systems through site-specific nutrient management. eds. A. Dobermann, C. Witt and D. Dawe (Los Baños, Philippines: Science Publishers, Enfield, NH (USA) and International Rice Research Institute (IRRI)), 358-395.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 89,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Enhancing yield and GHG mitigation through site-specific nutrient management.pdf",
+    "page": 15,
+    "section": "Supplementary material"
+   }
+  }
+ ]
+}

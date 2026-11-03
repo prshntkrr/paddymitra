@@ -1,0 +1,70 @@
+{
+ "source": "zinc-deficiency-english.pdf",
+ "sha256": "288534e5f07e6e383fca6c41a5cecb7f73997337d2b7f367925ef71136f9244d",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:55:29",
+ "chunk_count": 5,
+ "chunks": [
+  {
+   "text": "What it does\nZinc (Zn) deficiency affects several biochemical processes in the rice plant, thus severely affecting plant growth.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "zinc-deficiency-english.pdf",
+    "page": 1,
+    "section": "What it does"
+   }
+  },
+  {
+   "text": "Why and where it occurs\nZn deficiency is associated with S deficiency.\nIt can occur in neutral and calcareous soils, intensively cropped soils, paddy soils and very poorly drained soils, sodic and saline soils, peat soils, soils with high available P and Si status, sandy soils, highly weathered, acid, and coarse-textured soils, soils derived from serpentine and laterite, and leached, old acid sulfate soils with a small concentration of K, Mg, and Ca.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "zinc-deficiency-english.pdf",
+    "page": 1,
+    "section": "Why and where it occurs"
+   }
+  },
+  {
+   "text": "How to identify\nCheck the field for the following symptoms:\n- Symptoms appear between two to four weeks after transplanting\n- Dusty brown spots on upper leaves of stunted plants\n- Uneven plant growth and patches of poorly established hills in the field, but the crop may recover without intervention\nwww.rkbodisha.in\nDusty brown spots are visible on zinc deficient plant\n- Tillering decreases and can stop completely and time to crop maturity increases under severe Zn deficiency\n- Increase spikelet sterility in rice\n- Chlorotic midribs, particularly near the leaf base of younger leaves\n- Leaves lose turgor and turn brown as brown blotches and streaks appear on lower leaves, enlarge, and coalesce\n- White line sometimes appears along the leaf midrib\n- Leaf blade size is reduced\nOther effects on growth include the following:\n- Symptoms may be more pronounced during early growth stages because of Zn immobilization (due to increased bicarbonate concentration in the soil under strongly reducing conditions following flooding). If the deficiency is not severe, plants can recover after 4-6 weeks, but maturity is delayed and yield reduced.\nZinc deficiency has similar symptoms as Fe deficiency (also occurs on alkaline soils), Fe toxicity (leaf spots, appearance), grassy stunt virus, and tungro virus.\nCompared with Zn deficiency, Fe toxicity occurs on high organic status soils with low pH.\nTo confirm Zn deficiency, send soil and plant sample to the laboratory for testing.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "zinc-deficiency-english.pdf",
+    "page": 1,
+    "section": "How to identify"
+   }
+  },
+  {
+   "text": "How to manage\n- Grow Zn-efficient varieties. Contact your local agriculture office for an up-to-date list of available varieties.\n- Use fertilizers that generate acidity (e.g., replace some urea with ammonium sulfate).\n- Apply organic manure before seeding or transplanting or applied to the nursery seedbed a few days before transplanting.\n- Allow permanently flooded fields (e.g., where three crops per year are grown) to drain and dry out periodically.\n- Monitor irrigation water quality.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "zinc-deficiency-english.pdf",
+    "page": 1,
+    "section": "How to manage"
+   }
+  },
+  {
+   "text": "Learn more\nVisit Rice Based Cropping Systems Knowledge Bank www.rkbodisha.in",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "zinc-deficiency-english.pdf",
+    "page": 1,
+    "section": "Learn more"
+   }
+  }
+ ]
+}

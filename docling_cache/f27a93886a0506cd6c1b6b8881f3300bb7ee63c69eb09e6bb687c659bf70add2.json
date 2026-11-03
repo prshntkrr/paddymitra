@@ -1,0 +1,369 @@
+{
+ "source": "Varietal_InformationSheet1.csv",
+ "sha256": "f27a93886a0506cd6c1b6b8881f3300bb7ee63c69eb09e6bb687c659bf70add2",
+ "origin": "clean_rendering",
+ "built_at": "2026-11-01T00:58:33",
+ "chunk_count": 40,
+ "chunks": [
+  {
+   "text": "Q: Which variety is suitable for lowland fields?\nA: Varieties suitable for lowland fields include Swarna Sub-1, CR Dhan 801, and MTU 7029.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 1,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which new paddy varieties are available for Kharif season?\nA: New paddy varieties available for Kharif season include CR Dhan 315, CR Dhan 317, CR Dhan 318, and CR Dhan 322.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 2,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Last year CR 1018 was damaged by wind. Can I plant it again?\nA: It is not advisable to replant CR 1018; instead, use lodging-resistant varieties like Kalachampa, CR-1009 SUB 1, or MTU 1223.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 3,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the name of the variety, its duration, and suitable land type?\nA: Pooja is a 145-day variety suitable for medium land.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 4,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which variety is best for lowland fields?\nA: CR Dhan 800 and Swarna Sub-1 are best suited for lowland fields.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 5,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Is Veena paddy variety good for cultivation?\nA: Yes, Veena is suitable for cultivation on upland or medium land and matures in about 120 days.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 6,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which varieties have a 170-day duration?\nA: CR-508 and CR-510 are varieties with a 170-day duration.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 7,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What are new medium-duration paddy varieties?\nA: CR Dhan 317 and CR Dhan 318 are new medium-duration paddy varieties.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 8,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which 150-day varieties give good yield?\nA: Pooja, Lalat, and MTU 1001 are 150-day varieties that yield well.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 9,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which variety is good for puffed rice (mudhi)?\nA: BINA 1, a bold slender variety, is good for puffed rice and also suitable for Chuda.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 10,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Give details about 7061 variety.\nA: CR Dhan 7061 (Indrani) is a high-yielding variety with a maturity of around 140 days.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 11,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which varieties are high-yielding?\nA: CR Dhan 315, CR Dhan 318, and Swarna Shreya are high-yielding varieties.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 12,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which medium-duration varieties give good yield?\nA: Pooja, CR Dhan 310, and Lalat are good yielding medium-duration varieties.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 13,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What are the newly released paddy varieties?\nA: Newly released paddy varieties include CR Dhan 315, CR Dhan 317, CR Dhan 318, and CR Dhan 322.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 14,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How is the yield of Lal Kubera variety?\nA: Lal Kubera gives moderate yield and is a specialty red rice preferred by consumers.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 15,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is TL paddy variety?\nA: TL refers to �Truthfully Labelled� seeds and not to a specific variety.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 16,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which variety can replace Pooja?\nA: Alternatives to Pooja include MTU 1075, Ranjit Sub 1, and Swarna Sub 1.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 17,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What new paddy seeds are available now?\nA: Currently available new paddy seeds include CR Dhan 318, CR Dhan 322, and Swarna Shreya.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 18,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which variety is best for fallow land?\nA: CR Dhan 800 and Swarna Sub-1 are best suited for fallow land.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 19,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which paddy is suitable for medium land this year?\nA: CR Dhan 310 and CR Dhan 317 are suitable for medium land, and should be sown from mid-June to early July.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 20,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which varieties are suitable for pest/disease-prone areas?\nA: CR Dhan 801 and Swarna Shreya are good choices for pest and disease-prone areas.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 21,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Suggest long-duration, waterlogging-tolerant, high-yielding varieties for fallow land.\nA: CR 1009 Sub 1, Ranjit Sub 1, and Swarna Sub-1 are suitable for such conditions.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 22,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Is 7061 Indrani good for eating?\nA: Yes, CR Dhan 7061 (Indrani) has good cooking quality and is preferred by consumers.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 23,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Advice on MTU-1140 variety.\nA: MTU-1140 is a medium-duration variety (115�120 days) suitable for medium land with good yield.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 24,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Are there any good 100-day varieties?\nA: Yes, Sahabhagidhan and CR Dhan 207 are good 100-day varieties.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 25,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which variety is best for puffed rice in Kharif?\nA: Lalat and Jagabandhu are suitable for puffed rice in the Kharif season.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 26,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Tell about DRR 49 variety.\nA: DRR 49 is a high-yielding, disease-resistant variety with about 135 days duration.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 27,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which paddy variety gives high yield in fallow land?\nA: CR Dhan 800 and Swarna Sub-1 give high yields in fallow land.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 28,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Give general advice on paddy varieties.\nA: Choose paddy varieties based on land type, season, and duration for best results.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 29,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which varieties are best for Kharif?\nA: CR Dhan 315, Swarna Shreya, and Pooja are best for the Kharif season.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 30,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Do hybrid rice varieties produce red rice?\nA: No, hybrid rice varieties usually produce white grains and not red rice.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 31,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which variety gives better yield than Sarala?\nA: Kalachampa, CR-1009 Sub 1, and MTU 1223 give better yield than Sarala.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 32,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Can I reuse Kalachampa paddy as seed this year?\nA: Yes, Kalachampa paddy can be reused as seed if it has been stored properly and retains good quality.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 33,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Is Hasanta smaller or larger than Pratikhya variety?\nA: Hasanta is bold with 150 days duration, while Pratikhya is long and slender with 130 days duration.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 34,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the duration and yield of Pooja variety?\nA: Pooja matures in 145 days and yields around 5�6 tons per hectare.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 35,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Is 145-day CRRI variety available at Cuttack?\nA: Yes, CRRI distributes 145-day varieties like CR Dhan 310 and CR Dhan 318 in Cuttack.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 36,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which other varieties are similar to Kalachampa?\nA: Varieties similar to Kalachampa include scented or Basmati-type varieties like Kalajeera and Ketekijoha.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 37,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which variety suits deep fields and short duration?\nA: CR Dhan 207 and Sahabhagidhan are suitable for deep fields with short duration.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 38,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the yield of CR 1018?\nA: CR 1018 yields around 5.5�6 tons per hectare but is sensitive to lodging.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 39,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Are there any 90-day paddy varieties?\nA: Yes, 90-day varieties include Anjali, Vandana, and Khandagiri",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 40,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  }
+ ]
+}

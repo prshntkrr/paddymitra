@@ -1,0 +1,106 @@
+{
+ "source": "DDR-Dhan-42.pdf",
+ "sha256": "c965268ca39083d19e4a769c63dec4482cc95e869d444beb52bcb70483dff1a8",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:34:58",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "DRR Dhan 42*\n(IR 77298-14-1-2-10 x IR 77298-5-6-11) (IR-64 DRT-1)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "DDR-Dhan-42.pdf",
+    "page": 1,
+    "section": "DRR Dhan 42*"
+   }
+  },
+  {
+   "text": "Product Profile\nDRR Dhan 42 is an early-maturing, medium height, long slender, high yielding and widely adaptable variety grown under irrigated lowland and upland conditions. It exhibits drought tolerance and performs well in water-scarce environments. Yield advantage is approximately 1.0 mt/ha over other varieties of similar maturity under drought stress conditions. Developed collaboratively by IIRR & IRRI and released in 2016, it is specifically recommended for cultivation in Southern and Central India. Additionally, DRR Dhan 42 showcases tolerance to lodging and grain shattering while delivering excellent grain and eating quality.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "DDR-Dhan-42.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment-TMeLS-R/DMeLS-R\nPTR, Planting Method = DSR. PTR, Ecosystem = Irrigated Lowland. PTR, Ecosystem = Rainfed Lowland. PTR, Ecosystem = Upland. Recommended, Planting Method = Recommended. Recommended, Ecosystem = Recommended. Recommended, Ecosystem = Not Recommended. Recommended, Ecosystem = Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "DDR-Dhan-42.pdf",
+    "page": 1,
+    "section": "Priority Market Segment-TMeLS-R/DMeLS-R"
+   }
+  },
+  {
+   "text": "Positioning\nReplace, Irrigated Lowland = IR 64. Replace, Rainfed Lowland = None. Replace, Upland = None. Companion, Irrigated Lowland = CR Dhan 500. Companion, Rainfed Lowland = None. Companion, Upland = DRR Dhan 44",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "DDR-Dhan-42.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Key Strengths\n- High yield\n- Drought tolerant\n- Long slender grain\n- Early maturity; Non-lodging; non-shattering\n- Excellent eating quality\n- Resistant to leaf blast",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "DDR-Dhan-42.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nDRR Dhan 42, Grain yield.(Kg/ha) = 5500-6000. DRR Dhan 42, Grain yield.% Adv = 33. DRR Dhan 42, Maturity (days). = 115-120. DRR Dhan 42, Plant height (cm). = 100-105. DRR Dhan 42, Lodging. = Tolerant. DRR Dhan 42, HRR %. = 56. DRR Dhan 42, 1000 grain weight (g). = 26. DRR Dhan 42, Grain Shape. = LS. Sahbhagi Dhan, Grain yield.(Kg/ha) = 3800-4500. Sahbhagi Dhan, Grain yield.% Adv = . Sahbhagi Dhan, Maturity (days). = 100-110. Sahbhagi Dhan, Plant height (cm). = 85-90. Sahbhagi Dhan, Lodging. = Tolerant. Sahbhagi Dhan, HRR %. = 65. Sahbhagi Dhan, 1000 grain weight (g). = 22. Sahbhagi Dhan, Grain Shape. = LB",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "DDR-Dhan-42.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nDRR Dhan 42, Leaf blast = Resistant. DRR Dhan 42, Leaf blight = Tolerant. DRR Dhan 42, Sheath blight = Susceptible. DRR Dhan 42, Brown spot = Tolerant. DRR Dhan 42, Drought = Tolerant. Sahbhagi Dhan, Leaf blast = Tolerant. Sahbhagi Dhan, Leaf blight = Susceptible. Sahbhagi Dhan, Sheath blight = Tolerant. Sahbhagi Dhan, Brown spot = Susceptible. Sahbhagi Dhan, Drought = Tolerant\nProducibility:\nDRR Dhan 42= 2200-2400Kgs. / acre\nRecommendation:\nReleased for cultivation in Telangana, Tamilnadu, Andhra Pradesh, Madhya\nPradesh, Chhattisgarh, Jharkhand",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "DDR-Dhan-42.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\n- Sensitive to low temperature\n- Susceptible to sheath blight\n- Moderate HRR",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "DDR-Dhan-42.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}

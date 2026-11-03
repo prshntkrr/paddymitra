@@ -1,0 +1,115 @@
+{
+ "source": "Nua-Kalajeera.pdf",
+ "sha256": "11ab26d13e93e85628376ae3be8a75a5feec873919f56e6e475f398db7d6c59f",
+ "ocr": false,
+ "table_mode": "fast",
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T18:16:31",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "Nua Kalajeera\n(IET 18393)\n(Pure line selection of Kalajeera)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Nua-Kalajeera.pdf",
+    "page": 1,
+    "section": "Nua Kalajeera"
+   }
+  },
+  {
+   "text": "Product Profile\nNua Kalajeera, characterized by its strong aroma and short bold grains, was developed in 2008 through pure line selection from the local Kalajeera variety, in a joint effort by OUAT and NRRI. This tall, late-maturing variety features a distinct black husk color and boasts high iron and zinc content, contributing to its nutritional value. Notably, Nua Kalajeera offers a longer shelf life and has been recognized by APEDA as one of the most popular landraces for commercialized export. It is popular for pudding, used for festival and other special occasions by the tribals. Moreover, Nua Kalajeera performs exceptionally well under organic nutrient management practices.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Nua-Kalajeera.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment - TLaS-R\nRecommended, Planting Method.DSR = Not Recommended. Recommended, Ecosystem.Irrigated Lowland = Not Recommended. Recommended, Ecosystem.Rainfed Lowland = Recommended. Recommended, Ecosystem.Upland = Not Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Nua-Kalajeera.pdf",
+    "page": 1,
+    "section": "Priority Market Segment - TLaS-R"
+   }
+  },
+  {
+   "text": "Positioning\nPosition, 1 = Irrigated Lowland. Position, 2 = Rainfed Lowland. Position, 3 = Upland. Replace, 1 = None. Replace, 2 = Kalajeea. Replace, 3 = None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Nua-Kalajeera.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Good aroma\n- Longer shelf life\n- High HRR\n- Profuse tillering; tolerant to lodging\n- Moderately resistant to sheath rot, sheath blight, and blast\n- Long and dense panicle",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Nua-Kalajeera.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nVariety, 1 = Grain yield (Kg/ha). Variety, 2 = % Adv. Variety, 3 = Maturity (days). Variety, 4 = Plant height (cm). Variety, 5 = Lodging. Variety, 6 = HRR %. Variety, 7 = 1000 grain weight (g). Variety, 8 = Grain Shape. Nua Kalajeera, 1 = 2500-3000. Nua Kalajeera, 2 = . Nua Kalajeera, 3 = 145-150. Nua Kalajeera, 4 = 135-140. Nua Kalajeera, 5 = Tolerant. Nua Kalajeera, 6 = 62. Nua Kalajeera, 7 = 15. Nua Kalajeera, 8 = SB",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Nua-Kalajeera.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nVariety, 1 = Leaf blast. Variety, 2 = Leaf blight. Variety, 3 = Sheath blight. Variety, 4 = Sheath rot. Variety, 5 = Yellow Stem borer. Variety, 6 = Gall Midge. Nua Kalajeera, 1 = Tolerant. Nua Kalajeera, 2 = Tolerant. Nua Kalajeera, 3 = Tolerant. Nua Kalajeera, 4 = Tolerant. Nua Kalajeera, 5 = Tolerant. Nua Kalajeera, 6 = Tolerant\nProducibility: Nua Kalajeera= 1100Kgs. / acre\nRecommendation:\nReleased for cultivation in Odisha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Nua-Kalajeera.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\n- Low yield\n- Tall plant\n- Low grain weight\n- Photo sensitive",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Nua-Kalajeera.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}

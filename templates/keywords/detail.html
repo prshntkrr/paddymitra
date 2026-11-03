@@ -1,0 +1,26 @@
+{% extends 'base.html' %}{% load irri_extras %}
+{% block page_title %}Keyword: {{ kw.keyword }}{% endblock %}
+{% block topbar_actions %}
+  {% if user|role_has:"Administrator,Editor" %}<a href="{% url 'keywords:edit' kw.pk %}" class="btn btn-secondary btn-sm">Edit</a>{% endif %}
+{% endblock %}
+{% block content %}
+<div class="card" style="max-width:680px;">
+  <div class="card-body">
+    <h2 style="margin:0 0 10px;">{{ kw.keyword }}</h2>
+    <div class="detail-grid" style="border:1px solid var(--gray-200);border-radius:var(--radius-md);overflow:hidden;">
+      <div class="detail-label">ID</div><div class="detail-value">{{ kw.kw_code }}</div>
+      <div class="detail-label">Parent</div><div class="detail-value"><span class="badge badge-green">{{ kw.parent_category }}</span></div>
+      <div class="detail-label">Sub-category</div><div class="detail-value">{{ kw.subcategory|default:"—" }}</div>
+      <div class="detail-label">Region</div><div class="detail-value">{{ kw.region }}</div>
+      <div class="detail-label">Translation</div><div class="detail-value">{{ kw.translation|default:"—" }}</div>
+      <div class="detail-label">Language</div><div class="detail-value">{{ kw.language }}</div>
+      <div class="detail-label">Local Name</div><div class="detail-value">{{ kw.local_names|default:"—" }}</div>
+      <div class="detail-label">Expert Validated</div><div class="detail-value">{{ kw.expert_validated|yesno:"Yes,No" }}</div>
+      <div class="detail-label">Validation Source</div><div class="detail-value">{{ kw.validation_source|default:"—" }}</div>
+      {% if kw.image %}<div class="detail-label">Image</div><div class="detail-value"><img src="{{ kw.image.url }}" style="max-height:120px;"></div>{% endif %}
+      <div class="detail-label">Status</div><div class="detail-value"><span class="badge {{ kw.status|badge_class }}">{{ kw.status }}</span></div>
+      <div class="detail-label">Linked documents</div><div class="detail-value">{{ kw.linked_docs_count }} documents</div>
+    </div>
+  </div>
+</div>
+{% endblock %}

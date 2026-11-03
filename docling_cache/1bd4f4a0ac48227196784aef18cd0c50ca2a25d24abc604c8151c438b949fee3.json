@@ -1,0 +1,106 @@
+{
+ "source": "MTU-1075.pdf",
+ "sha256": "1bd4f4a0ac48227196784aef18cd0c50ca2a25d24abc604c8151c438b949fee3",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:14:40",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "MTU-1075 (Pushaymi)\n(MTU-2716 x MTU-1010)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "MTU-1075.pdf",
+    "page": 1,
+    "section": "MTU-1075 (Pushaymi)"
+   }
+  },
+  {
+   "text": "Product Profile\nA high-yielding, late-maturing, semi-tall variety with long slender grains, MTU-1075 is extensively cultivated in South India. Developed by ANGRAU University (Maruteru) and released in 2008, it is highly adapted to irrigated lowlands. Renowned for its good cooking quality, it exhibits tolerance to important diseases and insect pests, along with moderate HRR. Additionally, it boasts good grain weight, further enhancing its appeal to farmers.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "MTU-1075.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment - TMeLS-R\nPTR, Planting Method = DSR. PTR, Ecosystem = Irrigated Lowland. PTR, Ecosystem = Rainfed Lowland. PTR, Ecosystem = Upland. Recommended, Planting Method = Not Recommended. Recommended, Ecosystem = Recommended. Recommended, Ecosystem = Not Recommended. Recommended, Ecosystem = Not Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "MTU-1075.pdf",
+    "page": 1,
+    "section": "Priority Market Segment - TMeLS-R"
+   }
+  },
+  {
+   "text": "Positioning\nReplace, Irrigated Lowland = MTU-1001. Replace, Rainfed Lowland = None. Replace, Upland = None. Companion, Irrigated Lowland = DRR-50. Companion, Rainfed Lowland = None. Companion, Upland = None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "MTU-1075.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Good yield potential\n- Non-lodging\n- Long slender grain\n- Semi-tall\n- Tolerant to major diseases and insect pests\n- Good cooking quality",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "MTU-1075.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nPushyami, Grain yield.(Kg/ha) = 5500-6000. Pushyami, Grain yield.% Adv = 9. Pushyami, Maturity (days). = 130-135. Pushyami, Plant height (cm). = 105-108. Pushyami, Lodging. = Tolerant. Pushyami, HRR %. = 54. Pushyami, 1000 grain weight (g). = 21. Pushyami, Grain Shape. = LS. MTU-1001, Grain yield.(Kg/ha) = 5000-5500. MTU-1001, Grain yield.% Adv = . MTU-1001, Maturity (days). = 130-135. MTU-1001, Plant height (cm). = 110-115. MTU-1001, Lodging. = Susceptible. MTU-1001, HRR %. = 69. MTU-1001, 1000 grain weight (g). = 23. MTU-1001, Grain Shape. = MS",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "MTU-1075.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nPushyami, Leaf blast = Tolerant. Pushyami, Leaf blight = Tolerant. Pushyami, Sheath blight = Susceptible. Pushyami, BPH = Tolerant. Pushyami, Gall midge = Tolerant. MTU-1001, Leaf blast = Tolerant. MTU-1001, Leaf blight = Resistant. MTU-1001, Sheath blight = Susceptible. MTU-1001, BPH = Tolerant. MTU-1001, Gall midge = Susceptible\nProducibility: Recommendation: VarietyPushyami=2200-2400Kgs. / acre Released for cultivation in Andhra Pradesh, Telangana, Odisha.\nZonal VII(S) check for Initial varietal trials conducted by IIRR, India.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "MTU-1075.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\nSusceptible to Sheath blight",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "MTU-1075.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}

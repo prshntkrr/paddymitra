@@ -1,0 +1,66 @@
+{% load static %}{% load irri_extras %}
+<aside class="sidebar">
+  <div class="sidebar-brand">
+    <img src="{% static 'img/CGIAR-IRRI-2023.png' %}" alt="IRRI CGIAR" style="height:36px;object-fit:contain;">
+    <div class="text" style="font-size:11px;line-height:1.3;">AI Knowledge<small>Management Console</small></div>
+  </div>
+  <div class="sidebar-menu">
+    <div class="sidebar-section">Overview</div>
+    <a href="{% url 'dashboard:home' %}" class="sidebar-link {% active active_nav 'dashboard' %}">
+      {% icon "dashboard" 18 %} Dashboard
+    </a>
+
+    <div class="sidebar-section">Data Management</div>
+    <a href="{% url 'queries:list' %}" class="sidebar-link {% active active_nav 'queries' %}">
+      {% icon "chat" 18 %} Query Listing
+    </a>
+    <a href="{% url 'queries:faq' %}" class="sidebar-link {% active active_nav 'faq' %}">
+      {% icon "chat" 18 %} FAQ
+    </a>
+    <a href="{% url 'queries:glossary' %}" class="sidebar-link {% active active_nav 'glossary' %}">
+      {% icon "book" 18 %} Glossary
+    </a>
+    <a href="{% url 'queries:translation_test' %}" class="sidebar-link {% active active_nav 'translation_test' %}">
+      {% icon "bolt" 18 %} Translation Test
+    </a>
+    <a href="{% url 'documents:list' %}" class="sidebar-link {% active active_nav 'documents' %}">
+      {% icon "document" 18 %} Documents
+    </a>
+    <a href="{% url 'keywords:list' %}" class="sidebar-link {% active active_nav 'keywords' %}">
+      {% icon "tag" 18 %} Keywords
+    </a>
+
+    <div class="sidebar-section">Configuration</div>
+    <a href="{% url 'catalogues:list' %}" class="sidebar-link {% active active_nav 'catalogues' %}">
+      {% icon "book" 18 %} Catalogues
+    </a>
+    <a href="{% url 'hooks:list' %}" class="sidebar-link {% active active_nav 'hooks' %}">
+      {% icon "link" 18 %} Hooks
+    </a>
+    {% if user|role_has:"Administrator,Editor" %}
+    <a href="{% url 'api_endpoints:list' %}" class="sidebar-link {% active active_nav 'api_endpoints' %}">
+      {% icon "bolt" 18 %} API List
+    </a>
+    {% endif %}
+
+    {% if user|role_has:"Administrator" %}
+    <div class="sidebar-section">Administration</div>
+    <a href="{% url 'accounts:users_list' %}" class="sidebar-link {% active active_nav 'accounts' %}">
+      {% icon "users" 18 %} Users &amp; Roles
+    </a>
+    {% endif %}
+  </div>
+
+  <div class="sidebar-footer">
+    <div class="sidebar-user">
+      <div class="avatar">{{ user.initials }}</div>
+      <div class="info">{{ user.display_name }}<small>{{ current_role|default:"User" }}</small></div>
+    </div>
+    <form method="post" action="{% url 'accounts:logout' %}" style="margin:0;">
+      {% csrf_token %}
+      <button type="submit" class="sidebar-logout" title="Sign out">
+        {% icon "logout" 16 %}
+      </button>
+    </form>
+  </div>
+</aside>

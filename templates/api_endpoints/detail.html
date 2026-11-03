@@ -1,0 +1,139 @@
+{% extends 'base.html' %}{% load irri_extras %}
+{% block page_title %}API · {{ api.name }}{% endblock %}
+{% block topbar_actions %}
+  <a href="{% url 'api_endpoints:list' %}" class="btn btn-sm btn-secondary">← All APIs</a>
+{% endblock %}
+{% block content %}
+<div class="card">
+  <div class="card-body">
+    <h2 style="margin:0 0 6px;">{{ api.name }}</h2>
+    <div style="color:var(--gray-500);font-size:12px;">
+      Created {{ api.created_at|date:"d M Y, H:i" }}
+      {% if api.created_by %} by {{ api.created_by.display_name }}{% endif %}
+      · {{ api.request_count }} call{{ api.request_count|pluralize }}
+    </div>
+
+    <div class="detail-grid" style="margin-top:14px;border:1px solid var(--gray-200);border-radius:var(--radius-md);overflow:hidden;">
+      <div class="detail-label">Endpoint URL</div>
+      <div class="detail-value"><code style="font-family:monospace;">{{ full_url }}</code></div>
+      <div class="detail-label">Public ID</div><div class="detail-value" style="font-family:monospace;">{{ api.public_id }}</div>
+      <div class="detail-label">Token</div>
+      <div class="detail-value" style="font-family:monospace;word-break:break-all;">
+        {{ api.token }}
+        <form method="post" action="{% url 'api_endpoints:rotate' api.public_id %}" style="display:inline;margin-left:8px;">{% csrf_token %}
+          <button class="btn btn-xs btn-secondary" onclick="return confirm('Rotate the token? Existing callers will need the new one.');">Rotate</button>
+        </form>
+      </div>
+      <div class="detail-label">Catalogue</div><div class="detail-value">{{ api.catalogue.name }} ({{ api.catalogue.slug }})</div>
+      <div class="detail-label">Persona</div><div class="detail-value">{% if api.user_type == 'researcher' %}<span class="badge badge-purple">Researcher</span> — detailed/technical{% else %}<span class="badge badge-green">Farmer</span> — short/plain-language{% endif %}</div>
+      <div class="detail-label">Language</div><div class="detail-value">{{ api.language }}</div>
+      <div class="detail-label">Status</div><div class="detail-value">{% if api.is_active %}<span class="badge badge-green">Active</span>{% else %}<span class="badge badge-yellow">Inactive</span>{% endif %}</div>
+      <div class="detail-label">Last call</div><div class="detail-value">{{ api.last_called_at|date:"d M Y, H:i:s"|default:"never" }}</div>
+      {% if api.sample_query %}<div class="detail-label">Sample query</div><div class="detail-value">{{ api.sample_query }}</div>{% endif %}
+      {% if api.description %}<div class="detail-label">Notes</div><div class="detail-value">{{ api.description }}</div>{% endif %}
+    </div>
+
+    <h3 style="margin-top:22px;">How to call this API</h3>
+
+    <div style="background:var(--gray-50);padding:14px;border-radius:8px;border:1px solid var(--gray-200);margin-top:8px;">
+      <div style="font-size:12px;color:var(--gray-500);font-weight:600;text-transform:uppercase;margin-bottom:6px;">Headers</div>
+<pre style="margin:0;font-size:12px;">Authorization: Token {{ api.token }}
+Content-Type: application/json</pre>
+    </div>
+
+    <div style="background:var(--gray-50);padding:14px;border-radius:8px;border:1px solid var(--gray-200);margin-top:10px;">
+      <div style="font-size:12px;color:var(--gray-500);font-weight:600;text-transform:uppercase;margin-bottom:6px;">Text query — JSON body</div>
+<pre style="margin:0;font-size:12px;">POST {{ full_url }}
+Authorization: Token {{ api.token }}
+Content-Type: application/json
+
+{"query": "{{ api.sample_query|default:'How do I treat blast in my rice crop?'|escapejs }}"}</pre>
+    </div>
+
+    <div style="background:var(--gray-50);padding:14px;border-radius:8px;border:1px solid var(--gray-200);margin-top:10px;">
+      <div style="font-size:12px;color:var(--gray-500);font-weight:600;text-transform:uppercase;margin-bottom:6px;">Image-only query — multipart body</div>
+<pre style="margin:0;font-size:12px;">POST {{ full_url }}
+Authorization: Token {{ api.token }}
+Content-Type: multipart/form-data
+
+image=&lt;file&gt;</pre>
+    </div>
+
+    <div style="background:var(--gray-50);padding:14px;border-radius:8px;border:1px solid var(--gray-200);margin-top:10px;">
+      <div style="font-size:12px;color:var(--gray-500);font-weight:600;text-transform:uppercase;margin-bottom:6px;">Text + image query — multipart body</div>
+<pre style="margin:0;font-size:12px;">POST {{ full_url }}
+Authorization: Token {{ api.token }}
+Content-Type: multipart/form-data
+
+image=&lt;file&gt;
+query=Why are the leaves turning yellow on this plant?</pre>
+      <div style="margin-top:6px;font-size:11px;color:var(--gray-500);">When both are present, the image is identified by CLIP and the text question is answered using that visual context.</div>
+    </div>
+
+    <div style="background:var(--gray-50);padding:14px;border-radius:8px;border:1px solid var(--gray-200);margin-top:10px;">
+      <div style="font-size:12px;color:var(--gray-500);font-weight:600;text-transform:uppercase;margin-bottom:6px;">Audio query — multipart body (Whisper STT)</div>
+<pre style="margin:0;font-size:12px;">POST {{ full_url }}
+Authorization: Token {{ api.token }}
+Content-Type: multipart/form-data
+
+audio=&lt;file: .webm | .ogg | .mp3 | .m4a | .wav&gt;
+language=Hindi          # optional: overrides API default ({{ api.language }})</pre>
+      <div style="margin-top:6px;font-size:11px;color:var(--gray-500);">The audio is transcribed in the source language; the answer is returned in the same language. You can also combine <code>audio</code> + <code>image</code> in one request.</div>
+    </div>
+
+    <div style="background:#FEF9C3;padding:10px 14px;border-radius:8px;border:1px solid #EAB308;margin-top:10px;font-size:12px;color:#713F12;">
+      <strong>Language override:</strong> the API's default language is <code>{{ api.language }}</code>. Callers can override per request by sending a <code>language</code> field (multipart) or key (JSON). Supported: English, Hindi, Odia, Bengali, Telugu, Tamil. The answer is always returned in the request's language.
+    </div>
+
+    <div style="background:var(--gray-50);padding:14px;border-radius:8px;border:1px solid var(--gray-200);margin-top:10px;">
+      <div style="font-size:12px;color:var(--gray-500);font-weight:600;text-transform:uppercase;margin-bottom:6px;">Response (200)</div>
+<pre style="margin:0;font-size:12px;">{
+  "ok": true,
+  "query_id": 123,
+  "answer_en": "...",
+  "answer_local": "...",
+  "language": "{{ api.language }}",
+  "matched_image_url": null,
+  "response_time_seconds": 4.2
+}</pre>
+    </div>
+
+    <h4 style="margin-top:18px;">cURL — text only</h4>
+    <div style="background:#0F172A;color:#E2E8F0;padding:14px;border-radius:8px;font-family:monospace;font-size:12px;overflow-x:auto;">
+curl -X POST '{{ full_url }}' \<br>
+&nbsp;&nbsp;-H 'Authorization: Token {{ api.token }}' \<br>
+&nbsp;&nbsp;-H 'Content-Type: application/json' \<br>
+&nbsp;&nbsp;-d '{"query":"{{ api.sample_query|default:'rice blast treatment'|escapejs }}"}'
+    </div>
+
+    <h4 style="margin-top:14px;">cURL — image only</h4>
+    <div style="background:#0F172A;color:#E2E8F0;padding:14px;border-radius:8px;font-family:monospace;font-size:12px;overflow-x:auto;">
+curl -X POST '{{ full_url }}' \<br>
+&nbsp;&nbsp;-H 'Authorization: Token {{ api.token }}' \<br>
+&nbsp;&nbsp;-F 'image=@/path/to/photo.jpg'
+    </div>
+
+    <h4 style="margin-top:14px;">cURL — text + image (combined)</h4>
+    <div style="background:#0F172A;color:#E2E8F0;padding:14px;border-radius:8px;font-family:monospace;font-size:12px;overflow-x:auto;">
+curl -X POST '{{ full_url }}' \<br>
+&nbsp;&nbsp;-H 'Authorization: Token {{ api.token }}' \<br>
+&nbsp;&nbsp;-F 'image=@/path/to/photo.jpg' \<br>
+&nbsp;&nbsp;-F 'query=Why are the leaves turning yellow on this plant?'
+    </div>
+
+    <h4 style="margin-top:14px;">cURL — audio (with optional language override)</h4>
+    <div style="background:#0F172A;color:#E2E8F0;padding:14px;border-radius:8px;font-family:monospace;font-size:12px;overflow-x:auto;">
+curl -X POST '{{ full_url }}' \<br>
+&nbsp;&nbsp;-H 'Authorization: Token {{ api.token }}' \<br>
+&nbsp;&nbsp;-F 'audio=@/path/to/voice.webm' \<br>
+&nbsp;&nbsp;-F 'language=Hindi'
+    </div>
+
+    <div style="margin-top:18px;text-align:right;">
+      <form method="post" action="{% url 'api_endpoints:delete' api.public_id %}" style="display:inline;">{% csrf_token %}
+        <button class="btn btn-danger btn-sm" onclick="return confirm('Delete this API permanently?');">Delete API</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

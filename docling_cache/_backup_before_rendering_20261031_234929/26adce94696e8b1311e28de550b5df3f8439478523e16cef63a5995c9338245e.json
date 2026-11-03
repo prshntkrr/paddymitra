@@ -1,0 +1,63 @@
+{
+ "source": "Pratikshya.pdf",
+ "sha256": "26adce94696e8b1311e28de550b5df3f8439478523e16cef63a5995c9338245e",
+ "ocr": false,
+ "table_mode": "off",
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T18:25:46",
+ "chunk_count": 4,
+ "chunks": [
+  {
+   "text": "Pratikshya*\n(Swarna x IR64)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "off",
+    "source_file": "Pratikshya.pdf",
+    "page": 1,
+    "section": "Pratikshya*"
+   }
+  },
+  {
+   "text": "Product Profile\nPratikshya, released in 2006 after being developed by OUAT, Odisha, is suitable for late sown conditions for rainfed medium land, featuring late maturity and semi-dwarf stature with medium slender grains. Specifically recommended for late-sown conditions in rainfed medium lands, it demonstrates moderate resistance to brown spot, sheath rot, sheath blight, leaf folder, and white-backed plant hopper, while being resistant to gall midge and stem borer.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "off",
+    "source_file": "Pratikshya.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment - TMeLS/R\nCR - 800\n\nRanidhan",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "off",
+    "source_file": "Pratikshya.pdf",
+    "page": 1,
+    "section": "Priority Market Segment - TMeLS/R"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nMS\n\nMB\n\nGrain\n\nShape\n\n1000 grain\n\nweight (g)\n\n30\n\n22\n\n47\n\n105-110\n\n130-135\n\n5000-5500\n\nRanidhan\n\n-\n\n100-105\nRanidhan\nPratikshya",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "off",
+    "source_file": "Pratikshya.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  }
+ ]
+}

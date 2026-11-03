@@ -1,0 +1,374 @@
+{
+ "source": "NCA.Debtanu.Queftmodel.Rice.pdf",
+ "sha256": "8fc944748a584a24e22bd807dd18e4bba7f70423657597baae00c0eed48d1b47",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:17:49",
+ "chunk_count": 30,
+ "chunks": [
+  {
+   "text": "Site-specific nutrient management in rice in Eastern India using a modeling approach\nD. K. Das Æ Debtanu Maiti Æ H. Pathak\nReceived: 3 October 2007 /Accepted: 12 August 2008 / Published online: 5 September 2008 © Springer Science+Business Media B.V. 2008\nAbstract Rice is the staple food of about 50%of the world's population. Rice yields in many parts of south Asia, however, are declining due to conventional blanket and imbalanced use of fertilizers. Fertilizer application based on quantitative approaches such as simulation modeling can assist in improving yields and nutrient use efficiency in rice. Field experiments were conducted in 20 sites in Eastern India to assess the soil supply, requirement and internal efficiency of N, P, K and Zn in rice. The data were used to calibrate the Quantitative Evaluation of the Fertility of Tropical Soils (QUEFTS) model for site-specific, balanced fertilizer recommendations. The parameters of maximum accumulation (a) and dilution (d) of N (31, 87), P (192, 678), K (33, 81) and Zn (32488, 153125) in plants were developed, which can be used as the standard parameters in the QUEFTS model for rice. The relationships between chemical properties and nutrient supplying capacity of soil were also established. Grain yield of rice showed good\nD. K. Das (&) \u0001 D. Maiti Department of Agricultural Chemistry and Soil Science, Faculty of Agriculture, Bidhan Chandra Krishi Viswavidyalaya, Mohanpur, Nadia 741 252, West Bengal, India e-mail: dkdas1231@sify.com\nH. Pathak International Rice Research Institute-India, NASC Complex, Pusa 110 012, New Delhi, India",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 1,
+    "section": "Site-specific nutrient management in rice in Eastern India using a modeling approach"
+   }
+  },
+  {
+   "text": "Site-specific nutrient management in rice in Eastern India using a modeling approach\ncorrelation with N (R 2 = 0.95**), P (R 2 = 0.71**), K (R 2 = 0.98**) and Zn uptake (R 2 = 0.57*). The NPK ratio to produce 1 Mg grain yield of rice was derived to be 6.5:1.0:6.8. Running the calibrated model with observed field data from different locations in India with different amounts of N, P, K and Zn produced a good fit between measured and calculated yields. The results suggested that the validated QUEFTS model could be used for calculating fertilizer requirements and improved site-specific and balanced fertilizer management in rice.\nKeywords Fertilizer requirement \u0001 Indigenous nutrient supply QUEFTS model \u0001 Nutrient omission plot \u0001 Nutrient recovery \u0001 Soil chemical test",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 1,
+    "section": "Site-specific nutrient management in rice in Eastern India using a modeling approach"
+   }
+  },
+  {
+   "text": "Introduction\nRice (Oryza sativa L.) is the primary staple food of almost three billion people, that is, about 50% of the world's population. Globally about 154 million ha of rice is harvested annually with a production of about 618.4 million Mg (IRRI 2005). More than 90% of this is produced and consumed in Asia. India, with 43.7 million ha under rice, produces about 140 million Mg of rice annually (MAC 2007). Rice yields in many parts of south Asia, however, are declining (Ladha et al. 2003; Pathak et al. 2003a). This may be due to conventional blanket and injudicious use of fertilizer which not only reduces nutrient use efficiency but also causes nutrient imbalance in soil resulting in decreased crop yield (Ladha et al. 2005). Fertilizer application based on quantitative approaches such as simulation modeling, which takes into account soil nutrient supplying capacity, crop nutrient requirement, efficiency of nutrient in soil and plant, can assist in improving nutrient use efficiency and rice yields. Estimates of fertilizer requirement for rice have been made through field experiments at several researcher-managed sites (Tandon and Tandon 1995; Pathak et al. 2003b). However, these estimates can only partly be extrapolated to farmers' fields, because of much broader range of soil, climatic and management conditions prevailing in the farms. Therefore, an estimation of fertilizer requirement should be based on simulation modeling (empirical or mechanistic) approach, which include broader ranges of soil and plant parameters and would be applicable to larger areas.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 1,
+    "section": "Introduction"
+   }
+  },
+  {
+   "text": "Introduction\nThe Quantitative Evaluation of the Fertility of Tropical Soils (QUEFTS), an empirical model, has been successfully used for calculating fertilizer requirement for rice, wheat and maize in many countries in Asia and Africa. The model was developed by Janssen et al. (1990) and applied in Kenya and Surinam for estimating fertilizer requirement for maize. It was further evaluated by Smaling and Janssen (1993) for maize in Kenya and Witt et al. (1999) for rice in south Asia. Pathak et al. (2003b) used the model to develop fertilizer management strategies for wheat in India whereas Liu et al. (2006) used it for wheat and maize in China. The present investigation was undertaken to (i) estimate N, P, K and Zn requirements by rice, (ii) estimate N, P, K and Zn supplying capacity of soil and (iii) develop sitespecific nutrient management in rice, particularly in Eastern India.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 2,
+    "section": "Introduction"
+   }
+  },
+  {
+   "text": "Background of the QUEFTS model\nThe pivot of QUEFTS model is the relation between nutrient uptake and yield. When a nutrient is available in limited quantities as compared to other nutrients, it is diluted within the plant and its concentration attains the minimum. The ratio of yield and nutrient uptake has then its maximum value. On the contrary, when a nutrient is abundantly available it accumulates in the plant till its uptake reaches its maximum value and the ratio of yield and nutrient uptake its minimum value. The model considers the interactions of N, P and K in calculating nutrient supplying capacity and crop yield. It assumes that yield is a function of nutrient supply from soil and fertilizer, and yield is limited only by the supply of nutrient taking into account the climatic and cultivarspecific potential yield of a given site (Janssen et al. 1990). In the model distinction is made between potential supply of a nutrient from soil and its actual uptake by the crop. Potential supply from a soil is the maximum quantity of a nutrient, which can be taken up by a crop. Actual uptake of a nutrient equals potential supply when other growth conditions are optimal. The QUEFTS calculates crop yield as a function of nutrient supply in four steps. In the first step, it assesses potential indigenous nutrient supply (INS) i.e., soil's supplying capacity of N (SN), P (SP) and K (SK). This can be done with estimation from soil chemical tests or from nutrient uptake in nutrient omission plots, a plot without application of the respective nutrient (Dobermann and White 1998; Witt et al. 1999). In the second step, the model calculates actual uptake of N (UN), P (UP), and K (UK) as fractions of potential supply of a nutrient (SN, SP and SK) i.e., INS plus actual supply of a nutrient applied through fertilizer taking fertilizer recovery efficiency (RE) into account. The third step in QUEFTS comprises of designation of yield ranges as functions of actual uptakes of N, P and K wh",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 2,
+    "section": "Background of the QUEFTS model",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "en they are maximally accumulated (constant 'a') and maximally diluted (constant 'd'). The highest ratio of yield and nutrient uptake is taken as 'a' and the lowest ratio as 'd'.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 2,
+    "section": "Background of the QUEFTS model",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "Background of the QUEFTS model\nThus a given nutrient uptake value would result in two yield estimates, one for the situation where the nutrient is maximally accumulated and the other where the nutrient is maximally diluted (Janssen et al. 1990). The fourth step is calculation of the final yield by combining the yield ranges calculated in step three by accounting for the interactions between N, P and K (Janssen et al. 1990). The optimal nutrition could then be obtained by maximizing the total yield producing uptake efficiency as reported by Janssen et al. (1992). The uptake of a particular nutrient is assumed to be the most efficient in a situation of low supply of that nutrient as long as other nutrients are not limiting. As it is not possible to maximize the uptake efficiencies of all nutrients at a time, the mean of the N, P and K uptake efficiencies can be maximized (Janssen et al. 1992). The details of the model are given by Janssen et al. (1990, 1992) and some of the assumptions in the model and their validity have been described by Witt et al. (1999).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 2,
+    "section": "Background of the QUEFTS model"
+   }
+  },
+  {
+   "text": "Field experiments\nTwo field experiments were conducted during kharif (June to October) and rabi seasons (November to April) in 2001-2003. The first experiment (Experiment I) was conducted for the determination of maximum accumulation 'a' and maximum dilution 'd' values, required for the parameterization and calibration of the model. The calibrated model was validated using the data from literature. The second experiment (Experiment II) was conducted for developing a site specific nutrient management (SSNM) strategy in rice using the validated model. All the experimental sites were located at 22°57 0 N latitude and 88°20 0 E longitude at an altitude of 7.8 m above mean sea level, about 130 km north of Bay of Bengal. The locations have a humid subtropical climatic condition. During kharif seasons of 20012002 and 2002-2003, total rainfall were 955 and 840 mm, average maximum temperatures were 32.6°C and 32.9°C and minimum temperatures were 25.5°C and 24.8°C. During rabi season of 2001-2002 and 2002-2003 the corresponding values were 39 and 142 mm, 29.3°C and 28.2°C, and 15.8°C and 16.4°C. The data were collected from nearest Meteorological Department of Bidhan Chandra Krishi Viswavidyalaya in Nadia district of West Bengal.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 3,
+    "section": "Field experiments"
+   }
+  },
+  {
+   "text": "Field experiment I\nThe experiment was conducted by growing rice (cultivar IET 4094) at 20 farmers' fields during kharif in 2001-2002. The soils of the experimental sites had pH 6.8-7.7, organic C 4.1-5.6 g kg -1 and available N 469.4-542.3 kg ha -1 , P 9.5-18.8 kg ha -1 , K 59.0-102.5 kg ha -1 and Zn 0.9-1.4 kg ha -1 . The experiment was in a randomized block design with four replications. There were seven treatments: T1, N omission (-N ? PKZn); T2, P omission\n(-P ? NKZn); T3, K omission (-K ? NPZn); T4, Zn omission (-Zn ? NPK); T5, balanced nutrition (? NPKZn); T6, control (no NPKZn). The N, P, K, and Zn were applied at 60, 30, 30, and 0.5 kg ha -1 , respectively. Irrigation was applied to maintain a 4-cm depth of standing water until 15 days before harvesting. Weeds, insects and diseases were controlled as required. At maturity, rice was harvested manually at 5 cm above ground level. The grains were threshed, dried, and weighed. Grain moisture was determined immediately after weighing. Grain yield of rice was reported at 14% moisture content. Straw weight was determined after oven-drying at 70°C to constant weight.\nThe internal nutrient efficiency (IE) was calculated using the following formula.\n<!-- formula-not-decoded -->",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 3,
+    "section": "Field experiment I"
+   }
+  },
+  {
+   "text": "Field experiment I\nwhere IEx is internal nutrient efficiency (kg grain kg -1 nutrient), Y is grain yield(kg ha -1 ) and UNu is nutrient accumulation in above-ground plant at maturity (kg ha -1 ) (Witt et al. 1999). The highest and lowest internal efficiencies of the data set were taken as 'a' and 'd' values of QUEFTS, respectively. We excluded 5% of the highest and lowest values of the internal efficiencies to remove the outliers (set I, Table 1). To assess the sensitivity of the constants 'a' and 'd', another two sets of were derived by excluding 7.5 and 10% of the highest and lowest values of the internal nutrient efficiencies (sets II and III, Table 1). The model was run with each set of values with the supply of N, P and K as non-limiting and the potential yield of 7 Mg ha -1 .\nIndigenous N supply (SN) was estimated from T1 treatment (N omission), whereas indigenous supplies of P (SP), K (SK) and Zn (SZn) were estimated from T2 (P omission), T3 (K omission) and T4 (Zn omission) treatments, respectively. The indigenous supplies of nutrients were plotted against the most common soil test methods i.e., soil organic C content, Olsen P, ammonium acetate-extractable K and DTPA-extractable Zn to develop relationships between INS and soil chemical test values. We also developed the relationships between grain yields in the respective nutrient-omission plots and nutrient uptake i.e., INS. These relationships can be used to estimate of INS from the grain yield data (Cassman et al. 1996; Dobermann and White 1999).\n\nTable 1 Different sets of constants 'a' (maximum accumulation) and 'd' (maximum dilution) relating to grain yield and N, P, K and Zn uptake in irrigated rice",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 8,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 3,
+    "section": "Field experiment I"
+   }
+  },
+  {
+   "text": "Field experiment I\nN, Set I (kg kg -1 ).a (5th) = 31. N, Set I (kg kg -1 ).d (95th) = 87. N, Set II (kg kg -1 ).a (7.5th) = 33. N, Set II (kg kg -1 ).d (92.5th) = 83. N, Set III (kg kg -1 ).a (10th) = 35. N, Set III (kg kg -1 ).d (90th) = 76. P, Set I (kg kg -1 ).a (5th) = 192. P, Set I (kg kg -1 ).d (95th) = 678. P, Set II (kg kg -1 ).a (7.5th) = 202. P, Set II (kg kg -1 ).d (92.5th) = 565. P, Set III (kg kg -1 ).a (10th) = 216. P, Set III (kg kg -1 ).d (90th) = 489. K, Set I (kg kg -1 ).a (5th) = 33. K, Set I (kg kg -1 ).d (95th) = 81. K, Set II (kg kg -1 ).a (7.5th) = 35. K, Set II (kg kg -1 ).d (92.5th) = 73. K, Set III (kg kg -1 ).a (10th) = 36. K, Set III (kg kg -1 ).d (90th) = 69. Zn, Set I (kg kg -1 ).a (5th) = 32,488. Zn, Set I (kg kg -1 ).d (95th) = 15,3125. Zn, Set II (kg kg -1 ).a (7.5th) = 34,745. Zn, Set II (kg kg -1 ).d (92.5th) = 132,381. Zn, Set III (kg kg -1 ).a (10th) = 37,440. Zn, Set III (kg kg -1 ).d (90th) = 119,786",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 9,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 3,
+    "section": "Field experiment I"
+   }
+  },
+  {
+   "text": "Field experiment II\nFour field experiments on rice (cultivar IET 4094) were conducted during rabi (November to April), 2002-2003 in the farmers' field at block Ranaghat II, district Nadia, West Bengal to develop SSNM in rice. Fertilizer doses of N, P and K in each treatment were fixed using the validated QUEFTS model by putting 'a' and 'd' values of N, P and K of sets I, II and III (Table 1) for achieving the target yields of 5 and 6 Mg ha -1 . The following six treatments were employed in the study with four replications. T1: 'a' and 'd' values of set I, target yield of 5 Mg ha -1 ; T2: 'a' and 'd' values of set I, target yield of 6 Mg ha -1 ; T3: 'a' and 'd' values of set II, target yield of 5 Mg ha -1 ; T4: 'a' and 'd' values of set II, target yield of 6 Mg ha -1 ; T5: 'a' and 'd' values of set III, target yield of 5 Mg ha -1 and T6: 'a' and 'd' values of set III, target yield of 6 Mg ha -1 . On the basis of QUEFTS, N, P and K uptake were calculated for all sets of 'a' and 'd' values to achieve the target yield of 5 and 6 Mg ha -1 . The calculated N, P and K uptake were compared with their corresponding observed values.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 10,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 4,
+    "section": "Field experiment II"
+   }
+  },
+  {
+   "text": "Analysis of soil and plant samples\nSoil samples were analyzed for organic C by Walkley and Black method (Page et al. 1982), available N by Kjeldahl method (Page et al. 1982), P by Olsen method (Olsen et al. 1954), K by neutral N ammonium acetate extraction method (Page et al. 1982) and Zn by DTPA-extraction method (Lindsay and Norvell 1978). Soil pH and electrical conductivity (EC) were determined in 1:2 soil-water ratio.\nPlant samples were analyzed for N by Kjeldahl distillation as described by Jackson (1973) after digesting the samples with diacid mixture (H2SO4: HClO4 :: 9:1), and P and K by Vanado molybdate blue color and flame photometric methods, respectively, (Page et al. 1982) after digesting the samples with ternary acid mixture (HNO3:HClO4:H2SO4 :: 10:4:1). Zinc content was determined with the help of an atomic absorption spectrophotometer after digesting the samples with ternary acid mixture (HNO3: HClO4:H2SO4 :: 10:4:1).\nData analysis\nThe data were statistically analyzed for Duncan's Multiple Range Test (DMRT), correlation and multiple regression following the procedures outlined by Gomez and Gomez (1976).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 11,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 4,
+    "section": "Analysis of soil and plant samples"
+   }
+  },
+  {
+   "text": "Results and discussion\nYield and internal efficiency, requirement and recovery efficiency of N, P, K and Zn in rice\nGrain yield in various treatments in farmers' fields ranged from 2.04 to 5.40 Mg ha -1 with N application rates varying from 0 to 60 kg ha -1 across the sites (Table 2). Total above-ground N accumulation ranged from 24.4 to 160.6 kg ha -1 and an internal efficiency of 29-88 kg grain kg -1 N with an average of 59 kg grain kg -1 N. Data showed that to produce 1 Mg of grain, the N requirement varied between 11.4 and 34.5 kg with an average of 16.9 kg (Table 2). Recovery efficiency of N (RN) varied between 31.2 and 42.3% (Table 2) with an average of 36.7%. Recovery of applied N varied considerably with amount of N applied.\nGrain yield of rice in the experiments with P ranged from 2.46 to 5.38 Mg ha -1 , with application of P varying between 0 and 30 kg ha -1 (Table 2). Above-ground P accumulation ranged from 4.3 to 26.7 kg ha -1 . Internal efficiency of P ranged from 189 to 682 kg kg -1 , with a mean of 367 kg kg -1 . To produce 1 Mg of rice grain 1.9-4.5 kg P (mean 3.1 kg P) was needed. Recovery of P (RP) varied from 11.5 to 22.0% with a mean of 15.4% (Table 2).\nGrain yield of rice in the experiments with K ranged from 2.0 to 5.3 Mg ha -1 and K uptake ranged from 28.0 to 153.1 kg ha -1 (Table 1). Internal efficiency of K ranged from 29 to 84 with a mean of",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 12,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 4,
+    "section": "Results and discussion"
+   }
+  },
+  {
+   "text": "Results and discussion\n| - |\n| Table 2 Grain yield, nutrient uptake and fertilizer application data used for estimation of internal efficiency, requirement and recovery efficiency nutrients in rice |\n| Measured parameters a, Nitrogen = . Measured parameters a, Phosphorus = . Measured parameters a, Potassium = . Measured parameters a, Zinc = . Measured parameters a, No. of observations = . Yield (Mg ha -1 ), Nitrogen = 2.04-5.40. Yield (Mg ha -1 ), Phosphorus = 2.46-5.38. Yield (Mg ha -1 ), Potassium = 2.04-5.34. Yield (Mg ha -1 ), Zinc = 2.1-5.40. Yield (Mg ha -1 ), No. of observations = 160. Uptake (kg ha -1 ), Nitrogen = 12.2-80.3. Uptake (kg ha -1 ), Phosphorus = 4.3-26.7. Uptake (kg ha -1 ), Potassium = 28.0-153.1. Uptake (kg ha -1 ), Zinc = 0.02-0.15. Uptake (kg ha -1 ), No. of observations = 160. Fertilizer applied (kg ha -1 ), Nitrogen = 0-60. Fertilizer applied (kg ha -1 ), Phosphorus = 0-30. Fertilizer applied (kg ha -1 ), Potassium = 0-30. Fertilizer applied (kg ha -1 ), Zinc = 0-0.5. Fertilizer applied (kg ha -1 ), No. of observations = 100. Available soil nutrient (kg ha -1 ), Nitrogen = 351.3-445.6. Available soil nutrient (kg ha -1 ), Phosphorus = 2.5-14.9. Available soil nutrient (kg ha -1 ), Potassium = 56.2-88.9. Available soil nutrient (kg ha -1 ), Zinc = 0.13-1.77. Available soil nutrient (kg ha -1 ), No. of observations = 160. Internal efficiency (kg kg -1 ), Nitrogen = 29-88. Internal efficiency (kg kg -1 ), Phosphorus = 189-682. Internal efficiency (kg kg -1 ), Potassium = 29-84. Internal efficiency (kg kg -1 ), Zinc = 32,473-153,160. Internal efficiency (kg kg",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 13,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 5,
+    "section": "Results and discussion"
+   }
+  },
+  {
+   "text": "Results and discussion\n| - |\n -1 ), No. of observations = . Nutrient requirement (kg Mg -1 grain), Nitrogen = 10.2-38.4. Nutrient requirement (kg Mg -1 grain), Phosphorus = 1.9-4.5. Nutrient requirement (kg Mg -1 grain), Potassium = 10.2-30.1. Nutrient requirement (kg Mg -1 grain), Zinc = -. Nutrient requirement (kg Mg -1 grain), No. of observations = . Recovery efficiency (%), Nitrogen = 31.2-42.3. Recovery efficiency (%), Phosphorus = 11.5-22.0. Recovery efficiency (%), Potassium = 34.6-51.2. Recovery efficiency (%), Zinc = -. Recovery efficiency (%), No. of observations = . Calculated parameters, Nitrogen = . Calculated parameters, Phosphorus = . Calculated parameters, Potassium = . Calculated parameters, Zinc = . Calculated parameters, No. of observations = . Internal efficiency (kg kg -1 ), Nitrogen = 46.0. Internal efficiency (kg kg -1 ), Phosphorus = 385.6. Internal efficiency (kg kg -1 ), Potassium = 43.5. Internal efficiency (kg kg -1 ), Zinc = 81,816.5. Internal efficiency (kg kg -1 ), No. of observations = . Nutrient requirement (kg Mg -1 grain), Nitrogen = 17.6. Nutrient requirement (kg Mg -1 grain), Phosphorus = 2.7. Nutrient requirement (kg Mg -1 grain), Potassium = 18.3. Nutrient requirement (kg Mg -1 grain), Zinc = -. Nutrient requirement (kg Mg -1 grain), No. of observations = . Recovery efficiency (%), Nitrogen = 35. Recovery efficiency (%), Phosphorus = 15. Recovery efficiency (%), Potassium = 40. Recovery efficiency (%), Zinc = -. Recovery efficiency (%), No. of observations = |\n| a Data are based on rice experiments conducted in 20 sites in Nadia district of West Bengal during the year 2001-2002 |\n\n\n56 kg grain kg -1 K. To produce 1 Mg of grain 10.230.1 kg (mean 18.8 kg) K was needed. Recovery of K (RK) varied between 34.6% and 51.2% with a mean of 41.2% (Table 2).",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 14,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 5,
+    "section": "Results and discussion"
+   }
+  },
+  {
+   "text": "Results and discussion\nGrain yield ranged from 2.1 to 5.4 Mg ha -1 with Zn application rates varying from 0 to 0.5 kg ha -1 across the sites (Table 2). Total above-ground Zn accumulation ranged from 0.02 to 0.15 kg ha -1 , and an internal efficiency from 32,473 to 153,160 kg grain kg -1 Zn with an average of 81,509 kg grain kg -1 Zn.\nThe relationship between indigenous N, P, K and Zn with organic C, Olsen P, exchangeable K and DTPA-Zn, respectively, are presented in Fig. 1. A significant correlation (P\\0.01) suggested that the equations can be used for estimating indigenous nutrient supply from a given soil chemical test (Table 3).\nGrain yield of rice also showed a good correlation with nutrient uptakes in rice (Fig. 2). Therefore, grain yield in nutrient omission plots could also be used to\nTable 3 Relationships between (a) soil chemical properties and indigenous nutrient supply, and (b) yield in nutrientomission plot and indigenous nutrient supply of N, P, K and Zn in rice in Eastern India\n(a) Soil chemical properties vs. indigenous nutrient supply (S) SN (kg ha -1 ) = 100.06 Organic C (%) ? 1.08 R 2 = 0.69** SP (kg ha -1 ) = 1.09 Olsen P (kg ha -1 ) ? 3.36 R 2 = 0.78** SK (kg ha -1 ) = 1.23 Ex. K (kg ha -1 ) - 1.63 R 2 = 0.82** SZn (g ha -1 ) = 68.11 DTPA-Zn (kg ha -1 ) - 8.88 R 2 = 0.86**\n- (b) Indigenous supply (S, kg ha -1 ) versus yield in nutrientomission plot (Y, kg ha -1 )",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 15,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 5,
+    "section": "Results and discussion"
+   }
+  },
+  {
+   "text": "Results and discussion\nSN = 0.02 Y-31.15, 1 = R 2 = 0.56**. SP = 0.006 Y-10.73, 1 = R 2 = 0.50**. SK = 0.04 Y-51.52, 1 = R 2 = 0.60**. SZn = 0.00004 Y-0.08, 1 = R 2 = 0.57**\n\n** Significant at the 0.01 probability level\nFig. 2 Relationship between grain yield of rice and uptake of (a) N, (b) P, (c) K and (d) Zn. The upper and lower lines indicate yields with maximum accumulation and maximum dilution of nutrients, respectively. Data are based on experiments conducted in 20 sites in Nadia district of West Bengal, India during the year 2001-2002\ncalculate soil nutrient supply using the relationships in Table 3. However, the problem with this approach is time, money and effort required to conduct field experiments as farmers do not want to spare land for nutrient-omission treatments (Pathak et al. 2003b).",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 16,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 6,
+    "section": "Results and discussion"
+   }
+  },
+  {
+   "text": "Sensitivity of QUEFTS to 'a' and 'd' values\nThe sensitivity of 'a' and 'd' values was tested using three sets of the values (Table 1). Nutrient requirements calculated by the model were similar for all three sets of constants, except at yield levels that were close to the yield potential (Fig. 3). Such yield levels, however, rarely occur in farmer's fields. Thus, we propose to use the QUEFTS model parameters of set I (31 and 87 kg grain kg -1 N, 192 and 678 kg grain kg -1 P and 33 and 81 kg grain kg -1 K) for a standard version of QUEFTS focusing on decisionmaking on fertilizer requirements of rice, as this set of values include the maximum range of variability. Witt et al. (1999) estimated the minimum and maximum internal efficiencies (IEs) at 42 and 96 kg grain kg -1 N, 206 and 622 kg grain kg -1 P and 36 and 115 kg grain kg -1 K for QUEFTS. Their study was undertaken under diversified crop growing conditions (soil, climate, irrigation, variety) whereas the experimental sites of the current study were located in Eastern India where crop growing conditions are almost similar with respect to climate, soil, irrigation and variety.\nFig. 3 Yield of rice in relation to plant nutrients at different sets of constants 'a' and 'd', calculated by excluding the highest and lowest 5% (Set I), 7.5% (Set II) and 10% (Set III) of all internal nutrient efficiency data. The upper and lower lines indicate yields with maximum accumulation and maximum dilution of nutrients, respectively\nNutrient requirement versus potential yield",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 17,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 6,
+    "section": "Sensitivity of QUEFTS to 'a' and 'd' values"
+   }
+  },
+  {
+   "text": "Sensitivity of QUEFTS to 'a' and 'd' values\nThe model calculates nutrient requirements to achieve a specific yield target for different levels of potential yield. Depending on seasons and sites, the potential yield of currently grown rice in Eastern India ranges from 5 to 8 Mg ha -1 (Aggarwal and Talukdar and Mall 2000). The relationship between grain yield and nutrient accumulation of N, P and K as predicted by QUEFTS was linear at lower yield levels, reflecting a situation where plant growth was mainly limited by nutrient supply (Fig. 4). The model also calculates a decrease in internal efficiencies when target yields are close to potential yield. Thus, it may be more profitable for farmers to maximize nutrient efficiencies by a more balanced nutrition than to aim for higher yield targets with yield levels approaching maximum yields (Witt et al. 1999; Liu et al. 2006).\nFig. 4 Yields of rice in relation to nutrient uptake at 5, 6, 7 and 8 Mg ha -1 potential yields. The upper and lower lines indicate yields with maximum accumulation and maximum dilution of nutrients, respectively\nFig. 5 Yields of rice predicted by the QUEFTS model and observed in different locations in India\nRegardless of yield potential the N:P:K ratios for 1 Mg grain in plants for the linear part of the relationship (up to 80% potential yield) was 6.5:1.0:6.8 as calculated by QUEFTS (Fig. 4). To produce 1 Mg grain 17.6, 2.7 and 18.3 kg N, P and K, respectively, would be needed. Witt et al. (1999) calculated requirement of 14.7 kg N, 2.6 kg P and 14.5 kg K (N:P:K = 5.65:1.00:5.58) for producing 1 Mg of grain until yield targets reached at 70-80% of potential yield.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 18,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 7,
+    "section": "Sensitivity of QUEFTS to 'a' and 'd' values"
+   }
+  },
+  {
+   "text": "Preliminary validation of the model\nFour field experiments conducted by Singh et al. (1999); Swarup and Yaduvanshi (2000); Chandra et al. (2001); Katyal et al. (2001) at different locations of India were used to validate the calibrated QUEFTS model. Data from these experiments were not used for calibrating the model. The experimental sites differed widely in terms of climatic conditions and soil characteristics. For all experimental sites the observed yields were in good agreement with the predicted yields (Fig. 5) indicating that the model can be used to improve fertilizer recommendations for rice under diversified growing conditions. In earlier studies (Smaling and Janssen 1993; Witt et al. 1999; Pathak et al. 2003b; Liu et al. 2006) also the calibrated model yielded consistent results that were close to the observed ones.\nSite-specific nutrient management in rice\nThe highest grain yield (5.83 Mg ha -1 ) was observed in the treatment T4 where NPK was applied at 64:51:50 kg ha -1 to achieve the target yield of 6 Mg ha -1 (Table 4). Irrespective of treatments 92-97% of predicted grain yield (based on QUEFTS) was in agreement with observed yield which indicates QUEFTS model can be used efficiently for prediction of grain yield and fertilizer recommendation in farmer's field. The highest uptakes of N (52.5 kg ha -1 ) P (14.6 kg ha -1 ) and K (109.2 kg ha -1 ) were observed in treatment T4 where NPK was applied based on QUEFTS at 64:51:50 kg ha -1 followed by T2[T6[T3 C T1 C T5. The observed N, P and K uptake were close (85-95%) to their corresponding predicted values. Sharma and Singh (2000) also suggested that fertilizer recommendations based on targeted yield concept were more balanced, profitable and helpful in controlling soil nutrient mining and was essential for sustainable crop production. Maiti et al. (2006) also reported that observed yields with different amounts of N, P, K, and Zn were in good agreement with the predicted amount of fertilizer nutrients in w",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 19,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 8,
+    "section": "Preliminary validation of the model",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "heat.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 19,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 8,
+    "section": "Preliminary validation of the model",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "Preliminary validation of the model\n| - |\n| Table 4 Effect of different treatments of site-specific nutrient management on calculated and observed grain yield and uptakes of N, P and K by rice |\n| T1 (72:26:29), Calculated.Target yield (Mg ha -1 ) = 5.0. T1 (72:26:29), Calculated.N uptake (kg ha -1 ) = 90.0. T1 (72:26:29), Calculated.P uptake (kg ha -1 ) = 13.0. T1 (72:26:29), Calculated.K uptake (kg ha -1 ) = 90.1. T1 (72:26:29), Observed.Grain yield (Mg ha -1 ) = 4.7 eà. T1 (72:26:29), Observed.N uptake (kg ha -1 ) = 81.8 cd. T1 (72:26:29), Observed.P uptake (kg ha -1 ) = 9.3 c. T1 (72:26:29), Observed.K uptake (kg ha -1 ) = 85.5 e. T2 (84:49:56), Calculated.Target yield (Mg ha -1 ) = 6.0. T2 (84:49:56), Calculated.N uptake (kg ha -1 ) = 113.6. T2 (84:49:56), Calculated.P uptake (kg ha -1 ) = 16.5. T2 (84:49:56), Calculated.K uptake (kg ha -1 ) = 113.7. T2 (84:49:56), Observed.Grain yield (Mg ha -1 ) = 5.6 c. T2 (84:49:56), Observed.N uptake (kg ha -1 ) = 104.8 a. T2 (84:49:56), Observed.P uptake (kg ha -1 ) = 12.0 b. T2 (84:49:56), Observed.K uptake (kg ha -1 ) = 108.7 a. T3 (58:30:40), Calculated.Target yield (Mg ha -1 ) = 5.0. T3 (58:30:40), Calculated.N uptake (kg ha -1 ) = 88.2.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 20,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 8,
+    "section": "Preliminary validation of the model"
+   }
+  },
+  {
+   "text": "Preliminary validation of the model\n| - |\n T3 (58:30:40), Calculated.P uptake (kg ha -1 ) = 13.7. T3 (58:30:40), Calculated.K uptake (kg ha -1 ) = 91.3. T3 (58:30:40), Observed.Grain yield (Mg ha -1 ) = 4.8 d. T3 (58:30:40), Observed.N uptake (kg ha -1 ) = 83.6 c. T3 (58:30:40), Observed.P uptake (kg ha -1 ) = 12.3 b. T3 (58:30:40), Observed.K uptake (kg ha -1 ) = 89.4 c. T4 (64:51:50), Calculated.Target yield (Mg ha -1 ) = 6.0. T4 (64:51:50), Calculated.N uptake (kg ha -1 ) = 107.4. T4 (64:51:50), Calculated.P uptake (kg ha -1 ) = 16.6. T4 (64:51:50), Calculated.K uptake (kg ha -1 ) = 111.1. T4 (64:51:50), Observed.Grain yield (Mg ha -1 ) = 5.8 a. T4 (64:51:50), Observed.N uptake (kg ha -1 ) = 105.0 a. T4 (64:51:50), Observed.P uptake (kg ha -1 ) = 14.6 a. T4 (64:51:50), Observed.K uptake (kg ha -1 ) = 109.2 a. T5 (50:33:35), Calculated.Target yield (Mg ha -1 ) = 5.0. T5 (50:33:35), Calculated.N uptake (kg ha -1 ) = 89.0. T5 (50:33:35), Calculated.P uptake (kg ha -1 ) = 14.1. T5 (50:33:35), Calculated.K uptake (kg ha -1 ) = 92.1. T5 (50:33:35), Observed.Grain yield (Mg ha -1 ) = 4.6 f. T5",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 21,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 8,
+    "section": "Preliminary validation of the model"
+   }
+  },
+  {
+   "text": "Preliminary validation of the model\n| - |\n (50:33:35), Observed.N uptake (kg ha -1 ) = 80.4 d. T5 (50:33:35), Observed.P uptake (kg ha -1 ) = 10.0 c. T5 (50:33:35), Observed.K uptake (kg ha -1 ) = 87.6 d. T6 (64:53:49), Calculated.Target yield (Mg ha -1 ) = 6.0. T6 (64:53:49), Calculated.N uptake (kg ha -1 ) = 107.0. T6 (64:53:49), Calculated.P uptake (kg ha -1 ) = 16.9. T6 (64:53:49), Calculated.K uptake (kg ha -1 ) = 110.8. T6 (64:53:49), Observed.Grain yield (Mg ha -1 ) = 5.7 b. T6 (64:53:49), Observed.N uptake (kg ha -1 ) = 96.8 b. T6 (64:53:49), Observed.P uptake (kg ha -1 ) = 12.4 b. T6 (64:53:49), Observed.K uptake (kg ha -1 ) = 105.7 b |\n| In T1 and T2 fertilizer doses were based on Set I, in T3 and T4 based on Set II and in T5 and T6 based on Set III 'a' and 'd' values of QUEFTS as given in Table 1 |\n| à Within a column, means followed by the same letter are not significantly different at the 0.05 level of probability by Duncan's Multiple Range Test (DMRT) |\n\n\nThe results showed that the model can help improving the formulation of site-specific, balanced fertilizer management strategies in rice. Such fertilizer management strategy will be more advantageous compared to conventional blanket and imbalanced fertilizer recommendation.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 22,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 8,
+    "section": "Preliminary validation of the model"
+   }
+  },
+  {
+   "text": "Preliminary validation of the model\nAcknowledgments The authors are grateful to the Indian Council of Agricultural Research (ICAR), New Delhi for sponsoring this National Agricultural Technology Project (ICAR/NATP/R-W/7B-3, PSR-25) which was successfully completed in collaboration with International Rice Research Institute (IRRI), Philippines and Rice-Wheat Consortium (RWC), New Delhi. We acknowledge the farmers of Dhantala and Nokari, District of Nadia, West Bengal for providing their land for conducting the experiments.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 23,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 9,
+    "section": "Preliminary validation of the model"
+   }
+  },
+  {
+   "text": "References\n- Aggarwal PK, Talukdar KK, Mall RK (2000) Potential yields of the Rice-Wheat system in the Indo-Gangetic plains of India Rice-wheat Consortium Paper Series 10. Ricewheat consortium for the Indo-Gangetic plains and Indian Agricultural Research Institute, New Delhi, India, pp 11\n- Cassman KG, Gines GC, Dizon MA, Samson MI, Alcantara JM (1996) Nitrogen-use efficiency in tropical lowland rice systems: contributions from indigenous and applied nitrogen. Field Crops Res 47:1-12. doi:10.1016/03784290(95)00101-8\n- Chandra S, Ghosh BN, Singh P, Singh RD (2001) Effect of varying fertilization on yield of Rice (Oryza sativa)- Wheat (Triticum aestivum) system and soil fertility status. Indian J Agric Sci 71:631-633\n- Dobermann A, White PF (1999) Strategies for nutrient management in irrigated and rainfed rice systems. Nutr Cycl Agroecosyst 53:1-18. doi:10.1023/A:1009795032575\n- Gomez KA, Gomez AA (1976) Statistical procedures for agricultural research with emphasis on rice. International Rice Research Institute, Philippines\n- IRRI (2005) Rice around the world, International Rice Research Institute, Philippines, www.irri.org/ science/ ricestat\n- Jackson ML (1973) Soil chemical analysis. Prentice Hall of India, New Delhi, India\n- Janssen BH, Guiking FCT, Braakhekke WG, Dohme PAE (1992) Quantitative evaluation of soil fertility and the\n- response to fertilizers. Department of Soil Science and Plant Nutrition, Wageningen, The Netherlands\n- Janssen BH, Guikling FCT, Vander Eijik D, Smaling EMA, Wolt J, Reuler H (1990) A system for quantitative evaluation of the fertility of tropical soils (QUEFTS). Geoderma 46:299-318. doi:10.1016/0016-7061(90)90021-Z",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 24,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 9,
+    "section": "References"
+   }
+  },
+  {
+   "text": "References\nKatyal V, Gangwar KS, Gangwar B (2001) Conservation of organic carbon in relation to crop productivity, yield stability and soil fertility under rice (Oryza sativa)-wheat (Triticum aestivum) cropping system. Indian J Agron 46:1-4\nLadha JK, Pathak H, Krupnik TJ, Six J, van Kessel C (2005) Efficiency of fertilizer nitrogen in cereal production: retrospect and prospects. Adv Agron 87:85-156. doi: 10.1016/S0065-2113(05)87003-8\nLadha JK, Pathak H, Padre AT, Dawe D, Gupta RK (2003) Productivity trends in intensive Rice-Wheat cropping systems in Asia. In: Ladha JK, Hill J, Gupta RK, Duxbury J, Buresh RJ (eds) Improving the productivity and sustainability of Rice-Wheat systems: issues and impact. ASA Special Publication 65, Madison, WI, USA, pp 45-76",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 25,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 9,
+    "section": "References"
+   }
+  },
+  {
+   "text": "References\n- Lindsay WL, Norvell WA (1978) Development of a DTPA soil test for zinc, iron, manganese and copper. Soil Sci Soc Am J 42:421-428\n- Liu M, Yu Z, Liu Y, Konijn NT (2006) Fertilizer requirements for wheat and maize in China: the QUEFTS approach. Nutr Cycl Agroecosyst 74:245-258. doi:10.1007/s10705006-9002-5\n- MAC (2007) Agricultural Statistics at a Glance 2006-07, Ministry of Agriculture and Cooperation, Government of India www.agricoop.nic.in\n- Maiti D, Das DK, Pathak H (2006) Simulation of fertilizer requirements for irrigated wheat in Eastern India using the QUEFTS model. Arch Agron Soil Sci 52:403-418\n- Olsen SR, Cole CV, Watanabe FS, Dean LA (1954) Estimation of available phosphorus in soils by extraction with sodium bicarbonate. Circ U.S. Dep Agric 939\n- Page AL, Miller RH, Keeny DR (1982) Methods of soil analysis-Part 2 (Ed) No. 9, Agronomy series ASA-SSSA Publishers, Madison, Wisconsin, USA\n- Pathak H, Aggarwal PK, Roetter R, Kalra N, Bandyopadhaya SK, Prasad S et al (2003a) Modelling the quantitative evaluation of soil nutrient supply, nutrient use efficiency, and fertilizer requirements of wheat in India. Nutr Cycl Agroecosyst 65:105-113. doi:10.1023/A:1022177231332\n- Pathak H, Ladha JK, Aggarwal PK, Peng S, Das S, Singh Y et al (2003b) Climatic potential and on-farm yield trends of rice and wheat in the Indo-Gangetic plains. Field Crops Res 80:223-234. doi:10.1016/S0378-4290(02)00194-6\n- Sharma BM, Singh RV (2000) Fertilizer recommendations for wheat based on regression and targeted yield approaches: a comparison. J Indian Soc Soil Sci 48:396-397",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 26,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 9,
+    "section": "References"
+   }
+  },
+  {
+   "text": "References\n- Singh NP, Sachan RS, Pandey PC, Bisht PS (1999) Effect of a decade long fertilizer and manure application on soil fertility and productivity of Rice-Wheat system in a Mollisol. J Indian Soc Soil Sci 47:72-80\n- Smaling EMA, Janssen BH (1993) Calibration of QUEFTS, a model predicting nutrient uptake and yields from chemical soil fertility indices. Geoderma 59:21-44. doi: 10.1016/0016-7061(93)90060-X\n- Swarup A, Yaduvanshi NPS (2000) Effect of integrated nutrient management on soil properties and yield of rice in alkali soils. J Indian Soc Soil Sci 48:279-282\n- Tandon HLS, Tandon KS (1995) State-wise and crop-wise recommendations. In: Tandon HLS (ed) Fertilizer and integrated nutrient recommendations for balance and efficiency. FDCO, New Delhi, India, pp 35-103\n- Witt C, Dobermann A, Abdulrachman S, Gines HC, Guanghno W, Nagarajan R, Satawatananont S, Son Tran Thuc, Phamsy Tan, Le Van Tiem, Simbahan GC, Olk DC (1999) Internal nutrient efficiencies of irrigated lowland rice in tropical and subtropical Asia. Field Crops Res 63:113138. doi:10.1016/S0378-4290(99)00031-3",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 27,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NCA.Debtanu.Queftmodel.Rice.pdf",
+    "page": 9,
+    "section": "References"
+   }
+  }
+ ]
+}

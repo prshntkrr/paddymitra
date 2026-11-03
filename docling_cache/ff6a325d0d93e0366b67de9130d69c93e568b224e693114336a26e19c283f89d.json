@@ -1,0 +1,70 @@
+{
+ "source": "Rice-Crop-Manager-RCM_0.pdf",
+ "sha256": "ff6a325d0d93e0366b67de9130d69c93e568b224e693114336a26e19c283f89d",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:40:39",
+ "chunk_count": 5,
+ "chunks": [
+  {
+   "text": "Rice Crop Manager (RCM)\nRice Crop Manager (RCM) is a web-based tool based on the Site-Specif ic Nut rient Management (SSNM) approach. It gives rice farmers recommendat ions for applying the right amount of essent ial nut rients for their crops at the right t ime, along with weed and nursery management recommendat ions.\nA farmer applying fertilizer as per RCM recommendations in his plot",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Rice-Crop-Manager-RCM_0.pdf",
+    "page": 1,
+    "section": "Rice Crop Manager (RCM)"
+   }
+  },
+  {
+   "text": "How to use RCM?\nFarmers are interviewed using a standard set of quest ions in the RCM applicat ion on a mobile phone or com p u t er\nTheir responses are captured to generate fert ilizer recommendat ions for their specif ic plot . This includes the amount and t ime of applicat ion of various fert ilizers\nRecommendat ion is printed on an A4 size paper and provided to the farmers to be used throughout the season\nThe ent ire recommendat ion is also sent to the farmers during the season at the t ime of fert ilizer applicat ion through SMSs and voice calls through IFFCO-Kisan and Precision Agriculture for Development (PAD )",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Rice-Crop-Manager-RCM_0.pdf",
+    "page": 1,
+    "section": "How to use RCM?"
+   }
+  },
+  {
+   "text": "Available f reely on internet\nRCM recommendation page\nAccessible through ICT devices like mobile phone, laptop, tablets\nLink to RCM tool\n[h t t p ://w eb ap p s.ir r i .org /in /od /rcm /](http://webapps.irri.org/in/od/rcm/)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Rice-Crop-Manager-RCM_0.pdf",
+    "page": 1,
+    "section": "Available f reely on internet"
+   }
+  },
+  {
+   "text": "Who can use RCM?\n- Farmers\n- Extension workers\n- Researchers\n- Agro-advisory providers\n- St udent s\nIt will help adjust the fert ilizer rate to match the planned target yield and for the specif ic variety being used\nIt helps cont rol weeds in the rice crop by providing recommendat ions to manage weeds It gives the exact amount of fert ilizer needed and the right t im ing for applicat ion for the specif ic plot and helps avoid excessive u sag e As a result of the above it helps save fert ilizer costs reducing the costs of product ion, improving yield and consequent ly increasing the net returns to the farm er\nFarmers during the crop cut\nField day to showcase the benefits of using RCM\nRCM homepage",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Rice-Crop-Manager-RCM_0.pdf",
+    "page": 2,
+    "section": "Who can use RCM?"
+   }
+  },
+  {
+   "text": "RCM can be dissem inated t hrough:\n- Department of Agriculture\n- NGOs\n- Common Service Centers\n- Input dealers\n- SHG groups\n- Progressive farmers\n- Rural youth\n- Farmer Producer Organizat ions",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Rice-Crop-Manager-RCM_0.pdf",
+    "page": 2,
+    "section": "RCM can be dissem inated t hrough:"
+   }
+  }
+ ]
+}

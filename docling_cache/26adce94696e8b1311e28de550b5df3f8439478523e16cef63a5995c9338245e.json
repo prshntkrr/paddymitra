@@ -1,0 +1,76 @@
+{
+ "source": "Pratikshya.pdf",
+ "sha256": "26adce94696e8b1311e28de550b5df3f8439478523e16cef63a5995c9338245e",
+ "ocr": false,
+ "table_mode": "clean_rendering",
+ "origin": "clean_rendering",
+ "built_at": "2026-10-31T23:49:30",
+ "chunk_count": 5,
+ "chunks": [
+  {
+   "text": "Pratikshya (Swarna x IR64  (* parental line(s) from IRRI germplasm)) - rice variety factsheet.\nProduct profile: Pratikshya, released in 2006 after being developed by OUAT, Odisha, is suitable for late-sown conditions for rainfed medium land, featuring late maturity and semi-dwarf stature with medium slender grains. Specifically recommended for late-sown conditions in rainfed medium lands, it demonstrates moderate resistance to brown spot, sheath rot, sheath blight, leaf folder, and white-backed plant hopper, while being resistant to gall midge and stem borer.\nPriority market segment: TMeLS/R.\nPlanting method and ecosystem suitability (PTR = puddled transplanted rice, DSR = direct seeded rice): PTR: Recommended; DSR: Not Recommended; Irrigated Lowland: Not Recommended; Rainfed Lowland: Recommended; Upland: Not Recommended.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "source_file": "Pratikshya.pdf",
+    "variety": "Pratikshya",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Pratikshya - key strengths, considerations and positioning.\nKey strengths: Good yield; Medium height; profuse tillering; Submergence tolerance; Late maturity; short bold grain; High HRR; excellent eating quality; Resistant to leaf blight.\nConsiderations: Susceptible to leaf blast, sheath blight, and false smut; Susceptible to BPH, stem borer and gall midge; Loss of golden hull color as is in Swarna.\nPositioning (variety replaced / companion, by ecosystem): Replace - Irrigated Lowland: None; Rainfed Lowland: Ranidhan; Upland: None. Companion - Irrigated Lowland: None; Rainfed Lowland: CR-800; Upland: None.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "source_file": "Pratikshya.pdf",
+    "variety": "Pratikshya",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Pratikshya - grain yield, agronomic traits and grain shape (HRR = head rice recovery; grain shape SB = short bold, MS = medium slender, SM = short medium, LB = long bold, MB = medium bold).\nPratikshya -> Grain yield (kg/ha): 5000-5500; Maturity (days): 135-140; Plant height (cm): 100-105; Lodging: Tolerant; HRR %: 67; 1000-grain wt (g): 30; Grain shape: MS.\nRanidhan -> Grain yield (kg/ha): 5000-5500; Maturity (days): 130-135; Plant height (cm): 105-110; Lodging: Susceptible; HRR %: 47; 1000-grain wt (g): 22; Grain shape: MB.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "source_file": "Pratikshya.pdf",
+    "variety": "Pratikshya",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Pratikshya - biotic and abiotic stress reaction (disease and pest tolerance; BPH = brown plant hopper, RTV = rice tungro virus).\nPratikshya -> Leaf blast: Susceptible; Leaf blight: Resistant; Sheath blight: Susceptible; BPH: Susceptible; Gall midge: Resistant; Submergence: Tolerant.\nRanidhan -> Leaf blast: Susceptible; Leaf blight: Resistant; Sheath blight: Susceptible; BPH: Susceptible; Gall midge: Susceptible; Submergence: Susceptible.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "source_file": "Pratikshya.pdf",
+    "variety": "Pratikshya",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Pratikshya - producibility and recommendation.\nProducibility: Pratikshya = 2000-2200 Kgs./acre.\nRecommendation: Released for cultivation in Odisha, Madhya Pradesh, Andhra Pradesh, West Bengal, and Assam. National check in advanced varietal trial (late) conducted by IIRR, India.\nSource note: the factsheet's product-profile prose and its biotic/abiotic stress table differ on some disease ratings (e.g. sheath blight); both are reproduced here exactly as printed on the source.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "source_file": "Pratikshya.pdf",
+    "variety": "Pratikshya",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  }
+ ]
+}

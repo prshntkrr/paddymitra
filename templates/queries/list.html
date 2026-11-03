@@ -1,0 +1,258 @@
+{% extends 'base.html' %}{% load irri_extras %}
+{% block page_title %}Queries{% endblock %}
+{% block topbar_actions %}
+  <a href="{% url 'queries:export' %}{% if request.GET.urlencode %}?{{ request.GET.urlencode }}{% endif %}"
+     class="btn btn-secondary btn-sm">{% icon "download" 14 %} Download Excel</a>
+  <a href="{% url 'queries:demo' %}" class="btn btn-primary btn-sm">{% icon "sparkles" 14 %} Run demo query</a>
+{% endblock %}
+{% block content %}
+<div class="stats-grid fade-in">
+  <div class="stat-card"><div class="stat-icon blue">{% icon "chat" 22 %}</div><div class="stat-value">{{ total }}</div><div class="stat-label">Total Queries</div></div>
+  <div class="stat-card"><div class="stat-icon green">{% icon "check" 22 %}</div><div class="stat-value">{{ responded }}</div><div class="stat-label">Responded</div></div>
+  <div class="stat-card"><div class="stat-icon amber">{% icon "clock" 22 %}</div><div class="stat-value">{{ pending }}</div><div class="stat-label">Pending / Failed</div></div>
+  <div class="stat-card"><div class="stat-icon red">{% icon "flag" 22 %}</div><div class="stat-value">{{ flagged }}</div><div class="stat-label">Flagged</div></div>
+</div>
+
+<div class="card fade-in">
+  <div class="card-header">
+    <h3>All farmer queries</h3>
+    <form method="get" style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;">
+      <select name="category" class="form-control" style="width:140px;padding:6px 10px;font-size:12px;">
+        <option value="">All Categories</option>
+        {% for s, l in category_choices %}<option value="{{ s }}" {% if request.GET.category == s %}selected{% endif %}>{{ l }}</option>{% endfor %}
+      </select>
+      <select name="feedback" class="form-control" style="width:130px;padding:6px 10px;font-size:12px;">
+        <option value="">All Feedback</option>
+        {% for s, l in feedback_choices %}<option value="{{ s }}" {% if request.GET.feedback == s %}selected{% endif %}>{{ l }}</option>{% endfor %}
+      </select>
+      <select name="season" class="form-control" style="width:120px;padding:6px 10px;font-size:12px;">
+        <option value="">All Seasons</option>
+        {% for s, l in season_choices %}<option value="{{ s }}" {% if request.GET.season == s %}selected{% endif %}>{{ l }}</option>{% endfor %}
+      </select>
+      <select name="crop_stage" class="form-control" style="width:130px;padding:6px 10px;font-size:12px;">
+        <option value="">All Crop Stages</option>
+        {% for s, l in crop_stage_choices %}<option value="{{ s }}" {% if request.GET.crop_stage == s %}selected{% endif %}>{{ l }}</option>{% endfor %}
+      </select>
+      <div class="search-bar"><input type="text" name="q" value="{{ request.GET.q }}" placeholder="Search..."></div>
+      <button class="btn btn-secondary btn-sm">Filter</button>
+    </form>
+  </div>
+  <table class="data-table">
+    <thead><tr>
+      <th>ID</th><th>Time</th><th>District</th>
+      <th style="min-width:240px;">Query &amp; Response</th>
+      <th>Category</th><th>Task Type</th><th>Problem</th>
+      <th>Season</th><th>Stage</th><th>Missing</th><th>Time</th><th>Feedback</th>
+    </tr></thead>
+    <tbody>
+      {% for q in queries %}
+      <tr>
+        <td><a href="{% url 'queries:detail' q.pk %}" style="color:var(--irri-green);font-weight:600;">{{ q.code }}</a></td>
+        <td>{{ q.timestamp|date:"d M, H:i" }}</td>
+        <td>{{ q.district }}</td>
+        <td class="q-cell" style="min-width:240px;max-width:420px;cursor:pointer;"
+            onclick="openQueryModal(this)" title="Click to view the full question &amp; answer">
+          <div style="color:var(--gray-800);font-weight:500;line-height:1.35;display:flex;gap:6px;align-items:flex-start;">
+            <span style="color:var(--gray-400);">{% icon "chat" 14 %}</span>
+            <span>{{ q.translated_query_text|truncatechars:110 }}</span>
+          </div>
+          {% if q.ai_response_text %}
+          <div style="margin-top:6px;padding:6px 8px;background:#E8F5ED;border-left:3px solid var(--irri-green);border-radius:4px;font-size:12px;line-height:1.45;color:var(--gray-700);">
+            <strong style="font-size:10px;letter-spacing:0.04em;color:var(--irri-green);text-transform:uppercase;">AI Response</strong><br>
+            {{ q.ai_response_text|truncatechars:180 }}
+          </div>
+          {% elif q.status == 'Failed' %}
+          <div style="margin-top:6px;padding:6px 8px;background:#FEE2E2;border-left:3px solid #DC2626;border-radius:4px;font-size:12px;color:#B91C1C;">
+            <strong style="font-size:10px;letter-spacing:0.04em;text-transform:uppercase;">Failed</strong> &mdash; see details
+          </div>
+          {% else %}
+          <div style="margin-top:6px;font-size:11px;color:var(--gray-400);font-style:italic;">No response yet</div>
+          {% endif %}
+          {% comment %}
+          THE FARMER'S OWN WORDS. A wrong answer to a voice question is a
+          transcription fault as often as a retrieval one, and that cannot be
+          judged from the transcript — it has to be heard. onclick is stopped so
+          playing the note does not also open the popup.
+
+          {% comment %}, not {# #}: the short form is SINGLE-LINE only, so a
+          multi-line one is not a comment at all — Django renders everything
+          after the first line as page text, which is how this paragraph ended
+          up printed under a farmer's question in the queries list.
+          {% endcomment %}
+          {% if q.question_audio_url %}
+          <div style="margin-top:6px;display:flex;align-items:center;gap:6px;"
+               onclick="event.stopPropagation();">
+            <span style="font-size:10px;font-weight:700;letter-spacing:0.04em;
+                         text-transform:uppercase;color:var(--gray-500);white-space:nowrap;">
+              {% if q.came_from_whatsapp %}WhatsApp voice{% else %}Recording{% endif %}
+            </span>
+            <audio controls preload="none" src="{{ q.question_audio_url }}"
+                   style="height:28px;max-width:220px;flex:1;min-width:0;"></audio>
+          </div>
+          {% endif %}
+          {# Full data for the popup (hidden). textContent is read by openQueryModal(). #}
+          <div class="q-full" style="display:none;">
+            <span class="qf-code">{{ q.code }}</span>
+            <span class="qf-catalogue">{{ q.catalogue.name }}</span>
+            <span class="qf-lang">{{ q.original_query_language }}</span>
+            <span class="qf-question">{{ q.translated_query_text }}</span>
+            <span class="qf-original">{{ q.original_query_text }}</span>
+            <span class="qf-answer">{{ q.ai_response_text }}</span>
+            <span class="qf-answer-local">{{ q.ai_response_text_local }}</span>
+            <span class="qf-audio-in">{{ q.question_audio_url }}</span>
+            <span class="qf-audio-out">{{ q.answer_audio_url }}</span>
+            <span class="qf-channel">{% if q.came_from_whatsapp %}WhatsApp{% endif %}</span>
+            <span class="qf-detail">{% url 'queries:detail' q.pk %}</span>
+          </div>
+        </td>
+        <td><span class="badge badge-blue">{{ q.category|default:"—" }}</span></td>
+        <td style="font-size:11px;">{{ q.task_type|default:"—" }}</td>
+        <td style="font-size:11px;">{{ q.problem_entity|default:"—" }}</td>
+        <td style="font-size:11px;">{{ q.season|default:"—" }}</td>
+        <td style="font-size:11px;">{{ q.crop_stage|default:"—" }}</td>
+        <td style="font-size:11px;color:#92400E;">{{ q.missing_context|truncatechars:30 }}</td>
+        <td>{{ q.response_time_seconds }}s</td>
+        <td>{% if q.farmer_feedback %}<span class="badge {{ q.farmer_feedback|badge_class }}">{{ q.farmer_feedback }}</span>{% endif %}</td>
+      </tr>
+      {% empty %}
+      <tr><td colspan="12" style="text-align:center;padding:30px;color:var(--gray-400);">No queries yet.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% include 'partials/pagination.html' %}
+</div>
+
+<style>
+  .q-cell:hover { background:#F0FDF4; }
+  .qm-overlay {
+    position:fixed; inset:0; background:rgba(15,23,42,0.55);
+    display:none; align-items:center; justify-content:center; z-index:1000; padding:20px;
+  }
+  .qm-overlay.open { display:flex; }
+  .qm-dialog {
+    background:#fff; border-radius:10px; width:min(720px,100%);
+    max-height:88vh; display:flex; flex-direction:column;
+    box-shadow:0 20px 50px rgba(0,0,0,0.3); animation:qmIn 140ms ease-out;
+  }
+  @keyframes qmIn { from{opacity:0;transform:translateY(8px);} to{opacity:1;transform:none;} }
+  .qm-head {
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+    padding:14px 18px; border-bottom:1px solid var(--gray-200);
+  }
+  .qm-head h3 { margin:0; font-size:16px; }
+  .qm-close { background:transparent; border:0; font-size:20px; line-height:1; cursor:pointer; color:var(--gray-500); padding:4px 8px; }
+  .qm-body { padding:16px 18px; overflow-y:auto; }
+  .qm-section { margin-bottom:16px; }
+  .qm-section:last-child { margin-bottom:0; }
+  .qm-label { font-size:10px; font-weight:700; letter-spacing:0.05em; text-transform:uppercase; color:var(--irri-green); margin-bottom:5px; }
+  .qm-text { font-size:14px; line-height:1.5; color:var(--gray-800); white-space:pre-wrap; word-break:break-word; }
+  .qm-answer-box { background:#E8F5ED; border-left:3px solid var(--irri-green); border-radius:6px; padding:10px 12px; }
+  .qm-chip { display:inline-block; background:var(--gray-100,#F1F5F9); border:1px solid var(--gray-200); border-radius:999px; padding:3px 10px; font-size:12px; color:var(--gray-700); }
+  .qm-foot { padding:12px 18px; border-top:1px solid var(--gray-200); display:flex; justify-content:flex-end; }
+</style>
+
+<div id="qm-overlay" class="qm-overlay" onclick="if(event.target===this)closeQueryModal()">
+  <div class="qm-dialog" role="dialog" aria-modal="true">
+    <div class="qm-head">
+      <h3>Query <span id="qm-code" style="color:var(--irri-green);"></span></h3>
+      <button type="button" class="qm-close" onclick="closeQueryModal()" aria-label="Close">✕</button>
+    </div>
+    <div class="qm-body">
+      <div class="qm-section"><div class="qm-label">Catalogue</div><span id="qm-catalogue" class="qm-chip"></span></div>
+      <div class="qm-section"><div class="qm-label">Question</div><div id="qm-question" class="qm-text"></div></div>
+      <div class="qm-section" id="qm-original-wrap" style="display:none;"><div class="qm-label" id="qm-original-label">Original (farmer)</div><div id="qm-original" class="qm-text"></div></div>
+      <div class="qm-section"><div class="qm-label">AI Response</div><div id="qm-answer" class="qm-text qm-answer-box"></div></div>
+      <div class="qm-section" id="qm-answer-local-wrap" style="display:none;"><div class="qm-label" id="qm-answer-local-label">Response (local language)</div><div id="qm-answer-local" class="qm-text qm-answer-box"></div></div>
+      <div class="qm-section" id="qm-audio-in-wrap" style="display:none;">
+        <div class="qm-label" id="qm-audio-in-label">Recorded question</div>
+        <audio id="qm-audio-in" controls preload="none" style="width:100%;height:34px;"></audio>
+      </div>
+      <div class="qm-section" id="qm-audio-out-wrap" style="display:none;">
+        <div class="qm-label">Voice response sent</div>
+        <audio id="qm-audio-out" controls preload="none" style="width:100%;height:34px;"></audio>
+      </div>
+    </div>
+    <div class="qm-foot">
+      <a id="qm-detail" class="btn btn-secondary btn-sm" href="#">Open full details</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  function setAudio(id, url) {
+    var player = document.getElementById(id);
+    var wrap = document.getElementById(id + '-wrap');
+    if (url) {
+      player.src = url;
+      wrap.style.display = '';
+    } else {
+      player.removeAttribute('src');
+      wrap.style.display = 'none';
+    }
+  }
+
+  function openQueryModal(cell) {
+    var box = cell.querySelector('.q-full');
+    if (!box) return;
+    function val(sel) { var e = box.querySelector(sel); return e ? e.textContent.trim() : ''; }
+
+    document.getElementById('qm-code').textContent = val('.qf-code');
+    document.getElementById('qm-catalogue').textContent = val('.qf-catalogue') || '—';
+
+    var question = val('.qf-question');
+    document.getElementById('qm-question').textContent = question || '—';
+
+    // Show the farmer's original wording only when it differs from the English question.
+    var original = val('.qf-original');
+    var lang = val('.qf-lang');
+    var origWrap = document.getElementById('qm-original-wrap');
+    if (original && original !== question) {
+      document.getElementById('qm-original-label').textContent = 'Original' + (lang ? ' (' + lang + ')' : '');
+      document.getElementById('qm-original').textContent = original;
+      origWrap.style.display = '';
+    } else {
+      origWrap.style.display = 'none';
+    }
+
+    document.getElementById('qm-answer').textContent = val('.qf-answer') || 'No response yet.';
+
+    var local = val('.qf-answer-local');
+    var localWrap = document.getElementById('qm-answer-local-wrap');
+    if (local && local !== val('.qf-answer')) {
+      document.getElementById('qm-answer-local-label').textContent = 'Response' + (lang ? ' (' + lang + ')' : ' (local language)');
+      document.getElementById('qm-answer-local').textContent = local;
+      localWrap.style.display = '';
+    } else {
+      localWrap.style.display = 'none';
+    }
+
+    // The recordings. A player with no src shows as broken, so each one is
+    // hidden outright when the query has no audio of that kind — most text
+    // queries have neither.
+    var channel = val('.qf-channel');
+    setAudio('qm-audio-in', val('.qf-audio-in'));
+    setAudio('qm-audio-out', val('.qf-audio-out'));
+    document.getElementById('qm-audio-in-label').textContent =
+      channel ? channel + ' voice note' : 'Recorded question';
+
+    var detail = val('.qf-detail');
+    var link = document.getElementById('qm-detail');
+    if (detail) { link.href = detail; link.style.display = ''; } else { link.style.display = 'none'; }
+
+    document.getElementById('qm-overlay').classList.add('open');
+  }
+
+  function closeQueryModal() {
+    document.getElementById('qm-overlay').classList.remove('open');
+    // A closed dialog that is still talking follows you down the page.
+    ['qm-audio-in', 'qm-audio-out'].forEach(function(id) {
+      var player = document.getElementById(id);
+      if (player) { player.pause(); }
+    });
+  }
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeQueryModal();
+  });
+</script>
+{% endblock %}

@@ -1,0 +1,75 @@
+{
+ "source": "Swarna-Sub-1.pdf",
+ "sha256": "741e745352f2f04d2ebc78734be5917a10a82c32d12537bbcb69837e673d7597",
+ "ocr": false,
+ "table_mode": "fast",
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T18:19:18",
+ "chunk_count": 5,
+ "chunks": [
+  {
+   "text": "Position, 1 = Irrigated Lowland Rainfed. Replace, 1 = CR 1009 Sub-1 Upland Lowland Swarna None None. Companion, 1 = None None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Swarna-Sub-1.pdf",
+    "page": 1
+   }
+  },
+  {
+   "text": "Key Strengths\n- Good yield\n- Medium height; Profuse tillering\n- Submergence tolerance\n- Late maturity; medium slender grain\n- High HRR; Excellent eating quality\n- Resistant to Leaf blight",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Swarna-Sub-1.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nSwarna Sub-1, Grain yield (Kg/ha) % = 5000-6000. Swarna Sub-1, Adv = . Swarna Sub-1, Maturity (days) = 140-145. Swarna Sub-1, Plant height (cm) = 95-105. Swarna Sub-1, Lodging = Tolerant. Swarna Sub-1, HRR % = 67. Swarna Sub-1, 1000 grain weight (g) = 20. Swarna Sub-1, Grain Shape = MS. Swarna, Grain yield (Kg/ha) % = 5500-6000. Swarna, Adv = . Swarna, Maturity (days) = 140-145. Swarna, Plant height (cm) = 85-90. Swarna, Lodging = Susceptible. Swarna, HRR % = 69. Swarna, 1000 grain weight (g) = 16. Swarna, Grain Shape = MS",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Swarna-Sub-1.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nVariety, 1 = Leaf blast. Variety, 2 = Leaf blight. Variety, 3 = Sheath blight. Variety, 4 = BPH. Variety, 5 = Gall midge. Variety, 6 = Submergence. Swarna Sub-1, 1 = Susceptible. Swarna Sub-1, 2 = Resistant. Swarna Sub-1, 3 = Susceptible. Swarna Sub-1, 4 = Susceptible. Swarna Sub-1, 5 = Susceptible. Swarna Sub-1, 6 = Tolerant. Swarna, 1 = Susceptible. Swarna, 2 = Resistant. Swarna, 3 = Susceptible. Swarna, 4 = Susceptible. Swarna, 5 = Susceptible. Swarna, 6 = Susceptible\nProducibility:\nSwarna Sub-1=2000-2200Kgs. / acre\nRecommendation: Released for cultivation in Odhisa, Madhya Pradesh, Andhra Pradesh, West Bengal, Assam.\nNationalcheck in advanced varietal trial (late) conducted by IIRR, India.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Swarna-Sub-1.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\n- Susceptible to leaf blast, sheath blight and false smut\n- Susceptible to BPH, Stem borer and Gall midge\n- Loss of golden hull color as is in Swarna",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Swarna-Sub-1.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}

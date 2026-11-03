@@ -1,0 +1,117 @@
+{
+ "source": "English-DSR-1.pdf",
+ "sha256": "1ce5ee3c8238229769e47a6dafe0deed40cdbfe8bcdebe90e52cde4e837725dc",
+ "ocr": true,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:47:44",
+ "chunk_count": 9,
+ "chunks": [
+  {
+   "text": "International Maize and Wheat Improvement Center",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": true,
+    "source_file": "English-DSR-1.pdf",
+    "page": 1
+   }
+  },
+  {
+   "text": "What is dry direct seeded rice (DSR)?\nDry direct seeding of rice is an establishment method by machine, which involves sowing of seeds directly into the main field with a seed drill rather than transplanting of seedlings. The soil can be dry or moist at the time of seeding, but is not puddled.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": true,
+    "source_file": "English-DSR-1.pdf",
+    "page": 1,
+    "section": "What is dry direct seeded rice (DSR)?"
+   }
+  },
+  {
+   "text": "Field preparation and sowing method\nDSR can be done on the same soils as puddled transplanted rice. Good land leveling is important for better crop emergence, saving in water and better yield. This can be best achieved with laser land leveler. If laser leveler is not available, then it can be achieved by careful leveling using traditional method (scraper, proper ploughing followed by planking).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": true,
+    "source_file": "English-DSR-1.pdf",
+    "page": 1,
+    "section": "Field preparation and sowing method"
+   }
+  },
+  {
+   "text": "Sowing methods: It can be done by two methods\n- (1) In moist soil (vattar condition): Apply heavy presowing irrigation (or rains occur) in a well prepared field (2-3 dry ploughings), and as soon as field reaches to vattar condition (field capacity), plough the field again followed by planking. Sowing should be done immediately after field preparation using seed drill. Attach a light wooden plank behind seed drill to achieve good seed to soil contact. These operations should preferably be done in the evening hours to avoid moisture loss. This method helps to conserve soil moisture.\n- (2) In dry soil condition: In this method, rice is seeded in a well prepared (2-3 ploughing + planking) dry field using seed drill and then a light irrigation is applied (or wait for rain) for crop emergence.\nThe decision on which method to use depends on the weather conditions and available irrigation resources. If farmers have irrigation facility and want to establish early before rain starts, then first method (vattar sowing) is best which reduces early irrigation requirement for 2-3 weeks and minimizes weed problem.\nSeeding equipment: For precise seeding, rice can be drilled with multi crop planter (seed-cumfertilizer) fitted with an inclined-plate (preferably) or fluted-roller seed metering system and inverted Ttype furrow openers. Power tiller-operated seeder (PTOS) or seed-cum fertilizer drill for 2-wheel tractors can also be used for sowing, if available.\nLand leveling using laser guidance\nDry seeding of rice with multicrop planter\nSeed and fertilizer boxes\nInclined -plate",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": true,
+    "source_file": "English-DSR-1.pdf",
+    "page": 1,
+    "section": "Sowing methods: It can be done by two methods"
+   }
+  },
+  {
+   "text": "Sowing Time: 15 May to 25 June\nOptimum timing: 10-15 days prior to onset of monsoon i.e. last week of May to mid June\nMedium and Long duration (135-155days), Sowing window = 15 May to 25 June\n\n*Short duration variety (90-120days) is suitable only for upland and can be grown from 10 June to 25 June.\nSeed rate: 12-16 kg/acre for inbred varieties.\nSowing depth: 2-3 cm (Don't seed deeper than 3 cm); Row spacing: 20 cm; if using cono/power weeder then row spacing should be 25 cm .\nSeed quality: Use certified seeds.\nSeed treatment: Before sowing, the seed should be treated with a fungicide such as tebuconazole (Raxil Easy®) at 1 ml/kg seed, or carbendazim (Bavistin®) at 2 g/kg. In case of soilborne insect pests (e.g., termites), the seed can be treated with an insecticide such as imidacloprid (Gaucho 350 FS®) at 3 ml/kg, alone or in combination with tebuconazole (Raxil Easy®) at 0.3 ml/kg seed The seeds can also be treated with Vitavax power® at 2 g/kg. Under dry sowing conditions; treat the seeds with above chemical by mixing in 15 ml water/kg seed.\nFor sowing in vattar condition, soak the seeds in water treated with chemicals for 10-12 hours and then dry in shade for 1-2 hours before sowing in the field.\nDon't use water soaked treated seed for sowing in dry conditions (method 2) and with seed drill with fluted roller type seed metering system.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": true,
+    "source_file": "English-DSR-1.pdf",
+    "page": 1,
+    "section": "Sowing Time: 15 May to 25 June"
+   }
+  },
+  {
+   "text": "Cultivar selection:\n- Low and medium land: Swarna Sub-1, Swarna, CR 1009, CR 1018, Ranidhan, Pooja, Savitri, Pratikshya\n- Upland: Sahbhagi Dhan, Lalat, Khandagiri",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": true,
+    "source_file": "English-DSR-1.pdf",
+    "page": 2,
+    "section": "Cultivar selection:"
+   }
+  },
+  {
+   "text": "Weed management:\nCultural: Stale-bed technique is effective in reducing weed problem including problem of weedy and volunteer rice. In this practice, weed seeds are encouraged to germinate by irrigation (or rain) applied 15-25 days before seeding and then are killed by either a nonselective herbicide (glyphosate, or paraquat) or by shallow tillage before sowing of rice.\nChemical control: Pre-mergence followed by postemergence herbicide application has been found effective for weed control in DSR.\nPre-emergence herbicides: Pretilachlor with safner 30.7 EC (Sofit) @ 650 ml/acre or oxadiargyl 80WP (Top star) @ 45 g/acre. Use any one.\nApplication timing: Under vattar sowing: on the same day of sowing; under dry sowing condition: 1-3 days after sowing/irrigation/rains. Spray using water volume 150-200 l/acre (10-13 tanks).\nPost-emergence herbicides: Use any one based on the weed flora.\nBispyribac-sodium 10 SL (Nominee Gold/Adora/Taarak) @100 ml/acre or tank mix of bispyribac-sodium 10 SL + pyrazosulfuron (Sathi) @ 100 ml + 80 g or tank mix of fenoxaprop-p-ethyl with safner (Rice star) + ethoxysulfuron (Sun rice) @ 500 ml + 48 g/acre for broad spectrum control of grasses, broadleaf and sedges. If weed flora is dominated by Cyperus rotundus, then apply tank mix of bispyribac + pyrazosulfuron and if flora is dominated by Leptochloa chinensis and Dactyloctenium aegyptium, use fenoxaprop + ethoxysulfuron.\nTime of application and method: 15-25 DAS when weeds ar-g     s   4 0 tanks). Use multiple-nozzle boom fitted with flat-fan nozzle for uniform application.\nHand/mechanical weeding: One follow up weeding (need based) is important to remove escaped weeds as a strategy to delay/manage herbicide resistance.\nUse of multinozzle boom for herbicide application\nMechanical weeder",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": true,
+    "source_file": "English-DSR-1.pdf",
+    "page": 2,
+    "section": "Weed management:"
+   }
+  },
+  {
+   "text": "Weed management:\nNutrient management: \"Rice Crop Manager\" a decision support tool can be used for calculating fertilizer requirement for variety and field specific nutrient management. The tool is available at http://webapps.irri.org/in/od/rcm. Otherwise, the following dose and schedule of fertilizer applications may be used:\nDAP, Rate of fertilizer application (kg/acre).At sowing = 35. DAP, Rate of fertilizer application (kg/acre).At 15-25 DAS = . DAP, Rate of fertilizer application (kg/acre).Active tillering = . DAP, Rate of fertilizer application (kg/acre).Panicle initiation = . Urea, Rate of fertilizer application (kg/acre).At sowing = . Urea, Rate of fertilizer application (kg/acre).At 15-25 DAS = 20* (for medium-long duration varieties only). Urea, Rate of fertilizer application (kg/acre).Active tillering = 30-35. Urea, Rate of fertilizer application (kg/acre).Panicle initiation = 30-35. MOP 15-20, Rate of fertilizer application (kg/acre).At sowing = . MOP 15-20, Rate of fertilizer application (kg/acre).At 15-25 DAS = . MOP 15-20, Rate of fertilizer application (kg/acre).Active tillering = 15-20. MOP 15-20, Rate of fertilizer application (kg/acre).Panicle initiation = . ZnSO4, Rate of fertilizer application (kg/acre).At sowing = 10. ZnSO4, Rate of fertilizer application (kg/acre).At 15-25 DAS = . ZnSO4, Rate of fertilizer application (kg/acre).Active tillering = . ZnSO4, Rate of fertilizer application (kg/acre).Panicle initiation = \n- Should be applied with first irrigation or with light rains, depending on weather conditions.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": true,
+    "source_file": "English-DSR-1.pdf",
+    "page": 2,
+    "section": "Weed management:"
+   }
+  },
+  {
+   "text": "Weed management:\nActive tillering (AT) and panicle initiation (PI) stages vary depending on the varieties eg. for short term variety (AT at 25-30 DAS and PI at 43-47 DAS), medium term variety (AT at 31-35 DAS and PI at 55-37 DAS), long term variety (AT at 41-45 DAS and PI at 73-77 DAS).\nFor micronutrient deficiency (Iron and Zinc): Foliar spray of 1% urea + 0.5% ZnSO in case of zinc deficiency, 0.5% ferrous sulfate (volume basis) in case of iron deficiency and both in case of zinc and iron deficiency, 2-3 times at weekly intervals as per needs.\nIrrigation management: Under vattar DSR (method -1), first irrigation may be applied at 10-21 days after sowing (DAS) depending upon weather conditions. If rains are not received the follow up irrigation should be applied at weekly intervals. Under sowing in dry condition (method-2), subsequent irrigations should be applied at 4-5 DAS to ensure uniform germination and avoid seedling mortality. The follow up irrigation schedule will be same as in vattar DSR. Care should be taken that there should be no water stress at two crucial stages i.e. panicle initiation and grain filling. For clayey soils, the appearance of hairline cracks on the soil surface is a general indication of the need to irrigate.\nInsect-pest and disease management: Similar to transplanted rice.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 8,
+    "docling": true,
+    "ocr": true,
+    "source_file": "English-DSR-1.pdf",
+    "page": 2,
+    "section": "Weed management:"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1926 @@
+{
+ "source": "Odisha_Paddy_varieties_filled.xlsx",
+ "sha256": "678ca1de1097b64d140fb0fca03652584d9174581c514df6395010f06579c555",
+ "origin": "clean_rendering",
+ "built_at": "2026-11-01T00:58:32",
+ "chunk_count": 192,
+ "chunks": [
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: ADT (R)-46. Duration: 105 days (Early duration). Average grain yield: 5 t/ha. Source / developer: TNAU, Tamil Nadu. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "ADT (R)-46",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: ADT 56 (IET27920). Duration: 115 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: TNAU, Tamil Nadu. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "ADT 56 (IET27920)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: ADT-37. Duration: 110 days (Short duration). Average grain yield: 5 t/ha. Source / developer: TNAU, Tamil Nadu. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "ADT-37",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: ADT-53. Duration: 105 days (Early duration). Average grain yield: 5.5 t/ha. Source / developer: TNAU, Tamil Nadu. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "ADT-53",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Amara (MTU-1064). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Amara (MTU-1064)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: ANJALI (IET-16430, RR-347-166). Duration: 90 days (Early duration). Average grain yield: 3.5 t/ha. Source / developer: Hazaribag (CRRI). Suitable land / ecosystem: UpLand. Stress tolerance: Drought.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "ANJALI (IET-16430, RR-347-166)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: ANNADA. Duration: 105 days (Early duration). Average grain yield: 4 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Upland/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "ANNADA",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: ASD-16. Duration: 110 days (Short duration). Average grain yield: 5 t/ha. Source / developer: TNAU, Tamil Nadu. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "ASD-16",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: BAHADUR. Duration: 145 days (Long duration). Average grain yield: 4.5 t/ha. Source / developer: ICAR-NRRI/OUAT. Suitable land / ecosystem: Medium/lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "BAHADUR",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: BheemaDheera (MTU 1140). Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "BheemaDheera (MTU 1140)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Bina 17 GSR (SAGC 7) (IET 24460). Duration: 110 days (Short duration). Average grain yield: 5 t/ha. Source / developer: Bangladesh Rice Research Institute. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: Stress tolerance reported in breeding line.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Bina 17 GSR (SAGC 7) (IET 24460)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Birsa Vikas Sugandha-1(IET 18941). Duration: 115 days (Short duration). Average grain yield: 3.5 t/ha. Source / developer: Birsa Agricultural University. Suitable land / ecosystem: Upland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Birsa Vikas Sugandha-1(IET 18941)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: BPT 2411 (Sasya). Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU/ARS, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "BPT 2411 (Sasya)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: BPT 2782 (Bhavathi). Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU/ARS, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "BPT 2782 (Bhavathi)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: BPT-3291(Sona Masuri). Duration: 125 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "BPT-3291(Sona Masuri)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: BPT-5204(SAMBA MAHSURI). Duration: 145 days (Long duration). Average grain yield: 5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium/lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "BPT-5204(SAMBA MAHSURI)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: BRRI Dhan 69 (WTR 1) (IET 24461). Duration: 130 days (Medium duration). Average grain yield: 6 t/ha. Source / developer: BRRI, Bangladesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: Waterlogging/flood tolerance reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "BRRI Dhan 69 (WTR 1) (IET 24461)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Chandra(MTU-1153). Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Chandra(MTU-1153)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Chandragiri (Ouat Kalinga Rice 9)(IET 27880)(ORJ 1336). Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: OUAT, Odisha. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Chandragiri (Ouat Kalinga Rice 9)(IET 27880)(ORJ 1336)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CIHERANG SUB-1(BINA-11). Duration: 115 days (Short duration). Average grain yield: 5 t/ha. Source / developer: IRRI/Indonesia. Suitable land / ecosystem: Lowland. Stress tolerance: Submergence.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CIHERANG SUB-1(BINA-11)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CO 51. Duration: 110 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: TNAU, Tamil Nadu. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CO 51",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR 1009 SUB-1. Duration: 150 days (Long duration). Average grain yield: 5.5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Lowland. Stress tolerance: Submergence.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR 1009 SUB-1",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 102 (IET 25121). Duration: 110 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Upland/irrigated. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 102 (IET 25121)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR DHAN 307(Maudamani). Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR DHAN 307(Maudamani)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR DHAN 310. Duration: 120 days (Short duration). Average grain yield: 4.5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/favorable shallow rainfed. Stress tolerance: High protein.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR DHAN 310",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR DHAN 312. Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR DHAN 312",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 312 (CR 3808-13) (IET 25997). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 312 (CR 3808-13) (IET 25997)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 315(IET 27179). Duration: 110 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 315(IET 27179)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 316 (Gaurav). Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 316 (Gaurav)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 317 (Roshan). Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 317 (Roshan)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 324 (Abhaya Paushtik). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: Nutrient-rich.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 324 (Abhaya Paushtik)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 411 (Swaranjali, IET 27852). Duration: 125 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 411 (Swaranjali, IET 27852)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 414 (IET 27051). Duration: 110 days (Short duration). Average grain yield: 4.22 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Coastal/irrigated. Stress tolerance: Moderate stress adaptation.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 414 (IET 27051)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 802(SUBHAS)(IET 25673)(CR3925-22-7). Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 802(SUBHAS)(IET 25673)(CR3925-22-7)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 803 (Trilochan, IET 26398). Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 803 (Trilochan, IET 26398)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 805 (Naveen shakti)(IET 29203). Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 805 (Naveen shakti)(IET 29203)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 808 (IET 28834) (CRR 809-11-1-9-B). Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 808 (IET 28834) (CRR 809-11-1-9-B)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 911 (BASUDEV). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 911 (BASUDEV)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan-405. Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Lowland/irrigated. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan-405",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: DHARITRI (IET-6272). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Medium/lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "DHARITRI (IET-6272)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: DRR DHAN 63 (IET 26596). Duration: 125 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-IIRR, Hyderabad. Suitable land / ecosystem: Irrigated. Stress tolerance: Stress tolerance under evaluation.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "DRR DHAN 63 (IET 26596)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: DRR Dhan 69 (BRRI Dhan 100). Duration: 125 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-IIRR/BRRI. Suitable land / ecosystem: Irrigated. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "DRR Dhan 69 (BRRI Dhan 100)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: DRR DHAN-45. Duration: 130 days (Medium duration). Average grain yield: 5.5 t/ha. Source / developer: ICAR-IIRR, Hyderabad. Suitable land / ecosystem: Irrigated. Stress tolerance: Zinc biofortified.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "DRR DHAN-45",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: DRR Dhan-53 (RP-6113-PB9) (IET 27294). Duration: 125 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-IIRR, Hyderabad. Suitable land / ecosystem: Irrigated. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "DRR Dhan-53 (RP-6113-PB9) (IET 27294)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Erra Mallelu (WGL 20471). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: PJTSAU, Telangana. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Erra Mallelu (WGL 20471)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: GAYATRI (IET-8022). Duration: 155 days (Long duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "GAYATRI (IET-8022)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: GONTRA BIDHAN-1 (IET 17430). Duration: 110 days (Short duration). Average grain yield: 4.5 t/ha. Source / developer: Bangladesh Rice Research Institute. Suitable land / ecosystem: Upland/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "GONTRA BIDHAN-1 (IET 17430)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Hasanta. Duration: 125 days (Short duration). Average grain yield: 5 t/ha. Source / developer: OUAT. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Hasanta",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Improved Lalat. Duration: 130 days (Medium duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Medium land. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Improved Lalat",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: INDRA(MTV-1061). Duration: 150 days (Long duration). Average grain yield: 5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Medium/lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "INDRA(MTV-1061)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: IR 64- Sub 1 (IET 21247). Duration: 110 days (Short duration). Average grain yield: 5 t/ha. Source / developer: IRRI. Suitable land / ecosystem: Lowland. Stress tolerance: Submergence.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "IR 64- Sub 1 (IET 21247)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: IR-64. Duration: 110 days (Short duration). Average grain yield: 5 t/ha. Source / developer: IRRI. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "IR-64",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: JAGANNATH. Duration: 150 days (Long duration). Average grain yield: 4.5 t/ha. Source / developer: Odisha traditional variety. Suitable land / ecosystem: Lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "JAGANNATH",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: JAGJEEVAN(DRR-39). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-IIRR, Hyderabad. Suitable land / ecosystem: Irrigated. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "JAGJEEVAN(DRR-39)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Jagtiala Rice-1 (JGL-24423) (IET- 25310). Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: PJTSAU, Telangana. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Jagtiala Rice-1 (JGL-24423) (IET- 25310)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Jaya. Duration: 135 days (Medium duration). Average grain yield: 5 t/ha. Source / developer: ICAR-IARI/ICAR-NRRI. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Jaya",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: JGL18047(Bathukamma). Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: PJTSAU, Telangana. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "JGL18047(Bathukamma)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Kalachampa. Duration: 150 days (Long duration). Average grain yield: 4 t/ha. Source / developer: Odisha traditional. Suitable land / ecosystem: Lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Kalachampa",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: KALINGA DHAN 1203 (IET 27117). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: OUAT, Odisha. Suitable land / ecosystem: Upland/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "KALINGA DHAN 1203 (IET 27117)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Kalinga Dhan-1203 (IET 27117). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: OUAT, Odisha. Suitable land / ecosystem: Upland/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Kalinga Dhan-1203 (IET 27117)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Kalinga Dhan-1204. Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: OUAT, Odisha. Suitable land / ecosystem: Upland/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Kalinga Dhan-1204",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Kalinga Dhan-1205 (IET 22579). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: OUAT, Odisha. Suitable land / ecosystem: Upland/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Kalinga Dhan-1205 (IET 22579)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Kalinga Dhan-1301. Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: OUAT, Odisha. Suitable land / ecosystem: Upland/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Kalinga Dhan-1301",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Kalinga Dhan-1401. Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: OUAT, Odisha. Suitable land / ecosystem: Upland/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Kalinga Dhan-1401",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Kalinga Dhan-1501. Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: OUAT, Odisha. Suitable land / ecosystem: Upland/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Kalinga Dhan-1501",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Kalinga Dhan-1502. Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: OUAT, Odisha. Suitable land / ecosystem: Upland/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Kalinga Dhan-1502",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: KARJAT-3. Duration: 105 days (Early duration). Average grain yield: 4.5 t/ha. Source / developer: MPKV, Maharashtra. Suitable land / ecosystem: Upland. Stress tolerance: Drought adaptation.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "KARJAT-3",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: KHANDAGIRI. Duration: 95 days (Early duration). Average grain yield: 3.5 t/ha. Source / developer: OUAT/ICAR-NRRI. Suitable land / ecosystem: Upland. Stress tolerance: Drought adaptation.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "KHANDAGIRI",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: KHARAVELA (IET-13253). Duration: 120 days (Short duration). Average grain yield: 4.5 t/ha. Source / developer: OUAT/ICAR-NRRI. Suitable land / ecosystem: Medium/lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "KHARAVELA (IET-13253)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: KNM-118. Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "KNM-118",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Krishnaveni (MTU-2077). Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Krishnaveni (MTU-2077)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Ksheera (MTU 1172). Duration: 125 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Ksheera (MTU 1172)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: LALAT (IET-9947). Duration: 130 days (Medium duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Medium land. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "LALAT (IET-9947)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Mahendragiri (Ouat Kalinga Rice 10) (IET 29177). Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: OUAT, Odisha. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Mahendragiri (Ouat Kalinga Rice 10) (IET 29177)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MANDAKINI (OR 2077-4)(IET 17847). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: OUAT/ICAR-NRRI, Odisha. Suitable land / ecosystem: Medium/lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MANDAKINI (OR 2077-4)(IET 17847)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Maruteru Mashuri MTU 1262(IET 27151). Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Maruteru Mashuri MTU 1262(IET 27151)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Maruteru Samba (MTU 1224). Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Maruteru Samba (MTU 1224)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Maruteru Sujatha (MTU 1210). Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Maruteru Sujatha (MTU 1210)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MRUNALINI (OR 1898-18) IET 18649. Duration: 135 days (Medium duration). Average grain yield: 5 t/ha. Source / developer: OUAT/ICAR-NRRI, Odisha. Suitable land / ecosystem: Medium/lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MRUNALINI (OR 1898-18) IET 18649",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU 1075 (IET 18482). Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU 1075 (IET 18482)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU 3626 (Prabhat). Duration: 110 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Upland/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU 3626 (Prabhat)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU Rice 1232. Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU Rice 1232",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU Rice 1273. Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU Rice 1273",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU Rice 1275(IET 27908). Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU Rice 1275(IET 27908)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU Rice 1293. Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU Rice 1293",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU Rice 1318 (IET28527). Duration: 145 days (Long duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU Rice 1318 (IET28527)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU Rice 1321. Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU Rice 1321",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU-1001(VIJETHA). Duration: 130 days (Medium duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU-1001(VIJETHA)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU-1010 (COTTONDORA SANNALU). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU-1010 (COTTONDORA SANNALU)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU1121 (Sri Dhruthi). Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU1121 (Sri Dhruthi)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU-1212. Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU-1212",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU-1223. Duration: 160 days (Late Duration duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU-1223",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU-1239. Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU-1239",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU-1280. Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU-1280",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU-1281. Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU-1281",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU-7029(SWARNA). Duration: 140 days (Medium duration). Average grain yield: 5 t/ha. Source / developer: ANGRAU/ICAR-NRRI. Suitable land / ecosystem: Medium/lowland. Stress tolerance: Submergence tolerance in Swarna-Sub1, not original Swarna.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU-7029(SWARNA)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: NLR 3354. Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "NLR 3354",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: NRL 40024. Duration: 130 days (Medium duration). Average grain yield: 5.2 t/ha.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "NRL 40024",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: OUAT Kalinga Rice 1 (Kolab)(IET 25295). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: OUAT, Odisha. Suitable land / ecosystem: Irrigated ecosystem. Stress tolerance: Wide adaptation.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "OUAT Kalinga Rice 1 (Kolab)(IET 25295)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: OUAT Kalinga Rice 2 (Salandi). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: OUAT, Odisha. Suitable land / ecosystem: Medium/lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "OUAT Kalinga Rice 2 (Salandi)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: OUAT KALINGA RICE 5(NABANNA)(IET 25140). Duration: 90 days (Early duration). Average grain yield: 5 t/ha. Source / developer: OUAT, Odisha. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "OUAT KALINGA RICE 5(NABANNA)(IET 25140)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: OUAT Kalinga Rice 6 (Bhargavi) (IET 23565). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: OUAT, Odisha. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "OUAT Kalinga Rice 6 (Bhargavi) (IET 23565)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: PATHARA (lET -6639). Duration: 110 days (Short duration). Average grain yield: 4.5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "PATHARA (lET -6639)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: POOJA (IET-12241). Duration: 150 days (Long duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Medium/lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "POOJA (IET-12241)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: PR-113. Duration: 135 days (Medium duration). Average grain yield: 6 t/ha. Source / developer: Punjab Agricultural University. Suitable land / ecosystem: Irrigated. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "PR-113",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: PRATIBHA. Duration: 125 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI/OUAT. Suitable land / ecosystem: Medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "PRATIBHA",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: PRATIKSHYA (ORS 201-5)(IET-15191). Duration: 130 days (Medium duration). Average grain yield: 5 t/ha. Source / developer: OUAT/ICAR-NRRI, Odisha. Suitable land / ecosystem: Medium/lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "PRATIKSHYA (ORS 201-5)(IET-15191)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Protezin. Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI/IIRR. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: Zinc/nutrient trait.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Protezin",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Pusa Basmati-1509. Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-IARI, New Delhi. Suitable land / ecosystem: Irrigated. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Pusa Basmati-1509",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Rajendra Mahsuri-1. Duration: 140 days (Medium duration). Average grain yield: 5 t/ha. Source / developer: Bihar Agricultural University. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Rajendra Mahsuri-1",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: RAJENDRA SUWASINI. Duration: 125 days (Short duration). Average grain yield: 5 t/ha. Source / developer: Bihar Agricultural University. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "RAJENDRA SUWASINI",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: RAJENDRA SWETA. Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: Bihar Agricultural University. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "RAJENDRA SWETA",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: RAJSHREE (TCA-80-4) (IET-7970). Duration: 120 days (Short duration). Average grain yield: 4.5 t/ha. Source / developer: Dr Rajendra Prasad Central Agricultural University. Suitable land / ecosystem: Medium/lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "RAJSHREE (TCA-80-4) (IET-7970)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: RANI DHAN (IET-19148). Duration: 135 days (Medium duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI/OUAT. Suitable land / ecosystem: Medium/lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "RANI DHAN (IET-19148)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: RGL-2537(SRIKAKULAM SANNALU). Duration: 125 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "RGL-2537(SRIKAKULAM SANNALU)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: RGL-2538(VASUNDHARA). Duration: 125 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "RGL-2538(VASUNDHARA)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: RNR 1446 (Satya). Duration: 125 days (Short duration). Average grain yield: 6 t/ha. Source / developer: PJTSAU, Telangana. Suitable land / ecosystem: Irrigated. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "RNR 1446 (Satya)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: RNR 15048. Duration: 115 days (Short duration). Average grain yield: 6 t/ha. Source / developer: PJTSAU, Telangana. Suitable land / ecosystem: Irrigated. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "RNR 15048",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: RNR 2458 (Krishna). Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: PJTSAU, Telangana. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "RNR 2458 (Krishna)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Sabour Harshit Dhan (IET 25342). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: Bihar Agricultural University. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Sabour Harshit Dhan (IET 25342)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Sabour Sampanna Dhan (IET 25960). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: Bihar Agricultural University. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Sabour Sampanna Dhan (IET 25960)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: SAHABHAGI DHAN. Duration: 110 days (Short duration). Average grain yield: 3.5 t/ha. Source / developer: ICAR-NRRI/IRRI. Suitable land / ecosystem: Upland/rainfed. Stress tolerance: Drought.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "SAHABHAGI DHAN",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Sampada. Duration: 140 days (Medium duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Sampada",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Samvruddhi (IET 23272) (MTU 1155). Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Samvruddhi (IET 23272) (MTU 1155)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Sarala (IET-10279). Duration: 160 days (Late Duration duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Medium/lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Sarala (IET-10279)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: SAVITRI (IET - 5897)(CR 1009). Duration: 155 days (Long duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "SAVITRI (IET - 5897)(CR 1009)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: SHATABDI (IET-4786). Duration: 115 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Medium land. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "SHATABDI (IET-4786)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: SUGANDHA. Duration: 130 days (Medium duration). Average grain yield: 4.5 t/ha. Source / developer: ICAR-NRRI/OUAT. Suitable land / ecosystem: Medium/irrigated. Stress tolerance: Aromatic.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "SUGANDHA",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: SURENDRA (IET-12815). Duration: 125 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Medium/lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "SURENDRA (IET-12815)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: SWARANA-SUB 1 (CR 2539-1) IET-20266. Duration: 145 days (Long duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI/IRRI. Suitable land / ecosystem: Lowland. Stress tolerance: Submergence.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "SWARANA-SUB 1 (CR 2539-1) IET-20266",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Swarna Samridhi Dhan(IET 24306). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: Nutrient-rich.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Swarna Samridhi Dhan(IET 24306)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Swarna Shakti Dhan. Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: Nutrient-rich.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Swarna Shakti Dhan",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Swarna Shreya. Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Swarna Shreya",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Tarangini (MTU 1156). Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Tarangini (MTU 1156)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Telengana Sona(RNR- 15048). Duration: 115 days (Short duration). Average grain yield: 6 t/ha. Source / developer: PJTSAU, Telangana. Suitable land / ecosystem: Irrigated. Stress tolerance: High zinc/nutrient-rich.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Telengana Sona(RNR- 15048)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: UDAYAGIRI (IET-12316). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: OUAT/ICAR-NRRI. Suitable land / ecosystem: Medium/lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "UDAYAGIRI (IET-12316)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: UPAHAR(OR 1234-12-1) (IET 17318) 1572(E) 20-09-2006. Duration: 150 days (Long duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "UPAHAR(OR 1234-12-1) (IET 17318) 1572(E) 20-09-2006",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: UTTAR GANGA(PUR-B-190). Duration: 125 days (Short duration). Average grain yield: 5 t/ha. Source / developer: Bihar Agricultural University. Suitable land / ecosystem: Lowland/irrigated. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "UTTAR GANGA(PUR-B-190)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Uttar Samir. Duration: 135 days (Medium duration). Average grain yield: 5.4 t/ha. Source / developer: UBKV,WB. Suitable land / ecosystem: Upland and medium land. Stress tolerance: High Lodging Resistance.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Uttar Samir",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Varam(IET 25495)(MTU 1190). Duration: 120 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: ANGRAU, Andhra Pradesh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Varam(IET 25495)(MTU 1190)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: VARSHADHAN (CRLC-899)(IET-16481). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Rainfed/medium. Stress tolerance: Drought adaptation.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "VARSHADHAN (CRLC-899)(IET-16481)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: WGL 48684 (Kavya). Duration: 125 days (Short duration). Average grain yield: 5.5 t/ha. Source / developer: PJTSAU, Telangana. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "WGL 48684 (Kavya)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: WGL-3962. Duration: 125 days (Short duration). Average grain yield: 5 t/ha. Source / developer: PJTSAU, Telangana. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "WGL-3962",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Zinco Rice MS(IET 25477(R-RHZ-LI-23). Duration: 120 days (Short duration). Average grain yield: 5 t/ha. Source / developer: IGKV, Chhattisgarh. Suitable land / ecosystem: Irrigated/medium. Stress tolerance: Zinc biofortified.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Zinco Rice MS(IET 25477(R-RHZ-LI-23)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Rajalaxmi. Duration: 135 days (Medium duration). Average grain yield: 7 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated, shallow lowland. Stress tolerance: Stem borer, BPH, WBPH, gall midge, blast, BLB; water stagnation.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Rajalaxmi",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Ajay. Duration: 135 days (Medium duration). Average grain yield: 7 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated, shallow lowland. Stress tolerance: BLB, stem borer, BPH; stagnant water/submergence.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Ajay",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: PAC 835. Duration: 150 days (Long duration). Average grain yield: 6 t/ha. Source / developer: Advanta. Suitable land / ecosystem: Boro/irrigated. Stress tolerance: Stress tolerance not specifically verified.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "PAC 835",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: PAC 837. Duration: 150 days (Long duration). Average grain yield: 6 t/ha. Source / developer: Advanta. Suitable land / ecosystem: Boro/irrigated. Stress tolerance: Blast, RTD, brown spot, GLH.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "PAC 837",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: 27P31. Duration: 130 days (Medium duration). Average grain yield: 8 t/ha. Source / developer: PHI/Pioneer Seeds. Suitable land / ecosystem: Irrigated. Stress tolerance: Blast; moderate sheath rot, RTD, WBPH.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "27P31",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: NK 16520. Duration: 130 days (Medium duration). Average grain yield: 6 t/ha. Source / developer: Syngenta. Suitable land / ecosystem: Irrigated. Stress tolerance: Stress tolerance not specifically verified.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "NK 16520",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MEPH 126.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MEPH 126",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: 28P09. Duration: 135 days (Medium duration). Average grain yield: 6 t/ha. Source / developer: PHI Seeds. Suitable land / ecosystem: Irrigated/medium land. Stress tolerance: Moderate BLB tolerance.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "28P09",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: 28P67. Duration: 135 days (Medium duration). Average grain yield: 6.5 t/ha. Source / developer: PHI Seeds. Suitable land / ecosystem: Rainfed/irrigated medium land. Stress tolerance: Water-stress tolerant.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "28P67",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: 28P41 / 28S41. Duration: 135 days (Medium duration). Average grain yield: 6.5 t/ha. Source / developer: PHI Seeds. Suitable land / ecosystem: Irrigated. Stress tolerance: Neck blast and brown spot tolerance.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "28P41 / 28S41",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: BIO 799. Duration: 140 days (Medium duration). Average grain yield: 8 t/ha. Source / developer: Bio Seeds. Suitable land / ecosystem: Irrigated/summer rice. Stress tolerance: Stress tolerance not specifically verified.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "BIO 799",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CNRH 102. Duration: 125 days (Medium duration). Average grain yield: 5 t/ha. Source / developer: Rice Research Station, Chinsurah. Suitable land / ecosystem: Rainfed/irrigated. Stress tolerance: Lodging resistant, shattering tolerant.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CNRH 102",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: 27P36. Duration: 130 days (Medium duration). Average grain yield: 3.6 t/ha. Source / developer: PHI Seeds. Suitable land / ecosystem: Irrigated/rainfed. Stress tolerance: Stress tolerance not specifically verified.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "27P36",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CRHR 32 / CR Dhan 701. Duration: 145 days (Long duration). Average grain yield: 6 t/ha. Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Shallow lowland. Stress tolerance: Waterlogging, low light; moderate RTD, BLB, GLH, blast.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CRHR 32 / CR Dhan 701",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Arize Dhani. Duration: 140 days (Long duration). Yield: High yielding; exact verified value not available. Source / developer: Bayer CropScience. Suitable land / ecosystem: Shallow lowland. Stress tolerance: BLB and BPH; partial waterlogging.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Arize Dhani",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Umuriachundi. Source / developer: Local/traditional. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Umuriachundi",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Kalajeera. Duration: 150 days (Long duration). Average grain yield: 3 t/ha. Source / developer: ICAR-NRRI / landrace selection. Suitable land / ecosystem: Shallow lowland. Stress tolerance: Blast/sheath rot tolerance; photosensitive.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Kalajeera",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Machhakanta. Duration: 165 days (Long duration). Source / developer: Traditional landrace. Suitable land / ecosystem: Lowland. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Machhakanta",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Haldichudi. Source / developer: Traditional/local. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Haldichudi",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Sapuri. Source / developer: Traditional/local. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Sapuri",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Pokia Dhan. Source / developer: Traditional/local. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Pokia Dhan",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Dangarbasumati. Source / developer: Traditional/local. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Dangarbasumati",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Pandkagura. Source / developer: Traditional/local. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Pandkagura",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Para Dhan. Source / developer: Traditional/local. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Para Dhan",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Mati Dhan. Source / developer: Traditional/local. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Mati Dhan",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Gothia. Source / developer: Traditional/local. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Gothia",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Bhudei. Source / developer: Traditional/local. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Bhudei",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Dodikaburi. Source / developer: Traditional/local. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Dodikaburi",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Swarna. Duration: 145 days (Long duration). Average grain yield: 4.5 t/ha. Source / developer: OUAT/ICAR/ANGRAU lineage. Suitable land / ecosystem: Lowland/medium land. Stress tolerance: Generally not strongly stress tolerant; parent of Swarna-Sub1.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Swarna",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Sabitri. Duration: 165 days (Long duration). Average grain yield: 4 t/ha. Source / developer: ICAR/OUAT. Suitable land / ecosystem: Lowland. Stress tolerance: Stress tolerance not specifically verified.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Sabitri",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Lunishree. Duration: 145 days (Long duration). Average grain yield: 4.5 t/ha. Source / developer: ICAR-NRRI. Suitable land / ecosystem: Coastal/rainfed lowland. Stress tolerance: Salinity tolerant, field tolerance to pests/diseases.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Lunishree",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Meher. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Meher",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Siddhanta. Stress tolerance: None reported.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Siddhanta",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 215 (Indumati). Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Coastal/aerobic. Stress tolerance: Salinity + anaerobic germination tolerance.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 215 (Indumati)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 325 (Salila). Duration: Medium days (Medium duration). Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated. Stress tolerance: Climate-resilient; major pest/disease tolerance.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 325 (Salila)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 334 (Satyadev). Duration: Medium days (Medium duration). Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated. Stress tolerance: Climate-resilient; major pest/disease tolerance.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 334 (Satyadev)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 335 (Alok). Duration: Medium days (Medium duration). Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: DSR, irrigated, rainfed shallow lowland. Stress tolerance: Major pest/disease tolerance.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 335 (Alok)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 604 (Kalpana). Duration: Medium days (Medium duration). Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Dry/Dalua season. Stress tolerance: Low-temperature tolerant at seedling stage + heat tolerant at reproductive stage.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 604 (Kalpana)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: CR Dhan 912 (Ashutosh Mehek). Duration: 95–100 days (Short duration). Source / developer: ICAR-NRRI, Cuttack. Suitable land / ecosystem: Irrigated/Boro. Stress tolerance: Pest/disease tolerance; aromatic, non-basmati.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "CR Dhan 912 (Ashutosh Mehek)",
+    "sheet": "main",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Swarna-Sub1. Duration: 140–145 days (Long duration). Average grain yield: 5.0–5.5 t/ha. Source / developer: ICAR-NRRI/IRRI. Suitable land / ecosystem: Flood-prone lowland. Stress tolerance: Complete submergence ~2 weeks.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Swarna-Sub1",
+    "sheet": "supplementary",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Puja/Pooja. Duration: ~150 days (Long duration). Average grain yield: ~5.0 t/ha. Source / developer: ICAR-NRRI. Suitable land / ecosystem: Shallow lowland. Stress tolerance: BLB tolerance.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Puja/Pooja",
+    "sheet": "supplementary",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Sarala. Duration: ~160 days (Long duration). Average grain yield: ~4.0 t/ha. Source / developer: ICAR-NRRI. Suitable land / ecosystem: Semi-deep/coastal lowland. Stress tolerance: Submergence/waterlogging tolerant.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Sarala",
+    "sheet": "supplementary",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: MTU-1010. Duration: 120–125 days (Short duration). Average grain yield: 5.5–6.5 t/ha. Source / developer: ANGRAU/AP Rice Research Station. Suitable land / ecosystem: Irrigated/medium land. Stress tolerance: BPH tolerance.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "MTU-1010",
+    "sheet": "supplementary",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Lalat. Duration: ~120–135 days (Medium duration). Average grain yield: ~4.5 t/ha. Source / developer: ICAR-NRRI/OUAT. Suitable land / ecosystem: Irrigated/medium land. Stress tolerance: No major specific stress tolerance.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Lalat",
+    "sheet": "supplementary",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha & India paddy variety database. Paddy variety: Pratikshya. Duration: ~140 days (Long duration). Average grain yield: ~3.9–4.2 t/ha. Source / developer: ICAR-NRRI/OUAT. Suitable land / ecosystem: Rainfed lowland. Stress tolerance: Suitable for rainfed conditions.",
+   "metadata": {
+    "content_type": "variety",
+    "variety": "Pratikshya",
+    "sheet": "supplementary",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha paddy varieties classified as local / traditional: Umuriachundi, Kalajeera, Machhakanta, Haldichudi, Sapuri, Pokia Dhan, Dangarbasumati, Pandkagura, Para Dhan, Mati Dhan, Gothia, Bhudei, Dodikaburi.",
+   "metadata": {
+    "content_type": "variety_list",
+    "category": "local / traditional",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Odisha paddy varieties classified as high-yielding / improved: Swarna, Swarna-Sub1, Puja, Sabitri, Lunishree, Sarala, MTU-1010, IR-64, Lalat, Pratikshya, Meher, Siddhanta, CR Dhan 701, CR Dhan 215 (Indumati), CR Dhan 325 (Salila), CR Dhan 334 (Satyadev), CR Dhan 335 (Alok), CR Dhan 604 (Kalpana), CR Dhan 912 (Ashutosh Mehek).",
+   "metadata": {
+    "content_type": "variety_list",
+    "category": "high-yielding / improved",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Notes on the Odisha paddy variety dataset. : Not reliably verified from the supplied workbook/public reference material; confirm before official publication. Yield: Values are indicative grain yield (t/ha) and should be checked against the official release notification/local recommendation before use in a formal report. Stress Tolerant: Only documented or clearly indicated traits were entered; 'None reported' does not mean the variety has no stress response. Source: Institutional source/developer attribution has been populated where reasonably identifiable from the variety name/release literature.",
+   "metadata": {
+    "content_type": "text",
+    "section": "dataset notes",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  }
+ ]
+}

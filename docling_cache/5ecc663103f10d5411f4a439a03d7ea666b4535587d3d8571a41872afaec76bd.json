@@ -1,0 +1,70 @@
+{
+ "source": "sulphur-deficiency-english.pdf",
+ "sha256": "5ecc663103f10d5411f4a439a03d7ea666b4535587d3d8571a41872afaec76bd",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:53:27",
+ "chunk_count": 5,
+ "chunks": [
+  {
+   "text": "What it does\nSulfur (S) deficiency affects chlorophyll production, protein synthesis, and plant function and structure.\nIt can lead to delayed plant development and maturity. If deficiency occurs at vegetative stage, it can affect yield.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "sulphur-deficiency-english.pdf",
+    "page": 1,
+    "section": "What it does"
+   }
+  },
+  {
+   "text": "Why and Where it occurs\nS deficiency is not particularly common in irrigated rice.\nIt occurs in soils containing allophane, soils with low organic matter status, highly weathered soils containing large amounts of Fe oxides, and sandy soils.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "sulphur-deficiency-english.pdf",
+    "page": 1,
+    "section": "Why and Where it occurs"
+   }
+  },
+  {
+   "text": "How to identify\nCheck the field for the following symptoms:\n- Yellowing or pale green color of the whole plant\n- Young leaves are chlorotic or light green colored with the tips becoming necrotic\n- Lower leaves does not show necrosis\n- Leaves are paler yellow\nOther symptoms and effects on growth include the following:\n- Reduced plant height and stunted growth (but plants are not as dark-colored as in P or K deficiency)\n- Reduced number of tillers, fewer and shorter panicles, reduced number of spikelets per panicle\n- Delayed plant development and maturity by 1 -2 weeks\n- Yellowish seedlings in nursery beds with retarded growth\n- High seedling mortality after transplanting\nS-deficient rice plants have less resistance to adverse conditions (e.g., cold).\nS deficiency have the same foliar symptoms as N deficiency. To confirm cause of problem, send soil and plant sample to laboratory for testing.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "sulphur-deficiency-english.pdf",
+    "page": 1,
+    "section": "How to identify"
+   }
+  },
+  {
+   "text": "How to manage\nThere is currently no practical field management options for Sulfur (S) deficiency. Where possible,\n- Apply S to the seedbed (rice nursery) by using S-containing fertilizers.\n- Incorporate straw during field preparation instead of completely removing or burning it.\n- Improve soil management to enhance S uptake by maintaining sufficient percolation (~5mm per day) or by carrying out dry tillage after harvesting.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "sulphur-deficiency-english.pdf",
+    "page": 1,
+    "section": "How to manage"
+   }
+  },
+  {
+   "text": "Learn more\nVisit Rice Based Cropping Systems Knowledge Bank www.rkbodisha.in\nwww.rkbodisha.in\nS-deficient plants are stunted with reduced tillering compared to normal plants",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "sulphur-deficiency-english.pdf",
+    "page": 1,
+    "section": "Learn more"
+   }
+  }
+ ]
+}

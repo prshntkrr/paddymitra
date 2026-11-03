@@ -1,0 +1,58 @@
+{
+ "source": "essential-nutrients-for-rice-english.pdf",
+ "sha256": "678f3aa293d32320270e2a0627798a1d28b4bab63ec5766dca10be8a8ac8e00e",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:47:26",
+ "chunk_count": 4,
+ "chunks": [
+  {
+   "text": "Introduction\nThere are 16 essential elements needed for rice production. These may be supplied by the soil or added in the form of chemical or organic fertilizer. If any of these nutrients are in short supply the plant will not reach its yield potential.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "essential-nutrients-for-rice-english.pdf",
+    "page": 1,
+    "section": "Introduction"
+   }
+  },
+  {
+   "text": "Essential Nutrients\nThere are 16 essential elements for rice. The macro elements are carbon, hydrogen, oxygen, nitrogen, phosphorus, potassium, calcium, magnesium, and sulfur. All of these are needed by plants in large amounts, often more than 0.1 % of plant's dry weight.\nThe microelements are iron, manganese, copper, zinc, molybdenum, boron, and chlorine. These are needed by plants in lesser quantities and are often referred to as trace amounts. Silicon is also classified as a 'beneficial' nutrient for rice but its physiological functions are not yet clear.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "essential-nutrients-for-rice-english.pdf",
+    "page": 1,
+    "section": "Essential Nutrients"
+   }
+  },
+  {
+   "text": "Essential Nutrients\nNitrogen (N), Macro nutrients.Importance = Promotes rapid plant growth and improves grain yield and grain quality, through higher tillering, leaf area development, grain formation, grain filling, and protein synthesis. Nitrogen (N), Macro nutrients.Source = Inorganic fertilizers like Urea, Diammonium phosphate (DAP). Nitrogen (N), Macro nutrients.Deficiency = Stunted yellowish plants with limited number of tillers. Phosphorus (P), Macro nutrients.Importance = Major role in the formation of plant hormones and maintenance of membrane integrity, root development and promoting rapid growth of the plant especially during active tillering, early flowering, and it also hastens ripening and grain development.. Phosphorus (P), Macro nutrients.Source = Inorganic fertilizers like DAP, SSP. Phosphorus (P), Macro nutrients.Deficiency = Stunted dark green plants with limited number of tillers. Potassium (K), Macro nutrients.Importance = Improves root growth and plant vigor, helps prevent lodging and enhances crop resistance to pests and diseases. Potassium (K), Macro nutrients.Source = Inorganic fertilizers like Murate of Potash (MoP). Potassium (K), Macro nutrients.Deficiency = Yellowish brown margin or dark brown necrotic (dead) spots on older leaf tips.. Zinc (Zn), Macro nutrients.Importance = Deficiencies affect plant color and turgor. Zinc (Zn), Macro nutrients.Source = Inorganic fertilizers like Zinc sulfate. Zinc (Zn), Macro nutrients.Deficiency = Dusty brown spots on upper leaves of stunted plants appearing 2-4 weeks after transplanting. Sulfur (S), Macro nutrients.Importance = Essential component of plant structures and metabolism. Sulfur (S), Macro nutrients.Source = Inorganic fertilizers like Ammonium sulfate and gypsum. Sulfur (S), Macro nutrients.Deficiency = Yellowing of the whole plant with chlorosis being more pronounced in young leaves possibly with necrosis of the tips.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "essential-nutrients-for-rice-english.pdf",
+    "page": 1,
+    "section": "Essential Nutrients"
+   }
+  },
+  {
+   "text": "Micro nutrients\nIron (Fe), Importance = Essential plant nutrient required for electron transport in photosynthesis. Iron (Fe), Deficiency = Intervenial yellowing and chlorotic leaves that turn whitish and ultimately dead plants. Calcium (Ca), Importance = Helps promote normal root growth and development. Calcium (Ca), Deficiency = Leaves become white, rolled and curled. Magnesium (Mg), Importance = Constituent of chlorophyll involved in CO 2 assimilation and protein synthesis and also activates several essential enzymes. Magnesium (Mg), Deficiency = Pale-colored plants, with interveinal chlorosis first appearing on older leaves and later on the younger leaves as deficiency becomes more severe. Manganese (Mn), Importance = Enables the formation and stability of chloroplast, protein synthesis, nitrate reduction, and tricarboxylic cycle and helps reduce iron toxicity. Manganese (Mn), Deficiency = Interveinal chlorosis which begins at the tip of the younger leaves. Boron (B), Importance = Plays a primary role in cell wall biosynthesis and structure as well as plasma membrane integrity. Boron (B), Deficiency = Reduced plant height, reduced or arrested panicle formation. Molybdenum (Mo), Importance = Primary role is reduction of nitrate to nitrite. Molybdenum (Mo), Deficiency = Resembles N deficiency and necrotic spots at leaf margin. Copper (Cu), Importance = Plays a role in nitrogen, protein and hormone metabolism, photosynthesis, respiration, and pollen formation and fertilization. Copper (Cu), Deficiency = Blueish green leaves, which become chlorotic near the tip. Chlorine (Cl), Importance = Essential in photosynthesis. Chlorine (Cl), Deficiency = -\nIncreasing Productivity of Rice Based Cropping Systems and Farmers' Income in Odisha\nwww.rkbodisha.in",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "essential-nutrients-for-rice-english.pdf",
+    "page": 1,
+    "section": "Micro nutrients"
+   }
+  }
+ ]
+}

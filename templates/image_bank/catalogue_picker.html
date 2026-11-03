@@ -1,0 +1,48 @@
+{% extends 'base.html' %}{% load irri_extras %}
+{% block page_title %}Image Bank — pick a catalogue{% endblock %}
+{% block topbar_actions %}
+  {% if user|role_has:"Administrator" %}
+    <form method="post" action="{% url 'image_bank:purge_all' %}" style="display:inline;">
+      {% csrf_token %}
+      <button class="btn btn-sm btn-danger" onclick="return confirm('Wipe ALL image vectors across every catalogue and re-embed only the images currently in the DB? Use this if stale/deleted images are still influencing answers.');">
+        Purge ALL image vectors
+      </button>
+    </form>
+  {% endif %}
+{% endblock %}
+{% block content %}
+<div class="card">
+  <div class="card-header"><h3>Image Bank</h3></div>
+  <div class="card-body">
+    <p style="color:var(--gray-500);">
+      Visual knowledge is organised <strong>per catalogue</strong>. Pick a catalogue to view its
+      visual groups, add new groups (sidecar <code>.txt</code> + images), or extend an existing group.
+    </p>
+    <div style="display:flex;gap:16px;font-size:13px;color:var(--gray-500);margin-bottom:14px;">
+      <div><strong>{{ total_images }}</strong> images</div>
+      <div>·</div>
+      <div><strong>{{ total_groups }}</strong> visual groups</div>
+      <div>·</div>
+      <div><strong>{{ vector_count }}</strong> CLIP vectors</div>
+    </div>
+    {% if catalogues %}
+    <table class="data-table">
+      <thead><tr><th>Catalogue</th><th>Slug</th><th>Visual groups</th><th>Images</th><th></th></tr></thead>
+      <tbody>
+        {% for c in catalogues %}
+        <tr>
+          <td><strong>{{ c.name }}</strong></td>
+          <td style="font-family:monospace;font-size:12px;">{{ c.slug }}</td>
+          <td>{{ c.n_groups }}</td>
+          <td>{{ c.n_images }}</td>
+          <td><a href="{% url 'image_bank:groups' c.slug %}" class="btn btn-xs btn-primary">Open</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p style="color:var(--gray-500);">No catalogues yet. Create one under <a href="{% url 'catalogues:list' %}">Catalogues</a> first.</p>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

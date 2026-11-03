@@ -1,0 +1,31 @@
+{% load static %}{% load irri_extras %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}IRRI AI — PaddyMitra{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <link rel="stylesheet" href="{% static 'css/polish.css' %}">
+  {% block extra_head %}{% endblock %}
+</head>
+<body>
+  {% include 'partials/icons.html' %}
+  {% if user.is_authenticated %}
+    {% include 'partials/sidebar.html' %}
+    <header class="topbar">
+      <h1>{% block page_title %}Dashboard{% endblock %}</h1>
+      <div class="topbar-actions">{% block topbar_actions %}{% endblock %}</div>
+    </header>
+    <main class="main-content">
+      {% include 'partials/messages.html' %}
+      {% block content %}{% endblock %}
+    </main>
+  {% else %}
+    {% block anon_content %}{% endblock %}
+  {% endif %}
+
+  <script src="{% static 'js/app.js' %}"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

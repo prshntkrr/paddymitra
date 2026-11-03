@@ -1,0 +1,76 @@
+{
+ "source": "Nua-Kalajeera.pdf",
+ "sha256": "11ab26d13e93e85628376ae3be8a75a5feec873919f56e6e475f398db7d6c59f",
+ "ocr": false,
+ "table_mode": "clean_rendering",
+ "origin": "clean_rendering",
+ "built_at": "2026-10-31T23:49:30",
+ "chunk_count": 5,
+ "chunks": [
+  {
+   "text": "Nua Kalajeera (IET 18393 - Pure line selection of Kalajeera) - rice variety factsheet.\nProduct profile: Nua Kalajeera, characterized by its strong aroma and short bold grains, was developed in 2008 through pure line selection from the local Kalajeera variety, in a joint effort by OUAT and NRRI. This tall, late-maturing variety features a distinct black husk color and boasts high iron and zinc content, contributing to its nutritional value. Notably, Nua Kalajeera offers a longer shelf life and has been recognized by APEDA as one of the most popular landraces for commercialized export. It is popular for pudding and used for festivals and other special occasions by the tribals. Moreover, Nua Kalajeera performs exceptionally well under organic nutrient management practices.\nPriority market segment: TLaS-R.\nPlanting method and ecosystem suitability (PTR = puddled transplanted rice, DSR = direct seeded rice): PTR: Recommended; DSR: Not Recommended; Irrigated Lowland: Not Recommended; Rainfed Lowland: Recommended; Upland: Not Recommended.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "source_file": "Nua-Kalajeera.pdf",
+    "variety": "Nua Kalajeera",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Nua Kalajeera - key strengths, considerations and positioning.\nKey strengths: Good aroma; Longer shelf life; High HRR; Profuse tillering; tolerant to lodging; Moderately resistant to sheath rot, sheath blight, and blast; Long and dense panicle.\nConsiderations: Low yield; Tall plant; Low grain weight; Photosensitive.\nPositioning (variety replaced / companion, by ecosystem): Replace - Irrigated Lowland: None; Rainfed Lowland: Kalajeera; Upland: None.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "source_file": "Nua-Kalajeera.pdf",
+    "variety": "Nua Kalajeera",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Nua Kalajeera - grain yield, agronomic traits and grain shape (HRR = head rice recovery; grain shape SB = short bold, MS = medium slender, SM = short medium, LB = long bold, MB = medium bold).\nNua Kalajeera -> Grain yield (kg/ha): 2500-3000; Maturity (days): 145-150; Plant height (cm): 135-140; Lodging: Tolerant; HRR %: 62; 1000-grain wt (g): 15; Grain shape: SB.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "source_file": "Nua-Kalajeera.pdf",
+    "variety": "Nua Kalajeera",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Nua Kalajeera - biotic and abiotic stress reaction (disease and pest tolerance; BPH = brown plant hopper, RTV = rice tungro virus).\nNua Kalajeera -> Leaf blast: Tolerant; Leaf blight: Tolerant; Sheath blight: Tolerant; Sheath rot: Tolerant; Yellow stem borer: Tolerant; Gall midge: Tolerant.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "source_file": "Nua-Kalajeera.pdf",
+    "variety": "Nua Kalajeera",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Nua Kalajeera - producibility and recommendation.\nProducibility: Nua Kalajeera = 1100 Kgs./acre.\nRecommendation: Released for cultivation in Odisha.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "source_file": "Nua-Kalajeera.pdf",
+    "variety": "Nua Kalajeera",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  }
+ ]
+}

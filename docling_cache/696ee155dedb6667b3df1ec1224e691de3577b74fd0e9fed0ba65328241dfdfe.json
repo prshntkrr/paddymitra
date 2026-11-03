@@ -1,0 +1,34 @@
+{
+ "source": "CR-Dhan-203.pdf",
+ "sha256": "696ee155dedb6667b3df1ec1224e691de3577b74fd0e9fed0ba65328241dfdfe",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:29:59",
+ "chunk_count": 2,
+ "chunks": [
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nCR Dhan 203, Grain yield.(Kg/ha) = 3700-4200. CR Dhan 203, Grain yield.% Adv = 5. CR Dhan 203, Maturity (days). = 110-115. CR Dhan 203, Plant height (cm). = 105-110. CR Dhan 203, Lodging. = Tolerant. CR Dhan 203, 1000 grain weight (g). = 24. CR Dhan 203, HRR %. = 64. CR Dhan 203, Grain Shape. = LS. Naveen, Grain yield.(Kg/ha) = 3500-4000. Naveen, Grain yield.% Adv = . Naveen, Maturity (days). = 115-120. Naveen, Plant height (cm). = 100-105. Naveen, Lodging. = Tolerant. Naveen, 1000 grain weight (g). = 24. Naveen, HRR %. = 63. Naveen, Grain Shape. = MB",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-203.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nCR Dhan 203, Leaf blast = Tolerant. CR Dhan 203, Brown spot = Tolerant. CR Dhan 203, Sheath blight = Tolerant. CR Dhan 203, Leaf folder = Tolerant. CR Dhan 203, Gall midge = Tolerant. CR Dhan 203, Drought = Tolerant. Naveen, Leaf blast = Tolerant. Naveen, Brown spot = Tolerant. Naveen, Sheath blight = Registant. Naveen, Leaf folder = Tolerant. Naveen, Gall midge = Tolerant. Naveen, Drought = Tolerant\nProducibility: CR Dhan 203:= 1620Kgs. / acre\nRecommendation:\nSuitable for water limiting areas (favourable upland) of Odisha.\nhttps://krishi.icar.gov.in/jspui/bitstream/123456789/32077/1/2.pdf",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-203.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  }
+ ]
+}

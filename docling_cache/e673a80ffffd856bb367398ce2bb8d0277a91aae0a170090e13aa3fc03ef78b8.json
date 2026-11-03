@@ -1,0 +1,109 @@
+{
+ "source": "Rice-Fertilizer-Manure-Dose-Quick-Reference.md",
+ "sha256": "e673a80ffffd856bb367398ce2bb8d0277a91aae0a170090e13aa3fc03ef78b8",
+ "origin": "focused_dose",
+ "built_at": "2026-11-01T09:35:48",
+ "chunk_count": 10,
+ "chunks": [
+  {
+   "text": "How much farmyard manure (FYM) or organic manure to apply in rice: apply about 10-12 cartloads of well-decomposed farmyard manure (FYM) or compost per hectare - roughly 4-5 cartloads per acre - along with the chemical fertilizers, or grow a green-manure crop (1 hectare is about 2.47 acres).",
+   "metadata": {
+    "content_type": "dose",
+    "input": "farmyard_manure",
+    "origin": "focused_dose",
+    "summary": true,
+    "source_file": "Rice-Fertilizer-Manure-Dose-Quick-Reference.md"
+   }
+  },
+  {
+   "text": "Recommended NPK fertilizer dose for transplanted rice on medium-fertility soil: about 80:40:40 kg/ha of N:P:K - roughly 32:16:16 kg per acre. Apply all phosphorus and potash plus 25% of the nitrogen as basal at transplanting, then the remaining nitrogen in splits (about 50% at tillering and 25% at panicle initiation), using Urea, DAP/SSP and MOP.",
+   "metadata": {
+    "content_type": "dose",
+    "input": "npk_basal",
+    "origin": "focused_dose",
+    "summary": true,
+    "source_file": "Rice-Fertilizer-Manure-Dose-Quick-Reference.md"
+   }
+  },
+  {
+   "text": "How much nitrogen (urea) for rice: a rice crop needs about 80 kg N per hectare (about 32 kg N per acre) on medium-fertility soil. Rule of thumb: about 20 kg N per hectare for every 1 tonne of target yield, so a 5 t/ha crop needs about 90-100 kg N/ha. Apply 25% as basal, about 50% at tillering and about 25% at panicle initiation.",
+   "metadata": {
+    "content_type": "dose",
+    "input": "nitrogen",
+    "origin": "focused_dose",
+    "summary": true,
+    "source_file": "Rice-Fertilizer-Manure-Dose-Quick-Reference.md"
+   }
+  },
+  {
+   "text": "How much potash (MOP, Muriate of Potash) at panicle stage: apply about 12-16 kg of MOP per acre - roughly 20-25 kg per hectare - at panicle initiation, usually together with urea, to support grain filling and disease resistance.",
+   "metadata": {
+    "content_type": "dose",
+    "input": "potash_panicle",
+    "origin": "focused_dose",
+    "summary": true,
+    "source_file": "Rice-Fertilizer-Manure-Dose-Quick-Reference.md"
+   }
+  },
+  {
+   "text": "How much zinc sulphate for rice: apply zinc sulphate at about 25 kg per hectare - roughly 5-10 kg per acre - as a basal dose or within 10-15 days after transplanting, on zinc-deficient soils (bronzing of leaves, stunted plants).",
+   "metadata": {
+    "content_type": "dose",
+    "input": "zinc",
+    "origin": "focused_dose",
+    "summary": true,
+    "source_file": "Rice-Fertilizer-Manure-Dose-Quick-Reference.md"
+   }
+  },
+  {
+   "text": "How much boron / Borax for rice: if boron deficiency is seen, apply Borax at about 1-2 kg per hectare (about 0.5-0.8 kg per acre) to the soil; or spray Borax as a 0.3% foliar solution (about 1-1.5 g per litre of water) before flowering, for pollen formation and grain filling.",
+   "metadata": {
+    "content_type": "dose",
+    "input": "boron",
+    "origin": "focused_dose",
+    "summary": true,
+    "source_file": "Rice-Fertilizer-Manure-Dose-Quick-Reference.md"
+   }
+  },
+  {
+   "text": "How much phosphorus (SSP) for rice: a rice crop needs about 40 kg P per hectare (about 16 kg per acre). Single Super Phosphate (SSP) is applied as basal at land preparation, about 40-60 kg P2O5 per hectare depending on soil phosphorus.",
+   "metadata": {
+    "content_type": "dose",
+    "input": "phosphorus",
+    "origin": "focused_dose",
+    "summary": true,
+    "source_file": "Rice-Fertilizer-Manure-Dose-Quick-Reference.md"
+   }
+  },
+  {
+   "text": "Seed rate of Dhaincha (Sesbania aculeata) green manure: 20 kg per acre (50 kg per hectare). Sow 30-45 days before transplanting paddy and plough it in at flowering to add nitrogen and organic matter.",
+   "metadata": {
+    "content_type": "dose",
+    "input": "dhaincha",
+    "origin": "focused_dose",
+    "summary": true,
+    "source_file": "Rice-Fertilizer-Manure-Dose-Quick-Reference.md"
+   }
+  },
+  {
+   "text": "How much Azolla for rice: apply about 4 quintals of Azolla per acre (about 2 tonnes per hectare) in 4-6 inches of standing water 2-3 weeks before transplanting; it fixes roughly 25-30 kg N per hectare and can raise yield by 25-30%.",
+   "metadata": {
+    "content_type": "dose",
+    "input": "azolla",
+    "origin": "focused_dose",
+    "summary": true,
+    "source_file": "Rice-Fertilizer-Manure-Dose-Quick-Reference.md"
+   }
+  },
+  {
+   "text": "Fertilizer dose for a rice nursery bed: apply about 2 quintals of well-rotted FYM, 10 kg DAP, 2 kg MOP and 8 kg zinc sulphate (ZnSO4) per nursery; seedlings are ready to transplant in about 20-25 days.",
+   "metadata": {
+    "content_type": "dose",
+    "input": "nursery_bed",
+    "origin": "focused_dose",
+    "summary": true,
+    "source_file": "Rice-Fertilizer-Manure-Dose-Quick-Reference.md"
+   }
+  }
+ ]
+}

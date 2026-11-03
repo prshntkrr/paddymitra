@@ -1,0 +1,256 @@
+{% extends 'base.html' %}
+{% block page_title %}Query Testing{% endblock %}
+{% block topbar_actions %}
+  <a href="{% url 'queries:chat' %}" class="btn btn-sm btn-secondary">Chat (saves)</a>
+  <a href="{% url 'queries:list' %}" class="btn btn-sm btn-secondary">Queries</a>
+{% endblock %}
+{% block content %}
+<style>
+  .qt-wrap { max-width: 1040px; }
+  .qt-note { color:var(--gray-500); font-size:13px; max-width:74ch; }
+  .qt-bar { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin:12px 0; }
+  .qt-bar select { padding:8px 10px; border:1px solid var(--gray-300); border-radius:8px; }
+  #qt-text { width:100%; min-height:110px; padding:12px; border:1px solid var(--gray-300);
+             border-radius:var(--radius-md); font:inherit; line-height:1.6; resize:vertical; }
+  .qt-box { border:1px solid var(--gray-200); border-radius:var(--radius-md);
+            background:#fff; margin-bottom:14px; }
+  .qt-box h4 { margin:0; padding:9px 12px; font-size:12px; text-transform:uppercase;
+               letter-spacing:.06em; color:var(--gray-500);
+               border-bottom:1px solid var(--gray-200); }
+  .qt-box .body { padding:12px; line-height:1.65; }
+  .qt-answer { white-space:pre-wrap; font-size:15px; }
+  .qt-src { padding:8px 0; border-bottom:1px dashed var(--gray-200); font-size:13px; }
+  .qt-src:last-child { border-bottom:0; }
+  .qt-src .t { font-weight:600; color:var(--gray-800); }
+  .qt-src .m { color:var(--gray-500); font-size:12px; }
+  .qt-src .p { color:var(--gray-600); font-size:12.5px; margin-top:4px; white-space:pre-wrap; }
+  .qt-kv { display:grid; grid-template-columns:170px 1fr; gap:4px 12px; font-size:13px; }
+  .qt-kv dt { color:var(--gray-500); }
+  .qt-kv dd { margin:0; color:var(--gray-800); word-break:break-word; }
+  .qt-pill { display:inline-block; background:var(--gray-100); border:1px solid var(--gray-300);
+             border-radius:999px; padding:1px 9px; margin:2px 4px 2px 0; font-size:12.5px; }
+  .qt-ok { background:#DCFCE7; border-color:#86EFAC; }
+  .qt-no { background:#FEE2E2; border-color:#FCA5A5; }
+  .qt-err { color:#b91c1c; }
+  .qt-json { margin:0; padding:10px; background:#0F172A; color:#E2E8F0; border-radius:8px;
+             font-family:ui-monospace,Consolas,monospace; font-size:12px; line-height:1.5;
+             max-height:420px; overflow:auto; white-space:pre-wrap; }
+  .qt-hide { display:none; }
+</style>
+
+<div class="qt-wrap">
+  <h3 style="margin-bottom:4px;">Paddy Mitra Query Testing</h3>
+  <p class="qt-note">
+    Runs the <strong>same</strong> pipeline a farmer's question runs — retrieval, intent
+    detection, candidate filtering and answer generation — and saves
+    <strong>nothing</strong>. No query, no chat entry, no feedback, no audio, no WhatsApp
+    message. Voice output is off, so a test can never leave a file behind.
+  </p>
+
+  <div class="qt-bar">
+    <select id="qt-catalogue">
+      {% for c in catalogues %}<option value="{{ c.pk }}">{{ c.name }}</option>{% endfor %}
+    </select>
+    <select id="qt-language">
+      {% for l in languages %}<option value="{{ l }}">{{ l }}</option>{% endfor %}
+    </select>
+    <select id="qt-user-type">
+      <option value="farmer">farmer</option>
+      <option value="researcher">researcher</option>
+    </select>
+  </div>
+
+  <textarea id="qt-text" placeholder="Which medium-duration rice variety is good to plant in my land?"></textarea>
+
+  <div class="qt-bar">
+    <button type="button" class="btn btn-success" id="qt-go">Run Test</button>
+    <span id="qt-status" class="qt-note"></span>
+  </div>
+
+  <div id="qt-error" class="qt-box qt-hide">
+    <h4>Error</h4>
+    <div class="body qt-err" id="qt-error-body"></div>
+  </div>
+
+  <div id="qt-results" class="qt-hide">
+    <div class="qt-box">
+      <h4>Answer</h4>
+      <div class="body qt-answer" id="qt-answer"></div>
+    </div>
+
+    <div class="qt-box" id="qt-local-box">
+      <h4>Answer (farmer's language)</h4>
+      <div class="body qt-answer" id="qt-answer-local"></div>
+    </div>
+
+    <div class="qt-box">
+      <h4>Sources <span id="qt-src-count" class="qt-note"></span></h4>
+      <div class="body" id="qt-sources"></div>
+    </div>
+
+    <div class="qt-box">
+      <h4>Debug — intent</h4>
+      <div class="body"><dl class="qt-kv" id="qt-intent"></dl></div>
+    </div>
+
+    <div class="qt-box">
+      <h4>Debug — candidates</h4>
+      <div class="body" id="qt-candidates"></div>
+    </div>
+
+    <div class="qt-box">
+      <h4>Debug — pipeline trace</h4>
+      <div class="body"><pre class="qt-json" id="qt-trace"></pre></div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var runUrl = '{% url "queries:test_query_run" %}';
+  var btn = document.getElementById('qt-go');
+  var status = document.getElementById('qt-status');
+
+  function csrf() {
+    var m = document.cookie.match(/csrftoken=([^;]+)/);
+    return m ? m[1] : '';
+  }
+  function show(id, on) { document.getElementById(id).classList.toggle('qt-hide', !on); }
+  function text(id, value) { document.getElementById(id).textContent = value || ''; }
+
+  function row(dl, label, value) {
+    var dt = document.createElement('dt'); dt.textContent = label;
+    var dd = document.createElement('dd'); dd.textContent = value;
+    dl.appendChild(dt); dl.appendChild(dd);
+  }
+
+  function renderIntent(intent) {
+    var dl = document.getElementById('qt-intent');
+    dl.innerHTML = '';
+    if (!intent || !Object.keys(intent).length) {
+      row(dl, 'intent', 'none detected — answered as an ordinary question');
+      return;
+    }
+    row(dl, 'entity', intent.entity || '—');
+    row(dl, 'quantity', intent.quantity || '—');
+    row(dl, 'attributes', JSON.stringify(intent.attributes || {}));
+    row(dl, 'land type', intent.land_type || '(none given)');
+    row(dl, 'land type missing', String(!!intent.land_type_missing));
+    row(dl, 'condition terms', (intent.condition_terms || []).join(', ') || '—');
+    row(dl, 'retrieval variants', (intent.retrieval_variants || []).join('  |  ') || '—');
+  }
+
+  function renderCandidates(candidates) {
+    var box = document.getElementById('qt-candidates');
+    box.innerHTML = '';
+    if (!candidates || (!candidates.accepted && !candidates.rejected)) {
+      box.textContent = 'No candidate extraction ran for this question.';
+      return;
+    }
+    var accepted = candidates.accepted || [];
+    var rejected = candidates.rejected || [];
+
+    var a = document.createElement('div');
+    a.innerHTML = '<strong>Accepted (' + accepted.length + ')</strong><br>';
+    accepted.forEach(function (c) {
+      var pill = document.createElement('span');
+      pill.className = 'qt-pill qt-ok';
+      pill.textContent = c.name + '  ·  ' + JSON.stringify(c.conditions || {});
+      pill.title = c.evidence || '';
+      a.appendChild(pill);
+    });
+    if (!accepted.length) { a.appendChild(document.createTextNode('none')); }
+    box.appendChild(a);
+
+    var r = document.createElement('div');
+    r.style.marginTop = '10px';
+    r.innerHTML = '<strong>Rejected (' + rejected.length + ')</strong>';
+    rejected.forEach(function (item) {
+      var line = document.createElement('div');
+      line.className = 'qt-src';
+      line.innerHTML = '<span class="t">' + (item.reason || '') + '</span>' +
+                       '<div class="p"></div>';
+      line.querySelector('.p').textContent = item.line || '';
+      r.appendChild(line);
+    });
+    if (!rejected.length) { r.appendChild(document.createTextNode(' — none')); }
+    box.appendChild(r);
+  }
+
+  function renderSources(sources) {
+    var box = document.getElementById('qt-sources');
+    box.innerHTML = '';
+    text('qt-src-count', sources.length ? '(' + sources.length + ')' : '(none)');
+    sources.forEach(function (s) {
+      var d = document.createElement('div');
+      d.className = 'qt-src';
+      var title = document.createElement('div');
+      title.className = 't';
+      title.textContent = (s.rank ? s.rank + '. ' : '') + s.document_title;
+      var meta = document.createElement('div');
+      meta.className = 'm';
+      var bits = [];
+      if (s.document_id != null) bits.push('doc ' + s.document_id);
+      if (s.chunk_index != null) bits.push('chunk ' + s.chunk_index);
+      if (s.score != null) bits.push('score ' + s.score);
+      if (s.distance != null) bits.push('distance ' + s.distance);
+      meta.textContent = bits.join('  ·  ');
+      var prev = document.createElement('div');
+      prev.className = 'p';
+      prev.textContent = s.preview || '';
+      d.appendChild(title); d.appendChild(meta); d.appendChild(prev);
+      box.appendChild(d);
+    });
+  }
+
+  btn.addEventListener('click', async function () {
+    var question = document.getElementById('qt-text').value.trim();
+    if (!question) { status.textContent = 'Enter a question first.'; return; }
+
+    btn.disabled = true;
+    status.textContent = 'Running the pipeline — retrieval, generation, translation…';
+    show('qt-error', false);
+    show('qt-results', false);
+
+    var fd = new FormData();
+    fd.append('query_text', question);
+    fd.append('catalogue', document.getElementById('qt-catalogue').value);
+    fd.append('farmer_language', document.getElementById('qt-language').value);
+    fd.append('user_type', document.getElementById('qt-user-type').value);
+
+    try {
+      var response = await fetch(runUrl, {
+        method: 'POST',
+        headers: { 'X-CSRFToken': csrf() },
+        body: fd,
+        credentials: 'same-origin'
+      });
+      var data = await response.json();
+      if (!data.ok) {
+        text('qt-error-body', data.error || 'The test could not be run.');
+        show('qt-error', true);
+        status.textContent = 'Failed. Nothing was saved.';
+        return;
+      }
+      text('qt-answer', data.answer || '(no answer produced)');
+      var hasLocal = data.answer_local && data.answer_local !== data.answer;
+      text('qt-answer-local', data.answer_local || '');
+      show('qt-local-box', !!hasLocal);
+      renderSources(data.sources || []);
+      renderIntent(data.intent);
+      renderCandidates(data.candidates);
+      text('qt-trace', JSON.stringify(data.trace || {}, null, 2));
+      show('qt-results', true);
+      status.textContent = 'Done in ' + (data.response_time_seconds || 0) +
+                           's · nothing was saved.';
+    } catch (err) {
+      text('qt-error-body', 'Request failed. Check the server log.');
+      show('qt-error', true);
+      status.textContent = '';
+    } finally {
+      btn.disabled = false;
+    }
+  });
+})();
+</script>
+{% endblock %}

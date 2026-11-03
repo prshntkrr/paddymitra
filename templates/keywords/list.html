@@ -1,0 +1,54 @@
+{% extends 'base.html' %}{% load irri_extras %}
+{% block page_title %}Keywords{% endblock %}
+{% block topbar_actions %}
+  {% if user|role_has:"Administrator,Editor" %}<a href="{% url 'keywords:create' %}" class="btn btn-primary btn-sm">{% icon "plus" 14 %} Add Keyword</a>{% endif %}
+{% endblock %}
+{% block content %}
+<div class="stats-grid fade-in">
+  <div class="stat-card"><div class="stat-icon green">{% icon "tag" 22 %}</div><div class="stat-value">{{ total }}</div><div class="stat-label">Total Keywords</div></div>
+  <div class="stat-card"><div class="stat-icon blue">{% icon "check" 22 %}</div><div class="stat-value">{{ published }}</div><div class="stat-label">Published</div></div>
+  <div class="stat-card"><div class="stat-icon amber">{% icon "edit" 22 %}</div><div class="stat-value">{{ draft }}</div><div class="stat-label">Draft</div></div>
+  <div class="stat-card"><div class="stat-icon red">{% icon "ban" 22 %}</div><div class="stat-value">{{ disabled }}</div><div class="stat-label">Disabled</div></div>
+</div>
+
+<div class="card fade-in">
+  <div class="card-header">
+    <h3>All keywords</h3>
+    <form method="get" style="display:flex;gap:8px;align-items:center;">
+      <select name="parent" class="form-control" style="width:150px;padding:6px 10px;font-size:12px;">
+        <option value="">All Categories</option>
+        {% for s, l in parent_choices %}<option value="{{ s }}" {% if request.GET.parent == s %}selected{% endif %}>{{ l }}</option>{% endfor %}
+      </select>
+      <div class="search-bar"><input type="text" name="q" value="{{ request.GET.q }}" placeholder="Search keywords..."></div>
+      <button class="btn btn-secondary btn-sm">Filter</button>
+    </form>
+  </div>
+  <table class="data-table">
+    <thead><tr><th>ID</th><th>Keyword</th><th>Parent</th><th>Sub-category</th><th>Region</th><th>Translation</th><th>Lang</th><th>Local Name</th><th>Docs</th><th>Validation</th><th>Status</th><th>Actions</th></tr></thead>
+    <tbody>
+      {% for k in keywords %}
+      <tr>
+        <td>{{ k.kw_code }}</td>
+        <td><strong>{{ k.keyword|truncatechars:32 }}</strong></td>
+        <td><span class="badge badge-green">{{ k.parent_category }}</span></td>
+        <td>{{ k.subcategory|default:"—" }}</td>
+        <td>{{ k.region }}</td>
+        <td>{{ k.translation|default:"—"|truncatechars:24 }}</td>
+        <td>{{ k.language }}</td>
+        <td style="font-size:11px;color:var(--gray-600);">{{ k.local_names|truncatechars:40 }}</td>
+        <td>{{ k.linked_docs_count }}</td>
+        <td>{% if k.expert_validated %}<span class="badge badge-green">Expert</span>{% else %}<span class="badge badge-amber">Pending</span>{% endif %}{% if k.validation_source %}<br><span style="font-size:10px;color:var(--gray-400);">{{ k.validation_source }}</span>{% endif %}</td>
+        <td><span class="badge {{ k.status|badge_class }}">{{ k.status }}</span></td>
+        <td style="white-space:nowrap;">
+          <a href="{% url 'keywords:detail' k.pk %}" class="btn btn-xs btn-secondary">View</a>
+          {% if user|role_has:"Administrator,Editor" %}<a href="{% url 'keywords:edit' k.pk %}" class="btn btn-xs btn-secondary">Edit</a>{% endif %}
+        </td>
+      </tr>
+      {% empty %}
+      <tr><td colspan="12" style="text-align:center;padding:30px;color:var(--gray-400);">No keywords yet.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% include 'partials/pagination.html' %}
+</div>
+{% endblock %}

@@ -1,0 +1,42 @@
+{% extends 'base.html' %}{% load irri_extras %}
+{% block page_title %}Hooks{% endblock %}
+{% block topbar_actions %}
+  {% if user|role_has:"Administrator" %}<a href="{% url 'hooks:create' %}" class="btn btn-primary btn-sm">{% icon "plus" 14 %} Add Hook</a>{% endif %}
+{% endblock %}
+{% block content %}
+<div class="stats-grid fade-in">
+  <div class="stat-card"><div class="stat-icon green">{% icon "link" 22 %}</div><div class="stat-value">{{ total }}</div><div class="stat-label">Total Hooks</div></div>
+  <div class="stat-card"><div class="stat-icon blue">{% icon "bolt" 22 %}</div><div class="stat-value">{{ active }}</div><div class="stat-label">Active</div></div>
+  <div class="stat-card"><div class="stat-icon amber">{% icon "clock" 22 %}</div><div class="stat-value">{{ paused }}</div><div class="stat-label">Paused</div></div>
+  <div class="stat-card"><div class="stat-icon purple">{% icon "chat" 22 %}</div><div class="stat-value">{{ messages_processed }}</div><div class="stat-label">Messages processed</div></div>
+</div>
+
+<div class="card fade-in">
+  <div class="card-header"><h3>All hooks</h3></div>
+  <table class="data-table">
+    <thead><tr><th>Name</th><th>WhatsApp #</th><th>Gateway</th><th>Trigger</th><th>Catalogue</th><th>Lang</th><th>Status</th><th>Actions</th></tr></thead>
+    <tbody>
+      {% for h in hooks %}
+      <tr>
+        <td><strong>{{ h.name }}</strong><br><span style="font-size:11px;color:var(--gray-400);">{{ h.messages_processed_count }} msgs · {{ h.avg_response_time }}s avg · {{ h.success_rate }}% ok</span></td>
+        <td style="font-family:monospace;font-size:12px;">{{ h.whatsapp_number }}</td>
+        <td>{{ h.gateway_provider }}</td>
+        <td><span class="badge badge-blue">{{ h.trigger_keyword }}</span></td>
+        <td><a href="{% url 'catalogues:detail' h.catalogue.slug %}" style="color:var(--irri-green);">{{ h.catalogue.name }}</a></td>
+        <td>{{ h.primary_language }}</td>
+        <td><span class="badge {{ h.status|badge_class }}">{{ h.status }}</span></td>
+        <td style="white-space:nowrap;">
+          <a href="{% url 'hooks:detail' h.pk %}" class="btn btn-xs btn-secondary">View</a>
+          {% if user|role_has:"Administrator" %}
+            <a href="{% url 'hooks:edit' h.pk %}" class="btn btn-xs btn-secondary">Edit</a>
+            <form method="post" action="{% url 'hooks:toggle' h.pk %}" style="display:inline;">{% csrf_token %}<button class="btn btn-xs btn-secondary">{% if h.status == 'Active' %}Pause{% else %}Activate{% endif %}</button></form>
+          {% endif %}
+        </td>
+      </tr>
+      {% empty %}
+      <tr><td colspan="8" style="text-align:center;padding:30px;color:var(--gray-400);">No hooks yet.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

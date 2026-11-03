@@ -1,0 +1,106 @@
+{
+ "source": "CR-Dhan-100.pdf",
+ "sha256": "cb013002077cab31db34cad1d4c8cf55c5f2b46717b70fa2dbcb76f92f5b5ee3",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:29:00",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "CR Dhan 100 (Satyabhama)*\n(IR 31238-350-3-2-1 / IR 41054-102-2-3-2)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-100.pdf",
+    "page": 1,
+    "section": "CR Dhan 100 (Satyabhama)*"
+   }
+  },
+  {
+   "text": "Product Profile\nCR Dhan 100, also known as Satyabhama, is a 110-day variety released by ICAR-NRRI in the year of 2012. With medium height and medium slender grain, this variety is suitable for irrigated upland ecosystem where water deficit is recurrent. CR Dhan 100 exhibits resistance to leaf blight and rice tungro virus. The observed grain yield of this variety is 2.3 tons per hectare under drought condition and in favourable condition average yield of 4.7 tons per hectare can be realized. CR Dhan 100 has the tolerance to glume discoloration.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-100.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment - TEMS-R\nPTR, Planting Method = DSR. PTR, Ecosystem = Irrigated Lowland. PTR, Ecosystem = Rainfed Lowland. PTR, Ecosystem = Upland. Recommended, Planting Method = Not Recommended. Recommended, Ecosystem = Not Recommended. Recommended, Ecosystem = Not Recommended. Recommended, Ecosystem = Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-100.pdf",
+    "page": 1,
+    "section": "Priority Market Segment - TEMS-R"
+   }
+  },
+  {
+   "text": "Positioning\nReplace, Irrigated Lowland = Khandagiri. Replace, Rainfed Lowland = None. Replace, Upland = None. Companion, Irrigated Lowland = Sahabhagi Dhan. Companion, Rainfed Lowland = None. Companion, Upland = None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-100.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Fit for upland\n- Medium slender grain; High HRR\n- Early maturity\n- Tolerant to major diseases and insect pests",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-100.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nCR Dhan 100, Grain yield.(Kg/ha) = 2300-4700. CR Dhan 100, Grain yield.% Adv = 47. CR Dhan 100, Maturity (days). = 105-110. CR Dhan 100, Plant height (cm). = 100-105. CR Dhan 100, Lodging. = Tolerant. CR Dhan 100, Shattering. = Tolerant. CR Dhan 100, HRR %. = 67. CR Dhan 100, 1000 grain weight (g). = 20. CR Dhan 100, Grain Shape. = MS. Khandagiri, Grain yield.(Kg/ha) = 3000-3200. Khandagiri, Grain yield.% Adv = . Khandagiri, Maturity (days). = 90-100. Khandagiri, Plant height (cm). = 85-90. Khandagiri, Lodging. = Tolerant. Khandagiri, Shattering. = Tolerant. Khandagiri, HRR %. = 64. Khandagiri, 1000 grain weight (g). = 21. Khandagiri, Grain Shape. = MB",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-100.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nCR Dhan 100, Leaf blast = Tolerant. CR Dhan 100, Leaf blight = Resistant. CR Dhan 100, Brown plant hopper = Resistant. CR Dhan 100, Stem borer = Resistant. CR Dhan 100, Leaf folder = Resistant. CR Dhan 100, Drought = Tolerant. Khandagiri, Leaf blast = Tolerant. Khandagiri, Leaf blight = Susceptible. Khandagiri, Brown plant hopper = Susceptible. Khandagiri, Stem borer = Tolerant. Khandagiri, Leaf folder = Tolerant. Khandagiri, Drought = Resistant\nProducibility: CR Dhan 100 = 1400Kgs. /acre\nRecommendation:\nFor planting in upland ecosystem in Odisha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-100.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\n- Relatively low yield",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-100.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}

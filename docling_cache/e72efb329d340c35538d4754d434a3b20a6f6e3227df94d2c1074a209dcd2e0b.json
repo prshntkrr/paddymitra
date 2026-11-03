@@ -1,0 +1,106 @@
+{
+ "source": "CR-Dhan-102.pdf",
+ "sha256": "e72efb329d340c35538d4754d434a3b20a6f6e3227df94d2c1074a209dcd2e0b",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:29:35",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "CR Dhan 102 (Santha Bhima)*\n(IR 78875 / IR 78877)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-102.pdf",
+    "page": 1,
+    "section": "CR Dhan 102 (Santha Bhima)*"
+   }
+  },
+  {
+   "text": "Product Profile\nCR Dhan 102, also known as Santha Bhima, is a 110-day variety released by ICAR-NRRI in 2020. Featuring medium height and short bold grains, it is ideally suited for upland ecosystems prone to recurrent water deficits. Notably, CR Dhan 102 demonstrates tolerance against major diseases and pests. The average grain yield of this variety stands at 3.9 tons per hectare.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-102.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment - TEMS-U\nPTR, Planting Method = DSR. PTR, Ecosystem = Irrigated Lowland. PTR, Ecosystem = Rainfed Lowland. PTR, Ecosystem = Upland. Recommended, Planting Method = Not Recommended. Recommended, Ecosystem = Recommended. Recommended, Ecosystem = Not Recommended. Recommended, Ecosystem = Not Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-102.pdf",
+    "page": 1,
+    "section": "Priority Market Segment - TEMS-U"
+   }
+  },
+  {
+   "text": "Positioning\nReplace, Irrigated Lowland = Khandagiri. Replace, Rainfed Lowland = None. Replace, Upland = None. Companion, Irrigated Lowland = Sahabhagi Dhan. Companion, Rainfed Lowland = None. Companion, Upland = None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-102.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Suitable for upland\n- Short bold grain; High HRR\n- Early maturity\n- Tolerant to major diseases and insect pests",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-102.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nCR Dhan 102, Grain yield.(Kg/ha) = 3500-3900. CR Dhan 102, Grain yield.% Adv = 22. CR Dhan 102, Maturity (days). = 105-110. CR Dhan 102, Plant height (cm). = 95-100. CR Dhan 102, Lodging. = Tolerant. CR Dhan 102, Shattering. = Tolerant. CR Dhan 102, 1000 grain weight (g). = 22. CR Dhan 102, HRR %. = 64. CR Dhan 102, Grain Shape. = SB. Khandagiri, Grain yield.(Kg/ha) = 3000-3200. Khandagiri, Grain yield.% Adv = . Khandagiri, Maturity (days). = 90-100. Khandagiri, Plant height (cm). = 85-90. Khandagiri, Lodging. = Tolerant. Khandagiri, Shattering. = Tolerant. Khandagiri, 1000 grain weight (g). = 21. Khandagiri, HRR %. = 64. Khandagiri, Grain Shape. = MB",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-102.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nCR Dhan 102, Leaf blast = Tolerant. CR Dhan 102, Rice tungro = Tolerant. CR Dhan 102, Green leafhopper = Resistant. CR Dhan 102, Stem borer = Tolerant. CR Dhan 102, Leaf folder = Tolerant. CR Dhan 102, Drought = Tolerant. Khandagiri, Leaf blast = Tolerant. Khandagiri, Rice tungro = Susceptible. Khandagiri, Green leafhopper = Susceptible. Khandagiri, Stem borer = Tolerant. Khandagiri, Leaf folder = Tolerant. Khandagiri, Drought = Resistant\nProducibility: CR Dhan 102= 1560Kgs. /acre\nRecommendation:\nFor planting in upland ecosystem in Odisha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-102.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\n- Relatively low yield",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-102.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}

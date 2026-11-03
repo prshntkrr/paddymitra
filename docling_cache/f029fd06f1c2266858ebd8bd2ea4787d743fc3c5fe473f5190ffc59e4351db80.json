@@ -1,0 +1,1728 @@
+{
+ "source": "All varieties NUTRIENT ADVISORIES.pdf",
+ "sha256": "f029fd06f1c2266858ebd8bd2ea4787d743fc3c5fe473f5190ffc59e4351db80",
+ "origin": "clean_rendering",
+ "built_at": "2026-11-03T01:00:49",
+ "chunk_count": 172,
+ "chunks": [
+  {
+   "text": "Standard per-acre fertiliser (products) for rice, by crop duration. Short duration (95-115 days): basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage. Medium duration (120-135 days): basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage. Long duration (140-160 days): basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage. Use the schedule for your variety's duration; one hectare is about 2.47 acres.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "scope": "overview",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Duration-wise fertilizer and nutrient advisory for rice. Short duration varieties (95-115 days). Recommended fertilizer per acre (one acre): basal dose — 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; active tillering stage — 25-30 kg Urea; panicle initiation stage — 25-30 kg Urea. Source advisory (verbatim): \"95-115 days For short duration rice varieties like Sahabhagi Dhan, for one acre, apply 22-24 kg DAP, 5-8 kg Urea, 20-23 kg of MOP, 10 kg of Zinc sulphate as basal fertilizer, apply 25-30 kg of Urea per acre each at active tillering and panicle initiation stages.\" Varieties in this short duration group: ANJALI (IET-16430, RR-347-166), OUAT KALINGA RICE 5(NABANNA)(IET 25140), CR Dhan 912 (Ashutosh Mehek), KHANDAGIRI, ADT (R)-46, ADT-53, ANNADA, KARJAT-3, ADT-37, ASD-16, Bina 17 GSR (SAGC 7) (IET 24460), CO 51, CR Dhan 102 (IET 25121), CR Dhan 315(IET 27179), CR Dhan 414 (IET 27051), GONTRA BIDHAN-1 (IET 17430), IR 64- Sub 1 (IET 21247), IR-64, MTU 3626 (Prabhat), PATHARA (lET -6639), SAHABHAGI DHAN, ADT 56 (IET27920), Birsa Vikas Sugandha-1(IET 18941), CIHERANG SUB-1(BINA-11), RNR 15048, SHATABDI (IET-4786), Telengana Sona(RNR-15048), Amara (MTU-1064), BPT 2782 (Bhavathi), CR DHAN 307(Maudamani), CR DHAN 310, CR DHAN 312, CR Dhan 312 (CR 3808-13) (IET 25997), CR Dhan 316 (Gaurav), CR Dhan 324 (Abhaya Paushtik), CR Dhan 802(SUBHAS)(IET 25673)(CR3925-22-7), CR Dhan 803 (Trilochan, IET 26398), CR Dhan 805 (Naveen shakti)(IET 29203), CR Dhan 808 (IET 28834) (CRR 809-11-1-9-B), CR Dhan 911 (BASUDEV), CR Dhan-405, Chandragiri (Ouat Kalinga Rice 9)(IET 27880)(ORJ 1336), DHARITRI (IET-6272), Erra Mallelu (WGL 20471), JAGJEEVAN(DRR-39), KALINGA DHAN 1203 (IET 27117), KHARAVELA (IET-13253), Kalinga Dhan-1203 (IET 27117), Kalinga Dhan-1204, Kalinga Dhan-1205 (IET 22579), Kalinga Dhan-1301, Kalinga Dhan-1401, Kalinga Dhan-1501, Kalinga Dhan-1502, MANDAKINI (OR 2077-4)(IET 17847), MTU 1075 (IET 18482), MTU Rice 1232, MTU Rice 1321, MTU-1010 (COTTONDORA SANNALU), MTU-1212, MTU-1280, MTU-1281, MTU1121 (Sri Dhruthi), Mahendragiri (Ouat Kalinga Rice 10) (IET 29177), OUAT Kalinga Rice 1 (Kolab)(IET 25295), OUAT Kalinga Rice 2 (Salandi), OUAT Kalinga Rice 6 (Bhargavi) (IET 23565), Protezin, Pusa Basmati-1509, RAJENDRA SWETA, RAJSHREE (TCA-80-4) (IET-7970), Sabour Harshit Dhan (IET 25342), Sabour Sampanna Dhan (IET 25960), Swarna Samridhi Dhan(IET 24306), Swarna Shakti Dhan, Swarna Shreya, UDAYAGIRI (IET-12316), VARSHADHAN (CRLC-899)(IET-16481), Varam(IET 25495)(MTU 1190), Zinco Rice MS(IET 25477)(R-RHZ-LI-23), BPT 2411 (Sasya), BPT-3291(Sona Masuri), BheemaDheera (MTU 1140), CR Dhan 317 (Roshan), CR Dhan 411 (Swaranjali, IET 27852), Chandra(MTU-1153), DRR DHAN 63 (IET 26596), DRR Dhan 69 (BRRI Dhan 100), DRR Dhan-53 (RP-6113-PB9) (IET 27294), Hasanta, JGL18047(Bathukamma), Jagtiala Rice-1 (JGL-24423) (IET-25310), KNM-118, Krishnaveni (MTU-2077), Ksheera (MTU 1172), MTU Rice 1273, MTU Rice 1275(IET 27908), MTU Rice 1293, MTU-1239, Maruteru Mashuri MTU 1262(IET 27151), Maruteru Samba (MTU 1224), Maruteru Sujatha (MTU 1210), NLR 3354, PRATIBHA, RAJENDRA SUWASINI, RGL-2537(SRIKAKULAM SANNALU), RGL-2538(VASUNDHARA), RNR 1446 (Satya), RNR 2458 (Krishna), SURENDRA (IET-12815), Samvruddhi (IET 23272) (MTU 1155), Tarangini (MTU 1156), UTTAR GANGA(PUR-B-190), WGL 48684 (Kavya), WGL-3962.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "scope": "duration_group",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety ANJALI (IET-16430, RR-347-166). ANJALI is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "ANJALI",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety OUAT KALINGA RICE 5(NABANNA)(IET 25140). OUAT KALINGA RICE 5 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "OUAT KALINGA RICE 5",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 912 (Ashutosh Mehek). CR Dhan 912 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 912",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety KHANDAGIRI. KHANDAGIRI is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "KHANDAGIRI",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety ADT (R)-46. ADT is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "ADT",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety ADT-53. ADT-53 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "ADT-53",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety ANNADA. ANNADA is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "ANNADA",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety KARJAT-3. KARJAT-3 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "KARJAT-3",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety ADT-37. ADT-37 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "ADT-37",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety ASD-16. ASD-16 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "ASD-16",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Bina 17 GSR (SAGC 7) (IET 24460). Bina 17 GSR is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Bina 17 GSR",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CO 51. CO 51 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CO 51",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 102 (IET 25121). CR Dhan 102 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 102",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 315(IET 27179). CR Dhan 315 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 315",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 414 (IET 27051). CR Dhan 414 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 414",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety GONTRA BIDHAN-1 (IET 17430). GONTRA BIDHAN-1 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "GONTRA BIDHAN-1",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety IR 64- Sub 1 (IET 21247). IR 64- Sub 1 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "IR 64- Sub 1",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety IR-64. IR-64 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "IR-64",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU 3626 (Prabhat). MTU 3626 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU 3626",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety PATHARA (lET -6639). PATHARA is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "PATHARA",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety SAHABHAGI DHAN. SAHABHAGI DHAN is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "SAHABHAGI DHAN",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety ADT 56 (IET27920). ADT 56 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "ADT 56",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Birsa Vikas Sugandha-1(IET 18941). Birsa Vikas Sugandha-1 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Birsa Vikas Sugandha-1",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CIHERANG SUB-1(BINA-11). CIHERANG SUB-1 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CIHERANG SUB-1",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety RNR 15048. RNR 15048 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "RNR 15048",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety SHATABDI (IET-4786). SHATABDI is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "SHATABDI",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Telengana Sona(RNR-15048). Telengana Sona is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Telengana Sona",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Amara (MTU-1064). Amara is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Amara",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety BPT 2782 (Bhavathi). BPT 2782 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "BPT 2782",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR DHAN 307(Maudamani). CR DHAN 307 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR DHAN 307",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR DHAN 310. CR DHAN 310 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR DHAN 310",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR DHAN 312. CR DHAN 312 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR DHAN 312",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 312 (CR 3808-13) (IET 25997). CR Dhan 312 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 312",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 316 (Gaurav). CR Dhan 316 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 316",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 324 (Abhaya Paushtik). CR Dhan 324 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 324",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 802(SUBHAS)(IET 25673)(CR3925-22-7). CR Dhan 802 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 802",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 803 (Trilochan, IET 26398). CR Dhan 803 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 803",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 805 (Naveen shakti)(IET 29203). CR Dhan 805 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 805",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 808 (IET 28834) (CRR 809-11-1-9-B). CR Dhan 808 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 808",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 911 (BASUDEV). CR Dhan 911 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 911",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan-405. CR Dhan-405 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan-405",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Chandragiri (Ouat Kalinga Rice 9)(IET 27880)(ORJ 1336). Chandragiri is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Chandragiri",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety DHARITRI (IET-6272). DHARITRI is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "DHARITRI",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Erra Mallelu (WGL 20471). Erra Mallelu is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Erra Mallelu",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety JAGJEEVAN(DRR-39). JAGJEEVAN is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "JAGJEEVAN",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety KALINGA DHAN 1203 (IET 27117). KALINGA DHAN 1203 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "KALINGA DHAN 1203",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety KHARAVELA (IET-13253). KHARAVELA is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "KHARAVELA",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Kalinga Dhan-1203 (IET 27117). Kalinga Dhan-1203 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Kalinga Dhan-1203",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Kalinga Dhan-1204. Kalinga Dhan-1204 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Kalinga Dhan-1204",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Kalinga Dhan-1205 (IET 22579). Kalinga Dhan-1205 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Kalinga Dhan-1205",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Kalinga Dhan-1301. Kalinga Dhan-1301 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Kalinga Dhan-1301",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Kalinga Dhan-1401. Kalinga Dhan-1401 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Kalinga Dhan-1401",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Kalinga Dhan-1501. Kalinga Dhan-1501 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Kalinga Dhan-1501",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Kalinga Dhan-1502. Kalinga Dhan-1502 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Kalinga Dhan-1502",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MANDAKINI (OR 2077-4)(IET 17847). MANDAKINI is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MANDAKINI",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU 1075 (IET 18482). MTU 1075 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU 1075",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU Rice 1232. MTU Rice 1232 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU Rice 1232",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU Rice 1321. MTU Rice 1321 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU Rice 1321",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU-1010 (COTTONDORA SANNALU). MTU-1010 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU-1010",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU-1212. MTU-1212 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU-1212",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU-1280. MTU-1280 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU-1280",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU-1281. MTU-1281 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU-1281",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU1121 (Sri Dhruthi). MTU1121 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU1121",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Mahendragiri (Ouat Kalinga Rice 10) (IET 29177). Mahendragiri is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Mahendragiri",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety OUAT Kalinga Rice 1 (Kolab)(IET 25295). OUAT Kalinga Rice 1 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "OUAT Kalinga Rice 1",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety OUAT Kalinga Rice 2 (Salandi). OUAT Kalinga Rice 2 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "OUAT Kalinga Rice 2",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety OUAT Kalinga Rice 6 (Bhargavi) (IET 23565). OUAT Kalinga Rice 6 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "OUAT Kalinga Rice 6",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Protezin. Protezin is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Protezin",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Pusa Basmati-1509. Pusa Basmati-1509 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Pusa Basmati-1509",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety RAJENDRA SWETA. RAJENDRA SWETA is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "RAJENDRA SWETA",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety RAJSHREE (TCA-80-4) (IET-7970). RAJSHREE is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "RAJSHREE",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Sabour Harshit Dhan (IET 25342). Sabour Harshit Dhan is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Sabour Harshit Dhan",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Sabour Sampanna Dhan (IET 25960). Sabour Sampanna Dhan is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Sabour Sampanna Dhan",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Swarna Samridhi Dhan(IET 24306). Swarna Samridhi Dhan is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Swarna Samridhi Dhan",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Swarna Shakti Dhan. Swarna Shakti Dhan is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Swarna Shakti Dhan",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Swarna Shreya. Swarna Shreya is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Swarna Shreya",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety UDAYAGIRI (IET-12316). UDAYAGIRI is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "UDAYAGIRI",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety VARSHADHAN (CRLC-899)(IET-16481). VARSHADHAN is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "VARSHADHAN",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Varam(IET 25495)(MTU 1190). Varam is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Varam",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Zinco Rice MS(IET 25477)(R-RHZ-LI-23). Zinco Rice MS is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Zinco Rice MS",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety BPT 2411 (Sasya). BPT 2411 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "BPT 2411",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety BPT-3291(Sona Masuri). BPT-3291 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "BPT-3291",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety BheemaDheera (MTU 1140). BheemaDheera is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "BheemaDheera",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 317 (Roshan). CR Dhan 317 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 317",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 411 (Swaranjali, IET 27852). CR Dhan 411 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 411",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Chandra(MTU-1153). Chandra is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Chandra",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety DRR DHAN 63 (IET 26596). DRR DHAN 63 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "DRR DHAN 63",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety DRR Dhan 69 (BRRI Dhan 100). DRR Dhan 69 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "DRR Dhan 69",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety DRR Dhan-53 (RP-6113-PB9) (IET 27294). DRR Dhan-53 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "DRR Dhan-53",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Hasanta. Hasanta is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Hasanta",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety JGL18047(Bathukamma). JGL18047 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "JGL18047",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Jagtiala Rice-1 (JGL-24423) (IET-25310). Jagtiala Rice-1 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Jagtiala Rice-1",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety KNM-118. KNM-118 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "KNM-118",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Krishnaveni (MTU-2077). Krishnaveni is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Krishnaveni",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Ksheera (MTU 1172). Ksheera is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Ksheera",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU Rice 1273. MTU Rice 1273 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU Rice 1273",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU Rice 1275(IET 27908). MTU Rice 1275 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU Rice 1275",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU Rice 1293. MTU Rice 1293 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU Rice 1293",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU-1239. MTU-1239 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU-1239",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Maruteru Mashuri MTU 1262(IET 27151). Maruteru Mashuri MTU 1262 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Maruteru Mashuri MTU 1262",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Maruteru Samba (MTU 1224). Maruteru Samba is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Maruteru Samba",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Maruteru Sujatha (MTU 1210). Maruteru Sujatha is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Maruteru Sujatha",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety NLR 3354. NLR 3354 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "NLR 3354",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety PRATIBHA. PRATIBHA is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "PRATIBHA",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety RAJENDRA SUWASINI. RAJENDRA SUWASINI is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "RAJENDRA SUWASINI",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety RGL-2537(SRIKAKULAM SANNALU). RGL-2537 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "RGL-2537",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety RGL-2538(VASUNDHARA). RGL-2538 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "RGL-2538",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety RNR 1446 (Satya). RNR 1446 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "RNR 1446",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety RNR 2458 (Krishna). RNR 2458 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "RNR 2458",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety SURENDRA (IET-12815). SURENDRA is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "SURENDRA",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Samvruddhi (IET 23272) (MTU 1155). Samvruddhi is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Samvruddhi",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Tarangini (MTU 1156). Tarangini is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Tarangini",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety UTTAR GANGA(PUR-B-190). UTTAR GANGA is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "UTTAR GANGA",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety WGL 48684 (Kavya). WGL 48684 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "WGL 48684",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety WGL-3962. WGL-3962 is a short duration rice variety (95-115 days). Recommended fertilizer per acre: basal dose 22-24 kg DAP, 5-8 kg Urea, 20-23 kg MOP (muriate of potash) and 10 kg Zinc sulphate; 25-30 kg Urea at active tillering stage; 25-30 kg Urea at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "WGL-3962",
+    "duration_class": "short",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Duration-wise fertilizer and nutrient advisory for rice. Medium duration varieties (120-135 days). Recommended fertilizer per acre (one acre): basal dose — 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); active tillering stage — 25-30 kg DAP; panicle initiation stage — 25-30 kg DAP. Source advisory (verbatim): \"120-135 days For medium duration varieties, for 1 acre area, please apply 20-25 kg of DAP, 15-17 kg Urea, 16 kg of MOP and 10 kg Zinc sulphate (21%) at basal dose, 25-30 kg of DAP each both at active tillering stage and panicle initiation stages.\" Varieties in this medium duration group: CNRH 102, 27P31, 27P36, BRRI Dhan 69 (WTR 1) (IET 24461), DRR DHAN-45, Improved Lalat, LALAT (IET-9947), MTU-1001(VIJETHA), NK 16520, NRL 40024, PRATIKSHYA (ORS 201-5)(IET-15191), SUGANDHA, 28P09, 28P41 / 28S41, 28P67, Ajay, Jaya, MRUNALINI (OR 1898-18) IET 18649, PR-113, RANI DHAN (IET-19148), Rajalaxmi, Uttar Samir, BIO 799, MTU-7029(SWARNA), Rajendra Mahsuri-1, Sampada, CR Dhan 325 (Salila), CR Dhan 334 (Satyadev), CR Dhan 335 (Alok), CR Dhan 604 (Kalpana).",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "scope": "duration_group",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CNRH 102. CNRH 102 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CNRH 102",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety 27P31. 27P31 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "27P31",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety 27P36. 27P36 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "27P36",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety BRRI Dhan 69 (WTR 1) (IET 24461). BRRI Dhan 69 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "BRRI Dhan 69",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety DRR DHAN-45. DRR DHAN-45 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "DRR DHAN-45",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Improved Lalat. Improved Lalat is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Improved Lalat",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety LALAT (IET-9947). LALAT is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "LALAT",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU-1001(VIJETHA). MTU-1001 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU-1001",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety NK 16520. NK 16520 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "NK 16520",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety NRL 40024. NRL 40024 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "NRL 40024",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety PRATIKSHYA (ORS 201-5)(IET-15191). PRATIKSHYA is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "PRATIKSHYA",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety SUGANDHA. SUGANDHA is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "SUGANDHA",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety 28P09. 28P09 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "28P09",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety 28P41 / 28S41. 28P41 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "28P41",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety 28P67. 28P67 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "28P67",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Ajay. Ajay is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Ajay",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Jaya. Jaya is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Jaya",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MRUNALINI (OR 1898-18) IET 18649. MRUNALINI is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MRUNALINI",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety PR-113. PR-113 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "PR-113",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety RANI DHAN (IET-19148). RANI DHAN is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "RANI DHAN",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Rajalaxmi. Rajalaxmi is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Rajalaxmi",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Uttar Samir. Uttar Samir is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Uttar Samir",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety BIO 799. BIO 799 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "BIO 799",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU-7029(SWARNA). MTU-7029 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU-7029",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Rajendra Mahsuri-1. Rajendra Mahsuri-1 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Rajendra Mahsuri-1",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Sampada. Sampada is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Sampada",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 325 (Salila). CR Dhan 325 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 325",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 334 (Satyadev). CR Dhan 334 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 334",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 335 (Alok). CR Dhan 335 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 335",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR Dhan 604 (Kalpana). CR Dhan 604 is a medium duration rice variety (120-135 days). Recommended fertilizer per acre: basal dose 20-25 kg DAP, 15-17 kg Urea, 16 kg MOP and 10 kg Zinc sulphate (21%); 25-30 kg DAP at active tillering stage; 25-30 kg DAP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR Dhan 604",
+    "duration_class": "medium",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Duration-wise fertilizer and nutrient advisory for rice. Long duration varieties (140-160 days). Recommended fertilizer per acre (one acre): basal dose — 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; active tillering stage — 30-32 kg Urea; panicle initiation stage — 30-32 kg Urea and 16-18 kg MOP. Source advisory (verbatim): \"140-160 days For long duration varieties (>140-160 days) like Puja Dhana, Pooja dhana, Kala Champa, Swarna sub-1, for acre, apply 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP, 10 kg zinc sulphate as basal dose, apply 30-32 kg Urea at active tillering stage, at panicle initiation stage apply 30-32 kg Urea and 16-18 kg MOP fertilizer.\" Varieties in this long duration group: Arize Dhani, BAHADUR, BPT-5204(SAMBA MAHSURI), CRHR 32 / CR Dhan 701, Lunishree, MTU Rice 1318 (IET28527), SWARANA-SUB 1 (CR 2539-1) IET-20266, Swarna, CR 1009 SUB-1, INDRA(MTV-1061), JAGANNATH, Kalachampa, Kalajeera, PAC 835, PAC 837, POOJA (IET-12241), UPAHAR(OR 1234-12-1) (IET 17318) 1572(E) 20-09-2006, GAYATRI (IET-8022), SAVITRI (IET -5897)(CR 1009), MTU-1223, Sarala (IET-10279), Machhakanta, Sabitri.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "scope": "duration_group",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Arize Dhani. Arize Dhani is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Arize Dhani",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety BAHADUR. BAHADUR is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "BAHADUR",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety BPT-5204(SAMBA MAHSURI). BPT-5204 is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "BPT-5204",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CRHR 32 / CR Dhan 701. CRHR 32 is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CRHR 32",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Lunishree. Lunishree is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Lunishree",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU Rice 1318 (IET28527). MTU Rice 1318 is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU Rice 1318",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety SWARANA-SUB 1 (CR 2539-1) IET-20266. SWARANA-SUB 1 is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "SWARANA-SUB 1",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Swarna. Swarna is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Swarna",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety CR 1009 SUB-1. CR 1009 SUB-1 is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "CR 1009 SUB-1",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety INDRA(MTV-1061). INDRA is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "INDRA",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety JAGANNATH. JAGANNATH is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "JAGANNATH",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Kalachampa. Kalachampa is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Kalachampa",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Kalajeera. Kalajeera is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Kalajeera",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety PAC 835. PAC 835 is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "PAC 835",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety PAC 837. PAC 837 is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "PAC 837",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety POOJA (IET-12241). POOJA is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "POOJA",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety UPAHAR(OR 1234-12-1) (IET 17318) 1572(E) 20-09-2006. UPAHAR is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "UPAHAR",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety GAYATRI (IET-8022). GAYATRI is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "GAYATRI",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety SAVITRI (IET -5897)(CR 1009). SAVITRI is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "SAVITRI",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety MTU-1223. MTU-1223 is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "MTU-1223",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Sarala (IET-10279). Sarala is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Sarala",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Machhakanta. Machhakanta is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Machhakanta",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Fertilizer and nutrient advisory for paddy variety Sabitri. Sabitri is a long duration rice variety (140-160 days). Recommended fertilizer per acre: basal dose 28-30 kg DAP, 15-17 kg Urea, 16-18 kg MOP and 10 kg zinc sulphate; 30-32 kg Urea at active tillering stage; 30-32 kg Urea and 16-18 kg MOP at panicle initiation stage.",
+   "metadata": {
+    "content_type": "fertilizer_advisory",
+    "variety": "Sabitri",
+    "duration_class": "long",
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  }
+ ]
+}

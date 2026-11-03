@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+{% block page_title %}Odia Glossary{% endblock %}
+{% block content %}
+<style>
+  .gl-wrap { max-width: 880px; }
+  .gl-add { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:12px 0; }
+  .gl-add input[type=text]{ padding:9px 12px; border:1px solid var(--gray-300); border-radius:8px; }
+  .gl-add input.en{ width:260px; } .gl-add input.od{ width:300px; }
+  #gl-filter{ width:100%; max-width:420px; padding:9px 12px; border:1px solid var(--gray-300); border-radius:8px; margin:6px 0 12px; }
+  table.gl { width:100%; border-collapse:collapse; }
+  table.gl th, table.gl td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--gray-200); vertical-align:top; }
+  table.gl th { position:sticky; top:0; background:#fff; }
+  .gl-actions button{ font-size:12px; padding:4px 8px; }
+  .gl-del{ color:#b91c1c; }
+  .gl-alt{ display:inline-block; background:var(--gray-100); border:1px solid var(--gray-300);
+           border-radius:999px; padding:1px 7px; margin-left:5px; font-size:12.5px; }
+  .gl-alt button{ border:0; background:none; color:#b91c1c; cursor:pointer; padding:0 0 0 4px; }
+  .gl-addalt{ border:1px dashed var(--gray-300); background:none; border-radius:999px;
+              padding:1px 7px; margin-left:5px; font-size:12px; color:var(--gray-500); cursor:pointer; }
+</style>
+
+<div class="gl-wrap">
+  <h3>Odia Glossary <span style="color:var(--gray-500);font-weight:400;">({{ count }} terms)</span></h3>
+  <p style="color:var(--gray-500);font-size:13px;">Add or correct English → Odia terms. Saving is live (used immediately by the chat &amp; TTS). The Odia value must not contain English letters.</p>
+
+  <a class="btn btn-secondary" href="{% url 'queries:glossary_download' %}">Download Excel</a>
+  <a class="btn btn-secondary" href="{% url 'queries:translation_test' %}">Test translation</a>
+
+  <form method="post" class="gl-add">
+    {% csrf_token %}
+    <input type="hidden" name="action" value="upsert">
+    <input type="text" class="en" name="english" id="f-en" placeholder="English term" required>
+    <input type="text" class="od" name="odia" id="f-od" placeholder="Odia translation (ଓଡ଼ିଆ)" required>
+    <button type="submit" class="btn btn-success">Add / Update</button>
+  </form>
+
+  {# One shared delete form for the whole table (JS fills in the term) instead of #}
+  {# a form + CSRF token per row — the per-row forms made this page huge and slow. #}
+  <form method="post" id="gl-del-form" style="display:none">
+    {% csrf_token %}
+    <input type="hidden" name="action" value="delete">
+    <input type="hidden" name="english" id="gl-del-en">
+  </form>
+
+  {# Shared form for the alternative-word actions, same reasoning. #}
+  <form method="post" id="gl-alt-form" style="display:none">
+    {% csrf_token %}
+    <input type="hidden" name="action" id="gl-alt-action">
+    <input type="hidden" name="english" id="gl-alt-en">
+    <input type="hidden" name="odia" id="gl-alt-od">
+  </form>
+
+  <input type="text" id="gl-filter" placeholder="Search terms..." onkeyup="glFilter()">
+
+  <table class="gl" id="gl-table">
+    <thead><tr><th>English</th><th>Odia</th><th></th></tr></thead>
+    <tbody>
+      {% for en, od, alts in terms %}
+      <tr data-s="{{ en|lower }} {{ od }} {{ alts|join:' ' }}">
+        <td>{{ en }}</td>
+        <td>
+          {{ od }}
+          {% for a in alts %}
+          <span class="gl-alt">{{ a }}<button type="button" class="gl-delalt"
+                data-en="{{ en }}" data-od="{{ a }}" title="Remove this alternative">&times;</button></span>
+          {% endfor %}
+          <button type="button" class="gl-addalt" data-en="{{ en }}" title="Add another Odia word">+ word</button>
+        </td>
+        <td class="gl-actions">
+          <button type="button" class="gl-edit" data-en="{{ en }}" data-od="{{ od }}">Edit</button>
+          <button type="button" class="gl-del" data-en="{{ en }}">Delete</button>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  // Event delegation: one listener for every Edit/Delete button (no per-row
+  // inline handlers, no per-row forms).
+  document.getElementById('gl-table').addEventListener('click', function(e){
+    var b = e.target.closest('button');
+    if(!b) return;
+    if(b.classList.contains('gl-edit')){
+      document.getElementById('f-en').value = b.dataset.en;
+      document.getElementById('f-od').value = b.dataset.od;
+      window.scrollTo({top:0, behavior:'smooth'});
+      document.getElementById('f-od').focus();
+    } else if(b.classList.contains('gl-del')){
+      if(confirm('Delete "' + b.dataset.en + '"?')){
+        document.getElementById('gl-del-en').value = b.dataset.en;
+        document.getElementById('gl-del-form').submit();
+      }
+    } else if(b.classList.contains('gl-addalt')){
+      var w = prompt('Another Odia word for "' + b.dataset.en +
+                     '".\nThe first word stays the one used in answers; this one is ' +
+                     'only recognised when a farmer says it.');
+      if(w && w.trim()){
+        document.getElementById('gl-alt-action').value = 'add_variant';
+        document.getElementById('gl-alt-en').value = b.dataset.en;
+        document.getElementById('gl-alt-od').value = w.trim();
+        document.getElementById('gl-alt-form').submit();
+      }
+    } else if(b.classList.contains('gl-delalt')){
+      if(confirm('Remove "' + b.dataset.od + '" from "' + b.dataset.en + '"?')){
+        document.getElementById('gl-alt-action').value = 'delete_variant';
+        document.getElementById('gl-alt-en').value = b.dataset.en;
+        document.getElementById('gl-alt-od').value = b.dataset.od;
+        document.getElementById('gl-alt-form').submit();
+      }
+    }
+  });
+
+  // Debounced filter over a precomputed lowercase string per row (data-s), so
+  // typing never triggers a layout-reading innerText scan of ~1,500 rows.
+  var glTimer;
+  function glFilter(){
+    clearTimeout(glTimer);
+    glTimer = setTimeout(function(){
+      var q = document.getElementById('gl-filter').value.toLowerCase();
+      var rows = document.querySelectorAll('#gl-table tbody tr');
+      for(var i=0; i<rows.length; i++){
+        rows[i].style.display = rows[i].dataset.s.indexOf(q) > -1 ? '' : 'none';
+      }
+    }, 120);
+  }
+</script>
+{% endblock %}

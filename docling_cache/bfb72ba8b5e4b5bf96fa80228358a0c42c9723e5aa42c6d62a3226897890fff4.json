@@ -1,0 +1,58 @@
+{
+ "source": "Zinc (Zn) - IRRI Rice Knowledge Bank.pdf",
+ "sha256": "bfb72ba8b5e4b5bf96fa80228358a0c42c9723e5aa42c6d62a3226897890fff4",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:46:28",
+ "chunk_count": 4,
+ "chunks": [
+  {
+   "text": "What is the role of Zinc (Zn) in plants\nZinc is an essential plant nutrient required for several biochemical processes in the rice plant, including chlorophyll production and membrane integrity. Thus, Zn deficiencies affect plant color and turgor. Zn is only slightly mobile in the plant and quite immobile in soil.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Zinc (Zn) - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "What is the role of Zinc (Zn) in plants"
+   }
+  },
+  {
+   "text": "Why apply Zinc to Rice\nZinc limits plant growth when the soil supply of Zn is low or adverse soil\nconditions (such as continuous flooding) prevent plant uptake of Zn.\nIn such cases, Zn needs to be applied as required. Other nutrients need to be applied in balanced amounts to ensure a good crop response to fertilizer Zn application and to achieve a healthy and productive crop.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Zinc (Zn) - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "Why apply Zinc to Rice"
+   }
+  },
+  {
+   "text": "How to manage Zn\n- Zinc deficiency symptoms: Stunted plants and dusty brown spots on upper leaves; patches of poorly established plants; symptoms appear 2-4 weeks after transplanting; higher levels of empty grains; delayed maturity and lower yields; Zn deficiency leaf symptoms resemble Sulfur (S) and Iron (Fe) deficiency in alkaline soils and iron toxicity in poorly drained organic soils.\n- Occurrence of Zn deficiency: Zn deficiency is not very common, but can occur in neutral and calcareous soils; intensively cropped soils; continuously flooded paddy soils or very poorly drained soils; sodic and saline soils; peat soils, soils with high available Phosphorus (P) and Silicon (Si) status; sandy soils; highly weathered, acid, and coarsetextured soils; soils derived from serpentine and laterite; and, leached, old acid sulfate soils with a small concentration of Potassium (K), Magnesium (Mg), and Calcium (Ca).\n- How much Zn to apply? If Zn deficiency symptoms are observed in the field, apply 10-25 kg ZnSO4 · H2O or 20-40 kg ZnSO4 · 7H2O per ha on the soil surface, or dip roots of rice seedlings in a 2-4% ZnO suspension before planting (i.e., 20-40 g ZnO/L water). Rice plants can recover from Zn deficiency if the field is drained - a dry fallow increases the availability of Zn. The crop only requires around 0.05 kg Zn/ha (both straw and grain) per ton of grain yield, but much more Zn fertilizer must be applied because Zn once applied is not very available to the plant.\n- When to apply Zn? Apply the Zn fertilizer on the soil surface after last puddling and leveling in the main field or apply Zn fertilizer to the nursery beds 7-8 days before pulling seedlings. The effect of Zn application to soil can last 2-5 crop seasons on all soils except in alkaline soils. In alkaline soils, Zn may need to be applied to each crop.\nNOTE: Aerating soil-allowing it to dry out-can reduce Zn deficiency.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Zinc (Zn) - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "How to manage Zn"
+   }
+  },
+  {
+   "text": "What are the sources of Zn\nThe commonly used Zn fertilizers are soluble zinc sulfate (23-36% Zn), soluble zinc chloride (48-50% Zn), and insoluble zinc oxide (60-80% Zn).\nDeveloped with inputs from V Balasubramanian, RJ Buresh and M Bell",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Zinc (Zn) - IRRI Rice Knowledge Bank.pdf",
+    "page": 2,
+    "section": "What are the sources of Zn"
+   }
+  }
+ ]
+}

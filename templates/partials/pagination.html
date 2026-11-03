@@ -1,0 +1,11 @@
+{% if is_paginated %}
+<div class="pagination">
+  <div class="info">Showing {{ page_obj.start_index }}–{{ page_obj.end_index }} of {{ paginator.count }}</div>
+  <div class="pages">
+    {% if page_obj.has_previous %}<a class="btn btn-xs btn-secondary" href="?page={{ page_obj.previous_page_number }}{% for k,v in request.GET.items %}{% if k != 'page' %}&{{ k }}={{ v }}{% endif %}{% endfor %}">‹</a>{% endif %}
+    <button class="active">{{ page_obj.number }}</button>
+    {% if page_obj.has_next %}<a class="btn btn-xs btn-secondary" href="?page={{ page_obj.next_page_number }}{% for k,v in request.GET.items %}{% if k != 'page' %}&{{ k }}={{ v }}{% endif %}{% endfor %}">›</a>{% endif %}
+    <span style="color:var(--gray-400);margin-left:8px;font-size:12px;">of {{ paginator.num_pages }}</span>
+  </div>
+</div>
+{% endif %}

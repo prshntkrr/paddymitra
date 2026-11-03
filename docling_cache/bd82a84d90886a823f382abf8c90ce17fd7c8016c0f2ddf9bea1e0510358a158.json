@@ -1,0 +1,70 @@
+{
+ "source": "Leaf Color Chart - IRRI Rice Knowledge Bank.pdf",
+ "sha256": "bd82a84d90886a823f382abf8c90ce17fd7c8016c0f2ddf9bea1e0510358a158",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:09:50",
+ "chunk_count": 5,
+ "chunks": [
+  {
+   "text": "Leaf Color Chart\nNitrogen (N) fertilizer is important in rice production. Apply N fertilizer several times during the growing season to ensure that the crop's nitrogen need is supplied, particularly at critical growth stages.\nThe Leaf Color Chart (LCC) is used to determine the N fertilizer needs of rice crops. LCC has four green strips, with color ranging from yellow green to dark green. It determines the greenness of the rice leaf, which indicates its N content.\nHow to use the Leaf Color Chart",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Leaf Color Chart - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "Leaf Color Chart"
+   }
+  },
+  {
+   "text": "Select plants for testing\nRandomly select at least 10 disease-free rice plants or hills in a field, where plant population is uniform.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Leaf Color Chart - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "Select plants for testing"
+   }
+  },
+  {
+   "text": "Match the leaf to the chart\nSelect the topmost, youngest, fully expanded leaf from each hill or plant. This part best reflects the N status of the plants.\nPlace the middle part of the leaf on the LCC and compare its color with the color panels. Do not detach or destroy the leaf.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Leaf Color Chart - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "Match the leaf to the chart"
+   }
+  },
+  {
+   "text": "Measure the leaf color\nMeasure the leaf color under the shade of your body. Direct sunlight affects leaf color readings.\nIf possible, the same person should read the LCC at the same time of the day, every time.\nIf the color of a rice leaf is in between two shades, take the average of the two values as the reading. For example, if the color is in between 3 and 4, the reading should be 3.5.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Leaf Color Chart - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "Measure the leaf color"
+   }
+  },
+  {
+   "text": "Determine the average LCC\nTake the reading of the 10 leaves, and determine the average. If the color is more or less than 3, N fertilizer top dressing is needed.\nUse the LCC once every 7-10 days starting from the beginning of tillering (14 DAT). Continue this process up to 5-10 days after panicle initiation.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Leaf Color Chart - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "Determine the average LCC"
+   }
+  }
+ ]
+}

@@ -1,0 +1,166 @@
+{% extends 'base.html' %}
+{% block page_title %}Translation Test{% endblock %}
+{% block topbar_actions %}
+  <a href="{% url 'queries:glossary' %}" class="btn btn-sm btn-secondary">Edit glossary</a>
+  {% if qobj %}<a href="{% url 'queries:detail' qobj.pk %}" class="btn btn-sm btn-secondary">← {{ qobj.code }}</a>{% endif %}
+{% endblock %}
+{% block content %}
+<style>
+  .tt-wrap { max-width: 980px; }
+  .tt-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  @media (max-width: 820px){ .tt-grid { grid-template-columns:1fr; } }
+  .tt-box { border:1px solid var(--gray-200); border-radius:var(--radius-md); background:#fff; }
+  .tt-box h4 { margin:0; padding:9px 12px; font-size:12px; text-transform:uppercase;
+               letter-spacing:.06em; color:var(--gray-500); border-bottom:1px solid var(--gray-200); }
+  .tt-box .body { padding:12px; line-height:1.7; min-height:150px; white-space:pre-wrap; }
+  #tt-text { width:100%; min-height:190px; padding:12px; border:0; border-radius:0 0 var(--radius-md) var(--radius-md);
+             font:inherit; line-height:1.6; resize:vertical; outline:none; }
+  .tt-bar { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin:12px 0; }
+  .tt-bar select { padding:8px 10px; border:1px solid var(--gray-300); border-radius:8px; }
+  .tt-terms span { display:inline-block; background:var(--gray-100); border:1px solid var(--gray-300);
+                   border-radius:999px; padding:1px 9px; margin:2px 4px 2px 0; font-size:12.5px; }
+  .tt-meta { font-size:12px; color:var(--gray-500); }
+  .tt-diff ins { background:#DCFCE7; text-decoration:none; }
+  .tt-diff del { background:#FEE2E2; }
+  .tt-err { color:#b91c1c; }
+</style>
+
+<div class="tt-wrap">
+  <h3 style="margin-bottom:4px;">Translation Test</h3>
+  <p style="color:var(--gray-500);font-size:13px;max-width:70ch;">
+    Runs only the translation step of the pipeline — the same
+    <code>translate()</code> call, the same glossary forcing and the same clean-up passes the
+    farmer's answer goes through. Fix a word in the glossary, come back and press Translate:
+    the English stays fixed, so anything that changes is the glossary edit. No question is
+    re-asked, nothing is retrieved or re-generated.
+  </p>
+
+  {% if qobj %}
+  <p class="tt-meta">English below is the stored answer of
+     <a href="{% url 'queries:detail' qobj.pk %}" style="color:var(--irri-green);">{{ qobj.code }}</a>
+     — {{ qobj.timestamp|date:"d M Y, H:i" }}.</p>
+  {% endif %}
+
+  <div class="tt-grid">
+    <div class="tt-box">
+      <h4>Source text</h4>
+      <textarea id="tt-text" placeholder="Paste the English answer here...">{{ text }}</textarea>
+    </div>
+    <div class="tt-box">
+      <h4 id="tt-outlabel">Translation</h4>
+      <div class="body" id="tt-out"><span class="tt-meta">Press Translate.</span></div>
+    </div>
+  </div>
+
+  <div class="tt-bar">
+    <select id="tt-source"><option>English</option><option>Odia</option></select>
+    <span class="tt-meta">→</span>
+    <select id="tt-target"><option>Odia</option><option>English</option></select>
+    <button type="button" class="btn btn-success" id="tt-go">Translate</button>
+    <span class="tt-meta" id="tt-status"></span>
+  </div>
+
+  <div id="tt-terms-wrap" style="display:none;margin-top:6px;">
+    <div class="tt-meta" style="margin-bottom:4px;">Glossary terms forced in this text (<span id="tt-terms-n"></span>)</div>
+    <div class="tt-terms" id="tt-terms"></div>
+  </div>
+
+  {% if stored %}
+  <div class="tt-box" style="margin-top:16px;">
+    <h4>Stored translation — what the farmer got <span id="tt-diff-note" class="tt-meta"></span></h4>
+    <div class="body tt-diff" id="tt-stored">{{ stored }}</div>
+  </div>
+  {% endif %}
+</div>
+
+{{ stored|json_script:"tt-stored-json" }}
+<script>
+(function(){
+  var out = document.getElementById('tt-out');
+  var status = document.getElementById('tt-status');
+  var btn = document.getElementById('tt-go');
+  var storedEl = document.getElementById('tt-stored');
+  var storedNode = document.getElementById('tt-stored-json');
+  var stored = storedNode ? JSON.parse(storedNode.textContent) : "";
+
+  // Word-level diff: a glossary fix usually moves one or two words, and a
+  // character diff on Odia is unreadable.
+  function diff(oldT, newT){
+    var a = (oldT||'').split(/\s+/), b = (newT||'').split(/\s+/);
+    var n = a.length, m = b.length, i, j;
+    var lcs = Array.from({length:n+1}, function(){ return new Uint32Array(m+1); });
+    for(i=n-1;i>=0;i--) for(j=m-1;j>=0;j--)
+      lcs[i][j] = a[i]===b[j] ? lcs[i+1][j+1]+1 : Math.max(lcs[i+1][j], lcs[i][j+1]);
+    var html = '', changed = false;
+    i=0; j=0;
+    while(i<n && j<m){
+      if(a[i]===b[j]){ html += esc(a[i])+' '; i++; j++; }
+      else if(lcs[i+1][j] >= lcs[i][j+1]){ html += '<del>'+esc(a[i])+'</del> '; i++; changed = true; }
+      else { html += '<ins>'+esc(b[j])+'</ins> '; j++; changed = true; }
+    }
+    while(i<n){ html += '<del>'+esc(a[i++])+'</del> '; changed = true; }
+    while(j<m){ html += '<ins>'+esc(b[j++])+'</ins> '; changed = true; }
+    return {html: html, changed: changed};
+  }
+  function esc(s){ return String(s).replace(/[&<>]/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]; }); }
+
+  function getCsrf(){
+    var m = document.cookie.match(/(?:^|;\s*)csrftoken=([^;]+)/);
+    return m ? decodeURIComponent(m[1]) : '';
+  }
+
+  btn.addEventListener('click', function(){
+    var text = document.getElementById('tt-text').value.trim();
+    if(!text){ out.innerHTML = '<span class="tt-err">Nothing to translate.</span>'; return; }
+    var target = document.getElementById('tt-target').value;
+    btn.disabled = true;
+    status.textContent = 'translating...';
+    out.innerHTML = '<span class="tt-meta">working...</span>';
+    document.getElementById('tt-outlabel').textContent = target;
+
+    var body = new URLSearchParams({
+      text: text,
+      source: document.getElementById('tt-source').value,
+      target: target,
+      query: '{{ qobj.pk|default:"" }}'
+    });
+    fetch('', {method:'POST', headers:{
+        'Content-Type':'application/x-www-form-urlencoded',
+        'X-CSRFToken': getCsrf()
+      }, body: body})
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        btn.disabled = false;
+        if(!d.ok){
+          status.textContent = '';
+          out.innerHTML = '<span class="tt-err">'+esc(d.error||'Translation failed.')+'</span>';
+          return;
+        }
+        out.textContent = d.output;
+        status.textContent = d.ms + ' ms';
+
+        var wrap = document.getElementById('tt-terms-wrap');
+        if(d.terms && d.terms.length){
+          document.getElementById('tt-terms-n').textContent = d.terms.length;
+          document.getElementById('tt-terms').innerHTML = d.terms.map(function(t){
+            return '<span>'+esc(t.en)+' → '+esc(t.od)+'</span>'; }).join('');
+          wrap.style.display = '';
+        } else { wrap.style.display = 'none'; }
+
+        if(storedEl && stored){
+          var r = diff(stored, d.output);
+          storedEl.innerHTML = r.html;
+          document.getElementById('tt-diff-note').textContent =
+            r.changed ? '(red = replaced, green = what this run produced)'
+                      : '(identical to this run)';
+        }
+      })
+      .catch(function(e){
+        btn.disabled = false; status.textContent = '';
+        out.innerHTML = '<span class="tt-err">'+esc(e)+'</span>';
+      });
+  });
+})();
+</script>
+{% endblock %}

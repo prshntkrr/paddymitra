@@ -1,0 +1,82 @@
+{
+ "source": "aluminium-toxicity-english.pdf",
+ "sha256": "957d9fea5792347bbfc7752b16f06d40d01410a94ed514b0319987571626ad43",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:46:54",
+ "chunk_count": 6,
+ "chunks": [
+  {
+   "text": "What it does\nAluminum toxicity in soil inhibits the growth of plant shoots by causing nutrient deficiencies in Magnesium, Calcium, and Phosphorus.\nIt can also lead to drought stress and plant hormone imbalance.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "aluminium-toxicity-english.pdf",
+    "page": 1,
+    "section": "What it does"
+   }
+  },
+  {
+   "text": "Why and where it occurs\nAl toxicity is relatively rare in irrigated rice systems www.rkbodisha.in\nIt rarely occurs in lowland rice except in some soils where there is very slow soil reduction after flooding.\nAl toxicity occurs on the following soils:\n- Acid upland soils (Ultisols, Oxisols) with large exchangeable Al content Al toxicity often occurs together with Mn toxicity.\n- Acid sulfate soils, particularly when rice is grown as an upland crop for a few weeks before flooding\n- Flooded soils with pH <4 before Fe toxicity symptoms appear",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "aluminium-toxicity-english.pdf",
+    "page": 1,
+    "section": "Why and where it occurs"
+   }
+  },
+  {
+   "text": "How to identify\nCheck for leaf discoloration.\nOrange-yellow interveinal chlorosis can be found on leaves.\nWhen severe, discolored areas can die. Yellow to white mottling of interveins is followed by leaf tip death and leaf margin scorch.\nAlso check for poor stunted growth and deformed roots in susceptible varieties.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "aluminium-toxicity-english.pdf",
+    "page": 1,
+    "section": "How to identify"
+   }
+  },
+  {
+   "text": "Why is it important\nAl toxicity is one of the major factors in limiting crop production on acid upland soils, and can be a major source of yield loss.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "aluminium-toxicity-english.pdf",
+    "page": 1,
+    "section": "Why is it important"
+   }
+  },
+  {
+   "text": "How to manage\nTo prevent Aluminum toxicity:\n- Plant tolerant varieties.\n- Contact your local agriculture office for an up-to-date list of available varieties.\n- Delay planting until pH has increased sufficiently after flooding (to immobilize Al).\n- Provide crops with sufficient water to maintain reduced soil conditions. Prevent the topsoil from drying out.\n- Manage fertilizers efficiently.\n- Recycle straw or ash in the field to replenish Si removed.\nThere is currently no practical treatment option for aluminum toxicity. Where possible:\n- Apply 1 -3 t lime ha -1 to raise pH. Determine the exact amount needed based on a lime requirement test.\n- Perform laboratory tests and procedures. Ameliorate subsoil acidity to improve root growth below the plow layer by leaching Ca into the subsoil from lime applied to the soil surface. Supply anions SO4 2- or NO3 - to accompany Ca2+ moving into the subsoil by applying gypsum, green manure crop, or urea with additional lime to neutralize the acidity generated in nitrification. Cl - is not an effective counter ion.\n- On acid upland soils, install soil erosion traps and incorporate 1 t ha -1 of reactive rock phosphate to alleviate P deficiency.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "aluminium-toxicity-english.pdf",
+    "page": 1,
+    "section": "How to manage"
+   }
+  },
+  {
+   "text": "Learn More\nVisit Rice Based Cropping Systems Knowledge Bank www.rkbodisha.in",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "aluminium-toxicity-english.pdf",
+    "page": 1,
+    "section": "Learn More"
+   }
+  }
+ ]
+}

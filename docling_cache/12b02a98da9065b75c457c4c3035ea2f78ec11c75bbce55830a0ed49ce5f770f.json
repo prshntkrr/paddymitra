@@ -1,0 +1,45 @@
+{
+ "source": "CR-Dhan-910.pdf",
+ "sha256": "12b02a98da9065b75c457c4c3035ea2f78ec11c75bbce55830a0ed49ce5f770f",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:33:06",
+ "chunk_count": 3,
+ "chunks": [
+  {
+   "text": "PTR, Planting Method = DSR. PTR, Ecosystem = Irrigated Lowland Rainfed Lowland Upland. Recommended, Planting Method = Not Recommended. Recommended, Ecosystem = Not Recommended Not Recommended Recommended\nReplace, Irrigated Lowland = None. Replace, Rainfed Lowland = Geetanjali. Replace, Upland = None. Companion, Irrigated Lowland = None. Companion, Rainfed Lowland = CR Dhan 902. Companion, Upland = None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-910.pdf",
+    "page": 1
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nCR Dhan 910, Grain yield.(Kg/ha) = 4000-4500. CR Dhan 910, Grain yield.% Adv = . CR Dhan 910, Maturity (days). = 140-145. CR Dhan 910, Plant height (cm). = 95-100. CR Dhan 910, Lodging. = Tolerant. CR Dhan 910, HRR %. = 68. CR Dhan 910, 1000 grain weight (g). = 17. CR Dhan 910, Grain Shape. = MS. Geetanjali, Grain yield.(Kg/ha) = 4000-4500. Geetanjali, Grain yield.% Adv = . Geetanjali, Maturity (days). = 130-135. Geetanjali, Plant height (cm). = 110-115. Geetanjali, Lodging. = Susceptible. Geetanjali, HRR %. = 67. Geetanjali, 1000 grain weight (g). = 18. Geetanjali, Grain Shape. = LS",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-910.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nCR Dhan 910, Sheath rot = Resistant. CR Dhan 910, Sheath rot = Resistant. CR Dhan 910, Stem borer = Resistant. CR Dhan 910, BPH = Resistant. CR Dhan 910, Gall midge = Tolerant. Geetanjali, Sheath rot = Susceptible. Geetanjali, Sheath rot = Susceptible. Geetanjali, Stem borer = Susceptible. Geetanjali, BPH = Susceptible. Geetanjali, Gall midge = Susceptible\nProducibility: CR Dhan 910= 1500Kgs. / acre\nRecommendation:\nReleased for cultivation in Odisha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-910.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "source": "site-specific-nutrient-management-for-rice-english.pdf",
+ "sha256": "dfc1d3e5ecb11d2477592909f2a063aed422344cbc3469ad763b92b3264346e9",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:52:11",
+ "chunk_count": 6,
+ "chunks": [
+  {
+   "text": "Introduction\nSite-specific nutrient management is a plant-based approach which helps farmers to optimize the use of N, P and K in their rice fields. The growth and nutrient needs of each rice crop will vary not only within and between fields, but between seasons and years.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "site-specific-nutrient-management-for-rice-english.pdf",
+    "page": 1,
+    "section": "Introduction"
+   }
+  },
+  {
+   "text": "Step 1: Establish an attainable yield target\nThe amount of nutrients taken up by a rice crop is directly related to yield. It is the yield target that indicates the total amount of nutrients that should be applied to the crop.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "site-specific-nutrient-management-for-rice-english.pdf",
+    "page": 1,
+    "section": "Step 1: Establish an attainable yield target"
+   }
+  },
+  {
+   "text": "Step 2: Effective use of existing nutrients\nThe uptake of a nutrient from indigenous sources can be estimated by the grain yield for the crop without applying N, P or K. This can be determined by leaving a strip in the field where respective nutrient source is not applied (N, P or K omission plots).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "site-specific-nutrient-management-for-rice-english.pdf",
+    "page": 1,
+    "section": "Step 2: Effective use of existing nutrients"
+   }
+  },
+  {
+   "text": "Step 3: Apply fertilizer to fill the deficit between crop need and indigenous supply\nN, P, and K fertilizer are applied to supplement the nutrients from indigenous sources to achieve the yield target. The quantity of fertilizer needed is determined by subtracting the yield of the omission plots from the target yield. As a baseline, each ton of grain will need approximately 20 kg N, 5 kg P and 5 kg K if the straw is not removed.\nIn SSNM, fertilizers are applied using the following principles to achieve high yield and high efficiency of plant use:\n- Apply 10-20 % of N fertilizer to young rice within the 14 days after transplanting (DAT) or 21 days after sowing (DAS), when the need of the crop for supplemental N is small.\n- Apply 30-40 % N fertilizer at 30-35 days after establishment based on the crop's need for N, as determined by leaf N status. Apply the remaining 30-40 % of N at panicle initiation.\n- The leaf color chart (LCC) is a tool that can be used for assessing leaf N status and the crop's need for N.\n- Important: Do not apply N into dry fields.\n- Apply all fertilizer for P near transplanting or sowing.\n- Apply fertilizer K twice: 50 % near transplanting or sowing and 50 % at early panicle initiation. When fertilizer K rates are relatively low (for example, ≤30 kg K2O/ha), all fertilizer K can be applied near transplanting or sowing.\nSSNM must be adjusted to local needs taking into consideration cropping history, seasonal effects, irrigation strategies and expected weather patterns.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "site-specific-nutrient-management-for-rice-english.pdf",
+    "page": 1,
+    "section": "Step 3: Apply fertilizer to fill the deficit between crop need and indigenous supply"
+   }
+  },
+  {
+   "text": "Rice Crop Manager\nThe concepts of SSNM are synthesized into a decisionmaking tool accessible through the web browser on computers and smart phones called the crop manager. It provides:\n- Small-scale rice, wheat, and maize farmers with crop and nutrient management advice customized to farming conditions and needs\n- Can be used by extension workers, crop advisors, and service providers to interview a farmer and provide advice to a farmer related to nutrient management\n- RCM for Odisha can be accessed directly through http://webapps.irri.org/in/od/rcm/",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "site-specific-nutrient-management-for-rice-english.pdf",
+    "page": 1,
+    "section": "Rice Crop Manager"
+   }
+  },
+  {
+   "text": "Learn More\nVisit Rice Based Cropping Systems Knowledge Bank www.rkbodisha.in\nRice Crop Manager for Odisha\nIncreasing Productivity of Rice Based Cropping Systems and Farmers' Income in Odisha\nwww.rkbodisha.in\nIRRI Leaf Color Chart",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "site-specific-nutrient-management-for-rice-english.pdf",
+    "page": 1,
+    "section": "Learn More"
+   }
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block page_title %}Upload images{% endblock %}
+{% block content %}
+<div class="card" style="max-width:720px;">
+  <div class="card-header"><h3>Upload visual groups</h3></div>
+  <form method="post" enctype="multipart/form-data">{% csrf_token %}
+    <div class="card-body">
+      {% if form.errors %}<div class="login-error show">{{ form.errors }}</div>{% endif %}
+      <p style="font-size:13px;color:var(--gray-500);">
+        Upload one or more <code>&lt;prefix&gt;.txt</code> sidecar files together with the
+        images they describe. The sidecar's filename (without extension) is the prefix;
+        each image whose filename starts with that prefix joins the same visual group.
+        <br><br>
+        Example: upload <code>bacterial_leaf_blight.txt</code> plus
+        <code>bacterial_leaf_blight_1.jpg</code>, <code>bacterial_leaf_blight_2.jpg</code>, …
+        and they will all be indexed together.
+      </p>
+      <div class="form-group">
+        <label>Sidecar files (.txt / .md)</label>
+        <input class="form-control" type="file" name="sidecars" accept=".txt,.md" multiple required>
+        <small style="color:var(--gray-500);">One file per visual group. Filename = prefix; contents = visual description.</small>
+      </div>
+      <div class="form-group">
+        <label>Images</label>
+        <input class="form-control" type="file" name="images" accept="image/*" multiple required>
+        <small style="color:var(--gray-500);">Each image is matched to a sidecar by filename prefix. Unmatched images are skipped.</small>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="{% url 'image_bank:list' %}" class="btn btn-secondary">Cancel</a>
+      <button class="btn btn-primary">Upload &amp; index</button>
+    </div>
+  </form>
+</div>
+{% endblock %}

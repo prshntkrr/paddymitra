@@ -1,0 +1,316 @@
+{% extends 'base.html' %}
+{% load irri_extras %}
+{% block page_title %}Demo query{% endblock %}
+{% block content %}
+<style>
+  .pm-chat-highlight {
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.18);
+    border-color: #059669;
+    background: #059669;
+    color: #FFFFFF;
+    white-space: nowrap;
+  }
+
+  .pm-chat-highlight:hover {
+    background: #047857;
+    color: #FFFFFF;
+  }
+</style>
+<div class="card" style="max-width:680px;">
+  <div class="card-header" style="display:flex;align-items:center;justify-content:space-between;gap:12px;">
+    <h3 style="margin:0;">Run a demo query through the RAG pipeline</h3>
+    <a href="{% url 'queries:chat' %}" class="btn btn-primary pm-chat-highlight">{% icon "chat" 14 %} Chat</a>
+  </div>
+  <form id="demo-form" method="post" enctype="multipart/form-data">{% csrf_token %}
+    <div class="card-body">
+      {% if form.errors %}<div class="login-error show">{{ form.errors }}</div>{% endif %}
+      <div class="form-group"><label>Catalogue (must have a ready vector DB)</label>{{ form.catalogue }}</div>
+      <div class="form-row">
+        <div class="form-group"><label>Farmer language</label>{{ form.farmer_language }}</div>
+        <div class="form-group"><label>District</label>{{ form.district }}</div>
+      </div>
+      <div class="form-group">
+        <label>Ask as</label>
+        <div style="display:flex;gap:18px;margin-top:6px;">
+          {% for radio in form.user_type %}
+            <label style="display:flex;gap:6px;align-items:flex-start;font-size:13px;cursor:pointer;">
+              {{ radio.tag }}
+              <span>{{ radio.choice_label }}</span>
+            </label>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Query (text)</label>
+        <div id="demo-query-idle" style="position:relative;margin-bottom:8px;">
+          {{ form.query_text }}
+          <button type="button" id="demo-mic-btn" title="Click to record."
+                  style="position:absolute;right:6px;top:16px;background:transparent;border:0;cursor:pointer;padding:6px;display:flex;align-items:center;justify-content:center;color:var(--gray-500);">
+            {% icon "mic" 18 %}
+          </button>
+        </div>
+        <div id="demo-recording" style="display:none;align-items:center;gap:10px;height:42px;border:1px solid var(--gray-300);border-radius:6px;padding:0 10px;background:#fff;">
+          <span id="demo-rec-timer" style="font-family:monospace;font-size:13px;color:#DC2626;min-width:38px;">0:00</span>
+          <canvas id="demo-rec-canvas" style="flex:1;height:28px;display:block;"></canvas>
+          <button type="button" id="demo-rec-cancel" title="Cancel"
+                  style="background:transparent;border:0;cursor:pointer;color:#DC2626;font-size:18px;line-height:1;padding:6px 8px;">✕</button>
+          <button type="button" id="demo-rec-done" title="Stop &amp; transcribe"
+                  style="background:transparent;border:0;cursor:pointer;color:#059669;font-size:18px;line-height:1;padding:6px 8px;">✓</button>
+        </div>
+        {# The recording waiting to be submitted. Played back HERE, under the box, #}
+        {# so a take that came out badly can be replaced before running anything.  #}
+        <div id="demo-audio-preview" style="display:none;align-items:center;gap:8px;margin-top:8px;
+             padding:8px 10px;border:1px solid var(--gray-300);border-radius:6px;background:#F9FAFB;">
+          <span style="font-size:12px;color:var(--gray-600);white-space:nowrap;">Your recording</span>
+          <audio id="demo-audio-player" controls style="flex:1;height:32px;min-width:0;"></audio>
+          <button type="button" id="demo-audio-discard" title="Discard this recording"
+                  style="background:transparent;border:0;cursor:pointer;color:#b91c1c;font-size:16px;line-height:1;padding:4px 6px;">✕</button>
+        </div>
+        {# Filled in by the recorder, not by hand — this is what carries the audio #}
+        {# to the server with the rest of the form. #}
+        <input type="file" name="query_audio" id="demo-query-audio" accept="audio/*"
+               style="display:none;" tabindex="-1">
+        <div id="demo-mic-status" style="font-size:11px;color:var(--gray-500);margin-top:4px;min-height:14px;">Click the mic to record (uses the selected farmer language).</div>
+        <small style="color:var(--gray-500);">{{ form.query_text.help_text }}</small>
+      </div>
+      <div class="form-group">
+        <label>Or upload an image</label>
+        {{ form.image }}
+        <small style="color:var(--gray-500);">{{ form.image.help_text }}</small>
+      </div>
+      <div class="form-group"><label>{{ form.generate_tts }} Also generate voice response (TTS)</label></div>
+      <p style="font-size:12px;color:var(--gray-500);">This runs the full pipeline: translate → retrieve (Chroma) → classify → generate → translate back{% if form.generate_tts.value %} → TTS{% endif %}.<br>Timing: typically 5–15 s.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="{% url 'queries:list' %}" class="btn btn-secondary">Cancel</a>
+      <button class="btn btn-primary" id="demo-run">Run pipeline</button>
+    </div>
+  </form>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function() {
+  var micBtn = document.getElementById('demo-mic-btn');
+  var statusEl = document.getElementById('demo-mic-status');
+  var qText = document.getElementById('demo-query') || document.querySelector('[name="query_text"]');
+  var idleRow = document.getElementById('demo-query-idle');
+  var recRow = document.getElementById('demo-recording');
+  var timerEl = document.getElementById('demo-rec-timer');
+  var canvas = document.getElementById('demo-rec-canvas');
+  var doneBtn = document.getElementById('demo-rec-done');
+  var cancelBtn = document.getElementById('demo-rec-cancel');
+  var langSel = document.querySelector('select[name="farmer_language"]');
+  if (!micBtn || !recRow || !qText) return;
+  if (!navigator.mediaDevices || !window.MediaRecorder) {
+    micBtn.disabled = true;
+    micBtn.title = 'Audio recording is not supported in this browser.';
+    statusEl.textContent = 'Audio recording is not supported in this browser.';
+    return;
+  }
+
+  var recorder = null;
+  var chunks = [];
+  var stream = null;
+  var audioCtx = null;
+  var analyser = null;
+  var srcNode = null;
+  var rafId = null;
+  var timerInterval = null;
+  var cancelled = false;
+
+  function showRecordingUI(on) {
+    idleRow.style.display = on ? 'none' : '';
+    recRow.style.display  = on ? 'flex' : 'none';
+  }
+
+  function formatTime(ms) {
+    var s = Math.floor(ms / 1000);
+    return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2);
+  }
+
+  function drawBars() {
+    if (!analyser || !canvas) return;
+    var w = canvas.clientWidth;
+    var h = canvas.clientHeight;
+    if (canvas.width !== w) canvas.width = w;
+    if (canvas.height !== h) canvas.height = h;
+    var ctx = canvas.getContext('2d');
+    var bufLen = analyser.frequencyBinCount;
+    var data = new Uint8Array(bufLen);
+    analyser.getByteFrequencyData(data);
+
+    ctx.clearRect(0, 0, w, h);
+    var barCount = 32;
+    var step = Math.floor(bufLen / barCount);
+    var barW = (w - (barCount - 1) * 2) / barCount;
+    for (var i = 0; i < barCount; i++) {
+      var v = data[i * step] / 255;
+      var barH = Math.max(2, v * h);
+      ctx.fillStyle = '#10B981';
+      ctx.fillRect(i * (barW + 2), (h - barH) / 2, barW, barH);
+    }
+    rafId = requestAnimationFrame(drawBars);
+  }
+
+  function teardownStream() {
+    if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
+    if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
+    try { if (srcNode) srcNode.disconnect(); } catch (_) {}
+    try { if (audioCtx && audioCtx.state !== 'closed') audioCtx.close(); } catch (_) {}
+    try { if (stream) stream.getTracks().forEach(function(t) { t.stop(); }); } catch (_) {}
+    srcNode = null; analyser = null; audioCtx = null; stream = null;
+  }
+
+  async function startRec() {
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    } catch (e) {
+      statusEl.textContent = 'Mic permission denied: ' + (e && e.message || e);
+      return;
+    }
+    chunks = [];
+    cancelled = false;
+
+    var mime = '';
+    var prefs = ['audio/webm;codecs=opus', 'audio/webm', 'audio/ogg;codecs=opus', 'audio/mp4'];
+    for (var i = 0; i < prefs.length; i++) {
+      if (window.MediaRecorder.isTypeSupported && window.MediaRecorder.isTypeSupported(prefs[i])) {
+        mime = prefs[i]; break;
+      }
+    }
+    recorder = new MediaRecorder(stream, mime ? { mimeType: mime } : undefined);
+    recorder.ondataavailable = function(e) { if (e.data && e.data.size) chunks.push(e.data); };
+    recorder.onstop = function() {
+      var blob = new Blob(chunks, { type: recorder.mimeType || 'audio/webm' });
+      teardownStream();
+      showRecordingUI(false);
+      if (cancelled) {
+        statusEl.textContent = 'Recording cancelled.';
+        return;
+      }
+      var ext = (blob.type.indexOf('ogg') > -1) ? '.ogg'
+              : (blob.type.indexOf('mp4') > -1) ? '.m4a' : '.webm';
+      uploadAndTranscribe(blob, ext);
+    };
+
+    try {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      srcNode  = audioCtx.createMediaStreamSource(stream);
+      analyser = audioCtx.createAnalyser();
+      analyser.fftSize = 128;
+      srcNode.connect(analyser);
+    } catch (_) {}
+
+    showRecordingUI(true);
+    timerEl.textContent = '0:00';
+    var startTime = Date.now();
+    timerInterval = setInterval(function() {
+      timerEl.textContent = formatTime(Date.now() - startTime);
+    }, 250);
+    drawBars();
+    recorder.start();
+    statusEl.textContent = 'Recording… click ✓ to stop, ✕ to cancel.';
+  }
+
+  function stopRec(discard) {
+    cancelled = !!discard;
+    if (recorder && recorder.state !== 'inactive') {
+      statusEl.textContent = discard ? 'Cancelling…' : 'Stopping…';
+      recorder.stop();
+    } else {
+      teardownStream();
+      showRecordingUI(false);
+    }
+  }
+
+  // ── The recording waiting to be submitted ────────────────────────────────
+  // Held in the page until the form is posted. The hidden file input is what
+  // actually carries it, populated through DataTransfer because a file input
+  // cannot be assigned a value any other way.
+  var audioRow = document.getElementById('demo-audio-preview');
+  var audioPlayer = document.getElementById('demo-audio-player');
+  var audioInput = document.getElementById('demo-query-audio');
+  var audioUrl = null;
+
+  function clearPendingAudio() {
+    if (audioUrl) { URL.revokeObjectURL(audioUrl); audioUrl = null; }
+    if (audioInput) audioInput.value = '';
+    if (audioRow) audioRow.style.display = 'none';
+  }
+
+  function setPendingAudio(blob, ext) {
+    clearPendingAudio();
+    if (!audioRow || !audioPlayer || !audioInput) return;
+    audioUrl = URL.createObjectURL(blob);
+    audioPlayer.src = audioUrl;
+    audioRow.style.display = 'flex';
+    try {
+      var dt = new DataTransfer();
+      dt.items.add(new File([blob], 'recording' + ext, { type: blob.type || 'audio/webm' }));
+      audioInput.files = dt.files;
+    } catch (e) {
+      // Older browsers have no DataTransfer. The question still runs; only the
+      // stored copy of the recording is lost, so this must never block sending.
+      statusEl.textContent = 'Recorded (this browser cannot attach it for storage).';
+    }
+  }
+
+  var discardBtn = document.getElementById('demo-audio-discard');
+  if (discardBtn) {
+    discardBtn.addEventListener('click', function() {
+      clearPendingAudio();
+      statusEl.textContent = 'Recording discarded. The text is still there — record again or type.';
+    });
+  }
+
+  function uploadAndTranscribe(blob, ext) {
+    statusEl.textContent = 'Transcribing…';
+    var fd = new FormData();
+    fd.append('audio', blob, 'recording' + ext);
+    fd.append('language', langSel ? langSel.value : 'English');
+    var csrf = document.querySelector('input[name=csrfmiddlewaretoken]');
+    fetch('{% url "catalogues:transcribe" %}', {
+      method: 'POST',
+      headers: csrf ? { 'X-CSRFToken': csrf.value } : {},
+      body: fd,
+      credentials: 'same-origin'
+    }).then(function(r) { return r.json(); }).then(function(j) {
+      if (j && j.ok) {
+        qText.value = (j.text || '').trim();
+        // Keep the recording so it is SUBMITTED with the query. Recording again
+        // replaces it, so only the take actually used is ever stored.
+        setPendingAudio(blob, ext);
+        statusEl.textContent = j.text
+          ? 'Transcribed. Play it back, edit the text if needed, then run pipeline.'
+          : 'No speech detected. Play it back and try again.';
+        qText.focus();
+      } else {
+        statusEl.textContent = 'Transcription failed: ' + (j && j.error || 'unknown error');
+      }
+    }).catch(function(e) {
+      statusEl.textContent = 'Transcription error: ' + (e && e.message || e);
+    });
+  }
+
+  micBtn.addEventListener('click', startRec);
+  doneBtn.addEventListener('click', function() { stopRec(false); });
+  cancelBtn.addEventListener('click', function() { stopRec(true); });
+})();
+
+var demoForm = document.getElementById('demo-form');
+if (demoForm) {
+  demoForm.addEventListener('submit', function() {
+    var btn = document.getElementById('demo-run');
+    if (btn && !btn.disabled) {
+      btn.disabled = true;
+      btn.dataset.originalText = btn.textContent;
+      btn.textContent = 'Processing…';
+      btn.style.opacity = '0.7';
+      btn.style.cursor = 'wait';
+    }
+  });
+}
+</script>
+{% endblock %}

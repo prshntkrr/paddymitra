@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block page_title %}New visual group — {{ catalogue.name }}{% endblock %}
+{% block topbar_actions %}
+  <a href="{% url 'catalogues:detail' catalogue.slug %}#image-groups" class="btn btn-sm btn-secondary">← Back to catalogue</a>
+{% endblock %}
+{% block content %}
+<div class="card" style="max-width:760px;">
+  <div class="card-header"><h3>Upload sidecar + images for «{{ catalogue.name }}»</h3></div>
+  <form method="post" enctype="multipart/form-data">{% csrf_token %}
+    <div class="card-body">
+      <p style="font-size:13px;color:var(--gray-500);">
+        The sidecar's filename (without extension) becomes the visual group's <strong>prefix</strong>;
+        its contents become the <strong>visual description</strong>. Each image whose filename starts
+        with that prefix joins the group automatically.
+        <br><br>
+        Example: <code>bacterial_leaf_blight.txt</code> + <code>bacterial_leaf_blight_1.jpg</code>,
+        <code>bacterial_leaf_blight_2.jpg</code>, …
+      </p>
+      <div class="form-group">
+        <label>Sidecar files (.txt / .md)</label>
+        <input class="form-control" type="file" name="sidecars" accept=".txt,.md" multiple required>
+        <small style="color:var(--gray-500);">One file per visual group. Re-uploading an existing prefix updates its description.</small>
+      </div>
+      <div class="form-group">
+        <label>Images</label>
+        <input class="form-control" type="file" name="images" accept="image/*" multiple required>
+        <small style="color:var(--gray-500);">Each image is matched to a sidecar by filename prefix. Unmatched images are skipped.</small>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="{% url 'catalogues:detail' catalogue.slug %}#image-groups" class="btn btn-secondary">Cancel</a>
+      <button class="btn btn-primary">Upload &amp; index</button>
+    </div>
+  </form>
+</div>
+{% endblock %}

@@ -1,0 +1,106 @@
+{
+ "source": "Sahbhagi-Dhan.pdf",
+ "sha256": "c3ec39e3dbc0b4e0243d9cf7eb84b0fe492cbd44004101fed247127d256a9405",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:41:39",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "Sahbhagi Dhan*\n(IR 55419-42 x WAY RAREM)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Sahbhagi-Dhan.pdf",
+    "page": 1,
+    "section": "Sahbhagi Dhan*"
+   }
+  },
+  {
+   "text": "Product Profile\nSahbhagi Dhan is an early-maturing, semi-dwarf variety characterized by long-bold grains, widely adaptable variety, mainly grown as direct seeded rice in rainfed and upland environments. Developed collaboratively by CRRI, Hajaribag, and IRRI, it was released in 2009 for cultivation in Jharkhand and Odisha. Notably, it exhibits tolerance to drought and displays exceptional adaptability to water-scarce and upland environments.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Sahbhagi-Dhan.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment - TELS-R, DELS/R/U\nRecommended, Planting Method.DSR = Recommended. Recommended, Ecosystem.Irrigated Lowland = Not Recommended. Recommended, Ecosystem.Rainfed Lowland = Recommended. Recommended, Ecosystem.Upland = Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Sahbhagi-Dhan.pdf",
+    "page": 1,
+    "section": "Priority Market Segment - TELS-R, DELS/R/U"
+   }
+  },
+  {
+   "text": "Positioning\nReplace, Irrigated Lowland = None. Replace, Rainfed Lowland = IR-64. Replace, Upland = Khandagiri. Companion, Irrigated Lowland = None. Companion, Rainfed Lowland = DRR Dhan 42. Companion, Upland = DRR Dhan 42",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Sahbhagi-Dhan.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Drought tolerant\n- Semi-dwarf; Profuse tillering; High straw yield\n- Long bold grain\n- Early maturity; Non-lodging\n- High HRR; Excellent eating quality\n- Tolerant to Leaf blast, Sheath blight & Leaf folder",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Sahbhagi-Dhan.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nSahbhagi Dhan, Grain yield.(Kg/ha) = 3800-4500. Sahbhagi Dhan, Grain yield.% Adv = 40. Sahbhagi Dhan, Maturity (days). = 100-110. Sahbhagi Dhan, Plant height (cm). = 85-90. Sahbhagi Dhan, Lodging. = Tolerant. Sahbhagi Dhan, HRR %. = 65. Sahbhagi Dhan, 1000 grain weight (g). = 22. Sahbhagi Dhan, Grain Shape. = LB. Khandagiri, Grain yield.(Kg/ha) = 3000-3200. Khandagiri, Grain yield.% Adv = -. Khandagiri, Maturity (days). = 90-100. Khandagiri, Plant height (cm). = 85-90. Khandagiri, Lodging. = Tolerant. Khandagiri, HRR %. = 64. Khandagiri, 1000 grain weight (g). = 21. Khandagiri, Grain Shape. = MB",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Sahbhagi-Dhan.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nSahbhagi Dhan, Leaf blast = Tolerant. Sahbhagi Dhan, Leaf blight = Susceptible. Sahbhagi Dhan, Sheath blight = Tolerant. Sahbhagi Dhan, BPH = Susceptible. Sahbhagi Dhan, Stem borer = Tolerant. Sahbhagi Dhan, Leaf folder = Tolerant. Sahbhagi Dhan, Drought = Tolerant. Khandagiri, Leaf blast = Tolerant. Khandagiri, Leaf blight = Resistant. Khandagiri, Sheath blight = Susceptible. Khandagiri, BPH = Susceptible. Khandagiri, Stem borer = Susceptible. Khandagiri, Leaf folder = Susceptible. Khandagiri, Drought = Tolerant\nProducibility:\nSahbhagi Dhan= 1500-1800Kgs. / acre\nRecommendation: Released for cultivation in Odhisa, Madhya Pradesh, Andhra Pradesh, Jharkhand, Chhattisgarh, Bihar, West Bengal, Assam, UttarPradesh.\nNational check in varietal trial (Early direct seeded) conducted by IIRR, India.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Sahbhagi-Dhan.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\n- Susceptible to low temperature\n- Low yield under sever drought\n- Susceptible to Leaf blight",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Sahbhagi-Dhan.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}

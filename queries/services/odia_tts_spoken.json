@@ -1,0 +1,45 @@
+{
+  "_comment_letters": "A letter name that ENDS IN A CONSONANT must keep its halant: ଏମ୍ ଏନ୍ ଏସ୍ ଏଲ୍ ଏଫ୍ ଏଚ୍ ଆର୍. Odia PRONOUNCES the word-final inherent vowel (ରାମ is 'ramo', not 'ram'), so a halant-less ଏମ is read 'emo' and MOP came out as 'emo-o-pi' — reported as 'MO OP'. Letter names ending in a vowel (ଡି ଏ ପି କେ ଓ ଟି ୟୁ ଜି ସି) take no halant. The canonical spelling of every letter is _LETTER_NAMES in technical_terms.py — copy from there, do not retype by ear.",
+  "_comment_pairs": "Add BOTH keys for a new acronym: the Latin one (MOP) and the Odia one the glossary rewrites it to (ଏମଓପି). apply_glossary runs first on the TTS path, so the Latin key alone is not enough.",
+
+  "DAP": "ଡି ଏ ପି ସାର",
+  "MOP": "ଏମ୍ ଓ ପି ସାର",
+  "MoP": "ଏମ୍ ଓ ପି ସାର",
+  "NPK": "ଏନ୍ ପି କେ ସାର",
+  "SSP": "ଏସ୍ ଏସ୍ ପି ସାର",
+  "S.S.P": "ଏସ୍ ଏସ୍ ପି ସାର",
+  "Urea": "ୟୁରିଆ ସାର",
+  "urea": "ୟୁରିଆ ସାର",
+  "g/L": "ଗ୍ରାମ ପ୍ରତି ଲିଟର",
+  "kg/ha": "କିଲୋ ଗ୍ରାମ ପ୍ରତି ହେକ୍ଟର",
+  "ନାଇଟ୍ରୋଜେନ": "ଯବକ୍ଷାରଜାନ",
+  "ନାଇଟ୍ରୋଜେନ୍": "ଯବକ୍ଷାରଜାନ",
+
+  "କିଲୋଗ୍ରାମରେ": "କିଲୋ ଗ୍ରାମ ରେ",
+  "କିଲୋଗ୍ରାମରୁ": "କିଲୋ ଗ୍ରାମ ରୁ",
+  "କିଲୋଗ୍ରାମର": "କିଲୋ ଗ୍ରାମ ର",
+  "କିଲୋଗ୍ରାମକୁ": "କିଲୋ ଗ୍ରାମ କୁ",
+  "କିଲୋଗ୍ରାମ": "କିଲୋ ଗ୍ରାମ",
+  "କିଲୋଗ୍ରାମ୍": "କିଲୋ ଗ୍ରାମ",
+
+  "ପୋଟାସିୟମରେ": "ପୋଟାସିୟମ ରେ",
+  "ପୋଟାସିୟମରୁ": "ପୋଟାସିୟମ ରୁ",
+  "ପୋଟାସିୟମର": "ପୋଟାସିୟମ ର",
+  "ପୋଟାସିୟମକୁ": "ପୋଟାସିୟମ କୁ",
+  "ପୋଟାସିୟମଠାରୁ": "ପୋଟାସିୟମ ଠାରୁ",
+  "ପୋଟାସିୟମରୁଁ": "ପୋଟାସିୟମ ରୁଁ",
+  "ପୋଟାସିୟମ୍ର": "ପୋଟାସିୟମ ର",
+  "ପୋଟାସିୟମ୍": "ପୋଟାସିୟମ",
+
+  "ପୋକଜୋକରେ": "ପୋକ ଜୋକ ରେ",
+  "ପୋକଜୋକରୁ": "ପୋକ ଜୋକ ରୁ",
+  "ପୋକଜୋକର": "ପୋକ ଜୋକ ର",
+  "ପୋକଜୋକକୁ": "ପୋକ ଜୋକ କୁ",
+  "ପୋକଜୋକ": "ପୋକ ଜୋକ",
+
+  "ଡିଏପି": "ଡି ଏ ପି",
+  "ଏନପିକେ": "ଏନ୍ ପି କେ",
+  "ଏମଓପି": "ଏମ୍ ଓ ପି",
+  "ଏମ୍ଓପି": "ଏମ୍ ଓ ପି",
+  "ଏସଏସପି": "ଏସ୍ ଏସ୍ ପି"
+}

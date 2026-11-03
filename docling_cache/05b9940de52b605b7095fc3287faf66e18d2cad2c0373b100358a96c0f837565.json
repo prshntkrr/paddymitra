@@ -1,0 +1,58 @@
+{
+ "source": "Potassium (K) - IRRI Rice Knowledge Bank.pdf",
+ "sha256": "05b9940de52b605b7095fc3287faf66e18d2cad2c0373b100358a96c0f837565",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:34:36",
+ "chunk_count": 4,
+ "chunks": [
+  {
+   "text": "What is the role of Potassium (K) in plants\nPotassium (K) is an essential plant nutrient that improves root growth and plant vigor, helps prevent lodging and enhances crop resistance to pests and diseases. Potassium is mobile in the plant and quite mobile in the soil.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Potassium (K) - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "What is the role of Potassium (K) in plants"
+   }
+  },
+  {
+   "text": "Why apply Potassium to rice\nPotassium is often the most limiting nutrient after nitrogen (N) in high yielding rice systems. K fertilizer needs to be applied in adequate amounts in most irrigated rice fields. Other nutrients need to be applied in balanced amounts to ensure a good crop response to K\nfertilizer application and to achieve a healthy and productive crop.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Potassium (K) - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "Why apply Potassium to rice"
+   }
+  },
+  {
+   "text": "How to manage Potassium\n- Potassium deficiency symptoms. Stunted dark green plants with yellowish brown leaf margins and/or older leaves with necrotic tips and margins; leaf symptoms of K deficiency can be confused with that of Tungro disease, but Tungro occurs in patches in a field (not in the whole field) and usually has more pronounced yellow and orange leaves and plant stunting; leaf symptoms often appear in late growth stages; unhealthy or black roots; greater lodging; higher level of unfilled grains; lower grain weight.\n- Occurrence of K deficiency. K deficiency occurs in intensively cropped areas with high levels of N and P application. K is often deficient in coarse-textured/sandy soils; acid upland soils; degraded lowland soils; acid sulfate soils; and, organic soils. Note: additions of K from irrigation water can be significant in some areas (e.g. South Vietnam).\n- How much K to apply? At optimum plant nutrition, the rice crop (straw plus in grain) takes up around 19 kg K2O (16 kg K) per ton of grain yield (2.2 kg K2O in grain and 16.8 kg K2O in straw). Recommendations for K are based on yield target and soil K status (see Table on opposite page) as determined by grain yield in K-omission plots (see also Fact Sheet on Nutrient Omission Plot Technique for P and K).\n- When to apply K fertilizer? If fertilizer K rates are small, incorporate all fertilizer K before the last soil puddling before transplanting or topdress all K within 10-15 days after direct seeding. At rates > 30 kg K2O/ha, apply 50% basal and 50% at early panicle initiation. Split K in at least two doses if soil is sandy with leaching. Use of K at flowering increases resistance to lodging and diseases in dense canopies with high yield target, but may not increase yields.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Potassium (K) - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "How to manage Potassium"
+   }
+  },
+  {
+   "text": "What are the sources of Potassium\nThe most common K fertilizer is muriate of potash (MOP) which contains about 50% K or 60% K2O in the form of KCl (30 kg K2O is equal to 50 kg MOP or KCl). Rice straw is rich in K (14.0 kg K or 16.8 kg K2O per ton straw). Note: 1 kg K2O = 0.83 kg K and 1 kg K = 1.2 kg K2O\nDeveloped with inputs from V Balasubramanian, C Witt, RJ Buresh, and M Bell",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Potassium (K) - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "What are the sources of Potassium"
+   }
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "source": "Phosphorus (P) - IRRI Rice Knowledge Bank.pdf",
+ "sha256": "81b4997b09ec322dc24179a137ec1a441111a326bd7a05f3816dd2a8a18697a6",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:33:36",
+ "chunk_count": 3,
+ "chunks": [
+  {
+   "text": "What is the role of Phosphorus (P) in plants\nPhosphorous (P) is an essential plant nutrient important for root development, tillering, early flowering, and ripening. It is mobile within the plant, but not in the soil.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Phosphorus (P) - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "What is the role of Phosphorus (P) in plants"
+   }
+  },
+  {
+   "text": "How to manage P\n- Phosphorous deficiency symptoms. Stunted dark green plants with erect leaves and reduced tillering; thin and spindly stems; delayed maturity (and no flowering at all with severe P deficiency); and high levels of unfilled grains\n- Occurrence of P deficiency. P is often deficient in sandy soils with low organic matter content; calcareous/saline/alkaline soils; degraded lowland soils; volcanic ash soils or acid upland soils with high P fixation capacity; peat soils; and, acid sulfate soils high in active iron and aluminum.\n- How much P to apply? At optimum plant nutrition, the rice crop (straw plus grain) takes up around 6.4 kg P2O5 (2.8 kg P) per ton of grain yield (4.4 kg P2O5 in grain and 2.0 kg P2O5 in straw). Recommendations for P are based on yield goal and soil P status (see Table below) as determined by grain yield in P-omission plots (see also Fact Sheet on Nutrient Omission Plot Technique for P and K).\n- When to apply P fertilizers? Incorporate all fertilizer P before the last soil puddling before transplanting or topdress all P within 10-15 days after direct seeding.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Phosphorus (P) - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "How to manage P"
+   }
+  },
+  {
+   "text": "What are the sources of P?\nP fertilizer sources and fertilizer P2O5 equivalents.\nDeveloped with input from V Balasubramanian, C Witt, RJ Buresh, and M Bell",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Phosphorus (P) - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "What are the sources of P?"
+   }
+  }
+ ]
+}

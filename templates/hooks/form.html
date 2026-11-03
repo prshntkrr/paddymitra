@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block page_title %}{% if object %}Edit hook{% else %}Add hook{% endif %}{% endblock %}
+{% block content %}
+<div class="card" style="max-width:780px;">
+  <div class="card-header"><h3>{% if object %}Edit: {{ object.name }}{% else %}New hook{% endif %}</h3></div>
+  <form method="post">{% csrf_token %}
+    <div class="card-body">
+      {% if form.errors %}<div class="login-error show">{{ form.errors }}</div>{% endif %}
+      <div class="form-row">
+        <div class="form-group"><label>Name <span class="required">*</span></label>{{ form.name }}</div>
+        <div class="form-group"><label>Trigger keyword <span class="required">*</span></label>{{ form.trigger_keyword }}</div>
+      </div>
+      <div class="form-row">
+        <div class="form-group"><label>WhatsApp number</label>{{ form.whatsapp_number }}</div>
+        <div class="form-group"><label>Gateway</label>{{ form.gateway_provider }}</div>
+      </div>
+      <div class="form-group"><label>Catalogue <span class="required">*</span></label>{{ form.catalogue }}</div>
+      <div class="form-row">
+        <div class="form-group"><label>Primary language</label>{{ form.primary_language }}</div>
+        <div class="form-group"><label>Secondary language</label>{{ form.secondary_language }}</div>
+      </div>
+      <div class="form-row">
+        <div class="form-group"><label>STT provider</label>{{ form.stt_provider }}</div>
+        <div class="form-group"><label>TTS provider</label>{{ form.tts_provider }}</div>
+      </div>
+      <div class="form-row">
+        <div class="form-group"><label>Translation model</label>{{ form.translation_model }}</div>
+        <div class="form-group"><label>RAG model</label>{{ form.rag_model }}</div>
+      </div>
+      <div class="form-group"><label>Welcome message (farmer language)</label>{{ form.welcome_message }}</div>
+      <div class="form-group"><label>Webhook URL</label>{{ form.webhook_url }}</div>
+      <div class="form-group"><label>Status</label>{{ form.status }}</div>
+    </div>
+    <div class="modal-footer">
+      <a href="{% url 'hooks:list' %}" class="btn btn-secondary">Cancel</a>
+      <button class="btn btn-primary">Save</button>
+    </div>
+  </form>
+</div>
+{% endblock %}

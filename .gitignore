@@ -1,0 +1,52 @@
+.venv/
+venv/
+Lib/
+Scripts/
+scripts/
+Include/
+share/
+pyvenv.cfg
+__pycache__/
+*.pyc
+*.pyo
+.env
+db.sqlite3
+media/
+chroma_db/
+staticfiles/
+.vscode/
+.idea/
+*.log
+models/
+*.nemo
+*.zip
+.cache/
+queries/services/odia_glossary_draft.json
+queries/services/odia_glossary.backup.json
+queries/services/odia_glossary.json
+queries/services/odia_glossary.xlsx
+queries/services/synonyms.json
+
+# Per-farmer WhatsApp chat history (<phone number>.pkl). Personal data — the
+# filename alone is a phone number, and the contents are that farmer's
+# questions. Never commit it; it is a cache the next message rebuilds.
+chat_history/
+
+# --- Added 2026-11-03 for the git-based deploy: data, backups, dumps ---
+# Runtime-generated data dirs (NOT Django apps) — prod regenerates its own.
+summaries/
+whatsapp_clarifications/
+# Local backups (~444 MB) and the second/legacy vector store.
+_backup/
+chroma_store/
+# Source-PDF archive (~250 MB) — not needed at runtime; prod has its own.
+doc/
+# Database dumps and stray sqlite files.
+*.sql
+*.sqlite3
+# Editor / merge / scratch leftovers.
+*.bak
+*.predmerge
+sherpa_chunks.json
+odia_test.mp3
+odia_test_result.txt

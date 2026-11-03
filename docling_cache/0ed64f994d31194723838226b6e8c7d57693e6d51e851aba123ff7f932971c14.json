@@ -1,0 +1,324 @@
+{
+ "source": "CRRI_Technology-Bulletin_No-250.pdf",
+ "sha256": "0ed64f994d31194723838226b6e8c7d57693e6d51e851aba123ff7f932971c14",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:33:58",
+ "chunk_count": 26,
+ "chunks": [
+  {
+   "text": "Introduction\nThe Uttarakhand state has 0.8 million hectares of cultivated land (16% of its area), with 55% rainfed in hilly regions. Plains rely on irrigation (159% intensity), while hills practice traditional \"Barahnaja\" multi-cropping. Agriculture contributes 23.4% to Uttarakhand's GDP, but small landholdings (avg. 0.95 ha) limit mechanization and scale. Rice is predominantly cultivated in the fertile, irrigated Terai belt (e.g., Udham Singh Nagar, Haridwar), contributing significantly to the state's agricultural output. In 2020-21, Uttarakhand produced ~600,000 tons of rice, making it a staple crop alongside wheat. Rice, a semi-aquatic crop, adapts well to diverse environments and is mainly grown through either transplanting or direct seeding. While the transplanted system is widely used, it demands high inputs, especially water, and contributes to methane emissions and energy overuse. In contrast, Direct Seeded Rice (DSR) offers a more sustainable alternative by conserving water and nitrogen, cutting greenhouse gas emissions, and reducing labour requirements.\nDSR saves water (20-25%), reduces methane emissions (30-40%), and enables early sowing, making it more sustainable and climate-resilient than transplanted rice. It cuts costs by ₹10,000-15,000/ha, avoids straw burning (reducing pollution), lowers labor burdens (especially for women), and reduces greenhouse gases.\nWeed infestations, herbicide resistance, lack of awareness, and heavy rains hinder adoption. Small landholdings complicate mechanized sowing. DSR is a sustainable alternative, but scaling requires addressing adoption barriers (training, weed management) and optimizing practices for local conditions.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 1,
+    "section": "Introduction"
+   }
+  },
+  {
+   "text": "Suitable soil type\n- Heavy-textured soils are ideal for DSR due to better water retention and fewer iron (Fe) and zinc (Zn) deficiencies.\n- Light-textured sandy soils are less suitable due to poor water retention and higher nutrient deficiencies.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 2,
+    "section": "Suitable soil type"
+   }
+  },
+  {
+   "text": "Tillage\nDSR can be planted in either conventionally tilled soil, similar to wheat, or in nontilled soil using zero tillage. The choice between these methods depends on sitespecific conditions, such as the necessity for land leveling and the risk of rodent infestation.\ni. Conventional tillage (CT): The soil should be tilled to a depth of 5-10 cm to\n- create a fine tilth for optimal seed-to-soil contact, similar to wheat cultivation. Depending on the soil type and field conditions, this may require one or two discings, followed by one or two passes with a Tyne cultivator and a final planking.\n- ii. Zero tillage (ZT): For zero tillage DSR (ZTDSR), existing weeds should be controlled using a nonselective herbicide such as glyphosate or paraquat. If weed infestation is uneven, herbicide can be applied as a spot treatment rather than a blanket application. Both glyphosate and paraquat should be applied 2-3 days before sowing. Glyphosate is most effective when weeds\nare actively growing and not under stress. If weeds are suffering from moisture stress, a light irrigation before application can improve herbicide effectiveness.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 2,
+    "section": "Tillage"
+   }
+  },
+  {
+   "text": "Precision Land Levelling\nPrecision land levelling, particularly with laser technology, optimizes rice performance in non-puddled soils, whether under no-till surface seeding or permanent bed systems, compared to conventional tillage. Additionally, laser-leveled fields ensure better drainage, promoting improved\nseedling emergence, especially when rainfall occurs shortly after sowing.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 3,
+    "section": "Precision Land Levelling"
+   }
+  },
+  {
+   "text": "Sowing Time\nIn Direct Seeded Rice (DSR), timely sowing is critical for maximizing water productivity and ensuring robust crop establishment. Optimal sowing, typically 7-10 days before the monsoon onset, promotes vigorous early growth, which helps seedlings withstand submergence stress once rains begin. This early vigor also facilitates timely rice harvest and subsequent wheat planting, enhancing cropping system efficiency.\nPre-monsoon sowing avoids wet soil conditions that hinder machinery use and seed placement. Prolonged rains after sowing increase the risk of seed rot and seedling mortality, compromising crop establishment. Thus, precise timing balances moisture availability, minimizes stress, and optimizes growth. Proper scheduling ensures efficient water use, reduces reliance on irrigation, and mitigates yield losses, making it a key factor in successful DSR cultivation.\nPrecaution: 1. Avoid sowing too early as it can increase water\ndemand and reduce establishment\n2. Avoid delayed sowing as it leads to poor seedling emergence, fewer panicles and lower yields",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 3,
+    "section": "Sowing Time"
+   }
+  },
+  {
+   "text": "Sowing Depth\nFor optimal and uniform crop establishment, rice seeds should not be sown deeper than 2.5-3.0 cm, as exceeding this depth can result in uneven seedling emergence and compromised crop uniformity. Proper depth management is therefore essential for maximizing germination success and ensuring consistent field performance in DSR systems.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 3,
+    "section": "Sowing Depth"
+   }
+  },
+  {
+   "text": "Sowing Machinery\nSeed drill enables farmers to sow rice seeds directly into the soil without the need for transplanting. This machine ensures precise seed placement at a uniform depth and spacing, promoting even germination and optimal crop establishment. However, where the availability of seed drill is limited, the farmers can go for manual line sowing.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 4,
+    "section": "Sowing Machinery"
+   }
+  },
+  {
+   "text": "Seed Rate\nTo ensure healthy crop establishment and maximize yield potential, an optimal seed rate of 20-25 kg per hectare for medium-fine-grain rice varieties, with a spacing of 20 cm between rows and 5 cm within rows, is recommended. Using an excessively high seed rate can lead to several issues, including nitrogen deficiency, an increase in non-productive tillers, greater vulnerability to brown planthopper infestations, and a higher risk of lodging, all of which can significantly reduce grain yield.\nLower seed rate in DSR has expanded its popularity, making it a more adaptable and economical choice for farmers. This approach reduces input costs, particularly when using hybrid seeds, while maintaining productivity. However, achieving precise seed placement at lower rates requires the use of a seed drill with a seed metering device, ensuring uniform distribution and optimal plant density for improved crop performance.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 4,
+    "section": "Seed Rate"
+   }
+  },
+  {
+   "text": "Seed treatment\nSeeds play a crucial role in successful crop production, and effective seed treatments are essential for enhancing germination, promoting uniform seedling emergence, and protecting young plants from soil and seed-borne pests.\n- Treat the paddy seeds with Carbendazim 50 WP @ 2.0 g/kg of seed or Trichoderma harzianum and/ or Pseudomonas fluorescens @ 10g /kg of seeds before sowing.\n- In blast endemic area, seed should be treated with Trycyclazole 75 WG (Baan or Bim) @ 0.6 g per kg of seed\nPrecaution: Don't sow pregerminated seeds into dry soil, otherwise emergence will be negatively affected.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 8,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 4,
+    "section": "Seed treatment"
+   }
+  },
+  {
+   "text": "Seed Priming\nSeed priming is a controlled hydration technique where seeds are soaked in water or a low-osmotic chemical solution and then re-dried to their original moisture content. This process activates early metabolic processes related to germination without allowing the radical to emerge. Different types of seed priming are: Hydropriming, Halopriming, Osmopriming, Bio-priming and Hormonal priming.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 9,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 5,
+    "section": "Seed Priming"
+   }
+  },
+  {
+   "text": "Suitable Rice Varieties in Uttarakhand\nTable 1: Suitable inbred varieties/hybrids for the Uttarakhand\n\nPant Sugandh Dhan 25, Hybrids = JKRH 401. Pant Dhan 23, Hybrids = US 382. Pant Sugandh Dhan15, Hybrids = PNPH24*. Pant Sugandh Dhan17, Hybrids = Indam 200-17. Pant Sugandh Dhan 21, Hybrids = DRRH3. Pant Sugandh Dhan25, Hybrids = RH 1531*. Pant Sugandh Dhan 27, Hybrids = Arize Tej*. Pant Basmati 1, Hybrids = CRHR 105*. Pant Basmati 2, Hybrids = Jaya & Ratna\n\n*For drought-prone environments\nSource: Package of Practices for Kharif Crops in Uttarakhand, GBPUAT",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 10,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 5,
+    "section": "Suitable Rice Varieties in Uttarakhand"
+   }
+  },
+  {
+   "text": "Nutrient Management\nPrecision nutrient management is increasingly critical in rice and other cropping systems to improve productivity. The dose of N fertilization used in DSR is higher than that used in TPR to compensate the higher losses of reactive N. Normally, under DSR, full dose of P and K is applied as basal dose and one- third of the full dose of N at 15 DAS, which enhances the fertilizer use efficiency by facilitating the availability of nutrients to the plants. The remaining two- thirds dosage of N is applied in equal splits at vegetative (active tillering) and reproductive (panicle initiation) stages. This type of fertilizer application increases the grain yield and maximizes N use efficiency.\nTable 2. Fertiliser recommendations for different ecologies under DSR\n\nMedium and rainfed low land, Fertiliser dose (kg/acre).N = 24. Medium and rainfed low land, Fertiliser dose (kg/acre).P = 12. Medium and rainfed low land, Fertiliser dose (kg/acre).K = 12. Medium and rainfed low land, Time of application. = · Basal full dose P, K & · 25% N at 14 DAS · 50% N at Maximum Tillering · 25% N at Panicle Initiation. Irrigated, Fertiliser dose (kg/acre).N = 32. Irrigated, Fertiliser dose (kg/acre).P = 16. Irrigated, Fertiliser dose (kg/acre).K = 16. Irrigated, Time of application. = · Basal full dose P, K & · 50% N at14 DAS, · 25% N at Maximum Tillering · 25% N at Panicle Initiation. Low land where top dressing is not possible, Fertiliser dose (kg/acre).N = 16. Low land where top dressing is not possible, Fertiliser dose (kg/acre).P = 8. Low land where top dressing is not possible, Fertiliser dose (kg/acre).K = 8. Low land where top dressing is not possible, Time of application. = · Full dose of N, P & K fertilizer as basal dose",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 11,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 5,
+    "section": "Nutrient Management"
+   }
+  },
+  {
+   "text": "Nutrient Management\nPrecaution: Don't apply urea on moist soil after irrigation or rainfall, as it may lead to nutrient loss. Instead, apply urea before irrigation or when rain is expected for optimal absorption.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 12,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 6,
+    "section": "Nutrient Management"
+   }
+  },
+  {
+   "text": "Split fertilizer application\nUse ICAR-CRRI's Customised Leaf Colour Chart (CLCC) or riceNxpert app to monitor leaf N status every 7-10 days from 6 weeks after sowing until flowering.\nPrecaution: Don't broadcast urea on moist soil after irrigation or rain. Apply urea before irrigation (or rain if likely)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 13,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 6,
+    "section": "Split fertilizer application"
+   }
+  },
+  {
+   "text": "Green/brown manuring\nIn DSR systems, integrating green or brown manuring with crops like Sesbania can substantially reduce dependence on chemical nitrogen (N) fertilizers. The recommended practice involves broadcasting Sesbania seeds at 19.76 kg ha -1 three days after rice sowing and allowing them to grow for 25-30 days. The Sesbania plants are then desiccated by spraying 2,4-D herbicide. For broadcast rice, the dried Sesbania biomass is incorporated into the soil during the beushening (weeding/ tillage) operation. This approach supplies approximately 14 kg of nitrogen per acre, enriches soil organic matter, and enhances overall soil health. As a result, brown manuring can replace up to 25% of synthetic nitrogen fertilizer requirements in DSR.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 14,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 6,
+    "section": "Green/brown manuring"
+   }
+  },
+  {
+   "text": "Micronutrient management:\n- Iron deficiency appears as interveinal chlorosis in young leaves, stunted growth, and, in severe cases, complete leaf whitening. Apply foliar sprays (1% ferrous sulfate or ferrous ammonium sulfate) for quick correction.\n- Zinc deficiency typically emerges 4-6 weeks after sowing, causing rusty brown spots, stunted growth, and reduced tillering. Soil application of 10-25 kg ha -1 ZnSO₄·7H₂O is recommended when deficiency symptoms emerge. For rapid correction, foliar application of 0.5-1.0 kg Zn ha -1 (using 0.5-1.0% ZnSO₄ solution in approximately 200 L water ha -1 ) proves effective.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 15,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 7,
+    "section": "Micronutrient management:"
+   }
+  },
+  {
+   "text": "Weed Management\nWeed competition in crops can reduce yields by 20-90%, with the most critical period for weed-crop competition occurring between 15 to 40 days after sowing (DAS).\nA well-levelled field is crucial, as uneven surfaces cause waterlogging, which can damage rice seedlings. Proper drainage and water management reduce preemergence herbicide toxicity risks and support healthy crop establishment. Avoid irrigation immediately after post-emergence spraying. Efficient water management enhances herbicide effectiveness, conserves moisture, and reduces production costs by influencing the critical weed-crop competition period.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 16,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 7,
+    "section": "Weed Management"
+   }
+  },
+  {
+   "text": "Mechanical Weeding\nMechanical weeding recycles nutrients and improves soil aeration, enhancing root and microbial activity. Rotary weeders control inter-row weeds but struggle with intra-row weeds. Tools like cono-weeders save labor, increasing yields by 10% in wet seasons and 3% in dry seasons compared to manual methods. ICAR-CRRI has developed smallholder-friendly mechanized weeding solutions for efficient weed control.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 17,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 7,
+    "section": "Mechanical Weeding"
+   }
+  },
+  {
+   "text": "Chemical Weed Control\nHerbicides offer a practical alternative, especially amid rising labour shortages. However, they should complement-not replace-other practices. Timing and dosage depend on weed presence, soil type, and environment.\nRecommended herbicides for direct seeded rice:-\n1, Name = Pendimethalin 30 EC. 1, Trade name = Stomp. 1, Dose = 1250 ml/ acre. 1, Time of application = 0-3 DAS. 2, Name = Bispyribac Sodium 10 SC. 2, Trade name = Nominigold. 2, Dose = 120 ml/ acre. 2, Time of application = 10 DAS or at 2-3 leaf stage of weeds. 3, Name = Fenoxaprop-p-ethyl + Ethoxysulfuron (tank mix). 3, Trade name = Rice star + Sunrise. 3, Dose = 250 + 40 g/acre. 3, Time of application = 15-20 DAS or at 3-4 leaf stage of weeds. 4, Name = Metsulfuron methyl 10% + chlorimuron ethyl 10% WP (Ready mix). 4, Trade name = Almix. 4, Dose = 24 g/ acre. 4, Time of application = 8-10 DAS or at 2-3 leaf stage of weeds. 5, Name = Cyhalofop-Butyl 5.1% + Penoxsulam 1.02%. 5, Trade name = Vivaya. 5, Dose = 1000 ml/ acre. 5, Time of application = 15-20 DAS or at 2-4 leaf stage of weeds",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 18,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 8,
+    "section": "Chemical Weed Control"
+   }
+  },
+  {
+   "text": "Chemical Weed Control\n- After sowing (pre- emergence), within 2-3 days before the seeds germinate, apply Pendimethalin (1 lit) or Pretilachlor alongwith safener (Sofit) 600 mL Pyrazosulfuran ethyl (saathi) 80-100g mixed with 200 litres of water and sprayed over for the one acre. If sowing is done in optimal moist soil (Vattar condition), apply the herbicide on the same day after sowing. For dry sowing condition, first apply irrigation or wait for the first rainfall so that the soil becomes wet, then apply herbicides within 72 hours.\n- As post-emergence (within 20-30 days after sowing), 400 ml of cyhalofop butyl or 80 ml of bispyribac sodium per acre should be sprayed in order to kill the germinated weeds.\n- The post-emergence herbicide should be applied at 15-25 days after sowing to kill grasses, sedges and broadleaf weeds at 2-4 leaf stage. For herbicide spraying operation, knapsack sprayer fitted preferably with multiple flat-fan or single flood-jet nozzle(s) boom and spray volume of 150-200 litre per acre should be used.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 19,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 9,
+    "section": "Chemical Weed Control"
+   }
+  },
+  {
+   "text": "Irrigation Management\nEffective irrigation management in DSR is crucial for optimizing water use while maintaining high yields, especially in regions facing water scarcity and rising groundwater pumping costs. Unlike traditional flooded rice cultivation, DSR does not require continuous standing water. Instead, a strategic irrigation approachallowing the soil to dry slightly between waterings-can sustain healthy crop growth while conserving water. However, excessive drying can induce stress and reduce yields, making precise moisture management essential.\nProper soil moisture management is essential for successful dry-seeded rice cultivation, requiring different irrigation approaches at key growth stages. During crop establishment (0-3 weeks after sowing), consistent moisture in the root zone ensures uniform germination and early seedling growth, with initial irrigations every 3-5 days under hot, dry conditions to prevent drying. The active tillering stage (30-45 DAS) demands near-saturated topsoil (15 cm depth) to maximize tiller development, while the heading-to-grain-filling phase requires maintained saturation to prevent yield-reducing sterility and poor grain filling. Irrigation frequency varies by soil type-light soils (sandy/loamy) need more frequent watering due to faster moisture loss, while heavy clay soils should be irrigated before hairline cracks form. Farmers can optimize timing using tensiometers, which measure soil moisture tension at 15-20 cm depth; when the gauge shifts from green (optimal) to yellow (warning), irrigation is needed.\nThe use of field water tube' or 'pani pipe' of 40 cm length and 7-10 cm diameter to keep vigil the water depth. After a few days of application of irrigation, when the water level drops below 15 cm from soil surface, the field should be re-irrigated\nFig: (a) pani pipe (b) Alternate wetting and drying method in rice field\n(Figs a & b). However, during the sensitive stages (flowering) a thin layer of water of about 5 cm is",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 20,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 9,
+    "section": "Irrigation Management",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "always advocated. AWD improves water use efficiency and reduces greenhouse gas emissions by 30-50%.\nBoth over-irrigation (causing waterlogging, weed growth, and nutrient loss) and under-irrigation (evident from morning leaf rolling) must be avoided. By following these guidelines, farmers can improve water efficiency, lower costs, and sustain yields even in water-scarce conditions.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 20,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 9,
+    "section": "Irrigation Management",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "Economics of DSR\nThe economics of DSR demonstrate significant cost advantages over Traditional Puddled Transplanted Rice (TPR), with profitability varying by region depending on labor costs and irrigation access. Research by Pandey and Velasco (2002) has established DSR's considerable economic benefits, showing 45-48% lower cultivation costs compared to TPR due to more efficient crop establishment and water management. These savings stem from reduced tillage operations, decreased labor and irrigation expenses, and greater mechanization in farming operations. When other cultivation costs remain equal between systems, DSR provides net savings of INR 9,114-10,192 per hectare, potentially generating economic benefits of approximately INR 10.0 billion if adopted across one million hectares. The integration of specialized equipment like seed drills, power-operated boom sprayers, and combine harvesters - made accessible through custom hiring centers - further reduces DSR production costs by 25%. Modern seed drills have additionally cut seed rates by about 50% compared to TPR. Field demonstrations by ICAR-CRRI, Cuttack in Odisha's Resilience project sites confirmed DSR's superior benefit-cost ratio versus TPR, with seed drill implementation notably lowering both labor and fuel expenditures while boosting farm profitability. These findings collectively highlight DSR's potential to enhance economic sustainability in rice cultivation through optimized resource use and mechanization.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 21,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 11,
+    "section": "Economics of DSR"
+   }
+  },
+  {
+   "text": "Policy and institutional support for upscaling DSR\nEffective policy and institutional support are essential for scaling up DSR practices, especially in regions facing water scarcity and labor shortages. Governments can play a pivotal role by offering financial incentives such as subsidies for DSRspecific machinery, promoting the establishment of custom hiring centers, and supporting farmers with credit facilities to reduce the high initial costs of adoption. Integrating DSR into broader water-saving and climate-resilient agricultural policies can further align national priorities with sustainable rice production goals. Public-private partnerships can enhance access to quality inputs like DSR-adapted seeds and herbicides while fostering innovation and investment. Strengthening agricultural extension services to provide field demonstrations, hands-on training, and technical guidance will empower farmers with the knowledge and skills necessary to adopt and sustain DSR practices. By creating a supportive ecosystem that combines financial, technical, and institutional measures, policy frameworks can significantly accelerate the adoption and long-term success of DSR across diverse rice-growing regions.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 22,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 11,
+    "section": "Policy and institutional support for upscaling DSR"
+   }
+  },
+  {
+   "text": "Conclusions\nDSR offers significant advantages when implemented with precision and best management practices. Its success hinges on accurate land leveling, use of efficient seed drills with advanced metering systems, and skilled machinery operators. Adapting seeding depth to specific soil and moisture conditions, alongside the use of cultivars suited for dry seeding, enhances crop establishment and yield potential. Effective weed control, through timely application of pre- and post-emergence herbicides based on dominant weed species, is also vital. Unlike transplanted rice, DSR eliminates transplanting shock, shortens crop duration, and fits well within diverse cropping systems. Additionally, DSR can contribute to groundwater recharge and conserve water, provided that irrigation is carefully managed to avoid stress-related yield loss. Overall, DSR presents a promising approach for sustainable and resource-efficient rice cultivation.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 23,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 12,
+    "section": "Conclusions"
+   }
+  },
+  {
+   "text": "Technical Bulletin No-250\nDecember-2025\n© All Rights Reserved, ICAR-Central Rice Research Institute, Cuttack An ISO 9001: 2008 Certified Institute\nPhone: +91-671-2367757; PABX: +91-671-2367768-783; Fax: +91-671-2367663;\nEmail: directorcrricuttack@gmail.com\nTypesetting: ICAR-Central Rice Research Institute, Cuttack-753006, Odisha\nPublished by: The Director, ICAR-Central Rice Research Institute, Cuttack, Odisha-753006\nPrinted at: Print-Tech Offset (P) Ltd., Bhubaneswar",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 24,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CRRI_Technology-Bulletin_No-250.pdf",
+    "page": 12,
+    "section": "Technical Bulletin No-250"
+   }
+  }
+ ]
+}

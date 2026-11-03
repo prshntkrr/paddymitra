@@ -1,0 +1,45 @@
+{
+ "source": "DDR-Dhan-44.pdf",
+ "sha256": "ceca74d0d4fcdab9dd6c9da220c301fc0a7c270e862f0026cca6de8bc89555c0",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:35:20",
+ "chunk_count": 3,
+ "chunks": [
+  {
+   "text": "Replace, Irrigated = Lowland MTU 1010. Replace, Rainfed = Lowland None. Replace, Upland = None. Companion, Irrigated = Vijetha. Companion, Rainfed = None. Companion, Upland = Vijetha (MTU-1001)",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "DDR-Dhan-44.pdf",
+    "page": 1
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nDRR Dhan 44, Grain yield.(Kg/ha) = 4500-5000. DRR Dhan 44, Grain yield.% Adv = 11. DRR Dhan 44, Maturity (days). = 115-120. DRR Dhan 44, Plant height (cm). = 95-100. DRR Dhan 44, Lodging. = Tolerant. DRR Dhan 44, HRR %. = 55. DRR Dhan 44, 1000 grain weight (g). = 25. DRR Dhan 44, Grain Shape. = LS. Sahbhagi Dhan, Grain yield.(Kg/ha) = 3800-4500. Sahbhagi Dhan, Grain yield.% Adv = . Sahbhagi Dhan, Maturity (days). = 100-110. Sahbhagi Dhan, Plant height (cm). = 85-90. Sahbhagi Dhan, Lodging. = Tolerant. Sahbhagi Dhan, HRR %. = 65. Sahbhagi Dhan, 1000 grain weight (g). = 22. Sahbhagi Dhan, Grain Shape. = LB",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "DDR-Dhan-44.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nDRR Dhan 44, Leaf blast = Tolerant. DRR Dhan 44, Leaf blight = Tolerant. DRR Dhan 44, Brown plant hopper = Tolerant. DRR Dhan 44, Sheath blight = Tolerant. DRR Dhan 44, Drought = Tolerant. Sahbhagi Dhan, Leaf blast = Tolerant. Sahbhagi Dhan, Leaf blight = Susceptible. Sahbhagi Dhan, Brown plant hopper = Tolerant. Sahbhagi Dhan, Sheath blight = Susceptible. Sahbhagi Dhan, Drought = Tolerant\nProducibility: DRR Dhan 44 = 1800-2000Kgs. / acre\nRecommendation: Released for cultivation in Uttarakhand, Haryana, Bihar, Odhisa.\nNational check for Aerobic conditions varietal trials conducted by IIRR, India",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "DDR-Dhan-44.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{% extends 'base.html' %}{% load irri_extras %}
+{% block page_title %}Documents{% endblock %}
+{% block topbar_actions %}
+  <a href="{% url 'documents:review_queue' %}" class="btn btn-secondary btn-sm">{% icon "flag" 14 %} Review queue ({{ pending_review }})</a>
+  <a href="{% url 'documents:create' %}" class="btn btn-primary btn-sm">{% icon "plus" 14 %} Add Document</a>
+{% endblock %}
+{% block content %}
+<div class="stats-grid fade-in">
+  <div class="stat-card"><div class="stat-icon green">{% icon "document" 22 %}</div><div class="stat-value">{{ total }}</div><div class="stat-label">Total Documents</div></div>
+  <div class="stat-card"><div class="stat-icon blue">{% icon "check" 22 %}</div><div class="stat-value">{{ published }}</div><div class="stat-label">Published</div></div>
+  <div class="stat-card"><div class="stat-icon amber">{% icon "edit" 22 %}</div><div class="stat-value">{{ draft }}</div><div class="stat-label">Draft</div></div>
+  <div class="stat-card"><div class="stat-icon red">{% icon "clock" 22 %}</div><div class="stat-value">{{ pending_review }}</div><div class="stat-label">Pending review</div></div>
+</div>
+
+<div class="card fade-in">
+  <div class="card-header">
+    <h3>All documents</h3>
+    <form method="get" style="display:flex;gap:8px;align-items:center;">
+      <select name="status" class="form-control" style="width:130px;padding:6px 10px;font-size:12px;">
+        <option value="">All Status</option>
+        {% for s, l in statuses %}<option value="{{ s }}" {% if request.GET.status == s %}selected{% endif %}>{{ l }}</option>{% endfor %}
+      </select>
+      <select name="crop" class="form-control" style="width:120px;padding:6px 10px;font-size:12px;">
+        <option value="">All Crops</option>
+        {% for s, l in crops %}<option value="{{ s }}" {% if request.GET.crop == s %}selected{% endif %}>{{ l }}</option>{% endfor %}
+      </select>
+      <select name="content_type" class="form-control" style="width:150px;padding:6px 10px;font-size:12px;">
+        <option value="">All Content Types</option>
+        {% for s, l in content_types %}<option value="{{ s }}" {% if request.GET.content_type == s %}selected{% endif %}>{{ l }}</option>{% endfor %}
+      </select>
+      <div class="search-bar"><input type="text" name="q" value="{{ request.GET.q }}" placeholder="Search documents..."></div>
+      <button class="btn btn-secondary btn-sm">Filter</button>
+    </form>
+  </div>
+  <table class="data-table">
+    <thead><tr><th>ID</th><th>Title</th><th>Crop</th><th>Content Type</th><th>Category</th><th>Keywords</th><th>Year</th><th>Status</th><th>Actions</th></tr></thead>
+    <tbody>
+      {% for d in documents %}
+      <tr>
+        <td style="font-weight:600;color:var(--gray-500);">{{ d.doc_code }}</td>
+        <td><strong>{{ d.title }}</strong>{% if d.source %}<br><span style="font-size:11px;color:var(--gray-400);">Source: {{ d.source|truncatechars:40 }}</span>{% endif %}</td>
+        <td>{{ d.crop }}</td>
+        <td>{{ d.content_type }}</td>
+        <td>{% if d.category %}<span class="badge badge-blue">{{ d.category.name|truncatechars:24 }}</span>{% endif %}</td>
+        <td>{% for k in d.keywords.all|slice:":3" %}<span class="tag">{{ k.keyword|truncatechars:14 }}</span> {% endfor %}</td>
+        <td>{{ d.year|default:"—" }}</td>
+        <td><span class="badge {{ d.status|badge_class }}">{{ d.status_display_short }}</span></td>
+        <td style="white-space:nowrap;">
+          <a href="{% url 'documents:detail' d.pk %}" class="btn btn-xs btn-secondary">View</a>
+          {% if is_editor %}
+            {% if d.status == 'Published' %}
+              <form method="post" action="{% url 'documents:unpublish' d.pk %}" style="display:inline;">{% csrf_token %}<button class="btn btn-xs btn-danger">Unpublish</button></form>
+            {% else %}
+              <form method="post" action="{% url 'documents:publish' d.pk %}" style="display:inline;">{% csrf_token %}<button class="btn btn-xs btn-success">Publish</button></form>
+            {% endif %}
+          {% endif %}
+        </td>
+      </tr>
+      {% empty %}
+      <tr><td colspan="9" style="text-align:center;padding:30px;color:var(--gray-400);">No documents yet.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% include 'partials/pagination.html' %}
+</div>
+{% endblock %}

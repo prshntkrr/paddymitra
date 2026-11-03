@@ -1,0 +1,106 @@
+{
+ "source": "CR-101-Ankit.pdf",
+ "sha256": "dd63b4ae68a50a8eb45467df187d652b5000e6295aa1915fda336789c80a1daa",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:27:41",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "CR Dhan 101(Ankit)*\n(IR 78875 / IR78877)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-101-Ankit.pdf",
+    "page": 1,
+    "section": "CR Dhan 101(Ankit)*"
+   }
+  },
+  {
+   "text": "Product Profile\nCR Dhan 101, also known as Ankit, is a 110-day variety released by ICAR-NRRI in 2014. Featuring medium height and mediumslender grains, it is specifically tailored for irrigated upland ecosystems prone to recurrent water deficits. Notably, CR Dhan 101 demonstrates resistance against major diseases and pests. On average, this variety yields 4 tons per hectare.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-101-Ankit.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment-TEMS-R/U, DEMS-R/U\nRecommended, Planting Method.DSR = Not Recommended. Recommended, Ecosystem.Irrigated Lowland = Not Recommended. Recommended, Ecosystem.Rainfed Lowland = Not Recommended. Recommended, Ecosystem.Upland = Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-101-Ankit.pdf",
+    "page": 1,
+    "section": "Priority Market Segment-TEMS-R/U, DEMS-R/U"
+   }
+  },
+  {
+   "text": "Positioning\nReplace, Irrigated Lowland = Khandagiri. Replace, Rainfed Lowland = None. Replace, Upland = None. Companion, Irrigated Lowland = Sahabhagi Dhan. Companion, Rainfed Lowland = None. Companion, Upland = None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-101-Ankit.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Fit for upland\n- Mediumslender grain; High HRR\n- Early maturity\n- Tolerant to major diseases and insect pests",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-101-Ankit.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nCR Dhan 101, Grain yield.(Kg/ha) = 3500-4000. CR Dhan 101, Grain yield.% Adv = 25. CR Dhan 101, Maturity (days). = 100-110. CR Dhan 101, Plant height (cm). = 100-110. CR Dhan 101, Lodging. = Tolerant. CR Dhan 101, 1000 g weight.(g) = 26. CR Dhan 101, HRR %. = 64. CR Dhan 101, Grain Shape. = MS. Khandagiri, Grain yield.(Kg/ha) = 3000-3200. Khandagiri, Grain yield.% Adv = -. Khandagiri, Maturity (days). = 90-100. Khandagiri, Plant height (cm). = 85-90. Khandagiri, Lodging. = Tolerant. Khandagiri, 1000 g weight.(g) = 21. Khandagiri, HRR %. = 64. Khandagiri, Grain Shape. = MB",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-101-Ankit.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nCR Dhan 101, Leaf blast = Moderately resistant. CR Dhan 101, Brown Spot = Moderately resistant. CR Dhan 101, Sheath blight = Resistant. CR Dhan 101, BPH = Moderately resistant. CR Dhan 101, Leaf folder = Tolerant. Khandagiri, Leaf blast = Tolerant. Khandagiri, Brown Spot = Susceptible. Khandagiri, Sheath blight = Susceptible. Khandagiri, BPH = Tolerant. Khandagiri, Leaf folder = Tolerant\nProducibility: CR Dhan 101= 1600Kgs. /acre\nRecommendation:\nFor planting in upland ecosystem in Odisha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-101-Ankit.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\n- Average yield",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-101-Ankit.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block page_title %}{% if object %}Edit keyword{% else %}Add keyword{% endif %}{% endblock %}
+{% block content %}
+<div class="card" style="max-width:640px;">
+  <div class="card-header"><h3>{% if object %}Edit: {{ object.keyword }}{% else %}New keyword{% endif %}</h3></div>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="card-body">
+      <div class="form-group"><label>Keyword <span class="required">*</span></label>{{ form.keyword }}</div>
+      <div class="form-row">
+        <div class="form-group"><label>Parent category</label>{{ form.parent_category }}</div>
+        <div class="form-group"><label>Sub-category</label>{{ form.subcategory }}</div>
+      </div>
+      <div class="form-group"><label>Region</label>{{ form.region }}</div>
+      <div class="form-row">
+        <div class="form-group"><label>Translation</label>{{ form.translation }}</div>
+        <div class="form-group"><label>Language</label>{{ form.language }}</div>
+      </div>
+      <div class="form-group"><label>Local name / synonyms</label>{{ form.local_names }}</div>
+      <div class="form-row">
+        <div class="form-group"><label>Expert validated</label>{{ form.expert_validated }}</div>
+        <div class="form-group"><label>Validation source</label>{{ form.validation_source }}</div>
+      </div>
+      <div class="form-group"><label>Image</label>{{ form.image }}</div>
+      <div class="form-group"><label>Status</label>{{ form.status }}</div>
+    </div>
+    <div class="modal-footer">
+      <a href="{% url 'keywords:list' %}" class="btn btn-secondary">Cancel</a>
+      <button class="btn btn-primary">Save</button>
+    </div>
+  </form>
+</div>
+{% endblock %}

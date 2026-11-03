@@ -1,0 +1,78 @@
+{% extends 'base.html' %}{% load irri_extras %}
+{% block page_title %}{{ group.prefix }} — {{ catalogue.name }}{% endblock %}
+{% block topbar_actions %}
+  <a href="{% url 'catalogues:detail' catalogue.slug %}#image-groups" class="btn btn-sm btn-secondary">← Back to catalogue</a>
+  <a href="{% url 'image_bank:group_delete' catalogue.slug group.pk %}" class="btn btn-sm btn-danger">Delete group</a>
+{% endblock %}
+{% block content %}
+<div class="card">
+  <div class="card-body">
+    <h2 style="margin:0 0 4px;">{{ group.prefix }}</h2>
+    <div style="color:var(--gray-500);font-size:12px;">
+      Catalogue: <strong>{{ catalogue.name }}</strong> · {{ group.image_count }} image{{ group.image_count|pluralize }}
+    </div>
+  </div>
+</div>
+
+<div class="card" style="margin-top:16px;">
+  <div class="card-header"><h3>Visual description (sidecar)</h3></div>
+  <form method="post" action="{% url 'image_bank:group_edit' catalogue.slug group.pk %}" enctype="multipart/form-data">{% csrf_token %}
+    <div class="card-body">
+      <div class="form-group">
+        <label>Description text</label>
+        {{ desc_form.description }}
+        <small style="color:var(--gray-500);">Visual symptom description applied to every image in this group.</small>
+      </div>
+      <div class="form-group">
+        <label>Or replace from a sidecar file</label>
+        <input class="form-control" type="file" name="sidecar" accept=".txt,.md">
+        <small style="color:var(--gray-500);">If provided, its contents overwrite the textarea above.</small>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-primary">Save &amp; re-index</button>
+    </div>
+  </form>
+</div>
+
+<div class="card" style="margin-top:16px;">
+  <div class="card-header"><h3>Add more images to this group</h3></div>
+  <form method="post" action="{% url 'image_bank:group_add_images' catalogue.slug group.pk %}" enctype="multipart/form-data">{% csrf_token %}
+    <div class="card-body">
+      <div class="form-group">
+        <label>Images</label>
+        <input class="form-control" type="file" name="images" accept="image/*" multiple required>
+        <small style="color:var(--gray-500);">All selected images will join the «{{ group.prefix }}» group.</small>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-primary">Upload &amp; index</button>
+    </div>
+  </form>
+</div>
+
+<div class="card" style="margin-top:16px;">
+  <div class="card-header"><h3>Images ({{ group.image_count }})</h3></div>
+  <div class="card-body">
+    {% if images %}
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;">
+      {% for img in images %}
+      <div style="border:1px solid var(--gray-200);border-radius:8px;background:#fff;overflow:hidden;">
+        <a href="{{ img.image.url }}" target="_blank">
+          <img src="{{ img.image.url }}" alt="" style="width:100%;height:110px;object-fit:cover;display:block;">
+        </a>
+        <div style="padding:6px 8px;font-size:11px;display:flex;justify-content:space-between;align-items:center;gap:6px;">
+          <span style="color:var(--gray-500);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;">{{ img.original_filename|truncatechars:18 }}</span>
+          <form method="post" action="{% url 'image_bank:image_delete' catalogue.slug group.pk img.pk %}" style="display:inline;">{% csrf_token %}
+            <button class="btn btn-xs btn-danger" onclick="return confirm('Delete this image?');">×</button>
+          </form>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+      <p style="color:var(--gray-500);">No images in this group yet.</p>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

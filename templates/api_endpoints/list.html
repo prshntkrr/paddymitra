@@ -1,0 +1,62 @@
+{% extends 'base.html' %}{% load irri_extras %}
+{% block page_title %}API List{% endblock %}
+{% block content %}
+{% comment %}
+The WhatsApp integration is an API and belongs on the API screen. It was
+reachable only through management commands, so anyone without shell access to
+the server could not tell it existed — nor see, create or rotate its keys.
+{% endcomment %}
+<div class="card" style="margin-bottom:16px;">
+  <div class="card-body" style="display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;">
+    <div>
+      <h3 style="margin:0 0 4px;">WhatsApp API</h3>
+      <div style="color:var(--gray-500);font-size:13px;">
+        The inbound webhook, the provider-independent message endpoint, and the
+        health check — with the API keys that call them.
+      </div>
+    </div>
+    <a href="{% url 'api_endpoints:whatsapp' %}" class="btn btn-sm btn-primary">Open</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header"><h3>Generated APIs</h3></div>
+  <div class="card-body">
+    <p style="color:var(--gray-500);font-size:13px;">
+      APIs created from the Beta Test panel on the Catalogues page. Each API runs the
+      RAG pipeline against a fixed catalogue, language, and persona.
+    </p>
+    {% if apis %}
+    <table class="data-table">
+      <thead><tr>
+        <th>Name</th><th>Catalogue</th><th>Persona</th><th>Language</th>
+        <th>URL</th><th>Calls</th><th>Last call</th><th>Status</th><th></th>
+      </tr></thead>
+      <tbody>
+        {% for a in apis %}
+        <tr>
+          <td><a href="{% url 'api_endpoints:detail' a.public_id %}"><strong>{{ a.name }}</strong></a></td>
+          <td>{{ a.catalogue.name }}</td>
+          <td>{% if a.user_type == 'researcher' %}<span class="badge badge-purple">Researcher</span>{% else %}<span class="badge badge-green">Farmer</span>{% endif %}</td>
+          <td>{{ a.language }}</td>
+          <td style="font-family:monospace;font-size:11px;">{{ a.relative_url }}</td>
+          <td>{{ a.request_count }}</td>
+          <td>{{ a.last_called_at|date:"d M H:i"|default:"—" }}</td>
+          <td>{% if a.is_active %}<span class="badge badge-green">Active</span>{% else %}<span class="badge badge-yellow">Inactive</span>{% endif %}</td>
+          <td>
+            <a href="{% url 'api_endpoints:detail' a.public_id %}" class="btn btn-xs btn-secondary">View</a>
+            <form method="post" action="{% url 'api_endpoints:delete' a.public_id %}" style="display:inline;">{% csrf_token %}
+              <button class="btn btn-xs btn-danger" onclick="return confirm('Delete this API? Existing callers will get 404.');">Delete</button>
+            </form>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p style="color:var(--gray-500);">No APIs yet. Run a Beta Test on a catalogue and click <strong>Generate API</strong> on the result.</p>
+    {% endif %}
+    {% include 'partials/pagination.html' %}
+  </div>
+</div>
+{% endblock %}

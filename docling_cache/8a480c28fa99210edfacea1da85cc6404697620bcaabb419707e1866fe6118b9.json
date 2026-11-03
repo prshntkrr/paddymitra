@@ -1,0 +1,778 @@
+{
+ "source": "Speciality rice.pdf",
+ "sha256": "8a480c28fa99210edfacea1da85cc6404697620bcaabb419707e1866fe6118b9",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:44:51",
+ "chunk_count": 64,
+ "chunks": [
+  {
+   "text": "Product Profile\nA short-duration, high-yielding, low GI variety. It has short, slender, superfine grains. Developed by PJTSAU and released through SVRC in 2016. Suitable for rainfed medium lands and late sowing conditions, and it can be grown in both kharif and rabi. Low GI and high HRR make Telengana Sona in demand by both consumers and traders. Telangana Sona is also praised for its soft texture, taste, and cooking quality. The resistance to blast disease is an added good trait of the variety.\nNearest Market Segment, Details = TMeLS-R. Eco System Suitability, Details = Rainfed Lowland. Preferred Planting Method, Details = TPR. Positioning Statement, Details = Low GI, high-yielding and fine-grained variety",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Variety Performance - Grain, Yield and Agronomic Traits\n- Lodging\n- Low test weight\nTelangana Sona, Yield (t/ha) = 6.00- 6.50. Telangana Sona, Duration (days) = 125-130. Telangana Sona, Grain dimension = SS. Telangana Sona, Plant Height (cm) = 100-115. Telangana Sona, HRR (%) = 67.%. Telangana Sona, Test Weight (gm) = 18.6. Telangana Sona, Amylose content (%) = 20.72. Telangana Sona, Zn content (ppm) = NA. Telangana Sona, GI Value = 51",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 1,
+    "section": "Variety Performance - Grain, Yield and Agronomic Traits"
+   }
+  },
+  {
+   "text": "Variety Performance - Biotic and Abiotic Stress\nTelangana Sona, Blast = Resistant. Telangana Sona, Leaf blight = Tolerant. Telangana Sona, Sheath rot = Moderate Resistant. Telangana Sona, Brown spot = Tolerant. Telangana Sona, BPH = Moderate Resistant. Telangana Sona, Stem borer = Tolerant. Telangana Sona, Submergence = Resistant\nRecommendation: Notified for Telangana, but can also be grown in Odisha and West Bengal.\nBreeder Seeds Availability: PJTSAU, Hyderabad",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 1,
+    "section": "Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Total BS indented till 2025:\nTelangana Sona, 2018 = 50.75. Telangana Sona, 2019 = 10.30. Telangana Sona, 2020 = 31.20. Telangana Sona, 2021 = 103.00. Telangana Sona, 2022 = 43.3. Telangana Sona, 2023 = 47.15. Telangana Sona, 2024 = 48.9. Telangana Sona, 2025 = 54.9. Telangana Sona, Total BS Indeted in (qtl.) = 389.55. Telangana Sona, Major Indenting States/Institute = Telangana, Tamil Nadu, Karnataka, Odisha, Andhra Pradesh",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 1,
+    "section": "Total BS indented till 2025:"
+   }
+  },
+  {
+   "text": "Key Strengths\n- High Yield: 6.00-6.50 t/ha under favourable conditions\n- Grain Quality: Short, slender grains with >200 grains per panicle\n- Post-Harvest Benefit: 67% head rice recovery (HRR).\n- Field Traits: Non-shattering - minimal harvest losses\n- Resistant to blast\n- Low GI with excellent cooking quality\n- Suitable for late sowing, hence provision to raise green manure is possible.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Product Profile\nHigh-yielding zinc-rich variety. Medium-duration, semi-dwarf variety with medium-slender grains; it is suitable for rainfed and irrigated ecologies in the wet season. Developed and released by IGKV in 2018 for West Bengal, Odisha, and Chhattisgarh, Zinco Rice MS matures in approximately 135 days. It exhibits moderate resistance to leaf blast, brown spot, sheath rot, and rice tungro virus.\nNearest Market Segment, Details = TMeLS-R. Ecosystem Suitability, Details = Rainfed Low Land and Irrigated. Preferred Planting Method, Details = Transplanted. Positioning Statement, Details = High-yielding, zinc-rich rice is recommended in eastern India, especially in areas of undernutrition.\nVariety Performance - Grain, Yield and Agronomic Traits\n- Moderate HRR",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 2,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Key Strengths\n- High Yield: 5-5.8 t/ha yield under favourable conditions\n- Grain Quality: MS grain with >400 grains per panicle\n- Field Traits: Non-lodging, non-shattering - minimal harvest losses\n- Post-Harvest Benefit: 52% head rice recovery (HRR)\n- Resistant to blast, leaf & sheath blight and stem borer\n- High Zinc content with 27.4 PPM",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 2,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Consideration\n- Average field-observed yield\nZinco Rice- MS, Yield (t/ha) = 5.00- 5.80. Zinco Rice- MS, Duration (days) = 130-135. Zinco Rice- MS, Grain dimension = MS. Zinco Rice- MS, Plant Height (cm) = 100. Zinco Rice- MS, HRR (%) = 52%. Zinco Rice- MS, Test Weight (gm) = 22. Zinco Rice- MS, Amylose content (%) = 24.2. Zinco Rice- MS, Zn content (ppm) = 27.4. Zinco Rice- MS, GI Value = 54.9",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 2,
+    "section": "Consideration"
+   }
+  },
+  {
+   "text": "Variety Performance - Biotic and Abiotic Stress\nZinco Rice-MS, Blast = Moderately Resistant. Zinco Rice-MS, Leaf blight = Moderately Resistant. Zinco Rice-MS, Sheath blight = Moderately Resistant. Zinco Rice-MS, Brown spot = Moderately Resistant. Zinco Rice-MS, BPH = Moderately Resistant. Zinco Rice-MS, Stem borer = Zinco Rice-MS\nRecommendation: Recommended for cultivation in Odisha, Chhattisgarh and West Bengal.\nBreeder Seeds Availability: IGKV, Raipur\nTotal BS indented till 2025:\nZinco Rice MS, 2020 = 0.00. Zinco Rice MS, 2021 = 51.00. Zinco Rice MS, 2022 = 50.00. Zinco Rice MS, 2023 = 15.00. Zinco Rice MS, 2024 = 5.00. Zinco Rice MS, 202 = 5.6. Zinco Rice MS, Total BS Indented in (qtl.) = 126.6. Zinco Rice MS, Major Indenting States/Institute = Chhattisgarh, Odisha\nCertified/TL seeds: State Seed Corporation, private seed agencies",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 8,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 2,
+    "section": "Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Product Profile\nMedium-duration, semi-dwarf variety with medium slender grains suitable for irrigated and shallow rainfed medium lands. Developed and released by NRRI in 2021 for Maharashtra and Gujarat. Zinc-enriched variety with high milling percent and good cooking quality. Resistant to leaf folder, moderately resistant to stem borer, leaf blast, neck blast and brown spot. Medium slender grain and high HRR are the additional adoption triggers of this variety.\nNearest Market Segment, Details = TMeLS-R. Eco System Suitability, Details = Shallow Rainfed medium Land. Preferred Planting Method, Details = TPR. Positioning Statement, Details = Modest yield and high Zinc content make this variety suitable in rice growing areas with a high burden of malnutrition\nVariety Performance - Grain, Yield and Agronomic Traits\nCR Dhan- 315, Yield (t/ha) = 5.0-5.5. CR Dhan- 315, Duration (days) = 125-135. CR Dhan- 315, Grain dimension = MS. CR Dhan- 315, Plant Height (cm) = 110. CR Dhan- 315, HRR (%) = 65. CR Dhan- 315, Test Weight (gm) = 23.1. CR Dhan- 315, Amylose content (%) = 25. CR Dhan- 315, Zn content (ppm) = 25.2. CR Dhan- 315, GI Value = 55. CR Dhan- 315, Protein Content (%) = 7.76",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 9,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 3,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Variety Performance - Biotic and Abiotic Stress\nCR Dhan-315, Neck blast = Moderately Tolerant. CR Dhan-315, Brown spot = Moderately Tolerant. CR Dhan-315, Sheath rot = Tolerant. CR Dhan-315, Leaf folder = Resistant\nRecommendation: Recommended for cultivation in Gujarat, Maharashtra and Odisha.\nBreeder Seeds Availability: CRRI, Cuttack\nTotal BS indented till 2025:\nCR Dhan 315 (IET 27179), 2021 = 0.00. CR Dhan 315 (IET 27179), 2022 = 3.00. CR Dhan 315 (IET 27179), 2023 = 3.05. CR Dhan 315 (IET 27179), 2024 = 5.10. CR Dhan 315 (IET 27179), 2025 = 0.6. CR Dhan 315 (IET 27179), Total BS Indeted in (qtl.) = 11.75. CR Dhan 315 (IET 27179), Major Indenting States/Institute = Odisha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 10,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 3,
+    "section": "Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Zinc-Enriched: Contains 25.2 PPM Zinc - supports better nutrition\n- High Milling Recovery: Over 65% Head Rice Recovery (HRR)\n- Excellent Cooking Quality: Ideal for household and market preferences\n- Pest Resistance: Tolerant to leaf folder and stem borer",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 11,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 3,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Consideration\n- Average yield",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 12,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 3,
+    "section": "Consideration"
+   }
+  },
+  {
+   "text": "Product Profile\nDRR Dhan 48 is a high-zinc and low GI rice variety developed and released in 2018 by IIRR. This variety contains 22 ppm zinc in polished rice and 27 ppm in brown rice, surpassing checks like BPT 5204, IR64, and Kalanamak. It has consistently out-yielded these checks, including Chitimuthyalu, in multi-location trials. DRR Dhan 48 is semi-dwarf with a strong culm, making it resistant to lodging. It exhibits late senescence, has erect and broad flag leaves that enhance photosynthetic efficiency, and features compact, heavy, and completely exerted panicles. The grain type is medium slender, preferred for both market and consumption.\nNearest Market Segment, Details = TMeLS-I/R. Eco System Suitability, Details = Irrigated medium Land for both Kharif and Rabi. Preferred Planting Method, Details = TPR. Positioning Statement, Details = With improved agronomic and nutritional traits, it is a promising variety for farmers in southern states.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 13,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 4,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Consideration\n- Good milling % but low HRR %\n- Yield potential can be improved",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 14,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 4,
+    "section": "Consideration"
+   }
+  },
+  {
+   "text": "Variety Performance - Grain, Yield and Agronomic Traits\nDRR Dhan-48, Yield (t/ha) = 5.00-6.00. DRR Dhan-48, Duration (days) = 130-135. DRR Dhan-48, Grain dimension = MS. DRR Dhan-48, Plant Height (cm) = 90-95. DRR Dhan-48, HRR (%) = 60.9%. DRR Dhan-48, Test Weight (gm) = 24. DRR Dhan-48, Amylose content (%) = 24.00. DRR Dhan-48, Zn content (ppm) = 22.0. DRR Dhan-48, GI Value = 51.9",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 15,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 4,
+    "section": "Variety Performance - Grain, Yield and Agronomic Traits"
+   }
+  },
+  {
+   "text": "Variety Performance - Biotic and Abiotic Stress\nDRR Dhan-48, Blast = Moderately resistant. DRR Dhan-48, Leaf blight = Resistant. DRR Dhan-48, Sheath blight = Moderately resistant. DRR Dhan-48, Brown spot = Moderately resistant. DRR Dhan-48, BPH = Moderately resistant. DRR Dhan-48, Stem borer = Moderately resistant. DRR Dhan-48, Drought = Tolerant\nRecommendation: Recommended for cultivation in Andhra Pradesh, Telangana, Karanataka and Tamil Nadu; suitable for irrigated ecologies in Odisha\nBreeder Seeds Availability: Institute of Rice Research, Hyderabad",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 16,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 4,
+    "section": "Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Total BS indented till 2025:\nDRR Dhan 48 (IET 24555), 2018 = 0.00. DRR Dhan 48 (IET 24555), 2019 = 4.00. DRR Dhan 48 (IET 24555), 2020 = 0.00. DRR Dhan 48 (IET 24555), 2021 = 2.10. DRR Dhan 48 (IET 24555), 2022 = 1.20. DRR Dhan 48 (IET 24555), 2023 = 0.20. DRR Dhan 48 (IET 24555), 2024 = 0.02. DRR Dhan 48 (IET 24555), 2025 = 0.95. DRR Dhan 48 (IET 24555), Total BS Indeted in (qtl.) = 8.47. DRR Dhan 48 (IET 24555), Major Indenting States/Institute = NSAI, Chhatishgarh\nMajor indenters: Chhattisgarh",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 17,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 4,
+    "section": "Total BS indented till 2025:"
+   }
+  },
+  {
+   "text": "Key Strengths\n- High Zinc with Low GI: Biofortified variety containing 24 ppm zinc in polished rice and 27 ppm in brown rice\n- Superior Yield Performance: Outperforms national and regional checks with 8-22% higher yield across multi-location AICRIP trials in South India\n- Strong Agronomic Traits: Semi-dwarf, strong culm (lodging resistant), erect, wide flag leaf, compact, heavy panicles, and medium slender grains.\n- Disease Resistance: Carries Xa21+xa13+xa5 genes for resistance to bacterial leaf blight (BLB); shows moderate resistance to RTD, sheath rot, neck blast, and brown spot.\n- Excellent Grain & Cooking Quality: High milling (69.4%), intermediate amylose (24%), low chalkiness",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 18,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 4,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Product Profile\nDRR Dhan 63 is a high-yielding biofortified(zinc) variety developed by IIRR in 2021. It has medium duration, semi-dwarf stature, and short, bold grain, suitable for irrigated ecologies in both kharif and rabi seasons. Excellent grain and cooking quality, as well as a high milling percentage, are the adoption triggers for this variety. Moderately resistant to leaf and neck blast, bacterial blight, and false smut.\nNearest Market Segment, Details = TMeLS-R. Eco System Suitability, Details = Irrigated medium land for both Kharif and Rabi seasons. Preferred Planting Method, Details = TPR. Positioning Statement, Details = Zinc-rich, high-yielding variety can be promoted in populations where zinc deficiency is prevalent.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 19,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 5,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Variety Performance - Grain, Yield and Agronomic Traits\nDRR Dhan-63, Yield (t/ha) = 5.00-6.00. DRR Dhan-63, Duration (days) = 125-130. DRR Dhan-63, Grain dimension = SB. DRR Dhan-63, Plant Height (cm) = 100. DRR Dhan-63, HRR (%) = 59.3%. DRR Dhan-63, Test Weight (gm) = 23.9. DRR Dhan-63, Amylose content (%) = 24.66. DRR Dhan-63, Zn content (ppm) = 24.2. DRR Dhan-63, GI Value = NA. DRR Dhan-63, Protein Content (%) = NA",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 20,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 5,
+    "section": "Variety Performance - Grain, Yield and Agronomic Traits"
+   }
+  },
+  {
+   "text": "Variety Performance - Biotic and Abiotic Stress\nDRR Dhan-63, Blast = Moderately Resistant. DRR Dhan-63, Leaf blight = Moderately Resistant. DRR Dhan-63, Sheath blight = Moderately Resistant. DRR Dhan-63, Brown spot = Moderately Resistant. DRR Dhan-63, BPH = Moderately Resistant. DRR Dhan-63, Stem borer = Resistant. DRR Dhan-63, Submergence = Resistant\nRecommendation: Recommended for cultivation in Uttar Pradesh, Odisha, Kerala\nBreeder Seeds Availability: Indian Institute of Rice Research, Hyderabad",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 21,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 5,
+    "section": "Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Total BS indented till 2025:\nDRR DHAN 63 (IET 26596), 2021 = 0.00. DRR DHAN 63 (IET 26596), 2022 = 0.00. DRR DHAN 63 (IET 26596), 2023 = 0. DRR DHAN 63 (IET 26596), 2024 = 0.10. DRR DHAN 63 (IET 26596), 2025 = 0.9. DRR DHAN 63 (IET 26596), Total BS Indeted in (qtl.) = 1. DRR DHAN 63 (IET 26596), Major Indenting States/Institute = NSAI, NSC",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 22,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 5,
+    "section": "Total BS indented till 2025:"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Semi-dwarf, non-lodging plant type with green foliage\n- Thick and strong culm, non lodging,\n- Well-exerted, compact, and well-formed panicles for optimal grain development\n- High zinc content of 24.2 PPM\n- Good cooking quality",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 23,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 5,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Consideration\n- Short Bold grain",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 24,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 5,
+    "section": "Consideration"
+   }
+  },
+  {
+   "text": "Product Profile\nSwarna Shakti Dhan is a multiple stress-tolerant, zinc and iron-rich variety. It is an early-duration, semi-dwarf variety with short, bold grains suitable for direct-seeded aerobic conditions. Developed and released by the ICAR Research Complex for Eastern Region, Patna, in 2020 for Bihar, this variety is tolerant to drought, diseases, and insect pests. It is suitable for water-limited irrigated and drought-prone rainfed areas. Swarna Shakti Dhan has moderate resistance to major diseases and pests, including sheath blight, false smut, leaf blast, bacterial leaf blight, stem borer and leaf folder. Swarna Shakti Dhan saves water by 35-40% while grown in aerobic conditions.\nNearest Market Segment, Details = DEMS-I/R. Ecosystem Suitability, Details = Irrigated medium Land. Preferred Planting Method, Details = Aerobic condition. Positioning Statement, Details = Aerobic rice with high zinc and iron content is preferred in water-limited areas.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 25,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 6,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Variety Performance - Grain, Yield and Agronomic Traits\nSwarna Shakti Dhan, Yield (t/ha) = 4.5-4.7. Swarna Shakti Dhan, Duration (days) = 115-120. Swarna Shakti Dhan, Grain dimension = SB. Swarna Shakti Dhan, Plant Height (cm) = 105-110. Swarna Shakti Dhan, HRR (%) = 63.2. Swarna Shakti Dhan, Test Weight (gm) = 23. Swarna Shakti Dhan, Amylose content (%) = 22.5. Swarna Shakti Dhan, Zn content (ppm) = 23.5. Swarna Shakti Dhan, Iron (ppm) = 15.1",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 26,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 6,
+    "section": "Variety Performance - Grain, Yield and Agronomic Traits"
+   }
+  },
+  {
+   "text": "Variety Performance - Biotic and Abiotic Stress\nSwarna Shakti Dhan, Blast = Moderately resistant. Swarna Shakti Dhan, Leaf blight = Moderately resistant. Swarna Shakti Dhan, Sheath blight = Moderately resistant. Swarna Shakti Dhan, Brown spot = Moderately resistant. Swarna Shakti Dhan, BPH = Moderately resistant. Swarna Shakti Dhan, Stem borer = Moderately resistant. Swarna Shakti Dhan, Drought = Tolerant\nRecommendation: Recommended for cultivation in Bihar, Jharkhand, Chhattisgrah, Odisha, Gujarat, and Maharashtra.\nBreeder Seeds Availability: ICAR, Patna",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 27,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 6,
+    "section": "Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Total BS indented till 2025:\nSwarna Shakti Dhan, 2022 = 10.00. Swarna Shakti Dhan, 2023 = 14.20. Swarna Shakti Dhan, 2024 = 20.12. Swarna Shakti Dhan, 2025 = 25. Swarna Shakti Dhan, Total BS Indeted in (qtl.) = 69.32. Swarna Shakti Dhan, Major Indenting States/Institute = Bihar, Odisha\nCertified/TL seeds: State Seed Corporation, private seed agencies",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 28,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 6,
+    "section": "Total BS indented till 2025:"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Enriched with Zinc and Iron\n- Tolerant to multiple stresses (drought, pests)\n- Adapted to changes in rainfall distribution\n- Saves 35-40% water compared to conventional varieties\n- Excellent cooking quality\n- High fertiliser response",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 29,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 6,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Consideration\n- Average Yield",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 30,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 6,
+    "section": "Consideration"
+   }
+  },
+  {
+   "text": "Product Profile\nCR Dhan 310 is the first high-protein rice variety in India, released by the CRRI, Cuttack, in 2016 and 2022 for the states of Odisha, Uttar Pradesh, Madhya Pradesh, and Assam. It has a medium duration (120-125 days), semi-dwarf plant type (110 cm) with medium slender and good grain quality. Recommended for irrigated and favourable shallow rainfed areas. The national average grain yield is 4.5 t/ha and it has 10.2% of protein.\nNearest Market Segment, Details = TMeLS-R. Eco System Suitability, Details = Rainfed medium Land. Preferred Planting Method, Details = TPR. Positioning Statement, Details = Biofortified rice with a high level of protein",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 31,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 7,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Variety Performance - Grain, Yield and Agronomic Traits\n- Average Yield\nCR Dhan-310, Yield (t/ha) = 4.5-5.0. CR Dhan-310, Duration (days) = 120-125. CR Dhan-310, Grain dimension = MS. CR Dhan-310, Plant Height (cm) = 110. CR Dhan-310, HRR (%) = 69. CR Dhan-310, Test Weight (gm) = 24. CR Dhan-310, Amylose content (%) = 25.1. CR Dhan-310, Zn content (ppm) = 10.77. CR Dhan-310, GI Value = 54.49. CR Dhan-310, Protein Content (%) = 10.2",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 32,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 7,
+    "section": "Variety Performance - Grain, Yield and Agronomic Traits"
+   }
+  },
+  {
+   "text": "Variety Performance - Biotic and Abiotic Stress\nCR Dhan-310, Neck blast = Tolerant. CR Dhan-310, Brown spot = Tolerant. CR Dhan-310, Sheath rot = Tolerant. CR Dhan-310, Leaf folder = Tolerant. CR Dhan-310, Drought = Tolerant\nRecommendation: Recommended for cultivation in Assam, Bihar, Odisha, Telangana, Tripura, and West Bengal.\nBreeder Seeds Availability: CRRI, Cuttack",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 33,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 7,
+    "section": "Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Total BS indented till 2025:\nCR Dhan 310, 2018 = 0.00. CR Dhan 310, 2019 = 7.45. CR Dhan 310, 2020 = 44.10. CR Dhan 310, 2021 = 23.35. CR Dhan 310, 2022 = 70.60. CR Dhan 310, 2023 = 26.90. CR Dhan 310, 2024 = 15.52. CR Dhan 310, 2025 = 10.85. CR Dhan 310, Total BS Indeted in (qntl) = 198.77. CR Dhan 310, Major Indenting States/Institute = Chhatishgarh, Madhya Pradesh, Assam, Odisha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 34,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 7,
+    "section": "Total BS indented till 2025:"
+   }
+  },
+  {
+   "text": "Key Strengths\n- High Protein Content: 10.2% protein in polished rice - supports better nutrition\n- Excellent Cooking Quality: Soft texture, pleasant aroma, and good elongation after cooking\n- High Milling Recovery: Superior grain retention with high milling percentage\n- Panicle Traits: Compact and well-exerted panicles ensure uniform grain filling",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 35,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 7,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Product Profile\nMedium-duration, semi-dwarf variety with long bold grains suitable for irrigated and favourable shallow rainfed medium lands. Developed and released by CRRI in 2019 for Odisha and Assam. Protein-rich variety with high zinc content. It exhibits moderate tolerance to BLB, brown spot, rice tungro virus. This variety also contains a high level of Zinc (20 ppm).\nNearest Market Segment, Details = TMeLS-R. Eco System Suitability, Details = Rainfed medium Land. Preferred Planting Method, Details = TPR. Positioning Statement, Details = CR Dhan 311 contains approximately 10% protein in polished rice, which is significantly higher than the average 6-7% found in most conventional varieties, making it a nutritionally superior option for enhancing dietary protein intake among target populations.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 36,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 8,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Variety Performance - Grain, Yield and Agronomic Traits\nCR Dhan-311, Yield (t/ha) = 5.00-5.5. CR Dhan-311, Duration (days) = 120-125. CR Dhan-311, Grain dimension = MB. CR Dhan-311, Plant Height (cm) = 115. CR Dhan-311, HRR (%) = 60. CR Dhan-311, Test Weight (gm) = 22. CR Dhan-311, Amylose content (%) = 23.7. CR Dhan-311, Zn content (ppm) = 20. CR Dhan-311, GI Value = 54.49. CR Dhan-311, Protein Content (%) = 10.1",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 37,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 8,
+    "section": "Variety Performance - Grain, Yield and Agronomic Traits"
+   }
+  },
+  {
+   "text": "Variety Performance - Biotic and Abiotic Stress\nCR Dhan-311, Neck blast = Tolerant. CR Dhan-311, Brown spot = Tolerant. CR Dhan-311, Sheath rot = Tolerant. CR Dhan-311, Leaf folder = Tolerant. CR Dhan-311, Rice tungro = Tolerant\nRecommendation: Recommended for cultivation in Assam, Bihar, Odisha, and West Bengal.\nBreeder Seeds Availability: CRRI, Cuttack Major indenters: Chhattisgarh, Assam, MP, Odisha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 38,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 8,
+    "section": "Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Total BS indented till 2025:\nCR Dhan 311, 2019 = 0. CR Dhan 311, 2020 = 3. CR Dhan 311, 2021 = 11.11. CR Dhan 311, 2022 = 25.51. CR Dhan 311, 2023 = 14.30. CR Dhan 311, 2024 = 16.50. CR Dhan 311, 2025 = 0. CR Dhan 311, Total BS Indeted in (qtl.) = 70.42",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 39,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 8,
+    "section": "Total BS indented till 2025:"
+   }
+  },
+  {
+   "text": "Key Strengths\n- High Protein Content: 10.1% protein in polished rice - supports better nutrition\n- Excellent Cooking Quality: Soft texture, pleasant aroma, and good elongation after cooking\n- High Milling Recovery: Superior grain retention with high milling percentage\n- Panicle Traits: Compact and well-exerted panicles ensure uniform grain filling\n- Moderately Zinc content with 20.0 PPM",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 40,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 8,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Consideration\n- Average Yield",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 41,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 8,
+    "section": "Consideration"
+   }
+  },
+  {
+   "text": "Product Profile\nDRR-45 is the first bio-fortified variety notified at the national level in 2015 by IRR. Medium-duration, semi-dwarf variety with long slender grains, adapted to irrigated ecologies in southern India. This Zinc-enriched variety features drought tolerance, a non-lodging plant type, and long, slender grains. Zinc content of DRR dhan 45 is 22.6 ppm (24 ppm in AP, KA, and TN) in polished rice, developed through conventional breeding without compromising yield. Based on its high zinc content and yield performance of over 5 t/ha, it is released for the states of Tamil Nadu, Andhra Pradesh, and Karnataka. It is moderately resistant to blast, sheath rot and rice tungro virus. DRR dhan45 serves as a benchmark for zinch-dense variety development.\nNearest Market Segment, Details = TMeLS-I/R. Eco System Suitability, Details = Irrigated medium Land for both Kharif and Rabi. Preferred Planting Method, Details = TPR. Positioning Statement, Details = DRR dhan 45 can help meet the daily zinc requirement (7-13 mg for adults), thereby contributing to improved human health and nutrition.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 42,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 9,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Zinc-dense Grain: Contains 23 ppm Zinc in polished rice\n- High Yield Potential: Semi-dwarf, non-lodging plant type with 5-6 t/ha yield under irrigated conditions.\n- Excellent Grain Quality: Long slender grains with good cooking traits - intermediate amylose (21.1%) and soft gel consistency.\n- Proven Field Performance: Outperformed IR 64 and Samba Mahsuri by up to 70% yield advantage across Tamil Nadu, Karnataka, and Andhra Pradesh.\n- Nationwide Recognition: India's first zinc-rich rice variety, notified in 2015 - a cost-effective solution for nutritional security.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 43,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 9,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Consideration\n- Good milling % but low HRR % (55%) Average Yield\nDRR Dhan-45, Yield (t/ha) = 5.00-6.00. DRR Dhan-45, Duration (days) = 125-130. DRR Dhan-45, Grain dimension = LS. DRR Dhan-45, Plant Height (cm) = 105. DRR Dhan-45, HRR (%) = 56%. DRR Dhan-45, Test Weight (gm) = 26.4. DRR Dhan-45, Amylose content (%) = 21.01. DRR Dhan-45, Zn content (ppm) = 22.6",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 44,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 9,
+    "section": "Consideration"
+   }
+  },
+  {
+   "text": "Variety Performance - Biotic and Abiotic Stress\nDRR Dhan-45, Blast = Moderately Resistant. DRR Dhan-45, Leaf blight = Moderately Resistant. DRR Dhan-45, BPH = Moderately Resistant. DRR Dhan-45, Stem borer = Moderately Resistant. DRR Dhan-45, Drought = Tolerant\nRecommendation: Recommended for cultivation in Andhra Pradesh, Telangana, Karanataka and Tamil Nadu; suitable for irrigated ecologies in Odisha\nBreeder Seeds Availability: Indian Institute of Rice Research, Hyderabad",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 45,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 9,
+    "section": "Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Total BS indented till 2025:\nDRR DHAN-45 (IET 23832), 2018 = 0.65. DRR DHAN-45 (IET 23832), 2019 = 4.25. DRR DHAN-45 (IET 23832), 2020 = 5.95. DRR DHAN-45 (IET 23832), 2021 = 14.90. DRR DHAN-45 (IET 23832), 2022 = 12.20. DRR DHAN-45 (IET 23832), 2023 = 7.85. DRR DHAN-45 (IET 23832), 2024 = 9.12. DRR DHAN-45 (IET 23832), 2025 = 13.4. DRR DHAN-45 (IET 23832), Total BS Indeted in (qtl.) = 68.32\nCertified/TL seeds: State Seed Corporation, private seed agencies Major indenters: Tamil Nadu, Chhatishgarh\n*Parental line(s) from IRRI germplasms",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 46,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 9,
+    "section": "Total BS indented till 2025:"
+   }
+  },
+  {
+   "text": "Product Profile\nA short-duration, semi-dwarf variety with medium-slender grains suitable for rainfed medium lands. Developed and released by BRRI in 2017 in Bangladesh, later released in India by IIRR in 2022 through the Seeds Without Borders initiative. Zinc-rich variety with high protein content and milling percentage. Resistant to blast and sheath blight, and tolerant to leaf blight, BPH and stem borer.\nNearest Market Segment, Details = TMeLS-R. Eco System Suitability, Details = Rainfed Medium Land. Preferred Planting Method, Details = TPR. Positioning Statement, Details = High-yielding variety with nutritional benefits",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 47,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 10,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Variety Performance - Grain, Yield and Agronomic Traits\nBRRI Dhan-84, Yield (t/ha) = 4.50-5.00. BRRI Dhan-84, Duration (days) = 100-110. BRRI Dhan-84, Grain dimension = MS. BRRI Dhan-84, Plant Height (cm) = 110. BRRI Dhan-84, HRR (%) = 53%. BRRI Dhan-84, Test Weight (gm) = 22.8. BRRI Dhan-84, Amylose content (%) = 25. BRRI Dhan-84, Zn content (ppm) = 27.6. BRRI Dhan-84, GI Value = 53.39. BRRI Dhan-84, Protein Content (%) = 9.7%",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 48,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 10,
+    "section": "Variety Performance - Grain, Yield and Agronomic Traits"
+   }
+  },
+  {
+   "text": "Variety Performance - Biotic and Abiotic Stress\nBRRI Dhan-84, Blast = Resistant. BRRI Dhan-84, Leaf blight = Resistant. BRRI Dhan-84, Sheath blight = Resistant. BRRI Dhan-84, Brown spot = Tolerant. BRRI Dhan-84, BPH = Tolerant. BRRI Dhan-84, Stem borer = Tolerant. BRRI Dhan-84, Drought = Tolerant\nRecommendation: Recommended for cultivation in Assam, Bihar, Odisha, Telangana, Tripura, and West Bengal.\nBreeder Seeds Availability: Indian Institute of Rice Research, Hyderabad\nDRR Dhan 67 (BRRI Dhan 84), 2022 = 0.00. DRR Dhan 67 (BRRI Dhan 84), 2023 = 0.00. DRR Dhan 67 (BRRI Dhan 84), 2024 = 0.20. DRR Dhan 67 (BRRI Dhan 84), 2025 = 0.1. DRR Dhan 67 (BRRI Dhan 84), Total BS Indeted in (qtl.) = 0.3. DRR Dhan 67 (BRRI Dhan 84), Major Indenting States/Institute = NSC",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 49,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 10,
+    "section": "Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Key Strengths\n- High Yield: 18-20+ quintals/acre under favourable practices\n- Grain Quality: Medium slender grains with >200 grains per panicle\n- Resistant to blast, leaf & sheath blight and stem borer\n- Zinc-enriched (27.6 ppm) &High protein content (9.7%)",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 50,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 10,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Consideration\n- 53% head rice recovery (HRR)",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 51,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 10,
+    "section": "Consideration"
+   }
+  },
+  {
+   "text": "Product Profile\nA high-yielding, medium-duration, medium-height variety with medium-bold grains suitable for irrigated lowland conditions. Developed by BRRI, Bangladesh and subsequently released by IIRR in India in 2018 through the Seed Without Borders agreement. It is a low-glycemic index (GI) rice suitable for people with diabetes. The high milling and HRR percentage traits make it popular among millers and traders. It is resistant to blast, leaf and sheath blight, and stem borer. It is a green super rice that requires fewer inputs, thereby reducing cultivation costs.\nAttribute, 1 = Details. Nearest Market Segment, 1 = TMeLS-R. Eco System Suitability, 1 = Rainfed Low Land. Preferred Planting Method, 1 = TPR. Positioning Statement, 1 = Low GI and High HRR variety, preferred by consumers and rice processors",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 52,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 11,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Variety Performance - Grain, Yield and Agronomic Traits\nBRRI Dhan-69, Yield (t/ha) = 5.00-6.00. BRRI Dhan-69, Duration (days) = 125-130. BRRI Dhan-69, Grain dimension = MB. BRRI Dhan-69, Plant Height (cm) = 125. BRRI Dhan-69, HRR (%) = 72%. BRRI Dhan-69, Test Weight (gm) = 23.9. BRRI Dhan-69, Amylose content (%) = 27.2. BRRI Dhan-69, Zn content (ppm) = NA. BRRI Dhan-69, GI Value = 54.9. BRRI Dhan-69, Protein Content (%) = NA",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 53,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 11,
+    "section": "Variety Performance - Grain, Yield and Agronomic Traits"
+   }
+  },
+  {
+   "text": "Variety Performance - Biotic and Abiotic Stress\nBRRI Dhan-69, Blast = Resistant. BRRI Dhan-69, Leaf blight = Tolerant. BRRI Dhan-69, Sheath blight = Resistant. BRRI Dhan-69, Brown spot = Tolerant. BRRI Dhan-69, BPH = Tolerant. BRRI Dhan-69, Stem borer = Tolerant. BRRI Dhan-69, Submergence = Resistant\nRecommendation: Recommended for cultivation in Assam, Bihar, Odisha, Telangana, Tripura, and West Bengal.\nBreeder Seeds Availability: Indian Institute of Rice Research, Hyderabad",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 54,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 11,
+    "section": "Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Total BS indented till 2025:\nBRRI Dhan-69, 2019 = 0.00. BRRI Dhan-69, 2020 = 0.00. BRRI Dhan-69, 2021 = 0.10. BRRI Dhan-69, 2022 = 0.10. BRRI Dhan-69, 2023 = 0.3. BRRI Dhan-69, 2024 = 0. BRRI Dhan-69, 2025 = 0. BRRI Dhan-69, Total BS Indented in Qtl. = 0.5. BRRI Dhan-69, Major Indenting States/Institute = NSC, NSAI",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 55,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 11,
+    "section": "Total BS indented till 2025:"
+   }
+  },
+  {
+   "text": "Key Strengths\n- High Yield: 25-30+ quintals/acre under favourable practices\n- Grain Features: Medium, bold grains with >400 grains per panicle\n- Nutritional value: Low glycaemic Index value\n- Post-Harvest Benefit: 70% head rice recovery (HRR), miller preferred\n- Field Traits: Non-lodging, non-shattering - minimal harvest losses\n- Resistant to blast, leaf & sheath blight and stem borer",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 56,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 11,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Consideration\n- Duration increases during Rabi season\n- Medium bold grain",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 57,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 11,
+    "section": "Consideration"
+   }
+  },
+  {
+   "text": "Product Profile\nHigh-yielding, early to medium-duration, semi-dwarf variety with medium-slender grains suitable for irrigated conditions. Developed and released by BRRI in 2021. Later released in India by IIRR in 2022. This is a Zinc enriched variety with high milling percentage. Resistant to blast and tolerant to leaf blight, BPH and stem borer.\nNearest Market Segment, Details = TEMS. Eco System Suitability, Details = Rainfed Medium Land. Preferred Planting Method, Details = TPR. Positioning Statement, Details = High yielding variety with nutritional benefits",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 58,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 12,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Variety Performance - Grain, Yield and Agronomic Traits\nBRRI Dhan-100, Yield (t/ha) = 5.00-5.50. BRRI Dhan-100, Duration (days) = 120-125. BRRI Dhan-100, Grain dimension = MS. BRRI Dhan-100, Plant Height (cm) = 105. BRRI Dhan-100, HRR (%) = 64%. BRRI Dhan-100, Test Weight (gm) = 16.7. BRRI Dhan-100, Amylose content (%) = 26.8. BRRI Dhan-100, Zn content (ppm) = 25.7",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 59,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 12,
+    "section": "Variety Performance - Grain, Yield and Agronomic Traits"
+   }
+  },
+  {
+   "text": "Variety Performance - Biotic and Abiotic Stress\nBRRI Dhan-100, Blast = Resistant. BRRI Dhan-100, Leaf blight = Resistant. BRRI Dhan-100, Sheath blight = Resistant. BRRI Dhan-100, Brown spot = Tolerant. BRRI Dhan-100, BPH = Tolerant. BRRI Dhan-100, Stem borer = Tolerant. BRRI Dhan-100, Drought = Tolerant\nRecommendation: Recommended for cultivation in Assam, Bihar, Odisha, Telangana, Tripura, and West Bengal.\nBreeder Seeds Availability: Indian Institute of Rice Research, Hyderabad",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 60,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 12,
+    "section": "Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Total BS indented till 2025:\nDRR Dhan 69 (BRRI Dhan 100), 2022 = 0.00. DRR Dhan 69 (BRRI Dhan 100), 2023 = 0.00. DRR Dhan 69 (BRRI Dhan 100), 2024 = 0.30. DRR Dhan 69 (BRRI Dhan 100), 2025 = 0.1. DRR Dhan 69 (BRRI Dhan 100), Total BS Indeted in (qtl.) = 0.4. DRR Dhan 69 (BRRI Dhan 100), Major Indenting States/Institute = NSC",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 61,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 12,
+    "section": "Total BS indented till 2025:"
+   }
+  },
+  {
+   "text": "Key Strengths\n- High-yielding & low-input responsive (GSR variety)\n- Zinc-enriched for better nutrition\n- High milling recovery percentage\n- Resistant to blast disease\n- Tolerant to leaf blight, brown planthopper (BPH), and stem borer",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 62,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 12,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Consideration\n- 53% head rice recovery (HRR)",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 63,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Speciality rice.pdf",
+    "page": 12,
+    "section": "Consideration"
+   }
+  }
+ ]
+}

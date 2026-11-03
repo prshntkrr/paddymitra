@@ -1,0 +1,150 @@
+{% extends 'base.html' %}
+{% block page_title %}WhatsApp API{% endblock %}
+{% block topbar_actions %}
+  <a href="{% url 'api_endpoints:list' %}" class="btn btn-sm btn-secondary">← APIs</a>
+{% endblock %}
+{% block content %}
+
+{% if new_key %}
+<div class="card" style="border:2px solid var(--irri-green);margin-bottom:16px;">
+  <div class="card-body">
+    <div style="font-size:11px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;color:var(--irri-green);">
+      Copy this key now
+    </div>
+    <div style="font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:14px;
+                background:var(--gray-50);border:1px solid var(--gray-200);border-radius:6px;
+                padding:10px 12px;margin:8px 0;word-break:break-all;">{{ new_key.key }}</div>
+    <div style="font-size:12px;color:var(--gray-600);">{{ new_key.note }}</div>
+  </div>
+</div>
+{% endif %}
+
+<div class="card" style="margin-bottom:16px;">
+  <div class="card-header"><h3>WhatsApp API</h3></div>
+  <div class="card-body">
+    <p style="color:var(--gray-500);font-size:13px;margin-top:0;">
+      One integration, three URLs. A farmer's message arrives on the inbound
+      webhook or the generic endpoint, is answered by the RAG pipeline, and the
+      reply is pushed back through the gateway.
+    </p>
+    <table class="data-table">
+      <thead><tr><th>Endpoint</th><th>Method</th><th>URL</th></tr></thead>
+      <tbody>
+        {% for name, method, url, note in endpoints %}
+        <tr>
+          <td><strong>{{ name }}</strong><br>
+              <span style="font-size:11px;color:var(--gray-500);">{{ note }}</span></td>
+          <td><span class="badge badge-blue">{{ method }}</span></td>
+          <td style="font-family:ui-monospace,Consolas,monospace;font-size:12px;word-break:break-all;">{{ url }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap;font-size:12px;">
+      <span class="badge {% if outbound_token_set %}badge-green{% else %}badge-red{% endif %}">
+        Outbound token {% if outbound_token_set %}set{% else %}NOT set — answers are generated and never delivered{% endif %}
+      </span>
+      <span class="badge {% if application_set %}badge-green{% else %}badge-red{% endif %}">
+        Application id {% if application_set %}set{% else %}NOT set — the gateway accepts sends and delivers nothing{% endif %}
+      </span>
+      <span class="badge {% if public_base_url %}badge-green{% else %}badge-yellow{% endif %}">
+        {% if public_base_url %}Voice replies on{% else %}PUBLIC_BASE_URL not set — replies go out as text only{% endif %}
+      </span>
+      <span class="badge {% if webhook_secret_set or keys %}badge-green{% elif unauthenticated_allowed %}badge-red{% else %}badge-yellow{% endif %}">
+        {% if webhook_secret_set or keys %}Webhook authenticated{% elif unauthenticated_allowed %}WEBHOOK IS OPEN — anyone who guesses the path can spend the budget{% else %}No key and no secret — the webhook refuses everything{% endif %}
+      </span>
+      {% if messages_waiting %}
+      <span class="badge badge-yellow">{{ messages_waiting }} message(s) not yet answered</span>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header"><h3>API keys</h3></div>
+  <div class="card-body">
+    <p style="color:var(--gray-500);font-size:13px;margin-top:0;">
+      A key authenticates a caller and, when bound to a hook, selects the hook
+      that answers. Create as many as you need — one per integration is easier
+      to revoke than one shared everywhere. Only a prefix and a hash are stored,
+      so a key is shown once and never again.
+    </p>
+
+    {% if can_edit %}
+    <form method="post" action="{% url 'api_endpoints:whatsapp_key_create' %}"
+          style="display:flex;gap:8px;align-items:flex-end;flex-wrap:wrap;margin-bottom:16px;">
+      {% csrf_token %}
+      <div>
+        <label style="display:block;font-size:11px;color:var(--gray-500);">Name</label>
+        <input type="text" name="name" placeholder="picky assist production"
+               style="padding:6px 8px;border:1px solid var(--gray-300);border-radius:6px;min-width:220px;">
+      </div>
+      <div>
+        <label style="display:block;font-size:11px;color:var(--gray-500);">Scope</label>
+        <select name="hook" style="padding:6px 8px;border:1px solid var(--gray-300);border-radius:6px;">
+          <option value="">Generic — /api/v1/whatsapp/message/</option>
+          {% for h in hooks %}
+          <option value="{{ h.pk }}">{{ h.trigger_keyword }} — {{ h.catalogue.name|default:"no catalogue" }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <button class="btn btn-sm btn-primary" type="submit">Create key</button>
+    </form>
+    {% endif %}
+
+    {% if keys %}
+    <table class="data-table">
+      <thead><tr>
+        <th>Key</th><th>Scope</th><th>State</th><th>Calls</th>
+        <th>Last used</th><th>Name</th><th></th>
+      </tr></thead>
+      <tbody>
+        {% for k in keys %}
+        <tr>
+          <td style="font-family:ui-monospace,Consolas,monospace;font-size:12px;">{{ k.masked }}</td>
+          <td>{% if k.is_generic %}<span class="badge badge-blue">generic</span>{% else %}<span class="badge badge-green">{{ k.scope }}</span>{% endif %}</td>
+          <td>
+            {% if k.state == 'active' %}<span class="badge badge-green">active</span>
+            {% elif k.state == 'expiring' %}<span class="badge badge-yellow">rotated — works until {{ k.expires_at|date:"d M, H:i" }}</span>
+            {% else %}<span class="badge badge-red">{{ k.state }}</span>{% endif %}
+          </td>
+          <td>{{ k.request_count }}</td>
+          <td style="font-size:12px;">{{ k.last_used_at|date:"d M Y, H:i"|default:"never" }}</td>
+          <td style="font-size:12px;">{{ k.name|default:"—" }}</td>
+          <td style="text-align:right;white-space:nowrap;">
+            {% if can_edit and k.state != 'revoked' %}
+            <form method="post" action="{% url 'api_endpoints:whatsapp_key_rotate' k.pk %}" style="display:inline;">
+              {% csrf_token %}
+              <input type="hidden" name="grace_hours" value="24">
+              <button class="btn btn-xs btn-secondary" type="submit"
+                      title="Issue a replacement; this key keeps working for 24 hours so the gateway can be updated without dropping a message">Rotate</button>
+            </form>
+            <form method="post" action="{% url 'api_endpoints:whatsapp_key_revoke' k.pk %}" style="display:inline;"
+                  onsubmit="return confirm('Revoke {{ k.masked }}? Anything using it is refused immediately.');">
+              {% csrf_token %}
+              <button class="btn btn-xs btn-danger" type="submit">Revoke</button>
+            </form>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p style="color:var(--gray-400);font-style:italic;">
+      No API keys yet. Without one, the inbound webhook falls back to the shared
+      secret, and the generic endpoint cannot be called at all.
+    </p>
+    {% endif %}
+
+    <div style="margin-top:12px;font-size:12px;">
+      {% if show_revoked %}
+        <a href="{% url 'api_endpoints:whatsapp' %}" style="color:var(--irri-green);">Hide revoked keys</a>
+      {% else %}
+        <a href="?revoked=1" style="color:var(--irri-green);">Show revoked keys</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}

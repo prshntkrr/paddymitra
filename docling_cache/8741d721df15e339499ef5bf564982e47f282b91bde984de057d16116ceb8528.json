@@ -1,0 +1,70 @@
+{
+ "source": "nitrogen-deficiency-english.pdf",
+ "sha256": "8741d721df15e339499ef5bf564982e47f282b91bde984de057d16116ceb8528",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:48:15",
+ "chunk_count": 5,
+ "chunks": [
+  {
+   "text": "What it does\nNitrogen (N) deficient crops have low yield.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "nitrogen-deficiency-english.pdf",
+    "page": 1,
+    "section": "What it does"
+   }
+  },
+  {
+   "text": "Why and where it occurs\nN deficiency is one of the most common problems in rice in Asia. It is common in all rice-growing soils where modern varieties are grown without sufficient mineral N fertilizer.\nN deficiency may also occur where a large amount of N fertilizer has been applied but at the wrong time or in the wrong way.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "nitrogen-deficiency-english.pdf",
+    "page": 1,
+    "section": "Why and where it occurs"
+   }
+  },
+  {
+   "text": "How to identify\nCheck the field for abnormalities. N deficient crops are stunted and discolored. Specifically:\n- Older leaves or whole plants are yellowish green\n- Old leaves and sometimes all leaves become light green and chlorotic at the tip\n- Entire field may appear yellowish\nCheck the leaves for the following symptoms:\n- Leaves can die under severe N stress. Except for young leaves, which are greener, leaves of nitrogen deficient plants are narrow, small, short, erect, and lemonyellowish green.\n- Other symptoms are reduced tillering and reduced grain number.\n- Lower yield due to less panicles per unit area are effect of N deficiency.\nwww.rkbodisha.in\nLeaves are yellowish green where N is not applied\nIn N-deficient plants, leaves are smaller, plants are stunted, tillering is reduced\nThe visual symptoms of N deficiency can be confused with those of Sulfur (S) deficiency, but S deficiency is less common and tends to first affect younger leaves or all leaves on the plant. Mild N deficiency can be confused with Iron (Fe) deficiency, but the latter affects the emerging leaf first.\nTo confirm the deficiency, bring soil and plant sample to the laboratory for testing.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "nitrogen-deficiency-english.pdf",
+    "page": 1,
+    "section": "How to identify"
+   }
+  },
+  {
+   "text": "How to manage\n- Apply N fertilizer efficiently.\n- Do not apply large amounts of N to less responsive varieties. Hybrid rice absorbs mineral N more efficiently than inbred rice varieties.\n- Choose a suitable plant spacing for each cultivar. Crops with suboptimal plant densities do not use fertilizer N efficiently.\n- Adjust the number of splits and timing of N applications according to the crop establishment method. Transplanted and direct-seeded rice require different N management strategies.\n- Maintain proper water control, i.e., keep the field flooded to prevent denitrification but avoid N losses from water runoff over bunds immediately following fertilizer application.\n- Establish a dense, healthy rice crop by using high-quality seed of a high-yielding variety with multiple pest resistance and a suitable plant density.\n- Control weeds that compete with rice for N.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "nitrogen-deficiency-english.pdf",
+    "page": 1,
+    "section": "How to manage"
+   }
+  },
+  {
+   "text": "Learn More\nVisit Rice Based Cropping Systems Knowledge Bank www.rkbodisha.in",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "nitrogen-deficiency-english.pdf",
+    "page": 1,
+    "section": "Learn More"
+   }
+  }
+ ]
+}

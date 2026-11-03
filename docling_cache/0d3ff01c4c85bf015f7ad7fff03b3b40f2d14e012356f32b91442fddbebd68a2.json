@@ -1,0 +1,76 @@
+{
+ "source": "Nua-Chinikamini.pdf",
+ "sha256": "0d3ff01c4c85bf015f7ad7fff03b3b40f2d14e012356f32b91442fddbebd68a2",
+ "ocr": false,
+ "table_mode": "clean_rendering",
+ "origin": "clean_rendering",
+ "built_at": "2026-10-31T23:49:30",
+ "chunk_count": 5,
+ "chunks": [
+  {
+   "text": "Nua Chinikamini (Pure line selection of Chinikamini) - rice variety factsheet.\nProduct profile: A late-maturing, short bold grain aromatic rice derived from a landrace, Nua Chinikamini was released in 2011 specifically for cultivation in the rainfed shallow lowlands of Odisha. This variety is known for its strong aroma and exquisite sensory taste and is used for kheer. It has desirable grain quality features such as translucent bold kernels, high head rice recovery, high elongation ratio (2.01), intermediate amylose content, and medium gel consistency (57.7 mm). Due to its superior grain quality, it holds significant potential in premium markets.\nPriority market segment: TLaS-R.\nPlanting method and ecosystem suitability (PTR = puddled transplanted rice, DSR = direct seeded rice): PTR: Recommended; DSR: Not Recommended; Irrigated Lowland: Not Recommended; Rainfed Lowland: Recommended; Upland: Not Recommended.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "source_file": "Nua-Chinikamini.pdf",
+    "variety": "Nua Chinikamini",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Nua Chinikamini - key strengths, considerations and positioning.\nKey strengths: Pleasant aroma; Translucent short bold grain; High HRR, good yield in this segment; Moderately resistant to sheath rot, sheath blight and blast; High elongation ratio (2.01).\nConsiderations: Tall plant; Average grain weight; Photosensitive; Average parboiling.\nPositioning (variety replaced / companion, by ecosystem): Replace - Irrigated Lowland: None; Rainfed Lowland: Chinikamini; Upland: None.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "source_file": "Nua-Chinikamini.pdf",
+    "variety": "Nua Chinikamini",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Nua Chinikamini - grain yield, agronomic traits and grain shape (HRR = head rice recovery; grain shape SB = short bold, MS = medium slender, SM = short medium, LB = long bold, MB = medium bold).\nNua Chinikamini -> Grain yield (kg/ha): 3000-3500; Maturity (days): 145-150; Plant height (cm): 135-140; Lodging: Susceptible; HRR %: 67; 1000-grain wt (g): 18; Grain shape: SB.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "source_file": "Nua-Chinikamini.pdf",
+    "variety": "Nua Chinikamini",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Nua Chinikamini - biotic and abiotic stress reaction (disease and pest tolerance; BPH = brown plant hopper, RTV = rice tungro virus).\nNua Chinikamini -> Neck blast: Tolerant; RTV: Tolerant; Sheath blight: Tolerant; Sheath rot: Tolerant; Stem borer: Tolerant; Gall midge: Tolerant.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "source_file": "Nua-Chinikamini.pdf",
+    "variety": "Nua Chinikamini",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Nua Chinikamini - producibility and recommendation.\nProducibility: Nua Chinikamini = 1500 Kgs./acre.\nRecommendation: Released for cultivation in Odisha.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "source_file": "Nua-Chinikamini.pdf",
+    "variety": "Nua Chinikamini",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  }
+ ]
+}

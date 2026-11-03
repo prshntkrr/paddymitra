@@ -1,0 +1,395 @@
+{% extends 'base.html' %}{% load humanize %}{% load static %}{% load irri_extras %}
+{% block page_title %}Dashboard{% endblock %}
+{% block topbar_actions %}
+  <span style="font-size:13px;color:var(--gray-500);display:inline-flex;align-items:center;gap:6px;">
+    {% icon "clock" 14 %} Last updated: {{ last_updated }}
+  </span>
+  <button class="btn btn-sm btn-secondary" onclick="location.reload()">{% icon "refresh" 14 %} Refresh</button>
+  <a href="{% url 'queries:demo' %}" class="btn btn-sm btn-primary">{% icon "sparkles" 14 %} Run demo query</a>
+{% endblock %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'vendor/leaflet.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<!-- ============ FILTER BAR ============ -->
+<form method="get" class="filter-bar fade-in">
+  <div class="filter-group">
+    <label>State</label>
+    <select name="state">
+      <option selected>Odisha</option>
+      <option>Bihar</option>
+      <option>West Bengal</option>
+      <option>Uttar Pradesh</option>
+    </select>
+  </div>
+  <div class="filter-group">
+    <label>District</label>
+    <select name="district">
+      <option value="">All Districts</option>
+      {% for d in district_choices %}
+        <option value="{{ d }}" {% if selected_district == d %}selected{% endif %}>{{ d }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="filter-group">
+    <label>From Date</label>
+    <input type="date" name="from" value="{{ filter_from }}">
+  </div>
+  <div class="filter-group">
+    <label>To Date</label>
+    <input type="date" name="to" value="{{ filter_to }}">
+  </div>
+  <button type="submit" class="btn btn-primary btn-sm" style="margin-top:18px;">Apply Filter</button>
+  <a href="{% url 'dashboard:home' %}" class="btn btn-secondary btn-sm" style="margin-top:18px;">Reset</a>
+</form>
+
+<!-- ============ KPI CARDS ============ -->
+<div class="stats-grid fade-in">
+  <div class="stat-card">
+    <div class="stat-icon green">{% icon "document" 22 %}</div>
+    <div class="stat-value">{{ kpi_docs|intcomma }}</div>
+    <div class="stat-label">Documents Uploaded</div>
+    <div class="stat-change {{ docs_delta.dir }}">{{ docs_delta.text }}</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon blue">{% icon "chat" 22 %}</div>
+    <div class="stat-value">{{ kpi_queries|intcomma }}</div>
+    <div class="stat-label">Queries Generated</div>
+    <div class="stat-change {{ queries_delta.dir }}">{{ queries_delta.text }}</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon purple">{% icon "check" 22 %}</div>
+    <div class="stat-value">{{ kpi_responded|intcomma }}</div>
+    <div class="stat-label">Queries Responded</div>
+    <div class="stat-change up">{% icon "arrow-up" 11 %} {{ kpi_response_rate }}% response rate</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon amber">{% icon "thumbs-up" 22 %}</div>
+    <div class="stat-value">{{ kpi_feedback|intcomma }}</div>
+    <div class="stat-label">Feedback Received</div>
+    <div class="stat-change up">{% icon "arrow-up" 11 %} {{ feedback_good_pct }}% positive</div>
+  </div>
+</div>
+
+<!-- ============ MONTHLY TREND + FEEDBACK SUMMARY ============ -->
+<div class="content-grid fade-in">
+  <!-- Drilldown chart -->
+  <div class="card">
+    <div id="monthDrilldownChart" style="width:100%;height:370px;"></div>
+  </div>
+
+  <!-- Feedback Summary -->
+  <div class="card">
+    <div class="card-header">
+      <h3>Feedback Summary</h3>
+      <span class="badge badge-amber">{{ kpi_feedback|intcomma }} responses</span>
+    </div>
+    <div class="card-body">
+      <div style="display:flex;gap:12px;margin-bottom:24px;">
+        <div style="flex:1;text-align:center;padding:16px;background:var(--irri-green-pale);border-radius:var(--radius-md);">
+          <div style="font-size:28px;font-weight:800;color:var(--irri-green);">{{ feedback_good_pct }}%</div>
+          <div style="font-size:12px;color:var(--gray-500);margin-top:2px;">Positive</div>
+        </div>
+        <div style="flex:1;text-align:center;padding:16px;background:var(--accent-amber-light);border-radius:var(--radius-md);">
+          <div style="font-size:28px;font-weight:800;color:#92400E;">{{ feedback_avg_pct }}%</div>
+          <div style="font-size:12px;color:var(--gray-500);margin-top:2px;">Average</div>
+        </div>
+        <div style="flex:1;text-align:center;padding:16px;background:var(--accent-red-light);border-radius:var(--radius-md);">
+          <div style="font-size:28px;font-weight:800;color:var(--accent-red);">{{ feedback_bad_pct }}%</div>
+          <div style="font-size:12px;color:var(--gray-500);margin-top:2px;">Negative</div>
+        </div>
+      </div>
+
+      <h4 style="font-size:13px;font-weight:600;margin-bottom:12px;color:var(--gray-700);">Response Performance</h4>
+      <div class="chart-bar-group">
+        <div class="chart-bar-item">
+          <div class="label" style="width:120px;">Avg Response</div>
+          <div class="bar-track"><div class="bar-fill" style="width:{{ avg_response_time|floatformat:0 }}%;max-width:100%;background:var(--irri-green);">{{ avg_response_time }}s</div></div>
+        </div>
+        <div class="chart-bar-item">
+          <div class="label" style="width:120px;">Success Rate</div>
+          <div class="bar-track"><div class="bar-fill" style="width:{{ success_rate_pct }}%;background:var(--accent-blue);">{{ success_rate_pct }}%</div></div>
+        </div>
+        <div class="chart-bar-item">
+          <div class="label" style="width:120px;">Escalated</div>
+          <div class="bar-track"><div class="bar-fill" style="width:{{ escalated_pct }}%;background:var(--accent-amber);">{{ escalated_pct }}%</div></div>
+        </div>
+      </div>
+
+      <div style="margin-top:24px;padding-top:18px;border-top:1px solid var(--gray-100);">
+        <h4 style="font-size:13px;font-weight:600;margin-bottom:10px;color:var(--gray-700);">Top Queried Topics</h4>
+        <div style="display:flex;flex-wrap:wrap;gap:6px;">
+          {% for p in top_problems %}
+            <span class="tag">{{ p.problem_entity }}</span>
+          {% empty %}
+            <span style="color:var(--gray-400);font-size:12px;">No topics yet.</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ MAP + CATEGORY DISTRIBUTION ============ -->
+<div class="content-grid fade-in">
+  <!-- Odisha District Map -->
+  <div class="card">
+    <div class="card-header">
+      <h3>Odisha &mdash; Query Density by District</h3>
+      <span class="badge badge-green">{% icon "globe" 11 %} Heat map</span>
+    </div>
+    <div class="card-body" style="padding:0;">
+      <div id="odishaMap" style="height:400px;width:100%;border-radius:0 0 var(--radius-lg) var(--radius-lg);"></div>
+      <div class="map-legend" id="map-legend" style="padding:12px 22px;">
+        <!-- populated by JS from dashboard_json.district_legend -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Category Distribution -->
+  <div class="card" id="catDistCard">
+    <div class="card-header">
+      <h3 id="catDistTitle">Query Category Distribution</h3>
+      <div style="display:flex;gap:8px;align-items:center;">
+        <span class="badge badge-blue" id="catDistBadge">All Districts &mdash; {{ kpi_queries|intcomma }} queries</span>
+        <button class="btn btn-xs btn-secondary" id="catDistReset" style="display:none;" onclick="resetCatDist()">&#10005; Reset</button>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="chart-bar-group" id="catDistBars"></div>
+      <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-100);">
+        <div id="catDistStackedBar" style="display:flex;height:28px;border-radius:6px;overflow:hidden;"></div>
+        <div id="catDistLegend" style="display:flex;justify-content:space-between;margin-top:8px;font-size:11px;color:var(--gray-500);"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ RECENT INTERACTIONS ============ -->
+<div class="card fade-in" style="margin-bottom:24px;">
+  <div class="card-header">
+    <h3>Recent Farmer Interactions</h3>
+    <a href="{% url 'queries:list' %}" class="btn btn-sm btn-secondary">View all queries &rarr;</a>
+  </div>
+  <table class="data-table">
+    <thead><tr>
+      <th>ID</th><th>Time</th><th>District</th>
+      <th style="min-width:260px;">Query</th>
+      <th style="min-width:320px;">AI Response</th>
+      <th>Category</th><th>Latency</th><th>Feedback</th>
+    </tr></thead>
+    <tbody>
+      {% for q in recent_queries %}
+      <tr>
+        <td><a href="{% url 'queries:detail' q.pk %}" style="color:var(--irri-green);font-weight:600;">{{ q.code }}</a></td>
+        <td>{{ q.timestamp|date:"d M, H:i" }}</td>
+        <td>{{ q.district|default:"—" }}</td>
+        <td style="max-width:340px;line-height:1.4;">{% icon "chat" 13 %} {{ q.translated_query_text|truncatechars:80 }}</td>
+        <td style="max-width:420px;">
+          {% if q.ai_response_text %}
+            <div style="padding:6px 10px;background:var(--irri-green-pale);border-left:3px solid var(--irri-green);border-radius:4px;font-size:12px;line-height:1.45;color:var(--gray-700);">
+              {{ q.ai_response_text|truncatechars:160 }}
+            </div>
+          {% else %}
+            <span style="color:var(--gray-400);font-size:12px;font-style:italic;">No response yet</span>
+          {% endif %}
+        </td>
+        <td><span class="badge badge-blue">{{ q.category|default:"—" }}</span></td>
+        <td style="font-size:12px;color:var(--gray-500);">{{ q.response_time_seconds }}s</td>
+        <td>{% if q.farmer_feedback %}<span class="badge badge-green">{{ q.farmer_feedback }}</span>{% endif %}</td>
+      </tr>
+      {% empty %}
+      <tr><td colspan="8" style="text-align:center;padding:30px;color:var(--gray-400);">No queries yet. Try <a href="{% url 'queries:demo' %}">Run demo query</a>.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{{ dashboard_json|json_script:"dashboard-data" }}
+<script src="{% static 'vendor/highcharts.js' %}"></script>
+<script src="{% static 'vendor/drilldown.js' %}"></script>
+<script src="{% static 'vendor/leaflet.js' %}"></script>
+<script>
+(function(){
+  var data = {};
+  try { data = JSON.parse(document.getElementById('dashboard-data').textContent) || {}; }
+  catch(e) { console.error('dashboard-data parse fail', e); return; }
+
+  // ===== Monthly drilldown =====
+  if (typeof Highcharts !== 'undefined') {
+    Highcharts.chart('monthDrilldownChart', {
+      chart: { type: 'column', style: { fontFamily: 'Inter, -apple-system, sans-serif' } },
+      title: { text: 'Monthly Query Trend', align: 'left', style: { fontSize: '15px', fontWeight: '700', color: '#1F2937' } },
+      subtitle: { text: 'Click a column to see category-wise breakdown', align: 'left', style: { fontSize: '12px', color: '#9CA3AF' } },
+      xAxis: { type: 'category', labels: { style: { fontSize: '11px', color: '#6B7280' } } },
+      yAxis: { title: { text: 'Total Queries', style: { fontSize: '11px', color: '#9CA3AF' } }, gridLineColor: '#F3F4F6' },
+      legend: { enabled: false },
+      credits: { enabled: false },
+      plotOptions: {
+        series: {
+          borderWidth: 0,
+          borderRadius: 4,
+          dataLabels: { enabled: true, format: '{point.y}', style: { fontSize: '10px', fontWeight: '600', color: '#6B7280', textOutline: 'none' } }
+        }
+      },
+      tooltip: { headerFormat: '<span style="font-size:12px;font-weight:700;">{series.name}</span><br>', pointFormat: '<span style="color:{point.color};">\u25CF</span> {point.name}: <b>{point.y}</b> queries' },
+      series: [{ name: 'Monthly Queries', color: '#00833E', data: data.monthly_main || [] }],
+      drilldown: {
+        breadcrumbs: { position: { align: 'right' }, style: { fontSize: '12px', color: '#00833E' } },
+        series: data.monthly_drilldown || []
+      }
+    });
+  }
+
+  // ===== Category distribution =====
+  var categories = data.category_order || [];
+  var catColors = data.category_colors || [];
+  var catIcons = ['\u{1F33E}','\u{1F9A0}','\u{1F52C}','\u{1F4A7}','\u{1F4C4}'];
+  var allCat = data.all_cat_totals || [0,0,0,0,0];
+  var perDistrict = data.per_district_cat || {};
+
+  function renderCatDist(arr, label) {
+    var maxVal = Math.max.apply(null, arr.concat([1]));
+    var sum = arr.reduce(function(a,b){return a+b;}, 0);
+    document.getElementById('catDistBadge').textContent = label + ' — ' + sum.toLocaleString() + ' queries';
+
+    var barsHtml = '';
+    for (var i = 0; i < categories.length; i++) {
+      var pct = sum > 0 ? Math.round(arr[i] / sum * 100) : 0;
+      var w = maxVal > 0 ? Math.round(arr[i] / maxVal * 100) : 0;
+      barsHtml += '<div class="chart-bar-item">' +
+        '<div class="label">' + categories[i] + '</div>' +
+        '<div class="bar-track"><div class="bar-fill" style="width:' + w + '%;background:' + catColors[i] + ';">' + pct + '%</div></div>' +
+        '<div class="value">' + arr[i].toLocaleString() + '</div></div>';
+    }
+    document.getElementById('catDistBars').innerHTML = barsHtml;
+
+    var stackHtml = '';
+    for (var i = 0; i < categories.length; i++) {
+      var pct = sum > 0 ? (arr[i] / sum * 100) : 0;
+      if (pct > 0) stackHtml += '<div style="width:' + pct + '%;background:' + catColors[i] + ';"></div>';
+    }
+    document.getElementById('catDistStackedBar').innerHTML = stackHtml;
+
+    var legHtml = '';
+    for (var i = 0; i < categories.length; i++) {
+      var pct = sum > 0 ? Math.round(arr[i] / sum * 100) : 0;
+      legHtml += '<span>' + catIcons[i] + ' ' + categories[i].split(' ')[0] + ' ' + pct + '%</span>';
+    }
+    document.getElementById('catDistLegend').innerHTML = legHtml;
+  }
+
+  function resetCatDist() {
+    document.getElementById('catDistTitle').textContent = 'Query Category Distribution';
+    document.getElementById('catDistReset').style.display = 'none';
+    document.getElementById('catDistCard').style.boxShadow = '';
+    renderCatDist(allCat, 'All Districts');
+  }
+  window.resetCatDist = resetCatDist;
+
+  function showDistrictCatDist(name) {
+    if (!name || !perDistrict[name]) return;
+    document.getElementById('catDistTitle').textContent = name + ' — Category Distribution';
+    document.getElementById('catDistReset').style.display = '';
+    document.getElementById('catDistCard').style.boxShadow = '0 0 0 2px var(--irri-green)';
+    renderCatDist(perDistrict[name], name);
+  }
+
+  renderCatDist(allCat, 'All Districts');
+
+  // ===== Leaflet Odisha heatmap =====
+  if (typeof L === 'undefined') {
+    document.getElementById('odishaMap').innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#9CA3AF;">Leaflet failed to load.</div>';
+    return;
+  }
+
+  var districtCounts = data.district_counts || {};
+  // Dynamic thresholds computed in the view based on real data max
+  var thresholds = data.district_thresholds || [1, 2, 3, 4, 5];
+  var legendLabels = data.district_legend || ['1','2','3','4','5+'];
+  var palette = ['#E8F5ED', '#A7D8B8', '#5CB878', '#00833E', '#004D24'];
+
+  function getColor(q) {
+    if (q <= 0) return '#F3F4F6';   // grey for districts with no queries
+    for (var i = 0; i < thresholds.length; i++) {
+      if (q <= thresholds[i]) return palette[i];
+    }
+    return palette[palette.length - 1];
+  }
+  function matchDistrict(name) {
+    if (!name) return 0;
+    if (districtCounts[name] !== undefined) return districtCounts[name];
+    for (var k in districtCounts) {
+      if (name.toLowerCase().indexOf(k.toLowerCase()) >= 0 ||
+          k.toLowerCase().indexOf(name.toLowerCase()) >= 0) return districtCounts[k];
+    }
+    return 0;
+  }
+
+  // Render legend dynamically
+  var legendEl = document.getElementById('map-legend');
+  if (legendEl) {
+    var legendHtml = '<div class="legend-item"><div class="legend-color" style="background:#F3F4F6;"></div> 0</div>';
+    for (var i = 0; i < legendLabels.length; i++) {
+      legendHtml += '<div class="legend-item"><div class="legend-color" style="background:' + palette[i] + ';"></div> ' + legendLabels[i] + '</div>';
+    }
+    legendEl.innerHTML = legendHtml;
+  }
+
+  var map = L.map('odishaMap', {
+    zoomControl: false, attributionControl: false,
+    dragging: true, scrollWheelZoom: false
+  }).setView([20.5, 84.0], 7);
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',
+              { maxZoom: 10, minZoom: 6 }).addTo(map);
+
+  var infoBox = L.control({position:'topright'});
+  infoBox.onAdd = function() {
+    this._div = L.DomUtil.create('div');
+    this._div.style.cssText = 'background:#fff;padding:8px 14px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15);font-size:13px;color:#374151;min-width:140px;';
+    this._div.innerHTML = '<span style="color:#9CA3AF;">Hover over a district</span>';
+    return this._div;
+  };
+  infoBox.update = function(name, q) {
+    if (name) {
+      this._div.innerHTML = '<strong>' + name + '</strong><br><span style="color:#00833E;font-weight:700;font-size:15px;">' + (q || 0) + '</span> <span style="font-size:11px;color:#6B7280;">queries</span>';
+    } else {
+      this._div.innerHTML = '<span style="color:#9CA3AF;">Hover over a district</span>';
+    }
+  };
+  infoBox.addTo(map);
+
+  fetch("{% static 'vendor/odisha.geojson' %}")
+    .then(function(r){ return r.json(); })
+    .then(function(gj) {
+      var geojsonLayer = L.geoJSON(gj, {
+        style: function(f) {
+          var name = f.properties.district || f.properties.Dist_Name || f.properties.NAME_2 || '';
+          var q = matchDistrict(name);
+          return { fillColor: getColor(q), weight: 1.5, color: '#fff', fillOpacity: 0.85 };
+        },
+        onEachFeature: function(f, layer) {
+          var name = f.properties.district || f.properties.Dist_Name || f.properties.NAME_2 || 'Unknown';
+          var q = matchDistrict(name);
+          layer.on({
+            mouseover: function(e) { e.target.setStyle({weight:3, color:'#1F2937', fillOpacity:0.95}); e.target.bringToFront(); infoBox.update(name, q); },
+            mouseout:  function(e) { geojsonLayer.resetStyle(e.target); infoBox.update(); },
+            click:     function()  { showDistrictCatDist(name); document.getElementById('catDistCard').scrollIntoView({behavior:'smooth', block:'center'}); }
+          });
+          layer.bindTooltip('<strong>' + name + '</strong>: ' + q + ' queries', {sticky:true});
+        }
+      }).addTo(map);
+      map.fitBounds(geojsonLayer.getBounds(), {padding:[10,10]});
+    })
+    .catch(function() {
+      document.getElementById('odishaMap').innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#9CA3AF;">Odisha map data unavailable.</div>';
+    });
+})();
+</script>
+{% endblock %}

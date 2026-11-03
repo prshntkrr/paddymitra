@@ -1,0 +1,82 @@
+{
+ "source": "phosphorus-deficiency-english.pdf",
+ "sha256": "ab70c1dceafec16092ffe8cd8ccb695b666403928fd97285a0a373363f75c306",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:49:34",
+ "chunk_count": 6,
+ "chunks": [
+  {
+   "text": "What it does\nP deficiency affects the major functions in energy storage and transfer of plants. Specifically, it affects tillering, root development, early flowering, and ripening.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "phosphorus-deficiency-english.pdf",
+    "page": 1,
+    "section": "What it does"
+   }
+  },
+  {
+   "text": "Why and where it occurs\nP deficiency is widespread in all major rice ecosystems and is the major growth-limiting factor in acid upland soils where soil P-fixation capacity is often large.\nNearly 70-80% rice soils of Odisha are low with respect to available P\nSoils particularly prone to P deficiency include the following types:\n- Coarse-textured soils containing small amounts of organic matter and small P reserves\n- Highly weathered, clayey, acid upland soils with high P-fixation capacity\n- Degraded lowland soils\n- Calcareous, saline, and sodic soils\n- Volcanic soils with high P-sorption capacity\n- Peat soils (Histosols)\n- Acid sulfate soils in which large amounts of active Aluminum (Al) and Iron (Fe) result in the formation of insoluble P compounds at low pH",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "phosphorus-deficiency-english.pdf",
+    "page": 1,
+    "section": "Why and where it occurs"
+   }
+  },
+  {
+   "text": "How to identify\nCheck the field for the following symptoms:\n- Stunted plants\n- Reduced tillering\n- Older leaves are narrow, short, very erect, and has a \"dirty\" dark green color\n- Stems are thin and spindly and plant development is retarded\nwww.rkbodisha.in\nP Deficient plants are stunted and tillering is reduced\nThe number of leaves, panicles, and grains per panicle is also reduced. Young leaves may appear to be healthy but older leaves turn brown and die.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "phosphorus-deficiency-english.pdf",
+    "page": 1,
+    "section": "How to identify"
+   }
+  },
+  {
+   "text": "Also check for discoloration:\n- Leaves appear pale green when Phosphorus (P) and Nitrogen (N) deficiency occur simultaneously\n- Red and purple colors may develop in leaves if the variety has a tendency to produce anthocyanin.\nMild to moderate P deficiency is difficult to recognize in the field\nP deficiency is often associated with other nutrient disorders such as Iron (Fe) toxicity at low pH, Zinc (Zn) deficiency, Fe deficiency, and salinity in alkaline soils\nOther effects of P deficiency include delayed maturity (often by 1 week or more).\nWhen P deficiency is severe, plants may not flower at all. There are large proportion of empty grains.\nWhen P deficiency is very severe, grain formation may not occur.\nStems of affected plants are thin and spindly\nP-deficient plants are stunted compared to normal plants",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "phosphorus-deficiency-english.pdf",
+    "page": 1,
+    "section": "Also check for discoloration:"
+   }
+  },
+  {
+   "text": "How to manage\n- Use high quality seed of a high yielding variety.\n- Use rice cultivars that use Phosphorus (P) efficiently, particularly on acid upland soils.\n- In rice-rice systems, carry out dry, shallow tillage (10 cm) within 2 weeks after harvest. On acid, low-fertility rainfed lowland and upland soils, all existing soil fertility problems (acidity. Aluminum (Al) toxicity, deficiencies of Magnesium (Mg), Potassium (K), and other nutrients) must be corrected before a response to P is obtained.\n- Incorporate rice straw. Although the total amount of P recycled with the straw is small (1 kg/t straw), it will contribute to maintaining a positive P balance in the long term.\n- Apply optimum doses of N and K and correct micronutrient deficiencies.\n- Replenish P removed in crop products by applying P fertilizers, farmyard manure, or other materials (night soil, compost).\n- Apply P fertilizers efficiently.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "phosphorus-deficiency-english.pdf",
+    "page": 2,
+    "section": "How to manage"
+   }
+  },
+  {
+   "text": "Learn more\nVisit Rice Based Cropping Systems Knowledge Bank www.rkbodisha.in\nwww.rkbodisha.in\nOlder leaves are orange or purplish in some varieties",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "phosphorus-deficiency-english.pdf",
+    "page": 2,
+    "section": "Learn more"
+   }
+  }
+ ]
+}

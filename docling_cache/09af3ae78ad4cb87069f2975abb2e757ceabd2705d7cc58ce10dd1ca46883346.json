@@ -1,0 +1,58 @@
+{
+ "source": "Nitrogen (N) - IRRI Rice Knowledge Bank.pdf",
+ "sha256": "09af3ae78ad4cb87069f2975abb2e757ceabd2705d7cc58ce10dd1ca46883346",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:19:42",
+ "chunk_count": 4,
+ "chunks": [
+  {
+   "text": "What is the role of Nitrogen (N) in plants?\nNitrogen is an essential plant nutrient being a component of amino acids, nucleic acids, nucleotides, chlorophyll, enzymes, and hormones. N promotes rapid plant growth and improves grain yield and grain quality through higher tillering, leaf area development, grain formation, grain filling, and protein synthesis. N is highly mobile within the plant and soil.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Nitrogen (N) - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "What is the role of Nitrogen (N) in plants?"
+   }
+  },
+  {
+   "text": "Why apply N fertilizer to rice\nNitrogen is the most limiting element in almost all soils. Thus, proper application of N fertilizers is vital to improve crop growth and grain yields, especially in intensive agricultural systems. Insufficient and/or inappropriate fertilizer N management can be detrimental to crops and the environment. Optimal N management strategies aim at matching fertilizer N supply with actual crop demand, thus maximizing crop N uptake and reducing N losses to the environment.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Nitrogen (N) - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "Why apply N fertilizer to rice"
+   }
+  },
+  {
+   "text": "How to manage\n- Nitrogen deficiency symptoms. Stunted plants with small yellowish green leaves and fewer tillers; lower yield due to less panicles per unit area and less grains per panicle.\n- Occurrence of N deficiency. Almost all soils are deficient in N; coarse textured acid soils with low organic matter content (less than 0.5% organic C); acid sulfate, saline, poorly drained, and P-deficient soils with low N mineralization and biological N fixation capacity; calcareous and alkaline soils with low soil organic matter level and a high potential for ammonia volatilization.\n- How much N to apply? Inorganic fertilizer is the common source of supplemental N, and it is typically more profitable for farmers than purchased organic N fertilizers. Organic N sources available on-farm such as farmyard manure and compost can be effective and financially attractive in partially meeting the N requirement of rice. Apply 40-50 kg N/ha as inorganic fertilizer for every ton of additional grain yield over yield without N. At optimum levels of nutrition, the rice crop (straw plus grain) takes up around 16 kg N per ton of grain yield (10 kg N in grain + 6 kg N in straw).\n- When to Apply N Fertilizers? Leaf color and crop appearance indicate the plant N status and help determine the need for N fertilizer application. See Fact Sheets on a) Leaf Color Chart (LCC) for crop need-based N management, and b) Nitrogen split applications for growth stage-based N management using the LCC.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Nitrogen (N) - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "How to manage"
+   }
+  },
+  {
+   "text": "What are the sources of N\n- Ammonium sulfate (21% N, 24% S)\n- Urea (46% N)\n- Diammonium phosphate or DAP (18% N; 44-46% P2O5).\nDeveloped with input from V Balasubramanian and M Bell",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Nitrogen (N) - IRRI Rice Knowledge Bank.pdf",
+    "page": 1,
+    "section": "What are the sources of N"
+   }
+  }
+ ]
+}

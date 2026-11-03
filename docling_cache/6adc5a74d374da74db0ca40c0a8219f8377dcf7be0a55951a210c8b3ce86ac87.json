@@ -1,0 +1,1155 @@
+{
+ "source": "Field-specific nutrient management using RCM.pdf",
+ "sha256": "6adc5a74d374da74db0ca40c0a8219f8377dcf7be0a55951a210c8b3ce86ac87",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:04:52",
+ "chunk_count": 94,
+ "chunks": [
+  {
+   "text": "Contents lists available at ScienceDirect",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 1
+   }
+  },
+  {
+   "text": "Field Crops Research\n[journal homepage: www.elsevier.com/locate/fcr](https://www.elsevier.com/locate/fcr)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 1,
+    "section": "Field Crops Research"
+   }
+  },
+  {
+   "text": "Field-specific nutrient management using Rice Crop Manager decision support tool in Odisha, India\nSheetal Sharma a,⁎ , K.K. Rout d , C.M. Khanda d , Rahul Tripathi e , Mohammad Shahid e , Amarash Nayak e , Swetapadma Satpathy a , Narayan Chandra Banik a , Wasim Iftikar c , Nabakishore Parida c , Vivek Kumar a , Amit Mishra a , Rowena L. Castillo b , Theresa Velasco b , Roland J. Buresh b\na International Rice Research Institute, India\nb International Rice Research Institute, PO Box 7777, Metro Manila, Philippines\nc CIMMYT, India\nd Odisha University of Agriculture and Technology (OUAT), Bhubaneswar, India\ne National Rice Research Institute (NRRI), Cuttack, Odisha, India",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 1,
+    "section": "Field-specific nutrient management using Rice Crop Manager decision support tool in Odisha, India"
+   }
+  },
+  {
+   "text": "A R T I C L E I N F O\nKeywords: Fertilizer recommendation On-farm research Rice Rice crop manager Site-specific nutrient management",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 1,
+    "section": "A R T I C L E I N F O"
+   }
+  },
+  {
+   "text": "A B S T R A C T\nThe requirement of rice (Oryza sativa L.) for fertilizer can depend on crop and soil management practices, which can vary among fields within a rice-growing area. A web-based decision support tool named Rice Crop Manager (RCM) was developed previously to calculate field-specific rates of fertilizer N, P, and K for rice in Odisha State in eastern India. We compared field-specific nutrient management calculated by RCM with farmers' fertilizer practice (FFP) and a blanket fertilizer recommendation (BFR), which used a uniform 80 kg N ha -1 , 17 kg P ha -1 , and 33 kg K ha -1 . A total of 209 field trials were conducted in two seasons (kharif and rabi) for two years across ten districts in six agro-climatic zones. Grain yield was consistently higher with fertilization recommended by RCM than with FFP. Higher yield with RCM was attributed to a combination of applying more of the total fertilizer N at the critical growth stage of panicle initiation, applying more fertilizer N in kharif, and applying zinc. The RCM recommendation frequently increased yield compared to BFR as a result of improved N management, which included the adjustment of N rate for a target yield set slightly higher than historical yield reported by a farmer. Fertilization based on RCM rather than BFR reduced the risk of financial loss. The effectiveness of an RCM recommendation relative to BFR and FFP was consistent across rice varieties with different growth duration, irrigated and rainfed rice, and three categories of soil clay content. The RCM recommendation failed to increase yield relative to BFR in one of the six agro-climatic zones, where a higher rate of fertilizer P and/or K was apparently required. The nutrient management calculations used by RCM can be improved as new information and research findings become available. Experiences with RCM in Odisha can help guide the development of comparable nutrient management decision tools in other rice-growing areas.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 1,
+    "section": "A B S T R A C T"
+   }
+  },
+  {
+   "text": "1. Introduction\nIndia is the second largest rice-producing country after China (GRiSP, 2013), and much of the rice within India is produced and consumed in eastern India (Singh and Singh, 2000). Eastern India has, however, lagged behind the rest of India in rice yields and prosperity for farmers (Jha et al., 2012). Rice production in eastern India, as compared to the rest of India, can often be more constrained by drought, floods, salinity, low soil fertility, and insufficient or inefficient use of fertilizers (Singh and Singh, 2000). More effective use of fertilizer is recognized as an opportunity for increasing rice production in eastern India.\nAbbreviations: ACZ, agro-climatic zones; ANB, added net benefit; BFR, blanket fertilizer recommendation; DAT, days after transplanting; FFP, farmers' fertilizer practice; FN, fertilizer N rate; GRF, gross return above fertilizer cost; GY, grain yield; GYR, historical grain yield reported by farmer; GYT, target grain yield; NMR, Nutrient Manager for Rice; NOPT, nutrient omission plot technique; PFP, partial factor productivity of added N; RCM, Rice Crop Manager; SSNM, site-specific nutrient management; TFC, total fertilizer cost Fertilizer recommendations for rice in Asia, including India, have historically often entailed a uniform, blanket application of nutrients across an area or domain of rice production. Site-specific nutrient management (SSNM) for rice was developed starting in the 1990s to enable adjustment in fertilizer management for spatial and temporal variability in the need of a crop for supplemental application of N, P, and K (Dobermann et al., 2002, 2004b). SSNM used principles from the model QUEFTS (Janssen et al., 1990) to provide algorithms for calculating fertilizer requirements adjusted for specific target yields and ricegrowing practices (Witt and Dobermann, 2004; Buresh et al., 2010). The International Rice Research Institute (IRRI) in collaboration with national partners across Asia incorporated these",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 1,
+    "section": "1. Introduction",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "SSNM-based algorithms into a web-based decision support tool, named Nutrient Manager for Rice (NMR), which calculated rates and times of fertilizer application for individual rice fields (Buresh et al., 2014).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 1,
+    "section": "1. Introduction",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "1. Introduction\n⁎ Corresponding author. E-mail address: Sheetal.sharma@irri.org (S. Sharma).\nField-specific fertilizer recommendations calculated by NMR increased yield and net income compared to the existing farmers' fertilizer practice in on-farm research with irrigated rice in southern India (Sharma et al., 2019). Sharma et al. (2019) also compared NMR to an existing recommendation for a blanket application of fertilizer in the absence of soil testing. NMR recommendations did not increase yield compared to the blanket fertilizer recommendation (BFR), but NMR reduced fertilizer cost and risk of financial loss and increased fertilizer use efficiency compared to BFR. Beginning in 2013, IRRI converted NMR into a web-based Rice Crop Manager (RCM) (Buresh et al., 2019), which provided advice on crop management practices in addition to nutrient management. The component of field-specific fertilizer management calculated by RCM has been shown in on-farm research to increase yield and net income compared to existing farmers' fertilizer practices in West Africa (Saito et al., 2015) and the Philippines (Banayo et al., 2018b). Field-specific fertilizer recommendations calculated by RCM were not compared in these studies to an existing fertilizer recommendation such as a BFR.\nWithin eastern India, Odisha is one of the main rice-producing states (Dar et al., 2017), but average rice yields in Odisha are distinctly lower than the national average (Das, 2012). Much of the rice in Odisha is produced in small landholdings varying in crop management practices and constraints such as drought and floods, which influence rice yields and the need for supplemental nutrients (Singh and Singh, 2000). This spatial variability among rice fields could make Odisha well suited for field-specific nutrient management as calculated by RCM with rates and times of fertilizer application adjusted for a target yield, rice variety, and crop management of a specific field rather than a uniform blanket f",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 1,
+    "section": "1. Introduction",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "ertilizer recommendation.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 1,
+    "section": "1. Introduction",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "1. Introduction\nOur objective was to verify the performance of SSNM-based fieldspecific nutrient management calculated by RCM relative to a uniform blanket fertilizer recommendation (BFR) and farmers' fertilizer practice (FFP). Research was across a range of rice-growing conditions in Odisha to determine the effects of agro-climatic zone, soil, cropping season, water regime, and rice variety on the ability of a nutrient management recommendation calculated and deployed by RCM to increase rice yield and net income and to reduce risk of financial loss. The BFR used nutrient rates consistent with management practices promoted within Odisha (DAFP, 2007; 2008).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 2,
+    "section": "1. Introduction"
+   }
+  },
+  {
+   "text": "2.1. Site characterization\nOn-farm trials were conducted with rice in two kharif (wet) cropping seasons (2014 and 2015) and two rabi (dry) cropping seasons (2013-2014 and 2014-2015). The kharif is from July-October during the southwest monsoon, and rabi is from October-March during the dry mild winter. The climate is tropical with high temperature, high humidity, and medium to high rainfall during kharif. The trials were distributed across ten major rice-growing districts in six of the ten agroclimatic zones (ACZ) in Odisha (Fig. 1, Supplement Table 1). Soils range from alluvial deltaic soils in coastal plains, mixed red and black soils in central table lands, and red and yellow soils with low fertility in the northern plateau. Trials in kharif were both irrigated and rainfed, but all trials in rabi were irrigated.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 8,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 2,
+    "section": "2.1. Site characterization"
+   }
+  },
+  {
+   "text": "2.2. Experimental design\nEach of 209 trials was conducted with transplanted rice in a farmer's field divided into three plots with each plot ranging between 160-800m 2 . The following three unreplicated treatments were randomly assigned to a plot in a trial: field-specific nutrient management calculated by RCM, BFR, and FFP. Each plot was surrounded by an earthen levee to prevent movement of fertilizer in and out of plots.\nThe farmer for each of the 209 field trials was interviewed before the start of the cropping season to determine a farmer's planned time for each fertilizer application and planned amounts of fertilizer sources selected by the farmer for each application. This planned fertilizer practice was unique for each field trial and served as the FFP treatment. It was fixed before a farmer was exposed to an RCM recommendation to ensure the farmers' fertilizer practice was not influenced by RCM.\nEach farmer was then interviewed before crop establishment with RCM (http://webapps.irri.org/in/od/rcm) to collect information on the farmer's field location, size of the field, rice variety, anticipated age of seedlings at transplanting, water management (irrigated or rainfed), rice yield in previous years with the same or similar variety, portion of above-ground residues from the previous crop retained in the field, and choice of fertilizer sources. This information was used by RCM to calculate a field-specific fertilizer recommendation to achieve a target yield set by RCM. This RCM recommendation included rates and times for application of fertilizer sources selected by the farmer. It was unique for each field trial and served as the RCM treatment. RCM typically set the target yield higher than the historical yield reported by the farmer during the RCM interview, but RCM also adjusted target yield downward when transplanting was delayed beyond a critical date, and RCM limited upward adjustment in yield for low-yielding rice varieties (Sharma et al., 2019). As a re",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 9,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 2,
+    "section": "2.2. Experimental design",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "sult, target yield was less than historical yield reported by the farmer in 12% of the field trials in our study. Target yield for RCM in our study was within 3.0-6.5Mg ha -1 .",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 9,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 2,
+    "section": "2.2. Experimental design",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "2.2. Experimental design\nRCM used a yield gain approach to calculate fertilizer N rate for a target yield as the estimated increase in yield from applied N divided by a target agronomic efficiency of added fertilizer N (Buresh, 2015; Buresh et al., 2019). The estimated increase in yield from applied N as a function of target yield can be calibrated using results from nutrient omission plot technique (NOPT) trials (Witt et al., 2007) as reported for NMR in Tamil Nadu, India (Sharma et al., 2019). Results from NOPT trials were not available for Odisha when our study evaluated RCM in 2013-2015. The RCM evaluated in our study consequently calculated fertilizer N rate using an increase in yield from applied N that was estimated from NOPT trials conducted outside Odisha. With this approach, the calculated fertilizer N rate with RCM increased linearly from 57 kg N ha -1 at target yield = 3 Mg ha -1 to 123 kg N ha -1 at target yield=6Mg ha -1 . The corresponding values for NMR in Tamil Nadu reported by Sharma et al., 2019) were 55 kg N ha -1 at target yield=3Mg ha -1 to 139 kg N ha -1 at target yield=6Mg ha -1 .\nFertilizer N with RCM was applied in three splits: early vegetative stage, mid-tillering, and panicle initiation. Mid-tillering and panicle initiation are critical stages for application of fertilizer N (Peng and Cassman, 1998), but the number of days after transplanting to reach these critical stages depends on growth duration of the rice variety and age of transplanted seedlings. The farmers in our study selected 24 different rice varieties varying in growth duration and prevalence between the kharif and rabi seasons (Supplement Table 2). RCM used information collected from the farmer on name of variety and age of transplanted seedlings and then accessed information on growth duration of the selected variety, which was stored in a database, to calculate a recommendation with days after transplanting for each fertilizer N application (Sharma et al., 2019).\nFig. 1.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 10,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 2,
+    "section": "2.2. Experimental design",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "Map for Odisha State in India showing the ten districts and six agro-climatic zones with field trials.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 10,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 2,
+    "section": "2.2. Experimental design",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "2.2. Experimental design\nRCM calculated fertilizer P rate using a nutrient input-output balance, in which P required for the target yield of a specific field was the difference between the estimated P taken up by the mature crop and the P added with retained residues from the previous crop (Buresh et al., 2010, 2019). In our study, the residue of the previous crop was manually cut slightly above ground level and removed by farmers. RCM calculations assumed only 15% of the total above-ground crop biomass after harvest of grain was retained in the field. RCM calculations also assumed harvested grain contained 70% of total plant P (Dobermann and Fairhurst, 2000). All fertilizer P was applied basal.\nRCM used a yield gain approach to calculate fertilizer K rate as the estimated amount of additional K taken up by the crop to achieve a target yield divided by a recovery efficiency of added fertilizer K (Buresh et al., 2010), which was set to 0.44 kg kg -1 (Witt and Doberman, 2004). Results from NOPT trials in Odisha were not available for calibration when our study evaluated RCM in 2013-2015, but Buresh et al. (2010) reported a mean 12% yield gain from applied K across 525 NOPT trials conducted with irrigated rice in four Asian countries. The RCM evaluated in our study consequently calculated fertilizer K rate using a slightly higher 15%, rather than 12%, increase in yield from applied K in order to calculate a higher rate of fertilizer K with less risk of underapplication.\nFertilizer K was all applied basal when total K rate was ≤33 kg K ha -1 and it was applied 50% basal and 50% at panicle initiation when total K rate was>33 kg K ha -1 . The time interval for the basal application of N, P, and K varied with duration of rice variety. It ranged from within 5 days after transplanting for the shortest duration varieties to within 21 days after transplanting for longest duration varieties. All P and K rates are expressed on an elemental basis.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 11,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 3,
+    "section": "2.2. Experimental design"
+   }
+  },
+  {
+   "text": "2.2. Experimental design\nThe BFR was determined based on an existing Odisha State recommendation for high-yielding rice varieties in lowlands in kharif (DAFP, 2008) and medium duration varieties on low fertility soil in rabi (DAFP, 2007). The BFR was 80 kg N ha -1 , 17 kg P ha -1 , and 33 kg K ha -1 . Fertilizer N was distributed 20% basal, 50% at tillering, and 30% at panicle initiation. All fertilizer P was applied basal, and fertilizer K was applied 50% basal and 50% at panicle initiation.\nUrea was the main source of fertilizer N, muriate of potash (KCl, 00-60) was the main source of fertilizer K, and diammonium phosphate\n(DAP, 18-46-0) was the main source of fertilizer P across RCM, FFP, and BFR treatments (Supplement Table 3). Compound NP fertilizers (28-280 and 20-20-0) or NPK fertilizers (10-26-26) were applied in several trials with RCM and FFP (Supplement Table 3). Zinc sulfate at an average rate of 25 kg ha -1 was applied in the basal fertilizer application for RCM and BFR in all trials, thereby ensuring differences in crop performance and yield between RCM and BFR treatments were not due to zinc.\nZinc sulfate was applied in FFP as indicated by each farmer during an interview before the start of the cropping season. Most farmers reported no use of zinc, and the FFP treatment received zinc sulfate in only 5% of the trials. The application of each farmer's reported rate of zinc sulfate ensured the total fertilizer cost for FFP reflected each farmer's reported fertilizer use. However, because of the difference in zinc sulfate rate between FFP and other treatments, zinc could be a factor responsible for differences in crop performance and yield between FFP and either the RCM or BFR treatment.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 12,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 3,
+    "section": "2.2. Experimental design"
+   }
+  },
+  {
+   "text": "2.2. Experimental design\nResearchers managed all fertilizer applications for all treatments in order to avoid change or bias by the farmers. Except for fertilizer application, all other management practices in a trial including land preparation, variety, crop establishment, residue management, water management, and crop protection practices were determined and implemented by the farmer and were identical for the three treatments in a trial. The differences in crop performance and yield within a field trial consequently reflect only differences in fertilizer management.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 13,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 4,
+    "section": "2.2. Experimental design"
+   }
+  },
+  {
+   "text": "2.3. Measurements and analyses\nComposite soil samples were collected from 0 to 15 cm depth from each trial before crop establishment and fertilizer application. Soil samples were air dried and crushed. Soil pH was determined in water with a 1:2 soil-water ratio, organic C was determined by the WalkleyBlack chromic acid wet oxidation method, available N was determined by distillation with alkaline potassium permanganate, Olsen P was determined by extraction with 0.5M sodium bicarbonate at pH 8.5, exchangeable K was determined by extraction with 1M ammonium acetate at pH 7, and Zn was determined by extraction with 0.005M diethylenetriamine pentaacetic acid (DTPA) + 0.01 M calcium chloride + 0.1 M triethanolamine (TEA) at pH 7.3. Soil texture was estimated by the feel method (NRCS Soils (United Sates Department of Agriculture, Natural Resources Conservation Services Soils), 2019)\nGrain was harvested at physiological maturity from three randomly selected 10m 2 areas in each plot. Grain moisture content was determined with a moisture meter, and grain yield was expressed at 14% water content.\nThe cost for each fertilizer source used in a field plot was determined from the amount of the fertilizer source applied and the farmgate price for the source, averaged across all districts and seasons. The average prices were 0.09 US$ kg -1 for urea, 0.26 US$ kg -1 for muriate of potash (MOP), 0.38 US$ kg -1 for DAP, 0.14 US$ kg -1 for single superphosphate, 1.08 US$ kg -1 for zinc sulfate, 0.38 US$ kg -1 for 28-28-0, 0.44 US$ kg -1 for 20-20-0, and 0.36 US$ kg -1 for 10-26-26. The total fertilizer cost (TFC) for a field plot was the sum of the costs for all applied fertilizer sources. Prices and financial analyses are reported in US$ using an exchange rate of 1 US$=65 Indian rupees (INR).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 14,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 4,
+    "section": "2.3. Measurements and analyses"
+   }
+  },
+  {
+   "text": "2.3. Measurements and analyses\nGross return was calculated as the product of grain yield and farmgate price of unmilled rice averaged across districts within a season. The average farmgate price was 0.21 US$ ha -1 for 2013-2014 rabi, 2014 kharif, and 2014-2015 rabi seasons. It was 0.22 US$ ha -1 for 2015 kharif. The farmgate price of unmilled rice approximated the minimum support price fixed by the Government of India (DAC, 2015). Gross return above fertilizer cost (GRF) was calculated as the difference between gross return and the total cost of fertilizer (Dobermann et al., 2004a). Added net benefit for RCM relative to BFR and FFP was calculated as the difference in GRF between RCM and the other treatment. Partial factor productivity of added N (PFP) expressed in kg grain per kg N was calculated as follows\n<!-- formula-not-decoded -->\nwhere FN is fertilizer N expressed in kg ha -1 and GY is grain yield expressed in Mg ha -1 (Dobermann, et al., 2004a).\nAll data were analyzed using mixed models fitted separately for each of the response variables-rate of fertilizer (N, P, and K), yield, TFC, PFP, and added net benefit. According to the hypotheses being tested, the factors of treatment, ACZ, season, soil clay content, water regime, and duration of rice variety were included in the model as fixed effects. Interactions between factors were included as fixed effects and farmer field trial was included as a random effect. Post-hoc tests for differences between means were conducted using Tukey tests for pairwise differences between more than two means, and Dunnett's tests for pairwise differences between two means at alpha=0.05 level of significance. Analyses were conducted in the R programming language and environment (R Core Team, 2016). Mixed models were implemented using the R package lmer (Bates et al., 2015), and post-hoc tests were implemented in the R package emmeans (Lenth, 2018).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 15,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 4,
+    "section": "2.3. Measurements and analyses"
+   }
+  },
+  {
+   "text": "3.1. Site characteristics\nMean soil properties for all 209 field trials and for field trials in each of the six ACZ are shown in Table 1. Mean soil pH for the six ACZ ranged from 5.0 to 6.1 and was lowest for the ten trials in the mid central table land zone. Mean exchangeable soil K, which ranged from 0.15 to 0.34 cmolc kg -1 , was also lowest in the mid central table land zone. Organic C and available N were lowest for the eleven trials in the north western plateau zone. Mean Olsen P and extractable zinc were somewhat comparable across ACZ. The variability within ACZ for",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 16,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 4,
+    "section": "3.1. Site characteristics"
+   }
+  },
+  {
+   "text": "3.1. Site characteristics\n| - |\n| Table 1 Soil characteristics for field trials conducted across six agro-climatic zones (ACZ) in Odisha, India. |\n| Field trials (n), All locations = 209. Field trials (n), East and south eastern coastal plain = 66. Field trials (n), Mid central table land = 10. Field trials (n), North central plateau = 58. Field trials (n), North eastern coastal plain = 54. Field trials (n), North western plateau = 11. Field trials (n), Western central table land = 10. pH, All locations = 5.8 (0.7) b. pH, East and south eastern coastal plain = 6.1 (0.7). pH, Mid central table land = 5.0 (0.3). pH, North central plateau = 5.7 (0.5). pH, North eastern coastal plain = 5.7 (0.8). pH, North western plateau = 5.5 (0.3). pH, Western central table land = 6.1 (0.6). Organic C (g kg -1 ), All locations = 7.4 (2.9). Organic C (g kg -1 ), East and south eastern coastal plain = 6.4 (1.7). Organic C (g kg -1 ), Mid central table land = 5.7 (1.0). Organic C (g kg -1 ), North central plateau = 9.5 (3.0). Organic C (g kg -1 ), North eastern coastal plain = 6.6 (2.0). Organic C (g kg -1 ), North western plateau = 5.4 (2.5). Organic C (g kg -1 ), Western central table land = 9.2 (5.3). Available N (mg kg -1 ), All locations = 84 (29). Available N (mg kg -1 ), East and south eastern coastal plain = 83 (38). Available N (mg kg -1 ), Mid central table land = 85 (21). Available N (mg kg -1 ), North central plateau = 78 (20). Available N (mg kg -1 ), North eastern coastal plain = 91 (22). Available N (mg kg -1 ), North western plateau = 73 (19). Available N (mg kg",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 17,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 4,
+    "section": "3.1. Site characteristics"
+   }
+  },
+  {
+   "text": "3.1. Site characteristics\n| - |\n -1 ), Western central table land = 104 (34). Olsen P (mg kg -1 ), All locations = 7 (4). Olsen P (mg kg -1 ), East and south eastern coastal plain = 7 (5). Olsen P (mg kg -1 ), Mid central table land = 8 (2). Olsen P (mg kg -1 ), North central plateau = 6 (2). Olsen P (mg kg -1 ), North eastern coastal plain = 8 (4). Olsen P (mg kg -1 ), North western plateau = 5 (3). Olsen P (mg kg -1 ), Western central table land = 9 (5). Exch K (cmolc kg -1 ), All locations = 0.24 (0.14). Exch K (cmolc kg -1 ), East and south eastern coastal plain = 0.21 (0.10). Exch K (cmolc kg -1 ), Mid central table land = 0.15 (0.04). Exch K (cmolc kg -1 ), North central plateau = 0.27 (0.17). Exch K (cmolc kg -1 ), North eastern coastal plain = 0.24 (0.12). Exch K (cmolc kg -1 ), North western plateau = 0.34 (0.28). Exch K (cmolc kg -1 ), Western central table land = 0.29 (0.08). Zn (mg kg -1 ), All locations = 1.3 (1.0). Zn (mg kg -1 ), East and south eastern coastal plain = 1.2 (0.9). Zn (mg kg -1 ), Mid central table land = 1.4 (1.0). Zn (mg kg -1 ), North central plateau = 1.6 (1.3). Zn (mg kg -1 ), North eastern coastal plain = 1.3 (1.0). Zn (mg kg -1 ), North western plateau = 1.0 (0.6). Zn (mg kg -1 ), Western central table land = 1.0 (0.6) |",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 18,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 4,
+    "section": "3.1. Site characteristics"
+   }
+  },
+  {
+   "text": "3.1. Site characteristics\n| - |\n| a Reported values include trials in both kharif and rabi seasons. pH determined in 0.01M CaCl2, organic C determined by Walkley-Black method, available N determined by alkaline permanganate extraction, Olsen P determined by bicarbonate extraction, exchangeable (exch) K determined by extraction with ammonium acetate, and Zn determined by DTPA extraction. |\n| b Values in parentheses are standard deviations. |",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 19,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 4,
+    "section": "3.1. Site characteristics"
+   }
+  },
+  {
+   "text": "3.1. Site characteristics\n| - |\n| Table 2 Rates of N, P, and K fertilizer, total fertilizer cost (TFC), measured grain yield, partial factor productivity of added N (PFP), and added net benefit (ANB) for fieldspecific nutrient management provided by Rice Crop Manager (RCM), farmers' fertilizer practice (FFP), and blanket fertilizer recommendation (BFR); historical grain yield reported by farmers (GYR); and target grain yield with RCM (GYT) across two seasons (kharif and rabi) and two years in Odisha, India. |\n| Trials (n), Treatment or contrast. = . Trials (n), Kharif.2014 = 84. Trials (n), Kharif.2015 = 24. Trials (n), Rabi.2013-2014 = 39. Trials (n), Rabi.2014-2015 = 62. N rate (kg ha -1 ) a, Treatment or contrast. = RCM. N rate (kg ha -1 ) a, Kharif.2014 = 103 a b. N rate (kg ha -1 ) a, Kharif.2015 = 106 a. N rate (kg ha -1 ) a, Rabi.2013-2014 = 102 a. N rate (kg ha -1 ) a, Rabi.2014-2015 = 98 a. N rate (kg ha -1 ) a, Treatment or contrast. = FFP. N rate (kg ha -1 ) a, Kharif.2014 = 70 a. N rate (kg ha -1 ) a, Kharif.2015 = 81 ab. N rate (kg ha -1 ) a, Rabi.2013-2014 = 101 c. N rate (kg ha -1 ) a, Rabi.2014-2015 = 94 bc. , Treatment or contrast. = RCM-FFP c. , Kharif.2014 = 33 ***. , Kharif.2015 = 25 ***. , Rabi.2013-2014 = 1 ns. , Rabi.2014-2015 = 4 ns. P rate (kg ha -1 ) a, Treatment or contrast. = RCM. P rate (kg ha -1 ) a, Kharif.2014 = 14 a. P rate (kg ha -1 ) a, Kharif.2015 = 12",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 20,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 5,
+    "section": "3.1. Site characteristics"
+   }
+  },
+  {
+   "text": "3.1. Site characteristics\n| - |\n a. P rate (kg ha -1 ) a, Rabi.2013-2014 = 11 a. P rate (kg ha -1 ) a, Rabi.2014-2015 = 14 a. P rate (kg ha -1 ) a, Treatment or contrast. = FFP. P rate (kg ha -1 ) a, Kharif.2014 = 20 a. P rate (kg ha -1 ) a, Kharif.2015 = 18 a. P rate (kg ha -1 ) a, Rabi.2013-2014 = 28 b. P rate (kg ha -1 ) a, Rabi.2014-2015 = 24 b. P rate (kg ha -1 ) a, Treatment or contrast. = RCM-FFP. P rate (kg ha -1 ) a, Kharif.2014 = -6 ***. P rate (kg ha -1 ) a, Kharif.2015 = -6 **. P rate (kg ha -1 ) a, Rabi.2013-2014 = -17 ***. P rate (kg ha -1 ) a, Rabi.2014-2015 = -11 ***. K rate (kg ha -1 ) a, Treatment or contrast. = RCM. K rate (kg ha -1 ) a, Kharif.2014 = 28 b. K rate (kg ha -1 ) a, Kharif.2015 = 34 b. K rate (kg ha -1 ) a, Rabi.2013-2014 = 19 a. K rate (kg ha -1 ) a, Rabi.2014-2015 = 27 ab. K rate (kg ha -1 ) a, Treatment or contrast. = FFP. K rate (kg ha -1 ) a, Kharif.2014 = 39 a. K rate (kg ha -1 ) a, Kharif.2015 = 47 a. K rate (kg ha -1 ) a, Rabi.2013-2014 = 47 a. K rate (kg ha -1 ) a, Rabi.2014-2015 = 44 a. K rate (kg ha -1 ) a, Treatment or contrast. = RCM-FFP. K rate (kg ha -1 ) a, Kharif.2014 = -11 ***. K rate (kg ha -1 ) a, Kharif.2015 = -12",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 21,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 5,
+    "section": "3.1. Site characteristics"
+   }
+  },
+  {
+   "text": "3.1. Site characteristics\n| - |\n **. K rate (kg ha -1 ) a, Rabi.2013-2014 = -28 ***. K rate (kg ha -1 ) a, Rabi.2014-2015 = -17 ***. TFC (US$ ha -1 ), Treatment or contrast. = RCM. TFC (US$ ha -1 ), Kharif.2014 = 88 a. TFC (US$ ha -1 ), Kharif.2015 = 90 a. TFC (US$ ha -1 ), Rabi.2013-2014 = 78 a. TFC (US$ ha -1 ), Rabi.2014-2015 = 85 a. TFC (US$ ha -1 ), Treatment or contrast. = FFP. TFC (US$ ha -1 ), Kharif.2014 = 70 a. TFC (US$ ha -1 ), Kharif.2015 = 90 bc. TFC (US$ ha -1 ), Rabi.2013-2014 = 100 c. TFC (US$ ha -1 ), Rabi.2014-2015 = 85 b. TFC (US$ ha -1 ), Treatment or contrast. = BFR. TFC (US$ ha -1 ), Kharif.2014 = 90 a. TFC (US$ ha -1 ), Kharif.2015 = 87 a. TFC (US$ ha -1 ), Rabi.2013-2014 = 96 a. TFC (US$ ha -1 ), Rabi.2014-2015 = 90 a. TFC (US$ ha -1 ), Treatment or contrast. = RCM-FFP. TFC (US$ ha -1 ), Kharif.2014 = 17 ***. TFC (US$ ha -1 ), Kharif.2015 = 0 ns. TFC (US$ ha -1 ), Rabi.2013-2014 = -22 ***. TFC (US$ ha -1 ), Rabi.2014-2015 = -1 ns. TFC (US$ ha -1 ), Treatment or contrast. = RCM-BFR d. TFC (US$ ha -1 ), Kharif.2014 = -3 ns. TFC (US$ ha -1 ), Kharif.2015 = 3 ns.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 22,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 5,
+    "section": "3.1. Site characteristics"
+   }
+  },
+  {
+   "text": "3.1. Site characteristics\n| - |\n TFC (US$ ha -1 ), Rabi.2013-2014 = -18 ***. TFC (US$ ha -1 ), Rabi.2014-2015 = -5 ns. TFC (US$ ha -1 ), Treatment or contrast. = BFR-FFP e. TFC (US$ ha -1 ), Kharif.2014 = 20 ***. TFC (US$ ha -1 ), Kharif.2015 = -3 ns. TFC (US$ ha -1 ), Rabi.2013-2014 = -4 ns. TFC (US$ ha -1 ), Rabi.2014-2015 = 4 ns. Grain yield (Mg ha -1 ), Treatment or contrast. = RCM. Grain yield (Mg ha -1 ), Kharif.2014 = 5.5 b. Grain yield (Mg ha -1 ), Kharif.2015 = 4.8 a. Grain yield (Mg ha -1 ), Rabi.2013-2014 = 5.4 ab. Grain yield (Mg ha -1 ), Rabi.2014-2015 = 4.9 a. Grain yield (Mg ha -1 ), Treatment or contrast. = FFP. Grain yield (Mg ha -1 ), Kharif.2014 = 4.7 ab. Grain yield (Mg ha -1 ), Kharif.2015 = 4.2 a. Grain yield (Mg ha -1 ), Rabi.2013-2014 = 5.2 b. Grain yield (Mg ha -1 ), Rabi.2014-2015 = 4.4 a. Grain yield (Mg ha -1 ), Treatment or contrast. = BFR. Grain yield (Mg ha -1 ), Kharif.2014 = 5.2 b. Grain yield (Mg ha -1 ), Kharif.2015 = 4.6 a. Grain yield (Mg ha -1 ), Rabi.2013-2014 = 5.0 ab. Grain yield (Mg ha -1 ), Rabi.2014-2015 = 4.7 a. Grain yield (Mg ha -1 ), Treatment or contrast. = RCM-FFP. Grain yield (Mg ha -1 ), Kharif.2014 = 0.8 ***. Grain yield (Mg ha -1 ), Kharif.2015 =",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 23,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 5,
+    "section": "3.1. Site characteristics"
+   }
+  },
+  {
+   "text": "3.1. Site characteristics\n| - |\n 0.6 ***. Grain yield (Mg ha -1 ), Rabi.2013-2014 = 0.3 *. Grain yield (Mg ha -1 ), Rabi.2014-2015 = 0.5 ***. Grain yield (Mg ha -1 ), Treatment or contrast. = RCM-BFR. Grain yield (Mg ha -1 ), Kharif.2014 = 0.3 ***. Grain yield (Mg ha -1 ), Kharif.2015 = 0.3 ns. Grain yield (Mg ha -1 ), Rabi.2013-2014 = 0.4 ***. Grain yield (Mg ha -1 ), Rabi.2014-2015 = 0.2 *. , Treatment or contrast. = BFR-FFP. , Kharif.2014 = 0.5 ***. , Kharif.2015 = 0.3 *. , Rabi.2013-2014 = -0.2 ns. , Rabi.2014-2015 = 0.3 ***. PFP (kg kg -1 ), Treatment or contrast. = RCM. PFP (kg kg -1 ), Kharif.2014 = 54 a. PFP (kg kg -1 ), Kharif.2015 = 46 a. PFP (kg kg -1 ), Rabi.2013-2014 = 54 a. PFP (kg kg -1 ), Rabi.2014-2015 = 51 a. , Treatment or contrast. = FFP. , Kharif.2014 = 73 b. , Kharif.2015 = 54 a. , Rabi.2013-2014 = 61 a. , Rabi.2014-2015 = 55 a. , Treatment or contrast. = BFR. , Kharif.2014 = 65 a. , Kharif.2015 = 56 a. , Rabi.2013-2014 = 63 a. , Rabi.2014-2015 = 59 a. , Treatment or contrast. = RCM-FFP. , Kharif.2014 = -19 ***. , Kharif.2015 = -9 ns. , Rabi.2013-2014 = -7 ns. , Rabi.2014-2015 = -5 ns. , Treatment or contrast. = RCM-BFR. , Kharif.2014 = -11 ***. ,",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 24,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 5,
+    "section": "3.1. Site characteristics"
+   }
+  },
+  {
+   "text": "3.1. Site characteristics\n| - |\n Kharif.2015 = -10 ns. , Rabi.2013-2014 = -8*. , Rabi.2014-2015 = -8 *. , Treatment or contrast. = BFR-FFP. , Kharif.2014 = -8 **. , Kharif.2015 = 2 ns. , Rabi.2013-2014 = 2 ns. , Rabi.2014-2015 = 3 ns. ANB (US$ ha -1 ), Treatment or contrast. = RCM-FFP. ANB (US$ ha -1 ), Kharif.2014 = 150 b. ANB (US$ ha -1 ), Kharif.2015 = 129 ab. ANB (US$ ha -1 ), Rabi.2013-2014 = 76 a. ANB (US$ ha -1 ), Rabi.2014-2015 = 110 ab. ANB (US$ ha -1 ), Treatment or contrast. = RCM-BFR. ANB (US$ ha -1 ), Kharif.2014 = 65 a. ANB (US$ ha -1 ), Kharif.2015 = 54 a. ANB (US$ ha -1 ), Rabi.2013-2014 = 106 a. ANB (US$ ha -1 ), Rabi.2014-2015 = 50 a. , Treatment or contrast. = Diff f. , Kharif.2014 = 85 ***. , Kharif.2015 = 75 **. , Rabi.2013-2014 = -30 ns. , Rabi.2014-2015 = 60 ***. GYR (Mg ha -1 ) g, Treatment or contrast. = . GYR (Mg ha -1 ) g, Kharif.2014 = 4.6 b. GYR (Mg ha -1 ) g, Kharif.2015 = 4.4 b. GYR (Mg ha -1 ) g, Rabi.2013-2014 = 3.7 a. GYR (Mg ha -1 ) g, Rabi.2014-2015 = 4.4 b. , Treatment or contrast. = Diff from FFP yield h. , Kharif.2014 = -0.1 b. , Kharif.2015 = 0.2 b. , Rabi.2013-2014 = -1.5 a. ,",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 25,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 5,
+    "section": "3.1. Site characteristics"
+   }
+  },
+  {
+   "text": "3.1. Site characteristics\n| - |\n Rabi.2014-2015 = 0.0 b. GYT (Mg ha -1 ), Treatment or contrast. = Diff from RCM yield i. GYT (Mg ha -1 ), Kharif.2014 = 5.1 b -0.5 b. GYT (Mg ha -1 ), Kharif.2015 = 4.9 b 0.1 c. GYT (Mg ha -1 ), Rabi.2013-2014 = 4.2 a -1.2 a. GYT (Mg ha -1 ), Rabi.2014-2015 = 4.9 b 0.0 c |\n| ns = not significant (P > 0.05). * , ** , and *** indicate significance at the 0.05, 0.01, and 0.001 probability levels, respectively. |\n| a Fertilizer applied with BFR: N=80 kg ha -1 , P =17 kg ha -1 , and K =33 kg ha -1 . |\n| b Means within a row followed by the same lowercase letter are not different at P≤0.05. |\n| c RCM-FFP=Difference between RCM and FFP. |\n| d RCM-BFR=Difference between RCM and BFR. |\n| e BFR-FFP=Difference between BFR and FFP. |\n\n\n- f Diff=Difference between RCM-FFP and RCM-BFR.\n- g Number for trials: 2014=82, 2015=24, 2013-2014=39, and 2014-2015=60.\n- h Diff from FFP yield=Difference between the historical grain yield reported by farmer (GYR) and the measured yield with FFP.\n- i Diff from RCM yield=Difference between the RCM target grain yield (GYT) and the measured yield with RCM.\nmeasured soil properties was relatively large as indicated by the standard deviations (Table 1).",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 26,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 5,
+    "section": "3.1. Site characteristics"
+   }
+  },
+  {
+   "text": "3.2. Evaluation across two seasons\nThe performance of RCM relative to FFP and BFR was first examined across two seasons (kharif and rabi) and two years for each season (Table 2). Mean fertilizer N rates with RCM recommendations were comparable across seasons and years (98-106 kg ha -1 ), and they were higher than the uniform application of 80 kg N ha -1 with BFR in each season and year. Fertilizer N rates averaged 33 and 25 kg ha -1 higher with RCM than FFP in kharif because of relatively low N use with FFP in kharif. Mean fertilizer N rates in rabi, in contrast, were comparable for RCM recommendations and FFP (Table 2); but the range in fertilizer N rates in rabi was much larger for FFP (14-252 kg ha -1 ) than RCM (54-143 kg ha -1 ) (Supplement Table 4).\nMean fertilizer P and K rates were consistently lower with RCM recommendations than FFP across seasons and years (Table 2). The mean reductions with RCM compared to FFP were 6-17 kg P ha -1 and 11-28 kgK ha -1 . All trials received P and K with RCM; but with FFP, some trials received no P or K and some trials received very high rates of P or K. Fertilizer P rates across the two seasons ranged from 0 to 64 kg ha -1 with FFP as compared to 6-21 kg ha -1 with RCM (Supplement Table 4). Fertilizer K rates across the two seasons were 0-156 kg ha -1 with FFP as compared to 12-49 kg ha -1 with RCM.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 27,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 5,
+    "section": "3.2. Evaluation across two seasons"
+   }
+  },
+  {
+   "text": "3.2. Evaluation across two seasons\nTotal fertilizer cost (TFC) was unaffected by season and year for RCM (78-90 US$ ha -1 ) and BFR (Table 2). The TFC was comparable for RCM and BFR, except for rabi 2013-2014 when TFC was 18 US$ ha -1 lower for RCM largely because of less fertilizer K use with RCM in that season. Mean TFC varied across seasons and years with FFP (70-100 US $ ha -1 ), and difference between RCM and FFP consequently varied across seasons and years. The TFC with RCM was 17 US$ ha -1 higher than for FFP in kharif 2014, 22 US$ ha -1 lower than for FFP in rabi 2013-2014, and comparable to FFP in other seasons and years.\nZinc sulfate followed by diammonium phosphate (DAP) accounted for the highest portions of the total fertilizer cost with RCM (Table 3).\nTable 3 Costs for urea, muriate of potash (KCl, 0-0-60), diammonium phosphate (DAP), and zinc sulfate (expressed as percentage of total fertilizer cost) for field-specific nutrient management provided by Rice Crop Manager (RCM) in 178 field trials across two seasons in Odisha, India.\n\nUrea, Fertilizer cost (% of total).Mean = 22. Urea, Fertilizer cost (% of total).Minimum = 16. Urea, Fertilizer cost (% of total).Maximum = 31. MOP, Fertilizer cost (% of total).Mean = 16. MOP, Fertilizer cost (% of total).Minimum = 10. MOP, Fertilizer cost (% of total).Maximum = 27. DAP, Fertilizer cost (% of total).Mean = 30. DAP, Fertilizer cost (% of total).Minimum = 15. DAP, Fertilizer cost (% of total).Maximum = 40. Zinc sulfate, Fertilizer cost (% of total).Mean = 32. Zinc sulfate, Fertilizer cost (% of total).Minimum = 22. Zinc sulfate, Fertilizer cost (% of total).Maximum = 44",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 28,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 5,
+    "section": "3.2. Evaluation across two seasons"
+   }
+  },
+  {
+   "text": "3.2. Evaluation across two seasons\na Only the trials in which the RCM recommendation used all four sources (urea, MOP, DAP, and zinc sulfate) and no other sources are included.\nZinc sulfate, which was applied as a uniform rate in RCM and BFR, represented 32% of the total fertilizer cost with RCM. Diammonium phosphate (DAP) and muriate of potash (MOP) accounted for 30% and 16%, respectively, of the total fertilizer cost. Urea was the source applied in the largest quantity with RCM, but it represented only 22% of the fertilizer cost because of the subsidized low price per kg for urea compared to DAP, MOP, and zinc sulfate.\nGrain yield was consistently higher by 0.3-0.8Mg ha -1 for RCM than FFP (Table 2), and grain yield was significantly higher by 0.2-0.4Mg ha -1 for RCM than BFR in three of the four combinations of seasons and years. Some of the higher yield with RCM than FFP might be the result of overcoming zinc deficiency because zinc sulfate was added with RCM in all trials whereas zinc sulfate was added with FFP in only 5% of the trials. It cannot be determined from our study what proportion of the increase in yield from RCM compared to FFP was attributed to application of zinc. Higher yield with RCM than BFR was not associated with zinc because RCM and BFR received zinc sulfate at comparable rates.\nFig. 2. Cumulative probability of exceeding an added net benefit by switching from the farmers' fertilizer practice (FFP) to either field-specific nutrient management provided by Rice Crop Manager (RCM) or blanket fertilizer recommendation (BFR) in two seasons (kharif and rabi) in Odisha, India.\nFig. 3. Amount of fertilizer N applied at three growth stages for rice, designated in days after transplanting (DAT), for field-specific nutrient management provided by Rice Crop Manager (RCM), farmers' fertilizer practice (FFP), and blanket fertilizer recommendation (BFR) in Odisha, India. Means for a growth stage followed by the same letter are not different at P≤0.05.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 29,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 6,
+    "section": "3.2. Evaluation across two seasons"
+   }
+  },
+  {
+   "text": "3.2. Evaluation across two seasons\nAt least some of the higher yield with RCM than FFP in kharif might be associated with higher use of fertilizer N with RCM in kharif (Table 2), resulting in significantly lower partial factor productivity of added N (PFP) for RCM than FFP in kharif 2014 (Table 2). Higher yield with RCM than BFR might be associated with higher use of fertilizer N with RCM for kharif and rabi, resulting in significantly lower PFP for RCM than BFR in three of the four combinations of seasons and years. The PFP with RCM nonetheless remained relatively high (46-54 kg grain per kg added N) across all seasons and years suggesting that fertilizer N was not overapplied with RCM (Dobermann, 2007).\nHigher yields with RCM were usually not associated with higher TFC for RCM than for FFP or BFR and resulted in positive added net benefits with RCM. Added net benefit from use of RCM rather than FFP or BFR was consistently positive across seasons and years (Table 2). A switch from a farmers' current fertilizer practice (FFP) to field-specific nutrient management (RCM) rather than uniform fertilizer application (BFR) had higher probability of financial gain and less risk of financial loss (Fig. 2). For example, with a switch from FFP to RCM the probability of obtaining ≥25 US$ ha -1 added net benefit was 84% in kharif and 74% in rabi. The probability was lower with a switch from FFP to BFR: 62% in kharif and 54% in rabi. The probability of financial loss (i.e., negative added net benefit) with a switch from FFP to RCM was 7% in kharif and 22% in rabi (Fig. 2). The probability of financial loss was higher with a switch from FFP to BFR: 23% in kharif and 41% in rabi.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 30,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 6,
+    "section": "3.2. Evaluation across two seasons"
+   }
+  },
+  {
+   "text": "3.2. Evaluation across two seasons\nDifferences in the application of fertilizer N during the growing season might have accounted for some of the differences in yield among RCM, FFP, and BFR. Fertilizer N was applied in three splits with RCM and BFR. With FFP the number of N applications varied from three in about 75% of the trials, two in about 20% of the trials, and one in<5% of the trials. FFP had the largest fraction of its total fertilizer N during early vegetative stage at ≤20 days after transplanting (DAT), and BFR had the largest fraction of its total fertilizer N during tillering at 21-35 DAT. RCM, on the other hand, had the largest fraction of its total fertilizer N at more than 35 days after transplanting (DAT), which included the time interval with panicle initiation. Total fertilizer N rate was higher for RCM than FFP and BFR. The actual amounts of fertilizer N applied at ≤20 DAT was therefore comparable for RCM and FFP (30 and 33 kg ha -1 ) but less for BFR (20 kg ha -1 ) (Fig. 3). The amounts of fertilizer N applied at 21-35 DAT was higher for RCM and BFR (31 and 34 kg ha -1 ) than FFP (26 kg ha -1 ), but much more N was applied with RCM (40 kg ha -1 ) than FFP and BFR (21 and 27 kg ha -1 ) after 35 DAT.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 31,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 6,
+    "section": "3.2. Evaluation across two seasons"
+   }
+  },
+  {
+   "text": "3.2. Evaluation across two seasons\n| - |\n| Table 4 Measured rice grain yield and added net benefit (ANB) for field-specific nutrient management provided by Rice Crop Manager (RCM), farmers' fertilizer practice (FFP), and blanket fertilizer recommendation (BFR) for two seasons (kharif and rabi) across six agro-climatic zones (ACZ) in Odisha, India. |\n| Trials (n), Season = Kharif. Trials (n), Year = 2014. Trials (n), Treatment or contrast = . Trials (n), East and south eastern coastal plain = 25. Trials (n), Mid central table land = 5. Trials (n), North central plateau = 24. Trials (n), North eastern coastal plain = 25. Trials (n), North western plateau = 5. Trials (n), Western central table land = 0. , Season = . , Year = 2015. , Treatment or contrast = . , East and south eastern coastal plain = 6. , Mid central table land = 5. , North central plateau = 5. , North eastern coastal plain = 0. , North western plateau = 3. , Western central table land = 5. , Season = Rabi. , Year = 2013-2014. , Treatment or contrast = . , East and south eastern coastal plain = 17. , Mid central table land = 0. , North central plateau = 10. , North eastern coastal plain = 12. , North western plateau = 0. , Western central table land = 0. , Season = . , Year = 2014-2015. , Treatment or contrast = . , East and south eastern coastal plain = 18. , Mid central table land = 0. , North central plateau = 19. , North eastern coastal plain = 17. , North western plateau = 3. , Western central table land = 5. Grain yield (Mg ha -1 ), Season = Kharif. Grain yield (Mg ha -1 ), Year = 2014. Grain yield (Mg ha -1 ), Treatment or contrast = RCM. Grain yield (Mg ha -1 ), East and south eastern coastal plain = 6.1. Grain yield (Mg ha -1 ), Mid central table land = 5.9. Grain yield (Mg ha -1 ), North central plateau = 4.7. Grain yield (Mg ha -1 ), North eastern coastal plain = 6.0. Grain yield (Mg ha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 32,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 7,
+    "section": "3.2. Evaluation across two seasons"
+   }
+  },
+  {
+   "text": "3.2. Evaluation across two seasons\n| - |\n -1 ), North western plateau = 4.2. Grain yield (Mg ha -1 ), Western central table land = . , Season = . , Year = . , Treatment or contrast = FFP. , East and south eastern coastal plain = 5.2. , Mid central table land = 5.1. , North central plateau = 3.7. , North eastern coastal plain = 5.4. , North western plateau = 4.0. , Western central table land = . , Season = . , Year = . , Treatment or contrast = BFR. , East and south eastern coastal plain = 6.0. , Mid central table land = 5.1. , North central plateau = 4.4. , North eastern coastal plain = 5.5. , North western plateau = 4.1. , Western central table land = . , Season = . , Year = . , Treatment or contrast = RCM-FFP a. , East and south eastern coastal plain = 0.9 ***. , Mid central table land = 0.8 **. , North central plateau = 1.0 ***. , North eastern coastal plain = 0.6 ***. , North western plateau = 0.2 ns. , Western central table land = . , Season = . , Year = . , Treatment or contrast = RCM-BFR b. , East and south eastern coastal plain = 0.1 ns. , Mid central table land = 0.8 **. , North central plateau = 0.3 ns. , North eastern coastal plain = 0.5 ***. , North western plateau = 0.0 ns. , Western central table land = . , Season = . , Year = . , Treatment or contrast = BFR-FFP c. , East and south eastern coastal plain = 0.8 ***. , Mid central table land = 0.0 ns. , North central plateau = 0.7 ***. , North eastern coastal plain = 0.1 ns. , North western plateau = 0.2 ns. , Western central table land = . , Season = . , Year = 2015. , Treatment or contrast = RCM. , East and south eastern coastal plain = 4.2. , Mid central table land = 5.2. , North central plateau = 5.3. , North eastern coastal plain = . , North western plateau = 4.6. , Western central table",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 33,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 7,
+    "section": "3.2. Evaluation across two seasons"
+   }
+  },
+  {
+   "text": "3.2. Evaluation across two seasons\n| - |\n land = 5.0. , Season = . , Year = . , Treatment or contrast = FFP. , East and south eastern coastal plain = 3.5. , Mid central table land = 4.5. , North central plateau = 4.8. , North eastern coastal plain = . , North western plateau = 3.9. , Western central table land = 4.5. , Season = . , Year = . , Treatment or contrast = BFR. , East and south eastern coastal plain = 3.9. , Mid central table land = 4.6. , North central plateau = 5.2. , North eastern coastal plain = . , North western plateau = 4.3. , Western central table land = 4.9. , Season = . , Year = . , Treatment or contrast = RCM-FFP. , East and south eastern coastal plain = 0.7 ***. , Mid central table land = 0.7 ***. , North central plateau = 0.5 **. , North eastern coastal plain = . , North western plateau = 0.7 **. , Western central table land = 0.5 **. , Season = . , Year = . , Treatment or contrast = RCM-BFR. , East and south eastern coastal plain = 0.3 ns. , Mid central table land = 0.6 ***. , North central plateau = 0.0 ns. , North eastern coastal plain = . , North western plateau = 0.3 ns. , Western central table land = 0.1 ns. , Season = . , Year = . , Treatment or contrast = BFR-FFP. , East and south eastern coastal plain = 0.4 *. , Mid central table land = 0.1 ns. , North central plateau = 0.5 **. , North eastern coastal plain = . , North western plateau = 0.4 ns. , Western central table land = 0.3 ns. , Season = Rabi. , Year = 2013-2014. , Treatment or contrast = RCM. , East and south eastern coastal plain = 6.2. , Mid central table land = . , North central plateau = 4.6. , North eastern coastal plain = 5.0. , North western plateau = . , Western central table land = . , Season = . , Year = . , Treatment or contrast = FFP. , East and south eastern coastal plain =",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 34,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 7,
+    "section": "3.2. Evaluation across two seasons"
+   }
+  },
+  {
+   "text": "3.2. Evaluation across two seasons\n| - |\n 5.9. , Mid central table land = . , North central plateau = 4.6. , North eastern coastal plain = 4.6. , North western plateau = . , Western central table land = . , Season = . , Year = . , Treatment or contrast = BFR. , East and south eastern coastal plain = 5.4. , Mid central table land = . , North central plateau = 4.9. , North eastern coastal plain = 4.5. , North western plateau = . , Western central table land = . , Season = . , Year = . , Treatment or contrast = RCM-FFP. , East and south eastern coastal plain = 0.3 ns. , Mid central table land = . , North central plateau = 0.0 ns. , North eastern coastal plain = 0.4 ns. , North western plateau = . , Western central table land = . , Season = . , Year = . , Treatment or contrast = RCM-BFR. , East and south eastern coastal plain = 0.8 ***. , Mid central table land = . , North central plateau = -0.3 ns. , North eastern coastal plain = 0.5 *. , North western plateau = . , Western central table land = . , Season = . , Year = . , Treatment or contrast = BFR-FFP. , East and south eastern coastal plain = -0.5 *. , Mid central table land = . , North central plateau = 0.3 ns. , North eastern coastal plain = -0.1 ns. , North western plateau = . , Western central table land = . , Season = . , Year = 2014-2015. , Treatment or contrast = RCM. , East and south eastern coastal plain = 5.8. , Mid central table land = . , North central plateau = 4.3. , North eastern coastal plain = 4.6. , North western plateau = 4.3. , Western central table land = 5.7. , Season = . , Year = . , Treatment or contrast = FFP. , East and south eastern coastal plain = 5.0. , Mid central table land = . , North central plateau = 4.0. , North eastern coastal plain = 4.1. , North western plateau = 3.8. , Western central table land = 5.5. , Season = . , Year = . , Treatment or contrast = BFR. , East",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 35,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 7,
+    "section": "3.2. Evaluation across two seasons"
+   }
+  },
+  {
+   "text": "3.2. Evaluation across two seasons\n| - |\n and south eastern coastal plain = 5.4. , Mid central table land = . , North central plateau = 4.4. , North eastern coastal plain = 4.3. , North western plateau = 4.0. , Western central table land = 5.1. , Season = . , Year = . , Treatment or contrast = RCM-FFP. , East and south eastern coastal plain = 0.8 ***. , Mid central table land = . , North central plateau = 0.3 *. , North eastern coastal plain = 0.6 ***. , North western plateau = 0.5 ns. , Western central table land = 0.2 ns. , Season = . , Year = . , Treatment or contrast = RCM-BFR. , East and south eastern coastal plain = 0.4 ***. , Mid central table land = . , North central plateau = -0.2 ns. , North eastern coastal plain = 0.3 *. , North western plateau = 0.3 ns. , Western central table land = 0.7 **. , Season = . , Year = . , Treatment or contrast = BFR-FFP. , East and south eastern coastal plain = 0.4 **. , Mid central table land = . , North central plateau = 0.5 ***. , North eastern coastal plain = 0.3 *. , North western plateau = 0.2 ns. , Western central table land = -0.4 ns. ANB (US$ ha -1 ), Season = Kharif. ANB (US$ ha -1 ), Year = 2014. ANB (US$ ha -1 ), Treatment or contrast = RCM-FFP. ANB (US$ ha -1 ), East and south eastern coastal plain = 177. ANB (US$ ha -1 ), Mid central table land = 132. ANB (US$ ha -1 ), North central plateau = 174. ANB (US$ ha -1 ), North eastern coastal plain = 128. ANB (US$ ha -1 ), North western plateau = 26. ANB (US$ ha -1 ), Western central table land = . , Season = . , Year = . , Treatment or contrast = RCM-BFR. , East and south eastern coastal plain = 31. , Mid central table land = 172. , North",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 36,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 7,
+    "section": "3.2. Evaluation across two seasons"
+   }
+  },
+  {
+   "text": "3.2. Evaluation across two seasons\n| - |\n central plateau = 51. , North eastern coastal plain = 101. , North western plateau = 18. , Western central table land = . , Season = . , Year = . , Treatment or contrast = Diff d. , East and south eastern coastal plain = 146 ***. , Mid central table land = -40 ns. , North central plateau = 123 ***. , North eastern coastal plain = 26 ns. , North western plateau = 8 ns. , Western central table land = . , Season = . , Year = 2015. , Treatment or contrast = RCM-FFP. , East and south eastern coastal plain = 126. , Mid central table land = 99. , North central plateau = 97. , North eastern coastal plain = . , North western plateau = 147. , Western central table land = 182. , Season = . , Year = . , Treatment or contrast = RCM-BFR. , East and south eastern coastal plain = 50. , Mid central table land = 121. , North central plateau = 17. , North eastern coastal plain = . , North western plateau = 39. , Western central table land = 36. , Season = . , Year = . , Treatment or contrast = Diff. , East and south eastern coastal plain = 76 **. , Mid central table land = -22 ns. , North central plateau = 80 **. , North eastern coastal plain = . , North western plateau = 108 **. , Western central table land = 146 ***. , Season = Rabi. , Year = 2013-2014. , Treatment or contrast = RCM-FFP. , East and south eastern coastal plain = 76. , Mid central table land = . , North central plateau = -4. , North eastern coastal plain = 143. , North western plateau = . , Western central table land = . , Season = . , Year = . , Treatment or contrast = RCM-BFR. , East and south eastern coastal plain = 172. , Mid central table land = . , North central plateau = -37. , North eastern coastal plain = 132. , North western plateau = . , Western central table land = . , Season = . , Year = . , Treatment or contrast = Diff. , East and south eastern coastal plain = -96 *. , Mid central table land = . , North central plateau = 33 ns. , North eastern coastal plain = 11",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 37,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 7,
+    "section": "3.2. Evaluation across two seasons",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "ns. , North western plateau = .",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 37,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 7,
+    "section": "3.2. Evaluation across two seasons",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "3.2. Evaluation across two seasons\n| - |\n , Western central table land = . , Season = . , Year = 2014-2015. , Treatment or contrast = RCM-FFP. , East and south eastern coastal plain = 177. , Mid central table land = . , North central plateau = 34. , North eastern coastal plain = 139. , North western plateau = 101. , Western central table land = 60. , Season = . , Year = . , Treatment or contrast = RCM-BFR. , East and south eastern coastal plain = 92. , Mid central table land = . , North central plateau = -33. , North eastern coastal plain = 69. , North western plateau = 69. , Western central table land = 138. , Season = . , Year = . , Treatment or contrast = Diff. , East and south eastern coastal plain = 85 ***. , Mid central table land = . , North central plateau = 68 **. , North eastern coastal plain = 70 **. , North western plateau = 32 ns. , Western central table land = -78 ns |\n| ns = not significant (P > 0.05). * , ** , and *** indicate significance at the 0.05, 0.01, and 0.001 probability levels, respectively. |\n| a RCM-FFP=Difference between RCM and FFP. |\n| b RCM-BFR=Difference between RCM and BFR. |\n| c BFR-FFP=Difference between BFR and FFP. |\n| d Diff=Difference between RCM-FFP and RCM-BFR. |",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 38,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 7,
+    "section": "3.2. Evaluation across two seasons"
+   }
+  },
+  {
+   "text": "3.2. Evaluation across two seasons\nThe mean yield achieved with RCM (4.8-5.5Mg ha -1 ) matched or exceeded the RCM target yield (GYT) (4.2-5.1Mg ha -1 ) (Table 2). This observation provided assurance the fertilizer N, P, and K rates with RCM were sufficient to achieve the target yield. The mean yield obtained by farmers (FFP) was within 0.2Mg ha -1 of the historical yield reported by farmers during the RCM interview (GYR) in three of the four combinations of seasons and years (Table 2). This suggested a good match between a farmer's estimate of previous yield and the yield achieved by a farmer in a subsequent season. The yield achieved with FFP in rabi 2013-2014, by contrast, was 1.5Mg ha -1 higher than GYR (Table 2). Significantly higher yield with FFP for rabi in 2013-2014 (5.2Mg ha -1 ) than 2014-2015 (4.4Mg ha -1 ) suggested more favorable crop-growing conditions in 2013-2014 than typical for rabi might have contributed to the higher yield with FFP than GYR.\nRelatively low GYR in rabi 2013-2014 (3.7Mg ha -1 ) resulted in the setting of a relatively low RCM target yield (4.2Mg ha -1 ), which contributed to the calculation of relatively lower fertilizer K rates with RCM (19 kg K ha -1 ) in that season (Table 2). The rates of fertilizer, including K, with RCM were nonetheless sufficient to achieve a yield 1.2Mg ha -1 higher than targeted with RCM.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 39,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 7,
+    "section": "3.2. Evaluation across two seasons"
+   }
+  },
+  {
+   "text": "3.3. Evaluation across agro-climatic zones (ACZ)\nThe performance of an RCM recommendation relative to FFP and BFR was next examined across six ACZ in two seasons (Table 4). Grain yield in kharif was consistently higher for RCM than FFP (0.5-1.0Mg ha -1 ) across all ACZ, except the five trials in 2014 in the north western plateau zone. Added net benefit from use of RCM rather than FFP was high (97-182 US$ ha -1 ) when yield was higher with RCM than FFP, but added net benefit was relatively lower (26 US$ ha -1 ) for the north western plateau zone in 2014 when yield was not higher with RCM.\nRCM was less effective relative to FFP in rabi. Grain yield was not higher for RCM than FFP in the three ACZ with trials in 2013-2014, and grain yield was higher for RCM than FFP (0.3-0.8Mg ha -1 ) in only three of the five ACZ with trials in 2014-2015 (Table 4). Added net benefit from use of RCM rather than FFP was low (34 US$ ha -1 ) or negative (-4 US$ ha -1 ) in the north central plateau zone but higher",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 40,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 7,
+    "section": "3.3. Evaluation across agro-climatic zones (ACZ)"
+   }
+  },
+  {
+   "text": "3.3. Evaluation across agro-climatic zones (ACZ)\n| - |\n| Table 5 Rates of N, P, and K fertilizer for field-specific nutrient management provided by Rice Crop Manager (RCM), farmers' fertilizer practice (FFP), and blanket fertilizer recommendation (BFR) for two seasons across six agro-climatic zones (ACZ) in Odisha, India. |\n| N a, Season. = Kharif. N a, Year. = 2014. N a, Treatment or contrast. = RCM. N a, Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 106. N a, Nutrient rate (kg ha -1 ).Mid central table land = 109. N a, Nutrient rate (kg ha -1 ).North central plateau = 97. N a, Nutrient rate (kg ha -1 ).North eastern coastal plain = 107. N a, Nutrient rate (kg ha -1 ).North western plateau = 93. N a, Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = . , Treatment or contrast. = FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 67. , Nutrient rate (kg ha -1 ).Mid central table land = 68. , Nutrient rate (kg ha -1 ).North central plateau = 64. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 79. , Nutrient rate (kg ha -1 ).North western plateau = 68. , Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = . , Treatment or contrast. = RCM-FFP b. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 38 ***. , Nutrient rate (kg ha -1 ).Mid central table land = 41 ***. , Nutrient rate (kg ha -1 ).North central plateau = 35 ***. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 28 ***. , Nutrient rate (kg ha -1 ).North western plateau = 25 *. , Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = 2015. , Treatment or contrast. = RCM. , Nutrient rate",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 41,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 8,
+    "section": "3.3. Evaluation across agro-climatic zones (ACZ)"
+   }
+  },
+  {
+   "text": "3.3. Evaluation across agro-climatic zones (ACZ)\n| - |\n (kg ha -1 ).East and south eastern coastal plain = 101. , Nutrient rate (kg ha -1 ).Mid central table land = 119. , Nutrient rate (kg ha -1 ).North central plateau = 104. , Nutrient rate (kg ha -1 ).North eastern coastal plain = . , Nutrient rate (kg ha -1 ).North western plateau = 95. , Nutrient rate (kg ha -1 ).Western central table land = 109. , Season. = . , Year. = . , Treatment or contrast. = FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 72. , Nutrient rate (kg ha -1 ).Mid central table land = 71. , Nutrient rate (kg ha -1 ).North central plateau = 78. , Nutrient rate (kg ha -1 ).North eastern coastal plain = . , Nutrient rate (kg ha -1 ).North western plateau = 79. , Nutrient rate (kg ha -1 ).Western central table land = 107. , Season. = . , Year. = . , Treatment or contrast. = RCM-FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 28 ***. , Nutrient rate (kg ha -1 ).Mid central table land = 48 ***. , Nutrient rate (kg ha -1 ).North central plateau = 26 **. , Nutrient rate (kg ha -1 ).North eastern coastal plain = . , Nutrient rate (kg ha -1 ).North western plateau = 17 ns. , Nutrient rate (kg ha -1 ).Western central table land = 2 ns. , Season. = Rabi. , Year. = 2013-2014. , Treatment or contrast. = RCM. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 109. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = 83. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 107. , Nutrient rate (kg ha -1 ).North western plateau = . , Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = . , Treatment or contrast. = FFP. ,",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 42,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 8,
+    "section": "3.3. Evaluation across agro-climatic zones (ACZ)"
+   }
+  },
+  {
+   "text": "3.3. Evaluation across agro-climatic zones (ACZ)\n| - |\n Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 102. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = 75. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 122. , Nutrient rate (kg ha -1 ).North western plateau = . , Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = . , Treatment or contrast. = RCM-FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 7 ns. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = 8 ns. , Nutrient rate (kg ha -1 ).North eastern coastal plain = -15 ns. , Nutrient rate (kg ha -1 ).North western plateau = . , Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = 2014-2015. , Treatment or contrast. = RCM. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 101. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = 87. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 101. , Nutrient rate (kg ha -1 ).North western plateau = 109. , Nutrient rate (kg ha -1 ).Western central table land = 118. , Season. = . , Year. = . , Treatment or contrast. = FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 104. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = 74. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 97. , Nutrient rate (kg ha -1 ).North western plateau = 94. , Nutrient rate (kg ha -1 ).Western central table land = 127. , Season. = . , Year. = . , Treatment or contrast. = RCM-FFP. , Nutrient rate (kg ha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 43,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 8,
+    "section": "3.3. Evaluation across agro-climatic zones (ACZ)"
+   }
+  },
+  {
+   "text": "3.3. Evaluation across agro-climatic zones (ACZ)\n| - |\n -1 ).East and south eastern coastal plain = -3 ns. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = 13 ns. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 5 ns. , Nutrient rate (kg ha -1 ).North western plateau = 15 ns. , Nutrient rate (kg ha -1 ).Western central table land = -9 ns. P a, Season. = Kharif. P a, Year. = 2014. P a, Treatment or contrast. = RCM. P a, Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 11. P a, Nutrient rate (kg ha -1 ).Mid central table land = 14. P a, Nutrient rate (kg ha -1 ).North central plateau = 18. P a, Nutrient rate (kg ha -1 ).North eastern coastal plain = 13. P a, Nutrient rate (kg ha -1 ).North western plateau = 11. P a, Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = . , Treatment or contrast. = FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 16. , Nutrient rate (kg ha -1 ).Mid central table land = 12. , Nutrient rate (kg ha -1 ).North central plateau = 18. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 26. , Nutrient rate (kg ha -1 ).North western plateau = 20. , Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = . , Treatment or contrast. = RCM-FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = -5 **. , Nutrient rate (kg ha -1 ).Mid central table land = 3 ns. , Nutrient rate (kg ha -1 ).North central plateau = 0 ns. , Nutrient rate (kg ha -1 ).North eastern coastal plain = -13 ***. , Nutrient rate (kg ha -1 ).North western plateau = -9 *. , Nutrient rate (kg ha -1 ).Western",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 44,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 8,
+    "section": "3.3. Evaluation across agro-climatic zones (ACZ)"
+   }
+  },
+  {
+   "text": "3.3. Evaluation across agro-climatic zones (ACZ)\n| - |\n central table land = . , Season. = . , Year. = 2015. , Treatment or contrast. = RCM. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 12. , Nutrient rate (kg ha -1 ).Mid central table land = 13. , Nutrient rate (kg ha -1 ).North central plateau = 12. , Nutrient rate (kg ha -1 ).North eastern coastal plain = . , Nutrient rate (kg ha -1 ).North western plateau = 12. , Nutrient rate (kg ha -1 ).Western central table land = 12. , Season. = . , Year. = . , Treatment or contrast. = FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 16. , Nutrient rate (kg ha -1 ).Mid central table land = 11. , Nutrient rate (kg ha -1 ).North central plateau = 20. , Nutrient rate (kg ha -1 ).North eastern coastal plain = . , Nutrient rate (kg ha -1 ).North western plateau = 22. , Nutrient rate (kg ha -1 ).Western central table land = 25. , Season. = . , Year. = . , Treatment or contrast. = RCM-FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = -3 *. , Nutrient rate (kg ha -1 ).Mid central table land = 2 ns. , Nutrient rate (kg ha -1 ).North central plateau = -7 ***. , Nutrient rate (kg ha -1 ).North eastern coastal plain = . , Nutrient rate (kg ha -1 ).North western plateau = -11 ***. , Nutrient rate (kg ha -1 ).Western central table land = -13 ***. , Season. = Rabi. , Year. = 2013-2014. , Treatment or contrast. = RCM. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 12. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = 9. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 11. , Nutrient rate (kg ha -1 ).North western plateau = . , Nutrient rate",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 45,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 8,
+    "section": "3.3. Evaluation across agro-climatic zones (ACZ)"
+   }
+  },
+  {
+   "text": "3.3. Evaluation across agro-climatic zones (ACZ)\n| - |\n (kg ha -1 ).Western central table land = . , Season. = . , Year. = . , Treatment or contrast. = FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 23. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = 23. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 38. , Nutrient rate (kg ha -1 ).North western plateau = . , Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = . , Treatment or contrast. = RCM-FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = -11 ***. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = -14 ***. , Nutrient rate (kg ha -1 ).North eastern coastal plain = -27 ***. , Nutrient rate (kg ha -1 ).North western plateau = . , Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = 2014-2015. , Treatment or contrast. = RCM. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 12. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = 16. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 13. , Nutrient rate (kg ha -1 ).North western plateau = 14. , Nutrient rate (kg ha -1 ).Western central table land = 13. , Season. = . , Year. = . , Treatment or contrast. = FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 26. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = 18. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 29. , Nutrient rate (kg ha -1 ).North western plateau = 25. , Nutrient rate",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 46,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 8,
+    "section": "3.3. Evaluation across agro-climatic zones (ACZ)"
+   }
+  },
+  {
+   "text": "3.3. Evaluation across agro-climatic zones (ACZ)\n| - |\n (kg ha -1 ).Western central table land = 25. , Season. = . , Year. = . , Treatment or contrast. = RCM-FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = -14 ***. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = -2 ns. , Nutrient rate (kg ha -1 ).North eastern coastal plain = -16 ***. , Nutrient rate (kg ha -1 ).North western plateau = -11 *. , Nutrient rate (kg ha -1 ).Western central table land = -11 **. K a, Season. = Kharif. K a, Year. = 2014. K a, Treatment or contrast. = RCM. K a, Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 27. K a, Nutrient rate (kg ha -1 ).Mid central table land = 35. K a, Nutrient rate (kg ha -1 ).North central plateau = 27. K a, Nutrient rate (kg ha -1 ).North eastern coastal plain = 30. K a, Nutrient rate (kg ha -1 ).North western plateau = 25. K a, Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = . , Treatment or contrast. = FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 44. , Nutrient rate (kg ha -1 ).Mid central table land = 35. , Nutrient rate (kg ha -1 ).North central plateau = 33. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 48. , Nutrient rate (kg ha -1 ).North western plateau = 27. , Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = . , Treatment or contrast. = RCM-FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = -13 **. , Nutrient rate (kg ha -1 ).Mid central table land = 0 ns. , Nutrient rate (kg ha -1 ).North central plateau = -6 ns.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 47,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 8,
+    "section": "3.3. Evaluation across agro-climatic zones (ACZ)"
+   }
+  },
+  {
+   "text": "3.3. Evaluation across agro-climatic zones (ACZ)\n| - |\n , Nutrient rate (kg ha -1 ).North eastern coastal plain = -18 ***. , Nutrient rate (kg ha -1 ).North western plateau = -2 ns. , Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = 2015. , Treatment or contrast. = RCM. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 47. , Nutrient rate (kg ha -1 ).Mid central table land = 33. , Nutrient rate (kg ha -1 ).North central plateau = 29. , Nutrient rate (kg ha -1 ).North eastern coastal plain = . , Nutrient rate (kg ha -1 ).North western plateau = 27. , Nutrient rate (kg ha -1 ).Western central table land = 30. , Season. = . , Year. = . , Treatment or contrast. = FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 46. , Nutrient rate (kg ha -1 ).Mid central table land = 35. , Nutrient rate (kg ha -1 ).North central plateau = 39. , Nutrient rate (kg ha -1 ).North eastern coastal plain = . , Nutrient rate (kg ha -1 ).North western plateau = 45. , Nutrient rate (kg ha -1 ).Western central table land = 68. , Season. = . , Year. = . , Treatment or contrast. = RCM-FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 1 ns. , Nutrient rate (kg ha -1 ).Mid central table land = -2 ns. , Nutrient rate (kg ha -1 ).North central plateau = -10 ns. , Nutrient rate (kg ha -1 ).North eastern coastal plain = . , Nutrient rate (kg ha -1 ).North western plateau = -18 *. , Nutrient rate (kg ha -1 ).Western central table land = -37 ***. , Season. = Rabi. , Year. = 2013-2014. , Treatment or contrast. = RCM. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 21. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 48,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 8,
+    "section": "3.3. Evaluation across agro-climatic zones (ACZ)"
+   }
+  },
+  {
+   "text": "3.3. Evaluation across agro-climatic zones (ACZ)\n| - |\n ha -1 ).North central plateau = 15. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 20. , Nutrient rate (kg ha -1 ).North western plateau = . , Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = . , Treatment or contrast. = FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 53. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = 28. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 53. , Nutrient rate (kg ha -1 ).North western plateau = . , Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = . , Treatment or contrast. = RCM-FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = -32 ***. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = -13 *. , Nutrient rate (kg ha -1 ).North eastern coastal plain = -34 ***. , Nutrient rate (kg ha -1 ).North western plateau = . , Nutrient rate (kg ha -1 ).Western central table land = . , Season. = . , Year. = 2014-2015. , Treatment or contrast. = RCM. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 27. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = 24. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 28. , Nutrient rate (kg ha -1 ).North western plateau = 29. , Nutrient rate (kg ha -1 ).Western central table land = 31. , Season. = . , Year. = . , Treatment or contrast. = FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = 57. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 49,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 8,
+    "section": "3.3. Evaluation across agro-climatic zones (ACZ)"
+   }
+  },
+  {
+   "text": "3.3. Evaluation across agro-climatic zones (ACZ)\n| - |\n ).North central plateau = 23. , Nutrient rate (kg ha -1 ).North eastern coastal plain = 48. , Nutrient rate (kg ha -1 ).North western plateau = 37. , Nutrient rate (kg ha -1 ).Western central table land = 62. , Season. = . , Year. = . , Treatment or contrast. = RCM-FFP. , Nutrient rate (kg ha -1 ).East and south eastern coastal plain = -30 ***. , Nutrient rate (kg ha -1 ).Mid central table land = . , Nutrient rate (kg ha -1 ).North central plateau = 1 ns. , Nutrient rate (kg ha -1 ).North eastern coastal plain = -21 ***. , Nutrient rate (kg ha -1 ).North western plateau = -8 ns. , Nutrient rate (kg ha -1 ).Western central table land = -30 ** |\n| ns = not significant (P > 0.05). * , ** , and *** indicate significance at the 0.05, 0.01, and 0.001 probability levels, respectively. |\n| a Fertilizer applied with BFR: N=80 kg ha -1 , P =17 kg ha -1 , and K =33 kg ha -1 . |\n| b RCM-FFP=Difference between RCM and FFP. |",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 50,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 8,
+    "section": "3.3. Evaluation across agro-climatic zones (ACZ)"
+   }
+  },
+  {
+   "text": "(60-177 US$ ha -1 ) for all other ACZ.\nHigher yield with RCM than FFP was not associated with greater effectiveness in overcoming P or K deficiency because fertilizer P and K rates were never higher with RCM than FFP across all ACZ in both kharif and rabi (Table 5). Fertilizer N rate was higher with RCM than FFP across most ACZ in kharif, but fertilizer N rate was never higher with RCM than FFP within ACZ in rabi (Table 5). Higher yield with RCM than FFP in kharif might be associated with higher rates of N, improved timing of fertilizer N application during the growing season, and application of zinc with RCM. Higher yield with RCM than FFP in rabi, on the other hand, would not be associated with N rate, but it might be associated with improved split application of fertilizer N during the growing season and application of zinc with RCM.\nRCM tended to be more effective in increasing yield relative to BFR in rabi than kharif. Grain yield in kharif was higher for RCM than BFR (0.5-0.8Mg ha -1 ) in only the mid central table land and north eastern coastal plain zones (Table 4), and added net benefit from use of RCM when compared to BFR was high (101-172 US$ ha -1 ) in these two ACZ. Added net benefit with RCM relative to BFR was 17-51 US$ ha -1 in other ACZ in kharif. In rabi, yield was higher for RCM than BFR (0.3-0.8Mg ha -1 ) in all ACZ except north central plateau and north western plateau zones. Added net benefit from use of RCM relative to BFR was negative (-33 and -37 US$ ha -1 ) in the north central plateau zone but positive 69-172 US$ ha -1 ) in other ACZ.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 51,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 8,
+    "section": "(60-177 US$ ha -1 ) for all other ACZ."
+   }
+  },
+  {
+   "text": "(60-177 US$ ha -1 ) for all other ACZ.\nHigher yield with RCM than BFR was not due to a higher P rate with RCM because mean fertilizer P rates across ACZ in kharif and rabi were not higher with RCM (9-18 kg P ha -1 ) (Table 5) than the uniform application of 17 kg P ha -1 with BFR. Higher yield with RCM than BFR was also not due to a higher K rate with RCM. Mean fertilizer K rate was distinctly higher with RCM than BFR in only the east and south eastern coastal plain in kharif 2015 (Table 5), but yield was not significantly higher in this ACZ and year with RCM (4.2Mg ha -1 ) than BFR (3.9Mg ha -1 ) (Table 4). Higher yield with RCM than BFR was also not associated with zinc because RCM and BFR received comparable uniform applications of zinc sulfate.\nMean fertilizer N rate for ACZ in kharif was higher with RCM (93-119 kg ha -1 ) (Table 5) than the uniform application on 80 kg N ha -1 with BFR. Higher yield with RCM than BFR in kharif in mid central table land and north eastern coastal plain zones (Table 4) might be associated with higher rate of N with RCM. In rabi, the mean fertilizer N rate for ACZ other than the north central plateau was higher with RCM (101-118 kg ha -1 ) (Table 5) than the uniform application on 80 kg N ha -1 with BFR. Higher yield with RCM than BFR in rabi for east and eastern coastal plain, north eastern coastal plain, and western central table land zones (Table 4) was likely associated with higher rate of N applied with RCM.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 52,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 8,
+    "section": "(60-177 US$ ha -1 ) for all other ACZ."
+   }
+  },
+  {
+   "text": "(60-177 US$ ha -1 ) for all other ACZ.\nAn RCM recommendation consistently failed to increase yield compared to BFR in kharif and rabi in the north central plateau zone, which had 29 trials each in kharif and rabi (Table 4). It was also the only zone with negative added net benefit with use of RCM (Table 4). Higher fertilizer N rate in kharif in this ACZ with RCM (97 and 104 kg N ha -1 ) (Table 5) than BFR (80 kg N ha -1 ) did not significantly increase yield with RCM, suggesting factors other than fertilizer N limited yield for RCM. The performance of RCM relative to BFR was especially poor in rabi in Mayurbhanj District, where 24 of the 29 rabi trials were conducted across the two years (Fig. 4). In Mayurbhanj District in rabi, 20 of the 24 trials had financial loss (negative added net benefit) with use of RCM rather than BFR (Fig. 4). These 20 trials represented 43% of the total number of field trials with negative added net benefit from use of RCM rather than BFR. Insufficient application of fertilizer P or K might be a factor limiting yield with RCM relative to BFR in Mayurbhanj District in rabi and perhaps other trials with negative added net benefit from use of RCM.\nFig. 4. Relationship between rice grain yield with a Rice Crop Manager (RCM) recommendation and added net benefit for field-specific nutrient management provided by RCM relative to blanket fertilizer recommendation (BFR) in Odisha, India.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 53,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 8,
+    "section": "(60-177 US$ ha -1 ) for all other ACZ."
+   }
+  },
+  {
+   "text": "(60-177 US$ ha -1 ) for all other ACZ.\nTable 6 Analysis of variance for effect of cropping period, soil clay content, and fertilizer treatment on partial factor productivity of added N (PFP) and measured rice grain yield in Odisha, India.\n\nCropping period (CP) b, df a. = 3. Cropping period (CP) b, Significance.PFP = ***. Cropping period (CP) b, Significance.Grain yield = ***. Soil clay (C) c, df a. = 2. Soil clay (C) c, Significance.PFP = ns. Soil clay (C) c, Significance.Grain yield = ns. Treatment (T) d, df a. = 2. Treatment (T) d, Significance.PFP = ***. Treatment (T) d, Significance.Grain yield = ***. CP × C, df a. = 6. CP × C, Significance.PFP = ns. CP × C, Significance.Grain yield = *. CP × T, df a. = 6. CP × T, Significance.PFP = *. CP × T, Significance.Grain yield = ***. C×T, df a. = 4. C×T, Significance.PFP = ns. C×T, Significance.Grain yield = ns. CP × C × T, df a. = 12. CP × C × T, Significance.PFP = ns. CP × C × T, Significance.Grain yield = ns\nns = not significant (P > 0.05). *, **, and *** indicate significance at the 0.05, 0.01, and 0.001 probability levels, respectively.\n- a SOV=source of variation, df=degrees of freedom.\n- b Cropping periods are kharif 2014, kharif 2015, rabi 2013-2014, and 2014-2015.\n- c Soil clay categories are: low clay=sand, loamy sand, sandy loam, loam, and silty loam texture; medium clay=clay loam, sandy clay loam, and silty clay loam texture; and high clay=sandy clay, silty clay, and clay texture.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 54,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 9,
+    "section": "(60-177 US$ ha -1 ) for all other ACZ."
+   }
+  },
+  {
+   "text": "(60-177 US$ ha -1 ) for all other ACZ.\nd Treatments are field-specific nutrient management provided by Rice Crop Manager (RCM), farmers' fertilizer practice (FFP), and blanket fertilizer recommendation (BFR).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 55,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 9,
+    "section": "(60-177 US$ ha -1 ) for all other ACZ."
+   }
+  },
+  {
+   "text": "(60-177 US$ ha -1 ) for all other ACZ.\n| - |\n| Table 7 Analysis of variance for effect of water regime and treatment in kharif on rates of N, P, and K fertilizer, partial factor productivity of added N (PFP), and measured rice grain yield in Odisha, India. |\n| Year (Y) b, df a. = 1. Year (Y) b, Significance.N rate = *. Year (Y) b, Significance.P rate = ns. Year (Y) b, Significance.K rate = ns. Year (Y) b, df. = 1. Year (Y) b, Significance.PFP = ***. Year (Y) b, Significance.Grain yield = *. Water (W) c, df a. = 1. Water (W) c, Significance.N rate = ns. Water (W) c, Significance.P rate = *. Water (W) c, Significance.K rate = *. Water (W) c, df. = 1. Water (W) c, Significance.PFP = ns. Water (W) c, Significance.Grain yield = ns. Treatment (T) d, df a. = 1. Treatment (T) d, Significance.N rate = ***. Treatment (T) d, Significance.P rate = ***. Treatment (T) d, Significance.K rate = ***. Treatment (T) d, df. = 2. Treatment (T) d, Significance.PFP = ***. Treatment (T) d, Significance.Grain yield = ***. Y×W, df a. = 1. Y×W, Significance.N rate = ns. Y×W, Significance.P rate = ns. Y×W, Significance.K rate = ns. Y×W, df. = 1. Y×W, Significance.PFP = ns. Y×W, Significance.Grain yield = ns. Y× T, df a. = 1. Y× T, Significance.N rate = ns. Y× T, Significance.P rate = ns. Y× T, Significance.K rate = ns. Y× T, df. = 2. Y× T, Significance.PFP = ns. Y× T, Significance.Grain yield = ns. W×T, df",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 56,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 9,
+    "section": "(60-177 US$ ha -1 ) for all other ACZ."
+   }
+  },
+  {
+   "text": "(60-177 US$ ha -1 ) for all other ACZ.\n| - |\n a. = 1. W×T, Significance.N rate = *. W×T, Significance.P rate = *. W×T, Significance.K rate = ns. W×T, df. = 2. W×T, Significance.PFP = ns. W×T, Significance.Grain yield = ns. Y×W× T, df a. = 1. Y×W× T, Significance.N rate = ns. Y×W× T, Significance.P rate = ns. Y×W× T, Significance.K rate = ns. Y×W× T, df. = 2. Y×W× T, Significance.PFP = ns. Y×W× T, Significance.Grain yield = ** |\n\nns = not significant (P > 0.05). * , ** , and *** indicate significance at the 0.05, 0.01, and 0.001 probability levels, respectively.\n- a SOV=source of variation, df=degrees of freedom.\n- b Years are 2014 and 2015.\n- c Water regimes are irrigated and rainfed.\nd Treatments are field-specific nutrient management provided by Rice Crop Manager (RCM) and farmers' fertilizer practice (FFP) for N, P, and K rates; and RCM, FFP, and blanket fertilizer recommendation (BFR) for PFP and grain yield.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 57,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 9,
+    "section": "(60-177 US$ ha -1 ) for all other ACZ."
+   }
+  },
+  {
+   "text": "3.4. Evaluation across soils, water regime, and rice varieties\nWe examined whether the performance of an RCM recommendation relative to FFP and BFR was affected by soil clay content. Each of the field trials was placed into one of three categories for soil clay content based on texture. The low clay category included soils with sand, loamy sand, sandy loam, loam, and silty loam texture; the medium clay category included soils with clay loam, sandy clay loam, and silty clay loam texture; and high clay category included sandy clay, silty clay, and clay texture. The number of trials in each category was: low clay=79, medium clay=65, and high clay=65. An ANOVA was conducted for grain yield and partial factor productivity of added N (PFP) across the three soil clay categories (C), three fertilizer treatments (T), and four cropping periods (CP; kharif 2014, kharif 2015, rabi 2013-2014, and 2014-2015) (Table 6).\nClay category had no effect on grain yield and PFP; and differences among RCM, FFP, and BFR in grain yield and PFP were not affected by clay category as indicated by no significant C×T and CP×C×T interactions (Table 6). Grain yield was significantly higher for RCM than FFP in all four cropping periods regardless of soil clay content. Grain yield was significantly higher for RCM than BFR in only kharif 2014 and rabi 2013-2014 regardless of soil clay content (data not shown).\nWe further examined whether the performance of an RCM recommendation relative to FFP and BFR was affected by water regime (irrigated or rainfed). This analysis was limited to kharif for 2014 and 2015 because all trials in rabi were irrigated. The number of trials was: irrigated=48 and rainfed=60. An ANOVA for the two water regimes (W) across the two years (Y) and fertilizer treatments (T) revealed a significant Y×W×T interaction for grain yield across the three fertilizer treatments (RCM, FFP, and BFR) and a significant W×T interaction for fertilizer N and P rates across the two fertilizer treat",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 58,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 9,
+    "section": "3.4. Evaluation across soils, water regime, and rice varieties",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "ments (RCM and FFP) with variable rates of fertilizer (Table 7).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 58,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 9,
+    "section": "3.4. Evaluation across soils, water regime, and rice varieties",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "3.4. Evaluation across soils, water regime, and rice varieties\nRCM was equally effective across irrigated and rainfed trials in increasing yield relative to FFP. Grain yield was consistently higher with RCM than FFP (0.6-0.9Mg ha -1 ) in both irrigated and rainfed conditions across the two years (Table 8). This resulted in relatively high added net benefits (95-172 US$ ha -1 ) with use of RCM rather than FFP across water regimes and years.\nFertilizer N and P rates with RCM were unaffected by water regime (Table 8). This indicates RCM target yield was comparable for irrigated and rainfed trials because RCM fertilizer rates are directly related to target yield. Fertilizer P rates were lower with RCM than FFP for irrigated but not rainfed trials because fertilizer P with FFP tended to be lower for rainfed than irrigated trials (Table 8). Higher yield with RCM than FFP across water regimes might be associated with higher rates of N, improved split application of fertilizer N during the growing season, Analysis of variance for effect of duration of rice varieties and treatment in kharif and rabi on partial factor productivity of added N (PFP) and measured ns = not significant (P > 0.05). * , ** , and *** indicate significance at the 0.05, 0.01, and 0.001 probability levels, respectively.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 59,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 9,
+    "section": "3.4. Evaluation across soils, water regime, and rice varieties"
+   }
+  },
+  {
+   "text": "3.4. Evaluation across soils, water regime, and rice varieties\n| - |\n| Table 8 Influence of water regime in kharif on rate of N and P fertilizer, rice grain yield, and added net benefit (ANB) for field-specific nutrient management provided by Rice Crop Manager (RCM), farmers' fertilizer practice (FFP), and blanket fertilizer recommendation (BFR) in Odisha, India. |\n| Trials (n), Year. = 2014. Trials (n), Treatment or contrast. = . Trials (n), Water regime.Irrigated = 31. Trials (n), Water regime.Rainfed = 53. , Year. = 2015. , Treatment or contrast. = . , Water regime.Irrigated = 17. , Water regime.Rainfed = 7. N rate (kg ha -1 ) a, Year. = . N rate (kg ha -1 ) a, Treatment or contrast. = RCM. N rate (kg ha -1 ) a, Water regime.Irrigated = 104. N rate (kg ha -1 ) a, Water regime.Rainfed = 107. , Year. = . , Treatment or contrast. = FFP. , Water regime.Irrigated = 80. , Water regime.Rainfed = 70. , Year. = . , Treatment or contrast. = RCM-FFP b. , Water regime.Irrigated = 24 ***. , Water regime.Rainfed = 37 ***. P rate (kg ha -1 ) a, Year. = . P rate (kg ha -1 ) a, Treatment or contrast. = RCM. P rate (kg ha -1 ) a, Water regime.Irrigated = 13. P rate (kg ha -1 ) a, Water regime.Rainfed = 13. , Year. = . , Treatment or contrast. = FFP. , Water regime.Irrigated = 22. , Water regime.Rainfed = 16. , Year. = . , Treatment or contrast. = RCM-FFP. , Water regime.Irrigated = -8 ***. , Water regime.Rainfed = -3 ns. Grain yield (Mg ha -1 ), Year. = 2014. Grain yield (Mg ha -1 ), Treatment or contrast. = RCM. Grain yield (Mg ha -1 ), Water regime.Irrigated =",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 60,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 10,
+    "section": "3.4. Evaluation across soils, water regime, and rice varieties"
+   }
+  },
+  {
+   "text": "3.4. Evaluation across soils, water regime, and rice varieties\n| - |\n 5.6. Grain yield (Mg ha -1 ), Water regime.Rainfed = 5.5. , Year. = . , Treatment or contrast. = FFP. , Water regime.Irrigated = 5.1. , Water regime.Rainfed = 4.5. , Year. = . , Treatment or contrast. = BFR. , Water regime.Irrigated = 5.2. , Water regime.Rainfed = 5.3. , Year. = . , Treatment or contrast. = RCM-FFP. , Water regime.Irrigated = 0.6 ***. , Water regime.Rainfed = 0.9 ***. , Year. = . , Treatment or contrast. = RCM-BFR c. , Water regime.Irrigated = 0.4 ***. , Water regime.Rainfed = 0.2 **. , Year. = . , Treatment or contrast. = BFR-FFP d. , Water regime.Irrigated = 0.1 ns. , Water regime.Rainfed = 0.7 ***. , Year. = 2015. , Treatment or contrast. = RCM. , Water regime.Irrigated = 4.8. , Water regime.Rainfed = 4.9. , Year. = . , Treatment or contrast. = FFP. , Water regime.Irrigated = 4.2. , Water regime.Rainfed = 4.3. , Year. = . , Treatment or contrast. = BFR. , Water regime.Irrigated = 4.6. , Water regime.Rainfed = 4.4. , Year. = . , Treatment or contrast. = RCM-FFP. , Water regime.Irrigated = 0.6 ***. , Water regime.Rainfed = 0.6 *. , Year. = . , Treatment or contrast. = RCM-BFR. , Water regime.Irrigated = 0.2 ns. , Water regime.Rainfed = 0.5 ns. , Year. = . , Treatment or contrast. = BFR-FFP. , Water regime.Irrigated = 0.4 **. , Water regime.Rainfed = 0.1 ns. ANB (US$ ha -1 ), Year. = 2014. ANB (US$",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 61,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 10,
+    "section": "3.4. Evaluation across soils, water regime, and rice varieties"
+   }
+  },
+  {
+   "text": "3.4. Evaluation across soils, water regime, and rice varieties\n| - |\n ha -1 ), Treatment or contrast. = RCM-FFP. ANB (US$ ha -1 ), Water regime.Irrigated = 112. ANB (US$ ha -1 ), Water regime.Rainfed = 172. , Year. = . , Treatment or contrast. = RCM-BFR. , Water regime.Irrigated = 91. , Water regime.Rainfed = 50. , Year. = . , Treatment or contrast. = Diff e. , Water regime.Irrigated = 21 ns. , Water regime.Rainfed = 122 ***. , Year. = 2015. , Treatment or contrast. = RCM-FFP. , Water regime.Irrigated = 143. , Water regime.Rainfed = 95. , Year. = . , Treatment or contrast. = RCM-BFR. , Water regime.Irrigated = 39. , Water regime.Rainfed = 90. , Year. = . , Treatment or contrast. = Diff. , Water regime.Irrigated = 104 ***. , Water regime.Rainfed = 5 ns |\n| ns = not significant (P > 0.05). * , ** , and *** indicate significance at the 0.05, 0.01, and 0.001 probability levels, respectively. |\n| a Fertilizer applied with BFR: N=80 kg ha -1 , P =17 kg ha -1 , and K =33 kg ha -1 . |\n| b RCM-FFP=Difference between RCM and FFP. |\n| c RCM-BFR=Difference between RCM and BFR. |\n| d BFR-FFP=Difference between BFR and FFP. |\n| e Diff=Difference between RCM-FFP and RCM-BFR. |\n\n\nTable 9",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 62,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 10,
+    "section": "3.4. Evaluation across soils, water regime, and rice varieties"
+   }
+  },
+  {
+   "text": "3.4. Evaluation across soils, water regime, and rice varieties\n| - |\n| rice grain yield in Odisha, India. |\n| Year (Y) b, df a.. = 1. Year (Y) b, Significance.Kharif.PFP = ***. Year (Y) b, Significance.Kharif.Grain yield = *. Year (Y) b, Significance.Rabi.PFP = *. Year (Y) b, Significance.Rabi.Grain yield = ***. Variety (V) c, df a.. = 1. Variety (V) c, Significance.Kharif.PFP = ns. Variety (V) c, Significance.Kharif.Grain yield = ns. Variety (V) c, Significance.Rabi.PFP = ns. Variety (V) c, Significance.Rabi.Grain yield = ns. Treatment (T) d, df a.. = 2. Treatment (T) d, Significance.Kharif.PFP = ***. Treatment (T) d, Significance.Kharif.Grain yield = ***. Treatment (T) d, Significance.Rabi.PFP = **. Treatment (T) d, Significance.Rabi.Grain yield = ***. Y×V, df a.. = 1. Y×V, Significance.Kharif.PFP = *. Y×V, Significance.Kharif.Grain yield = *. Y×V, Significance.Rabi.PFP = ns. Y×V, Significance.Rabi.Grain yield = ns. Y× T, df a.. = 2. Y× T, Significance.Kharif.PFP = *. Y× T, Significance.Kharif.Grain yield = ns. Y× T, Significance.Rabi.PFP = ns. Y× T, Significance.Rabi.Grain yield = ***. V× T, df a.. = 2. V× T, Significance.Kharif.PFP = ns. V× T, Significance.Kharif.Grain yield = ns. V× T, Significance.Rabi.PFP = ns. V× T, Significance.Rabi.Grain yield = ns. Y×V× T, df a.. = 2. Y×V× T,",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 63,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 10,
+    "section": "3.4. Evaluation across soils, water regime, and rice varieties"
+   }
+  },
+  {
+   "text": "3.4. Evaluation across soils, water regime, and rice varieties\n| - |\n Significance.Kharif.PFP = ns. Y×V× T, Significance.Kharif.Grain yield = ns. Y×V× T, Significance.Rabi.PFP = ns. Y×V× T, Significance.Rabi.Grain yield = ns |\n\na SOV=source of variation, df=degrees of freedom.\nb Years for kharif are 2014 and 2015, and years for rabi are 2013-2014 and 2014-2015.\nc Varieties are medium and long growth duration in kharif and short and medium growth duration in rabi.\nd Treatments are field-specific nutrient management provided by Rice Crop Manager (RCM), farmers' fertilizer practice (FFP), and blanket fertilizer recommendation (BFR).\nand application of zinc with RCM. It was not associated with P or K rates because they were not higher for RCM than FFP.\nThe performance of RCM relative to BFR was not consistent for the two years. Grain yield was higher with RCM than BFR for both irrigated and rainfed conditions in 2014 but not in 2015 when a much lower number of trials were conducted (Table 8). Added net benefits were positive for use of RCM rather than BFR (39-91 US$ ha -1 ), but added net benefits for RCM relative to BFR were never higher than added net benefits for RCM relative to FFP.\nThe performance of BFR relative to FFP across water regime was inconsistent. Grain yield was higher for BFR than FFP with rainfed trials but not irrigated trials in 2014 (Table 8). The trend was reversed in 2015 when grain yield was higher for BFR than FFP with irrigated trials but not rainfed trials.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 64,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 10,
+    "section": "3.4. Evaluation across soils, water regime, and rice varieties"
+   }
+  },
+  {
+   "text": "3.4. Evaluation across soils, water regime, and rice varieties\nWe also examined whether the performance of an RCM recommendation relative to FFP and BFR was affected by the growth duration of rice variety. Each of the field trials was placed into a category based on growth duration of the rice variety from germination to maturity. The categories were: short defined as ≤120 days, medium defined as 121-140 days, and long defined as>140 days. Medium duration varieties are common in kharif and rabi, whereas long duration varieties are common in kharif but not rabi and short duration varieties are common in rabi but rare in kharif. The number of trials in kharif was: medium duration=45 and long duration=54. The number of trials in rabi was: short duration=32 and medium duration = 41.\nSeparate ANOVA for kharif and rabi with two categories for growth duration (V) across two years (Y) and the three fertilizer treatments (T) revealed no effect of variety duration category on grain yield or partial factor productivity of added N (Table 9). Differences among RCM, FFP, and BFR in grain yield and partial factor productivity were not affected by variety duration category as indicated by no significant V×T and Y×V×T interactions (Table 9). Grain yield was significantly higher for RCM than FFP and for RCM than BFR in kharif and rabi regardless of variety duration category (data not shown).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 65,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 10,
+    "section": "3.4. Evaluation across soils, water regime, and rice varieties"
+   }
+  },
+  {
+   "text": "4.1. Performance of RCM\nHigher yield with an RCM recommendation than BFR and positive added net benefit with RCM relative to BFR (Table 2) were attributed to improved N management because zinc fertilizer rates were comparable for RCM and BFR and P and K rates were not higher for RCM than BFR. Much of the improvement in N management with RCM can be associated with the ability of RCM to adjust fertilizer N rate upward when N limited the achievement of higher yield. BFR used a constant fertilizer N rate of 80 kg ha -1 across all trials in both kharif and rabi. RCM estimated 80 kg N ha -1 to be sufficient for a target yield of 4 Mg ha -1 , which corresponded to a partial factor productivity of fertilizer N of 50 kg grain kg -1 N. RCM adjusted fertilizer N rates upward or downward based on a field-specific target yield, resulting in application between 54-143 kg N ha -1 (Supplement Table 4) and the targeting of a partial factor productivity approximating 50 kg grain kg -1 N across the range of 3.0-6.5Mg ha -1 .\nThe partial factor productivity of fertilizer N for RCM in our study (46-54 kg grain kg -1 N) (Table 2) generally achieved a targeted 50 kg grain kg -1 N. It was comparable to the mean of 52 kg grain kg -1 N reported for SSNM across 179 on-farm trials with irrigated rice in six Asian countries (Dobermann et al., 2002) and higher than the 30-44 kg grain kg -1 N reported with NMR in Tamil Nadu (Sharma et al., 2019). The partial factor productivity in our study suggested fertilizer N rates with RCM were not excessive, whereas the relatively higher partial factor productivity with BFR (56-65 kg grain kg -1 N) might represent a risk that fertilizer N with BFR was at least occasionally insufficient to eliminate N as the main limiting factor.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 66,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 11,
+    "section": "4.1. Performance of RCM"
+   }
+  },
+  {
+   "text": "4.1. Performance of RCM\nHigher yield with RCM than BFR as well as FFP could be partially associated with improved split application of fertilizer N to better match the demand of the rice crop for supplemental N. The farmers in our study, as reported earlier for other rice farmers across Asia (Dobermann et al., 2002; Peng et al., 2006), applied a large proportion of the total fertilizer N at the early vegetative stage when the rice crop had limited capacity to utilize added N. RCM in contrast distributed fertilizer N more uniformly into the late vegetative stage and early reproductive stage (Fig. 3) to ensure adequate N at panicle initiation for increasing spikelets per panicle. Banayo et al. (2018a) reported a larger application of N at panicle initiation with RCM than FFP was a critical factor for higher rice yield with RCM. More fertilizer N with RCM and BFR than FFP at 21-35 DAT and>35 DAT (Fig. 3) suggested that improved split application of fertilizer N accounted for some of the higher yield with RCM and BFR than FFP. More N at>35 DAT with RCM than BFR might have accounted for some of the higher yield with RCM than BFR, but we cannot in our study separate the relative contributions of higher N rates and improved split application of fertilizer N to higher yield with RCM than BFR.\nRCM for Odisha had the capability, as described by Sharma et al. (2019) for NMR in Tamil Nadu, to adjust N applications to match with tillering and panicle initiation stages across rice varieties with a wide range in growth durations and ages of transplanted seedlings. Consistently higher yield with RCM than BFR and FFP across rice varieties with different growth duration (Table 9) provided confidence in the ability of RCM to effectively adjust the split application and timing of fertilizer N to match critical growth stages of rice.\nYields for irrigated and rainfed rice were comparable with RCM (Table 8) suggesting that water deficit or excess at rainfed sites had negligible effect on",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 67,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 11,
+    "section": "4.1. Performance of RCM",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "yield. Higher yields with RCM than BFR and FFP",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 67,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 11,
+    "section": "4.1. Performance of RCM",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "4.1. Performance of RCM\nacross irrigated and rainfed rice (Tables 7 and 8) provided encouragement for use of RCM across irrigated and rainfed rice with limited or no water stress. Our study, however, has not thoroughly assessed the capability of RCM to adjust target yield and fertilizer use for rainfed rice with risk of yield reduction due to water deficit stress.\nA noteworthy feature of rice production in Odisha was the wide range in rice yields. Farmers in our study reported previous yields (GYR) between 1.7-6.3 Mg ha -1 , and they achieved yields between 2.8-7.9 Mg ha -1 with farmers' practice (FFP) across two seasons for two years. BFR with a uniform fertilizer application failed in 18% of the trials to achieve>4.0Mg ha -1 suggesting that factors other than nutrients such as farmers' farming practices, weather, water supply, and yield potential of the rice variety sometimes limited yield. On the other hand, yield as high as 8.0Mg ha -1 was achieved with BFR indicating that uniform nutrient management could sometimes achieve high yield when other factors including native soil fertility were not limiting.\nThe ability of RCM, unlike BFR, to adjust fertilizer use and costs with a target yield based on field-specific rice-farming practices and conditions likely contributed to the reduced risk of financial loss with a switch from FFP to RCM rather than BFR (Fig. 2). Sharma et al. (2019) similarly observed reduced risk of financial loss with a switch from FFP to field-specific nutrient management rather than to a uniform fertilizer application with irrigated rice in Tamil Nadu. Reduced risk of financial loss might be an attribute of RCM that can help convince risk-averse farmers to change existing fertilizer practices.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 68,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 11,
+    "section": "4.1. Performance of RCM"
+   }
+  },
+  {
+   "text": "4.1. Performance of RCM\nZinc can be an important limiting nutrient for rice because the submergence of non-calcareous soil in rice production tends to reduce the availability of zinc (Dobermann and Fairhurst, 2000). Chemical extractants have been used to determine available soil zinc, but their reliability in identifying zinc deficiency has been questioned because factors unrelated to the chemical extraction, such as soil drainage and rice variety also influence the occurrence of zinc deficiency (Neue et al., 1998; Impa and Johnson-Beebout, 2012). The SSNM developed for rice by Dobermann et al. (2004b) was limited to N, P, and K; and RCM for Odisha did not include the capability to adjust zinc use across rice fields. The RCM recommendations in our study used a uniform application of zinc sulfate at all locations in each season and year. This eliminated zinc as a factor affecting the difference in performance between RCM and BFR, but zinc sulfate represented a large proportion (32%) of the total fertilizer cost with RCM (Table 3). The higher cost for zinc sulfate than urea with RCM (Table 3) highlighted the need to reduce cost for zinc fertilization by incorporating into RCM a capability to adjust use of zinc fertilizer for location-specific factors such as water regime, rice variety, and growing season (kharif and rabi) as well as soil to ensure use of zinc fertilizer where zinc deficiency is likely to occur.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 69,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 11,
+    "section": "4.1. Performance of RCM"
+   }
+  },
+  {
+   "text": "4.2. Lessons for improvement of RCM\nNutrient Manager for Rice (NMR), which preceded RCM, used algorithms adapted from principles of SSNM together with information on a farmers' rice-farming practices to calculate rates and application times for fertilizer N, P, and K (Sharma et al., 2019). RCM expanded NMR by providing a web-based platform for integrating the calculation of nutrient management with an automated selection of improved crop management practices for a farmer. Our study was limited to an evaluation of only the nutrient management component of RCM adapted for rice-farming practices, rice varieties, and rice-growing conditions in Odisha, India.\nThe adaptation of the SSNM-based nutrient management component of RCM for a rice-growing region, such as Odisha, includes the calibration of the calculation of fertilizer rates using results from NOPT trials (Dobermann et al., 2003; Buresh et al., 2019). When the development of RCM for Odisha started in 2013, results from NOPT trials conducted in Odisha were not available. Experiences with SSNM and results for NOPT trials from outside Odisha were consequently used to develop the initial version of calculations for fertilizer N, P, and K rates, which was evaluated in this study. Our study can therefore provide valuable insights and lessons into fast tracking the development and evaluation of an initial version of RCM before results from NOPT trials are available for the rice-growing region or domain dealt with by RCM.\nHigher yield with RCM than BFR, attributed to improved N management, suggested the split application of fertilizer N to match critical growth stages and the calculation of N rates using an SSNM-based, yield-gain approach targeting a realistically achievable PFP could be an appropriate starting point with RCM before additional data are available for calibrating the calculation of N rate. The use of information on estimated duration of a rice variety and expected age of transplanted rice seedlings to matc",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 70,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 11,
+    "section": "4.2. Lessons for improvement of RCM",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "h N application with critical growth stages, as used in RCM for Odisha and described in more detail by Sharma et al. (2019), provides a guideline that can be used elsewhere.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 70,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 11,
+    "section": "4.2. Lessons for improvement of RCM",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "4.2. Lessons for improvement of RCM\nThe setting of a target yield, which increases net income and can be achieved with little risk of failure by farmers, is vital to the effectiveness of field-specific N management because calculated N rate is directly related to target yield. RCM was able to match or exceed target yield in our study (Table 2) suggesting that our approach of setting target yield slightly higher than historical yield reported by farmers while adjusting target yield downward for late transplanting can be an effective starting point for an initial version of RCM. Future research and subsequent upgrades of RCM can fine tune the setting of target yield through use of factors such as socioeconomic characteristics of a farmer, management skills and practices of the farmer, historical climate, forecasted weather, and yield potential of the rice variety.\nRCM for Odisha used a nutrient input-output balance to calculate P rate because research by Sharma et al. (2019) indicated this could be effective for field-specific nutrient management. With this approach a field-specific P rate matches the estimated output of P with harvested grain and removed crop residue. It avoids risk of soil P depletion while often reducing P rates for existing recommendations and for farmers' practice as observed in our study (Table 2). It can risk insufficient application of P on P-fixing soils, but such soils are not common in lowland rice production.\nFertilizer K rates can be determined using either a nutrient inputoutput balance or a yield-gain approach (Buresh et al., 2010, 2019). Differences exist among decision tools in the approach used. RCM for Odisha used a yield-gain approach, but NMR for Tamil Nadu used a nutrient-balance approach (Sharma et al., 2019) and RCM for the Philippines used a combined yield-gain+nutrient-balance approach (Buresh et al., 2019). When crop residues are removed, a yield-gain approach often recommends lower rates of fertilizer K than a nutrientbalan",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 71,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 12,
+    "section": "4.2. Lessons for improvement of RCM",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "ce approach, thereby favoring short-term financial gain at the risk of long-term depletion of soil K (Buresh et al., 2010).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 71,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 12,
+    "section": "4.2. Lessons for improvement of RCM",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "4.2. Lessons for improvement of RCM\nLow rice yield with RCM relative to BFR in the north central plateau zone (Table 4), and particularly in Mayurbhanj District in rabi (Fig. 4), suggested that RCM failed to overcome P and/or K deficiencies. Research and NOPT trial data are needed to appropriately adjust fertilizer P and/or K rates in this rice-growing area. One option is a domainspecific adjustment in which fertilizer rates across all fields within a geographical area and season, as determined by the domain, are uniformly adjusted for a target yield. Another option is a field-specific adjustment in which fertilizer rates are adjusted only for fields with specific characteristics shown to be associated with the need for additional nutrient and identifiable by farmers during the interview with RCM. The absence of an effect of soil clay content on effectiveness of RCM relative to BFR and FFP (Table 6) suggested soil texture was probably not an effective indictor of soils requiring additional P or K than calculated by RCM.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 72,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 12,
+    "section": "4.2. Lessons for improvement of RCM"
+   }
+  },
+  {
+   "text": "5. Conclusions\nField-specific nutrient management as calculated by RCM for Odisha uses principles and algorithms adapted from SSNM to provide rice farmers with an alternative to the uniform application of nutrients.\nField-specific nutrient management was developed on the premise that spatially variable factors in addition to soils-such as rice variety, water regime, crop sequence, crop management practices, date of rice establishment, age of rice seedlings at transplanting, and socioeconomic status of farmers-can influence optimal fertilization. The 209 farmers in our study reported previous yields between 1.7-6.3Mg ha -1 , and they achieved yields between 2.8-7.9Mg ha -1 with their farming practices.\nHigh variability in yields across small landholdings suggested that Odisha was well suited for field-specific nutrient management, which calculates fertilizer rates based on a target yield adjusted for historical yield reported by farmers. Higher yields, positive net benefits, and less risk of financial loss with an RCM recommendation than BFR confirm the merits of a field-specific nutrient management. Our findings in Odisha could be relevant to other rice-growing areas with high spatial and temporal variability in factors affecting optimal fertilization.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 73,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 12,
+    "section": "5. Conclusions"
+   }
+  },
+  {
+   "text": "Acknowledgment\nWe acknowledge the Bill and Melinda Gates Foundation (BMGF) and the United States Agency for International Development (USAID) for funding this research through a project titled 'Cereal Systems Initiative for South Asia' (CSISA). We are grateful to OUAT, NRRI, CSISA project leader Dr. Andrew McDonald, research technicians, and the farmers for their contributions to the research. We acknowledge the help rendered by Pauline Chivenge, Jessica Rutkoski, and Alaine Gulles for statistical analysis. We thank P.J. Sinohin and Jerome Onoya from IRRI for development and maintenance of RCM software and Jo Anne Holly Torres-Ilagan for preparation of the map.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 74,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 12,
+    "section": "Acknowledgment"
+   }
+  },
+  {
+   "text": "Appendix A. Supplementary data\nSupplementary data associated with this article can be found, in the online version, at https://doi.org/10.1016/j.fcr.2019.107578.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 75,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 12,
+    "section": "Appendix A. Supplementary data"
+   }
+  },
+  {
+   "text": "References\n- Banayo, N.P.M.C., Bueno, C.S., Haefele, S.M., Desamero, N.V., Kato, Y., 2018a. Sitespecific nutrient management enhances sink size, a major yield constraint in rainfed lowland rice. Field Crops Res. 224, 76-79. https://doi.org/10.1016/j.fcr.2018.05. 006.\n- Banayo, N.P.M.C., Haefele, S.M., Desamero, N.V., Kato, Y., 2018b. On-farm assessment of site-specific nutrient management for rainfed lowland rice in the Philippines. Field Crops Res. 220, 88-96. https://doi.org/10.1016/j.fcr.2017.09.011.\n- Bates, D., Mächler, M., Bolker, B.M., Walker, S.C., 2015. Fitting linear mixed-effects models using lme4. J. Statistical Software 67, 1-48. https://doi.org/10.18637/jss. v067.i01.\n- Buresh, R.J., 2015. Nutrient and fertilizer management in rice systems with varying supply of water. In: Drechsel, P., Heffer, P., Magen, H., Mikkelsen, R., Wichelns, D. (Eds.), Managing Water and Fertilizer for Sustainable Agricultural Intensification. International Fertilizer Industry Association (IFA), International Water Management Institute (IWMI), International Plant Nutrition Institute (IPNI), and International Potash Institute (IPI), pp. 187-208. http://www.iwmi.cgiar.org/Publications/Books/ PDF/managing_water_and_fertilizer_for_sustainable_agricultural_intensification.pdf.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 76,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 12,
+    "section": "References"
+   }
+  },
+  {
+   "text": "References\n- Buresh, R.J., Castillo, R., dela Torre, J.C., Laureles, E.V., Samson, M.I., Sinohin, P.J., Guerra, M., 2019. Site-specific nutrient management for rice in the Philippines: calculation of field-specific fertilizer requirements by Rice Crop Manager. Field Crops Res 239, 56-70. https://doi.org/10.1016/j.fcr.2019.05.013.\n- Buresh, R.J., Castillo, R., van den Berg, M., Gabinete, G., 2014. Nutrient Management Decision Tool for Small-Scale Rice and Maize Farmers. Technical Bulletin 190. Food and Fertilizer Technology Center, Taipei, Taiwan. http://www.fftc.agnet.org/ library.php?func=view&style=type&id=20140305111316.\n- Buresh, R.J., Pampolino, M.F., Witt, C., 2010. Field-specific potassium and phosphorus balances and fertilizer requirements for irrigated rice-based cropping systems. Plant Soil 335, 35-64. https://doi.org/10.1007/s11104-010-0441-z.\n- DAC (Department of Agriculture and Cooperation, Ministry of Agriculture, Government of India), 2015. Minimum Support Price. DAC Farmers' Portal. http://farmer.gov.in/ mspstatements.aspx.\n- DAFP (Directorate of Agriculture and Food Production), 2007. Manual on Agricultural Production Technology, Rabi 2007-08. https://agriodisha.nic.in/content/pdf/ Rabi2007_08.pdf.\n- DAFP (Directorate of Agriculture and Food Production), 2008. Manual on Agricultural Production Technology, Kharif 2008. http://documents.gov.in/OR/10046.pdf.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 77,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 12,
+    "section": "References"
+   }
+  },
+  {
+   "text": "References\n- Dar, M.H., Chakravorty, R., Waza, S.A., Sharma, M., Zaidi, N.W., Singh, A.N., Singh, U.S., Ismail, A.M., 2017. Transforming rice cultivation in flood prone coastal Odisha to ensure food and economic security. Food Sec. 9, 711-722. https://doi.org/10.1007/\n[s12571-017-0696-9.](https://doi.org/10.1007/s12571-017-0696-9)",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 78,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 12,
+    "section": "References"
+   }
+  },
+  {
+   "text": "References\n- Das, S.R., 2012. Rice in Odisha. IRRI Technical Bulletin No. 16. International Rice Research Institute (IRRI), Los Baños, Philippines. http://books.irri.org/ TechnicalBulletin16_content.pdf.\n- Dobermann, A., 2007. Nutrient use efficiency -- measurement and management. Fertilizer Best Management Practices: General Principles, Strategy for Their Adoption and Voluntary Initiatives Vs Regulations. International Fertilizer Industry Association, Paris, France, pp. 1-28. https://www.fertilizer.org/images/Library_ Downloads/2007_IFA_FBMP%20Workshop_Brussels.pdf.\n- Dobermann, A., Fairhurst, T., 2000. Rice: Nutrient Disorders and Nutrient Management. Potash & Phosphate Institute (PPI) and Potash & Phosphate Institute of Canada (PPIC), Singapore and International Rice Research Institute (IRRI), Los Baños, Philippines. http://books.irri.org/9810427425_content.pdf.\n- [Dobermann, A., Simbahan, G.C., Moya, P.F., Adviento, M.A.A., Tiongco, M., Witt, C., Dawe, D., 2004a. Methodology for socioeconomic and agronomic on-farm research in the RTDP project. In: Dobermann, A., Witt, C., Dawe, D. (Eds.), Increasing Productivity of Intensive Rice Systems Through Site-Specific Nutrient Management. Science Publishers, Enfield, NH (USA) and International Rice Research Institute, Los Baños, Philippines, pp. 11-27.](http://refhub.elsevier.com/S0378-4290%2819%2930193-5/sbref0075)",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 79,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 13,
+    "section": "References"
+   }
+  },
+  {
+   "text": "References\n- Dobermann, A., Witt, C., Abdulrachman, S., Gines, H.C., Nagarajan, R., Son, T.T., Tan, P.S., Wang, G.H., Chien, N.V., Thoa, V.T.K., Phung, C.V., Stalin, P., Muthukrishnan, P., Ravi, V., Babu, M., Simbahan, G.C., Adviento, M.A.A., 2003. Soil fertility and indigenous nutrient supply in irrigated rice domains of Asia. Agron. J. 95, 913-923. https://doi.org/10.2134/agronj2003.9130.\n- Dobermann, A., Witt, C., Dawe, D. (Eds.), 2004. Increasing the Productivity of Intensive Rice Systems Through Site-Specific Nutrient Management. Science Publishers Inc., Enfield, NH, USA and International Rice Research Institute (IRRI), Los Baños, Philippines. http://books.irri.org/9712201872_content.pdf.\n- Dobermann, A., Witt, C., Dawe, D., Abdulrachman, S., Gines, H.C., Nagarajan, R., Satawathananont, S., Son, T.T., Tan, P.S., Wang, G.H., Chien, N.V., Thoa, V.T.K., Phung, C.V., Stalin, P., Muthukrishnan, P., Ravi, V., Babu, M., Chatuporn, S., Sookthongsa, J., Sun, Q., Fu, R., Simbahan, G.C., Adviento, M.A.A., 2002. Site-specific nutrient management for intensive rice cropping systems in Asia. Field Crops Res. 74, 37-66. https://doi.org/10.1016/S0378-4290(01)00197-6.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 80,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 13,
+    "section": "References"
+   }
+  },
+  {
+   "text": "References\n- GRiSP (Global Rice Science Partnership), 2013. Rice Almanac, 4th edition. International Rice Research Institute, Los Baños, Philippines. http://irri.org/resources/ publications/books/rice-almanac-4th-edition.\n- Impa, S.M., Johnson-Beebout, S.E., 2012. Mitigating zinc deficiency and achieving high grain Zn in rice through integration of soil chemistry and plant physiology research. Plant Soil 361, 3-41. https://doi.org/10.1007/s11104-012-1315-3.\n- Janssen, B.H., Guiking, F.C.T., van der Eijk, D., Smaling, E.M.A., Wolf, J., van Reuler, H., 1990. A system for quantitative evaluation of the fertility of tropical soils (QUEFTS). Geoderma 46, 299-318. https://doi.org/10.1016/0016-7061(90)90021-Z.\n- Jha, A., Singh, K.M., Meena, M., Singh, R., 2012. Constraints of Rainfed Rice Production in Eastern India: an Overview. SSRN. https://ssrn.com/abstract=2061953.\n- Lenth, R., 2018. Emmeans: Estimated Marginal Means, Aka Least-squares Means. R\n- package version 1.1.3. https://CRAN.R-project.org/package=emmeans. Neue, H.U., Quijano, C., Senadhira, D., Setter, T., 1998. Strategies for dealing with micronutrient disorders and salinity in lowland rice systems. Field Crops Res. 56, 139-155. https://doi.org/10.1016/S0378-4290(97)00125-1.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 81,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 13,
+    "section": "References"
+   }
+  },
+  {
+   "text": "References\n- Peng, S., Buresh, R.J., Huang, J., Yang, J., Zou, Y., Zhong, X., Wang, G., Zhang, F., 2006. Strategies for overcoming low agronomic nitrogen use efficiency in irrigated rice systems in China. Field Crops Res. 96, 37-47. https://doi.org/10.1016/j.fcr.2005.05. 004.\n- Peng, S., Cassman, K.G., 1998. Upper threshholds of nitrogen uptake rates and associated nitrogen fertilizer efficiencies in irrigated rice. Agron. J. 90, 178-185. https://doi. org/10.2134/agronj1998.00021962009000020010x.\n- R Core Team, 2016. R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria. https://www.R-project.org.\n- Saito, K., Diack, S., Dieng, I., N'Diaye, M.K., 2015. On-farm testing of a nutrient management decision-support tool for rice in the Senegal River valley. Comput. Electron. Agric. 116, 36-44. https://doi.org/10.1016/j.compag.2015.06.008.\n- Sharma, S., Panneerselvam, P., Castillo, R., Manohar, S., Rajendren, R., Ravi, V., Buresh, R.J., 2019. Web-based tool for calculating field-specific nutrient management for rice in India. Nutr. Cycl. Agroecosyst. 113, 21-33. https://doi.org/10.1007/s10705-0189959-x.\n- Singh, V.P., Singh, R.K. (Eds.), 2000. Rainfed Rice: A Sourcebook of Best Practices and Strategies in Eastern India. International Rice Research Institute, Los Baños, Philippines. http://books.irri.org/8186789022_content.pdf.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 82,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 13,
+    "section": "References"
+   }
+  },
+  {
+   "text": "References\n- Witt, C., Buresh, R.J., Peng, S., Balasubramanian, V., Dobermann, A., 2007. Nutrient management. In: Fairhurst, T., Witt, C., Buresh, R., Dobermann, A. (Eds.), Rice: A Practical Guide to Nutrient Management. International Rice Research Institute (IRRI), Los Baños, Philippines and International Plant Nutrition Institute (IPNI) and International Potash Institute (IPI), Singapore, pp. 1-45. http://books.irri.org/ 97898179494_content.pdf.\n- [Witt, C., Dobermann, A., 2004. Toward a decision support system for site-specific nutrient management. In: Dobermann, A., Witt, C., Dawe, D. (Eds.), Increasing Productivity of Intensive Rice Systems Through Site-Specific Nutrient Management. Science Publishers, Enfield, NH (USA) and International Rice Research Institute, Los Baños, Philippines, pp. 358-395.](http://refhub.elsevier.com/S0378-4290%2819%2930193-5/sbref0160)",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 83,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 13,
+    "section": "References"
+   }
+  },
+  {
+   "text": "Web Reference\n- NRCS Soils,;1; (United States Department of Agriculture, Natural Resources Conservation Services Soils) Guide to texture by feelhttps://www.nrcs.usda.gov/wps/portal/nrcs/ detail/soils/edu/?cid=nrcs142p2_054311 2019\n- NRCS Soils, (United States Department of Agriculture, Natural Resources Conservation Services Soils) Guide to texture by feel https://www.nrcs.usda.gov/wps/portal/nrcs/ detail/soils/edu/?cid=nrcs142p2_054311, 2019.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 84,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Field-specific nutrient management using RCM.pdf",
+    "page": 13,
+    "section": "Web Reference"
+   }
+  }
+ ]
+}

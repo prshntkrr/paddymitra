@@ -1,0 +1,76 @@
+{
+ "source": "MTU-1153.pdf",
+ "sha256": "47fa843cd83015f20b797a4df363979630421510aea4b30f2308900e5928e658",
+ "ocr": false,
+ "table_mode": "clean_rendering",
+ "origin": "clean_rendering",
+ "built_at": "2026-10-31T23:49:30",
+ "chunk_count": 5,
+ "chunks": [
+  {
+   "text": "MTU 1153 (Chandra) (MTU 1010 / MTU 1081) - rice variety factsheet.\nProduct profile: MTU 1153, also known as Chandra, stands as a high-yielding, medium-maturing, long-bold, tall variety introduced in 2016 by RARS, Maruteru. Primarily intended for irrigated areas across states such as Punjab, Bihar, Madhya Pradesh, Chhattisgarh, Maharashtra, Tamil Nadu, Karnataka, and Kerala, it is highly recommended for medium fertility regions during the wet season and irrigated areas in the dry season. Besides its remarkable yield potential, Chandra offers distinct advantages including high HRR, non-lodging characteristics, low shattering, and tolerance to major diseases and insect pests.\nPriority market segment: TMeLS-R.\nPlanting method and ecosystem suitability (PTR = puddled transplanted rice, DSR = direct seeded rice): PTR: Recommended; DSR: Not Recommended; Irrigated Lowland: Recommended; Rainfed Lowland: Not Recommended; Upland: Not Recommended.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "source_file": "MTU-1153.pdf",
+    "variety": "MTU 1153 (Chandra)",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "MTU 1153 (Chandra) - key strengths, considerations and positioning.\nKey strengths: High yield potential; Long bold; high HRR; High fertilizer responsiveness; Tolerant to major diseases and insect pests; Non-lodging; low shattering (<2%).\nConsiderations: Dormancy for about 2 weeks.\nPositioning (variety replaced / companion, by ecosystem): Replace - Irrigated Lowland: MTU 1010; Rainfed Lowland: None; Upland: None. Companion - Irrigated Lowland: MTU 1156; Rainfed Lowland: None; Upland: None.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "source_file": "MTU-1153.pdf",
+    "variety": "MTU 1153 (Chandra)",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "MTU 1153 (Chandra) - grain yield, agronomic traits and grain shape (HRR = head rice recovery; grain shape SB = short bold, MS = medium slender, SM = short medium, LB = long bold, MB = medium bold).\nMTU 1153 -> Grain yield (kg/ha): 6500-7000; % Adv: 55; Maturity (days): 115-125; Plant height (cm): 105-110; Lodging: Tolerant; Shattering: Tolerant; 1000-grain wt (g): 24; HRR %: 73; Grain shape: LB.\nMTU 1010 -> Grain yield (kg/ha): 4000-4500; Maturity (days): 120-125; Plant height (cm): 105-108; Lodging: Tolerant; Shattering: Tolerant; 1000-grain wt (g): 25; HRR %: 58; Grain shape: MS.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "source_file": "MTU-1153.pdf",
+    "variety": "MTU 1153 (Chandra)",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "MTU 1153 (Chandra) - biotic and abiotic stress reaction (disease and pest tolerance; BPH = brown plant hopper, RTV = rice tungro virus).\nMTU 1153 -> Leaf blast: Tolerant; Leaf blight: Tolerant; Brown plant hopper: Tolerant; Brown spot: Tolerant; Sheath rot: Tolerant; Neck blast: Tolerant; False smut: Resistant.\nMTU 1010 -> Leaf blast: Tolerant; Leaf blight: Tolerant; Brown plant hopper: Susceptible; Brown spot: Tolerant; Sheath rot: Tolerant; Neck blast: Tolerant; False smut: Susceptible.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "source_file": "MTU-1153.pdf",
+    "variety": "MTU 1153 (Chandra)",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "MTU 1153 (Chandra) - producibility and recommendation.\nProducibility: MTU 1153 (Chandra) = 2800 Kgs./acre.\nRecommendation: For planting in irrigated areas in the states of Punjab, Bihar, Madhya Pradesh, Chhattisgarh, Maharashtra, Tamil Nadu, Karnataka and Kerala.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "source_file": "MTU-1153.pdf",
+    "variety": "MTU 1153 (Chandra)",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  }
+ ]
+}

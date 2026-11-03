@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block page_title %}Review queue{% endblock %}
+{% block content %}
+<div class="card fade-in">
+  <div class="card-header"><h3>Documents pending review ({{ documents|length }})</h3></div>
+  <table class="data-table">
+    <thead><tr><th>ID</th><th>Title</th><th>Uploaded by</th><th>Uploaded</th><th>Actions</th></tr></thead>
+    <tbody>
+      {% for d in documents %}
+      <tr>
+        <td>{{ d.doc_code }}</td>
+        <td><a href="{% url 'documents:detail' d.pk %}">{{ d.title }}</a></td>
+        <td>{{ d.uploaded_by.display_name|default:"—" }}</td>
+        <td>{{ d.uploaded_at|date:"d M Y, H:i" }}</td>
+        <td>
+          <form method="post" action="{% url 'documents:approve' d.pk %}" style="display:inline;">{% csrf_token %}<button class="btn btn-xs btn-success">Approve</button></form>
+          <form method="post" action="{% url 'documents:reject' d.pk %}" style="display:inline;">{% csrf_token %}<input type="text" name="notes" placeholder="Reason (optional)" style="padding:4px 6px;font-size:11px;width:140px;"><button class="btn btn-xs btn-danger">Reject</button></form>
+        </td>
+      </tr>
+      {% empty %}
+      <tr><td colspan="5" style="text-align:center;padding:30px;color:var(--gray-400);">Queue empty.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

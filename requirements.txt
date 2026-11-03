@@ -1,0 +1,26 @@
+Django==5.0.9
+mysqlclient==2.2.4
+PyMySQL==1.1.1
+python-decouple==3.8
+chromadb==0.5.5
+openai==2.41.0
+langchain-text-splitters==0.2.4
+pypdf==4.3.1
+python-docx>=1.1.0
+openpyxl>=3.1.0
+Pillow==10.4.0
+django-widget-tweaks==1.5.0
+requests==2.32.3
+Faker==28.4.1
+tqdm==4.66.5
+sentence-transformers>=2.5.0
+transformers>=4.41.0
+torchaudio>=2.2.0
+torch>=2.2.0
+google-genai==2.8.0
+numpy==1.26.4
+httpx==0.28.1
+
+# Sarvam AI: Indic speech-to-text and Odia text-to-speech
+sarvamai==0.1.28
+

@@ -1,0 +1,115 @@
+{
+ "source": "Pooja.pdf",
+ "sha256": "b660831a2a217311e99a23d09ea31167ff581eb88296ac85698014131084df19",
+ "ocr": false,
+ "table_mode": "fast",
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T18:17:57",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "Pooja\n(Vijaya x T141)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Pooja.pdf",
+    "page": 1,
+    "section": "Pooja"
+   }
+  },
+  {
+   "text": "Product Profile\nPooja is a high-yielding, late-maturing, semi-tall variety with long slender grains, extensively cultivated in Eastern India. Developed by NRRI, Cuttack, and released in 1999, it is highly adapted to lowland environments. Known for its good cooking quality, it exhibits tolerance to major diseases and insect pests, along with moderate HRR and good grain weight. Notably, it tolerates water stagnation up to 25 cm and is suitable for late transplanting with aged seedlings.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Pooja.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment - TLaM-R\nRecommended, Planting Method.DSR = Not Recommended. Recommended, Ecosystem.Irrigated Lowland = Not Recommended. Recommended, Ecosystem.Rainfed Lowland = Recommended. Recommended, Ecosystem.Upland = Not Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Pooja.pdf",
+    "page": 1,
+    "section": "Priority Market Segment - TLaM-R"
+   }
+  },
+  {
+   "text": "Positioning\nPosition, 1 = Irrigated Lowland. Position, 2 = Rainfed Lowland. Position, 3 = Upland. Replace, 1 = None. Replace, 2 = Swarna. Replace, 3 = None. Companion, 1 = None. Companion, 2 = Varsha. Companion, 3 = None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Pooja.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Key Strengths\n- High yield\n- Late maturity; Profuse tillering\n- Strong straw strength\n- Tolerant to lodging and shattering\n- MS grain with good cooking & eating quality\n- Photo sensitive variety",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Pooja.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nPooja, Grain yield (Kg/ha) = 5000-6000. Pooja, % Adv = -. Pooja, Maturity (days) = 150-155. Pooja, Plant height (cm) = 90-95. Pooja, Lodging = Susceptible. Pooja, HRR % = 54. Pooja, 1000 grain weight (g) = 20. Pooja, Grain Shape = MS. Swarna, Grain yield (Kg/ha) = 5500-6000. Swarna, % Adv = . Swarna, Maturity (days) = 140-145. Swarna, Plant height (cm) = 85-90. Swarna, Lodging = Susceptible. Swarna, HRR % = 69. Swarna, 1000 grain weight (g) = 16. Swarna, Grain Shape = SB",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Pooja.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nVariety, 1 = Leaf blast. Variety, 2 = Leaf blight. Variety, 3 = Sheath blight. Variety, 4 = BPH. Variety, 5 = Gall midge. Variety, 6 = Submergence. Pooja, 1 = Tolerant. Pooja, 2 = Tolerant. Pooja, 3 = Susceptible. Pooja, 4 = Susceptible. Pooja, 5 = Resistant. Pooja, 6 = Tolerant. Swarna, 1 = Susceptible. Swarna, 2 = Resistant. Swarna, 3 = Susceptible. Swarna, 4 = Susceptible. Swarna, 5 = Susceptible. Swarna, 6 = Susceptible\nProducibility: Pooja=2000-2400 Kgs. / acre\nRecommendation: Released for cultivation in Odisha, Andhra Pradesh, Madhya Pradesh, West Bengal. Zonal-III (E) check for varietal trials conducted by IIRR, India",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Pooja.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\n- Susceptible to brown spot, bakanae\n- Moderate HRR\n- Low grain weight",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "Pooja.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block page_title %}Delete group{% endblock %}
+{% block content %}
+<div class="card" style="max-width:520px;">
+  <div class="card-body">
+    <h3>Delete group «{{ group.prefix }}»?</h3>
+    <p>This will permanently remove {{ group.image_count }} image{{ group.image_count|pluralize }} and the visual description from catalogue <strong>{{ catalogue.name }}</strong>.</p>
+    <form method="post">{% csrf_token %}
+      <a href="{% url 'catalogues:detail' catalogue.slug %}#image-groups" class="btn btn-secondary">Cancel</a>
+      <button class="btn btn-danger">Delete group</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

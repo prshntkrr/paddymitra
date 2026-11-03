@@ -1,0 +1,82 @@
+{
+ "source": "potassium-deficiency-english.pdf",
+ "sha256": "c60720e8194a689a8e5a26cb3bb72861949d06c12fc610a7800babd9ce7cddc0",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:50:02",
+ "chunk_count": 6,
+ "chunks": [
+  {
+   "text": "What it does\nPotassium (K) deficiency affects canopy photosynthesis, thus affecting crop growth.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "potassium-deficiency-english.pdf",
+    "page": 1,
+    "section": "What it does"
+   }
+  },
+  {
+   "text": "Why and where it occurs\nK deficiency in rice is more common under the following crop management practices:\n- Excessive use of N or N and P fertilizers with insufficient K application\n- Direct seeded rice during early growth stages, when the plant population is large and root system is shallow\n- Cultivar differences in susceptibility to K deficiency and response to K fertilizer.\nSoils, which are particularly prone to K deficiency include: (1) soils inherently low in K, and (2) soils on which K uptake is inhibited.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "potassium-deficiency-english.pdf",
+    "page": 1,
+    "section": "Why and where it occurs"
+   }
+  },
+  {
+   "text": "How to identify\nCheck the plants for discoloration:\n- Dark green plants with yellowish brown leaf margins or dark brown necrotic spots appearing first on the tip of older leaves\n- Yellowish brown leaf tips, when under severe K deficiency\n- Older leaves change from yellow to brown\n- Yellow stripes may appear along leaf interveins and lower leaves may bend downward\nwww.rkbodisha.in\nPotassium deficiency symptoms\nClose-up of symptoms of potassium deficiency\nDiscoloration gradually appears on younger leaves if deficiency is not corrected.\nSymptoms appear first on older leaves, then along the leaf edge, and finally on the leaf base. Affected plants would also have short, droopy upper leaves that have a \"dirty\" dark green color. Leaf tips and margins may also dry up.\nThe general pattern of damage is patchy within the field, affecting single hills rather than the whole field.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "potassium-deficiency-english.pdf",
+    "page": 1,
+    "section": "How to identify"
+   }
+  },
+  {
+   "text": "Other signs and symptoms of K deficiency include:\n- Rusty brown spots on tips of older leaves that later spread over the whole leaf causing it to turn brown and dry if K deficiency is severe\n- Irregular necrotic spots may also occur on panicles\n- Stunted plants with smaller leaves, short and thin stems\n- Reduced tillering under very severe deficiency\n- Greater incidence of lodging\n- Early leaf senescence, leaf wilting, and leaf rolling when temperature is high and humidity is low\n- Large percentage of sterile or unfilled spikelets\n- Unhealthy root system (many black roots, reduced root length and density), causing a reduction in the uptake of other nutrients\n- Poor root oxidation power, causing decreased resistance to toxic substances produced under anaerobic soil conditions\n- Increased incidence of diseases, where inappropriate amounts of fertilizers are used",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "potassium-deficiency-english.pdf",
+    "page": 1,
+    "section": "Other signs and symptoms of K deficiency include:"
+   }
+  },
+  {
+   "text": "How to manage\n- Estimate K input from indigenous sources to assess site-specific K requirements.\n- Increase K uptake by improving soil management practices on root health (e.g., deep tillage to improve percolation to at least 3-5 mm/d and to avoid excessively reducing conditions in soil).\n- Establish an adequate population of healthy rice plants by using high-quality seed of a modern variety with multiple pest resistance, and optimum crop maintenance (water and pest management). Incorporate rice straw. If straw burning is the only option for crop residue management, spread the straw evenly over the field (e.g., as it is left after combine harvest) before burning. Ash from burnt straw heaps should also be spread over the field.\nIncreasing Productivity of Rice Based Cropping Systems and Farmers' Income in Odisha\nwww.rkbodisha.in\n- Apply optimum doses of N and P fertilizers and correct micronutrient deficiencies. Apply K fertilizers, farmyard manure, or other materials (rice husk, ash, night soil, compost) to replenish K\n(Leaf margins are yellowish-brown)",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "potassium-deficiency-english.pdf",
+    "page": 1,
+    "section": "How to manage"
+   }
+  },
+  {
+   "text": "Learn more\nVisit Rice Based Cropping Systems Knowledge Bank www.rkbodisha.in",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "potassium-deficiency-english.pdf",
+    "page": 2,
+    "section": "Learn more"
+   }
+  }
+ ]
+}

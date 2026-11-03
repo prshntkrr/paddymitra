@@ -1,0 +1,265 @@
+{
+ "source": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+ "sha256": "dfcfb636f94ec74a3fde9eb400c78676b58c3e776e7c36c18653629c8aeeaa36",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:19:15",
+ "chunk_count": 21,
+ "chunks": [
+  {
+   "text": "IC/IR/2002/14 INTERNAL REPORT (Limited Distribution)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 1
+   }
+  },
+  {
+   "text": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION\nA.R. Khan ]\nLand, Water, Environment and Engineering Research Programme, ICAR Research Complex for Eastern Region, Walmi Complex, P.O. - Phulwari Sharif, Patna- 801 505 (Bihar), India and\nThe Abdus Salam International Centre for Theoretical Physics, Trieste, Italy,",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 1,
+    "section": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION"
+   }
+  },
+  {
+   "text": "D. Chandra, P. Nanda\nLand, Water, Environment and Engineering Research Programme, ICAR Research Complex for Eastern Region, Walmi Complex, P.O. - Phulwari Sharif, Patna- 801 505 (Bihar), India and\nWater Technology Centre for Eastern Region (ICAR), Bhubaneswar - 751 023, India,\nS.S. Singh\nLand, Water, Environment and Engineering Research Programme, ICAR Research Complex for Eastern Region, Walmi Complex, P.O. - Phulwari Sharif, Patna- 801 505 (Bihar), India,",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 1,
+    "section": "D. Chandra, P. Nanda"
+   }
+  },
+  {
+   "text": "A.K. Ghorai\nLand, Water, Environment and Engineering Research Programme, ICAR Research Complex for Eastern Region, Walmi Complex, P.O. - Phulwari Sharif, Patna- 801 505 (Bihar), India and CRIJAF (ICAR), Barrackpore, West Bengal\nand",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 1,
+    "section": "A.K. Ghorai"
+   }
+  },
+  {
+   "text": "S.R. Singh 2\nLand, Water, Environment and Engineering Research Programme, ICAR Research Complex for Eastern Region, Walmi Complex, P.O. - Phulwari Sharif, Patna- 801 505 (Bihar), India.\n3 3 / 4 1\nMIRAMARE - TRIESTE\nJune 2002\n1 Regular Associate of the Abdus Salam ICTP.\n2 Vice Chancellor, Rajendra Gricultural University, Pusa, Samastipur, Bihar - 848 125, India.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 1,
+    "section": "S.R. Singh 2"
+   }
+  },
+  {
+   "text": "Abstract\nThe nutrient removed by the crops far exceeds the amounts replenished through fertilizer, causing a much greater strain on the native soil reserves. The situation is further aggravated in countries like India, where sub-optimal fertilizer used by the farmers is a common phenomenon rather than an exception. The total consumption of nutrients of all crops in India, even though reached 15 million tons in 1997, remains much below the estimated nutrient removal of 25 million tons (Swarup and Goneshamurthy, 1998). The gap between nutrient removal supplied through fertilizer has widened further in 2000 to 34 million tons of plant nutrients from the soil against an estimated fertilizer availability of 18 million tons (Singh and Dwivedi, 1996).\nNitrogen is the nutrient which limits the most the rice production worldwide. In Asia, where more than 90 percent of the world's rice is produced, about 60 percent of the N fertilizer consumed is used on rice (Stangel and De Dutta, 1985). Conjunctive use of organic material along with fertilizer has been proved an efficient source of nitrogen. Organic residue recycling is becoming an increasingly important aspect of environmentally sound sustainable agriculture. Returning residues like green manure to the soil is necessary for maintaining soil organic matter, which is important for favourable soil structure, soil water retention and soil microbial flora and fauna activities. Use of organic manures in conjunction or as an alternative to chemical fertilizer is receiving attention. Green manure, addition to some extent, helps not only in enhancing the yield but also in improving the physical and chemical nature of soils. The excessive application of chemical fertilizers made it imperative that a part of inorganic fertilizer may be substituted with the recycling of organic wastes. Organic manure has been recorded to enhance the efficiency and reduce the requirement of chemical fertilizers. Partial nitrogen substitution through or",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 2,
+    "section": "Abstract",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "ganic manure recorded significant superiority in yield over farmer's practice (Singh and Gangwar, 2000). For sustainability in crop production, it is neither chemical fertilizer nor organic manures alone but their integrated use has been observed to be highly beneficial (Khan et al., 2001). Hence to maintain the sustainable productivity of rice, a set of experiments were carried out to study the effect of organic and inorganic sources on the productivity of rice.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 2,
+    "section": "Abstract",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "Materials and methods\nExperiments were conducted in rainfed lowlands at Deras Research Farm of Water Technology Centre for Eastern Region, Mendhasal, (Puri) during wet (kharif) season of 1993, 1994, 1995, 1996 and 1997. The soil is acidic (pH 5.2) in the coastal belt of the Bay of Bengal. The experiment was laid out in a randomised block design. Treatments consisted of eight combinations with three replications. The ultimate plot size of the experiment was 12.3 x 10.3 m 2 . Rice cultivar CR-1009 (seed rate @ 100 kg per ha) alongwith leguminous green manure Sesbania aculeata were directly sown. Rice and Sesbania aculeata were sown as row intercropping systems. The Sesbania aculeata was turned down (burned) into the soil in wide inter-row space with a country plough to minimise injury to rice plants. This was done after eight weeks of sowing and the field was puddled and beushening was done. Row distance between rice and Sesbania aculeata was maintained at 20 cm. In treatment Ti, double seed rate per row was applied with respect to the normal sowing to have optimum plant population (which was expected to be reduced due to higher plant canopy of Sesbania aculeata, whereas in treatment T3 and other treatments like T2 etc., normal rice seed rate was applied). Beushening is a cross ploughing in standing water under lowland rice ecosystem when rice plants are approximately 45 days old without fertilizer and green manure treatment - which is a farmer's practice in this coastal region. Beushening process is completed in 4 steps, viz. Ploughing, planking and then weeding and gap filling or seedling redistribution (Chandra, 1999).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 3,
+    "section": "Materials and methods"
+   }
+  },
+  {
+   "text": "Materials and methods\nAnother set of field experiments was conducted to study the comparative effects of organic manure and inorganic fertilizer alone and in combination on rice during the kharif seasons of 1998 and 1999. This experiment was laid out in a split - plot design with three replications keeping two irrigation treatments (i.e. Wi.continuous submergence (5 ± 2 cm) and W2 - Intermittent Irrigation: Irrigation to a depth of 7 cm of water and re flooding after 2 days of disappearance of ponded waters) in main plots and 11 manurial treatments (four sources of organic & inorganic nitrogen alone and in combination) in sub plots. The long duration (155-160 days) semi-dwarf rice cultivar 'CR 1018' (Gayatri) was taken as test crop.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 3,
+    "section": "Materials and methods"
+   }
+  },
+  {
+   "text": "Results and discussion\nRice yields were increased due to the addition of green manure (Table 1). For the sake of brevity and similar trends, the average (mean) five years pooled data (1993-1997) are presented in all tables. It was observed that the higher rice yield were in the plots of rice and green manure with no nitrogen fertilizer and in the plots of rice without green manure with 50 kg/ha of nitrogen addition through fertilizer. It is very clear from the experiment (Table 1) that the chemical N-fertilizer can be totally replaced using green manure, as the yields are statistically at par as per treatment Ti and T2. However, rice and green manure (Ti) treatment has produced around 7 quintal higher yield in comparison to the treatment of rice without green manure and fertilizer (Ts) and around 3 quintal higher in comparison to beushening without fertiliser and green manure treatment (T6). The dry matter accumulation of Sesbania aculeata was recorded before beushening and presented in Table 2. Grain yield (Table 3) was higher in continuous submerged (5±2) treatments (Wi) in comparison to the intermittent irrigation treatment (W2). However, the treatments of inorganic fertilizer, where only urea was used as a source of nitrogen in split doses gave a better yield under intermittent irrigation (W2). Both the source of N i.e. organic or inorganic or their combination proved better than control (no nitrogen) Application of organic manure like Sesbania aculeata and Ipomoea carnea alone or in combination with urea was found superior than other treatments. Gliricidia maculata gave higher grain yield in comparison to control (no nitrogen).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 8,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 3,
+    "section": "Results and discussion"
+   }
+  },
+  {
+   "text": "Results and discussion\nSesbania aculeate is useful in reclaiming saline lands in the coastal region and is free from pest. It can withstand wet conditions and is more suited to lowland rice soil. It adapts to all conditions of soil and is resistant to drought and water logging. The drawback with the crop is that stems get woody within 10-12 weeks and difficulty arises in incorporating them into the soil. It also causes the shadow effect, as its growth is rapid in comparison to rice. To overcome this problem, the crop is incorporated in the soil within 6-8 weeks when it is tendered and succulent to get maximum response (Table 2). Being succulent it decomposes quickly under the flooded conditions of rice soils and makes N availability immediately after application. The leaf portion of Sesbania aculeata is rich in nitrogen when incorporated into the rice soil with an abundance of water, decomposes in about 4-5 days and behaves like a quick acting inorganic fertiliser in supplying available nitrogen immediately on application. The stem and other woody portions which are hard to decompose (because of wider C: N ratio), however, take time and respond as other slow-acting bulky organic manures like compost and farm yard manure, and making nitrogen available at later stages (Khan et al., 2001).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 9,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 4,
+    "section": "Results and discussion"
+   }
+  },
+  {
+   "text": "Results and discussion\nGliciridia maculata are a fence and decorative plants and also are used for leaf fodder and for furniture wood. The nutrient composition of fresh leaves of Gliciridia maculata is 0.84% P2O5, 2.13% K2O. The nitrogen percentage was 0.857 on fresh weight but 3.457 on dry weight basis (i.e. dry matter content ranged from 23 to 24 per cent). The C/N ratio was 8.8. The moisture percentage in leaves was 75.2. The plant is mostly free from diseases and plots treated by Gliciridia are mostly free from incidence of disease. Its residue had pronounced effects on succeeding crop. The available nitrogen content of the soil was 225 Kg/ha & 223 Kg/ha during pre-sowing and post harvested soil samples, respectively. The application of organic manure {Gliciridia maculata) alone or in combination with urea gave significantly higher yield in comparison to the fanners' conventional practice (Khan et al., 2001). The presence of alkaloid in Ipomoea carnea (0.3% nitrogen content on fresh weight basis) as slow nitrogen releasing material and preserve the native, applied and biologically fixed nitrogen. Application of green leaf of organic manures release more quantity of nitrogen in the submerged soil.\nIn general application of organic manure and fertilizer resulted higher rice yield due to improvement in soil properties, as organic manure is being rich in nutrients, especially nitrogen. Such favourable response to the yield might be attributed to the better availability of sufficient amount of plant nutrients through out the growth period and especially in critical growth period of crops that has resulted into better plant vigour and superior yield attributes. The humus compound formed in the soil as a result of the decomposition of green manure plant tissue also increases the absorptive capacity of the soil and promotes aeration, drainage and granulation essential for successful plant growth. It also increases water-holding capacity of the soil. These are the added",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 10,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 4,
+    "section": "Results and discussion",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "advantages of green manure apart from the addition of nitrogen requirements of crop. The application of green organic manure in the soil and their successive decomposition enables the rice plant to ensure an almost continuous supply of N distributed over the entire crop growth period.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 10,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 4,
+    "section": "Results and discussion",
+    "sub_chunk": 1
+   }
+  },
+  {
+   "text": "Conclusion\nUse of chemical fertilizers has become an important issue due to the concerns for sustainable soil productivity and ecological stability. Fertilizer consumption of the India is 95.33 kg/ha during 1999-2000 whereas it is 13 kg/ha in northeastern Himalayan region (as high as 44.4 kg/ha in Manipur and as low as 1.7 kg/ha in Arunachal Pradesh). The marginal farmers are more than 60 per cent of the farming community who are unable to use the inorganic fertilizer and hence the productivity of rice has been very poor (less than 1 ton/ha) in the region. Organic manures are reported to enhance the fertilizer efficiency and reduce the requirement of inorganic fertilizers. Traditional green manures (Sesbania aculeate), organic manures (FYM) and problematic weeds (Ipomoea Carnea & Gliricidia maculatd) may serve as alternative source of nutrients to the plants and may supplement and chemical fertilizers. Most of the green manure plants contain from 0.3 to 0.8 percent nitrogen (Khan et ah, 2000). Integrating fertilizer nitrogen with legume green manure as alternative source of nutrients can aid development of sustainable agricultural management system.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 11,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 5,
+    "section": "Conclusion"
+   }
+  },
+  {
+   "text": "Conclusion\nA series of experiments was conducted from 1993 to 1999 for integrated nutrient management by using the different sources of organic manures, green manures and chemical fertilizers and their combinations to study the effect on productivity of rice (cultivars CR1009 and CR-1018, 'Gayatri') under rainfed lowland and varying irrigation regimes. The experiment was conducted during wet (kharij) season at Water Technology Deras Research Farm, Mendhasal (Bhubaneswar). Green - manuring with Sesbania aculeata increased rice yield by 7 q/ha. An increase of 3 q/ha was observed in comparison to beushening (Beushening is a cross ploughing in standing water under lowland rice ecosystem when rice plants are approximately 45 days old) without fertilizer and green manure treatment - which is a farmer's practice in this coastal region. Grain yield was higher in continuous submerged (5 + 2 cm) treatments in comparison to intermittent irrigation (where irrigation was given to a depth of 7cm and was reflooded after 2 days of disappearance of ponded water) treatments. However, the treatments of inorganic fertilizer (urea) in split dose gave a better yield under intermittent irrigation. Both sources on nitrogen i.e. organic or inorganic or their combination proved better than control (no nitrogen). Application of organic manures like Sesbania aculeate & Ipomoea carnea or their combination with urea was found superior other green and organic manures. Gliricidia maculata gave higher grain yield in comparision to control (no nitrogen).",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 12,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 5,
+    "section": "Conclusion"
+   }
+  },
+  {
+   "text": "Acknowledgments\nThis work was done within the framework of the Associateship Scheme of the Abdus Salam International Centre for Theoretical Physics, Trieste, Italy.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 13,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 5,
+    "section": "Acknowledgments"
+   }
+  },
+  {
+   "text": "References\n- Chandra, Dinesh. (1999). : Beushening - a wonderful cultural operation of rainfed lowland rice in eastern India. Indian Farming. 49: 10-16.\n- Khan, A. R., Chandra, D., Nanda, P., Singh, S.S., Ghorai, A. K. and Singh, S. R. (2001). Sustainable rice production through nutrient management in coastal region of India. National seminar on water and land management including CAD for socio-economic upliftment of north eastern region. NERIWALM, Guwahati. November 22-23, 2001. pp. 70-73.\n- Khan, A. R., Sarkar, S., Nanda, P. and Chandra, D. (2001). Organic manuring through Gliricidia manculata for rice production. International Centre for Theoretical Physics (UNESCO &IAEA), Trieste, Italy. Int.. Rep. IC/IR/2001/10 : 1- 4.\n- Singh, G. B. and Dwivedi, B. S. (1996). Indian Farming. 46: 9-15.\n- Singh, P. and Gangwar, B. (2000). Nitrogen substitution through FYM in maize-wheat cropping sequence under irrigated conditions. Proc. of International Conference on managing natural resources for sustainable agricultural production in the 21 st century, New Delhi. Vol. 3 : 881-882.\n- Stangel, P. J. and De Dutta, S. K. (1985). Availability of inorganic fertilizers and their management - a focus on Asia. IRRI conference, 1-5 June 1985. IRRI, Manila, Phillipines.\n- Swarup, A. and Goneshamurthy, A.H. (1998). Fertilizer News. 43: 37-40.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 14,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 6,
+    "section": "References"
+   }
+  },
+  {
+   "text": "References\nTable 1. Yields of rice (CR-1009) as influenced by different conventional practices (Mean of 5 years, 1993-1997).\n\nTi, Treatments details = Rice (double seed rate) + Green Manuring 0:30:30 kg/ha (N:P2O5:K2O). Ti, Yield (t/ha) = 3.71. T2, Treatments details = Rice + No Green Manuring 50:30:30 kg/ha (N:P2O5:K2O). T2, Yield (t/ha) = 3.75. T3, Treatments details = Rice (normal seed rate) + Green Manuring 0:30:30 Kg/ha (N:P2O5:K2O). T3, Yield (t/ha) = 3.61. T4, Treatments details = Beushening + No Green Manuring 50:30:30 Kg/ha (N:P2O5:K2O). T4, Yield (t/ha) = 3.37. T5, Treatments details = Beushening + No Green Manuring 0:30:30 kg/ha (N:P2O5:K2O). T5, Yield (t/ha) = 3.64. T6, Treatments details = Beushening + No Green Manuring 0:0:0 Kg/ha (N:P2O5:K2O). T6, Yield (t/ha) = 3.42. T7, Treatments details = Beushening + Intermixed Green Manuring 0:30:30 kg/ha (N:P2O5:K2O). T7, Yield (t/ha) = 3.58. T8, Treatments details = Rice + No Green Manuring 0:0:0 kfttoa (N:P2O5:K2O). T8, Yield (t/ha) = 3.04. LSD 0.05, Treatments details = -. LSD 0.05, Yield (t/ha) = 0.31",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 15,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 7,
+    "section": "References"
+   }
+  },
+  {
+   "text": "References\nTable 2. Dry matter accumulation and total nitrogen addition by Sesbania aculeata at beushening (Mean of 5 years, 1993-1997).\n\nTi . Rice (double seed rate) + Green Manuring 0:30:30 kg/ha (N:P2O5:K2O), Dry matter accumulation of Sesbania aculeate 41 Days after sowing = 5703. Ti . Rice (double seed rate) + Green Manuring 0:30:30 kg/ha (N:P2O5:K2O), Total Nitrogen added (Kg/ha) 41 Days after sowing = 152.38. T3 _ Rice (normal seed rate) + Green Manuring 0:30:30 Kg/ha (N:P2O5:K2O), Dry matter accumulation of Sesbania aculeate 41 Days after sowing = 8300. T3 _ Rice (normal seed rate) + Green Manuring 0:30:30 Kg/ha (N:P2O5:K2O), Total Nitrogen added (Kg/ha) 41 Days after sowing = 221.77. T7 - Beushening + Intermixed Green Manuring 0:30:30 kg/ha (N:P2O5:K2O), Dry matter accumulation of Sesbania aculeate 41 Days after sowing = 5267. T7 - Beushening + Intermixed Green Manuring 0:30:30 kg/ha (N:P2O5:K2O), Total Nitrogen added (Kg/ha) 41 Days after sowing = 140.73",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 16,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 7,
+    "section": "References"
+   }
+  },
+  {
+   "text": "References\n| - |\n| Table 3. Effects of manurial treatments on grain of rice (eultivar CR-1018) under varying water regimes (Mean of 2 years, 1998-1999). |\n| Water Management, Treatment details = Water Management. Water Management, Grain Yield, t/ha = Water Management. Wl, Treatment details = Continuous submergence (5 ± 2 cm). Wl, Grain Yield, t/ha = 3.52. W2, Treatment details = Intermittent Irrigation (7cm) & re flooding after 2 days of disappearance. W2, Grain Yield, t/ha = 3.22. L.S.D.=0.05, Treatment details = -. L.S.D.=0.05, Grain Yield, t/ha = NS. Manurial Treatments, Treatment details = Manurial Treatments. Manurial Treatments, Grain Yield, t/ha = Manurial Treatments. Tl, Treatment details = Control. Tl, Grain Yield, t/ha = 3.13. T2, Treatment details = 80 Kg N/ha through FYM. T2, Grain Yield, t/ha = 3.34. T3, Treatment details = 80 Kg N/ha through Sesbania aculeate. T3, Grain Yield, t/ha = 3.35. T4, Treatment details = 80 Kg N/ha through Ipomoea cornea. T4, Grain Yield, t/ha = 4.12. T5, Treatment details = 80 Kg N/ha through Urea (40:20:20 - basal, tillering & P.I. stages, respectively). T5, Grain Yield, t/ha = 4.86. T6, Treatment details = 40 Kg N/ha through FYM + 40 Kg N/ha through Urea. T6, Grain Yield, t/ha = 3.39. T7, Treatment details = 40 Kg N/ha through FYM + 40 Kg N/ha through Urea. T7, Grain Yield, t/ha = 4.28. T8, Treatment details = 40 Kg N/ha through Ipomoea + 40 Kg N/ha through Urea. T8, Grain Yield, t/ha = 3.82. T9, Treatment details = 40 Kg N/ha Urea (basal) + 40 Kg N/ha through Urea (top dressing at tillering).",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 17,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 8,
+    "section": "References"
+   }
+  },
+  {
+   "text": "References\n| - |\n T9, Grain Yield, t/ha = 3.69. T10, Treatment details = 80 Kg N/ha through Gliricidia maculata. T10, Grain Yield, t/ha = 2.20. Ti l, Treatment details = 40 Kg N/ha through Gliricidia + 40 Kg N/ha through Urea. Ti l, Grain Yield, t/ha = 2.48. L.S.D.=0.05, Treatment details = -. L.S.D.=0.05, Grain Yield, t/ha = 1.94 |",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 18,
+    "docling": true,
+    "ocr": false,
+    "source_file": "NUTRIENT MANAGEMENT FOR RICE PRODUCTION.pdf",
+    "page": 8,
+    "section": "References"
+   }
+  }
+ ]
+}

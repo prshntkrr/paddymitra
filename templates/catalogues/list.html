@@ -1,0 +1,471 @@
+{% extends 'base.html' %}{% load irri_extras %}
+{% block page_title %}Catalogues{% endblock %}
+{% block topbar_actions %}
+  {% if user|role_has:"Administrator,Editor" %}<a href="{% url 'catalogues:create' %}" class="btn btn-primary btn-sm">{% icon "plus" 14 %} Add Catalogue</a>{% endif %}
+{% endblock %}
+{% block content %}
+<div class="stats-grid fade-in">
+  <div class="stat-card"><div class="stat-icon green">{% icon "book" 22 %}</div><div class="stat-value">{{ total }}</div><div class="stat-label">Total Catalogues</div></div>
+  <div class="stat-card"><div class="stat-icon blue">{% icon "check" 22 %}</div><div class="stat-value">{{ published }}</div><div class="stat-label">Published</div></div>
+  <div class="stat-card"><div class="stat-icon purple">{% icon "database" 22 %}</div><div class="stat-value">{{ ready }}</div><div class="stat-label">Vector DB Ready</div></div>
+  <div class="stat-card"><div class="stat-icon amber">{% icon "link" 22 %}</div><div class="stat-value">{{ linked }}</div><div class="stat-label">Linked to Hooks</div></div>
+</div>
+
+<div class="card fade-in">
+  <div class="card-header"><h3>All catalogues</h3></div>
+  <table class="data-table">
+    <thead><tr><th>Name</th><th>Slug</th><th>Geography</th><th>Season</th><th>Docs</th><th>Vector DB</th><th>Status</th><th>Actions</th></tr></thead>
+    <tbody>
+      {% for c in catalogues %}
+      <tr>
+        <td><strong>{{ c.name }}</strong></td>
+        <td style="font-family:monospace;font-size:12px;">{{ c.slug }}</td>
+        <td>{{ c.geography }}</td>
+        <td>{{ c.season_year|default:"—" }}</td>
+        <td>{{ c.documents_count }}</td>
+        <td><span class="badge {{ c.vector_db_status|badge_class }}">{{ c.get_vector_db_status_display }}</span>{% if c.vector_db_chunks_count %} <span style="font-size:11px;color:var(--gray-400);">({{ c.vector_db_chunks_count }} chunks)</span>{% endif %}</td>
+        <td><span class="badge {{ c.status|badge_class }}">{{ c.status }}</span></td>
+        <td>
+          <a href="{% url 'catalogues:detail' c.slug %}" class="btn btn-xs btn-secondary">View</a>
+        </td>
+      </tr>
+      {% empty %}
+      <tr><td colspan="8" style="text-align:center;padding:30px;color:var(--gray-400);">No catalogues yet.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<!-- ================ BETA TEST ================ -->
+<div class="card fade-in" style="margin-top:24px;">
+  <div class="card-header" style="display:flex;justify-content:space-between;align-items:center;">
+    <h3>{% icon "sparkles" 16 %} Beta Test &mdash; Catalogue Output</h3>
+    <span class="badge badge-purple">{% icon "bolt" 11 %} Live pipeline</span>
+  </div>
+  <div class="card-body">
+    <div style="padding:12px 16px;background:#EDE9FE;border:1px solid #C4B5FD;border-radius:8px;color:#4C1D95;font-size:13px;margin-bottom:16px;">
+      Test the real RAG pipeline for any published catalogue. Select a catalogue, enter a sample query, and view the generated response along with source documents and pipeline trace.
+    </div>
+
+    {% if ready_catalogues %}
+    <form method="post" action="{% url 'catalogues:beta_test' %}" id="beta-form" enctype="multipart/form-data">
+      {% csrf_token %}
+      <div class="form-row">
+        <div class="form-group">
+          <label>Select Catalogue <span class="required">*</span></label>
+          <select name="catalogue" class="form-control" required>
+            <option value="">Choose a catalogue...</option>
+            {% for c in ready_catalogues %}
+              <option value="{{ c.slug }}" {% if beta_result and beta_result.catalogue_id == c.id %}selected{% endif %}>{{ c.name }} ({{ c.documents_count }} docs, {{ c.vector_db_chunks_count }} chunks)</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Input Language</label>
+          <select name="language" class="form-control">
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Odia">Odia</option>
+            <option value="Bengali">Bengali</option>
+            <option value="Telugu">Telugu</option>
+            <option value="Tamil">Tamil</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Ask as <span class="required">*</span></label>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;">
+          <label class="persona-card" data-persona="farmer" style="flex:1;min-width:260px;display:flex;gap:12px;padding:14px;border:2px solid var(--gray-200);border-radius:12px;cursor:pointer;background:#fff;align-items:center;">
+            <input type="radio" name="user_type" value="farmer" checked style="margin-top:2px;">
+            <div class="persona-ico">{% icon "farmer" 22 %}</div>
+            <div>
+              <div style="font-weight:600;color:var(--gray-800);">Farmer</div>
+              <div style="font-size:11.5px;color:var(--gray-500);line-height:1.4;margin-top:2px;">Layman answer. Short, practical, plain language &mdash; no jargon. 3&ndash;5 sentences.</div>
+            </div>
+          </label>
+          <label class="persona-card" data-persona="researcher" style="flex:1;min-width:260px;display:flex;gap:12px;padding:14px;border:2px solid var(--gray-200);border-radius:12px;cursor:pointer;background:#fff;align-items:center;">
+            <input type="radio" name="user_type" value="researcher" style="margin-top:2px;">
+            <div class="persona-ico">{% icon "beaker" 22 %}</div>
+            <div>
+              <div style="font-weight:600;color:var(--gray-800);">Researcher</div>
+              <div style="font-size:11.5px;color:var(--gray-500);line-height:1.4;margin-top:2px;">Detailed, technical. Cites sources, active ingredients, rates (kg/ha, ppm), mechanisms.</div>
+            </div>
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Test Query <span style="color:var(--gray-400);font-size:11px;">(type, speak, or attach an image)</span></label>
+
+        {# Idle: text input + mic button on the right #}
+        <div id="beta-query-idle" style="position:relative;">
+          <input type="text" id="beta-query" name="query_text" class="form-control" style="padding-right:44px;" placeholder="e.g. What is the best treatment for rice blast disease?">
+          <button type="button" id="mic-btn" title="Click to record."
+                  style="position:absolute;right:6px;top:50%;transform:translateY(-50%);
+                         background:transparent;border:0;cursor:pointer;padding:6px;
+                         display:flex;align-items:center;justify-content:center;color:var(--gray-500);">
+            {% icon "mic" 18 %}
+          </button>
+        </div>
+
+        {# Recording: timer + visualizer + tick + cross. Hidden by default. #}
+        <div id="beta-recording" style="display:none;align-items:center;gap:10px;height:42px;
+                                        border:1px solid var(--gray-300);border-radius:6px;
+                                        padding:0 10px;background:#fff;">
+          <span id="rec-timer" style="font-family:monospace;font-size:13px;color:#DC2626;min-width:38px;">0:00</span>
+          <canvas id="rec-canvas" style="flex:1;height:28px;display:block;"></canvas>
+          <button type="button" id="rec-cancel" title="Cancel"
+                  style="background:transparent;border:0;cursor:pointer;color:#DC2626;
+                         font-size:18px;line-height:1;padding:6px 8px;">✕</button>
+          <button type="button" id="rec-done" title="Stop &amp; transcribe"
+                  style="background:transparent;border:0;cursor:pointer;color:#059669;
+                         font-size:18px;line-height:1;padding:6px 8px;">✓</button>
+        </div>
+
+        <div id="mic-status" style="font-size:11px;color:var(--gray-500);margin-top:4px;min-height:14px;">
+          Click the mic to record (uses the Input Language above).
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Or upload an image</label>
+        <input type="file" name="image" class="form-control" accept="image/*">
+        <small style="color:var(--gray-500);">Identifies the image against the global Image Bank (CLIP) and runs a full advisory on the matched topic.</small>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;margin-bottom:14px;flex-wrap:wrap;">
+        <span style="font-size:12px;color:var(--gray-500);">Try:</span>
+        <button type="button" class="btn btn-xs btn-secondary" onclick="setBetaQuery('What is the best treatment for rice blast disease?')">Blast treatment</button>
+        <button type="button" class="btn btn-xs btn-secondary" onclick="setBetaQuery('How much urea should I apply per acre for paddy in Kharif?')">Urea dosage</button>
+        <button type="button" class="btn btn-xs btn-secondary" onclick="setBetaQuery('Is Swarna variety suitable for my flooded land?')">Swarna variety</button>
+        <button type="button" class="btn btn-xs btn-secondary" onclick="setBetaQuery('What is the recommended water depth for transplanted rice?')">Water depth</button>
+        <button type="button" class="btn btn-xs btn-secondary" onclick="setBetaQuery('When and how to apply Azolla in rice fields?')">Azolla</button>
+      </div>
+      <div style="text-align:right;">
+        <button type="submit" class="btn btn-primary" id="beta-run">
+          <span id="beta-run-label" style="display:inline-flex;align-items:center;gap:6px;">{% icon "play" 13 %} Run Test</span>
+          <span id="beta-run-spinner" style="display:none;">Running pipeline&hellip;</span>
+        </button>
+      </div>
+    </form>
+    {% else %}
+      <div style="padding:14px 16px;background:#FEF3C7;border:1px solid #F59E0B;border-radius:8px;color:#92400E;font-size:13px;">
+        {% icon "warning" 14 %} No catalogue has a built vector DB yet. Create a catalogue, attach documents, and click &laquo;Build Vector DB&raquo; first &mdash; or run <code>python manage.py bootstrap_catalogue</code> to create one from all imported documents.
+      </div>
+    {% endif %}
+
+    {% if beta_result %}
+    <div style="margin-top:22px;padding:16px;border:1px solid var(--gray-200);border-radius:8px;background:#F9FAFB;">
+      <h4 style="margin:0 0 10px;font-size:14px;">Result &mdash; {{ beta_result.code }}</h4>
+      <div style="display:flex;gap:8px;align-items:center;margin-bottom:12px;flex-wrap:wrap;">
+        <span class="badge {{ beta_result.status|badge_class }}">{{ beta_result.status }}</span>
+        {% if beta_result.pipeline_trace.user_type == 'researcher' %}
+          <span class="badge badge-purple">{% icon "beaker" 11 %} Researcher</span>
+        {% else %}
+          <span class="badge badge-green">{% icon "farmer" 11 %} Farmer</span>
+        {% endif %}
+        {% if beta_result.category %}<span class="badge badge-blue">{{ beta_result.category }}</span>{% endif %}
+        {% if beta_result.task_type %}<span class="badge badge-amber">{{ beta_result.task_type }}</span>{% endif %}
+        <span style="color:var(--gray-500);font-size:12px;">{{ beta_result.response_time_seconds }}s &middot; {{ beta_result.catalogue.name }}</span>
+      </div>
+      <div style="background:#fff;padding:12px 14px;border-radius:6px;border:1px solid var(--gray-200);margin-bottom:10px;">
+        <div style="font-size:11px;color:var(--gray-500);font-weight:600;text-transform:uppercase;margin-bottom:4px;">Farmer query ({{ beta_result.original_query_language }})</div>
+        <div>{{ beta_result.original_query_text }}</div>
+      </div>
+      {% if beta_result.translated_query_text and beta_result.translated_query_text != beta_result.original_query_text %}
+      <div style="background:#fff;padding:12px 14px;border-radius:6px;border:1px solid var(--gray-200);margin-bottom:10px;">
+        <div style="font-size:11px;color:var(--gray-500);font-weight:600;text-transform:uppercase;margin-bottom:4px;">English</div>
+        <div>{{ beta_result.translated_query_text }}</div>
+      </div>
+      {% endif %}
+      <div style="background:#fff;padding:12px 14px;border-radius:6px;border:1px solid var(--gray-200);margin-bottom:10px;">
+        <div style="font-size:11px;color:var(--gray-500);font-weight:600;text-transform:uppercase;margin-bottom:4px;">AI response (English)</div>
+        <div style="line-height:1.6;white-space:pre-wrap;">{{ beta_result.ai_response_text }}</div>
+      </div>
+      {% if beta_result.ai_response_text_local and beta_result.ai_response_text_local != beta_result.ai_response_text %}
+      <div style="background:#fff;padding:12px 14px;border-radius:6px;border:1px solid var(--gray-200);margin-bottom:10px;">
+        <div style="font-size:11px;color:var(--gray-500);font-weight:600;text-transform:uppercase;margin-bottom:4px;">AI response ({{ beta_result.original_query_language }})</div>
+        <div style="line-height:1.6;white-space:pre-wrap;">{{ beta_result.ai_response_text_local }}</div>
+      </div>
+      {% endif %}
+
+      {% if beta_result.pipeline_trace.image_query %}
+      <div style="background:#fff;padding:12px 14px;border-radius:6px;border:1px solid var(--gray-200);margin-bottom:10px;">
+        <div style="font-size:11px;color:var(--gray-500);font-weight:600;text-transform:uppercase;margin-bottom:6px;">Image identification</div>
+        <div style="display:flex;gap:12px;align-items:flex-start;flex-wrap:wrap;">
+          {% if beta_result.pipeline_trace.image_query.matched_image_url %}
+            <img src="{{ beta_result.pipeline_trace.image_query.matched_image_url }}" alt="match" style="width:140px;height:140px;object-fit:cover;border-radius:8px;border:1px solid var(--gray-200);">
+          {% endif %}
+          <div style="flex:1;font-size:13px;">
+            <div>Matched group: <strong>{{ beta_result.pipeline_trace.image_query.matched_prefix|default:"(none)" }}</strong></div>
+            <div>Distance: {{ beta_result.pipeline_trace.image_query.distance|floatformat:4 }} · Score: {{ beta_result.pipeline_trace.image_query.score|floatformat:4 }}
+              {% if beta_result.pipeline_trace.image_query.low_confidence %}<span class="badge badge-yellow">low confidence</span>{% else %}<span class="badge badge-green">confident</span>{% endif %}
+            </div>
+            <div style="margin-top:6px;color:var(--gray-500);">{{ beta_result.pipeline_trace.image_query.matched_description|truncatechars:240 }}</div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if beta_result.task_type or beta_result.problem_entity or beta_result.season or beta_result.crop_stage or beta_result.missing_context %}
+      <div style="background:#fff;padding:12px 14px;border-radius:6px;border:1px solid var(--gray-200);margin-bottom:10px;font-size:12px;">
+        <div style="font-size:11px;color:var(--gray-500);font-weight:600;text-transform:uppercase;margin-bottom:6px;">Classification</div>
+        <div>Task: <strong>{{ beta_result.task_type|default:"—" }}</strong> &middot; Problem: <strong>{{ beta_result.problem_entity|default:"—" }}</strong> &middot; Season: <strong>{{ beta_result.season|default:"—" }}</strong> &middot; Stage: <strong>{{ beta_result.crop_stage|default:"—" }}</strong></div>
+        {% if beta_result.missing_context %}<div style="margin-top:4px;color:#92400E;">Missing context: {{ beta_result.missing_context }}</div>{% endif %}
+      </div>
+      {% endif %}
+
+      {% if beta_result.source_documents.all %}
+      <div style="background:#fff;padding:12px 14px;border-radius:6px;border:1px solid var(--gray-200);margin-bottom:10px;">
+        <div style="font-size:11px;color:var(--gray-500);font-weight:600;text-transform:uppercase;margin-bottom:6px;">Retrieved source documents</div>
+        {% for d in beta_result.source_documents.all %}
+          <a href="{% url 'documents:detail' d.pk %}" style="text-decoration:none;">
+            <span class="badge badge-blue">{{ d.doc_code }}</span>
+          </a>
+          {{ d.title|truncatechars:60 }}<br>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if beta_result.pipeline_trace.retrieved_chunks %}
+      <div style="background:#07130D;color:#D1FAE5;padding:0;border-radius:8px;border:1px solid #134E4A;margin-bottom:10px;overflow:hidden;box-shadow:inset 0 1px 0 rgba(255,255,255,0.06);">
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;background:#0F1F17;border-bottom:1px solid #134E4A;padding:9px 12px;">
+          <div style="font-size:11px;color:#A7F3D0;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;">Retrieval terminal</div>
+          <div style="font-family:monospace;font-size:11px;color:#6EE7B7;">{{ beta_result.pipeline_trace.retrieved_chunks|length }} chunks used as context</div>
+        </div>
+        <div style="max-height:360px;overflow:auto;padding:12px 14px;font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace;font-size:12px;line-height:1.55;white-space:pre-wrap;">
+{% for chunk in beta_result.pipeline_trace.retrieved_chunks %}<div style="margin-bottom:14px;"><span style="color:#34D399;">$ source[{{ chunk.rank }}]</span> {% if chunk.document_url %}<a href="{{ chunk.document_url }}" style="color:#E5E7EB;text-decoration:underline;text-underline-offset:2px;">{{ chunk.document_title }}</a>{% else %}<span style="color:#E5E7EB;">{{ chunk.document_title }}</span>{% endif %}{% if chunk.file_url %} <a href="{{ chunk.file_url }}" target="_blank" rel="noopener" style="color:#6EE7B7;text-decoration:none;">[file]</a>{% endif %}{% if chunk.source_url %} <a href="{{ chunk.source_url }}" target="_blank" rel="noopener" style="color:#6EE7B7;text-decoration:none;">[source]</a>{% endif %}
+<span style="color:#93C5FD;">  doc_id={{ chunk.document_id|default_if_none:"-" }} chunk={{ chunk.chunk_index|default_if_none:"-" }} score={{ chunk.score|default_if_none:"-" }}</span>{% if chunk.category or chunk.subcategory %}
+<span style="color:#FBBF24;">  {{ chunk.category }}{% if chunk.subcategory %} / {{ chunk.subcategory }}{% endif %}</span>{% endif %}
+<span style="color:#D1FAE5;">{{ chunk.chunk }}{% if chunk.truncated %} ...{% endif %}</span></div>{% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if beta_result.pipeline_trace.steps %}
+      <div style="background:#fff;padding:12px 14px;border-radius:6px;border:1px solid var(--gray-200);">
+        <div style="font-size:11px;color:var(--gray-500);font-weight:600;text-transform:uppercase;margin-bottom:6px;">Pipeline trace</div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;font-size:12px;">
+          {% for step in beta_result.pipeline_trace.steps %}
+            <span class="badge badge-blue">{{ step.stage }}{% if step.ms is not None %} &mdash; {{ step.ms }}ms{% endif %}{% if step.hits %} ({{ step.hits }} hits){% endif %}</span>
+            {% if not forloop.last %}<span style="color:var(--gray-400);">&rarr;</span>{% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      <div style="margin-top:14px;display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap;">
+        <form method="post" action="{% url 'api_endpoints:create_from_query' %}" style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;">
+          {% csrf_token %}
+          <input type="hidden" name="source_query_id" value="{{ beta_result.pk }}">
+          <input type="text" name="name" class="form-control" placeholder="API name (optional)" style="height:32px;font-size:12px;width:240px;">
+          <button class="btn btn-sm btn-primary" type="submit">{% icon "bolt" 13 %} Generate API</button>
+          <span style="font-size:11px;color:var(--gray-500);">Creates a public endpoint with the same catalogue, persona, and language as this test.</span>
+        </form>
+        <a href="{% url 'queries:detail' beta_result.pk %}" class="btn btn-xs btn-secondary">Open full query &rarr;</a>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function setBetaQuery(text) {
+  var el = document.getElementById('beta-query');
+  if (el) { el.value = text; el.focus(); }
+}
+// Highlight selected persona card
+(function() {
+  var radios = document.querySelectorAll('input[name="user_type"]');
+  function paint() {
+    radios.forEach(function(r) {
+      var card = r.closest('.persona-card');
+      if (!card) return;
+      if (r.checked) {
+        card.style.borderColor = 'var(--irri-green)';
+        card.style.background = 'var(--irri-green-pale)';
+      } else {
+        card.style.borderColor = 'var(--gray-200)';
+        card.style.background = '#fff';
+      }
+    });
+  }
+  radios.forEach(function(r) { r.addEventListener('change', paint); });
+  paint();
+})();
+// ---------- Mic recording with live visualizer ----------
+(function() {
+  var micBtn   = document.getElementById('mic-btn');
+  var statusEl = document.getElementById('mic-status');
+  var qInput   = document.getElementById('beta-query');
+  var idleRow  = document.getElementById('beta-query-idle');
+  var recRow   = document.getElementById('beta-recording');
+  var timerEl  = document.getElementById('rec-timer');
+  var canvas   = document.getElementById('rec-canvas');
+  var doneBtn  = document.getElementById('rec-done');
+  var cancelBtn= document.getElementById('rec-cancel');
+  var langSel  = document.querySelector('#beta-form select[name="language"]');
+  if (!micBtn || !recRow || !qInput) return;
+  if (!navigator.mediaDevices || !window.MediaRecorder) {
+    micBtn.disabled = true;
+    micBtn.title = 'Audio recording is not supported in this browser.';
+    statusEl.textContent = 'Audio recording is not supported in this browser.';
+    return;
+  }
+
+  var recorder = null;
+  var chunks = [];
+  var stream = null;
+  var audioCtx = null;
+  var analyser = null;
+  var srcNode = null;
+  var rafId = null;
+  var startTime = 0;
+  var timerInterval = null;
+  var cancelled = false;
+
+  function showRecordingUI(on) {
+    idleRow.style.display = on ? 'none' : '';
+    recRow.style.display  = on ? 'flex' : 'none';
+  }
+
+  function formatTime(ms) {
+    var s = Math.floor(ms / 1000);
+    return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2);
+  }
+
+  function drawBars() {
+    if (!analyser || !canvas) return;
+    var w = canvas.clientWidth;
+    var h = canvas.clientHeight;
+    if (canvas.width !== w) canvas.width = w;
+    if (canvas.height !== h) canvas.height = h;
+    var ctx = canvas.getContext('2d');
+    var bufLen = analyser.frequencyBinCount;
+    var data = new Uint8Array(bufLen);
+    analyser.getByteFrequencyData(data);
+
+    ctx.clearRect(0, 0, w, h);
+    var barCount = 32;
+    var step = Math.floor(bufLen / barCount);
+    var barW = (w - (barCount - 1) * 2) / barCount;
+    for (var i = 0; i < barCount; i++) {
+      var v = data[i * step] / 255;
+      var barH = Math.max(2, v * h);
+      ctx.fillStyle = '#10B981';
+      ctx.fillRect(i * (barW + 2), (h - barH) / 2, barW, barH);
+    }
+    rafId = requestAnimationFrame(drawBars);
+  }
+
+  function teardownStream() {
+    if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
+    if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
+    try { if (srcNode) srcNode.disconnect(); } catch (_) {}
+    try { if (audioCtx && audioCtx.state !== 'closed') audioCtx.close(); } catch (_) {}
+    try { if (stream) stream.getTracks().forEach(function(t) { t.stop(); }); } catch (_) {}
+    srcNode = null; analyser = null; audioCtx = null; stream = null;
+  }
+
+  async function startRec() {
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    } catch (e) {
+      statusEl.textContent = 'Mic permission denied: ' + (e && e.message || e);
+      return;
+    }
+    chunks = [];
+    cancelled = false;
+
+    var mime = '';
+    var prefs = ['audio/webm;codecs=opus', 'audio/webm', 'audio/ogg;codecs=opus', 'audio/mp4'];
+    for (var i = 0; i < prefs.length; i++) {
+      if (window.MediaRecorder.isTypeSupported && window.MediaRecorder.isTypeSupported(prefs[i])) {
+        mime = prefs[i]; break;
+      }
+    }
+    recorder = new MediaRecorder(stream, mime ? { mimeType: mime } : undefined);
+    recorder.ondataavailable = function(e) { if (e.data && e.data.size) chunks.push(e.data); };
+    recorder.onstop = function() {
+      var blob = new Blob(chunks, { type: recorder.mimeType || 'audio/webm' });
+      teardownStream();
+      showRecordingUI(false);
+      if (cancelled) {
+        statusEl.textContent = 'Recording cancelled.';
+        return;
+      }
+      var ext = (blob.type.indexOf('ogg') > -1) ? '.ogg'
+              : (blob.type.indexOf('mp4') > -1) ? '.m4a' : '.webm';
+      uploadAndTranscribe(blob, ext);
+    };
+
+    // Web Audio analyser for live bars
+    try {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      srcNode  = audioCtx.createMediaStreamSource(stream);
+      analyser = audioCtx.createAnalyser();
+      analyser.fftSize = 128;
+      srcNode.connect(analyser);
+    } catch (_) { /* visualizer optional */ }
+
+    showRecordingUI(true);
+    timerEl.textContent = '0:00';
+    startTime = Date.now();
+    timerInterval = setInterval(function() {
+      timerEl.textContent = formatTime(Date.now() - startTime);
+    }, 250);
+    drawBars();
+    recorder.start();
+    statusEl.textContent = 'Recording… click ✓ to stop, ✕ to cancel.';
+  }
+
+  function stopRec(discard) {
+    cancelled = !!discard;
+    if (recorder && recorder.state !== 'inactive') {
+      statusEl.textContent = discard ? 'Cancelling…' : 'Stopping…';
+      recorder.stop();
+    } else {
+      teardownStream();
+      showRecordingUI(false);
+    }
+  }
+
+  function uploadAndTranscribe(blob, ext) {
+    statusEl.textContent = 'Transcribing…';
+    var fd = new FormData();
+    fd.append('audio', blob, 'recording' + ext);
+    fd.append('language', langSel ? langSel.value : 'English');
+    var csrf = document.querySelector('input[name=csrfmiddlewaretoken]');
+    fetch('{% url "catalogues:transcribe" %}', {
+      method: 'POST',
+      headers: csrf ? { 'X-CSRFToken': csrf.value } : {},
+      body: fd,
+      credentials: 'same-origin'
+    }).then(function(r) { return r.json(); }).then(function(j) {
+      if (j && j.ok) {
+        qInput.value = (j.text || '').trim();
+        statusEl.textContent = j.text ? 'Transcribed. Edit if needed, then Run Test.' : 'No speech detected.';
+        qInput.focus();
+      } else {
+        statusEl.textContent = 'Transcription failed: ' + (j && j.error || 'unknown error');
+      }
+    }).catch(function(e) {
+      statusEl.textContent = 'Transcription error: ' + (e && e.message || e);
+    });
+  }
+
+  micBtn.addEventListener('click', startRec);
+  doneBtn.addEventListener('click', function() { stopRec(false); });
+  cancelBtn.addEventListener('click', function() { stopRec(true); });
+})();
+
+var bf = document.getElementById('beta-form');
+if (bf) {
+  bf.addEventListener('submit', function() {
+    var btn = document.getElementById('beta-run');
+    document.getElementById('beta-run-label').style.display = 'none';
+    document.getElementById('beta-run-spinner').style.display = 'inline';
+    if (btn) btn.disabled = true;
+  });
+}
+</script>
+{% endblock %}

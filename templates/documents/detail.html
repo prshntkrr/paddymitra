@@ -1,0 +1,77 @@
+{% extends 'base.html' %}{% load irri_extras %}
+{% block page_title %}Document: {{ doc.title|truncatechars:50 }}{% endblock %}
+{% block topbar_actions %}
+  {% if doc.file %}
+    <a href="{{ doc.file.url }}" target="_blank" class="btn btn-primary btn-sm">{% icon "document" 14 %} View Document</a>
+  {% elif doc.source_url %}
+    <a href="{{ doc.source_url }}" target="_blank" class="btn btn-primary btn-sm">&#8599; Open source</a>
+  {% endif %}
+  {% if user|role_has:"Administrator,Editor" or doc.uploaded_by_id == user.id %}
+    <a href="{% url 'documents:edit' doc.pk %}" class="btn btn-secondary btn-sm">Edit</a>
+  {% endif %}
+  <a href="{% url 'documents:list' %}" class="btn btn-secondary btn-sm">&larr; Back</a>
+{% endblock %}
+{% block content %}
+<div class="card fade-in" style="max-width:960px;">
+  <div class="card-body">
+    <h2 style="margin:0 0 6px;">{{ doc.title }}</h2>
+    <div style="color:var(--gray-500);font-size:12px;">{{ doc.doc_code }} &middot; uploaded {{ doc.uploaded_at|date:"d M Y" }}{% if doc.uploaded_by %} by {{ doc.uploaded_by.display_name }}{% endif %}</div>
+    <div style="margin-top:16px;">
+      <span class="badge {{ doc.status|badge_class }}">{{ doc.status_display_short }}</span>
+      <span class="badge badge-blue">{{ doc.crop }}</span>
+      <span class="badge badge-purple">{{ doc.content_type }}</span>
+      <span class="badge badge-amber">{{ doc.doc_type }}</span>
+    </div>
+
+    {% if not doc.file and not doc.source_url and doc.file_path %}
+    <div style="margin-top:16px;padding:12px 14px;background:#FEF3C7;border:1px solid #F59E0B;border-radius:8px;font-size:13px;color:#92400E;">
+      {% icon "warning" 14 %} Original file <code>{{ doc.file_path }}</code> not uploaded yet. Embeddings are built from title, abstract, keywords and category metadata.
+    </div>
+    {% endif %}
+
+    <div class="detail-grid" style="margin-top:18px;border:1px solid var(--gray-200);border-radius:var(--radius-md);overflow:hidden;">
+      {% if doc.category %}<div class="detail-label">Category</div><div class="detail-value">{{ doc.category.name }}</div>{% endif %}
+      {% if doc.subcategory %}<div class="detail-label">Subcategory</div><div class="detail-value">{{ doc.subcategory.name }}</div>{% endif %}
+      {% if doc.keywords.all %}<div class="detail-label">Keywords</div><div class="detail-value">{% for k in doc.keywords.all %}<span class="tag">{{ k.keyword }}</span> {% endfor %}</div>{% endif %}
+      {% if doc.geography %}<div class="detail-label">Geography</div><div class="detail-value">{{ doc.geography }}</div>{% endif %}
+      {% if doc.year %}<div class="detail-label">Year</div><div class="detail-value">{{ doc.year }}</div>{% endif %}
+      {% if doc.authors %}<div class="detail-label">Authors</div><div class="detail-value">{{ doc.authors }}</div>{% endif %}
+      {% if doc.organizations %}<div class="detail-label">Organizations</div><div class="detail-value">{{ doc.organizations }}</div>{% endif %}
+      {% if doc.journal_or_book %}<div class="detail-label">Journal / Book</div><div class="detail-value">{{ doc.journal_or_book }}</div>{% endif %}
+      {% if doc.countries %}<div class="detail-label">Countries</div><div class="detail-value">{{ doc.countries }}</div>{% endif %}
+      {% if doc.source %}<div class="detail-label">Source</div><div class="detail-value">{{ doc.source }}</div>{% endif %}
+      {% if doc.source_url %}<div class="detail-label">Source URL</div><div class="detail-value"><a href="{{ doc.source_url }}" target="_blank" style="color:var(--irri-green);">{{ doc.source_url|truncatechars:70 }}</a></div>{% endif %}
+      {% if doc.file %}<div class="detail-label">File</div><div class="detail-value"><a href="{{ doc.file.url }}" target="_blank" style="color:var(--irri-green);">{{ doc.file.name|cut:"documents/" }}</a></div>{% endif %}
+      {% if doc.file_path %}<div class="detail-label">Original filename</div><div class="detail-value" style="font-family:monospace;font-size:12px;">{{ doc.file_path }}</div>{% endif %}
+      {% if doc.catalogues.all %}<div class="detail-label">Used in catalogues</div><div class="detail-value">{% for c in doc.catalogues.all %}<a href="{% url 'catalogues:detail' c.slug %}"><span class="badge badge-blue">{{ c.name }}</span></a> {% endfor %}</div>{% endif %}
+    </div>
+
+    {% if doc.summary %}
+    <div style="margin-top:18px;">
+      <h4 style="font-size:13px;color:var(--gray-500);text-transform:uppercase;margin-bottom:8px;">Summary / Abstract</h4>
+      <p style="line-height:1.6;">{{ doc.summary|linebreaks }}</p>
+    </div>
+    {% endif %}
+
+    <div style="margin-top:18px;">
+      <details style="border:1px solid var(--gray-200);border-radius:8px;padding:10px 14px;background:var(--gray-50);">
+        <summary style="cursor:pointer;font-size:13px;font-weight:600;color:var(--gray-700);display:flex;align-items:center;gap:6px;">{% icon "search" 14 %} Content preview (text used for embeddings)</summary>
+        <pre style="margin-top:12px;white-space:pre-wrap;font-family:inherit;font-size:13px;line-height:1.6;color:var(--gray-700);">{{ embedding_preview }}</pre>
+      </details>
+    </div>
+
+    <div style="margin-top:18px;display:flex;gap:8px;">
+      {% if user|role_has:"Administrator,Editor" %}
+        {% if doc.status == 'Published' %}
+          <form method="post" action="{% url 'documents:unpublish' doc.pk %}">{% csrf_token %}<button class="btn btn-danger">Unpublish</button></form>
+        {% else %}
+          <form method="post" action="{% url 'documents:publish' doc.pk %}">{% csrf_token %}<button class="btn btn-success">Publish</button></form>
+        {% endif %}
+      {% endif %}
+      {% if user.role.name == 'Knowledge Worker' and doc.status != 'PendingReview' and doc.status != 'Published' and doc.uploaded_by_id == user.id %}
+        <form method="post" action="{% url 'documents:submit_review' doc.pk %}">{% csrf_token %}<button class="btn btn-primary">Submit for review</button></form>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}

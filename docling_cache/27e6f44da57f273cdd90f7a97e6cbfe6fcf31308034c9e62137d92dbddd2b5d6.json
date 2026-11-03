@@ -1,0 +1,106 @@
+{
+ "source": "CR-210-Sarunima.pdf",
+ "sha256": "27e6f44da57f273cdd90f7a97e6cbfe6fcf31308034c9e62137d92dbddd2b5d6",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:28:05",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "CR Dhan 210 (Sarunima)*\n(IR717002- 247-1-1- 2 / IR77080-B34-1-1)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-210-Sarunima.pdf",
+    "page": 1,
+    "section": "CR Dhan 210 (Sarunima)*"
+   }
+  },
+  {
+   "text": "Product Profile\nCR Dhan 210 is an aerobic variety developed by NRRI, Cuttack, specifically recommended for areas suitable for water limited environments. Released in 2020, it boasts an average yield of 4.75 tons per hectare. Moderately resistant to a range of diseases and pests including leaf blast, neck blast, brown spot, sheath rot, stem borer (both dead heart and white ear heads), leaf folder, and green leaf hopper, CR Dhan 210 offers robust protection against common threats. Featuring long slender grains, it is particularly recommended for favorable upland conditions in Odisha.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-210-Sarunima.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment - TELS-I\nPTR, Planting Method = DSR. PTR, Ecosystem = Irrigated Lowland. PTR, Ecosystem = Rainfed Lowland. PTR, Ecosystem = Upland. Recommended, Planting Method = Not Recommended. Recommended, Ecosystem = Recommended. Recommended, Ecosystem = Not Recommended. Recommended, Ecosystem = Not Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-210-Sarunima.pdf",
+    "page": 1,
+    "section": "Priority Market Segment - TELS-I"
+   }
+  },
+  {
+   "text": "Positioning\nReplace, Irrigated Lowland = CR Dhan 201. Replace, Rainfed Lowland = None. Replace, Upland = None. Companion, Irrigated Lowland = CR Dhan 205. Companion, Rainfed Lowland = None. Companion, Upland = None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-210-Sarunima.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Mid early duration\n- Performs well in water-limiting areas.\n- High HRR\n- Tolerant to major diseases and pests",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-210-Sarunima.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nCR Dhan 210, Grain yield.(Kg/ha) = 4000-4750. CR Dhan 210, Grain yield.% Adv = 19. CR Dhan 210, Maturity (days). = 110-115. CR Dhan 210, Plant height (cm). = 100-105. CR Dhan 210, Lodging. = Tolerant. CR Dhan 210, 1000 grain weight (g). = 24. CR Dhan 210, HRR %. = 64. CR Dhan 210, Grain Shape. = LS. CR Dhan 201, Grain yield.(Kg/ha) = 3700-4000. CR Dhan 201, Grain yield.% Adv = . CR Dhan 201, Maturity (days). = 118-120. CR Dhan 201, Plant height (cm). = 95-100. CR Dhan 201, Lodging. = Tolerant. CR Dhan 201, 1000 grain weight (g). = 24. CR Dhan 201, HRR %. = 64. CR Dhan 201, Grain Shape. = LS",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-210-Sarunima.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nCR Dhan 210, Neck blast = Resistant. CR Dhan 210, Brown spot = Resistant. CR Dhan 210, Sheath blight = Tolerant. CR Dhan 210, Leaf folder = Tolerant. CR Dhan 210, Gall midge = Tolerant. CR Dhan 210, Drought = Tolerant. CR Dhan 201, Neck blast = Tolerant. CR Dhan 201, Brown spot = Tolerant. CR Dhan 201, Sheath blight = Tolerant. CR Dhan 201, Leaf folder = Tolerant. CR Dhan 201, Gall midge = Tolerant. CR Dhan 201, Drought = Tolerant\nProducibility:\nVariety: CR Dhan 210:= 1900Kgs. / acre\nRecommendation:\nSuitable for water limiting areas (favourable upland) of Odisha.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-210-Sarunima.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\n- Average yield",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-210-Sarunima.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}

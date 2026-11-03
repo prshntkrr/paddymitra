@@ -1,0 +1,1350 @@
+{
+ "source": "Nutient_Management_127_Nos..xlsx",
+ "sha256": "f362df4ad1d227a7fc719c4df52d76d6d6f735752f4027db8d6eab2706f8ca89",
+ "origin": "clean_rendering",
+ "built_at": "2026-11-01T00:58:33",
+ "chunk_count": 149,
+ "chunks": [
+  {
+   "text": "Q: What are the different sources of organic fertilizer to be used in organic farming?​\nA: You can use vermicompost, farmyard manures, can go for green manuring too.​",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 1,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What are the effective ways to better use fertilizer in rice production?​\nA: Fertilizer is the second largest cost in rice production. It can be used effectively by applying the fertilizer at the right time, right source and right amount. ​\n1. Fertilizers with N,P and K are usually applied within 14 days after crop establishment​\n2. N-containing fertilizer like Urea and ammonium sulfate is used for topdressing at active tillering and panicle initiation. Panicle initiation is about 55-60 days before harvest. So it is important that duration of the variety is known.​\n3. K-containing fertilizer like 0-0-60 or muriate of potash can be additionally applied during panicle initiation when the season is good and high yield is expected. ​\n4. The amount of fertilizer to apply depends on the yield that can be set as attainable for a specific location. Attainable yield can be higher than what the farmers typically get from the previous seasons in previous years.​\n5. About 20-30% of the total nitrogen requirement calculated for a given attainable target yield is applied within 14 days after crop establishment. The rest is equally divided for topdressing at active tillering and panicle initiation.​\n6. Rule of thumb, 1 ton yield, dry weight basis, requires about 20kg N/ha. So, 5 tons/ha yield would need 90-100kg N/ha​.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 2,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Can I reduce my N fertilizer recommendation for a farmer for the next season if he/she retained 100% of the rice straw in the field?​\nA: While there are proof that stubbles left in the field can help reduce the amount of P and K to be applied for the next cropping season, there is no enough data to indicate that the same significant effect is true for N. Hence, it is not recommended to reduce N recommendation, as this may affect yield negatively.​",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 3,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the role of boron in rice?\nA: Boron helps in pollen formation, panicle emergence, and grain filling. Use 1–2 kg Borax per hectare if deficiency is observed.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 4,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which fertilizer is recommended during panicle initiation (PI) stage?\nA: Apply 20–25 kg/ha MOP (Muriate of Potash) and 15–20 kg/ha urea during PI stage.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 5,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Can Growmore 10-26-26 be used as basal fertilizer during puddling?\nA: Yes, it's suitable as basal, especially for P and K. Supplement with additional nitrogen (urea) if required.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 6,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What fertilizer should be given during PI stage for Kalachampa rice?\nA: Apply 25 kg/ha potash and 20 kg/ha nitrogen during PI stage for Kalachampa variety.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 7,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: No fertilizer was applied after 15 days of PI. What should be done now?\nA: Apply urea at 20 kg/ha immediately if panicle is not fully emerged.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 8,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: After how many days of PI can fertilizers be applied?\nA: Apply within 5–7 days after PI for best grain filling. Any delay reduces  its effectiveness",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 9,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How to apply fertilizer in kharif rice?\nA: Apply in three splits: basal (NPK), tillering (urea), and PI stage (urea + MOP).",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 10,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Can Dolomite be used in rice nursery bed?\nA: No. Avoid dolomite as it may affect nutrient uptake. Use well-rotted compost and SSP instead.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 11,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: When and how should SSP be applied instead of FYM?\nA: Apply SSP (Single Super Phosphate) at land prep (basal). Dose: 40–60 kg P2O5/ha based on soil P levels.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 12,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What fertilizer should be applied 5 days after PI?\nA: Apply 20–25 kg/ha urea and 20 kg/ha MOP to support grain filling.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 13,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What fertilizer should be applied 22 days after transplanting?\nA: Apply first top dressing – 40 kg/ha urea if not already applied.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 14,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What to apply 10 days after PI and 30 kg fertilizer already applied?\nA: Apply 15–20 kg/ha MOP to ensure potassium availability during grain development.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 15,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Rice plants are drooping, what should be done?\nA: Check for water stress or nutrient deficiency. Apply 20 kg/ha urea if nitrogen deficient and ensure irrigation.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 16,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: If pesticide is sprayed using drone, how much to use per tank?\nA: Use 10–15 L/ha spray solution. Adjust according to drone nozzle and manufacturer's recommendation.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 17,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What should be applied as first fertilizer in transplanted rice?\nA: Basal dose: 80:40:40 kg/ha of N:P:K using Urea, DAP/SSP, and MOP.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 18,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Can mustard cake be applied to rice field now?\nA: Not advisable after transplanting. Use during field preparation as basal organic manure.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 19,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What fertilizer to apply when rice is 3–4 inches tall?\nA: Apply basal dose: Urea (25–30 kg/ha), DAP/SSP, and MOP.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 20,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Give an idea about chemical, green manuring, and organic fertilizers.\nA: Chemical: Synthetic NPK, micronutrients.Green: Dhaincha, Sunhemp incorporated into soil.Organic: FYM, compost, vermicompost, biofertilizers.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 21,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Dhaincha is 4 ft tall before transplanting – what fertilizer to apply?\nA: Incorporate dhaincha and apply all P of succeeding rice crop in dhaincha and incorporate at pre flowering stage.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 22,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: When should tillering-stage fertilizer be applied in rice?\nA: At 20–25 days after transplanting.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 23,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which fertilizer promotes more tillers in rice?\nA: Nitrogenous fertilizer helps tillering. Apply 40–50 kg/ha at early tillering stage.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 24,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which chemical helps in easy uprooting of seedlings before transplanting?\nA: Apply 1% salt solution or 1% urea solution 12–24 hours before uprooting.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 25,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Can gypsum be applied with urea during tiller fertilization?\nA: Yes. Gypsum supplies calcium and sulfur and reduces ammonia loss. Apply 10–15 kg/ha.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 26,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: There is no tillering in rice, what fertilizer should be applied?\nA: Ensure proper water management. Apply nitrogenous fertilizer preferably urea at 30–40 kg/ha if tillering hasn't initiated.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 27,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Is there any facility available for soil testing?\nA: Yes, government soil testing laboratories are available at Sambalpur, Sundargarh, Daringbadi, Bhawanipatna, Similiguda, Brahmapur, Bhubaneswar, Balasore, Jagatsinghpur, Phulbani, and Baripada. Soil samples can be tested at these centers for just ₹5 per sample.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 28,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which type of nitrogenous fertilizer is best to use during transplanting, tillering, and panicle initiation stages?\nA: Nitrogen fertilizers are available in four forms: nitrate, ammonium, ammonium-nitrate mix, and amide (urea). Paddy prefers nitrate-type fertilizers, but during transplanting and early tillering, the root system is underdeveloped. If nitrate-type fertilizers are used at this stage, the nitrogen can leach away with water. Hence, ammonium-type fertilizers like ammonium sulfate or chloride, or amide-type fertilizers like urea are better. During the panicle initiation stage, when roots are well developed, nitrate-based fertilizers like calcium ammonium nitrate (CAN) or Sona fertilizer can be effectively used. If nitrate types are unavailable, urea can be used instead.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 29,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: If no basal fertilizer is applied at the time of transplanting, can it be applied later?\nA: Ideally, all phosphorus and potash, along with one-fourth of the required nitrogen, should be applied at transplanting. Half of the nitrogen should be applied 18–20 days after transplanting (tillering stage), and the remaining one-fourth at panicle initiation (18 days before flowering). If basal fertilizer was missed, the nitrogen can be applied 5–10 days after transplanting, and phosphorus and potash within 15 days of transplanting. A slight delay does not significantly affect yield if corrected in time.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 30,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: In low-lying fields where water stagnates after transplanting, fertilizer application becomes difficult. How should nitrogenous fertilizer be managed in such conditions?\nA: In fields with standing water, fertilizer application is less effective. In such areas, it is best to apply the entire amount of nitrogen along with phosphorus and potash at the time of transplanting.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 31,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Repeated use of fertilizers seems to be causing soil to harden or degrade. What is the remedy?\nA: Chemical fertilizers provide nutrients to crops but do not improve soil structure or fertility. On the other hand, organic manures help improve soil texture, make it lighter, and enhance fertility. Therefore, alongside chemical fertilizers, 10–12 cartloads of farmyard manure (FYM), compost, or green manure should be added per hectare. Crop rotation with legumes or oilseeds instead of continuously growing paddy can also restore soil health.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 32,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: If 20 kg of phosphorus per hectare is applied as green manure, how much more is needed for the rice crop?\nA: A rice crop typically needs 40 kg of phosphorus per hectare. If 20 kg has already been applied for green manure, the remaining 20 kg should be applied during rice cultivation.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 33,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Even though the same amount of fertilizer is applied every year, the paddy yield per hectare is not as much as it used to be before. What is the solution to this issue?\nA: When the same quantity of chemical fertilizers is applied every year and paddy is cultivated continuously on the same land, the yield tends to gradually decline. This is because we only apply the primary nutrients—nitrogen (N), phosphorus (P), and potassium (K)—through fertilizers. However, for proper growth, plants also require an additional 13 secondary and micronutrients, which are typically supplied through organic matter such as compost, crop residues, and animal waste. While chemical fertilizers provide nutrients to the plants, they do not enhance the soil's physical structure or fertility. Therefore, it is important to apply 10–12 cartloads of well-decomposed farmyard manure (FYM) or compost per hectare along with the fertilizers or to grow green manure crops.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 34,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How should biofertilizers be applied in transplanted and direct-seeded rice?\nA: In paddy cultivation, biofertilizers such as Azolla, blue-green algae (BGA), Azotobacter, Azospirillum, and phosphobacteria are used.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 35,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How to use azolla in rice?\nA: Azolla as green manure: About 15–20 days before transplanting, the field is puddled and leveled, and 10–15 cm of standing water is maintained. Then, 2 tons of Azolla per hectare along with 75 kg of single super phosphate (SSP) are applied. Within 15–20 days, Azolla multiplies to 15–20 tons per hectare. At this stage, the field is drained and Azolla is incorporated into the soil by ploughing, after which transplanting is done. Alternatively, Azolla can be cultivated separately in nearby water sources and used as green manure by applying it during puddling before transplanting. This method provides 25–30 kg of nitrogen per hectare and increases yield by 25–30%.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 36,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How to use azolla as dual crop?\nA: Azolla as dual crop: Azolla is applied 7–8 days after transplanting at the rate of 2 tons/ha along with 10 kg SSP. In direct-seeded rice, it can be applied 15 days before weeding. Azolla grows alongside the rice crop and decomposes during weeding or hoeing. It may later die due to lack of sunlight under a dense rice canopy. This method provides 15–20 kg of nitrogen per hectare and enhances yield by 15–20%.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 37,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How to use BGA in rice?\nA: BGA can be applied 7–8 days after transplanting or 15–20 days before weeding. With 10 cm of standing water, 10–15 kg of BGA culture mixed with soil and 500 g SSP is broadcasted. Flooding the field for 3–5 days after application should be avoided, and the field should not be dried for 15 days. BGA does not grow well in acidic soils, so 15–20 kg of lime should be applied 10–12 days before BGA application. BGA contributes 25–30 kg nitrogen per hectare and increases yield by about 15%.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 38,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How to use Rhizobium, azotobacter, and azospirrilum?\nA: Like Rhizobium in legumes, Azotobacter and Azospirillum can be used in non-legume crops such as rice. When the field is moist or has shallow standing water, Azotobacter is used; in puddled conditions, Azospirillum is preferred. These can be applied using three methods: Seed coating: Mix 250 g of biofertilizer culture with 300–400 ml water, mix with 10–12 kg of seed (or seedling roots), allow to dry in shade for half an hour, and then sow or transplant. Root dipping: Mix 2.5 kg of biofertilizer with 25 liters of water to make a 10% suspension, and soak the roots of seedlings for 8–10 hours before transplanting. Soil application: Mix 7.5–10 kg of biofertilizer culture with 250 kg of FYM and broadcast on the field 5–7 days before transplanting, when the soil is moist. The culture can also be applied in furrows or during ploughing. These biofertilizers can provide 15–25 kg nitrogen per hectare and enhance rice yield by 10–15%.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 39,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: It is said that applying blue-green algae (BGA) provides 20–25 kg of nitrogen per hectare. In that case, how much more nitrogen is needed for the rice crop, and at which stages should the fertilizers be applied\nA: If the soil has medium fertility, rice crops typically require 80 kg nitrogen, 40 kg phosphorus, and 40 kg potassium per hectare. During puddling, the entire dose of phosphorus and potassium and 25% of nitrogen should be applied. The remaining nitrogen should be applied in two equal splits—50% at the tillering stage and 25% at the panicle initiation stage. If BGA is applied, then the nitrogen requirement can be reduced by 20–25 kg/ha. The remaining required nitrogen should still be applied in three equal splits: during transplanting, at tillering, and at panicle initiation stages.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 40,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How is compost made from water hyacinth?\nA: Water hyacinth is taken out of water and left to wilt under the sun for 1–2 days. After that, it is stacked in layers to form a compost heap about 4 to 5 feet high. Each layer of water hyacinth is alternated with a layer of cow dung. Cow dung helps the water hyacinth to decompose faster. The final layer is covered with a thin coat of mud. Within about three months, the water hyacinth decomposes completely and is converted into good-quality compost.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 41,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: In some upland fields, the soil appears reddish, the surface water seems oily, the rice plants turn reddish-brown, and growth is poor. What is the remedy for this condition?\nA: This condition usually results from excess iron in the soil. In upland fields where water stagnates, oxygen becomes deficient, making the soil anaerobic. Under such conditions, iron becomes more soluble and toxic to plants. Acidic soils also increase iron solubility. To mitigate the effect of excess iron: (a) Deep drainage channels should be constructed between high and low areas of the field to remove stagnant water. (b) Potassium should be applied at 50% more than the recommended dose, i.e., an additional 20 kg K₂O per hectare (which equals 33 kg of Muriate of Potash). (c) Large quantities of organic manure should be added to the soil. (d) If the soil is acidic, lime should be applied in the recommended dose to neutralize it. (e) Iron-tolerant or resistant rice varieties should be cultivated.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 42,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: If rice plants suffer from moisture stress during the tillering and panicle initiation stages, how should the nitrogen fertilizer be applied? Will there be any benefit if fertilizer is applied after the stress is relieved?\nA: During the tillering and panicle initiation stages of rice, only nitrogen fertilizer (urea) is applied. Phosphorus and potash are applied at the time of planting or transplanting. If moisture stress occurs during tillering or panicle initiation and subsides within a few days without killing the plants, then fertilizer should be applied as per the normal schedule. However, after stress, the crop requires more nitrogen because the plants become weak due to the stress. At that time, the soil moisture may not be sufficient for proper absorption. So, spraying 2% urea solution as foliar spray will be more beneficial.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 43,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Will the application of antitranspirants help if the rice crop faces moisture stress?\nA: There are four types of antitranspirants — those that reflect sunlight, close stomata, form a thin film on leaves, or retard plant growth to reduce transpiration. However, these also reduce photosynthesis along with transpiration. Hence, antitranspirants do not offer significant benefit. Still, in severe drought, to protect the crop from complete failure, antitranspirants like kaolin or atrazine may be used. If the crop survives, it can recover and yield some output using the following rainfall.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 44,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How should fertilizers be applied in a mixed cropping system of rice and arhar (pigeon pea)?\nA: In mixed cropping of rice and arhar, fertilizer application should be based on the number of plants of each crop. Determine the area required in pure cropping to grow the same number of plants, and apply a proportionate amount of fertilizers based on that area. After planting, when applying top-dress nitrogen, if the crops are sown in alternate rows, the fertilizer should be applied only to the rice rows.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 45,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How can I do farming without using chemical fertilizers?\nA: You can switch to organic farming by using compost, green manures, farmyard manure (FYM), and biofertilizers like Azospirillum or Rhizobium. Vermicompost and panchagavya also enrich soil naturally. Crop rotation and intercropping help improve soil fertility. Avoiding chemicals also promotes long-term sustainability and soil health.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 46,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Paddy leaves are drying and turning into straw-like strips, what should I do?\nA: Drying and striping of leaves could be due to fungal infection or potassium deficiency. Apply MOP (Muriate of Potash) at the recommended dose and spray a fungicide like Propiconazole. Ensure adequate water and avoid excess nitrogen. Early treatment will help the plant recover.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 47,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Can Zinc Sulphate be mixed with Gromor and sprayed on paddy?\nA: Yes, Zinc Sulphate can be mixed with Gromor, but care should be taken regarding compatibility. Do a jar test first to check for any adverse reactions. It’s better to apply Zinc Sulphate as a basal or foliar spray separately for better absorption. Always follow recommended doses.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 48,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Can NPK 20-20-0-13 be used instead of DAP?\nA: Yes, NPK 20-20-0-13 can be used as a substitute for DAP as it provides nitrogen and phosphorus. Additionally, it contains sulfur, which is essential for protein formation in plants. Ensure correct application based on soil testing. It is effective during early growth stages.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 49,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the first fertilizer to apply to paddy?\nA: The first fertilizer to apply is usually DAP or NPK with high phosphorus content. It should be applied during land preparation or shortly after transplanting. This helps in strong root development. Incorporating organic matter at this stage also improves soil health.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 50,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What fertilizer should be applied 15 days after transplanting Swarna paddy?\nA: At 15 days after transplanting, you can apply Urea (Nitrogen) for vegetative growth and MOP (Potash) for strengthening plant structure. This stage is ideal for the first top dressing. Make sure the field has adequate moisture before application. Avoid excess nitrogen to prevent pest attack.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 51,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What fertilizer should be applied during puddling (kaduwa)?\nA: During puddling, apply basal fertilizers like DAP or NPK (10:26:26) to supply phosphorus and nitrogen. If organic manure is available, mix it into the soil to enrich nutrient content. This supports seedling establishment and early root development. Use correct doses based on field area.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 52,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the dosage of Nano Urea spray for paddy?\nA: Spray 2–4 ml of Nano Urea per liter of water, depending on crop stage and need. Apply during early vegetative growth and again at panicle initiation stage. Do not mix with pesticides or other micronutrients. One 500 ml bottle can replace 45 kg of conventional urea.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 53,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which fertilizer contains Potash?\nA: Muriate of Potash (MOP) and Sulphate of Potash (SOP) are the main fertilizers containing potassium. NPK blends like 12-32-16 or 20-20-0-13 also contain potassium. Potash improves disease resistance and grain quality. Apply as per crop requirement.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 54,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What should be mixed with fertilizers to enhance effectiveness?\nA: Mixing biofertilizers like Azospirillum or phosphate solubilizing bacteria (PSB) with fertilizers improves nutrient uptake. Use neem-coated urea to reduce nitrogen loss. Ensure fertilizers are applied in moist soil. Avoid mixing incompatible products (e.g., DAP and urea) together.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 55,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How many days after applying fertilizer will plants absorb it?\nA: Fertilizer uptake starts within 1–3 days of application depending on soil moisture and type. Nitrogen is absorbed faster, while phosphorus and potash take a bit longer. Proper irrigation helps in quick nutrient absorption. Foliar sprays work faster than soil applications.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 56,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which fertilizer is needed for good tillering in paddy?\nA: Urea (Nitrogen) is crucial for promoting good tillering in paddy. Apply it during the active tillering stage (15–25 days after transplanting). A combination with potash gives stronger stems and better plant health. Split applications ensure better efficiency.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 57,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which fertilizers will help increase the number of tillers in paddy?\nA: Apply urea for nitrogen along with MOP for potassium during early tillering. You can also spray micronutrients like zinc and iron to support healthy tiller formation. Use proper spacing and water management to maximize the effect. Avoid overcrowding of plants.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 58,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: The paddy crop is weak; what should I apply to strengthen it?\nA: Apply a balanced fertilizer (like NPK 20:20:0 or 12:32:16) and a foliar spray of micronutrients such as zinc, iron, and boron. Weak growth may be due to nutrient deficiency or poor water availability. Apply organic manure or compost to improve soil structure. Monitor for pest or disease stress.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 59,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Can I apply Boron now on the paddy crop?\nA: Yes, Boron can be applied if deficiency symptoms are visible or during reproductive stages to improve flowering and grain setting. Use Borax or Boron 10.5% as a foliar spray (1–1.5 gm per liter). Avoid overuse as Boron is toxic in high doses. Apply during early morning or evening.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 60,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the first fertilizer to apply in the paddy field?\nA: The first fertilizer to apply is usually DAP or NPK (with higher phosphorus) during land preparation or before transplanting. It helps establish strong roots and initial plant vigor. Organic matter like FYM or compost may also be added. Ensure proper mixing with the soil.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 61,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Some paddy plants are growing as single stalks (no tillers), what fertilizer should I apply?\nA: Apply nitrogen-based fertilizer like urea to encourage tillering. Add MOP to support stem strength. Ensure proper water level and spacing. A foliar spray of micronutrients may help stimulate growth in weak plants.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 62,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: It’s been 4 days since weedicide was applied; can I apply fertilizer now?\nA: Yes, fertilizers can be applied after 3–4 days of weedicide use if the crop looks healthy and there are no signs of stress. Ensure the weedicide has dried and is not active. Apply fertilizers during cooler hours with proper moisture in the field. Avoid mixing fertilizers with leftover herbicide solution.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 63,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: It’s been 15 days since transplanting, and no topdressing has been done — what fertilizer should be applied now?\nA: Apply Urea for nitrogen and MOP for potassium to promote tillering and plant strength. This is the ideal time for the first topdressing. Water the field lightly before and after application. Split doses ensure better utilization.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 64,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Can I spray Boron 10.5% on the paddy crop?\nA: Yes, spraying Boron 10.5% is effective if the crop shows signs of deficiency or during flowering. Use 1–1.5 grams per liter of water and avoid spraying in high sunlight. It helps in pollen development and improves grain quality. Apply during early reproductive stages.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 65,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: It rained after the second fertilizer application on paddy — will there be any loss?\nA: If rain occurred within 2–3 hours after application, some nitrogen loss may happen, especially if urea was used. However, deep placement of fertilizer or mild rain may actually help in absorption. Re-application is not needed unless there is heavy runoff. Monitor crop response over the next few days.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 66,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: The expiry date of Nano Urea has passed — can I still use it?\nA: It is not advisable to use Nano Urea after its expiry date as its effectiveness may be reduced. The nutrients may not be absorbed efficiently, and it may harm the crop or environment. Always check the manufacturing and expiry dates before use. Dispose of expired products safely.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 67,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What should I apply as the second dose of fertilizer in paddy?\nA: For the second topdressing (usually around 25–30 days after transplanting), apply Urea (Nitrogen) to promote tillering and MOP (Potash) for stem strength. This stage is crucial for plant growth and root development. Apply when soil is moist, and avoid waterlogging. Use recommended doses based on acreage.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 68,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Why is the paddy plant not growing even after applying fertilizer?\nA: Poor growth despite fertilization could be due to improper timing, water stress, poor soil health, or pest/disease attack. Check for signs of nutrient lock-up, water stagnation, or root damage. Conduct a soil test to verify nutrient availability. Use foliar micronutrient sprays if the root uptake is limited.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 69,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What basal fertilizer should I apply for 28-day-old transplanted seedlings?\nA: Since transplanting was done with 28-day-old seedlings, apply DAP or NPK (10:26:26) as basal fertilizer for root development, along with organic manure if possible. Ensure the field has proper water management. Apply MOP for potassium support. A light dose of Zinc Sulphate can also help.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 70,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What should be the third fertilizer dose for paddy?\nA: The third fertilizer (usually at panicle initiation stage, around 50–55 days) should be a mix of Urea (Nitrogen) and MOP (Potassium). This helps in grain formation and flowering. Avoid over-fertilization during this stage. A micronutrient spray with Boron or Zinc can enhance yield quality.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 71,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: When should the panicle stage (thod) fertilizer be applied?\nA: Apply panicle (thod) fertilizer when the flag leaf appears and panicle initiation begins — usually between 50–60 days after transplanting. This is critical for ensuring good grain setting. Use Urea + MOP, and if possible, add Boron spray. Proper irrigation enhances fertilizer effectiveness.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 72,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: No fertilizer has been applied yet; what should I apply now in paddy?\nA: If no fertilizer has been applied yet, start with a balanced dose of Urea + MOP and optionally DAP or NPK 12:32:16. Include a foliar spray of micronutrients like Zinc and Iron. Apply in split doses to avoid plant shock. Make sure soil is moist and free from standing water.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 73,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: No tillers are emerging in paddy — what should I do?\nA: Lack of tillers could be due to low nitrogen or deep planting. Apply Urea (nitrogen) immediately and ensure proper water level. A light spray of growth stimulants (e.g., GA3 or seaweed extract) can help. Also check for pest/disease affecting roots.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 74,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Can I apply granulated fertilizer 30 days after transplanting?\nA: Yes, applying granulated fertilizers like Urea and MOP at 30 days is suitable. This is the ideal time for second topdressing. Ensure field has sufficient moisture. Avoid applying just before rain to prevent runoff.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 75,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Paddy plants are stunted and weak — what is your advice?\nA: Apply balanced NPK fertilizer along with micronutrients (especially Zinc and Iron). Weakness may be due to poor soil nutrients, pest attack, or water stress. Check for root condition and soil aeration. Use foliar sprays to support immediate recovery.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 76,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What should I apply as the third dose of fertilizer in paddy?\nA: Use Urea (Nitrogen) and MOP (Potassium) for the third fertilizer dose at the booting/panicle stage. These nutrients support flowering and grain filling. Apply in moist soil, ideally before flowering starts. Boron spray can be added for improved pollination.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 77,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How much potash should be applied during panicle stage?\nA: Apply around 12–16 kg MOP per acre during the panicle initiation stage. This helps in grain development and disease resistance. Ensure proper mixing into soil with irrigation. Avoid overuse to prevent lodging.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 78,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What fertilizer should I use during panicle stage in paddy?\nA: Apply Urea + MOP as the main fertilizers. For better flowering and yield, add a Boron foliar spray (Borax 1 gm/L). Use this when the flag leaf starts to appear. Maintain proper field moisture.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 79,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What fertilizer should I use during the grain development (garbha) stage?\nA: During this stage, apply Potassium (MOP) and Boron to improve grain filling and reduce sterility. Use a foliar spray of 0-52-34 (NPK) or Mono Potassium Phosphate (MKP) if available. Ensure good drainage to prevent root rot. Avoid excess nitrogen.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 80,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What should I apply as the final or panicle-stage fertilizer in paddy?\nA: Use Urea (for nitrogen) and MOP (for potassium) as the final fertilizer dose. Add Borax or Boron 10.5% spray to improve flowering and grain quality. Apply before heading begins. Do not apply heavy doses late in crop cycle.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 81,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What fertilizer should I apply when panicle emergence starts?\nA: Use Urea + MOP at recommended rate during panicle initiation (flag leaf visible). This supports proper grain formation and reduces unfilled grains. Include Boron foliar spray for enhanced results. Make sure soil is moist during application.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 82,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How much Nano Urea should be mixed per tank?\nA: Mix 500 ml Nano Urea in 125–150 liters of water (for 1-acre coverage). For a small sprayer tank (15 liters), use 60 ml Nano Urea. Spray during early morning or late afternoon. Do not mix with pesticides or acidic solutions.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 83,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which hormone is suitable for paddy?\nA: Use Gibberellic Acid (GA3) to promote tillering and growth. Cytokinins can be used to stimulate cell division during vegetative stage. Seaweed extract and plant growth regulators also help. Use hormones sparingly and only as per crop requirement.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 84,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: No fertilizer absorbed due to waterlogging — what should I do now?\nA: Drain excess water and allow the soil to aerate. Once the soil is workable, apply Urea + MOP again in recommended doses. Foliar sprays of micronutrients can support recovery during root stress. Avoid over-fertilizing during wet conditions.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 85,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Paddy plant height is increasing too much — what to do?\nA: Excess height is due to too much nitrogen or water. Stop nitrogen application immediately. Apply Potash (MOP) to strengthen stems and prevent lodging. Maintain a shallow water level (2–3 cm) to avoid further elongation.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 86,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: After how many days of micronutrient spray can I apply NPK 0-52-34?\nA: You can apply NPK 0-52-34 (Mono Potassium Phosphate) 4–5 days after micronutrient spray. Avoid overlapping sprays on the same day. Ensure there's no adverse reaction or leaf stress from the first spray. Always spray during cooler parts of the day.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 87,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What fertilizer should be applied at the panicle (thod) stage in paddy?\nA: Apply Urea (Nitrogen) and MOP (Muriate of Potash) during the panicle initiation stage. This helps in proper flowering and grain filling. You can also apply Boron as a foliar spray for better pollination. Apply during moist soil conditions.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 88,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What to do if there is a micronutrient deficiency in paddy?\nA: If micronutrient deficiency is suspected, apply a mixed micronutrient foliar spray containing Zinc, Iron, Manganese, and Boron. Yellowing, stunted growth, or leaf streaks are common deficiency signs. Sprays are more effective than soil application at this stage. Use recommended doses to avoid toxicity.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 89,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which fertilizer should be applied during the panicle stage?\nA: Apply 20–25 kg Urea and 10–12 kg MOP per acre at the panicle stage. A Boron foliar spray (1 g per liter of water) is also beneficial. This supports panicle emergence and grain formation. Apply in the morning or evening to avoid nutrient loss.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 90,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What should be applied as panicle-stage fertilizer in paddy?\nA: Use Urea + MOP, and optionally Mono Potassium Phosphate (MKP) 0-52-34 for better grain quality. Add Borax or Boron 10.5% spray to prevent panicle sterility. Ensure proper field drainage. Fertilizer efficiency increases if applied during early morning hours.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 91,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How to use Nano DAP properly?\nA: Nano DAP should be sprayed (not applied to soil). Mix 2–4 ml Nano DAP per liter of water and spray on the crop. Apply during early growth or tillering stage. Do not mix with acidic pesticides or micronutrients.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 92,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What fertilizer should be applied after weeding in paddy?\nA: Apply Urea (20–25 kg/acre) along with MOP (10–12 kg/acre) after weeding. This supports new tiller formation and recovery. Ensure the soil is moist before application. Avoid nitrogen overuse in early vegetative stages.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 93,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Where can I get soil testing done?\nA: Soil testing can be done at Krishi Vigyan Kendras, District Agriculture Offices, or OUAT Soil Testing Labs. Mobile soil testing vans may also visit villages seasonally. Submit a soil sample from your field and receive recommendations on nutrients and fertilizers.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 94,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: When to give what type of fertilizer in rice?\nA: Fertilizer doses should be applied as per the crop growth stages, determined by the number of days after sowing. The recommended NPK application should be in the form of commonly used fertilizers such as Urea, DAP, and SSP.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 95,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What are the fertilizers used for the nursery bed?\nA: For the nursery bed, apply 2 quintals of well-rotted FYM, 10 kg of DAP, 2 kg of MOP, and 8 kg of ZnSO₄. Seedlings are generally ready for transplanting after 20–25 days. For younger seedlings aged 13–15 days, Varan can be used as a treatment, applied at a rate of 5 kg per 100 liters of water along with 8 kg of VAM in 100 liters of water.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 96,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: f boron deficiency is observed in the field, how should it be corrected?\nA: If during soil test analysis, deficiency of boron has been observed, we can go for application of 2 kg/ha of Borax, If symptoms are seen during the growing stage, then we can go for spraying Borax @ 0.3% before flowering for proper grain development.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 97,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How to suggest farmers to apply fertilizer dose?\nA: Soil testing data can be suggested for the required fertilizer dose, the fertilizer dose for crops varies as per recommendations and should be used accordingly",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 98,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How and when should Azolla be applied in paddy fields?\nA: Apply 4 quintals of Azolla per acre in standing water about 2–3 weeks before transplanting. Maintain a water level of 4–6 inches to allow Azolla to multiply. It enhances soil fertility and fixes nitrogen, reducing the need for chemical fertilizers.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 99,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Seedlings get damaged while uprooting from the nursery. What should I do?\nA: To prevent seedling damage, apply 400 grams of gypsum per 10 decimal nursery area before uprooting. Gypsum improves soil structure and root strength, making seedlings easier to lift and increasing survival during transplanting.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 100,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Is it necessary to apply micronutrients to paddy?\nA: Yes, applying micronutrients boosts crop immunity, improves grain filling, and increases the number of grains per panicle. It helps produce higher-quality yields and strengthens the plant against diseases and adverse conditions, ensuring better productivity.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 101,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Where can I get Dhaincha seeds for green manure?\nA: You can collect Dhaincha seeds from the nearest Agricultural Officer (AO) office, PACS (Primary Agricultural Credit Society), or LAMPS. Dhaincha improves soil health by fixing nitrogen and is an effective green manure crop before rice cultivation.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 102,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Are nano urea and nano DAP effective in paddy cultivation?\nA: Yes, nano urea and nano DAP are highly effective. They offer quick absorption, reduce fertilizer usage, and enhance plant growth in a short time. Their efficiency is higher than conventional fertilizers, making them cost-effective and environmentally friendly.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 103,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Is there any plant hormone that can improve yield during the flowering stage in paddy?\nA: Yes, spraying Fantac Plus @ 1–2 ml per litre of water just before flowering helps boost flowering and grain formation. This hormonal treatment enhances yield by promoting better panicle development and reducing flower drop.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 104,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Why should farmers practice green manuring in paddy fields?\nA: Green manuring, using crops like Dhaincha or Sesbania, improves soil fertility, increases organic matter, fixes nitrogen, and enhances microbial activity. It reduces the dependency on chemical fertilizers and improves soil structure for better root development in rice.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 105,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Why is soil management important in paddy cultivation?\nA: Proper soil management ensures good soil health, better nutrient availability, improved water retention, and reduced erosion. It enhances root development, crop resilience, and overall yield, making it a foundation for sustainable paddy farming.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 106,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is soil health, and why are organic manures important?\nA: Soil health refers to the soil's ability to function naturally and support crops. Organic manures like compost, vermicompost, and green manure improve soil structure, nutrient availability, and microbial activity, ensuring sustainable farming and reducing chemical dependence.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 107,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the most useful fertilizer in managing rice diseases?\nA: Potassium fertilizers help improve plant immunity and reduce disease impact. Also, following 4D management—right dose, method, time, and type—ensures efficient nutrient use and disease control in paddy fields.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 108,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which fertilizers address nitrogen and phosphorus deficiency in rice?\nA: Apply Urea for nitrogen deficiency and DAP (Di-Ammonium Phosphate) for phosphorus deficiency. Timely and balanced application based on soil test results improves plant growth and nutrient uptake.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 109,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What are the recommended practices for organic farming in rice?\nA: Use vermicompost, green manure (Azolla, Sesbania), biofertilizers (Azospirillum, PSB) and natural pest solutions like Nimastra, Brahmastra. Combine with mulching and crop rotation for weed and moisture management. Avoid synthetic chemicals entirely.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 110,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What fertilizer is used to manage zinc deficiency in rice?\nA: For zinc deficiency, apply zinc sulfate @ 25 kg per hectare. It improves tillering, leaf color, and grain filling. Soil application or foliar spray can be done based on severity.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 111,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What are the signs of nitrogen deficiency in rice?\nA: Yellowing of lower leaves, stunted growth, and poor tillering indicate nitrogen deficiency. Apply urea or organic nitrogen sources based on soil test recommendations to correct the imbalance.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 112,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the role of Potassium in rice production?\nA: Potassium improves disease resistance, grain filling, water regulation, and root development. Apply Muriate of Potash (MOP) based on soil test. It also helps crops withstand stress conditions like drought and salinity.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 113,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the importance of zinc in rice farming?\nA: Zinc improves enzyme activity, tillering, leaf growth, and grain formation. Deficiency causes bronzing of leaves and stunted plants. Apply Zinc Sulphate @ 25 kg/ha, especially in zinc-deficient soils.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 114,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How to calculate fertilizer requirement in rice?\nA: Base it on soil testing and yield target. Use the 4R principle – right dose, right source, right time, and right method. Follow state-specific fertilizer recommendations or consult an agronomist.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 115,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How to improve soil health for better rice production?\nA: Apply organic manures, compost, green manure, biofertilizers, and follow crop rotation. Avoid overuse of chemicals. Test soil every 2–3 years and apply lime or gypsum in acidic or saline soils respectively.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 116,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which fertilizer is used during the seedling stage in paddy cultivation?\nA: During the seedling stage of paddy cultivation, Urea and DAP (Di-Ammonium Phosphate) are commonly used. These fertilizers supply essential nitrogen and phosphorus for early root and shoot development. Proper application of these fertilizers helps in strong seedling establishment. It also supports early tillering and healthy plant growth. Applying them at the correct time ensures better yield potential later in the season.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 117,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How much micronutrient fertilizer should be applied per acre and when?\nA: Micronutrient fertilizer like zinc sulphate should be applied at a rate of 5 to 10 kilograms per acre. It is usually applied at the basal stage or within 10 to 15 days after transplanting. Zinc helps in proper root development, tillering, and grain filling. Deficiency of zinc leads to stunted growth and yellowing of leaves. Applying the correct amount at the right time improves overall plant health and productivity.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 118,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How much chemical fertilizer is applied per acre at the final stage of paddy cultivation?\nA: During the final stage of paddy cultivation, usually at the grain-filling stage, around 10 to 15 kilograms of urea per acre is applied. This helps supply the necessary nitrogen to support grain development. Applying the right amount prevents lodging and improves grain quality. Overuse at this stage can cause the plants to become too leafy and delay maturity. Balanced nutrient management ensures better productivity and income.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 119,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which organic pesticides can control pests and diseases in rice?\nA: Neem-based products like neem oil and neem seed kernel extract are effective organic pesticides for rice. These natural solutions can control a variety of pests without harming beneficial insects. Trichoderma is another organic option that helps prevent fungal diseases in the soil. These methods are eco-friendly and promote sustainable farming. Regular use of organic pesticides also reduces resistance in pest populations.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 120,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the seed rate of Dhaincha per acre for green manuring?\nA: For green manuring, the seed rate of Dhaincha (Sesbania aculeata) is 20 kg per acre (i.e., 50 kg per hectare). Seeds should be sown 30–45 days before transplanting paddy and ploughed under once flowering starts.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 121,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Within how many days of transplanting should basal fertilizer be applied in rice?\nA: Basal fertilizer (especially nitrogen, phosphorus, and potassium) should be applied at the time of transplanting or within 5 days after transplanting for effective nutrient uptake.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 122,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the recommended seed rate of Dhaincha green manure per acre?\nA: The seed rate for Dhaincha (Sesbania aculeata) is 20 kg per acre or 50 kg per hectare for green manuring purposes.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 123,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the recommended time for incorporation of Dhaincha (Sesbania) green manure\nA: Dhaincha should be incorporated 40-45 days after sowing, before flowering stage.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 124,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the importance of using dhaincha as green manure?\nA: The application of dhaincha as green manure is essential for improving soil quality. It helps in reducing the dependence on chemical nitrogen fertilizers.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 125,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What crop should be grown after paddy to improve soil fertility and prevent land from becoming fallow?\nA: After harvesting kharif paddy, farmers should grow pulses or oilseed crops. These crops develop root nodules where Rhizobium bacteria reside, which fix atmospheric nitrogen into the soil, enhancing soil fertility.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 126,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How can Integrated Nutrient Management (INM) and Integrated Pest Management (IPM) be promoted among farmers?\nA: INM and IPM can be promoted through awareness campaigns, field-level demonstrations, and by highlighting their role in reducing excessive use of chemical fertilizers and pesticides.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 127,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the integrated approach for managing organic and chemical fertilizers?\nA: An integrated nutrient management approach combines the use of organic fertilizers like compost, farmyard manure, green manure with chemical fertilizers, based on soil test results. This helps improve soil fertility and reduces excessive chemical use.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 128,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the importance of biochar in rice cultivation?\nA: Biochar is crucial in rice cultivation for improving soil health, enhancing yield by up to 10.73%, and reducing environmental impact. It increases nutrient-holding capacity, water retention, and carbon sequestration while reducing greenhouse gas emissions (Carbon dioxide , methane, and nitrous oxide) in paddy soils.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 129,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Which raw materials are commonly used for making biochar?\nA: Biochar is produced by pyrolyzing varied organic biomass, with the most common raw materials being agricultural residues (crop straw, rice husks, corn stover, bagasse), forestry waste (wood chips, sawdust, tree trimmings), and nut shells.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 130,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What are the advantage of biochar application in paddy soils?\nA: Biochar application in paddy soils enhances rice production and sustainability by increasing soil fertility, improving nutrient retention, and reducing methane emissions. Its porous, alkaline structure reduces fertilizer leaching, boosts soil microbial activity, and alleviates soil acidity.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 131,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the recommended dose of biochar for rice cultivation?\nA: The recommended dose of biochar for rice cultivation generally ranges from 5 to 20 tons per hectare.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 132,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: At which stage should biochar preferably be applied in rice fields?\nA: Biochar should preferably be applied to rice fields before planting, during land preparation (basal application), and thoroughly incorporated into the top 10–20 cm of the soil layer.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 133,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How many days before transplanting should biochar be applied?\nA: Biochar should ideally be applied at least 14 days (two weeks) before transplanting to allow it to \"charge\" (absorb nutrients and beneficial microbes) and stabilize within the soil.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 134,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How often should biochar be applied in rice fields?\nA: Biochar is typically applied to rice fields as a one-time, long-term amendment, rather than an annual application, due to its high stability in soil and potential effectiveness for over 20 years. While single applications are common, some studies indicate that continuous, repeated seasonal applications (such as in spring/early season) can further enhance soil nutrient uptake (N, P, K) and significantly reduce methane CH4 and N2O emissions.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 135,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Discuss the importance of proper timing and method of biochar application in rice cultivation?\nA: Proper timing and method of biochar application are critical in rice cultivation because they directly influence soil nutrient availability, greenhouse gas (GHG) emissions, and root development. Because biochar is highly stable and persistent, its initial application method dictates long-term benefits in improving soil quality, while timing ensures compatibility with the rice cropping cycle to avoid initial negative impacts like nutrient immobilization.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 136,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Have you used organic fertilizers before? If yes, which types?\nA: Based on that information, organic fertilizers are derived from natural sources plant, animal, or mineral and are used to improve soil health and provide nutrients. They generally release nutrients slowly and improve soil structure, unlike synthetic fertilizers",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 137,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What is the difference between organic and chemical fertilizers?\nA: Organic fertilizers, derived from natural materials like manure, compost, and bone meal, improve soil health over time by releasing nutrients slowly and supporting microbial activity. Conversely, chemical (synthetic) fertilizers are manufactured from inorganic materials, offering immediate, fast-release nutrients for rapid growth but potentially degrading soil health and environment over time.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 138,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How often do you apply organic manure in a year?\nA: Organic manure is typically applied once or twice a year, usually before planting in the spring or as a top dressing every 2–3 months for intensive, high-nutrient crops. For general garden soil improvement, a single application in late autumn or early spring is standard.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 139,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How do you prepare or procure organic fertilizers?\nA: Preparing organic fertilizers involves turning household, garden, and agricultural waste into nutrient-rich soil amendments through decomposition, while procuring them involves purchasing certified products or sourcing farm-level materials. Key methods include composting, vermicomposting, making liquid fertilizer teas, and utilizing manure.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 140,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: At which crop stage do you apply organic fertilizer?\nA: Organic fertilizer should be applied throughout the growing cycle, starting with pre-planting (soil preparation) for base nutrients, followed by the seedling stage (10-15 days after planting), and finally, during early vegetative growth, flowering, and fruiting stages. Application is typically repeated every 4–6 weeks to support continuous growth.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 141,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Do you combine organic and chemical fertilizers? Why?\nA: Combining organic and chemical fertilizers (integrated nutrient management) is a common practice to balance immediate nutrient needs with long-term soil health. Organic matter improves soil structure and microbial activity, while chemical fertilizers provide fast-acting, concentrated nutrients, resulting in higher nutrient use efficiency and sustainable yields.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 142,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What benefits have you observed after using organic fertilizer?\nA: Based on user experiences and agricultural studies, using organic fertilizers offers significant benefits that focus on long-term soil health, sustainability, and plant resilience, rather than just quick-fix growth.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 143,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Does organic fertilizer affect crop yield? How?\nA: Organic fertilizers significantly improve crop yield by enhancing long-term soil health, fertility, and structure rather than providing an instant nutrient boost. They increase yields by boosting Organic matter, improving water retention, enhancing microbial activity.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 144,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What problems do you face while using organic fertilizers? (Cost, availability, labor, knowledge, etc.)\nA: Using organic fertilizers offers significant long-term benefits for soil health and environmental sustainability, but it presents several practical, economic, and logistical challenges to farmers. The primary issues include higher costs, limited availability, high labor requirements, and a need for specialized knowledge.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 145,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Is organic farming more profitable than conventional farming?\nA: Organic farming is generally more profitable than conventional farming, with studies indicating 22–35% higher profitability due to price premiums for organic products. While organic systems often have lower yields and higher labor costs, they benefit from lower input costs (no synthetic fertilizers/pesticides) and significantly higher market prices.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 146,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: What support do you need from government or organizations for organic farming?\nA: Organic farming requires comprehensive, end-to-end support from governments and organizations, particularly during the initial 3–5 year transition period, to manage lower initial yields, higher labor costs, and certification processes. Key support needed includes financial incentives for inputs, infrastructure development for processing, and simplified certification systems.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 147,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: Would you like to adopt 100% organic farming in the future?\nA: Adopting 100% organic farming in the future is a complex, debated topic with significant, long-term environmental benefits, but also severe short-term challenges regarding productivity and global food security. While many see it as a necessary shift for planetary health, others argue that a total transition is currently unfeasible, favoring instead a hybrid of organic and sustainable, high-tech practices.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 148,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  },
+  {
+   "text": "Q: How to prepare vermicompost or biofertilizers?\nA: Ermicomposting converts organic waste into nutrient-rich fertilizer using earthworms (e.g., Eisenia fetida) in a shady, moist pit or bin. Key steps include setting up a bed with organic waste and cow dung, adding worms, maintaining moisture, and harvesting in 2-3 months. Biofertilizers (e.g., Rhizobium) are created by multiplying microbial cultures in a broth and mixing them with carrier materials.",
+   "metadata": {
+    "content_type": "faq",
+    "qa_index": 149,
+    "origin": "clean_rendering",
+    "summary": true
+   }
+  }
+ ]
+}

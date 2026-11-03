@@ -1,0 +1,70 @@
+{
+ "source": "nitrogen-excess-english.pdf",
+ "sha256": "098a8864607a9f2b0fa5bf9879dd2c99e6c6764e155d6867180478a8574ef2f6",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:48:41",
+ "chunk_count": 5,
+ "chunks": [
+  {
+   "text": "What it does\nWhen plants receive too much Nitrogen (N), they become more attractive to insects and diseases. It can also cause excessive growth and reduce the strength of the stems.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "nitrogen-excess-english.pdf",
+    "page": 1,
+    "section": "What it does"
+   }
+  },
+  {
+   "text": "Why and where it occurs\nProblems in excess N happens where fertilizers are relatively cheap and farmers do not understand the correct amount of N required relative to their yield goals, and the right time of N application.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "nitrogen-excess-english.pdf",
+    "page": 1,
+    "section": "Why and where it occurs"
+   }
+  },
+  {
+   "text": "How to identify\nFields with excessive N have plants that:\n- Look overly green\n- May be healthy, but also may be lodged at maturity (especially in direct-seeded rice)\n- May have thin stems\n- May have increased disease (e.g., bacterial leaf blight, sheath blight, blast) or insects (leaf folder)\nThere can also be patchy patterns resulting from uneven application across the field. Similar symptoms can be caused by Phosphorus (P) deficiency where plants have dark green leaves. However, P deficient plants produce less tillers and have stunted growth. To confirm cause of problem, check the field and/or ask farmer about the rate of N applied.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "nitrogen-excess-english.pdf",
+    "page": 1,
+    "section": "How to identify"
+   }
+  },
+  {
+   "text": "How to manage\n- Apply sufficient N to meet the plants' needs (20 kg N for each ton of grain produced).\n- Identify how much N is coming from the soil and other sources (e.g., water or bacteria in the soil or water) and then apply the additional N to meet the yield goal.\n- Rice Crop Manager (RCM) can be used for better N management.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "nitrogen-excess-english.pdf",
+    "page": 1,
+    "section": "How to manage"
+   }
+  },
+  {
+   "text": "Learn more\nVisit Rice Based Cropping Systems Knowledge Bank www.rkbodisha.in\nwww.rkbodisha.in\nNitrogen amount in field can be identified using the LCC\nPlants with too much nitrogen become overly green",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "nitrogen-excess-english.pdf",
+    "page": 1,
+    "section": "Learn more"
+   }
+  }
+ ]
+}

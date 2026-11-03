@@ -1,0 +1,106 @@
+{
+ "source": "Bina-11.pdf",
+ "sha256": "1260934b43488fca27b0cdd3d41ae57ede8f60242e7dd365313bd4729d8287a3",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:26:24",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "Bina Dhan 11*\n(IR09F436)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Bina-11.pdf",
+    "page": 1,
+    "section": "Bina Dhan 11*"
+   }
+  },
+  {
+   "text": "Product Profile\nBina Dhan 11 is a high-yielding, early-maturing, semi-dwarf, medium-slender variety suitable for rainfed lowland conditions. Developed by BINA in Bangladesh, it was later released in India in 2015 for planting in both wet and dry seasons. This variety exhibits tolerance to leaf blast and sheath blight, and can withstand submergence for up to two weeks, though it is susceptible to stagnant water conditions.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Bina-11.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment-TMeLS-R (Flood Prone)\nPTR, Planting Method = DSR. PTR, Ecosystem = Irrigated Lowland. PTR, Ecosystem = Rainfed Lowland. PTR, Ecosystem = Upland. Recommended, Planting Method = Not Recommended. Recommended, Ecosystem = Not Recommended. Recommended, Ecosystem = Recommended. Recommended, Ecosystem = Not Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Bina-11.pdf",
+    "page": 1,
+    "section": "Priority Market Segment-TMeLS-R (Flood Prone)"
+   }
+  },
+  {
+   "text": "Positioning\nReplace, Irrigated Lowland = None. Replace, Rainfed Lowland = MTU 1010. Replace, Upland = None. Companion, Irrigated Lowland = None. Companion, Rainfed Lowland = MTU 1156. Companion, Upland = None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Bina-11.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Good yield\n- Early maturity\n- Medium slender grain with high weight\n- Semi-dwarf\n- Submergence tolerant, suitable in both kharif and rabi season",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Bina-11.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nBina Dhan 11, Grain yield.(Kg/ha) = 5500-6000. Bina Dhan 11, Grain yield.% Adv = 33. Bina Dhan 11, Maturity (days). = 115-120. Bina Dhan 11, Plant height (cm). = 90-95. Bina Dhan 11, Lodging. = Tolerant. Bina Dhan 11, HRR %. = 60. Bina Dhan 11, 1000 grain weight (g). = 28. Bina Dhan 11, Grain Shape. = MS. MTU 1010, Grain yield.(Kg/ha) = 4000-4500. MTU 1010, Grain yield.% Adv = . MTU 1010, Maturity (days). = 120-125. MTU 1010, Plant height (cm). = 105-108. MTU 1010, Lodging. = Tolerant. MTU 1010, HRR %. = 58. MTU 1010, 1000 grain weight (g). = 25. MTU 1010, Grain Shape. = LS",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Bina-11.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nBina Dhan 11, Leaf blast = Tolerant. Bina Dhan 11, Leaf blight = Tolerant. Bina Dhan 11, Brown plant hopper = Tolerant. Bina Dhan 11, Sheath blight = Tolerant. Bina Dhan 11, Submergence = Tolerant. MTU 1010, Leaf blast = Tolerant. MTU 1010, Leaf blight = Tolerant. MTU 1010, Brown plant hopper = Tolerant. MTU 1010, Sheath blight = Tolerant. MTU 1010, Submergence = Susceptible\nProducibility: Bina Dhan 11= 2400Kgs. / acre\nRecommendation: Released for cultivation in submergence prone medium lands especially in Odisha, West Bengal, Assam and Tripura",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Bina-11.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\n- Susceptible to stagnant water conditions",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Bina-11.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}

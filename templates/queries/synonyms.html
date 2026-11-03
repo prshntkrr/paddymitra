@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% block page_title %}Synonyms{% endblock %}
+{% block content %}
+<style>
+  .sy-wrap { max-width: 940px; }
+  .sy-add { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:12px 0; }
+  .sy-add input[type=text]{ padding:9px 12px; border:1px solid var(--gray-300); border-radius:8px; }
+  .sy-add input.can{ width:240px; } .sy-add input.var{ width:320px; }
+  #sy-filter{ width:100%; max-width:420px; padding:9px 12px; border:1px solid var(--gray-300); border-radius:8px; margin:6px 0 12px; }
+  table.sy { width:100%; border-collapse:collapse; }
+  table.sy th, table.sy td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--gray-200); vertical-align:top; }
+  table.sy th { position:sticky; top:0; background:#fff; }
+  .sy-can { font-weight:600; white-space:nowrap; }
+  .sy-chip { display:inline-block; background:var(--gray-100); border:1px solid var(--gray-300);
+             border-radius:999px; padding:2px 8px; margin:2px 3px 2px 0; font-size:12.5px; }
+  .sy-chip button { border:0; background:none; color:#b91c1c; cursor:pointer; padding:0 0 0 5px; font-size:13px; }
+  .sy-warn { background:#FEF3C7; border:1px solid #F59E0B; border-radius:8px; padding:10px 12px; margin:10px 0; font-size:13px; }
+</style>
+
+<div class="sy-wrap">
+  <h3>Synonyms
+    <span style="color:var(--gray-500);font-weight:400;">({{ count }} terms, {{ variant_count }} variants)</span>
+  </h3>
+  <p style="color:var(--gray-500);font-size:13px;">
+    Many spellings → one canonical term. Every variant listed here is rewritten to the canonical
+    term in the farmer's question, in Odia script <em>and</em> in English, before the documents are
+    searched. Saving takes effect immediately.
+  </p>
+
+  {% if missing %}
+  <div class="sy-warn">
+    <strong>These canonical terms do not appear in the indexed documents:</strong>
+    {{ missing|join:", " }}.<br>
+    A canonical term the documents never use points the search at nothing — the synonym will not
+    help. Change it to the wording the documents actually use, or re-index.
+  </div>
+  {% endif %}
+
+  <form method="post" class="sy-add">
+    {% csrf_token %}
+    <input type="hidden" name="action" value="upsert">
+    <input type="text" class="can" name="canonical" id="f-can" list="sy-canon"
+           placeholder="Canonical term (e.g. Azolla)" required>
+    <datalist id="sy-canon">
+      {% for canonical, variants in terms %}<option value="{{ canonical }}">{% endfor %}
+    </datalist>
+    <input type="text" class="var" name="variant" id="f-var"
+           placeholder="Variant spelling (ଅଜୋଲା, azola, ajwala …)" required>
+    <button type="submit" class="btn btn-success">Add variant</button>
+  </form>
+  <p style="color:var(--gray-500);font-size:12.5px;margin-top:-4px;">
+    Pick an existing canonical term from the list to extend it, or type a new one to start a new set.
+  </p>
+
+  {# One shared delete form for the whole table (JS fills it in) rather than a #}
+  {# form + CSRF token per chip. #}
+  <form method="post" id="sy-del-form" style="display:none">
+    {% csrf_token %}
+    <input type="hidden" name="action" value="delete">
+    <input type="hidden" name="canonical" id="sy-del-can">
+    <input type="hidden" name="variant" id="sy-del-var">
+  </form>
+
+  <input type="text" id="sy-filter" placeholder="Search terms or variants..." onkeyup="syFilter()">
+
+  <table class="sy" id="sy-table">
+    <thead><tr><th style="width:200px;">Canonical</th><th>Variants</th></tr></thead>
+    <tbody>
+      {% for canonical, variants in terms %}
+      <tr data-s="{{ canonical|lower }} {{ variants|join:' '|lower }}">
+        <td class="sy-can">{{ canonical }}</td>
+        <td>
+          {% for v in variants %}
+          <span class="sy-chip">{{ v }}<button type="button" class="sy-del"
+                data-can="{{ canonical }}" data-var="{{ v }}" title="Remove">&times;</button></span>
+          {% endfor %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  function syFilter() {
+    var q = document.getElementById('sy-filter').value.toLowerCase();
+    var rows = document.querySelectorAll('#sy-table tbody tr');
+    for (var i = 0; i < rows.length; i++) {
+      rows[i].style.display = rows[i].dataset.s.indexOf(q) === -1 ? 'none' : '';
+    }
+  }
+  // Event delegation: one listener for every remove button.
+  document.getElementById('sy-table').addEventListener('click', function (e) {
+    var b = e.target.closest('.sy-del');
+    if (!b) return;
+    if (!confirm('Remove "' + b.dataset.var + '" from ' + b.dataset.can + '?')) return;
+    document.getElementById('sy-del-can').value = b.dataset.can;
+    document.getElementById('sy-del-var').value = b.dataset.var;
+    document.getElementById('sy-del-form').submit();
+  });
+</script>
+{% endblock %}

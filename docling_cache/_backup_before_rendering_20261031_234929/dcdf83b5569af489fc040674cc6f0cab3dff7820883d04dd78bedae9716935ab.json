@@ -1,0 +1,115 @@
+{
+ "source": "MTU-1223.pdf",
+ "sha256": "dcdf83b5569af489fc040674cc6f0cab3dff7820883d04dd78bedae9716935ab",
+ "ocr": false,
+ "table_mode": "fast",
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T18:14:56",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "MTU 1223 (Varsha)\n(MTU 1081/MTU 1064)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "MTU-1223.pdf",
+    "page": 1,
+    "section": "MTU 1223 (Varsha)"
+   }
+  },
+  {
+   "text": "Product Profile\nMTU-1223 (VARSHA), a high-yielding, late-maturing variety with medium-slender grains, was developed through pedigree breeding by ANGRAU University (Maruteru) in 2019. Specifically recommended for rainfed shallow lowland ecologies in Odisha and Bihar, this variety matures in 150 days and can yield an average of 6 tons per hectare. MTU-1223 exhibits moderate tolerance to bacterial leaf blight, leaf blast, neck blast, and stem borer, enhancing its resilience to common pests and diseases.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "MTU-1223.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment - TLaMF-R/I\nRecommended, Planting Method.DSR = Not Recommended. Recommended, Ecosystem.Irrigated Lowland = Not Recommended. Recommended, Ecosystem.Rainfed Lowland = Recommended. Recommended, Ecosystem.Upland = Not Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "MTU-1223.pdf",
+    "page": 1,
+    "section": "Priority Market Segment - TLaMF-R/I"
+   }
+  },
+  {
+   "text": "Positioning\nPosition, 1 = Irrigated Lowland. Position, 2 = Rainfed Lowland. Position, 3 = Upland. Replace, 1 = None. Replace, 2 = Pooja. Replace, 3 = None. Companion, 1 = None. Companion, 2 = CR Dhan 508. Companion, 3 = None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "MTU-1223.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Good yield\n- Medium height; Sturdy stem\n- Profuse tillering and compact panicles\n- Resistant to Blast and BLB\n- Low shattering of grains (<2%)\n- Highly translucent kernels with high head rice recovery of 64%",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "MTU-1223.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nMTU 1223 (Varsha), Grain yield (Kg/ha) = 6000-6500. MTU 1223 (Varsha), % Adv = 8. MTU 1223 (Varsha), Maturity (days) = 145-150. MTU 1223 (Varsha), Plant height (cm) = 115-120. MTU 1223 (Varsha), Lodging = Tolerant. MTU 1223 (Varsha), HRR % = 64. MTU 1223 (Varsha), 1000 grain weight (g) = 18. MTU 1223 (Varsha), Grain Shape = MS. Pooja, Grain yield (Kg/ha) = 5000-6000. Pooja, % Adv = -. Pooja, Maturity (days) = 150-155. Pooja, Plant height (cm) = 90-95. Pooja, Lodging = Susceptible. Pooja, HRR % = 54. Pooja, 1000 grain weight (g) = 20. Pooja, Grain Shape = MS",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "MTU-1223.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nPooja, Leaf blast.Tolerant = Tolerant. Pooja, Leaf blight.Tolerant = Susceptible. Pooja, Sheath blight.Tolerant = Susceptible. Pooja, BPH.Tolerant = Susceptible\nProducibility:\nRecommendation: MTU 1223 (Varsha)= 2400Kgs. / acre\nReleased for cultivation in Bihar and Odisha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "MTU-1223.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\n- Late maturity",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "fast",
+    "source_file": "MTU-1223.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}

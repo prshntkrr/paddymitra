@@ -1,0 +1,106 @@
+{
+ "source": "CR-Dhan-311.pdf",
+ "sha256": "f50fd803551883057a3e93d775bf43e3f6def6a405de99dfb8de00953d11bb2a",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:31:10",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "CR Dhan 311\n(ARC10075/Naveen) (IET 24772: CR2829-PLN-100)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-311.pdf",
+    "page": 1,
+    "section": "CR Dhan 311"
+   }
+  },
+  {
+   "text": "Product Profile\nCR Dhan 311, released by NRRI, Cuttack for Odisha, stands out as a nutrient-rich rice variety, duly notified by the Government of India. Notable for its high protein content (10.1%) and moderately high level of zinc content (20 ppm) in polished rice, it addresses crucial nutritional needs. With a medium duration of 120-125 days and semi-dwarf plant type reaching 110-115 cm, it features long bold grains and exhibits excellent cooking and eating quality. While the national average grain yield is recorded at 4.3 tons per hectare, in Odisha, it rises impressively to 5.5 tons per hectare.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-311.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment-TMeM-R (Protein Rich Variety)\nPTR, Planting Method = DSR. PTR, Ecosystem = Irrigated Lowland. PTR, Ecosystem = Rainfed Lowland. PTR, Ecosystem = Upland. Recommended, Planting Method = Not Recommended. Recommended, Ecosystem = Recommended. Recommended, Ecosystem = Not Recommended. Recommended, Ecosystem = Not Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-311.pdf",
+    "page": 1,
+    "section": "Priority Market Segment-TMeM-R (Protein Rich Variety)"
+   }
+  },
+  {
+   "text": "Positioning\nReplace, Irrigated Lowland = CR Dhan 303. Replace, Rainfed Lowland = None. Replace, Upland = None. Companion, Irrigated Lowland = CR 310 Dhan. Companion, Rainfed Lowland = None. Companion, Upland = None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-311.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Contain 10.1% protein and 20 ppm Zn in polished grain\n- Compact and well-exerted panicle\n- High test weight",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-311.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nCR Dhan 311, Grain yield.(Kg/ha) = 4300-5500. CR Dhan 311, Grain yield.% Adv = 22. CR Dhan 311, Maturity (days). = 120-125. CR Dhan 311, Plant height (cm). = 110-115. CR Dhan 311, Lodging. = Tolerant. CR Dhan 311, 1000 g weight (g). = 26. CR Dhan 311, HRR %. = 60. CR Dhan 311, Grain Shape. = LB. CR Dhan 303, Grain yield.(Kg/ha) = 4000-4500. CR Dhan 303, Grain yield.% Adv = . CR Dhan 303, Maturity (days). = 120-125. CR Dhan 303, Plant height (cm). = 105-110. CR Dhan 303, Lodging. = Tolerant. CR Dhan 303, 1000 g weight (g). = 24. CR Dhan 303, HRR %. = 65. CR Dhan 303, Grain Shape. = SB",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-311.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nCR Dhan 311, Neck blast = Tolerant. CR Dhan 311, Brown spot = Tolerant. CR Dhan 311, Sheath rot = Tolerant. CR Dhan 311, Leaf folder = Tolerant. CR Dhan 303, Neck blast = Tolerant. CR Dhan 303, Brown spot = Tolerant. CR Dhan 303, Sheath rot = Tolerant. CR Dhan 303, Leaf folder = Tolerant\nProducibility:\nCR Dhan 311:= 2200 Kgs. / acre\nRecommendation:\nOdisha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-311.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\n- Long bold grain",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-311.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}

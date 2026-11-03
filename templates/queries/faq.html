@@ -1,0 +1,201 @@
+{% extends 'base.html' %}
+{% block page_title %}FAQ{% endblock %}
+{% block content %}
+<style>
+  .fq-wrap { max-width: 1040px; }
+  .fq-stats { color:var(--gray-500); font-weight:400; }
+  .fq-note { color:var(--gray-500); font-size:13px; }
+  .fq-warn { background:#FEF3C7; border:1px solid #F59E0B; border-radius:8px;
+             padding:10px 12px; margin:10px 0; font-size:13px; }
+  .fq-form { border:1px solid var(--gray-300); border-radius:10px; padding:14px; margin:14px 0; }
+  .fq-form label { display:block; font-size:12.5px; font-weight:600; margin:8px 0 3px; }
+  .fq-form input[type=text], .fq-form textarea, .fq-form select {
+      width:100%; padding:9px 12px; border:1px solid var(--gray-300); border-radius:8px;
+      font-family:inherit; font-size:14px; }
+  .fq-form textarea { min-height:70px; resize:vertical; }
+  .fq-row { display:flex; gap:12px; flex-wrap:wrap; }
+  .fq-row > div { flex:1 1 240px; }
+  .fq-actions { margin-top:12px; display:flex; gap:8px; align-items:center; }
+  #fq-filter { width:100%; max-width:420px; padding:9px 12px;
+               border:1px solid var(--gray-300); border-radius:8px; margin:6px 0 12px; }
+  table.fq { width:100%; border-collapse:collapse; }
+  table.fq th, table.fq td { text-align:left; padding:9px 10px;
+                             border-bottom:1px solid var(--gray-200); vertical-align:top; }
+  table.fq th { position:sticky; top:0; background:#fff; }
+  .fq-q { font-weight:600; }
+  .fq-a { color:var(--gray-600); font-size:13px; }
+  .fq-local { font-size:13px; }
+  .fq-meta { color:var(--gray-500); font-size:12px; margin-top:3px; }
+  .fq-pill { display:inline-block; border-radius:999px; padding:1px 8px; font-size:11.5px;
+             border:1px solid var(--gray-300); background:var(--gray-100); }
+  .fq-pill.live { background:#DCFCE7; border-color:#16A34A; color:#166534; }
+  .fq-pill.off  { background:var(--gray-100); color:var(--gray-500); }
+  tr.retired td { opacity:.6; }
+  .fq-inline { display:inline; }
+  .fq-linkbtn { border:0; background:none; padding:0 6px; cursor:pointer;
+                font-size:12.5px; color:var(--primary, #2563eb); }
+  .fq-linkbtn.danger { color:#b91c1c; }
+</style>
+
+<div class="fq-wrap">
+  <h3>FAQ
+    <span class="fq-stats">({{ active_count }} live of {{ count }} · {{ served }} question{{ served|pluralize }} answered)</span>
+  </h3>
+  <p class="fq-note">
+    A question that matches an entry here is answered from it <strong>directly</strong> — the
+    documents are not searched and no answer is generated, so the same question always gets the
+    same words. Matching is on the <em>English</em> question: an exact match first, then a close
+    paraphrase. Entries also appear here automatically when a query's feedback is set to
+    <strong>Good</strong>; changing that feedback again retires the entry.
+  </p>
+
+  {% if unembedded %}
+  <div class="fq-warn">
+    <strong>{{ unembedded|length }} live entr{{ unembedded|length|pluralize:"y,ies" }} ha{{ unembedded|length|pluralize:"s,ve" }} no question vector.</strong>
+    Those can only be matched word-for-word, which almost never happens in practice. This usually
+    means the embedding service was unreachable when they were saved.
+    <form method="post" action="{% url 'queries:faq_reembed' %}" class="fq-inline">
+      {% csrf_token %}<button type="submit" class="btn btn-xs btn-secondary">Re-embed all</button>
+    </form>
+  </div>
+  {% endif %}
+
+  <form method="post" class="fq-form" id="fq-form">
+    {% csrf_token %}
+    <input type="hidden" name="action" value="save">
+    <input type="hidden" name="pk" id="fq-pk" value="">
+    <strong id="fq-form-title">Add an FAQ</strong>
+
+    <label for="fq-question-en">Question (English) — this is what new questions are matched against</label>
+    <input type="text" name="question_en" id="fq-question-en" required
+           placeholder="How much DAP should be applied per acre for rice?">
+
+    <label for="fq-question-local">Question as the farmer asks it (optional)</label>
+    <input type="text" name="question_local" id="fq-question-local"
+           placeholder="ଧାନରେ ଏକର ପ୍ରତି କେତେ ଡିଏପି ଦେବି?">
+
+    <label for="fq-answer-en">Answer (English)</label>
+    <textarea name="answer_en" id="fq-answer-en"
+              placeholder="Apply 35 kg of DAP per acre at sowing."></textarea>
+
+    <label for="fq-answer-local">Answer in Odia (optional) — used exactly as written, including for the audio</label>
+    <textarea name="answer_local" id="fq-answer-local"
+              placeholder="ବୁଣା ସମୟରେ ଏକର ପ୍ରତି ୩୫ କିଲୋଗ୍ରାମ ଡିଏପି ସାର ପ୍ରୟୋଗ କରନ୍ତୁ।"></textarea>
+    <p class="fq-note" style="margin:4px 0 0;">
+      An English question and English answer are enough — leave this empty and the answer is
+      translated on each use. Filling it in is better where you can: the wording you approved is
+      then exactly what the farmer hears, every time.
+    </p>
+
+    <div class="fq-actions">
+      <button type="submit" class="btn btn-success">Save FAQ</button>
+      <button type="button" class="btn btn-secondary" id="fq-cancel" style="display:none;">Cancel edit</button>
+    </div>
+  </form>
+
+  {# One shared form for delete / retire, so the table needs no CSRF token per row. #}
+  <form method="post" id="fq-act-form" style="display:none;">
+    {% csrf_token %}
+    <input type="hidden" name="action" id="fq-act">
+    <input type="hidden" name="pk" id="fq-act-pk">
+  </form>
+
+  <form method="get" style="margin:0;">
+    <input type="text" id="fq-filter" name="q" value="{{ search }}"
+           placeholder="Search questions… (press Enter)">
+  </form>
+
+  <table class="fq" id="fq-table">
+    <thead>
+      <tr>
+        <th style="width:44%;">Question</th>
+        <th>Answer</th>
+        <th style="width:150px;">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for f in faqs %}
+      <tr class="{% if not f.is_active %}retired{% endif %}">
+        <td>
+          <div class="fq-q">{{ f.question_en }}</div>
+          {% if f.question_local %}<div class="fq-local">{{ f.question_local }}</div>{% endif %}
+          <div class="fq-meta">
+            FAQ-{{ f.pk }}
+            {% if f.catalogue %}· {{ f.catalogue.name }}{% endif %}
+            {% if f.source_query_id %}· from <a href="{% url 'queries:detail' f.source_query_id %}">Q-{{ f.source_query_id }}</a>{% else %}· added by hand{% endif %}
+            {% if f.hit_count %}· answered {{ f.hit_count }}×{% endif %}
+          </div>
+        </td>
+        <td>
+          {% if f.answer_local %}<div class="fq-local">{{ f.answer_local }}</div>{% endif %}
+          {% if f.answer_en %}<div class="fq-a">{{ f.answer_en }}</div>{% endif %}
+        </td>
+        <td>
+          {% if f.is_active %}<span class="fq-pill live">Live</span>
+          {% else %}<span class="fq-pill off">Retired</span>{% endif %}
+          {% if f.is_active and not f.question_embedding %}
+            <span class="fq-pill" title="Only an exact wording match can hit this entry.">no vector</span>
+          {% endif %}
+          <div style="margin-top:6px;">
+            <button type="button" class="fq-linkbtn fq-edit"
+                    data-pk="{{ f.pk }}"
+                    data-qen="{{ f.question_en }}"
+                    data-qlocal="{{ f.question_local }}"
+                    data-aen="{{ f.answer_en }}"
+                    data-alocal="{{ f.answer_local }}">Edit</button>
+            <button type="button" class="fq-linkbtn fq-toggle" data-pk="{{ f.pk }}">
+              {% if f.is_active %}Retire{% else %}Make live{% endif %}
+            </button>
+            <button type="button" class="fq-linkbtn danger fq-delete" data-pk="{{ f.pk }}">Delete</button>
+          </div>
+        </td>
+      </tr>
+      {% empty %}
+      <tr><td colspan="3" style="color:var(--gray-500);">
+        No FAQs yet. Add one above, or set a query's feedback to <strong>Good</strong> and it will
+        appear here.
+      </td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  (function () {
+    var form = document.getElementById('fq-form');
+    var cancel = document.getElementById('fq-cancel');
+
+    function setField(id, v) { document.getElementById(id).value = v || ''; }
+
+    document.getElementById('fq-table').addEventListener('click', function (e) {
+      var edit = e.target.closest('.fq-edit');
+      if (edit) {
+        setField('fq-pk', edit.dataset.pk);
+        setField('fq-question-en', edit.dataset.qen);
+        setField('fq-question-local', edit.dataset.qlocal);
+        setField('fq-answer-en', edit.dataset.aen);
+        setField('fq-answer-local', edit.dataset.alocal);
+        document.getElementById('fq-form-title').textContent = 'Edit FAQ-' + edit.dataset.pk;
+        cancel.style.display = '';
+        form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
+
+      var act = e.target.closest('.fq-toggle') || e.target.closest('.fq-delete');
+      if (!act) return;
+      var isDelete = act.classList.contains('fq-delete');
+      if (isDelete && !confirm('Delete this FAQ permanently? Retiring it keeps it for later.')) return;
+      document.getElementById('fq-act').value = isDelete ? 'delete' : 'toggle';
+      document.getElementById('fq-act-pk').value = act.dataset.pk;
+      document.getElementById('fq-act-form').submit();
+    });
+
+    cancel.addEventListener('click', function () {
+      form.reset();
+      setField('fq-pk', '');
+      document.getElementById('fq-form-title').textContent = 'Add an FAQ';
+      cancel.style.display = 'none';
+    });
+  })();
+</script>
+{% endblock %}

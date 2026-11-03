@@ -1,0 +1,105 @@
+{
+ "source": "IRRI 147 Low GI.pdf",
+ "sha256": "cc672be0945a2f23a8b378c866440286c6dd19ab21425392f03d96c8ffa58e69",
+ "ocr": true,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:07:27",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "DRR Dhan 81 is a high yielding submergencetolerant rice variety with a medium-short duration of 120-130 days. It is suitable for medium shallow lowlands and can be grown during both kharif and rabi seasons. The variety has intermediate plant height (107-115 cm), strong lodging-resistant culms, and mediumslender good quality grains. Average yield is 4– 4.5 t/ha, with a yield advantage of 1-3 t/ha under flood stress. It can tolerate flooding for up to two weeks and allows scope for a second crop like vegetables or potatoes after early harvest.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": true,
+    "source_file": "IRRI 147 Low GI.pdf",
+    "page": 1
+   }
+  },
+  {
+   "text": "CROP ESTABLISHMENT\nDRR Dhan 81 can be grown as direct seeded rice (DSR) or transplanted rice. Seed rate is 60 kg/ha for line-sown DSR, 70 kg/ha for broadcasting, and 40 kg seed per 1000 m² nursery for transplanting one hectare. Transplant 20-25 day old seedlings (2-3 seedlings per hill) at a spacing of 20 × 10 cm. Mechanical transplanting and drum seeding help save time, labor, and cost.\nUse certified quality seed. Remove damaged seeds by soaking and treat healthy seeds with Trichoderma (10 g/kg) in disease-prone areas. Apply compost before ploughing. Proper ploughing, puddling, and leveling help conserve water and reduce weed infestation.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": true,
+    "source_file": "IRRI 147 Low GI.pdf",
+    "page": 1,
+    "section": "CROP ESTABLISHMENT"
+   }
+  },
+  {
+   "text": "NUTRIENT MANAGEMENT\nFollow Site-Specific Nutrient Management using IRRI's Rice Crop Manager (RCM). Apply full dose of phosphorus and potassium at land preparation and nitrogen in three splits (seedling, active tillering, and panicle initiation). If submergence occurs, apply 20 kg N/ha 5-7 days after water recedes to aid crop recovery.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": true,
+    "source_file": "IRRI 147 Low GI.pdf",
+    "page": 1,
+    "section": "NUTRIENT MANAGEMENT"
+   }
+  },
+  {
+   "text": "WEED, WATER & PEST MANAGEMENT\nUse pre- and post-emergence herbicides in DSR along with manual or mechanical weeding. Maintain 3-5 cm water level in transplanted fields and follow alternate wetting and drying where water supply is assured. Critical water stages are panicle initiation, booting, heading, and flowering. Adopt IPM practices and avoid excess nitrogen to control pests and diseases.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": true,
+    "source_file": "IRRI 147 Low GI.pdf",
+    "page": 1,
+    "section": "WEED, WATER & PEST MANAGEMENT"
+   }
+  },
+  {
+   "text": "HARVESTING\nHarvest the crop when about 80% of the panicles turn straw-colored. Dry the grains to around 12% moisture for safe storage. Mechanized harvesting reduces labor and time.\nIRRI 147 has been successfully cultivated across several districts of Odisha, demonstrating strong yield performance and adaptability. In Kalahandi, cultivation over 223 acres resulted in 400 MT of production. Balangir recorded 90 MT from 50 acres, while Ganjam achieved 95 MT from 53 acres. In Khordha, 6.5 acres produced 11 MT, and Puri recorded 4.5 MT from 2.5 acres. Overall, the results highlight IRRI 147 as a high-performing variety with strong potential for scale-up and wider adoption across the state.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": true,
+    "source_file": "IRRI 147 Low GI.pdf",
+    "page": 1,
+    "section": "HARVESTING"
+   }
+  },
+  {
+   "text": "ABOUT US ABOUT US\nWe are the International Rice Research Institute (IRRI), a global research-fordevelopment organization under One CGIAR, committed to transforming rice-based agrifood systems to improve livelihoods, nutrition, and environmental sustainability. In Odisha, IRRI works closely with the Department of Agriculture & Farmers' Empowerment and the Mission Shakti Department to promote end-to-end rice value chains-from quality seed to markets. Our initiatives emphasize climate-resilient and low glycemic index, nutrition-rich rice varieties, value addition, and inclusive models that empower farmers, women-led FPCs, and rural communities while supporting equitable growth and climate adaptation.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": true,
+    "source_file": "IRRI 147 Low GI.pdf",
+    "page": 2,
+    "section": "ABOUT US ABOUT US"
+   }
+  },
+  {
+   "text": "Dr. Priyabrata Roy\nAssistant Manager- Project Coordination, Monitoring & Research\nInternational Rice Research Institute (IRRI)\nE-mail: Priyabrata.roy@cgiar.org\nCERVA Products & Services:\nirri-cerva@cgiar.org",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": true,
+    "source_file": "IRRI 147 Low GI.pdf",
+    "page": 2,
+    "section": "Dr. Priyabrata Roy"
+   }
+  },
+  {
+   "text": "Rice science for a better world\nIntegrated Package of Agronomic Practices for Climate-Resilient Low Glycemic Index Rice - IRRI 147\nDRR Dhan 81 is a high-yielding, submergence-tolerant rice variety with medium-short duration, ideal for floodprone lowlands. Its grains are low glycemic index (Gl 55–60), helping manage blood sugar and promoting healthier diets. Cultivating low-Gl rice globally supports nutrition security, diabetes prevention, and sustainable food systems.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": true,
+    "source_file": "IRRI 147 Low GI.pdf",
+    "page": 2,
+    "section": "Rice science for a better world"
+   }
+  }
+ ]
+}

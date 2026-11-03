@@ -1,0 +1,202 @@
+[
+  {
+    "initial_question": "How much fertilizer do I need for my one-acre paddy field?",
+    "follow_up_question": "Which district are you in? Which variety and crop duration are you growing? Are you transplanting or direct seeding? Have you already applied any fertilizer?"
+  },
+  {
+    "initial_question": "How much urea is required for one acre of paddy?",
+    "follow_up_question": "What is your paddy variety? What is the current crop stage? Have you applied DAP, NPK, or any other nitrogen-containing fertilizer?"
+  },
+  {
+    "initial_question": "How much DAP should I apply to one acre?",
+    "follow_up_question": "What is your district? Do you have soil test results? Have you applied any basal fertilizer or organic manure?"
+  },
+  {
+    "initial_question": "How much potash (MOP) is required for one acre?",
+    "follow_up_question": "Do you have a soil test report? What fertilizer recommendation are you following? Have you already applied any potassium fertilizer?"
+  },
+  {
+    "initial_question": "What is the complete NPK fertilizer dose for my paddy?",
+    "follow_up_question": "Which variety are you growing? What is your land area? What are your soil test results, if available? What fertilizers have already been applied?"
+  },
+  {
+    "initial_question": "How much fertilizer do I need for half an acre?",
+    "follow_up_question": "Which crop and variety are you growing? What fertilizer rate has been recommended per hectare? Have you applied any fertilizer already?"
+  },
+  {
+    "initial_question": "How much fertilizer is required for two acres?",
+    "follow_up_question": "Is the entire area under the same variety and crop stage? What is the recommended nutrient dose? Have you already applied fertilizer to any part of the field?"
+  },
+  {
+    "initial_question": "How much urea should I apply if I have already used DAP?",
+    "follow_up_question": "How much DAP did you apply? What is your land area? What is the crop stage? Did you use any other fertilizer containing nitrogen?"
+  },
+  {
+    "initial_question": "Can you calculate fertilizer quantities from my soil test report?",
+    "follow_up_question": "Can you share the soil test values or a clear photo of the report? What is your district, crop variety, and land area?"
+  },
+  {
+    "initial_question": "How much fertilizer should I buy for the entire season?",
+    "follow_up_question": "What is your total cultivated area? Which variety are you growing? What local fertilizer recommendation are you following? Have you already purchased or applied any fertilizer?"
+  },
+  {
+    "initial_question": "When should I apply the first dose of fertilizer?",
+    "follow_up_question": "Is the crop directly seeded or transplanted? When was it sown or transplanted? Have you applied any basal fertilizer?"
+  },
+  {
+    "initial_question": "When should I apply the second dose of fertilizer?",
+    "follow_up_question": "How many days after transplanting are the plants? What fertilizer was applied initially? Are the plants actively tillering?"
+  },
+  {
+    "initial_question": "When should I apply the third dose of fertilizer?",
+    "follow_up_question": "What is the current crop stage? Has panicle initiation started? What nitrogen doses have already been applied?"
+  },
+  {
+    "initial_question": "How should I divide fertilizer into three doses?",
+    "follow_up_question": "What is your recommended total nutrient dose? Which fertilizers are available? What is your crop establishment method and current stage?"
+  },
+  {
+    "initial_question": "Can I apply all the urea at one time?",
+    "follow_up_question": "What is your land area? What is the total recommended nitrogen dose? What is the crop stage? Have you already applied nitrogen?"
+  },
+  {
+    "initial_question": "Can I apply urea after 30 days of transplanting?",
+    "follow_up_question": "When exactly did you transplant? What is the variety duration? What is the current crop stage? How much nitrogen has already been applied?"
+  },
+  {
+    "initial_question": "Can I apply fertilizer during flowering?",
+    "follow_up_question": "Has flowering started, or is the crop at panicle initiation? What fertilizer do you want to apply? What doses have already been applied?"
+  },
+  {
+    "initial_question": "Can I apply fertilizer immediately after transplanting?",
+    "follow_up_question": "How many days ago were the seedlings transplanted? Was basal fertilizer applied? Is the field water level suitable for the intended application?"
+  },
+  {
+    "initial_question": "I missed the second fertilizer dose. What should I do?",
+    "follow_up_question": "How many days has it been since transplanting? What is the current crop stage? Which fertilizer dose was missed? What fertilizer was applied earlier?"
+  },
+  {
+    "initial_question": "Should I apply fertilizer after heavy rain?",
+    "follow_up_question": "How much rain occurred? Is water still standing in the field? What crop stage are you at? Which fertilizer and quantity were applied before the rain?"
+  },
+  {
+    "initial_question": "My paddy leaves are turning yellow. Should I apply urea?",
+    "follow_up_question": "Are older or younger leaves turning yellow? Is the yellowing across the whole field or in patches? What is the crop age? Have you applied urea recently?"
+  },
+  {
+    "initial_question": "My paddy plants are not growing properly. Which fertilizer should I use?",
+    "follow_up_question": "What is the crop age? Are the plants stunted throughout the field or only in patches? What fertilizer have you applied? Is water management satisfactory?"
+  },
+  {
+    "initial_question": "My paddy has fewer tillers. Should I apply more urea?",
+    "follow_up_question": "What is the current crop stage? How many tillers are present approximately? What is the variety? How much nitrogen has already been applied?"
+  },
+  {
+    "initial_question": "The leaf tips are drying. Which fertilizer is needed?",
+    "follow_up_question": "Are only the leaf tips affected or are the margins also drying? Are older or younger leaves affected? Is the field dry, flooded, or affected by salinity? Can you share a photo?"
+  },
+  {
+    "initial_question": "My paddy leaves have brown spots. Should I apply potash?",
+    "follow_up_question": "Are the spots small and scattered or spreading? Which leaves are affected? What is the crop stage? Can you share a clear photo?"
+  },
+  {
+    "initial_question": "My plants are turning purple. Which fertilizer should I apply?",
+    "follow_up_question": "Are the leaves or stems turning purple? What is the crop age? Is the soil cold, acidic, or poorly drained? Do you have soil test results?"
+  },
+  {
+    "initial_question": "The plants are pale green. Is nitrogen deficient?",
+    "follow_up_question": "Are the older leaves affected first? Is the symptom uniform throughout the field? What is the crop stage? When and how much nitrogen was last applied?"
+  },
+  {
+    "initial_question": "My paddy plants are growing too tall and falling over. Should I stop fertilizer?",
+    "follow_up_question": "What variety are you growing? How much nitrogen have you applied? What is the crop stage? Has strong wind or heavy rain occurred?"
+  },
+  {
+    "initial_question": "Some parts of my field are yellow and other parts are green. What fertilizer should I use?",
+    "follow_up_question": "Where are the yellow patches located? Is the soil or water level different in those areas? What fertilizer has been applied? Can you share a field photo?"
+  },
+  {
+    "initial_question": "Can fertilizer deficiency be identified from a photograph?",
+    "follow_up_question": "Can you upload clear photos of the whole plant and affected leaves? What is the crop age? Which fertilizers have already been applied? Are symptoms spreading?"
+  },
+  {
+    "initial_question": "Can I apply urea and DAP together?",
+    "follow_up_question": "What are the quantities of urea and DAP? What is your land area? What fertilizer dose is recommended? Have you already applied other nitrogen or phosphorus sources?"
+  },
+  {
+    "initial_question": "Can I mix urea with MOP?",
+    "follow_up_question": "What are the fertilizer quantities? Are you applying them to the soil or through another method? What is the crop stage and local recommendation?"
+  },
+  {
+    "initial_question": "Can I use NPK fertilizer instead of urea, DAP, and MOP?",
+    "follow_up_question": "What is the NPK grade printed on the bag? What is your recommended NPK dose? What is your land area? Have you already applied any fertilizer?"
+  },
+  {
+    "initial_question": "Can I use organic manure instead of chemical fertilizer?",
+    "follow_up_question": "Which manure are you using—farmyard manure, compost, vermicompost, or another source? How much will you apply? Do you know its nutrient content? What is your soil test status?"
+  },
+  {
+    "initial_question": "How much vermicompost should I apply to one acre?",
+    "follow_up_question": "What is your crop and planting method? Is the vermicompost mature and well decomposed? What quantity is available? Are you using chemical fertilizers as well?"
+  },
+  {
+    "initial_question": "Can I use biochar with fertilizer in paddy?",
+    "follow_up_question": "What type of biochar do you have? What is its feedstock and application rate? What is your soil type? Have you used biochar before?"
+  },
+  {
+    "initial_question": "Can I apply zinc fertilizer to my paddy?",
+    "follow_up_question": "Have you observed symptoms suggesting zinc deficiency? Do you have a soil test? What product and formulation are available? What is the crop stage?"
+  },
+  {
+    "initial_question": "Can I apply lime and fertilizer together?",
+    "follow_up_question": "Is the soil acidic according to a soil test? What lime product do you have? Which fertilizer are you planning to apply? What is the recommended lime requirement?"
+  },
+  {
+    "initial_question": "Can I use a micronutrient mixture in paddy?",
+    "follow_up_question": "Which product and nutrient composition do you have? What symptoms are present? Have you had a soil or plant test? Have you already applied any micronutrients?"
+  },
+  {
+    "initial_question": "Can I use a foliar fertilizer spray instead of soil fertilizer?",
+    "follow_up_question": "Which foliar product are you considering? What is the crop stage? What nutrient deficiency are you trying to correct? What soil fertilizer has already been applied?"
+  },
+  {
+    "initial_question": "I applied too much urea. What should I do?",
+    "follow_up_question": "How much urea did you apply? What is your land area? When did you apply it? What is the crop stage, and are there any visible symptoms?"
+  },
+  {
+    "initial_question": "I accidentally applied the wrong fertilizer. What should I do?",
+    "follow_up_question": "Which product did you apply? How much did you use? What is your land area? When was it applied, and what is the crop stage?"
+  },
+  {
+    "initial_question": "My fertilizer did not improve the crop. Why?",
+    "follow_up_question": "Which fertilizer and quantity did you use? When did you apply it? What symptoms remain? What are the soil, water, and weather conditions?"
+  },
+  {
+    "initial_question": "Can I apply fertilizer when the field is flooded?",
+    "follow_up_question": "How deep is the water? How long has the field been flooded? Which fertilizer do you want to apply? Can excess water be drained safely?"
+  },
+  {
+    "initial_question": "Can I apply fertilizer when the soil is dry?",
+    "follow_up_question": "How dry is the soil? Is irrigation available? What fertilizer do you plan to apply? What is the crop stage?"
+  },
+  {
+    "initial_question": "How can I reduce fertilizer costs without reducing yield?",
+    "follow_up_question": "What is your current fertilizer schedule? How much do you spend per acre? Do you have soil test results? Are you using organic manure or legume rotations?"
+  },
+  {
+    "initial_question": "What is the cheapest fertilizer combination for my field?",
+    "follow_up_question": "What is your local price for urea, DAP, MOP, and available NPK products? What is your nutrient recommendation? What fertilizers have already been applied?"
+  },
+  {
+    "initial_question": "How much fertilizer should I apply if I use a high-yielding variety?",
+    "follow_up_question": "What is the exact variety? What is your district and planting season? Is irrigation available? Do you have a soil test or locally recommended nutrient dose?"
+  },
+  {
+    "initial_question": "How much fertilizer should I use after a green gram crop?",
+    "follow_up_question": "Was green gram grown in the same field immediately before rice? Was its residue incorporated or removed? What is your soil test status? Which rice variety are you planting?"
+  },
+  {
+    "initial_question": "Can Paddy Mitra calculate the exact fertilizer dose for my field?",
+    "follow_up_question": "Please share your district or block, land area, variety, planting method, crop stage, soil test results if available, and all fertilizers already applied. I will calculate the estimated quantities using the applicable local recommendation and state any assumptions."
+  }
+]

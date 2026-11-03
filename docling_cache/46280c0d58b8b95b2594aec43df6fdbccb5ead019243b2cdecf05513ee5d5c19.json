@@ -1,0 +1,82 @@
+{
+ "source": "silicon-deficiency-english.pdf",
+ "sha256": "46280c0d58b8b95b2594aec43df6fdbccb5ead019243b2cdecf05513ee5d5c19",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:51:42",
+ "chunk_count": 6,
+ "chunks": [
+  {
+   "text": "What it does\nSilicon (Si) deficiency affects the development of strong leaves, stems, and roots.\nIt also affects the formation of a thick silicated epidermal cell layer, and makes the rice plants susceptible to fungal and bacterial disease, and insect and mite pests.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "silicon-deficiency-english.pdf",
+    "page": 1,
+    "section": "What it does"
+   }
+  },
+  {
+   "text": "Why and where it occurs\nSi deficiency is not very common in irrigated rice. It occurs in areas with poor soil fertility, and is common in old and degraded paddy soils.\nIt also occurs in organic soils with small mineral Si reserves, and in highly weathered and leached tropical soils in the rainfed lowland and upland areas.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "silicon-deficiency-english.pdf",
+    "page": 1,
+    "section": "Why and where it occurs"
+   }
+  },
+  {
+   "text": "How to identify\nCheck the field for the following symptoms:\n- Leaves and culms become soft and droopy thus increasing mutual shading\n- Reduced photosynthetic activity\n- Lower/reduced grain yields\n- Increased occurrence of diseases such as blast (caused by Pyricularia oryzae) or brown spot (caused by Helminthosporium oryzae)\nSevere Si deficiency reduces the number of panicles and the number of filled spikelets per panicle. Sideficient plants are also particularly susceptible to lodging.\nTo confirm Si deficiency, send soil and plant sample to laboratory for testing.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "silicon-deficiency-english.pdf",
+    "page": 1,
+    "section": "How to identify"
+   }
+  },
+  {
+   "text": "How to manage\n- In the long term, Si deficiency is prevented by not removing the straw from the field following harvest, and recycling rice straw (5-6% Si) and rice husks (10% Si).\n- Where possible, apply substantial input of Si from irrigation water.\n- If rice hulls or rice hull ash are available, recycle them to replenish Si in soil.\n- Avoid applying excessive amounts of N fertilizer.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "silicon-deficiency-english.pdf",
+    "page": 1,
+    "section": "How to manage"
+   }
+  },
+  {
+   "text": "Learn more\nVisit Rice Based Cropping Systems Knowledge Bank www.rkbodisha.in",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "silicon-deficiency-english.pdf",
+    "page": 1,
+    "section": "Learn more"
+   }
+  },
+  {
+   "text": "Silicon deficiency\nwww.rkbodisha.in\nSi deficiency plants have droopy leaves",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "silicon-deficiency-english.pdf",
+    "page": 1,
+    "section": "Silicon deficiency"
+   }
+  }
+ ]
+}

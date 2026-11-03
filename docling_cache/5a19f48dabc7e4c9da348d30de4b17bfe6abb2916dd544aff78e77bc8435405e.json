@@ -1,0 +1,94 @@
+{
+ "source": "RCM-Rice-Crop-Manager-fertilizer-nutrient-management-rice-paddy-odisha-English.pdf",
+ "sha256": "5a19f48dabc7e4c9da348d30de4b17bfe6abb2916dd544aff78e77bc8435405e",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:40:12",
+ "chunk_count": 7,
+ "chunks": [
+  {
+   "text": "Rice Crop Manager\nAn effective crop management tool for rice-based cropping systems in India",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "RCM-Rice-Crop-Manager-fertilizer-nutrient-management-rice-paddy-odisha-English.pdf",
+    "page": 1,
+    "section": "Rice Crop Manager"
+   }
+  },
+  {
+   "text": "Background\nIn the 1990s, the International Rice Research Institute (IRRI), in collaboration with partners across Asia, developed the SiteSpecific Nutrient Management (SSNM) approach. SSNM gives rice farmers guidelines for applying the right amount of essential nutrients for their crops at right time.\nUsing the principles of SSNM, IRRI developed the Rice Crop Manager (RCM), an application that provides farmers with crop management recommendations tailored to their fields and ricegrowing conditions through the internet and text messages. In addition to nutrients, RCM also addresses other constraints that limit rice yield and farmers' profit. These constraints can vary across areas, growing conditions, varieties and climate scenarios. In India, RCM has been developed for Bihar, Eastern UP and Odisha.\nRCM was introduced in Odisha in 2013 for rice. It was adapted, developed, evaluated, and verified in partnership with Indian Council of Agricultural Research-National Rice Research Institute and Odisha University of Agriculture & Technology. In 2015, IRRI and the Government of Odisha signed a memorandum of understanding to increase the productivity of rice-based cropping systems and enhance farmers' income in the state through the use of the RCM application.\nIn Bihar and eastern Uttar Pradesh, farmers generally follow a rice-wheat or rice-maize cropping system. In consideration of these cropping systems, RCM was modified to create the Crop Manager for Rice Based Systems (CMRS) in collaboration with Bihar Agriculture University, Rajendra Agriculture University, ICARResearch Complex for Eastern Region (ICAR-RCER) and Banaras Hindu University.\nEndorsed and released by the Union Agriculture Minister for Bihar farmers in 2016, CMRS is being disseminated through State department of agriculture, Krishi Vigyan Kendras (KVK), nongovernment organizations and private service providers, wherein IRRI is responsible for training KVKs scientists, NGOs and service providers.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "RCM-Rice-Crop-Manager-fertilizer-nutrient-management-rice-paddy-odisha-English.pdf",
+    "page": 1,
+    "section": "Background"
+   }
+  },
+  {
+   "text": "How does it work?\nThe RCM application can be operated using a variety of technology devices, including laptops, mobile phones and tablets.\n1. Extension workers are trained to operate the RCM application.\n2. Farmers are interviewed using the RCM application and their responses are captured to generate unique recommendation for their specific plot.\n3. Interviews are conducted in either online and offline mode, but internet is still required to generate the recommendation.\n4. The recommendation is printed on an A4 size paper and is provided to the farmers to be used throughout the season.\n5. The recommendation provides advisories on source, timing and amount of fertilizers selected by farmers, crop cycle, weed management, organic fertilizer and nursery preparation. Reminders on nutrient management as well as a package and practices are sent through SMS messages and voice calls.\nAs a web-based tool, RCM advisory service is available online at:\n1. For Odisha: http://webapps.irri.org/in/od/rcm/\n2. For Bihar: http://webapps.irri.org/in/br/cmrs/",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "RCM-Rice-Crop-Manager-fertilizer-nutrient-management-rice-paddy-odisha-English.pdf",
+    "page": 1,
+    "section": "How does it work?"
+   }
+  },
+  {
+   "text": "Next Steps\n- Over 55,000 recommendations have been generated for rice growing farmers of Odisha, Bihar and Eastern Uttar Pradesh\n- Use of RCM recommendations resulted in an average yield increase of 1t per ha equivalent to around USD 188 /ha/cropping season\n- Around 2,000 extension workers of DoA and NGOs in Odisha were trained to use the RCM app. These extension workers are disseminating recommendations to the rice growing farmers of their area.\n- 91 RCM kendras (centers) have been established at district and block agricultural offices across the state of Odisha to function as one-stop information hubs for nearby farming communities. These kendras are equipped with ICT devices used by trained extension staff of the DoA to provide RCM recommendations to the farmers.\n- Crop advisories through voice and text messages are being sent to registered farmers on their mobile phones throughout the season.\nKNOWLEDGE TOOLS\nSustainable Impact",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "RCM-Rice-Crop-Manager-fertilizer-nutrient-management-rice-paddy-odisha-English.pdf",
+    "page": 1,
+    "section": "Next Steps"
+   }
+  },
+  {
+   "text": "Lessons Learned and Recommendations\n- Dissemination is easy; adoption takes time: A new technology takes time to get adopted by the farmers. Farmers are used to practicing rice cultivation in traditional ways and it takes time to change their mindset. Continuous efforts are required to create awareness on the economic benefits as well as soil health improvement through demonstrations, trials and field days.\n- Extra workload for extension staff: RCM is being disseminated through extension channels of Department of Agriculture, but at a very slow pace. Currently, it is being considered as an additional responsibility by the DoA staff. The current pressing need is to streamline its dissemination process by incorporating it as a planned seasonal activity at the policy and planning level of the DoA.\n- Continued research for improving the effectiveness and preciseness of recommendation: Research forms the backbone of the application. IRRI, in collaboration with the research partners, is continuously working to validate the existing content and also to improve it further. New findings are being added to make it more robust and effective.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "RCM-Rice-Crop-Manager-fertilizer-nutrient-management-rice-paddy-odisha-English.pdf",
+    "page": 2,
+    "section": "Lessons Learned and Recommendations"
+   }
+  },
+  {
+   "text": "Next Steps\nThe next few years will be critical in the overall success, sustainability, scale and impact of RCM.\n- Need to move from push to pull strategy to ensure sustainability of the application.\n- Explore new pathways of dissemination such as private partners for scalability and faster dissemination.\n- IRRI, in collaboration with agencies working on weather data, and will be sending weather based crop and nutrient advisories in future.\n- RCM will be improvised further to provide recommendations for stress conditions.\n- An RCM business model is being developed by involving agri-input dealers and entrepreneurs.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "RCM-Rice-Crop-Manager-fertilizer-nutrient-management-rice-paddy-odisha-English.pdf",
+    "page": 2,
+    "section": "Next Steps"
+   }
+  },
+  {
+   "text": "Our Partners\nFor more information, visit http://cropmanager.irri.org/\n@irri @ricecropmanagerindia\nContact Sheetal Sharma (sheetal.sharma@irri.org) and Carolyn Florey (c.florey@irri.org)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "RCM-Rice-Crop-Manager-fertilizer-nutrient-management-rice-paddy-odisha-English.pdf",
+    "page": 2,
+    "section": "Our Partners"
+   }
+  }
+ ]
+}

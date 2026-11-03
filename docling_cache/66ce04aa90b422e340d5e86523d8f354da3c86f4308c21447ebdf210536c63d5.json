@@ -1,0 +1,45 @@
+{
+ "source": "CR-Dhan-902.pdf",
+ "sha256": "66ce04aa90b422e340d5e86523d8f354da3c86f4308c21447ebdf210536c63d5",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:32:48",
+ "chunk_count": 3,
+ "chunks": [
+  {
+   "text": "PTR DSR,  = Irrigated Lowland Rainfed. PTR DSR, Ecosystem = Lowland. PTR DSR,  = Upland. Recommended Not Recommended,  = . Recommended Not Recommended, Ecosystem = Positioning Recommended Not Recommended. Recommended Not Recommended,  = Not Recommended. Position,  = . Position, Ecosystem = Irrigated Lowland Rainfed Lowland. Position,  = Upland. Replace None,  = . Replace None, Ecosystem = CR 908 Geetanjali. Replace None,  = None None. Companion None,  = . Companion None, Ecosystem = . Companion None,  =",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-902.pdf",
+    "page": 1
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nCR Dhan 902, Grain yield.(Kg/ha) = 4500-5000. CR Dhan 902, Grain yield.% Adv = 11. CR Dhan 902, Maturity (days). = 135-140. CR Dhan 902, Plant height (cm). = 95-100. CR Dhan 902, Lodging. = Tolerant. CR Dhan 902, HRR %. = 58. CR Dhan 902, 1000 grain weight (g). = 20. CR Dhan 902, Grain Shape. = LS. Geetanjali, Grain yield.(Kg/ha) = 4000-4500. Geetanjali, Grain yield.% Adv = . Geetanjali, Maturity (days). = 130-135. Geetanjali, Plant height (cm). = 110-115. Geetanjali, Lodging. = Susceptible. Geetanjali, HRR %. = 67. Geetanjali, 1000 grain weight (g). = 18. Geetanjali, Grain Shape. = LS",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-902.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nCR Dhan 902, Leaf blast = Resistant. CR Dhan 902, Leaf blight = Resistant. CR Dhan 902, Sheath blight = Resistant. CR Dhan 902, BPH = Resistant. CR Dhan 902, Gall midge = Tolerant. Geetanjali, Leaf blast = Susceptible. Geetanjali, Leaf blight = Resistant. Geetanjali, Sheath blight = Susceptible. Geetanjali, BPH = Susceptible. Geetanjali, Gall midge = Susceptible\nProducibility:\nCR Dhan 902=1800Kgs. / acre\nRecommendation:\nReleased for cultivation in Odisha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-902.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "source": "CR-Dhan-310.pdf",
+ "sha256": "a41d54702ac21881e04d5c59f82655a603ca8eea48a3b554a777186043496cb4",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:30:33",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "CR Dhan 310\n(Naveen X ARC10075) (IET24780: CR2829-PLN-37)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-310.pdf",
+    "page": 1,
+    "section": "CR Dhan 310"
+   }
+  },
+  {
+   "text": "Product Profile\nCR Dhan 310 is the first high protein rice variety in India, released by NRRI, Cuttack for the states of Odisha, Uttar Pradesh and Madhya Pradesh. It has medium duration (120-125 days), with medium slender and good grain quality. This variety comes highly recommended for cultivation in irrigated areas as well as favorable shallow rainfed regions. On a national average, CR Dhan 310 achieves an average grain yield of 4.5 tons per hectare, and its polished rice contains an average protein content of 10.2%.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-310.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment - TMeMS-R (Protein Rich Variety)\nRecommended, Planting Method.DSR = Not Recommended. Recommended, Ecosystem.Irrigated Lowland = Recommended. Recommended, Ecosystem.Rainfed Lowland = Not Recommended. Recommended, Ecosystem.Upland = Not Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-310.pdf",
+    "page": 1,
+    "section": "Priority Market Segment - TMeMS-R (Protein Rich Variety)"
+   }
+  },
+  {
+   "text": "Positioning\nReplace, Irrigated Lowland = Naveen. Replace, Rainfed Lowland = None. Replace, Upland = None. Companion, Irrigated Lowland = CR Dhan 311. Companion, Rainfed Lowland = None. Companion, Upland = None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-310.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Key Strengths\n- Contain 10.2% Protein in polished grain\n- Compact and well-exerted panicle\n- Medium slender grain",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-310.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nCR Dhan 310, Grain yield.(Kg/ha) = 4500-5000. CR Dhan 310, Grain yield.% Adv = 25. CR Dhan 310, Maturity (days). = 120-125. CR Dhan 310, Plant height (cm). = 105-110. CR Dhan 310, Lodging. = Tolerant. CR Dhan 310, 1000 grain weight (g). = 24. CR Dhan 310, HRR %. = 65. CR Dhan 310, Grain Shape. = MS. Naveen, Grain yield.(Kg/ha) = 3500-4000. Naveen, Grain yield.% Adv = . Naveen, Maturity (days). = 115-120. Naveen, Plant height (cm). = 100-105. Naveen, Lodging. = Tolerant. Naveen, 1000 grain weight (g). = 24. Naveen, HRR %. = 63. Naveen, Grain Shape. = MB",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-310.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nCR Dhan 310, Neck blast = Tolerant. CR Dhan 310, Brown spot = Tolerant. CR Dhan 310, Sheath rot = Tolerant. CR Dhan 310, Leaf folder = Tolerant. CR Dhan 310, Rice tungro = Tolerant. Naveen, Neck blast = Susceptible. Naveen, Brown spot = Resistant. Naveen, Sheath rot = Tolerant. Naveen, Leaf folder = Susceptible. Naveen, Rice tungro = Tolerant\nProducibility: CR dhan 310:= 1800Kgs. / acre\nRecommendation:\nOdisha, Madhya Pradesh and Uttar Pradesh",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-310.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\n- Average yield",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-310.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}

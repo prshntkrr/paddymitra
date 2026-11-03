@@ -1,0 +1,282 @@
+{% extends 'base.html' %}
+{% block page_title %}Batch Test{% endblock %}
+{% block topbar_actions %}
+  <a href="{% url 'queries:test_query' %}" class="btn btn-sm btn-secondary">Single Test</a>
+  <a href="{% url 'queries:list' %}" class="btn btn-sm btn-secondary">Queries</a>
+{% endblock %}
+{% block content %}
+<style>
+  .bt-wrap { max-width: 1200px; }
+  .bt-note { color:var(--gray-500); font-size:13px; max-width:74ch; }
+  .bt-bar  { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin:12px 0; }
+  .bt-bar select, .bt-bar input[type=file] {
+    padding:8px 10px; border:1px solid var(--gray-300); border-radius:8px; }
+  .bt-progress { margin:12px 0; font-size:14px; font-weight:600; }
+  .bt-progress .done { color:#16a34a; }
+  .bt-progress .fail { color:#b91c1c; }
+  .bt-table { width:100%; border-collapse:collapse; font-size:13px; margin-top:12px; }
+  .bt-table th { background:var(--gray-100); text-align:left; padding:8px 10px;
+    border-bottom:2px solid var(--gray-300); font-size:12px; text-transform:uppercase;
+    letter-spacing:.04em; color:var(--gray-500); position:sticky; top:0; }
+  .bt-table td { padding:8px 10px; border-bottom:1px solid var(--gray-200);
+    vertical-align:top; max-width:350px; word-wrap:break-word; }
+  .bt-table tr.ok td:first-child { border-left:3px solid #16a34a; }
+  .bt-table tr.fail td:first-child { border-left:3px solid #b91c1c; }
+  .bt-table tr.running td { background:#FEF9C3; }
+  .bt-scroll { max-height:70vh; overflow:auto; border:1px solid var(--gray-200);
+    border-radius:8px; }
+  .bt-ans { white-space:pre-wrap; max-height:150px; overflow:auto; font-size:12.5px; }
+  .bt-dl { margin:16px 0; }
+</style>
+
+<div class="bt-wrap">
+  <h3 style="margin-bottom:4px;">Batch Excel Test</h3>
+  <p class="bt-note">
+    Upload an <strong>.xlsx</strong> with columns <em>Odia Question</em> and/or
+    <em>English Question</em>. Each question runs through the full pipeline.
+    <strong>Nothing is saved to the database.</strong> Results appear live below.
+  </p>
+
+  <div class="bt-bar">
+    <select id="bt-catalogue">
+      {% for c in catalogues %}<option value="{{ c.pk }}">{{ c.name }}</option>{% endfor %}
+    </select>
+    <select id="bt-language">
+      {% for l in languages %}<option value="{{ l }}">{{ l }}</option>{% endfor %}
+    </select>
+    <select id="bt-user-type">
+      <option value="farmer">farmer</option>
+      <option value="researcher">researcher</option>
+    </select>
+  </div>
+
+  <div class="bt-bar">
+    <input type="file" id="bt-file" accept=".xlsx">
+    <button class="btn btn-sm btn-primary" id="bt-run" disabled>Run Batch Test</button>
+    <button class="btn btn-sm btn-secondary" id="bt-stop" style="display:none">Stop</button>
+  </div>
+
+  <div id="bt-progress" class="bt-progress" style="display:none"></div>
+
+  <div id="bt-results" style="display:none">
+    <div class="bt-scroll">
+      <table class="bt-table">
+        <thead>
+          <tr>
+            <th>#</th><th>Test ID</th><th>Question</th><th>Lang</th>
+            <th>Answer</th><th>Answer (Local)</th><th>Time</th><th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="bt-tbody"></tbody>
+      </table>
+    </div>
+    <div class="bt-dl">
+      <button class="btn btn-sm btn-primary" id="bt-download" style="display:none">
+        Download Results (.xlsx)
+      </button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
+<script>
+(function(){
+  var csrfToken = '{{ csrf_token }}';
+  var runUrl = '{% url "queries:test_query_run" %}';
+  var fileInput = document.getElementById('bt-file');
+  var runBtn = document.getElementById('bt-run');
+  var stopBtn = document.getElementById('bt-stop');
+  var progressEl = document.getElementById('bt-progress');
+  var resultsEl = document.getElementById('bt-results');
+  var tbody = document.getElementById('bt-tbody');
+  var dlBtn = document.getElementById('bt-download');
+
+  var questions = [];
+  var results = [];
+  var stopped = false;
+
+  fileInput.addEventListener('change', function(){
+    runBtn.disabled = !fileInput.files.length;
+  });
+
+  runBtn.addEventListener('click', function(){
+    var file = fileInput.files[0];
+    if (!file) return;
+    var reader = new FileReader();
+    reader.onload = function(e){
+      try {
+        var wb = XLSX.read(e.target.result, {type:'array'});
+        var ws = wb.Sheets[wb.SheetNames[0]];
+        var rows = XLSX.utils.sheet_to_json(ws, {defval:''});
+        parseQuestions(rows);
+        if (questions.length === 0) {
+          alert('No questions found. Need an "Odia Question" or "English Question" column.');
+          return;
+        }
+        startBatch();
+      } catch(err) {
+        alert('Could not read Excel: ' + err.message);
+      }
+    };
+    reader.readAsArrayBuffer(file);
+  });
+
+  function findCol(row, candidates) {
+    var keys = Object.keys(row);
+    for (var i=0; i<keys.length; i++) {
+      var k = keys[i].trim().toLowerCase();
+      for (var j=0; j<candidates.length; j++) {
+        if (k === candidates[j]) return keys[i];
+      }
+    }
+    return null;
+  }
+
+  function parseQuestions(rows) {
+    questions = [];
+    if (!rows.length) return;
+    var sample = rows[0];
+    var odiaCol = findCol(sample, ['odia question','odia','question_odia']);
+    var engCol = findCol(sample, ['english question','english','question_english','question']);
+    var idCol = findCol(sample, ['test id','test_id','id','sl','sl no']);
+    var catCol = findCol(sample, ['category','cat']);
+    var chalCol = findCol(sample, ['challenge','challenge / focus','challenge/focus','focus']);
+
+    for (var i=0; i<rows.length; i++) {
+      var r = rows[i];
+      var testId = idCol ? String(r[idCol]||'') : '';
+      var cat = catCol ? String(r[catCol]||'') : '';
+      var chal = chalCol ? String(r[chalCol]||'') : '';
+      var odiaQ = odiaCol ? String(r[odiaCol]||'').trim() : '';
+      var engQ = engCol ? String(r[engCol]||'').trim() : '';
+      if (odiaQ) {
+        questions.push({testId:testId, category:cat, challenge:chal,
+          question:odiaQ, lang:'Odia'});
+      } else if (engQ) {
+        questions.push({testId:testId, category:cat, challenge:chal,
+          question:engQ, lang:'English'});
+      }
+    }
+  }
+
+  function startBatch() {
+    stopped = false;
+    results = [];
+    tbody.innerHTML = '';
+    resultsEl.style.display = 'block';
+    progressEl.style.display = 'block';
+    dlBtn.style.display = 'none';
+    runBtn.disabled = true;
+    stopBtn.style.display = '';
+    updateProgress(0, 0, 0);
+    runNext(0);
+  }
+
+  stopBtn.addEventListener('click', function(){
+    stopped = true;
+    stopBtn.style.display = 'none';
+    runBtn.disabled = false;
+  });
+
+  function updateProgress(done, failed, total) {
+    progressEl.innerHTML = 'Progress: <span class="done">' + done + ' done</span>, ' +
+      '<span class="fail">' + failed + ' failed</span> / ' + total + ' total';
+  }
+
+  function esc(s) {
+    var d = document.createElement('div');
+    d.textContent = s;
+    return d.innerHTML;
+  }
+
+  function runNext(idx) {
+    if (stopped || idx >= questions.length) {
+      runBtn.disabled = false;
+      stopBtn.style.display = 'none';
+      dlBtn.style.display = '';
+      return;
+    }
+
+    var q = questions[idx];
+    var num = idx + 1;
+
+    // Add a "running" row
+    var tr = document.createElement('tr');
+    tr.className = 'running';
+    tr.id = 'bt-row-' + idx;
+    tr.innerHTML = '<td>' + num + '</td><td>' + esc(q.testId) + '</td>' +
+      '<td>' + esc(q.question.substring(0,120)) + '</td><td>' + q.lang + '</td>' +
+      '<td colspan="3"><em>Running…</em></td><td>⏳</td>';
+    tbody.appendChild(tr);
+    tr.scrollIntoView({behavior:'smooth', block:'nearest'});
+
+    var fd = new FormData();
+    fd.append('query_text', q.question);
+    fd.append('catalogue', document.getElementById('bt-catalogue').value);
+    fd.append('farmer_language', q.lang);
+    fd.append('user_type', document.getElementById('bt-user-type').value);
+
+    fetch(runUrl, {method:'POST', headers:{'X-CSRFToken':csrfToken}, body:fd})
+      .then(function(resp){ return resp.json(); })
+      .then(function(data){
+        var ok = data.ok;
+        var res = {
+          testId: q.testId, category: q.category, challenge: q.challenge,
+          question: q.question, lang: q.lang,
+          answer: data.answer || '', answer_local: data.answer_local || '',
+          time: data.response_time_seconds || '', status: ok ? 'OK' : 'FAIL',
+          error: data.error || '',
+          sources: (data.sources||[]).slice(0,5).map(function(s){
+            return (s.document_title||'') + ' (chunk ' + (s.chunk_index||'') + ')';
+          }).join('; ')
+        };
+        results.push(res);
+        updateRow(idx, res, ok);
+      })
+      .catch(function(err){
+        var res = {
+          testId:q.testId, category:q.category, challenge:q.challenge,
+          question:q.question, lang:q.lang,
+          answer:'', answer_local:'', time:'', status:'FAIL',
+          error: err.message, sources:''
+        };
+        results.push(res);
+        updateRow(idx, res, false);
+      })
+      .finally(function(){
+        var done = results.filter(function(r){return r.status==='OK'}).length;
+        var fail = results.filter(function(r){return r.status==='FAIL'}).length;
+        updateProgress(done, fail, questions.length);
+        runNext(idx + 1);
+      });
+  }
+
+  function updateRow(idx, res, ok) {
+    var tr = document.getElementById('bt-row-' + idx);
+    tr.className = ok ? 'ok' : 'fail';
+    tr.innerHTML = '<td>' + (idx+1) + '</td><td>' + esc(res.testId) + '</td>' +
+      '<td>' + esc(res.question.substring(0,120)) + '</td><td>' + res.lang + '</td>' +
+      '<td><div class="bt-ans">' + esc(res.answer) + '</div></td>' +
+      '<td><div class="bt-ans">' + esc(res.answer_local) + '</div></td>' +
+      '<td>' + (res.time ? Number(res.time).toFixed(1) + 's' : '-') + '</td>' +
+      '<td>' + (ok ? '✅' : '❌') + '</td>';
+  }
+
+  dlBtn.addEventListener('click', function(){
+    var header = ['#','Test ID','Category','Challenge','Question','Language',
+      'Answer (English)','Answer (Local)','Status','Time (s)','Sources','Error'];
+    var data = [header];
+    for (var i=0; i<results.length; i++) {
+      var r = results[i];
+      data.push([i+1, r.testId, r.category, r.challenge, r.question, r.lang,
+        r.answer, r.answer_local, r.status, r.time, r.sources, r.error]);
+    }
+    var ws = XLSX.utils.aoa_to_sheet(data);
+    var wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, 'Results');
+    XLSX.writeFile(wb, 'batch_test_results.xlsx');
+  });
+
+})();
+</script>
+{% endblock %}

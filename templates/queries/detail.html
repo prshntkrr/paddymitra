@@ -1,0 +1,114 @@
+{% extends 'base.html' %}{% load irri_extras %}
+{% block page_title %}{{ qobj.code }}{% endblock %}
+{% block topbar_actions %}
+  <a href="{% url 'queries:list' %}" class="btn btn-sm btn-secondary">← Back</a>
+  {% if qobj.ai_response_text %}<a href="{% url 'queries:translation_test' %}?query={{ qobj.pk }}" class="btn btn-sm btn-secondary">Test translation</a>{% endif %}
+{% endblock %}
+{% block content %}
+<div class="card" style="max-width:860px;">
+  <div class="card-body">
+    <h2 style="margin:0 0 4px;">{{ qobj.code }}</h2>
+    <div style="color:var(--gray-500);font-size:12px;">{{ qobj.timestamp|date:"d M Y, H:i:s" }} IST — {{ qobj.district }}</div>
+    <div style="margin-top:10px;">
+      <span class="badge {{ qobj.status|badge_class }}">{{ qobj.status }}</span>
+      {% if qobj.category %}<span class="badge badge-blue">{{ qobj.category }}</span>{% endif %}
+      {% if qobj.farmer_feedback %}<span class="badge {{ qobj.farmer_feedback|badge_class }}">{{ qobj.farmer_feedback }}</span>{% endif %}
+    </div>
+    <div class="detail-grid" style="margin-top:14px;border:1px solid var(--gray-200);border-radius:var(--radius-md);overflow:hidden;">
+      <div class="detail-label">WhatsApp #</div><div class="detail-value">{{ qobj.whatsapp_number|default:"—" }}</div>
+      <div class="detail-label">Hook / Keyword</div><div class="detail-value">{% if qobj.hook %}<span class="badge badge-blue">{{ qobj.trigger_keyword }}</span> → <a href="{% url 'catalogues:detail' qobj.catalogue.slug %}" style="color:var(--irri-green);">{{ qobj.catalogue.name }}</a>{% else %}—{% endif %}</div>
+      <div class="detail-label">Task type</div><div class="detail-value">{{ qobj.task_type|default:"—" }}</div>
+      <div class="detail-label">Problem entity</div><div class="detail-value">{{ qobj.problem_entity|default:"—" }}</div>
+      <div class="detail-label">Season / Stage</div><div class="detail-value">{{ qobj.season|default:"—" }} / {{ qobj.crop_stage|default:"—" }}</div>
+      <div class="detail-label">Missing context</div><div class="detail-value" style="color:#92400E;">{{ qobj.missing_context|default:"—" }}</div>
+      <div class="detail-label">Original ({{ qobj.original_query_language }})</div><div class="detail-value">{{ qobj.original_query_text|default:"—" }}</div>
+      {% if qobj.question_audio_url %}<div class="detail-label">{% if qobj.came_from_whatsapp %}WhatsApp voice note{% else %}Recorded question{% endif %}</div><div class="detail-value"><audio controls preload="none" src="{{ qobj.question_audio_url }}" style="max-width:100%;"></audio> <a href="{{ qobj.question_audio_url }}" download style="font-size:12px;color:var(--irri-green);margin-left:8px;">download</a></div>{% endif %}
+      <div class="detail-label">English query</div><div class="detail-value">{{ qobj.translated_query_text|default:"—" }}</div>
+      {% if qobj.pipeline_trace.stt_backend %}<div class="detail-label">STT backend</div><div class="detail-value">{{ qobj.pipeline_trace.stt_backend }}</div>{% endif %}
+      <div class="detail-label">AI response (EN)</div><div class="detail-value" style="line-height:1.6;">{{ qobj.ai_response_text|linebreaks }}</div>
+      {% if qobj.ai_response_text_local %}<div class="detail-label">AI response ({{ qobj.original_query_language }})</div><div class="detail-value" style="line-height:1.6;">{{ qobj.ai_response_text_local|linebreaks }}</div>{% endif %}
+      {% if qobj.answer_audio_url %}<div class="detail-label">Voice response{% if qobj.came_from_whatsapp %} sent{% endif %}</div><div class="detail-value"><audio controls preload="none" src="{{ qobj.answer_audio_url }}" style="max-width:100%;"></audio> <a href="{{ qobj.answer_audio_url }}" download style="font-size:12px;color:var(--irri-green);margin-left:8px;">download</a></div>{% endif %}
+      <div class="detail-label">Response time</div><div class="detail-value"><strong style="color:var(--irri-green);">{{ qobj.response_time_seconds }}s</strong></div>
+      <div class="detail-label">Source documents</div><div class="detail-value">{% for d in qobj.source_documents.all %}<a href="{% url 'documents:detail' d.pk %}"><span class="badge badge-blue">{{ d.doc_code }}</span></a> {{ d.title|truncatechars:40 }}<br>{% empty %}—{% endfor %}</div>
+    </div>
+
+    {% if qobj.pipeline_trace.retrieved_chunks %}
+    <div style="margin-top:18px;background:#07130D;color:#D1FAE5;padding:0;border-radius:8px;border:1px solid #134E4A;overflow:hidden;box-shadow:inset 0 1px 0 rgba(255,255,255,0.06);">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;background:#0F1F17;border-bottom:1px solid #134E4A;padding:9px 12px;">
+        <div style="font-size:11px;color:#A7F3D0;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;">Retrieval terminal</div>
+        <div style="font-family:monospace;font-size:11px;color:#6EE7B7;">{{ qobj.pipeline_trace.retrieved_chunks|length }} chunks used as context</div>
+      </div>
+      <div style="max-height:420px;overflow:auto;padding:12px 14px;font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace;font-size:12px;line-height:1.55;white-space:pre-wrap;">
+{% for chunk in qobj.pipeline_trace.retrieved_chunks %}<div style="margin-bottom:14px;"><span style="color:#34D399;">$ source[{{ chunk.rank }}]</span> {% if chunk.document_url %}<a href="{{ chunk.document_url }}" style="color:#E5E7EB;text-decoration:underline;text-underline-offset:2px;">{{ chunk.document_title }}</a>{% else %}<span style="color:#E5E7EB;">{{ chunk.document_title }}</span>{% endif %}{% if chunk.file_url %} <a href="{{ chunk.file_url }}" target="_blank" rel="noopener" style="color:#6EE7B7;text-decoration:none;">[file]</a>{% endif %}{% if chunk.source_url %} <a href="{{ chunk.source_url }}" target="_blank" rel="noopener" style="color:#6EE7B7;text-decoration:none;">[source]</a>{% endif %}
+<span style="color:#93C5FD;">  doc_id={{ chunk.document_id|default_if_none:"-" }} chunk={{ chunk.chunk_index|default_if_none:"-" }} score={{ chunk.score|default_if_none:"-" }}</span>{% if chunk.category or chunk.subcategory %}
+<span style="color:#FBBF24;">  {{ chunk.category }}{% if chunk.subcategory %} / {{ chunk.subcategory }}{% endif %}</span>{% endif %}
+<span style="color:#D1FAE5;">{{ chunk.chunk }}{% if chunk.truncated %} ...{% endif %}</span></div>{% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    {% if qobj.pipeline_trace.image_query %}
+    <div style="margin-top:18px;padding:14px;background:var(--gray-50);border-radius:8px;border:1px solid var(--gray-200);">
+      <h4 style="font-size:12px;font-weight:600;color:var(--gray-500);margin:0 0 8px;">Image identification</h4>
+      <div style="display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap;">
+        {% if qobj.pipeline_trace.image_query.matched_image_url %}
+          <img src="{{ qobj.pipeline_trace.image_query.matched_image_url }}" alt="match" style="width:160px;height:160px;object-fit:cover;border-radius:8px;border:1px solid var(--gray-200);">
+        {% endif %}
+        <div style="flex:1;font-size:13px;">
+          <div>Matched group: <strong>{{ qobj.pipeline_trace.image_query.matched_prefix|default:"(none)" }}</strong></div>
+          <div>Distance: {{ qobj.pipeline_trace.image_query.distance|floatformat:4 }}
+               · Score: {{ qobj.pipeline_trace.image_query.score|floatformat:4 }}
+               {% if qobj.pipeline_trace.image_query.low_confidence %}
+                 <span class="badge badge-yellow">low confidence</span>
+               {% else %}
+                 <span class="badge badge-green">confident</span>
+               {% endif %}
+          </div>
+          <div style="margin-top:8px;color:var(--gray-500);">{{ qobj.pipeline_trace.image_query.matched_description|truncatechars:280 }}</div>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    {% if qobj.pipeline_trace.steps %}
+    <div style="margin-top:18px;padding:14px;background:var(--gray-50);border-radius:8px;border:1px solid var(--gray-200);">
+      <h4 style="font-size:12px;font-weight:600;color:var(--gray-500);margin:0 0 8px;">Pipeline trace</h4>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;font-size:12px;">
+        {% comment %}
+        A step says what RAN, not what it found. "faq_lookup" on its own was read
+        as "this answer came from the FAQ" when it only means the FAQ was
+        checked, and "retrieve" with no count was read as a normal retrieval when
+        it had returned nothing — a zero is falsy, so the old badge hid it. Both
+        outcomes are on the badge now, and a retrieval that found nothing is red,
+        because that is the one that explains an empty answer.
+        {% endcomment %}
+        {% for step in qobj.pipeline_trace.steps %}
+        {% if step.stage == 'retrieve' and not step.hits %}
+          <span class="badge badge-red">{{ step.stage }} {% if step.ms %}— {{ step.ms }}ms{% endif %} (0 chunks — nothing retrieved)</span>
+        {% elif step.stage == 'retrieve' %}
+          <span class="badge badge-blue">{{ step.stage }} {% if step.ms %}— {{ step.ms }}ms{% endif %} ({{ step.hits }} chunks)</span>
+        {% elif step.stage == 'faq_lookup' %}
+          <span class="badge {% if step.hit %}badge-yellow{% else %}badge-blue{% endif %}">{{ step.stage }} {% if step.ms %}— {{ step.ms }}ms{% endif %} {% if step.hit %}— ANSWERED FROM FAQ-{{ qobj.pipeline_trace.faq.id }} ({{ step.score|floatformat:2 }}){% else %}— no match, using retrieval{% endif %}</span>
+        {% else %}
+          <span class="badge badge-blue">{{ step.stage }} {% if step.ms %}— {{ step.ms }}ms{% endif %}{% if step.hits %} ({{ step.hits }} hits){% endif %}</span>
+        {% endif %}
+        {% if not forloop.last %} → {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    <div style="margin-top:18px;display:flex;gap:8px;align-items:center;">
+      <form method="post" action="{% url 'queries:set_feedback' qobj.pk %}" style="display:inline;">{% csrf_token %}
+        <span style="font-size:12px;color:var(--gray-500);">Mark feedback:</span>
+        <button name="feedback" value="Good" class="btn btn-xs btn-success">Good</button>
+        <button name="feedback" value="Average" class="btn btn-xs btn-secondary">Average</button>
+        <button name="feedback" value="Bad" class="btn btn-xs btn-danger">Bad</button>
+      </form>
+      {% if user|role_has:"Administrator,Reviewer" %}
+        <form method="post" action="{% url 'queries:flag' qobj.pk %}" style="display:inline;margin-left:auto;">{% csrf_token %}<button class="btn btn-sm btn-danger">{% icon "flag" 13 %} {% if qobj.flagged_for_review %}Unflag{% else %}Flag for review{% endif %}</button></form>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}

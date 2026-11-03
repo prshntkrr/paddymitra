@@ -1,0 +1,71 @@
+{
+ "source": "IRRI 147.pdf",
+ "sha256": "fa3960bb3ea1f0f7592aa4d6db56d49ab5c3ca1811fcc73ec188248db3736804",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:07:37",
+ "chunk_count": 5,
+ "chunks": [
+  {
+   "text": "About CGIAR Knowing that rice is a daily staple for the majority of the population in Asia, the International Rice Research Institute (IRRI), through its Headquarters in the Philippines and its South Asia Regional Centre (ISARC) in India, has been advancing research and development on new rice varieties with low GI values. These rice varieties can be a healthier rice option for people with or at risk of diabetes, and can also be a premium rice product that can increase farmers' incomes.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "IRRI 147.pdf",
+    "page": 1
+   }
+  },
+  {
+   "text": "ABOUT US\nWe at the International Rice Research Institute (IRRI) aim to improve the livelihoods and nutrition of those who depend on rice-based agri-food systems, while contributing to climate change mitigation and adaptation. As part of One CGIAR, our work protects the health of farmers and consumers across the world, promotes the empowerment of women, and creates opportunities for youth in an equitable agri-food system.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "IRRI 147.pdf",
+    "page": 1,
+    "section": "ABOUT US"
+   }
+  },
+  {
+   "text": "Dr. Nese Sreenivasulu\nLead Scientist, Consumer-driven Grain Quality and Nutrition Research Unit\nInternational Rice Research Institute\nn.sreenivasulu@irri.org",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "IRRI 147.pdf",
+    "page": 1,
+    "section": "Dr. Nese Sreenivasulu"
+   }
+  },
+  {
+   "text": "ULTRA-LOW GI AND HIGH PROTEIN RICE VARIETIES\nThere are an estimated 537 million adults who suffer from diabetes globally, and cases are on the rise. Many cultivated rice varieties have a Glycemic Index (GI) ranging from 70 to 92, which is not considered healthy for people with diabetes, as high GI value foods can create a spike in blood sugar levels.\nIRRI developed ultra-low GI and high protein rice lines in high yielding background through breeding. Through extensive research, the genes responsible for low GI values were identified. The defined GI genetics and identified molecular markers will be instrumental to introgress low GI trait in popular rice varieties grown across the globe.\nThe end result was the identification of ultra-low GI and high protein rice from the recombinant inbred population (IR36 aex Samba Mahsuri) that produced high yields of good quality grains which has low GI and high protein values, respectively, when consumed by humans, as validated in clinical trials.\nUltra-low GI and high protein rice\nSamba Mahsuri rice\nUltra-low GI and high protein rice protein concentrate\nSamba Mahsuri protein concentrate\nThis breakthrough will allow IRRI and other national research institutions to use these lines for evaluation and can release them as varieties in target countries. These lines can also be used as donors to transfer low GI traits to popular rice varieties with different grain size and shape, as well as in different maturity backgrounds.\nAs more than half of the world population consume rice every day, the popularization of low GI rice varieties has the potential to slow the incidence, or even reverse the trend, of increasing diabetes globally.\nMoreover, the ultra-low GI and protein rice boasts a remarkable 16% protein isolate yield (mostly range from 2-8%), enriched with essential amino acids, including histidine, isoleucine, lysine, methionine, phenylalanine, and valine. This makes it possible to isolate rice protein which can be consumed and appl",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "IRRI 147.pdf",
+    "page": 1,
+    "section": "ULTRA-LOW GI AND HIGH PROTEIN RICE VARIETIES",
+    "sub_chunk": 0
+   }
+  },
+  {
+   "text": "ied into different food products.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "IRRI 147.pdf",
+    "page": 1,
+    "section": "ULTRA-LOW GI AND HIGH PROTEIN RICE VARIETIES",
+    "sub_chunk": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "source": "CR-1009.pdf",
+ "sha256": "69205d3c14bbf855d56224c4e9de8716d563b45a7a2bba9e01dec268a6c48c9c",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:27:13",
+ "chunk_count": 7,
+ "chunks": [
+  {
+   "text": "CR Dhan 1009 sub 1*\n(IR40931-33-1-3-2)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-1009.pdf",
+    "page": 1,
+    "section": "CR Dhan 1009 sub 1*"
+   }
+  },
+  {
+   "text": "Product Profile\nCR Dhan 1009 sub 1 is a high-yielding, submergence-tolerant, late-maturing, semidwarf variety, characterized by short bold grains. It's a newer version derived from the Savitri variety, specifically suited for cultivation in eastern India. Demonstrating high adaptability to flood-prone, rain-fed shallow lowlands, it exhibits moderate resistance to BPH, WBPH, brown spot, and leaf blast. It has intermediate gelatinization temperature and soft gel consistency indicating its similarity to CR Dhan 1009. Rice from this variety is widely favored for idli making in South India.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-1009.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment -TLaS-R\nPTR, Planting Method = DSR. PTR, Ecosystem = Irrigated Lowland. PTR, Ecosystem = Rainfed Lowland. PTR, Ecosystem = Upland. Recommended, Planting Method = Not Recommended. Recommended, Ecosystem = Not Recommended. Recommended, Ecosystem = Recommended. Recommended, Ecosystem = Not Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-1009.pdf",
+    "page": 1,
+    "section": "Priority Market Segment -TLaS-R"
+   }
+  },
+  {
+   "text": "Positioning\nReplace, Irrigated Lowland = None. Replace, Rainfed Lowland = Pooja. Replace, Upland = None. Companion, Irrigated Lowland = None. Companion, Rainfed Lowland = Ranjit sub 1. Companion, Upland = None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-1009.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Considerations\n- Little sticky\n- Bold grain\n- High yield\n- Late maturity; Profuse tillering (16-20)\n- Submergence tolerance\n- Resistant to BPH, WBPH, brown spot and leaf blast.\n- Medium tall genotype",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-1009.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nCR Dhan 1009 sub 1, Grain yield.(Kg/ha) = 6500-7000. CR Dhan 1009 sub 1, Grain yield.% Adv = 17. CR Dhan 1009 sub 1, Maturity (days). = 150-155. CR Dhan 1009 sub 1, Plant height (cm). = 100-105. CR Dhan 1009 sub 1, Lodging. = Tolerant. CR Dhan 1009 sub 1, HRR %. = 63. CR Dhan 1009 sub 1, 1000 grain weight (g). = 23. CR Dhan 1009 sub 1, Grain Shape. = SB. Pooja, Grain yield.(Kg/ha) = 5000-6000. Pooja, Grain yield.% Adv = -. Pooja, Maturity (days). = 150-155. Pooja, Plant height (cm). = 90-95. Pooja, Lodging. = Susceptible. Pooja, HRR %. = 54. Pooja, 1000 grain weight (g). = 20. Pooja, Grain Shape. = MS",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-1009.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nCR Dhan 1009 sub 1, Leaf blast = Resistant. CR Dhan 1009 sub 1, Brown Spot = Resistant. CR Dhan 1009 sub 1, Sheath blight = Tolerant. CR Dhan 1009 sub 1, BPH = Resistant. CR Dhan 1009 sub 1, Leaf folder = Tolerant. Pooja, Leaf blast = Tolerant. Pooja, Brown Spot = Tolerant. Pooja, Sheath blight = Susceptible. Pooja, BPH = Susceptible. Pooja, Leaf folder = Tolerant\nProducibility: CR Dhan 1009 sub 1=2800Kgs. / acre\nRecommendation: Released for cultivation in flood prone lowland ecology of Tamil Nadu. Performs well in other states (Odisha, West Bengal, Assam) in eastern India",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-1009.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  }
+ ]
+}

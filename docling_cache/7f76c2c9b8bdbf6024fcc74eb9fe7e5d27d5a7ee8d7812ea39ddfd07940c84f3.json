@@ -1,0 +1,45 @@
+{
+ "source": "Kalachampa.pdf",
+ "sha256": "7f76c2c9b8bdbf6024fcc74eb9fe7e5d27d5a7ee8d7812ea39ddfd07940c84f3",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:09:47",
+ "chunk_count": 3,
+ "chunks": [
+  {
+   "text": "Replace, Irrigated Lowland = None. Replace, Rainfed Lowland = Pooja. Replace, Upland = None. Companion, Irrigated Lowland = None. Companion, Rainfed Lowland = CR Dhan 508. Companion, Upland = None",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Kalachampa.pdf",
+    "page": 1
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nKalachampa, Grain yield.(Kg/ha) = 6500-7000. Kalachampa, Grain yield.% Adv = 17. Kalachampa, Maturity (days). = 155-160. Kalachampa, Plant height (cm). = 100-105. Kalachampa, Lodging. = Tolerant. Kalachampa, HRR %. = 55. Kalachampa, 1000 grain weight (g). = 23. Kalachampa, Grain Shape. = MB. Pooja, Grain yield.(Kg/ha) = 5000-6000. Pooja, Grain yield.% Adv = . Pooja, Maturity (days). = 150-155. Pooja, Plant height (cm). = 90-95. Pooja, Lodging. = Susceptible. Pooja, HRR %. = 54. Pooja, 1000 grain weight (g). = 20. Pooja, Grain Shape. = MS",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Kalachampa.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nVariety, 1 = Leaf blast. Variety, 2 = Leaf blight. Variety, 3 = Sheath blight. Variety, 4 = BPH. Variety, 5 = Gall midge. Variety, 6 = Leaf folder. Kalachampa, 1 = Tolerant. Kalachampa, 2 = Tolerant. Kalachampa, 3 = Tolerant. Kalachampa, 4 = Tolerant. Kalachampa, 5 = Tolerant. Kalachampa, 6 = Tolerant. Pooja, 1 = Tolerant. Pooja, 2 = Tolerant. Pooja, 3 = Susceptible. Pooja, 4 = Susceptible. Pooja, 5 = Resistant. Pooja, 6 = Tolerant\nProducibility:\nKalachampa=2800Kgs. / acre\nRecommendation:\nReleased for cultivation in Odisha",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "Kalachampa.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  }
+ ]
+}

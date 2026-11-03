@@ -1,0 +1,70 @@
+{
+ "source": "iron-toxicity-english.pdf",
+ "sha256": "4c7f469531f1e38c654f3fc631d95b1d5da655c5a8e038afb559e51b3bc1dc74",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:47:51",
+ "chunk_count": 5,
+ "chunks": [
+  {
+   "text": "What it does\nIron (Fe) toxicity causes leaf bronzing and reduced root oxidation power.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "iron-toxicity-english.pdf",
+    "page": 1,
+    "section": "What it does"
+   }
+  },
+  {
+   "text": "Why and where it occurs\nFe toxicity occurs on a wide range of soils, but generally in lowland rice soils with permanent flooding during crop growth.\nIt can happen throughout the growth cycle of the crop.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "iron-toxicity-english.pdf",
+    "page": 1,
+    "section": "Why and where it occurs"
+   }
+  },
+  {
+   "text": "How to identify\nCheck plants for the following symptoms:\n- Tiny brown spots on lower leaves starting from tip and spread toward the leaf base or whole leaf colored orange-yellow to brown\n- Spots combine on leaf interveins and leaves turn orange-brown and die\n- Leaves narrow but often remain green\n- In some varieties, leaf tips become orange-yellow and dry up\n- Leaves appear purple-brown if Fe toxicity is severe\n- Stunted growth, extremely limited tillering\n- Coarse, sparse, damaged root system with a dark brown to black coating on the root surface and many dead roots\n- Freshly uprooted rice hills often have poor root systems with many black roots\nTo confirm iron toxicity, send soil and plant sample to lab for Fe toxicity test.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "iron-toxicity-english.pdf",
+    "page": 1,
+    "section": "How to identify"
+   }
+  },
+  {
+   "text": "How to manage\nTo prevent Iron (Fe) toxicity:\n- Plant Fe tolerant varieties. Contact your local agriculture office for an up-to-date list of available varieties.\n- In temperate climates where direct seeding is practiced, coat seeds with oxidants.\n- Use intermittent irrigation and avoid continuous flooding on poorly drained soils containing a large concentration of Fe and organic matter.\n- Carry out dry tillage after the rice harvest to enhance Fe oxidation during the fallow period, but this will require machinery (tractor).\nIron toxic soil",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "iron-toxicity-english.pdf",
+    "page": 1,
+    "section": "How to manage"
+   }
+  },
+  {
+   "text": "To control:\nwww.rkbodisha.in\nLeaf bronzing (orange-yellow to brown leaves) can be observed in plants\nIron toxicity in the field\nTiny brown spots are visible on leaf tips and leaf bases of plants affected by iron toxicity\n- Balance the use of fertilizers (NPK or NPK+ lime)\n- Apply sufficient Potassium (K) fertilizer.\n- Apply lime on acid soils, do not apply excessive amounts of organic matter (manure, straw) on soils containing large amounts of Fe and organic matter and where drainage is poor.\n- Use urea (less acidifying) instead of ammonium sulfate (more acidifying).",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "iron-toxicity-english.pdf",
+    "page": 1,
+    "section": "To control:"
+   }
+  }
+ ]
+}

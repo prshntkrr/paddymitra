@@ -1,0 +1,76 @@
+{
+ "source": "Pooja.pdf",
+ "sha256": "b660831a2a217311e99a23d09ea31167ff581eb88296ac85698014131084df19",
+ "ocr": false,
+ "table_mode": "clean_rendering",
+ "origin": "clean_rendering",
+ "built_at": "2026-10-31T23:49:30",
+ "chunk_count": 5,
+ "chunks": [
+  {
+   "text": "Pooja (Vijaya x T141) - rice variety factsheet.\nProduct profile: Pooja is a high-yielding, late-maturing, semi-tall variety with long slender grains, extensively cultivated in Eastern India. Developed by NRRI, Cuttack, and released in 1999, it is highly adapted to lowland environments. Known for its good cooking quality, it exhibits tolerance to major diseases and insect pests, along with moderate HRR and good grain weight. Notably, it tolerates water stagnation up to 25 cm and is suitable for late transplanting with aged seedlings.\nPriority market segment: TLaM-R.\nPlanting method and ecosystem suitability (PTR = puddled transplanted rice, DSR = direct seeded rice): PTR: Recommended; DSR: Not Recommended; Irrigated Lowland: Not Recommended; Rainfed Lowland: Recommended; Upland: Not Recommended.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "source_file": "Pooja.pdf",
+    "variety": "Pooja",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Pooja - key strengths, considerations and positioning.\nKey strengths: High yield; Late maturity; profuse tillering; Strong straw strength; Tolerant to lodging and shattering; MS grain with good cooking and eating quality; Photosensitive variety.\nConsiderations: Susceptible to brown spot, bakanae; Moderate HRR; Low grain weight.\nPositioning (variety replaced / companion, by ecosystem): Replace - Irrigated Lowland: None; Rainfed Lowland: Swarna; Upland: None. Companion - Irrigated Lowland: None; Rainfed Lowland: Varsha; Upland: None.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "source_file": "Pooja.pdf",
+    "variety": "Pooja",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Pooja - grain yield, agronomic traits and grain shape (HRR = head rice recovery; grain shape SB = short bold, MS = medium slender, SM = short medium, LB = long bold, MB = medium bold).\nPooja -> Grain yield (kg/ha): 5000-6000; Maturity (days): 150-155; Plant height (cm): 90-95; Lodging: Susceptible; HRR %: 54; 1000-grain wt (g): 20; Grain shape: MS.\nSwarna -> Grain yield (kg/ha): 5500-6000; Maturity (days): 140-145; Plant height (cm): 85-90; Lodging: Susceptible; HRR %: 69; 1000-grain wt (g): 16; Grain shape: SB.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "source_file": "Pooja.pdf",
+    "variety": "Pooja",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Pooja - biotic and abiotic stress reaction (disease and pest tolerance; BPH = brown plant hopper, RTV = rice tungro virus).\nPooja -> Leaf blast: Tolerant; Leaf blight: Tolerant; Sheath blight: Susceptible; BPH: Susceptible; Gall midge: Resistant; Submergence: Tolerant.\nSwarna -> Leaf blast: Susceptible; Leaf blight: Resistant; Sheath blight: Susceptible; BPH: Susceptible; Gall midge: Susceptible; Submergence: Susceptible.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "source_file": "Pooja.pdf",
+    "variety": "Pooja",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  },
+  {
+   "text": "Pooja - producibility and recommendation.\nProducibility: Pooja = 2000-2400 Kgs./acre.\nRecommendation: Released for cultivation in Odisha, Andhra Pradesh, Madhya Pradesh, and West Bengal. Zonal-III (E) check for varietal trials conducted by IIRR, India.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "source_file": "Pooja.pdf",
+    "variety": "Pooja",
+    "page": 1,
+    "summary": true,
+    "origin": "clean_rendering",
+    "docling": false
+   }
+  }
+ ]
+}

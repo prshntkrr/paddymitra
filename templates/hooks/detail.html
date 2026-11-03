@@ -1,0 +1,27 @@
+{% extends 'base.html' %}{% load irri_extras %}
+{% block page_title %}{{ hook.name }}{% endblock %}
+{% block topbar_actions %}
+  {% if user|role_has:"Administrator" %}<a href="{% url 'hooks:edit' hook.pk %}" class="btn btn-sm btn-secondary">Edit</a>{% endif %}
+{% endblock %}
+{% block content %}
+<div class="card" style="max-width:760px;">
+  <div class="card-body">
+    <h2 style="margin:0 0 6px;">{{ hook.name }}</h2>
+    <span class="badge badge-blue">{{ hook.trigger_keyword }}</span> <span class="badge {{ hook.status|badge_class }}">{{ hook.status }}</span>
+    <div class="detail-grid" style="margin-top:14px;border:1px solid var(--gray-200);border-radius:var(--radius-md);overflow:hidden;">
+      <div class="detail-label">WhatsApp number</div><div class="detail-value" style="font-family:monospace;">{{ hook.whatsapp_number }}</div>
+      <div class="detail-label">Gateway</div><div class="detail-value">{{ hook.gateway_provider }}</div>
+      <div class="detail-label">Catalogue</div><div class="detail-value"><a href="{% url 'catalogues:detail' hook.catalogue.slug %}" style="color:var(--irri-green);">{{ hook.catalogue.name }}</a> <span style="color:var(--gray-400);">({{ hook.catalogue.documents_count }} docs)</span></div>
+      <div class="detail-label">Primary / Secondary lang</div><div class="detail-value">{{ hook.primary_language }} / {{ hook.secondary_language|default:"—" }}</div>
+      <div class="detail-label">STT / TTS</div><div class="detail-value">{{ hook.stt_provider }} / {{ hook.tts_provider }}</div>
+      <div class="detail-label">Translation model</div><div class="detail-value" style="font-family:monospace;">{{ hook.translation_model }}</div>
+      <div class="detail-label">RAG model</div><div class="detail-value" style="font-family:monospace;">{{ hook.rag_model }}</div>
+      <div class="detail-label">Webhook URL</div><div class="detail-value" style="font-family:monospace;font-size:12px;">{{ hook.webhook_url|default:"/hooks/webhook/pickyassist/" }}</div>
+      <div class="detail-label">Welcome message</div><div class="detail-value">{{ hook.welcome_message|default:"—" }}</div>
+      <div class="detail-label">Messages processed</div><div class="detail-value">{{ hook.messages_processed_count }}</div>
+      <div class="detail-label">Avg response time</div><div class="detail-value">{{ hook.avg_response_time }}s</div>
+      <div class="detail-label">Success rate</div><div class="detail-value">{{ hook.success_rate }}%</div>
+    </div>
+  </div>
+</div>
+{% endblock %}

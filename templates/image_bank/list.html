@@ -1,0 +1,56 @@
+{% extends 'base.html' %}{% load irri_extras %}
+{% block page_title %}Image Bank{% endblock %}
+{% block topbar_actions %}
+  {% if user|role_has:"Administrator,Editor" %}
+    <a href="{% url 'image_bank:upload' %}" class="btn btn-primary btn-sm">{% icon "plus" 14 %} Upload images</a>
+  {% endif %}
+  {% if user|role_has:"Administrator" %}
+    <form method="post" action="{% url 'image_bank:reindex' %}" style="display:inline;margin-left:6px;">
+      {% csrf_token %}
+      <button class="btn btn-secondary btn-sm" onclick="return confirm('Re-embed every image with CLIP? This can take a while.');">Reindex all</button>
+    </form>
+  {% endif %}
+{% endblock %}
+{% block content %}
+<div class="card">
+  <div class="card-body">
+    <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:14px;">
+      <div><strong>{{ total }}</strong> images</div>
+      <div>·</div>
+      <div><strong>{{ distinct_prefixes }}</strong> visual groups</div>
+      <div>·</div>
+      <div><strong>{{ indexed }}</strong> indexed (Chroma: {{ vector_count }})</div>
+      <form method="get" style="margin-left:auto;display:flex;gap:6px;">
+        <input class="form-control" type="text" name="prefix" placeholder="Filter by prefix..." value="{{ prefix_filter }}">
+        <button class="btn btn-secondary btn-sm">Filter</button>
+      </form>
+    </div>
+
+    {% if images %}
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;">
+      {% for img in images %}
+      <div style="border:1px solid var(--gray-200);border-radius:8px;overflow:hidden;background:#fff;">
+        <a href="{{ img.image.url }}" target="_blank">
+          <img src="{{ img.image.url }}" alt="{{ img.prefix }}" style="width:100%;height:120px;object-fit:cover;display:block;">
+        </a>
+        <div style="padding:8px;font-size:12px;">
+          <div style="font-weight:600;color:var(--irri-green);">{{ img.prefix }}</div>
+          <div style="color:var(--gray-500);">{{ img.original_filename|truncatechars:24 }}</div>
+          <div style="margin-top:4px;display:flex;gap:6px;align-items:center;justify-content:space-between;">
+            {% if img.indexed %}<span class="badge badge-green">indexed</span>{% else %}<span class="badge badge-yellow">pending</span>{% endif %}
+            {% if user|role_has:"Administrator,Editor" %}
+              <a href="{% url 'image_bank:delete' img.pk %}" class="btn btn-xs btn-danger">Delete</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+      <p style="color:var(--gray-500);">No images yet. Upload a batch (e.g. <code>bacterial_leaf_blight_*.jpg</code>) along with a sidecar description to start.</p>
+    {% endif %}
+
+    {% include 'partials/pagination.html' %}
+  </div>
+</div>
+{% endblock %}

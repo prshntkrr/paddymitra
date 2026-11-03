@@ -1,0 +1,70 @@
+{
+ "source": "sulfide-toxicity-english.pdf",
+ "sha256": "dc5c6162deadcc25401c382bdad71a009016afd9b6d93b73672338841e0670aa",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T17:52:54",
+ "chunk_count": 5,
+ "chunks": [
+  {
+   "text": "What it does\nSulfide toxicity reduces nutrient uptake of plants by reducing root respiration. It has an adverse effect on metabolism, particularly when an excessive amount is taken up by the rice plant.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "sulfide-toxicity-english.pdf",
+    "page": 1,
+    "section": "What it does"
+   }
+  },
+  {
+   "text": "Why and where it occurs\nSulfide toxicity is not very common in rice. It is, however, associated with low-Fe soils.\nIt can occur in well-drained sandy soils, degraded paddy soils, poorly drained organic soils, and acid sulfate soils.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "sulfide-toxicity-english.pdf",
+    "page": 1,
+    "section": "Why and where it occurs"
+   }
+  },
+  {
+   "text": "How to identify\nCheck the field for the following symptoms:\nwww.rkbodisha.in\nSulfide toxicity causes roots to be coarse and sparse\n- Interveinal chlorosis of emerging leaves coarse, sparse, dark brown to black root system.\n- Freshly uprooted rice hills often have poorly developed root systems with many black roots (stains of Fe sulfide) unlike healthy roots, which are covered with a uniform and smooth orange-brown coating of Fe3+ oxides and hydroxides.\n- Sulfide toxicity can also cause increased occurrence of diseases, such as brown spot. Leaf symptoms of sulfide toxicity are similar to those of chlorosis caused by Iron (Fe) deficiency. Other diagnostic criteria are similar to those of Fe toxicity, but has different visual leaf symptoms.",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "sulfide-toxicity-english.pdf",
+    "page": 1,
+    "section": "How to identify"
+   }
+  },
+  {
+   "text": "How to manage\n- Sulfide tolerant plant varieties.\n- Avoid continuous flooding and use intermittent irrigation in soils that contain large concentrations of S, have high organic matter status, and are poorly drained\n- Carry out dry tillage after the rice harvest to enhance Fe oxidation during the fallow period, but this will require machinery (tractor)\n- Balance the use of fertilizer nutrients (NPK or NPK+ lime) to avoid nutrient stress and improve root oxidation power\n- Apply sufficient K fertilizer\n- Avoid using excessive amounts of organic residues (manure, straw) in soils containing large amounts of Fe and organic matter, and in poorly drained soils Where possible,\nIn temperate climates, coat seeds with oxidants (e.g.. Calcium (Ca) peroxide) to increase the 02 supply and improve seed germination\n- Apply K, P, and Mg fertilizers, apply Fe (salts, oxides) on low-Fe soils to increase immobilization of H 2 S as FeS",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "source_file": "sulfide-toxicity-english.pdf",
+    "page": 1,
+    "section": "How to manage"
+   }
+  },
+  {
+   "text": "Learn more\nVisit Rice Based Cropping Systems Knowledge Bank www.rkbodisha.in",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "source_file": "sulfide-toxicity-english.pdf",
+    "page": 1,
+    "section": "Learn more"
+   }
+  }
+ ]
+}

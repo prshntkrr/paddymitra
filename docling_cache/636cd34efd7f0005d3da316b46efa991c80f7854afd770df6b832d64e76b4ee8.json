@@ -1,0 +1,45 @@
+{
+ "source": "CR-Dhan-800.pdf",
+ "sha256": "636cd34efd7f0005d3da316b46efa991c80f7854afd770df6b832d64e76b4ee8",
+ "ocr": false,
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T16:31:52",
+ "chunk_count": 3,
+ "chunks": [
+  {
+   "text": "Planting Method PTR DSR Irrigated Lowland Rainfed Lowland, Ecosystem = Planting Method PTR DSR Irrigated Lowland Rainfed Lowland. Recommended Not Recommended Not Recommended Recommended, Ecosystem = Recommended Not Recommended Not Recommended Recommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-800.pdf",
+    "page": 1
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nCR Dhan 800, Grain yield.(Kg/ha) = 5500-6000. CR Dhan 800, Grain yield.% Adv = -. CR Dhan 800, Maturity (days). = 135-140. CR Dhan 800, Plant height (cm). = 85-90. CR Dhan 800, Lodging. = Tolerant. CR Dhan 800, HRR %. = 67. CR Dhan 800, 1000 grain weight (g). = 19. CR Dhan 800, Grain Shape. = MS. Swarna, Grain yield.(Kg/ha) = 5500-6000. Swarna, Grain yield.% Adv = . Swarna, Maturity (days). = 140-145. Swarna, Plant height (cm). = 85-90. Swarna, Lodging. = Susceptible. Swarna, HRR %. = 69. Swarna, 1000 grain weight (g). = 16. Swarna, Grain Shape. = MS",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-800.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nCR Dhan 800, Leaf blast = Tolerant. CR Dhan 800, Leaf blight = Resistant. CR Dhan 800, Sheath rot = Resistant. CR Dhan 800, BPH = Resistant. CR Dhan 800, Gall midge = Resistant. CR Dhan 800, Submergence = Tolerant. Swarna, Leaf blast = Susceptible. Swarna, Leaf blight = Resistant. Swarna, Sheath rot = Susceptible. Swarna, BPH = Susceptible. Swarna, Gall midge = Susceptible. Swarna, Submergence = Susceptible\nProducibility:\nRecommendation: CR Dhan 800=2280Kgs. / acre\nReleased for cultivation in Odhisa",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "source_file": "CR-Dhan-800.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  }
+ ]
+}

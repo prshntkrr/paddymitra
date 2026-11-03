@@ -1,0 +1,115 @@
+{
+ "source": "MTU-1153.pdf",
+ "sha256": "47fa843cd83015f20b797a4df363979630421510aea4b30f2308900e5928e658",
+ "ocr": false,
+ "table_mode": "off",
+ "docling_version": "2.145.0",
+ "built_at": "2026-10-31T18:20:17",
+ "chunk_count": 8,
+ "chunks": [
+  {
+   "text": "MTU 1153\n(Chandra)\n(MTU 1010 / MTU 1081)",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 0,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "off",
+    "source_file": "MTU-1153.pdf",
+    "page": 1,
+    "section": "MTU 1153"
+   }
+  },
+  {
+   "text": "Product Profile\nMTU-1153, also known as Chandra, stands as a high-yielding, medium-maturing, longbold, tall variety introduced in 2016 by RARS, Maruteru. Primarily intended for irrigated areas across states such as Punjab, Bihar, Madhya Pradesh, Chhattisgarh, Maharashtra, Tamil Nadu, Karnataka, and Kerala, it is highly recommended for medium fertility regions during the wet season and irrigated areas in the dry season. Besides its remarkable yield potential, Chandra offers distinct advantages including high HRR, non-lodging characteristics, low shattering, and tolerance to major diseases and insect pests.",
+   "metadata": {
+    "content_type": "text",
+    "chunk_index": 1,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "off",
+    "source_file": "MTU-1153.pdf",
+    "page": 1,
+    "section": "Product Profile"
+   }
+  },
+  {
+   "text": "Priority Market Segment - TMeLS-R\nPlanting Method\n\nEcosystem\n\nPTR\n\nDSR\n\nIrrigated\n\nLowland\n\nRainfed\n\nLowland\n\nUpland\n\nRecommended\n\nNot\n\nRecommended\n\nRecommended\n\nNot\n\nRecommended\n\nNot\n\nRecommended",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 2,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "off",
+    "source_file": "MTU-1153.pdf",
+    "page": 1,
+    "section": "Priority Market Segment - TMeLS-R"
+   }
+  },
+  {
+   "text": "Positioning\nReplace\n\nCompanion\n\nPosition\n\nUpland\n\nIrrigated\n\nLowland\n\nRainfed\n\nLowland\n\nMTU-1156\n\nMTU 1010\n\nNone\n\nNone\n\nNone\n\nNone",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 3,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "off",
+    "source_file": "MTU-1153.pdf",
+    "page": 1,
+    "section": "Positioning"
+   }
+  },
+  {
+   "text": "Key Strengths\n- High yield potential\n- Long bold; high HRR\n- High fertilizer responsiveness\n- Tolerant to major diseases and insect pests\n- Non-lodging, low shattering (<2%)",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 4,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "off",
+    "source_file": "MTU-1153.pdf",
+    "page": 1,
+    "section": "Key Strengths"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape\nVariety\n\nGrain yield\n\n(Kg/ha) % Adv\n\nMaturity\n\n(days)\n\nPlant height\n\n(cm)\n\nLodging\n\nHRR %\n\n1000 grain\n\nweight (g)\n\nMTU 1153\n\n6500-7000\n\n115-125\n\n120-125\n\n105-110\n\n105-108\n\nTolerant Tolerant\n\nTolerant\n\n24\n\n25\n\n73\n\n58\n\n55\n\nMTU 1010\n\n4000-4500\n\nShattering\n\nLB\n\nMS\n\nGrain\n\nShape\n\nTolerant",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 5,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "off",
+    "source_file": "MTU-1153.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Grain Yield, Agronomic Traits and Grain Shape"
+   }
+  },
+  {
+   "text": "Relative Variety Performance - Biotic and Abiotic Stress\nVariety\n\nBrown\n\nplant hopper\n\nMTU 1153\n\nTolerant\n\nTolerant\n\nTolerant\n\nBrown spot\n\nLeaf blast Leaf blight\n\nNeck blast\n\nMTU 1010\n\nTolerant\n\nSusceptible\n\nSheath rot\n\nTolerant\n\nFalse smut\n\nSusceptible\n\nResistant\n\nTolerant\n\nTolerant\n\nTolerant\n\nTolerant\n\nTolerant\n\nTolerant\nProducibility: MTU 1153 (Chandra)= 2800Kgs. /acre\nRecommendation: For planting in irrigated areas in the states Punjab, Bihar, Madhya Pradesh and Chhattisgarh, Maharashtra, Tamilnadu, Karnataka and Kerala.",
+   "metadata": {
+    "content_type": "table",
+    "chunk_index": 6,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "off",
+    "source_file": "MTU-1153.pdf",
+    "page": 1,
+    "section": "Relative Variety Performance - Biotic and Abiotic Stress"
+   }
+  },
+  {
+   "text": "Considerations\n- Dormancy for about 2 weeks",
+   "metadata": {
+    "content_type": "list",
+    "chunk_index": 7,
+    "docling": true,
+    "ocr": false,
+    "table_mode": "off",
+    "source_file": "MTU-1153.pdf",
+    "page": 1,
+    "section": "Considerations"
+   }
+  }
+ ]
+}
