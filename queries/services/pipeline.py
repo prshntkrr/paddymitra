@@ -4007,25 +4007,13 @@ def _deterministic_schedule(question: str, context: str) -> str | None:
     if area is None:
         return None
     size, basis, display_label = area
-    rates = _context_rates(context)
-    matching = [(s, u, lo, hi, rb) for s, u, lo, hi, rb in rates if rb == basis]
-    if len(matching) >= 3:
-        # Enough context rates — flat list (original behavior)
-        lines = []
-        for substance, unit, low, high, _ in matching:
-            lo_scaled = _fmt_qty(low * size)
-            if high is not None:
-                hi_scaled = _fmt_qty(high * size)
-                qty = f"{lo_scaled}-{hi_scaled} {unit}"
-            else:
-                qty = f"{lo_scaled} {unit}"
-            lines.append(f"- {substance.upper()}: {qty} for {display_label}")
-        return (f"For your {display_label}, the recommended fertilizer amounts are:\n"
-                + "\n".join(lines))
-    # Fallback: natural-language stage-grouped standard schedule
+    # Always render a clean, stage-grouped PARAGRAPH from the standard Odisha rice
+    # schedule. The earlier ">=3 context rates" branch dumped the raw context
+    # rates as a repetitive, bulleted and sometimes mislabelled list ("- UREA: x
+    # for 2 acre" several times over, "- DAP: 32 for 2 acre") with no stage
+    # context — Q-3012 / Q-3044. The standard schedule is the canonical
+    # whole-schedule answer and scales cleanly to the farmer's area.
     stages = _STANDARD_STAGES_HA if basis == "hectare" else _STANDARD_STAGES_ACRE
-    log.info("deterministic schedule: context had %d rates, using standard fallback",
-             len(matching))
     sentences = []
     for i, (stage_name, items) in enumerate(stages):
         dosages = []
