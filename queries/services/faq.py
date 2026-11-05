@@ -383,6 +383,13 @@ def _asks_conflict(a: str, b: str) -> str:
     return ""
 
 
+# A FAQ written for after a FLOOD (submergence, waterlogging) answers a different
+# question than plain leaf-yellowing — serving it to a farmer with no flood is the
+# wrong advice (Q-3024). Treated as a strict decisive group below.
+_DISASTER_RE = re.compile(
+    r"\b(flood\w*|submerg\w*|waterlog\w*|inundat\w*|stagnant water)\b", re.I)
+
+
 def _decisive_tokens(text: str) -> dict:
     """The words that decide what the farmer should do, grouped and canonicalised."""
     words = normalise_question(text).split()
@@ -400,6 +407,10 @@ def _decisive_tokens(text: str) -> dict:
         # Read from the RAW text: normalise_question() may drop the hyphen or
         # the very qualifier this phrase depends on.
         "durations": _durations(text),
+        # Flood / submergence context present on ONE side only means the two
+        # questions are not the same (Q-3024: a post-flood FAQ served for a plain
+        # leaf-yellowing question).
+        "disaster": frozenset(["flood"]) if _DISASTER_RE.search(text or "") else frozenset(),
     }
     by_dim: dict = {dim: set() for dim in _UNIT_DIMENSIONS}
     for w in words:
@@ -423,7 +434,7 @@ def _decisive_conflict(a: str, b: str) -> str:
     ta, tb = _decisive_tokens(a), _decisive_tokens(b)
 
     for group in ("products", "stages", "polarity", "numbers",
-                  "seasons", "varieties", "durations"):
+                  "seasons", "varieties", "durations", "disaster"):
         if ta[group] != tb[group]:
             return f"{group} {sorted(ta[group])} != {sorted(tb[group])}"
 
@@ -556,7 +567,7 @@ def _contradicts(a: str, b: str) -> str:
         ta = {**ta, "durations": frozenset()}
         tb = {**tb, "durations": frozenset()}
     for group in ("products", "stages", "polarity", "numbers",
-                  "seasons", "varieties", "durations"):
+                  "seasons", "varieties", "durations", "disaster"):
         if ta[group] and tb[group] and ta[group] != tb[group]:
             return f"{group} {sorted(ta[group])} != {sorted(tb[group])}"
     for dim in _UNIT_DIMENSIONS:

@@ -1408,6 +1408,11 @@ def _fix_odia_fluency(odia_text: str, source_en: str = "",
 _ENGLISH_CANONICAL: list[tuple[re.Pattern, str]] = [
     (re.compile(r"\b(?:has|have|had|is|are|was|were)\s+lodged\b", re.I), "has lodging"),
     (re.compile(r"\blodged\b", re.I), "lodging"),
+    # "Swarna Sabana" / "Swarna Sabna" / "Swarna Savana" is how speech-to-text
+    # mis-hears Swarna Sub-1 (ସ୍ଵର୍ଣ୍ଣ ସବ-୧); map it to the real variety so
+    # retrieval and the answer use it. Bare "Swarna" (MTU 7029) is a DIFFERENT
+    # variety and is left untouched.
+    (re.compile(r"\bswarna\s+sa[bv]\w*", re.I), "Swarna Sub-1"),
 ]
 
 
@@ -3303,6 +3308,22 @@ _FILLER_TAIL_RE = re.compile(
 # contains one of the phrases above — only strip sentences that say nothing else.
 _HAS_SUBSTANCE_RE = re.compile(r"\d|\b(kg|g|ha|acre|cm|ton|bag|day|week|urea|MOP|DAP|NPK|SSP)\b",
                                re.IGNORECASE)
+
+# Served FAQ answers are stored with line breaks and the odd bullet; read aloud,
+# a one-item-per-line schedule becomes a string of fragments. Farmers asked for
+# paragraphs, so collapse a served answer into flowing prose. Presentation only —
+# no figure, unit or word is changed, only the line breaks between them.
+_BULLET_LINE_RE = re.compile(r"(?m)^[ \t]*(?:[-*•]|\d+[.)])\s+")
+
+
+def _to_paragraph(text: str) -> str:
+    """Flatten a bullet / one-line-per-item answer into a single paragraph."""
+    if not text:
+        return text
+    t = _BULLET_LINE_RE.sub("", text)
+    t = re.sub(r"[ \t]*\n[ \t]*", " ", t)
+    t = re.sub(r"[ \t]{2,}", " ", t)
+    return t.strip()
 
 
 # Abstract English that has no Odia equivalent, so the translator renders it word
@@ -5364,6 +5385,46 @@ def generate_answer(query_text_en: str, retrieved_hits: list, user_type: str = "
         + "a bare dose like '100 kg per hectare' without saying OF WHAT. If "
         + "the CONTEXT says '60-120 kg N/ha', write '60-120 kg N/ha' — do not "
         + "drop the 'N' and do not change the number.\n"
+        # FORMAT. Farmers hear the answer read aloud once. Bullet points and
+        # one-fact-per-line schedules become a stuttering list of fragments, and
+        # the same dose gets repeated (a stage line plus a total line). It has to
+        # be spoken prose.
+        + "\nFORMAT — PLAIN PARAGRAPH (MANDATORY):\n"
+        + "  - Write the whole answer as flowing sentences in a short paragraph. "
+        + "Do NOT use bullet points, numbered lists, a dash or hyphen starting a "
+        + "line, or one item per line. A stage-wise fertiliser schedule is still "
+        + "sentences, e.g. 'At the basal stage apply 35 kg DAP, 5 kg urea and 16 "
+        + "kg MOP per acre; at active tillering apply 30-35 kg urea; at panicle "
+        + "initiation apply 30-35 kg urea and 15-20 kg MOP.'\n"
+        + "  - Say each amount once. Do not repeat a fertiliser, and do not add a "
+        + "season TOTAL unless the farmer explicitly asked for the total.\n"
+        # PERCENTAGES. A farmer measures fertiliser by weight in a bag, not as a
+        # share of nitrogen. "25% of N at tillering" is unactionable in a field.
+        + "\nAMOUNTS IN KILOGRAMS, NOT PERCENTAGES (MANDATORY):\n"
+        + "  - Give fertiliser amounts in kg (and bags only where the CONTEXT "
+        + "gives bags). Do NOT state a dose as a percentage of nitrogen or an N "
+        + "split in percent. If the CONTEXT expresses the split only as "
+        + "percentages (e.g. 25% / 50% / 25% of N by stage), give the kg amount "
+        + "of urea per stage that the CONTEXT supports instead, and leave the "
+        + "percentages out of the answer.\n"
+        # BASAL. "Just transplanted, what now" is the basal dose, not a topdress.
+        # A nearby 'N days after transplanting' passage pulled the answer to urea
+        # alone and dropped DAP.
+        + "\nBASAL AT TRANSPLANTING:\n"
+        + "  - If the farmer says the crop has just been transplanted or sown and "
+        + "asks which fertiliser to apply NOW, with no day-count or later stage "
+        + "named, that is the BASAL application: give the basal dose the CONTEXT "
+        + "supports (commonly DAP, urea, MOP and zinc sulphate together). Do NOT "
+        + "drop DAP, and do not answer with a later top-dressing.\n"
+        # SEED ADVICE. "Tell me about high-yielding seeds" is a which-variety
+        # question in plain clothes; a paragraph on 'use certified seed' names
+        # nothing the farmer can buy.
+        + "\nSEED / VARIETY ADVICE:\n"
+        + "  - If the farmer asks about seed or varieties in general terms — high "
+        + "yielding, early or short duration, needing less water, suited to their "
+        + "area — and the CONTEXT names specific varieties that meet it, NAME "
+        + "several of those varieties rather than giving only general seed advice "
+        + "or a single name. List the ones the CONTEXT supports.\n"
         # A WHICH-VARIETY QUESTION WANTS NAMES. The failure this prevents is an
         # answer that is true and useless: the sheets name four varieties rated
         # resistant to blast, and the farmer is told "some varieties are
@@ -5861,9 +5922,9 @@ def _answer_from_faq(q, faq, score, trace, start, *, farmer_language,
     # applied here too. It is presentation only: the approved WORDING and every
     # figure and qualifier in it are untouched, and nothing about matching,
     # storage or promotion changes.
-    answer_en = _strip_internal_wording(faq.answer_en or faq.answer_local)
+    answer_en = _to_paragraph(_strip_internal_wording(faq.answer_en or faq.answer_local))
     q.ai_response_text = answer_en
-    answer_local = _strip_internal_wording(faq.answer_local)
+    answer_local = _to_paragraph(_strip_internal_wording(faq.answer_local))
 
     if farmer_language and farmer_language != "English":
         if not answer_local:
