@@ -389,6 +389,13 @@ def _asks_conflict(a: str, b: str) -> str:
 _DISASTER_RE = re.compile(
     r"\b(flood\w*|submerg\w*|waterlog\w*|inundat\w*|stagnant water)\b", re.I)
 
+# An ORGANIC-fertiliser question ("how much organic fertiliser / FYM / compost /
+# vermicompost per acre") must not be answered by the general CHEMICAL schedule
+# FAQ (Urea/DAP/MOP) — Q-3014/3015. Treated as a strict decisive group below.
+_ORGANIC_RE = re.compile(
+    r"\b(organic|bio[-\s]?fertili\w+|farmyard manure|\bfym\b|compost|vermicompost|"
+    r"green manure|cow\s?dung|azolla|dhaincha|jaibik\w*)\b", re.I)
+
 
 def _decisive_tokens(text: str) -> dict:
     """The words that decide what the farmer should do, grouped and canonicalised."""
@@ -411,6 +418,9 @@ def _decisive_tokens(text: str) -> dict:
         # questions are not the same (Q-3024: a post-flood FAQ served for a plain
         # leaf-yellowing question).
         "disaster": frozenset(["flood"]) if _DISASTER_RE.search(text or "") else frozenset(),
+        # Organic vs chemical fertiliser: an "organic fertiliser / FYM / compost"
+        # question is not answered by the general chemical schedule (Q-3014/3015).
+        "organic": frozenset(["organic"]) if _ORGANIC_RE.search(text or "") else frozenset(),
     }
     by_dim: dict = {dim: set() for dim in _UNIT_DIMENSIONS}
     for w in words:
@@ -434,7 +444,7 @@ def _decisive_conflict(a: str, b: str) -> str:
     ta, tb = _decisive_tokens(a), _decisive_tokens(b)
 
     for group in ("products", "stages", "polarity", "numbers",
-                  "seasons", "varieties", "durations", "disaster"):
+                  "seasons", "varieties", "durations", "disaster", "organic"):
         if ta[group] != tb[group]:
             return f"{group} {sorted(ta[group])} != {sorted(tb[group])}"
 
@@ -567,7 +577,7 @@ def _contradicts(a: str, b: str) -> str:
         ta = {**ta, "durations": frozenset()}
         tb = {**tb, "durations": frozenset()}
     for group in ("products", "stages", "polarity", "numbers",
-                  "seasons", "varieties", "durations", "disaster"):
+                  "seasons", "varieties", "durations", "disaster", "organic"):
         if ta[group] and tb[group] and ta[group] != tb[group]:
             return f"{group} {sorted(ta[group])} != {sorted(tb[group])}"
     for dim in _UNIT_DIMENSIONS:

@@ -4270,6 +4270,12 @@ def _has_fertiliser_dose(text: str) -> bool:
                 and _FERT_NAME_RE.search(t))
 
 
+# A which-variety / which-seed question is ANSWERED by naming varieties, so the
+# scope check must not treat those names as "narrowing" (Q-3030/3031/3033).
+_VARIETY_SEED_Q_RE = re.compile(
+    r"\b(variet\w*|varit\w*|vareit\w*|cultivar\w*|kisam|seed\w*|bihan\w*)\b", re.I)
+
+
 def _context_from(retrieved_hits: list) -> tuple:
     """(context, catalogue names). Blocks grouped by catalogue when there are two.
 
@@ -5857,6 +5863,11 @@ def generate_answer(query_text_en: str, retrieved_hits: list, user_type: str = "
     # shape as the dose check above: detect, retry once naming the problem, and
     # keep the better of the two rather than pay for a second round.
     unasked = _unrequested_entities(answer, query_text_en)
+    # A which-variety / which-seed question is answered BY naming varieties, so
+    # listing them is the answer, not "narrowing" a general question (Q-3030/31/33).
+    if unasked and _VARIETY_SEED_Q_RE.search(query_text_en or ""):
+        log.info("scope check skipped for a variety/seed question (named: %s)", unasked)
+        unasked = []
     if unasked:
         log.warning("answer narrowed the question to %s, which was not asked about",
                     unasked)
