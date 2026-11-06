@@ -4255,6 +4255,21 @@ def _drop_substance_free_dose_sentences(answer: str,
     return " ".join(kept).strip()
 
 
+_FERT_NAME_RE = re.compile(
+    r"\b(urea|dap|mop|potash|muriate|zinc|npk|ssp|dhaincha|azolla|fym|compost|"
+    r"manure|vermicompost)\b", re.I)
+
+
+def _has_fertiliser_dose(text: str) -> bool:
+    """True if the text still carries a usable fertiliser amount — a number, a
+    weight unit, and a fertiliser name. Used to tell a real answer from the
+    fragment left behind after dose-stripping."""
+    t = text or ""
+    return bool(re.search(r"\d", t)
+                and re.search(r"\b(kg|kilo\w*|bag|quintal|tonne|ton)\b", t, re.I)
+                and _FERT_NAME_RE.search(t))
+
+
 def _context_from(retrieved_hits: list) -> tuple:
     """(context, catalogue names). Blocks grouped by catalogue when there are two.
 
@@ -5822,7 +5837,20 @@ def generate_answer(query_text_en: str, retrieved_hits: list, user_type: str = "
     # no instruction a farmer could follow, so dropping the sentence loses
     # nothing and leaves a shorter answer that is at least all true.
     if _substance_free_doses(answer):
+        _before_strip = answer
         answer = _drop_substance_free_dose_sentences(answer, context)
+        # If stripping an elemental / substance-free dose left a fragment with no
+        # usable fertiliser amount for a per-area or schedule question, fall back
+        # to the clean deterministic schedule rather than a dangling sentence like
+        # "This means you put all these fertilizers in the field." (Q-3011)
+        if _before_strip != answer and not _has_fertiliser_dose(answer):
+            det = (_deterministic_schedule(query_text_en, context)
+                   or _deterministic_stage_dose(query_text_en)
+                   or _deterministic_product_dose(query_text_en))
+            if det:
+                answer = det
+                log.info("input-less strip gutted the answer; "
+                         "used deterministic fallback")
 
     # Scope check. The retrieved chunks are often variety-specific, so a GENERAL
     # question comes back answered for one variety the farmer never named. Same
